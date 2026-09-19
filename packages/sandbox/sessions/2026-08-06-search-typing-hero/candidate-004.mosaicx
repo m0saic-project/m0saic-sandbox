@@ -1,0 +1,70 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 400
+  },
+  "fps": 30,
+  "durationMs": 18170,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/hero/search-typing/v1",
+      "props": {
+        "words": [
+          "Ideas",
+          "Answers",
+          "Templates",
+          "Tutorials",
+          "Inspiration"
+        ],
+        "label": "Search for",
+        "frame": "fill",
+        "timing": {
+          "typeCharMs": 120,
+          "deleteCharMs": 90,
+          "emptyHoldMs": 850,
+          "wordHoldMs": 1100,
+          "leadMs": 400,
+          "trailMs": 400
+        },
+        "endBehavior": "hold",
+        "caret": {
+          "show": false,
+          "blinkMs": 1000,
+          "widthPx": 2
+        },
+        "underline": "grow",
+        "icon": {
+          "show": true
+        },
+        "style": {
+          "pageColor": "#F2F3F5",
+          "cardColor": "#FFFFFF",
+          "labelColor": "#9AA0A6",
+          "inkColor": "#9AA0A6",
+          "cornerRadiusPx": 16,
+          "barWidthFrac": 0.62,
+          "barAspect": 0.26
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-004"
+  },
+  "agent": {
+    "note": "**New `frame` prop, per your candidate-003 note** — and it DEFAULTS to the new mode:\n\n- `frame: \"fill\"` (default): the search box IS the canvas — no page margin, tight bounds for nested callers. Corner radius still applies (page color peeks in the notches; set `cornerRadiusPx: 0` for a hard-edge fill).\n- `frame: \"card\"`: the previous look — px-clamped floating bar centered on the page color (the standalone hero presentation).\n\nEverything else unchanged from candidate-003 (uniform ink approved). Targeted E2E re-run green with the new default.",
+    "question": "Render as-is for the fill default, then flip `frame` to \"card\" to confirm the old look survives. Good on both? That closes P2/P3 — next is P4: preview assets + News entry + the closeout gate (a master candidate you stress-test across wide/square/vertical before the lock).",
+    "response": {
+      "body": "good result. can we also add real bounding boxes for the static elements and containers? right now the m0 is completley opaque, just a straight overlay stack",
+      "from": "human",
+      "at": "2026-08-06T18:19:30.384Z",
+      "src": "<sandbox>/sessions/2026-08-06-search-typing-hero/./candidate-004-1280x400.mp4"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "_comment": "FFmpeg Weekly Pulse — KPI OVERVIEW beat (Beat 1) sandbox walkthrough. Invokes @m0saic/meta/post-mortem/v1 against this session. Arc: .m0c silhouettes (c001-002, all 3 aspects) -> built composition nesting 8 @m0saic/alpine/stat-card cards over the shared baked scatter (c003) -> backdrops + bg-first timing (c004) -> header relayout + aligned panels + sequential card cascade + square 3x3 (c005). Notable engine finding: a media-image source inside a nested card mis-laid-out the content; glyphs became SVG-mask lavfi tiles instead (pulse-glyphs.ts). Render on demand: m0saic make packages/sandbox/sessions/2026-06-23-ffmpeg-pulse-kpi-overview/postmortem.mosaicx -o /tmp/kpi-session.mp4 -w 1920 -h 1080. NOT rendered at closeout by design.",
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "fps": 30, "durationMs": 30000,
+  "size": { "width": 1920, "height": 1080 }, "assets": {},
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/meta/post-mortem/v1",
+    "props": { "sessionPath": "packages/sandbox/sessions/2026-06-23-ffmpeg-pulse-kpi-overview", "msPerCandidate": 3000, "msTitleCard": 2000, "msEndCard": 2000 } } ]
+}

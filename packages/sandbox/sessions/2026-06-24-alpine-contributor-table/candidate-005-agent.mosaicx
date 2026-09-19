@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1280, "height": 708 }, "fps": 30, "durationMs": 3000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/alpine/contributor-table/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-24-alpine-contributor-table", "basename": "candidate-005" },
+  "agent": { "note": "BUILT @m0saic/alpine/contributor-table/v1 from the approved skeleton. Icon + TOP CONTRIBUTORS title/subtitle, column header (#/Contributor/Commits/Additions/Deletions), 5 rows: rank · avatar chip (colored initial — fallback until avatar_url media, Phase 4) · name + right-aligned count-up value columns; top-3 green wash. Built LIGHT per the primitive rule: coarse kit splits → generated m0 = 3,332 chars (near the approved 0.6% collapse). GENERIC columns (Beat 3 maps the FFmpeg data in). Reference layouts saved to assets/: layout-standard.m0 (0.6%, floor 128x118) + layout-lite.m0 (1.2%, floor 80x59).", "question": "Table read right? The avatar fallback is a rounded colored chip with the initial — keep it, or do you want a true circle (needs a square cell)? If good, I compose it into Beat 3 (top-contributors) under pulse-chrome: table-left + stat rail-right." }
+}

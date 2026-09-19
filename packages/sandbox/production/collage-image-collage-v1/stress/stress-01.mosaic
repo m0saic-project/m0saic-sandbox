@@ -1,0 +1,444 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "7(0,2[1,1],4[1,1,1,1],0,4[2(1,1),2(1,1),0,1],0,4[2(1,1),2(1,1),0,1])",
+  "assets": {
+    "c0_1": {
+      "kind": "file",
+      "path": "<repo>/packages/cli/examples/media/nyc-square/1.jpg",
+      "mediaType": "image"
+    },
+    "c0_2": {
+      "kind": "file",
+      "path": "<repo>/packages/cli/examples/media/nyc-square/2.jpg",
+      "mediaType": "image"
+    },
+    "c0_3": {
+      "kind": "file",
+      "path": "<repo>/packages/cli/examples/media/nyc-square/3.jpg",
+      "mediaType": "image"
+    },
+    "c0_4": {
+      "kind": "file",
+      "path": "<repo>/packages/cli/examples/media/nyc-square/4.jpg",
+      "mediaType": "image"
+    },
+    "c0_5": {
+      "kind": "file",
+      "path": "<repo>/packages/cli/examples/media/nyc-square/5.jpg",
+      "mediaType": "image"
+    },
+    "c0_6": {
+      "kind": "file",
+      "path": "<repo>/packages/cli/examples/media/nyc-square/6.jpg",
+      "mediaType": "image"
+    },
+    "c0_7": {
+      "kind": "file",
+      "path": "<repo>/packages/cli/examples/media/nyc-square/7.jpg",
+      "mediaType": "image"
+    },
+    "c0_8": {
+      "kind": "file",
+      "path": "<repo>/packages/cli/examples/media/nyc-square/8.jpg",
+      "mediaType": "image"
+    },
+    "c0_9": {
+      "kind": "file",
+      "path": "<repo>/packages/cli/examples/media/nyc-square/9.jpg",
+      "mediaType": "image"
+    },
+    "c0_10": {
+      "kind": "file",
+      "path": "<repo>/packages/cli/examples/media/nyc-square/10.jpg",
+      "mediaType": "image"
+    },
+    "c0_11": {
+      "kind": "file",
+      "path": "<repo>/packages/cli/examples/media/nyc-square/11.jpg",
+      "mediaType": "image"
+    },
+    "c0_12": {
+      "kind": "file",
+      "path": "<repo>/packages/cli/examples/media/nyc-square/12.jpg",
+      "mediaType": "image"
+    },
+    "c0_13": {
+      "kind": "file",
+      "path": "<repo>/packages/cli/examples/media/nyc-square/13.jpg",
+      "mediaType": "image"
+    },
+    "c0_14": {
+      "kind": "file",
+      "path": "<repo>/packages/cli/examples/media/nyc-square/14.jpg",
+      "mediaType": "image"
+    },
+    "c0_15": {
+      "kind": "file",
+      "path": "<repo>/packages/cli/examples/media/nyc-square/15.jpg",
+      "mediaType": "image"
+    },
+    "c0_16": {
+      "kind": "file",
+      "path": "<repo>/packages/cli/examples/media/nyc-square/16.jpg",
+      "mediaType": "image"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-01"
+  },
+  "agent": {
+    "note": "**STRESS 01/10 — 01-nyc-16-real** (gate-31 stress set for `@m0saic/collage/image-collage/v1`).\n\n16 real square photos (packages/cli/examples/media/nyc-square), pure defaults — the everyday case.\n\nWatch: even 11px gutters + margin; hero spans earn their size; sky-only crops are the crop budget at work, not empty cells.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_4",
+      "editor": {
+        "owner": "template",
+        "label": "img:3"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.020947176684881604,
+          "right": 0.00819672131147541,
+          "top": 0.021296296296296296,
+          "bottom": 0.010185185185185186
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_2",
+      "editor": {
+        "owner": "template",
+        "label": "img:1"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.020947176684881604,
+          "right": 0.00819672131147541,
+          "top": 0.012037037037037037,
+          "bottom": 0.021296296296296296
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_9",
+      "editor": {
+        "owner": "template",
+        "label": "img:8"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.02737226277372263,
+          "right": 0.020072992700729927,
+          "top": 0.04259259259259259,
+          "bottom": 0.012962962962962963
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_11",
+      "editor": {
+        "owner": "template",
+        "label": "img:10"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.02737226277372263,
+          "right": 0.020072992700729927,
+          "top": 0.03148148148148148,
+          "bottom": 0.020370370370370372
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_13",
+      "editor": {
+        "owner": "template",
+        "label": "img:12"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.02737226277372263,
+          "right": 0.020072992700729927,
+          "top": 0.024074074074074074,
+          "bottom": 0.03148148148148148
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_15",
+      "editor": {
+        "owner": "template",
+        "label": "img:14"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.02737226277372263,
+          "right": 0.020072992700729927,
+          "top": 0.012962962962962963,
+          "bottom": 0.04259259259259259
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_5",
+      "editor": {
+        "owner": "template",
+        "label": "img:4"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.023722627737226276,
+          "right": 0.023722627737226276,
+          "top": 0.04259259259259259,
+          "bottom": 0.012962962962962963
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_6",
+      "editor": {
+        "owner": "template",
+        "label": "img:5"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.020072992700729927,
+          "right": 0.02737226277372263,
+          "top": 0.04259259259259259,
+          "bottom": 0.012962962962962963
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_10",
+      "editor": {
+        "owner": "template",
+        "label": "img:9"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.023722627737226276,
+          "right": 0.023722627737226276,
+          "top": 0.03148148148148148,
+          "bottom": 0.020370370370370372
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_12",
+      "editor": {
+        "owner": "template",
+        "label": "img:11"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.020072992700729927,
+          "right": 0.02737226277372263,
+          "top": 0.03148148148148148,
+          "bottom": 0.020370370370370372
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_1",
+      "editor": {
+        "owner": "template",
+        "label": "img:0"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.011861313868613138,
+          "right": 0.013686131386861315,
+          "top": 0.012037037037037037,
+          "bottom": 0.021296296296296296
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_7",
+      "editor": {
+        "owner": "template",
+        "label": "img:6"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.016363636363636365,
+          "right": 0.038181818181818185,
+          "top": 0.04259259259259259,
+          "bottom": 0.012962962962962963
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_8",
+      "editor": {
+        "owner": "template",
+        "label": "img:7"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.005474452554744526,
+          "right": 0.041970802919708027,
+          "top": 0.04259259259259259,
+          "bottom": 0.012962962962962963
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_14",
+      "editor": {
+        "owner": "template",
+        "label": "img:13"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.016363636363636365,
+          "right": 0.038181818181818185,
+          "top": 0.03148148148148148,
+          "bottom": 0.020370370370370372
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_16",
+      "editor": {
+        "owner": "template",
+        "label": "img:15"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.005474452554744526,
+          "right": 0.041970802919708027,
+          "top": 0.03148148148148148,
+          "bottom": 0.020370370370370372
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_3",
+      "editor": {
+        "owner": "template",
+        "label": "img:2"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.00819672131147541,
+          "right": 0.020947176684881604,
+          "top": 0.012037037037037037,
+          "bottom": 0.021296296296296296
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "format": {
+    "kind": "image",
+    "container": "png"
+  },
+  "backgroundColor": "#101014"
+}

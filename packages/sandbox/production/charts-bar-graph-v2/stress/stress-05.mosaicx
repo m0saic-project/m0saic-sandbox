@@ -1,0 +1,51 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1001,
+    "height": 733
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/bar-graph/v2",
+      "props": {
+        "labels": [
+          "Инженерия",
+          "Продажи",
+          "Маркетинг",
+          "Поддержка",
+          "デザイン"
+        ],
+        "values": [
+          42,
+          26,
+          16,
+          9,
+          7
+        ],
+        "titles": {
+          "title": "ПОКАЗАТЕЛИ КОМАНДЫ",
+          "subtitle": "за квартал"
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-unicode** (gate-14 stress set for `@m0saic/charts/bar-graph/v2`).\n\nUNICODE: Cyrillic/CJK labels + Cyrillic title (the baseline's worst clip). Watch: full title both edges, complete labels.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

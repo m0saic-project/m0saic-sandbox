@@ -1,0 +1,129 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "multi",
+  "fps": 60,
+  "steps": [
+    {
+      "name": "invoice_sr__range_01",
+      "label": "invoice_sr_0.0s-2.0s",
+      "durationMs": 2000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "m0": "1",
+        "assets": {
+          "invoice_sr": {
+            "kind": "file",
+            "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/invoice_sr.mp4",
+            "mediaType": "video"
+          }
+        },
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "invoice_sr",
+            "placement": {
+              "fit": "cover"
+            },
+            "playback": {
+              "clipStartMs": 0,
+              "clipDurationMs": 2000,
+              "loopMode": "cut"
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "size": {
+          "width": 320,
+          "height": 200
+        },
+        "backgroundColor": "#000000",
+        "format": {
+          "kind": "video",
+          "container": "mp4"
+        },
+        "fps": 30,
+        "durationMs": 2000,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    },
+    {
+      "name": "invoice_sr__range_02",
+      "label": "invoice_sr_8.0s-10.0s",
+      "durationMs": 2000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "m0": "1",
+        "assets": {
+          "invoice_sr": {
+            "kind": "file",
+            "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/invoice_sr.mp4",
+            "mediaType": "video"
+          }
+        },
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "invoice_sr",
+            "placement": {
+              "fit": "cover"
+            },
+            "playback": {
+              "clipStartMs": 8000,
+              "clipDurationMs": 2000,
+              "loopMode": "cut"
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "size": {
+          "width": 320,
+          "height": 200
+        },
+        "backgroundColor": "#000000",
+        "format": {
+          "kind": "video",
+          "container": "mp4"
+        },
+        "fps": 30,
+        "durationMs": 2000,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "durationMs": 5000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

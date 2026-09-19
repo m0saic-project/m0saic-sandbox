@@ -1,0 +1,55 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "2(2[1,1],2[1,1])",
+        "speedMultiplier": 1,
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": true,
+        "showCanvas": false,
+        "showInspector": false
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-004"
+  },
+  "agent": {
+    "note": "**M1a — animated canvas.** The canvas panel now renders the layout as **numbered wireframe tiles that reveal in geometry-walk order** (fade-in, gated on each tile's emit time), with a **soft purple wash on the active tile** that moves as the walk proceeds. Each tile shows its true **W×H** (parsed at output size, not the shrunk panel).\n\nBuilt depth-efficiently as just **two structured layers** (`base{highlight}`) — no per-tile overlay stacking, so it won't hit the ~25-overlay mask limit on big layouts.\n\nStill placeholders: DSL string (M3), Inspector (M2), Debugger (M4).\n\n**Camera deferred to M1b:** the engine has no per-frame scale expr, so true pan/zoom needs a fixed-zoom + eased-pan approach I'll verify next. This candidate is **fit-to-panel** (whole layout always visible).",
+    "question": "Render it and watch the walk: do the tiles reveal in the right order with the purple highlight following the active tile? Does the tile look land (centered number, dims, the active wash)? If yes I'll add the **camera (M1b)** and then the other panels.",
+    "context": {
+      "category": {
+        "kind": "other",
+        "label": "canvas-animation"
+      },
+      "intent": {
+        "action": "propose",
+        "summary": "M1a — animated geometry-walk canvas (reveal + active highlight, fit-to-panel)"
+      },
+      "relation": {
+        "kind": "refines",
+        "target": "003"
+      }
+    },
+    "response": {
+      "body": "generally good. animation is a bit choppy but this polish item. good ton continue.",
+      "from": "human",
+      "at": "2026-06-28T08:57:41.297Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/./candidate-004-1920x1080.mp4"
+    }
+  }
+}

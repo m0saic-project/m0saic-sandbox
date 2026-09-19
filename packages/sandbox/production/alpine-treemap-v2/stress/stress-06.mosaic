@@ -1,0 +1,201 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121(0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15[0,1,0,0,0,0,0,0,0,0,0,0,0,0,1{120[0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,1,-,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]}],0,0,0,0,0,0,-),0,0,0,0,0,0,-]}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#E5E7EB",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "HEADCOUNT"
+          },
+          "style": {
+            "fontSize": 45,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "By department"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "card-header"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0,
+        "alpha": "(min(1,max(0,(t-0)/0.63)))*(min(1,max(0,(t-0)/0.63)))*(3-2*(min(1,max(0,(t-0)/0.63))))"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.005788712011577424,
+          "right": 0.005,
+          "bottom": 0.005788712011577424,
+          "left": 0.005
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Everything"
+          },
+          "style": {
+            "fontSize": 25,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.085
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.189)/0.63)))*(min(1,max(0,(t-0.189)/0.63)))*(3-2*(min(1,max(0,(t-0.189)/0.63))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "100%"
+          },
+          "style": {
+            "fontSize": 20,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.085
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.252)/0.63)))*(min(1,max(0,(t-0.252)/0.63)))*(3-2*(min(1,max(0,(t-0.252)/0.63))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "#F8FAFC",
+  "fps": 30,
+  "durationMs": 2000,
+  "size": {
+    "width": 900,
+    "height": 900
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-single** (gate-12 stress set for `@m0saic/alpine/treemap/v2` — the LAST alpine gate).\n\nDEGENERATE: ONE item fills the card. Watch: single rounded tile + label, no phantom gaps.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

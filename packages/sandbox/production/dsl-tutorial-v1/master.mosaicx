@@ -1,0 +1,29 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 15800,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "dsl-tutorial-master"
+  },
+  "agent": {
+    "note": "## master — @m0saic/dsl-tutorial/v1 (SHIPPED 2026-09-05)\n\nThe default lesson, pure defaults: `2(2[1,1],2[1,1])` at 1920×1080, 16 steps, teach tier at 1×, 15.8 s.\n\nShipped with gate 33 (candidate-01/02, frozen as history) plus the 09-05 heavy-layout pass: three pacing tiers (teach ≤ 400 chars · summarize ≤ 8,000 → 30 s · sloth → 20 s), per-dash divider clearing, size-driven tile labels, the passthrough-carry fix, whole-frame natural lengths, nested panels at the authored length, and the density guards raised to the engine's walls. Heavy references: stress-11 (brand M), stress-12 (QR), stress-13 (20×20).",
+    "question": "Shipped — no open question. Re-mint on the next template change."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "2(2[1,1],2[1,1])"
+      }
+    }
+  ]
+}

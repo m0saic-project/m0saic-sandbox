@@ -1,0 +1,69 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/leaderboard/v1",
+      "props": {
+        "items": [
+          {
+            "name": "Middling Mike",
+            "value": 500
+          },
+          {
+            "name": "Big Betty",
+            "value": 123456789
+          },
+          {
+            "name": "Zero Zoe",
+            "value": 0
+          },
+          {
+            "name": "Tied Tom",
+            "value": 500
+          },
+          {
+            "name": "Negative Ned",
+            "value": -250
+          }
+        ],
+        "title": "TOP CONTRIBUTORS",
+        "subtitle": "This month",
+        "preset": "light",
+        "podiumTint": true,
+        "showValue": true,
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        },
+        "preSorted": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-hostile-values-presorted** (gate-7 stress set for `@m0saic/alpine/leaderboard/v1`).\n\nHOSTILE: preSorted TRUE with deliberately UNSORTED input (order must be kept), ties, zero, NEGATIVE, 9-digit value. Watch: order preserved, negatives render, count-up sane.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-22T10:45:10.000Z",
+      "via": "chat (\"ship\" — gate-7 stress set) — transcribed by agent"
+    }
+  }
+}

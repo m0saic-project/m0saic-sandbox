@@ -1,0 +1,36 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": { "width": 1280, "height": 800 },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/treemap/v1",
+      "props": {
+        "items": [
+          { "label": "Engineering", "value": 42 },
+          { "label": "Sales", "value": 26 },
+          { "label": "Marketing", "value": 16 },
+          { "label": "Support", "value": 9 },
+          { "label": "Design", "value": 7 }
+        ],
+        "title": "HEADCOUNT",
+        "subtitle": "By department",
+        "preset": "light",
+        "valueMode": "percent",
+        "cornerRadius": 0.06,
+        "showValue": true,
+        "anim": { "introFrac": 0.7, "easing": "easeOut", "reduceMotion": false }
+      }
+    }
+  ],
+  "agent": {
+    "note": "master — @m0saic/alpine/treemap/v1 (the 9th + FINAL Alpine template, completing the pack), LOCKED 2026-06-23. A squarified treemap in the friendly white card: value-sized rounded tiles packed to fill the card (Bruls/Huizing/van Wijk squarify → balanced aspect ratios, no slivers), each labelled top-left with its name + share, tiles fading in biggest→smallest. Built on the donut/heatmap absolute-placement model (tight rects on the 4px lattice, grid as a full-canvas extraLayer → no quantization). Palette cycles ALPINE_PALETTE (per-item override); label contrast auto-flips (white on saturated tiles). Labels SHRINK-TO-FIT their tile and only truncate (ellipsis) when even the min font overflows; small tiles hide labels. Knobs (most human-facing): valueMode (percent/value/none), cornerRadius (0..0.5 slider), showValue, per-item color, preset. Two label fixes in the sandbox: shrink-to-fit (so medium tiles show full names) + a clear name→value gap with the label clearing the rounded corner at high radius. 5 stress variants approved across all 3 aspects (A dark-horizontal · B square-8 · C vertical-portrait · D value+colors+radius0.3 · E twelve-static). Shipped alongside: the render-hero rounding mirror (it now previews rounded tiles) + Make opening .mosaicx recipes as live templates.",
+    "question": "Locked master — showcase props (5-dept HEADCOUNT treemap, percent labels, fade cascade). This is the preview the Templates page renders.",
+    "response": { "body": "Approved — locked. Completes the Alpine pack.", "from": "human", "at": "2026-06-23T00:00:00.000Z" }
+  }
+}

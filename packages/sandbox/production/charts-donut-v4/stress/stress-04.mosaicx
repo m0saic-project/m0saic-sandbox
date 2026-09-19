@@ -1,0 +1,50 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 3500,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-04"
+  },
+  "agent": {
+    "note": "**STRESS 04/10 \u2014 04-cjk-square** (gate-15 stress set for `@m0saic/charts/donut/v4`).\n\nCJK: wide-script centerValue + caption at a big square canvas. Watch: script-aware caps keep both inside the hole (CJK \u2248 1.6\u00d7 ASCII width).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/donut/v4",
+      "props": {
+        "segments": [
+          {
+            "label": "\u5b8c\u4e86",
+            "value": 58
+          },
+          {
+            "label": "\u9032\u884c\u4e2d",
+            "value": 30
+          },
+          {
+            "label": "\u4fdd\u7559",
+            "value": 12
+          }
+        ],
+        "centerValue": "\u4e94\u516b\u4ef6",
+        "centerLabel": "\u7dcf\u30ec\u30f3\u30c0\u30ea\u30f3\u30b0\u6570\u306e\u5185\u8a33",
+        "segmentLabels": "percent"
+      }
+    }
+  ]
+}

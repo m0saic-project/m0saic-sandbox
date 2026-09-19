@@ -1,0 +1,38 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1920
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "suggestedOutput": {
+    "dir": "./renders",
+    "basename": "02-walkdown-under-pressure"
+  },
+  "agent": {
+    "note": "**STRESS 02/10 — 02-walkdown-under-pressure** (gate-36 stress set for `@m0saic/media/scroll_wall/v1`).\n\nTHE WALK-DOWN UNDER MAXIMUM PRESSURE at 1080x1920. Rows at its stop (4) AND Visible tiles at its stop (12), portrait, with 6 clips. Both sliders maxed is precisely the combination that rendered an ERROR CARD before this gate. `visibleCount` must now walk down to whatever fits the 24-tile cap at 4 rows and the wall must still READ as a wall. Watch: no error card; four rows of legible tiles; the tiles are bigger than 12-across would have been, not squashed.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/scroll_wall/v1",
+      "props": {
+        "clips": [
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/chat_sr.mp4",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-13-2400x1000.png",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/inbox_sr.mp4",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-04-800x1200.png",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/invoice_sr.mp4",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/signed-letter_sr.mp4"
+        ],
+        "rows": 4,
+        "visibleCount": 12
+      }
+    }
+  ]
+}

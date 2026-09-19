@@ -1,0 +1,329 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "36[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),-]{36[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),-]}",
+  "assets": {
+    "c0_chat_sr": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/chat_sr.mp4",
+      "mediaType": "video"
+    },
+    "c0_photo-13-2400x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-13-2400x1000.png",
+      "mediaType": "image"
+    },
+    "c0_inbox_sr": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/inbox_sr.mp4",
+      "mediaType": "video"
+    },
+    "c0_photo-04-800x1200": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-04-800x1200.png",
+      "mediaType": "image"
+    },
+    "c0_invoice_sr": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/invoice_sr.mp4",
+      "mediaType": "video"
+    },
+    "c0_signed-letter_sr": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/signed-letter_sr.mp4",
+      "mediaType": "video"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 8000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/media/scroll_wall/v1` \"Scroll Wall\"** (gate 36 — media pack remainder 8/n; chart: `.ai/LAUNCH/v1-template-cut.md`). Core tier, primitive:false. Showcase props = a wall of four real screen recordings + two image cards (mixed video+image is a real capability), 3 visible tiles so each capture is legible, 2 rows counter-scrolling, 8s at cycles=2 so the LOOP POINT passes once mid-render — watch it and you should see no jump.\n\n**FIXTURES ARE BORROWED, not copied:** the four `_sr.mp4` captures come from the blur-regions ledger and the two cards from the collage ledger — both already committed. Nothing new to review, 3MB not duplicated.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated, not primitive | confirm |\n| Tags | media, wall, scroll, loop, montage, animated | confirm |\n| Preview | committed 08-15 set (demo-hue wall at the default) | **kept as-is** — the layout fingerprint is unchanged by this gate, so they still show the true default state |\n| News | `2026-08-15` release entry exists and is still accurate | confirm |\n| Cover | none | propose NOT NEEDED — the default state (demo wall) IS the face, and the preview already shows it |\n| Tutorial | none | propose not needed |\n\n**THE FINDING (and the fix): the tile cap was billed to the wrong knob.**\n\n`rows` and `visibleCount` are drawn as two independent sliders, but the wall's 24-tile budget couples them (`rows x (visibleCount + ~1..3) <= 24`). So **Rows=4 + Visible=6 — two slider drags off the defaults, at the DEFAULT canvas — rendered an ERROR CARD**, and Visible=12 errored at every canvas I tried, at the default 2 rows. A 20-canvas x 18-preset resolve battery found **50 of 360 combinations dead**.\n\nThe cap is now paid by the LOOK knob and never by the content:\n1. **`visibleCount` walks DOWN** (new `fitVisibleCount`) to the largest count that fits the cap at the chosen rows — bigger tiles, which is a legible answer to \"that many don't fit\". An error card is not.\n2. **`clips` never walks** — dropping one would silently lose a clip the caller asked for. `rows x clips > 24` is still a hard error, now worded about clips (\"13 clips x 2 rows = 26 tiles... at 2 rows the wall takes up to 12 clips\").\n3. **Gap and margin thin to fit** under one rule: a separator never takes more than half of what it separates. Same reason, same class — 200px of margin on a 360px canvas is a slider at its stop, not a reason to refuse.\n4. Their pre-bound also fixed the CAUSE: `q` (the precision lattice quantum) is the largest divisor of the axis that fits the gap, so an over-large gap picked a quantum near the whole canvas and *that* is what made those canvases infeasible. Bounding the gap first keeps the lattice fine enough to lay the wall out.\n5. **New `MIN_TILE_PX = 24` floor.** With the knobs thinning themselves the geometry stopped running out of room and started running out of MEANING (12 tiles across 100px is arithmetic that succeeds and a wall nobody can watch), so the honest failure moved to a named floor. Soft on the scroll axis (the walk-down clears it), hard on the cross axis (`rows` is your ask, so 4 rows on a 180px canvas is told exactly that).\n6. Error-card text is `asciiOnly()`-filtered before it is drawn, so the \"x\" in \"13 clips x 2 rows\" used to print as \"?\". ASCII now.\n\n**Result: 360/360 resolve battery cases render** (was 310/360). The 8 that still error are thumbnail canvases (320x180, 241x137) asked for 4 rows, and each names the rows as the blocker.\n\n**Battery: 76 asserts, 0 fail** (`node .scratch/claude/scroll-wall/gate-battery.mjs`), across 24 CLI renders. The headline assert is the **GAP-COMB invariant** — the wall's core promise. Each case is rendered on TWO different background colours and a pixel counts as background only where it took both, so no clip pixel can masquerade as a gap (needed: the SMPTE fixtures contain a magenta bar and the screen recordings are dark UI near the template's own #0b0b0f). At five sampled t, across every row band: **no background run wider than the gap anywhere mid-wall, and the gap count equals the cover count** — i.e. no holes and no bunching, at any moment, on any canvas. Also covered: dims + duration + **NO audio track** (two fixtures carry audio; the doc now says `audio: {mode:\"off\"}` once instead of relying on six per-source flags agreeing), motion happens, contain letterboxes where cover does not, and a seeded shuffle is byte-identical across two renders.\n\n**Geometry proof: 85/85 PROVEN** (`audit:geometry-proof`, ar 16:9/9:16/1:1/4:3/21:9 x 240..2160) — 0.0px quantization spread, no infeasible or sub-precision canvas, 18 hostile (prime-axis) canvases all degrade as designed. Conventions sweep: clean on all 14, including `canvasEnvelope`.\n\n**62 unit tests green** (was 50). Layout fingerprint UNCHANGED — the default state this gate ships is the default state the previews already show.\n\n**One behaviour to notice while you watch it:** each video tile loops a **933ms window** of its clip, not the whole thing. That is the RAM budget (`LOOP_STORE_BUDGET_BYTES`) doing its job — the engine's loop store holds frames at NATIVE resolution, so eight 1920x1200 tiles buy ~28 frames each — and per the docblock it is also the intended format (\"a wall of short looping snippets\"). `tiles.clipWindowMs` overrides it if you want longer. Smaller source clips automatically get longer windows.\n\n**Three things I did NOT change, and want your call:**\n1. **No `format` stamp on the document.** Gate 26 set the \"every rendered doc declares its format\" convention, but this template has no opinion about the container — `-o wall.webm` should just work. blur-regions (gate 19) also ships without one. Leave it, or stamp `video/mp4`?\n2. **Render cost at the cap:** 24 image tiles at 1920x1080 for 4s takes ~28-66s depending on load. That is the ceiling by construction (each tile is an ffmpeg input); the default 12-tile wall is ~2s. Worth a note in the description, or fine?\n3. **The template is NOT in the web build** (`templates/src/web.ts`). Every other node-clean media template is there and the file's header lists its exclusions by reason — scroll_wall is on neither list, so it reads as a miss rather than a decision. I verified it would work: zero node-ish imports anywhere in its module graph, and it renders clean in design mode with no media. But there is a real reason you might have left it out on purpose: **on web it can only ever show the demo wall**, because the browser cannot pick local clips — the one thing the template is for is the one thing it cannot do there. Your call; it is a one-line import either way.\n\n---\n\n**STRESS SET x10 MINTED 09-07** — `stress/stress-01..10.mosaicx` + frozen twins, renders in `stress/renders/`. **20/20 agent asserts pass** (`node .scratch/claude/scroll-wall/mint-stress.mjs`); every one also eyeballed. The battery swept the knob space, so these go after what a battery cannot reach:\n\n| # | Case | What it proves |\n|---|---|---|\n| 01 | cap ceiling with real video | 12 clips x 2 rows = **24 tiles, the hard cap**, 14 of them video at native res. Completes in 22.5s, every tile painted, no black cells. The most expensive legal document this template can emit. |\n| 02 | the walk-down under max pressure | Rows AND Visible both at their stops (4 / 12), portrait. **This exact combination was the error card.** Now walks 12 -> 5, lands on 24 tiles, four even rows of legible tiles. |\n| 03 | aspect zoo under cover-crop | Six sources from 3.0:1 panorama to 0.56:1 tall, one cell aspect, portrait canvas. Every cell fully filled — cropped, never squashed, no letterbox slivers. |\n| 04 | degenerate conveyor (ONE clip) | 1 asset, 6 slots. Twin confirms 5 distinct seeded `clipStartMs` (44 / 4572 / 8579 / 15751 / 15957 across a 17.5s recording) — the repeats really are different moments. |\n| 05 | wrap at max velocity, snapped | 2000 px/s on an 854px canvas = ~67 px/frame; a tile crosses in under half a second. Four consecutive frames: continuous motion, uniform gaps, nothing pops in mid-canvas. The seam holds. |\n| 06 | loop deliberately OPEN, odd frame count | `cycles 0.25` over 3333ms = 99.99 frames at 30fps. The velocity solver derives from the FRAME COUNT precisely so this stays exact. Smooth throughout. |\n| 07 | quantum-collapse canvas | 1913x1069, both prime-ish, so the lattice quantum falls to 1 and the m0 blows out to ~47k chars. Three even rows, uniform gaps — the documented degradation costs precision, not correctness. |\n| 08 | 8s window asked of 2s clips | `clipWindowMs` at its stop against 2s / 3s / 7.97s / 17.5s clips. Twin confirms the per-clip clamp is exact: **2000 / 3000 / 7967 / 8000**. Nothing freezes on a held last frame. |\n| 09 | every slider at its stop | 4 rows, 12 visible, gap 96, margin 200, contain, 8 cycles, rightward, alternation off, offset 1.0, shuffled. Three thinning rules negotiate at once: visible 12->4, margin 200->90, gap ->90. No error card, rows still even. |\n| 10 | silence with ALL-audio inputs | Six clips, every one audio-bearing. Output has **no audio stream at all** — not a silent one. |\n\n**Two things I saw that are yours to rule on, neither a blocker:**\n\n1. **`contain` has no tile ground** (visible in 09). Letterboxed tiles paint content only — there is no card behind them — so on the near-black default background a contain'd wall reads as thumbnails floating in space rather than a grid, and tile widths visibly differ per source aspect. At normal settings you would not notice; at 09's settings the grid dissolves. A `tiles.tileBackgroundColor` (paint the cell, letterbox onto THAT) would make contain read as a wall. v1.1 candidate, or leave it — `cover` is the default and does not have the problem.\n2. **04's stagger is correct but invisible on these fixtures.** The mechanism is proved in the twin, but a mostly-static screen recording looks the same at 0s and 8.5s, so the render does not SHOW it. If you want the conveyor visibly de-synced in a demo, it needs a fixture with motion.",
+    "question": "Showcase verdict — does the wall read right, and does the loop point pass with no jump? Stress x10 is minted and rendered (stress/renders/) — pass the set? Then: is `visibleCount` walking down to bigger tiles the behaviour you want (vs an error card), flags/tags confirmed, cover + tutorial not needed, and the open calls (format stamp, cap render cost, web build, contain tile ground)?"
+  },
+  "sources": [
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_chat_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(11520-960*t,3840)-640"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i0"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-13-2400x1000",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(12160-960*t,3840)-1280"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i1"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_inbox_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(12800-960*t,3840)-1920"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i2"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_signed-letter_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(320+960*t,3840)-640"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i0"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_chat_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(960+960*t,3840)-1280"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i1"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-13-2400x1000",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(1600+960*t,3840)-1920"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i2"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-04-800x1200",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(13440-960*t,3840)-640"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i3"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_invoice_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(14080-960*t,3840)-1280"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i4"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_signed-letter_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(14720-960*t,3840)-1920"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i5"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_inbox_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(2240+960*t,3840)-640"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i3"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-04-800x1200",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(2880+960*t,3840)-1280"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i4"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_invoice_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(3520+960*t,3840)-1920"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i5"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "audio": {
+    "mode": "off"
+  },
+  "backgroundColor": "#0b0b0f"
+}

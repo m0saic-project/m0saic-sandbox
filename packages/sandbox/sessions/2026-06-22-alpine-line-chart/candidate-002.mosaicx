@@ -1,0 +1,71 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/line-chart/v1",
+      "props": {
+        "values": [
+          12,
+          19,
+          15,
+          25,
+          22,
+          30,
+          28,
+          36
+        ],
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug"
+        ],
+        "title": "LINE CHART",
+        "subtitle": "Monthly Active Users",
+        "curve": "smooth",
+        "preset": "light",
+        "lineColor": "#2563EB",
+        "grid": {
+          "show": true,
+          "count": 4
+        },
+        "area": {
+          "show": true,
+          "opacity": 0.14
+        },
+        "points": {
+          "show": true
+        },
+        "anim": {
+          "introFrac": 0.9,
+          "ease": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "agent": {
+    "note": "candidate-002 — tightened candidate-001 per your notes (\"t=0 looks awkward, half dots seen; final state clips the final dot; animation is very premium\"). Both edge issues had one root cause: the first/last data points sat exactly ON the plot edges, so their marker halos overflowed (poked past the curtain's left edge at t=0; clipped against the card at the final frame). Fix: inset the data x-range by the halo radius so end markers sit fully inside, and pad the curtain UP into the headroom (covers a peak marker at the very top) while padding DOWN only a hair (so it never clips the month-label band). Now t=0 is a clean blank card with axes + labels, the wipe reveals everything, and the final state shows both end dots in full. (Captured your introLength→0.95 nudge as candidate-001_humanedits.mosaic; this candidate uses the template default 0.7 = ~1.4s wipe + ~0.6s hold on the final chart. Bump the Intro length slider if you want the longer wipe as the default.)",
+    "question": "Check t=0 (blank, no half-dots), the wipe, and the final frame (both end dots fully in-frame). Edges clean now? Anything else to tighten before I lock it — or is this good to ship-check?",
+    "response": {
+      "body": "edges are clean now. Intro length may not be wired correctly - I put .90 but it finishes around .7 / 2 seconds. Actually upon rendering, it is correct in output file. The drift is in the geometric preview, which does not mirror the true output",
+      "from": "human",
+      "at": "2026-06-22T14:38:32.237Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

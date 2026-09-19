@@ -1,0 +1,23 @@
+{
+  "_comment": "First REAL render of the KPI stat-card skeleton — invokes @m0saic/charts/stat-card/v1 (built from sandbox candidate-002 geometry). Hybrid sandbox candidate: instead of a gray wireframe proxy, this renders the actual template so the look (text hierarchy, left-align, dark theme, green-up delta) can be judged on pixels. Render: m0saic make packages/sandbox/sessions/2026-06-11-stat-card-kpi/candidate-003.mosaicx -o /tmp/stat-card.mp4 -w 760 -h 290. Variants to try by editing props: down-delta -> {\"value\":\"33\",\"delta\":\"-2 (-5.6%)\",\"direction\":\"down\",\"label\":\"Pull Requests\"}; no-delta -> {\"label\":\"Activity Rate\",\"value\":\"86%\",\"delta\":\"\",\"sublabel\":\"\"}.",
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "fps": 30,
+  "durationMs": 1500,
+  "size": { "width": 760, "height": 290 },
+  "assets": {},
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/stat-card/v1",
+      "props": {
+        "label": "Total Commits",
+        "value": "246",
+        "delta": "+18 (+7.9%)",
+        "direction": "up",
+        "sublabel": "vs last week"
+      }
+    }
+  ]
+}

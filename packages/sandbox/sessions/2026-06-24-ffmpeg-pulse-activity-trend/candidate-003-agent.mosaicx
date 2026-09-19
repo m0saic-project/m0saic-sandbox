@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 9000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/activity-trend/v1", "props": { "preset": "dark" } } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-24-ffmpeg-pulse-activity-trend", "basename": "candidate-003" },
+  "agent": { "note": "c003 — your feedback. DESKTOP rail relaid out to a 2x2 of LARGER square-ish cards (300x288) matching the mobile target proportion (was a wide-short 1x4) — bigger numbers + labels. CHART BG now distinct: the chart panel uses a slightly lighter slate (#1b2330) vs the card-colored header/rail panels, so the plot stands out. Square + mobile unchanged (mobile was your target; square good).", "question": "Desktop rail size + the distinct chart bg right? (chart panel is slightly LIGHTER — flip to darker/recessed if you prefer.) Square rail still acceptable, or push it squarer too? And still open: per-point value labels on the chart line." }
+}

@@ -1,0 +1,334 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{10[-,0,0,0,0,0,0,0,40(0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5(1,1,1,1,1)],0,0,-),-]}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#ffffff",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.15
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#0f172a",
+          "alpha": 0.1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "mosaic",
+      "ref": "plot",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Jan"
+          },
+          "style": {
+            "fontSize": 13,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "cat-label"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Feb"
+          },
+          "style": {
+            "fontSize": 13,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "cat-label"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Mar"
+          },
+          "style": {
+            "fontSize": 13,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "cat-label"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Apr"
+          },
+          "style": {
+            "fontSize": 13,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "cat-label"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "May"
+          },
+          "style": {
+            "fontSize": 13,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "cat-label"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "children": {
+    "plot": {
+      "kind": "mosaic_document",
+      "version": 1,
+      "assets": {},
+      "m0": "5(25[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,1],5[0,-,0,0,1],25[0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],25[0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,1],25[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1])",
+      "sources": [
+        {
+          "type": "lavfi",
+          "color": "#f97316",
+          "overlay": {
+            "startAtSec": 0,
+            "yExpr": "h*(1-((min(1,max(0,lt/0.8)))*(min(1,max(0,lt/0.8)))*(3-2*(min(1,max(0,lt/0.8))))))"
+          },
+          "placement": {
+            "inset": {
+              "x": 0.07627118644067797
+            }
+          },
+          "editor": {
+            "owner": "user",
+            "label": "bar"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#f97316",
+          "overlay": {
+            "startAtSec": 0.06,
+            "yExpr": "h*(1-((min(1,max(0,lt/0.8)))*(min(1,max(0,lt/0.8)))*(3-2*(min(1,max(0,lt/0.8))))))"
+          },
+          "placement": {
+            "inset": {
+              "x": 0.07627118644067797
+            }
+          },
+          "editor": {
+            "owner": "user",
+            "label": "bar"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#f97316",
+          "overlay": {
+            "startAtSec": 0.12,
+            "yExpr": "h*(1-((min(1,max(0,lt/0.8)))*(min(1,max(0,lt/0.8)))*(3-2*(min(1,max(0,lt/0.8))))))"
+          },
+          "placement": {
+            "inset": {
+              "x": 0.07627118644067797
+            }
+          },
+          "editor": {
+            "owner": "user",
+            "label": "bar"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#f97316",
+          "overlay": {
+            "startAtSec": 0.18,
+            "yExpr": "h*(1-((min(1,max(0,lt/0.8)))*(min(1,max(0,lt/0.8)))*(3-2*(min(1,max(0,lt/0.8))))))"
+          },
+          "placement": {
+            "inset": {
+              "x": 0.07627118644067797
+            }
+          },
+          "editor": {
+            "owner": "user",
+            "label": "bar"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#f97316",
+          "overlay": {
+            "startAtSec": 0.24,
+            "yExpr": "h*(1-((min(1,max(0,lt/0.8)))*(min(1,max(0,lt/0.8)))*(3-2*(min(1,max(0,lt/0.8))))))"
+          },
+          "placement": {
+            "inset": {
+              "x": 0.07627118644067797
+            }
+          },
+          "editor": {
+            "owner": "user",
+            "label": "bar"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      ],
+      "fps": 30,
+      "durationMs": 3000,
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  },
+  "backgroundColor": "#f8fafc",
+  "fps": 30,
+  "durationMs": 3000,
+  "size": {
+    "width": 977,
+    "height": 733
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-light-bare** (gate-14 stress set for `@m0saic/charts/bar-graph/v2`).\n\nLIGHT renderMode + paper preset + grid/axes/labels ALL OFF (bare bars). Watch: enable-gate pops, clean minimal chart, no phantom rails.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

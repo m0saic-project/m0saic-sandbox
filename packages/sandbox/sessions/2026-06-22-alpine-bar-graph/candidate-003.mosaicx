@@ -1,0 +1,65 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/bar-graph/v1",
+      "props": {
+        "values": [
+          12400,
+          8700,
+          5600,
+          2100,
+          1200
+        ],
+        "labels": [
+          "Email",
+          "Twitter",
+          "Reddit",
+          "Hacker News",
+          "Other"
+        ],
+        "title": "BAR CHART",
+        "subtitle": "Sales by Channel",
+        "preset": "light",
+        "barColor": "#2563EB",
+        "gap": 0.55,
+        "cornerRadius": 0.4,
+        "grid": {
+          "show": true,
+          "count": 3
+        },
+        "valueLabels": {
+          "show": true,
+          "format": "compact",
+          "decimals": 1,
+          "suffix": ""
+        },
+        "anim": {
+          "introFrac": 0.6,
+          "ease": "smoothstep",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "agent": {
+    "note": "candidate-003 — addressed your 3 prop-shape notes from candidate-002: (1) Bar Color now defaults to the actual color (#2563EB), not an empty #RRGGBB box (clear it to fall back to the preset primary). (2) Min/Max Value were confusing empty boxes — moved to the 'Agent props' escape (auto-derived domain by default; advanced override only). (3) 'Speed' → 'Intro length' slider expressed as % of the clip: render derives per-bar duration + cascade stagger so the whole intro lands within introFrac × clipDuration (the rest holds the final chart).",
+    "question": "Re-check the human prop surface. Does Bar Color showing #2563EB feel right? Is the Min/Max → Agent-escape move OK, or do you want a human-friendly domain control? And does 'Intro length' (% of clip) read + drive the animation the way you meant? Anything else before I lock it with tests + a preview asset?",
+    "response": {
+      "body": "looks good. approved.",
+      "from": "human",
+      "at": "2026-06-22T11:22:57.024Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

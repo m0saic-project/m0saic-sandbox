@@ -1,0 +1,49 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1920
+  },
+  "fps": 30,
+  "durationMs": 5000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/demos/header-hero-footer/v1",
+      "props": {
+        "headline": "LAUNCH DAY",
+        "leftLabel": "Features",
+        "rightLabel": "Pricing",
+        "footerText": "getm0saic.com",
+        "headerColor": "#0f172a",
+        "leftColor": "#f97316",
+        "rightColor": "#38bdf8",
+        "footerColor": "#1e293b",
+        "textColor": "#f8fafc"
+      },
+      "output": {
+        "format": {
+          "kind": "image",
+          "container": "png"
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-002"
+  },
+  "agent": {
+    "note": "Handshake fix applied. I decoded your candidate-001 drags — both hero columns went full-width and stacked (left on top, right below) on the 1080×1920 render — as intent: 'on a portrait canvas, rows not columns.' Re-encoded at the TEMPLATE level (not by replaying your rects): the hero is now aspect-adaptive — `2(1,1)` on landscape/square, `2[1,1]` on portrait. This candidate opens at mobile 1080×1920 so you can see it render as rows natively, with NO edit needed.",
+    "question": "On mobile (1080×1920) the hero should now render as two stacked full-width rows on its own — Features on top, Pricing below — no Edit-mode dragging required. Does it match the layout you dragged to? Then flip to Desktop 1920×1080 and Square 1080×1080 and confirm those still show two columns (the fix must only trigger on portrait). Reply 'ship it' if all three read right, or tell me what's off.",
+    "response": {
+      "body": "perfect, ship it.",
+      "from": "human",
+      "at": "2026-07-06T16:46:44.412Z",
+      "src": "<sandbox>/sessions\\2026-07-06-header-hero-footer-geometry-handshake/./candidate-002-1080x1920.png"
+    }
+  }
+}

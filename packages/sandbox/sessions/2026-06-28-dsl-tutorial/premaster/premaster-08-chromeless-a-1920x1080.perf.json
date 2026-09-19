@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 2,
+  "totalMs": 9909,
+  "commandCount": 8,
+  "commands": [
+    {
+      "index": 1,
+      "node": "root:0:0_text",
+      "description": "Render text source \"root:0:0_text\" to image",
+      "elapsedMs": 184,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc8/fc2"
+      ],
+      "stableKey": "r/growc8/fc2",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 2,
+      "node": "root:0:2_text",
+      "description": "Render text source \"root:0:2_text\" to image",
+      "elapsedMs": 102,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc8/fc22/ov1c0"
+      ],
+      "stableKey": "r/growc8/fc22/ov1c0",
+      "leafCount": 1,
+      "overlayDepth": 1
+    },
+    {
+      "index": 3,
+      "node": "root:0",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 371,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc8/fc2",
+        "r/growc8/fc22",
+        "r/growc8/fc22/ov1c0",
+        "r/growc8/fc23"
+      ],
+      "stableKey": "r/growc8",
+      "leafCount": 4,
+      "overlayDepth": 1,
+      "label": "dsl-string"
+    },
+    {
+      "index": 4,
+      "node": "root:1:0_text",
+      "description": "Render text source \"root:1:0_text\" to video",
+      "elapsedMs": 122,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc14/gcolc4/fc96"
+      ],
+      "stableKey": "r/growc14/gcolc4/fc96",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 5,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 113,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc14/gcolc4/fc96"
+      ],
+      "stableKey": "r/growc14/gcolc4/fc96",
+      "leafCount": 1,
+      "overlayDepth": 0,
+      "label": "dsl-narration"
+    },
+    {
+      "index": 6,
+      "node": "root:2:2_text",
+      "description": "Render text source \"root:2:2_text\" to image",
+      "elapsedMs": 91,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc99/fc36/ov1c0/ov2c0"
+      ],
+      "stableKey": "r/gcolc99/fc36/ov1c0/ov2c0",
+      "leafCount": 1,
+      "overlayDepth": 2
+    },
+    {
+      "index": 7,
+      "node": "root:2",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 6956,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc99/fc36",
+        "r/gcolc99/fc36/ov1c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0/ov3c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0/ov3c0/ov4c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0/ov3c0/ov4c0/ov5c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0/ov3c0/ov4c0/ov5c0/ov6c0"
+      ],
+      "stableKey": "r/gcolc99/fc36",
+      "leafCount": 7,
+      "overlayDepth": 6,
+      "label": "canvas"
+    },
+    {
+      "index": 8,
+      "node": "root",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 1970,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc8/fc2",
+        "r/growc8/fc22",
+        "r/growc8/fc22/ov1c0",
+        "r/growc8/fc23",
+        "r/growc14/gcolc4/fc96",
+        "r/gcolc99/fc36",
+        "r/gcolc99/fc36/ov1c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0/ov3c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0/ov3c0/ov4c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0/ov3c0/ov4c0/ov5c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0/ov3c0/ov4c0/ov5c0/ov6c0"
+      ],
+      "stableKey": "r",
+      "leafCount": 12,
+      "overlayDepth": 6
+    }
+  ],
+  "slowest": [
+    {
+      "index": 7,
+      "node": "root:2",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 6956,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc99/fc36",
+        "r/gcolc99/fc36/ov1c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0/ov3c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0/ov3c0/ov4c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0/ov3c0/ov4c0/ov5c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0/ov3c0/ov4c0/ov5c0/ov6c0"
+      ],
+      "stableKey": "r/gcolc99/fc36",
+      "leafCount": 7,
+      "overlayDepth": 6,
+      "label": "canvas"
+    },
+    {
+      "index": 8,
+      "node": "root",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 1970,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc8/fc2",
+        "r/growc8/fc22",
+        "r/growc8/fc22/ov1c0",
+        "r/growc8/fc23",
+        "r/growc14/gcolc4/fc96",
+        "r/gcolc99/fc36",
+        "r/gcolc99/fc36/ov1c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0/ov3c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0/ov3c0/ov4c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0/ov3c0/ov4c0/ov5c0",
+        "r/gcolc99/fc36/ov1c0/ov2c0/ov3c0/ov4c0/ov5c0/ov6c0"
+      ],
+      "stableKey": "r",
+      "leafCount": 12,
+      "overlayDepth": 6
+    },
+    {
+      "index": 3,
+      "node": "root:0",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 371,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc8/fc2",
+        "r/growc8/fc22",
+        "r/growc8/fc22/ov1c0",
+        "r/growc8/fc23"
+      ],
+      "stableKey": "r/growc8",
+      "leafCount": 4,
+      "overlayDepth": 1,
+      "label": "dsl-string"
+    },
+    {
+      "index": 1,
+      "node": "root:0:0_text",
+      "description": "Render text source \"root:0:0_text\" to image",
+      "elapsedMs": 184,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc8/fc2"
+      ],
+      "stableKey": "r/growc8/fc2",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 4,
+      "node": "root:1:0_text",
+      "description": "Render text source \"root:1:0_text\" to video",
+      "elapsedMs": 122,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc14/gcolc4/fc96"
+      ],
+      "stableKey": "r/growc14/gcolc4/fc96",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 5,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 113,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc14/gcolc4/fc96"
+      ],
+      "stableKey": "r/growc14/gcolc4/fc96",
+      "leafCount": 1,
+      "overlayDepth": 0,
+      "label": "dsl-narration"
+    },
+    {
+      "index": 2,
+      "node": "root:0:2_text",
+      "description": "Render text source \"root:0:2_text\" to image",
+      "elapsedMs": 102,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc8/fc22/ov1c0"
+      ],
+      "stableKey": "r/growc8/fc22/ov1c0",
+      "leafCount": 1,
+      "overlayDepth": 1
+    },
+    {
+      "index": 6,
+      "node": "root:2:2_text",
+      "description": "Render text source \"root:2:2_text\" to image",
+      "elapsedMs": 91,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc99/fc36/ov1c0/ov2c0"
+      ],
+      "stableKey": "r/gcolc99/fc36/ov1c0/ov2c0",
+      "leafCount": 1,
+      "overlayDepth": 2
+    }
+  ],
+  "byCategory": [
+    {
+      "description": "m0saic render (mosaic node)",
+      "count": 4,
+      "totalMs": 9410,
+      "pct": 95
+    },
+    {
+      "description": "Render text source \"…\" to image",
+      "count": 3,
+      "totalMs": 377,
+      "pct": 3.8
+    },
+    {
+      "description": "Render text source \"…\" to video",
+      "count": 1,
+      "totalMs": 122,
+      "pct": 1.2
+    }
+  ],
+  "nodeTree": [
+    {
+      "node": "root",
+      "selfMs": 1970,
+      "subtreeMs": 9909,
+      "commandCount": 1,
+      "children": [
+        {
+          "node": "root:2",
+          "label": "canvas",
+          "selfMs": 6956,
+          "subtreeMs": 7047,
+          "commandCount": 1,
+          "children": [
+            {
+              "node": "root:2:2_text",
+              "selfMs": 91,
+              "subtreeMs": 91,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "node": "root:0",
+          "label": "dsl-string",
+          "selfMs": 371,
+          "subtreeMs": 657,
+          "commandCount": 1,
+          "children": [
+            {
+              "node": "root:0:0_text",
+              "selfMs": 184,
+              "subtreeMs": 184,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:0:2_text",
+              "selfMs": 102,
+              "subtreeMs": 102,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "node": "root:1",
+          "label": "dsl-narration",
+          "selfMs": 113,
+          "subtreeMs": 235,
+          "commandCount": 1,
+          "children": [
+            {
+              "node": "root:1:0_text",
+              "selfMs": 122,
+              "subtreeMs": 122,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rectTree": [
+    {
+      "stableKey": "r",
+      "node": "root",
+      "selfMs": 1970,
+      "subtreeMs": 9909,
+      "pct": 100,
+      "commandCount": 1,
+      "leafCount": 12,
+      "overlayDepth": 6,
+      "children": [
+        {
+          "stableKey": "r/gcolc99",
+          "selfMs": 0,
+          "subtreeMs": 7047,
+          "pct": 71.1,
+          "commandCount": 0,
+          "children": [
+            {
+              "stableKey": "r/gcolc99/fc36",
+              "label": "canvas",
+              "node": "root:2",
+              "selfMs": 6956,
+              "subtreeMs": 7047,
+              "pct": 71.1,
+              "commandCount": 1,
+              "leafCount": 7,
+              "overlayDepth": 6,
+              "children": [
+                {
+                  "stableKey": "r/gcolc99/fc36/ov1c0",
+                  "selfMs": 0,
+                  "subtreeMs": 91,
+                  "pct": 0.9,
+                  "commandCount": 0,
+                  "children": [
+                    {
+                      "stableKey": "r/gcolc99/fc36/ov1c0/ov2c0",
+                      "node": "root:2:2_text",
+                      "selfMs": 91,
+                      "subtreeMs": 91,
+                      "pct": 0.9,
+                      "commandCount": 1,
+                      "leafCount": 1,
+                      "overlayDepth": 2,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stableKey": "r/growc8",
+          "label": "dsl-string",
+          "node": "root:0",
+          "selfMs": 371,
+          "subtreeMs": 657,
+          "pct": 6.6,
+          "commandCount": 1,
+          "leafCount": 4,
+          "overlayDepth": 1,
+          "children": [
+            {
+              "stableKey": "r/growc8/fc2",
+              "node": "root:0:0_text",
+              "selfMs": 184,
+              "subtreeMs": 184,
+              "pct": 1.9,
+              "commandCount": 1,
+              "leafCount": 1,
+              "overlayDepth": 0,
+              "children": []
+            },
+            {
+              "stableKey": "r/growc8/fc22",
+              "selfMs": 0,
+              "subtreeMs": 102,
+              "pct": 1,
+              "commandCount": 0,
+              "children": [
+                {
+                  "stableKey": "r/growc8/fc22/ov1c0",
+                  "node": "root:0:2_text",
+                  "selfMs": 102,
+                  "subtreeMs": 102,
+                  "pct": 1,
+                  "commandCount": 1,
+                  "leafCount": 1,
+                  "overlayDepth": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stableKey": "r/growc14",
+          "selfMs": 0,
+          "subtreeMs": 235,
+          "pct": 2.4,
+          "commandCount": 0,
+          "children": [
+            {
+              "stableKey": "r/growc14/gcolc4",
+              "selfMs": 0,
+              "subtreeMs": 235,
+              "pct": 2.4,
+              "commandCount": 0,
+              "children": [
+                {
+                  "stableKey": "r/growc14/gcolc4/fc96",
+                  "label": "dsl-narration",
+                  "node": "root:1:0_text",
+                  "selfMs": 235,
+                  "subtreeMs": 235,
+                  "pct": 2.4,
+                  "commandCount": 2,
+                  "leafCount": 1,
+                  "overlayDepth": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hotPath": [
+    {
+      "node": "root",
+      "selfMs": 1970,
+      "subtreeMs": 9909,
+      "pct": 100,
+      "stableKey": "r"
+    },
+    {
+      "node": "root:2",
+      "label": "canvas",
+      "selfMs": 6956,
+      "subtreeMs": 7047,
+      "pct": 71.1,
+      "stableKey": "r/gcolc99/fc36"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 977,
+    "height": 733
+  },
+  "fps": 30,
+  "durationMs": 3500,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 \u2014 10-custom-colors-odd-canvas** (gate-15 stress set for `@m0saic/charts/donut/v4`).\n\nCUSTOM COLORS + coprime canvas (S=980 > 977 letterbox path): per-segment colors, custom card color, 0.2 ring. Watch: color knobs bind, letterbox stays centered + seam-free at the odd canvas.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/donut/v4",
+      "props": {
+        "backgroundColor": "#0b1f16",
+        "ringThicknessFrac": 0.2,
+        "segmentLabels": "percent",
+        "centerValue": "86%",
+        "centerLabel": "Coverage",
+        "segments": [
+          {
+            "label": "Covered",
+            "value": 86,
+            "color": "#22c55e"
+          },
+          {
+            "label": "Partial",
+            "value": 9,
+            "color": "#eab308"
+          },
+          {
+            "label": "Missing",
+            "value": 5,
+            "color": "#ef4444"
+          }
+        ]
+      }
+    }
+  ]
+}

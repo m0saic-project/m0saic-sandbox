@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 6000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/fin/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-25-ffmpeg-pulse-fin", "basename": "candidate-002" },
+  "agent": { "note": "fin v2 per feedback. (1) Premium QR: now nests @m0saic/alpine... qr-carve (green modules = theme.primaryBright to match the FFmpeg logo, FFmpeg logo carved in the centre, pixelate assemble animation, transparent). I added moduleColor + version props to qr-carve (it hardcoded orange + auto-version); version bumped to 4 so the centre cutout stays recoverable + scans smaller. (2) m0saic attribution bottom-right ('m0saic.io', subtle) alongside the 'Built with m0saic' footer. QR points to m0saic.io. NOTE: this is the qr-carve composited LIVE (premium look); a true pre-rendered BAKE (scatter-bake pattern, alpha asset) is a clean follow-up if you want the optimization — flagging since you said 'baked'.", "question": "fin good? Scan-test the QR on mobile (render the mobile one-liner) — does it scan at that size? Is version 4 right, or bump it? Keep both 'Built with m0saic' (left) + 'm0saic.io' (right), or just one? And: live qr-carve OK, or do you want the true baked asset now?" }
+}

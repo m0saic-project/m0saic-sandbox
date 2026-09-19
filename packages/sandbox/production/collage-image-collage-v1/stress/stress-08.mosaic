@@ -1,0 +1,545 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "multi",
+  "steps": [
+    {
+      "name": "page_01",
+      "label": "page_01",
+      "durationMs": 1000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {
+          "1": {
+            "kind": "file",
+            "path": "<repo>/packages/cli/examples/media/nyc-square/1.jpg",
+            "mediaType": "image"
+          },
+          "2": {
+            "kind": "file",
+            "path": "<repo>/packages/cli/examples/media/nyc-square/2.jpg",
+            "mediaType": "image"
+          },
+          "3": {
+            "kind": "file",
+            "path": "<repo>/packages/cli/examples/media/nyc-square/3.jpg",
+            "mediaType": "image"
+          },
+          "4": {
+            "kind": "file",
+            "path": "<repo>/packages/cli/examples/media/nyc-square/4.jpg",
+            "mediaType": "image"
+          },
+          "5": {
+            "kind": "file",
+            "path": "<repo>/packages/cli/examples/media/nyc-square/5.jpg",
+            "mediaType": "image"
+          },
+          "6": {
+            "kind": "file",
+            "path": "<repo>/packages/cli/examples/media/nyc-square/6.jpg",
+            "mediaType": "image"
+          },
+          "7": {
+            "kind": "file",
+            "path": "<repo>/packages/cli/examples/media/nyc-square/7.jpg",
+            "mediaType": "image"
+          },
+          "8": {
+            "kind": "file",
+            "path": "<repo>/packages/cli/examples/media/nyc-square/8.jpg",
+            "mediaType": "image"
+          }
+        },
+        "m0": "4(2[1,1],2[1,1],2[1,1],2[1,1])",
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "1",
+            "editor": {
+              "owner": "template",
+              "label": "img:0"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.029166666666666667,
+                "right": 0.0125,
+                "top": 0.025925925925925925,
+                "bottom": 0.011111111111111112
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "5",
+            "editor": {
+              "owner": "template",
+              "label": "img:4"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.029166666666666667,
+                "right": 0.0125,
+                "top": 0.018518518518518517,
+                "bottom": 0.025925925925925925
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "3",
+            "editor": {
+              "owner": "template",
+              "label": "img:2"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.020833333333333332,
+                "right": 0.0125,
+                "top": 0.025925925925925925,
+                "bottom": 0.011111111111111112
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "7",
+            "editor": {
+              "owner": "template",
+              "label": "img:6"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.020833333333333332,
+                "right": 0.0125,
+                "top": 0.018518518518518517,
+                "bottom": 0.025925925925925925
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "2",
+            "editor": {
+              "owner": "template",
+              "label": "img:1"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.020833333333333332,
+                "right": 0.020833333333333332,
+                "top": 0.025925925925925925,
+                "bottom": 0.011111111111111112
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "6",
+            "editor": {
+              "owner": "template",
+              "label": "img:5"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.020833333333333332,
+                "right": 0.020833333333333332,
+                "top": 0.018518518518518517,
+                "bottom": 0.025925925925925925
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "4",
+            "editor": {
+              "owner": "template",
+              "label": "img:3"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.0125,
+                "right": 0.029166666666666667,
+                "top": 0.025925925925925925,
+                "bottom": 0.011111111111111112
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "8",
+            "editor": {
+              "owner": "template",
+              "label": "img:7"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.0125,
+                "right": 0.029166666666666667,
+                "top": 0.018518518518518517,
+                "bottom": 0.025925925925925925
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "labels": {
+          "r/growc0/fc0": "img:0 · 1x1 · crop 11%",
+          "r/growc0/fc1": "img:4 · 1x1 · crop 11%",
+          "r/growc1/fc0": "img:2 · 1x1 · crop 11%",
+          "r/growc1/fc1": "img:6 · 1x1 · crop 11%",
+          "r/growc2/fc0": "img:1 · 1x1 · crop 11%",
+          "r/growc2/fc1": "img:5 · 1x1 · crop 11%",
+          "r/growc3/fc0": "img:3 · 1x1 · crop 11%",
+          "r/growc3/fc1": "img:7 · 1x1 · crop 11%"
+        },
+        "fps": 30,
+        "durationMs": 1000,
+        "size": {
+          "width": 480,
+          "height": 270
+        },
+        "backgroundColor": "#101014",
+        "format": {
+          "kind": "image",
+          "container": "png"
+        },
+        "editor": {
+          "owner": "user",
+          "label": "Image Collage — page 1/2 · 8 images · mean crop 10.9%"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    },
+    {
+      "name": "page_02",
+      "label": "page_02",
+      "durationMs": 1000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {
+          "9": {
+            "kind": "file",
+            "path": "<repo>/packages/cli/examples/media/nyc-square/9.jpg",
+            "mediaType": "image"
+          },
+          "10": {
+            "kind": "file",
+            "path": "<repo>/packages/cli/examples/media/nyc-square/10.jpg",
+            "mediaType": "image"
+          },
+          "11": {
+            "kind": "file",
+            "path": "<repo>/packages/cli/examples/media/nyc-square/11.jpg",
+            "mediaType": "image"
+          },
+          "12": {
+            "kind": "file",
+            "path": "<repo>/packages/cli/examples/media/nyc-square/12.jpg",
+            "mediaType": "image"
+          },
+          "13": {
+            "kind": "file",
+            "path": "<repo>/packages/cli/examples/media/nyc-square/13.jpg",
+            "mediaType": "image"
+          },
+          "14": {
+            "kind": "file",
+            "path": "<repo>/packages/cli/examples/media/nyc-square/14.jpg",
+            "mediaType": "image"
+          },
+          "15": {
+            "kind": "file",
+            "path": "<repo>/packages/cli/examples/media/nyc-square/15.jpg",
+            "mediaType": "image"
+          },
+          "16": {
+            "kind": "file",
+            "path": "<repo>/packages/cli/examples/media/nyc-square/16.jpg",
+            "mediaType": "image"
+          }
+        },
+        "m0": "4(2[1,1],2[1,1],2[1,1],2[1,1])",
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "9",
+            "editor": {
+              "owner": "template",
+              "label": "img:8"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.029166666666666667,
+                "right": 0.0125,
+                "top": 0.025925925925925925,
+                "bottom": 0.011111111111111112
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "13",
+            "editor": {
+              "owner": "template",
+              "label": "img:12"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.029166666666666667,
+                "right": 0.0125,
+                "top": 0.018518518518518517,
+                "bottom": 0.025925925925925925
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "11",
+            "editor": {
+              "owner": "template",
+              "label": "img:10"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.020833333333333332,
+                "right": 0.0125,
+                "top": 0.025925925925925925,
+                "bottom": 0.011111111111111112
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "15",
+            "editor": {
+              "owner": "template",
+              "label": "img:14"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.020833333333333332,
+                "right": 0.0125,
+                "top": 0.018518518518518517,
+                "bottom": 0.025925925925925925
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "10",
+            "editor": {
+              "owner": "template",
+              "label": "img:9"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.020833333333333332,
+                "right": 0.020833333333333332,
+                "top": 0.025925925925925925,
+                "bottom": 0.011111111111111112
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "14",
+            "editor": {
+              "owner": "template",
+              "label": "img:13"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.020833333333333332,
+                "right": 0.020833333333333332,
+                "top": 0.018518518518518517,
+                "bottom": 0.025925925925925925
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "12",
+            "editor": {
+              "owner": "template",
+              "label": "img:11"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.0125,
+                "right": 0.029166666666666667,
+                "top": 0.025925925925925925,
+                "bottom": 0.011111111111111112
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "16",
+            "editor": {
+              "owner": "template",
+              "label": "img:15"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.0125,
+                "right": 0.029166666666666667,
+                "top": 0.018518518518518517,
+                "bottom": 0.025925925925925925
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "labels": {
+          "r/growc0/fc0": "img:8 · 1x1 · crop 11%",
+          "r/growc0/fc1": "img:12 · 1x1 · crop 11%",
+          "r/growc1/fc0": "img:10 · 1x1 · crop 11%",
+          "r/growc1/fc1": "img:14 · 1x1 · crop 11%",
+          "r/growc2/fc0": "img:9 · 1x1 · crop 11%",
+          "r/growc2/fc1": "img:13 · 1x1 · crop 11%",
+          "r/growc3/fc0": "img:11 · 1x1 · crop 11%",
+          "r/growc3/fc1": "img:15 · 1x1 · crop 11%"
+        },
+        "fps": 30,
+        "durationMs": 1000,
+        "size": {
+          "width": 480,
+          "height": 270
+        },
+        "backgroundColor": "#101014",
+        "format": {
+          "kind": "image",
+          "container": "png"
+        },
+        "editor": {
+          "owner": "user",
+          "label": "Image Collage — page 2/2 · 8 images · mean crop 10.9%"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "size": {
+    "width": 480,
+    "height": 270
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "editor": {
+    "owner": "user",
+    "provenance": {
+      "kind": "template_invocation",
+      "templateId": "@m0saic/collage/image-collage/v1",
+      "props": {
+        "sourceIds": [
+          "<repo>/packages/cli/examples/media/nyc-square/1.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/2.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/3.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/4.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/5.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/6.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/7.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/8.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/9.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/10.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/11.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/12.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/13.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/14.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/15.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/16.jpg"
+        ]
+      },
+      "invocationId": "inv-sources-0",
+      "sourcePath": "sources[0]"
+    }
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

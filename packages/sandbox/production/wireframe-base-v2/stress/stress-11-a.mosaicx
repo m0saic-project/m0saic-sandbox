@@ -1,0 +1,30 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-11-a"
+  },
+  "agent": {
+    "note": "**STRESS 11-a — null frames as a LAYER EXPLODE** (iteration of stress-11, rejected: \"we have two layers… but only returned one file… layers must be emitted as separate files\").\n\n`nullFrames: \"show\"` now returns an **emit:multi pipeline — one PNG per overlay depth**. Same layout `3(1{2[-,1]},-,2[1,-])` → TWO files: `…-layer-0.png` (base: cells 1, 3 + the two depth-0 holes) and `…-layer-1.png` (the overlay inside cell 1: hole + cell 2). Every still keeps the SAME m0 geometry, so a cell holds its number and position across the set; leaves on other layers ride as alpha-0 ghosts, other layers' holes stay `-`. Holes are dashed, muted (55%) cells labelled `null` + size. Default `hide` = the normal single composite, byte-identical.\n\nWatch: two files land; layer 0 shows 1/3 + two nulls, layer 1 shows null + 2; numbering matches the composite; white canvas on both. Piece 3 (passthrough `0` lattice) will use the same pipeline shape.",
+    "question": "Layer explode pass or fail? Naming `<base>-layer-N.png` ok? Anything to change before the passthrough piece?"
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {
+        "M0String": "3(1{2[-,1]},-,2[1,-])",
+        "nullFrames": "show"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "language": "eng",
+  "codec": "mov_text",
+  "streamIndex": 2,
+  "default": true,
+  "forced": false,
+  "selectionRule": "default-flagged",
+  "clip": {
+    "startMs": 3000,
+    "endMs": 8000,
+    "durationMs": 5000,
+    "loopMode": "cut"
+  },
+  "cues": [
+    {
+      "startMs": 0,
+      "endMs": 2000,
+      "text": "This is a deliberately very long subtitle line that keeps going and going to probe whether the burn path fits text to the frame width or silently clips it"
+    },
+    {
+      "startMs": 3000,
+      "endMs": 5000,
+      "text": "Two lines here:\nthe second one sits below."
+    }
+  ]
+}

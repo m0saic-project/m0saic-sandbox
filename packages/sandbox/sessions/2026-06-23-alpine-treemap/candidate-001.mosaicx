@@ -1,0 +1,63 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/treemap/v1",
+      "props": {
+        "items": [
+          {
+            "label": "Engineering",
+            "value": 42
+          },
+          {
+            "label": "Sales",
+            "value": 26
+          },
+          {
+            "label": "Marketing",
+            "value": 16
+          },
+          {
+            "label": "Support",
+            "value": 9
+          },
+          {
+            "label": "Design",
+            "value": 7
+          }
+        ],
+        "title": "HEADCOUNT",
+        "subtitle": "By department",
+        "preset": "light",
+        "valueMode": "percent",
+        "cornerRadius": 0.2,
+        "showValue": true,
+        "anim": {
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "agent": {
+    "note": "candidate-001 — first cut of @m0saic/alpine/treemap/v1 (the 9th + FINAL Alpine template, completing the pack). A squarified treemap in the white card: value-sized rounded tiles packed to fill the card (squarified algorithm → balanced aspect ratios, no slivers), each labelled top-left with its name + share (% by default). Tiles fade in biggest→smallest. Built on the donut/heatmap placeRects model (absolute tight rects on the 4px lattice, grid as a full-canvas extraLayer → no quantization). Palette cycles ALPINE_PALETTE (per-item color override supported); label contrast auto-flips (white on saturated tiles). Long names truncate with an ellipsis; labels hide on tiles too small to hold them. Validated valid at 1280x800.",
+    "question": "First look at the Alpine treemap. Scrub it — tiles fade in biggest→smallest. Checking: (1) the squarified packing — do the tiles read as balanced rounded cards (no slivers), and is the gap right? (2) the label layout (name + % top-left), contrast on each tile, and the small-tile hide threshold; (3) palette + corner radius; (4) the fade cascade. Open Q: valueMode default percent — keep, or show raw value? I will iterate one nudge at a time.",
+    "response": {
+      "body": "it looks great. well done. lets make sure to test vertical, horizontal, and square as we iterate. value mode should be a human prop. tile corner radius should also be a human prop as a slider bounded to 0, 0.5",
+      "from": "human",
+      "at": "2026-06-22T23:17:24.001Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1920x1080.mp4"
+    }
+  }
+}

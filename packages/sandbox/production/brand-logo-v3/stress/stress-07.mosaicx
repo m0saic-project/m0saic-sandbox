@@ -1,0 +1,30 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 544,
+  "height": 544
+ },
+ "fps": 30,
+ "durationMs": 3200,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/brand/logo/v3",
+   "props": {
+    "animation": "progress_fill",
+    "progressSec": 1.5,
+    "oneShot": true
+   }
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "stress-07"
+ },
+ "agent": {
+  "note": "**STRESS 07/10 — 07-m33-progress-oneshot** (gate-28 stress set for `@m0saic/brand/logo/v3`).\n\nAuto progress, one-shot 1.5s. Watch: fills once, HOLDS full (no loop restart)."
+ }
+}

@@ -1,0 +1,81 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 480
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/commit-feed/v2",
+      "props": {
+        "rows": [
+          {
+            "kind": "perf",
+            "area": "avcodec",
+            "title": "avcodec: improve AV1 decode performance",
+            "hash": "a1b2c3d",
+            "author": "Anton Khirnov",
+            "date": "May 15",
+            "pr": 14201,
+            "reviewers": [
+              "James Almer"
+            ],
+            "signal": "warn"
+          },
+          {
+            "kind": "fix",
+            "area": "avfilter",
+            "title": "avfilter: fix memory leak in overlay filter",
+            "hash": "h7i8j9k",
+            "author": "Marton Balint",
+            "date": "May 13",
+            "pr": 14185,
+            "reviewers": [
+              "Anton Khirnov"
+            ],
+            "signal": "win"
+          },
+          {
+            "kind": "docs",
+            "area": "doc",
+            "title": "doc: update HLS documentation",
+            "hash": "l0m1n2o",
+            "author": "Limin Wang",
+            "date": "May 12",
+            "pr": 14180,
+            "reviewers": [],
+            "signal": "neutral"
+          }
+        ],
+        "title": "NOTABLE COMMITS",
+        "subtitle": "Highlight interesting work.",
+        "iconPath": "M16.944 11h4.306a.75.75 0 0 1 0 1.5h-4.306a5.001 5.001 0 0 1-9.888 0H2.75a.75.75 0 0 1 0-1.5h4.306a5.001 5.001 0 0 1 9.888 0Zm-1.444.75a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0Z",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 — 03-ultrawide** (retro stress set for `@m0saic/alpine/commit-feed/v2`).\n\nULTRAWIDE 4:1, 3 rows. Watch: header chip square, row content spread, signal bars.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-20T21:50:52.751Z",
+      "src": "<sandbox>/production/alpine-commit-feed-v2/stress/./stress-03-1920x480.mp4"
+    }
+  }
+}

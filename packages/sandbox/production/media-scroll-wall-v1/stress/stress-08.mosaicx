@@ -1,0 +1,37 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 6000,
+  "suggestedOutput": {
+    "dir": "./renders",
+    "basename": "08-window-vs-cliplength"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-window-vs-cliplength** (gate-36 stress set for `@m0saic/media/scroll_wall/v1`).\n\nAN 8S CLIP WINDOW ASKED OF 2S CLIPS at 1920x1080. `clipWindowMs` at its stop (8000ms) against a 2s clip, a 3s clip, an 8s clip and a 17.5s clip. The window must clamp per clip to that clip's own duration — asking for more footage than exists is the crash-shaped version of this knob. Watch: every tile plays and loops, the short clips loop more often, and nothing freezes on a held last frame.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/scroll_wall/v1",
+      "props": {
+        "clips": [
+          "<sandbox>/production/media-blur-regions-v1/fixtures/port-1080.mp4",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/signed-letter_sr.mp4",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/inbox_sr.mp4"
+        ],
+        "tiles": {
+          "clipWindowMs": 8000
+        }
+      }
+    }
+  ]
+}

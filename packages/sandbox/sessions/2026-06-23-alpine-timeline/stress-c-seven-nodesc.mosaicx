@@ -1,0 +1,72 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/timeline/v1",
+      "props": {
+        "events": [
+          {
+            "date": "2018",
+            "title": "Founded"
+          },
+          {
+            "date": "2019",
+            "title": "Seed round"
+          },
+          {
+            "date": "2020",
+            "title": "v1.0 shipped",
+            "description": ""
+          },
+          {
+            "date": "2021",
+            "title": "Series A",
+            "description": ""
+          },
+          {
+            "date": "2022",
+            "title": "Series B"
+          },
+          {
+            "date": "2023",
+            "title": "IPO filed"
+          },
+          {
+            "date": "2024",
+            "title": "Global"
+          }
+        ],
+        "title": "COMPANY HISTORY",
+        "subtitle": "7 milestones",
+        "preset": "light",
+        "orientation": "horizontal",
+        "showDescription": false,
+        "anim": {
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant C — 7 events (the MAX) on a horizontal card, showDescription OFF (date + title only). Tests the event cap, dense dot spacing, and the no-description compact blocks.",
+    "question": "Approve or deny. Do 7 dots space cleanly across the card with date+title only?",
+    "response": {
+      "body": "approved",
+      "from": "human",
+      "at": "2026-06-22T22:29:47.650Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

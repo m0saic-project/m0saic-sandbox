@@ -1,0 +1,34 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 17133,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 — 03-uuid128-fine-grid** (gate-34 stress set for `@m0saic/forensic/watermark/video/v1`).\n\n128-bit payload (BCH 255) on a finer 96×54 grid — 20 cells/bit (the default 64×36 gives only 9 → margin ~2, marginal).\n\nWatch: verify PASS with margin > 3; sidecar ~130 KB.\n\nVerify the render: `m0saic make @m0saic/forensic/watermark/verify/v1 -o stress-03-check.png --props '{\"videoPath\":\"<render>.mp4\"}'` (the sidecar lands beside the render).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/forensic/watermark/video/v1",
+      "props": {
+        "videoPath": "<repo>/packages/cli/examples/media/hero/hero_5.mp4",
+        "payloadMode": "uuid128",
+        "payloadHex": "0123456789abcdef0123456789abcdef",
+        "keyHex": "cafe0001",
+        "gridCols": 96,
+        "gridRows": 54
+      }
+    }
+  ]
+}

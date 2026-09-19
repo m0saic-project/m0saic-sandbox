@@ -1,0 +1,396 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "sources": [
+    {
+      "type": "mosaic",
+      "ref": "info-pane",
+      "placement": {
+        "fit": "cover",
+        "focusY": 0,
+        "inset": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0.0763888888888889,
+          "left": 0
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "invoice",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0.016666666666666666,
+          "right": 0.00234375,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "invoice",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0.016666666666666666,
+          "right": 0,
+          "bottom": 0,
+          "left": 0.00234375
+        }
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "invoice",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0.004545454545454545,
+          "right": 0.00234375,
+          "bottom": 0.010606060606060607,
+          "left": 0
+        }
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "invoice",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0.004545454545454545,
+          "right": 0,
+          "bottom": 0.010606060606060607,
+          "left": 0.00234375
+        }
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "image"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "00:00:00.000"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#ffffff",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#000000",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.004545454545454545,
+          "right": 0.00234375,
+          "bottom": 0.010606060606060607,
+          "left": 0
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "image"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "00:00:00.000"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#ffffff",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#000000",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.004545454545454545,
+          "right": 0,
+          "bottom": 0.010606060606060607,
+          "left": 0.00234375
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "image"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "00:00:00.000"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#ffffff",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#000000",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.016666666666666666,
+          "right": 0.00234375,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "image"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "00:00:00.000"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#ffffff",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#000000",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.016666666666666666,
+          "right": 0,
+          "bottom": 0,
+          "left": 0.00234375
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "assets": {
+    "invoice": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/demo-docs/invoice.png",
+      "mediaType": "image"
+    }
+  },
+  "m0": "120[0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1)]{120[0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{24[0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,2(1,1)]}}}",
+  "children": {
+    "info-pane": {
+      "kind": "mosaic_document",
+      "version": 1,
+      "assets": {},
+      "m0": "1",
+      "sources": [
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "image"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "invoice.png"
+              },
+              "style": {
+                "fontSize": 16,
+                "fontColor": "#ffffff",
+                "borderWidth": 1,
+                "borderColor": "#ffffff"
+              },
+              "visual": {
+                "backgroundColor": "#0d0d0d"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "top",
+                "yExpr": "6",
+                "padding": {
+                  "x": 0.015
+                }
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Duration: 0.00s  |  Size: 79.08 KiB (80,974 bytes)  |  Container: piped png sequence\nStream 0 Video: 1600x1200 rgb24 8-bit 25.00 fps PNG (Portable Network Graphics) image"
+              },
+              "style": {
+                "fontSize": 9,
+                "fontColor": "#a0a0a0"
+              },
+              "visual": {},
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "top",
+                "yExpr": "33",
+                "padding": {
+                  "x": 0.015
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "template"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      ],
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "fps": 30,
+      "durationMs": 2000,
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  },
+  "format": {
+    "kind": "image",
+    "container": "png"
+  },
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/commit-feed/v1",
+      "props": {
+        "rows": [
+          {
+            "kind": "perf",
+            "area": "avcodec",
+            "title": "avcodec: improve AV1 decode performance",
+            "hash": "a1b2c3d",
+            "author": "Anton Khirnov",
+            "date": "May 15",
+            "pr": 14201,
+            "reviewers": [
+              "James Almer",
+              "Michael Niedermayer"
+            ],
+            "signal": "warn"
+          },
+          {
+            "kind": "feat",
+            "area": "avformat",
+            "title": "avformat: add support for new container",
+            "hash": "d4e5f6g",
+            "author": "James Almer",
+            "date": "May 14",
+            "pr": 14198,
+            "reviewers": [
+              "Anton Khirnov"
+            ],
+            "signal": "neutral"
+          },
+          {
+            "kind": "fix",
+            "area": "avfilter",
+            "title": "avfilter: fix memory leak in overlay filter",
+            "hash": "h7i8j9k",
+            "author": "Marton Balint",
+            "date": "May 13",
+            "pr": 14185,
+            "reviewers": [
+              "Anton Khirnov",
+              "Limin Wang"
+            ],
+            "signal": "win"
+          },
+          {
+            "kind": "docs",
+            "area": "doc",
+            "title": "doc: update HLS documentation",
+            "hash": "l0m1n2o",
+            "author": "Limin Wang",
+            "date": "May 12",
+            "pr": 14180,
+            "reviewers": [
+              "Marton Balint"
+            ],
+            "signal": "neutral"
+          },
+          {
+            "kind": "test",
+            "area": "tests",
+            "title": "tests: add FATE test for edge case",
+            "hash": "p3q4r5s",
+            "author": "Michael Niedermayer",
+            "date": "May 16",
+            "pr": 14205,
+            "reviewers": [
+              "James Almer"
+            ],
+            "signal": "win"
+          }
+        ],
+        "title": "NOTABLE COMMITS",
+        "subtitle": "Highlight interesting work.",
+        "accent": "#3fb950",
+        "anim": {
+          "introFrac": 0.7,
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": "<sandbox>/sessions/2026-06-25-alpine-commit-feed",
+    "basename": "candidate-002"
+  },
+  "agent": {
+    "note": "candidate-001 feedback fixed. (1) QUANTIZATION (desktop rows + stretched icon box): switched the WHOLE chrome to placeRects (exact-pixel rects packed onto few layers with importance z-order) — icons are exact squares, reviewer discs are true circles, no row drift. m0 208K -> 114K, fewer layers (the perf win). (2) PORTRAIT cramping: text is now width-capped fixed fonts (was fit:contain, which scales to height then CLIPS width on long strings), and narrow/portrait drops the reviewer discs + PR and gives the title its own full-width line. Header title + subtitle + author all width-capped now. (3) ALSO converted the stat-card (it was using placeRect-alone, same bloat) to placeRects — m0 ~16K -> 4K, 25 tests green, geometry identical (glyph still exact-square-centered). Render one-liners in .scratch/share.md.",
+    "question": "Quantization gone (icons square, rows aligned, circles)? Portrait readable now? If good, I compose the notable-commits beat (feed-left + Merged PRs / Review Coverage / Open Issues / Contributors rail).",
+    "response": {
+      "body": "Yes. looks good. the higher dsl cost is reasonable for a hero template. it needs many pixels to render but it has been designed for this resolution (and whatever input), and DSL is cheap tp parse at arbitrary length.",
+      "from": "human",
+      "at": "2026-06-25T06:52:56.863Z",
+      "src": "<sandbox>/sessions/2026-06-25-alpine-commit-feed/candidate-002-1280x708.mp4"
+    }
+  }
+}

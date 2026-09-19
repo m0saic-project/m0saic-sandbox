@@ -1,0 +1,106 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1920
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/contributor-table/v1",
+      "props": {
+        "rows": [
+          {
+            "rank": 1,
+            "name": "Anton Khirnov",
+            "values": [
+              23,
+              4512,
+              2103
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Michael Niedermayer",
+            "values": [
+              18,
+              3204,
+              1034
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "James Almer",
+            "values": [
+              14,
+              2193,
+              812
+            ]
+          },
+          {
+            "rank": 4,
+            "name": "Marton Balint",
+            "values": [
+              11,
+              1842,
+              1201
+            ]
+          },
+          {
+            "rank": 5,
+            "name": "Limin Wang",
+            "values": [
+              9,
+              1503,
+              623
+            ]
+          }
+        ],
+        "columns": [
+          "Commits",
+          "Additions",
+          "Deletions"
+        ],
+        "title": "TOP CONTRIBUTORS",
+        "subtitle": "This week",
+        "accent": "#3fb950",
+        "topTint": 3,
+        "columnColors": [
+          null,
+          "#3fb950",
+          "#f85149"
+        ],
+        "columnSigns": [
+          "",
+          "+",
+          "-"
+        ],
+        "anim": {
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": "<sandbox>/sessions/2026-06-24-alpine-contributor-table",
+    "basename": "candidate-007"
+  },
+  "agent": {
+    "note": "candidate-006 feedback applied to the TABLE (desktop + square). (1) Header icon is now SQUARE — its cell is built in pixels so width == header-band height, with an even 15/70/15 inset both axes → a square rounded chip (was a wide rect). (2) Value columns now use the same diff treatment as mobile: Additions green +, Deletions red - (via the columnColors/columnSigns defaults); Commits stays white. (3) Also fixed a square-aspect name clip ('Michael Niedermay...') by width-capping the table name to a fixed font that shrinks to fit instead of clipping — landscape name size is visually unchanged (cap binds only when the slot is tight). Mobile/portrait unchanged (approved). This file is landscape; switch aspect in Make to check square too.",
+    "question": "Desktop + square good now (square icon, colored signed columns)? If yes, the primitive is done across all 3 aspects — I'll lock it (unit test + master gate) and compose Beat 3 (top-contributors): table-left + stat-rail-right under pulse-chrome.",
+    "response": {
+      "body": "yep all three look good",
+      "from": "human",
+      "at": "2026-06-24T16:16:45.816Z",
+      "src": "<sandbox>/sessions/2026-06-24-alpine-contributor-table/candidate-007-1080x1920.mp4"
+    }
+  }
+}

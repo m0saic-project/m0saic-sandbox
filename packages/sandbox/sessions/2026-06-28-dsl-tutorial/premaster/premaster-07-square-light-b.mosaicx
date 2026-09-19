@@ -1,0 +1,49 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "3(3[1,1,1],3[1,1,1],3[1,1,1])",
+        "speedMultiplier": 2,
+        "preset": "light",
+        "stepEvents": "enter+leaf",
+        "showChrome": true,
+        "title": "Square • Light",
+        "showDslString": false,
+        "canvasWidth": 1080,
+        "canvasHeight": 1080
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "premaster-07-square-light-b"
+  },
+  "agent": {
+    "note": "**Re-review (iterates 07-a).** Added a **hairline divider under the header** when the DSL strip is hidden — so the header reads as chrome instead of blending into the canvas beneath it. (Reflow + light default unchanged from 07-a, which you approved otherwise.)",
+    "question": "Header divider reads right now with the DSL strip hidden?",
+    "response": {
+      "body": "approved. looks good",
+      "from": "human",
+      "at": "2026-07-02T22:39:09.468Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/premaster/./premaster-07-square-light-b-1920x1080.mp4"
+    },
+    "comments": [
+      {
+        "body": "Iterates premaster-07-square-light-a (frozen at its verdict). Template-side fix, same config.",
+        "from": "agent"
+      }
+    ]
+  }
+}

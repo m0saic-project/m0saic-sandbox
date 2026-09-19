@@ -1,0 +1,4 @@
+{"kind":"mosaicx_document","version":1,"m0":"F","assets":{},"size":{"width":1280,"height":800},"fps":30,"durationMs":2000,
+"sources":[{"type":"template_invocation","templateId":"@m0saic/alpine/donut/v1","props":{
+"title":"DONUT CHART","subtitle":"Revenue Mix","centerValue":"$12,480","centerLabel":"Total",
+"segments":[{"label":"Enterprise","value":42},{"label":"Pro","value":33},{"label":"Free","value":25}]}}]}

@@ -1,0 +1,34 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "2(2[1,1],2[1,1])",
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": false,
+        "showInspector": false
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "premaster-08-chromeless"
+  },
+  "agent": {
+    "note": "**Pre-master · Panel toggles.** `2(2[1,1],2[1,1])` with **`showChrome: false`** (no header/status) and **`showInspector: false`** — a bare canvas + DSL-string view. Verify the shell **reflows** to fill the freed space with no gaps / misalignment.",
+    "question": "Chromeless + inspector-off relayout is clean (canvas + string fill the frame, no leftover gaps)?",
+    "response": null
+  }
+}

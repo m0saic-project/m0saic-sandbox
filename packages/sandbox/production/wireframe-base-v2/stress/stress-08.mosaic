@@ -1,0 +1,183 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "4[1,0,0,3(2[1,1],1,2[1,1])]{1}",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-grid-paper-textbook** (gate-29 stress set for `@m0saic/wireframe/base/v2`).\n\nThe NEWLY WIRED paper grid (Layout page 'Textbook' style): thumb-light tiles + a 1/16-pitch lattice at 8% ink OVER the tiles.\n\nWatch: graph-paper reads across the whole canvas incl. over tiles; rounded thumb corners; no labels (thumb mode). Prune-vs-keep verdict here.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#f3f5f8",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#000000",
+          "alpha": 0.12,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#eef1f5",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#000000",
+          "alpha": 0.12,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f3f5f8",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#000000",
+          "alpha": 0.12,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#eef1f5",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#000000",
+          "alpha": 0.12,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f3f5f8",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#000000",
+          "alpha": 0.12,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#eef1f5",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#000000",
+          "alpha": 0.12,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#000000",
+      "overlay": {
+        "alpha": "0.08"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M68 0 h1 v1080 h-1 Z M136 0 h1 v1080 h-1 Z M204 0 h1 v1080 h-1 Z M272 0 h1 v1080 h-1 Z M340 0 h1 v1080 h-1 Z M408 0 h1 v1080 h-1 Z M476 0 h1 v1080 h-1 Z M544 0 h1 v1080 h-1 Z M612 0 h1 v1080 h-1 Z M680 0 h1 v1080 h-1 Z M748 0 h1 v1080 h-1 Z M816 0 h1 v1080 h-1 Z M884 0 h1 v1080 h-1 Z M952 0 h1 v1080 h-1 Z M1020 0 h1 v1080 h-1 Z M1088 0 h1 v1080 h-1 Z M1156 0 h1 v1080 h-1 Z M1224 0 h1 v1080 h-1 Z M1292 0 h1 v1080 h-1 Z M1360 0 h1 v1080 h-1 Z M1428 0 h1 v1080 h-1 Z M1496 0 h1 v1080 h-1 Z M1564 0 h1 v1080 h-1 Z M1632 0 h1 v1080 h-1 Z M1700 0 h1 v1080 h-1 Z M1768 0 h1 v1080 h-1 Z M1836 0 h1 v1080 h-1 Z M1904 0 h1 v1080 h-1 Z M0 68 h1920 v1 h-1920 Z M0 136 h1920 v1 h-1920 Z M0 204 h1920 v1 h-1920 Z M0 272 h1920 v1 h-1920 Z M0 340 h1920 v1 h-1920 Z M0 408 h1920 v1 h-1920 Z M0 476 h1920 v1 h-1920 Z M0 544 h1920 v1 h-1920 Z M0 612 h1920 v1 h-1920 Z M0 680 h1920 v1 h-1920 Z M0 748 h1920 v1 h-1920 Z M0 816 h1920 v1 h-1920 Z M0 884 h1920 v1 h-1920 Z M0 952 h1920 v1 h-1920 Z M0 1020 h1920 v1 h-1920 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "format": {
+    "kind": "image",
+    "container": "png",
+    "pixelFormat": "rgba"
+  },
+  "backgroundColor": "#ffffff@1.0"
+}

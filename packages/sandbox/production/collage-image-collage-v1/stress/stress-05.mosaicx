@@ -1,0 +1,55 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-nyc-wide-gutter-no-margin** (gate-31 stress set for `@m0saic/collage/image-collage/v1`).\n\nGutter 5% of the short edge (54px) with margin 0 — images run to the canvas edge, wide channels between.\n\nWatch: corner pixels are photo (margin 0); all gutters 54px; the lattice still fills the sheet.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "shipped (not individually reviewed)",
+      "text": "Template shipped on the default + tutorial verdict (\"seems fine to me, lets ship it\"); this variant was not individually reviewed by the founder. Agent pre-pass: clean. Recipe + twin + still stay as the record.",
+      "via": "transcribed by agent from the gate-31 chat verdict",
+      "from": "agent:claude",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/collage/image-collage/v1",
+      "props": {
+        "sourceIds": [
+          "<repo>/packages/cli/examples/media/nyc-square/1.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/2.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/3.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/4.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/5.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/6.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/7.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/8.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/9.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/10.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/11.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/12.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/13.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/14.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/15.jpg",
+          "<repo>/packages/cli/examples/media/nyc-square/16.jpg"
+        ],
+        "gutter": 0.05,
+        "margin": 0
+      }
+    }
+  ]
+}

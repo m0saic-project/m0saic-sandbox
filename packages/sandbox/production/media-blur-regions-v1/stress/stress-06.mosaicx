@@ -1,0 +1,66 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 \u2014 06-edge-hug** (gate-19 stress set for `@m0saic/media/blur-regions/v1`).\n\nRegions hugging every edge: x=0 strip, y=0 strip, exact right-edge and bottom-edge rects. Watch: no off-by-one gaps at the borders, no clamp errors (all fully inside).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/blur-regions/v1",
+      "props": {
+        "sourceId": "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4",
+        "regions": {
+          "canvas": {
+            "w": 1280,
+            "h": 720
+          },
+          "regions": [
+            {
+              "x": 0,
+              "y": 200,
+              "w": 120,
+              "h": 200
+            },
+            {
+              "x": 500,
+              "y": 0,
+              "w": 280,
+              "h": 90
+            },
+            {
+              "x": 1160,
+              "y": 300,
+              "w": 120,
+              "h": 200
+            },
+            {
+              "x": 500,
+              "y": 640,
+              "w": 280,
+              "h": 80
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

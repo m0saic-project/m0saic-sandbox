@@ -1,0 +1,929 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1{40[-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121(0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8[1,0,0,0,0,0,0,120(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1{1{1{1{1{1{1{1{1{1{1{1{1{1{1{1{1{119[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,121(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{40[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,121(0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,121(0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,121(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{60[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,121(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]}}}}}}}}}}}}}}}}}}}}}},0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30[0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,3[8[-,0,0,0,0,0,47(0,0,0,0,1,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-,0,0,0,0,0,0,0,0,0,0,1),-],8[-,0,0,0,0,0,47(0,0,0,0,1,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-,0,0,0,0,0,0,0,0,0,0,1),-],8[-,0,0,0,0,0,47(0,0,0,0,1,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-,0,0,0,0,0,0,0,0,0,0,1),-]],0,0,0,0,0,0,0,0,0,0,0,0,-])],0,0,0,0,0,0,-),-]}",
+  "assets": {},
+  "size": {
+    "width": 480,
+    "height": 1040
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#111827",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#1F2937",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "DONUT CHART"
+          },
+          "style": {
+            "fontSize": 51,
+            "fontColor": "#F1F5F9"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Revenue Mix"
+          },
+          "style": {
+            "fontSize": 27,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "overlay": {
+        "startAtSec": 0.0027448096424158575,
+        "alpha": "(min(1,max(0,(t-0.0027448096424158575)/0.1251104166666666)))*(min(1,max(0,(t-0.0027448096424158575)/0.1251104166666666)))*(3-2*(min(1,max(0,(t-0.0027448096424158575)/0.1251104166666666))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 121.9 323 A 108 108 0 0 1 156.3 329.3 L 123.6 420.8 A 10.8 10.8 0 0 0 120.2 420.2 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 862
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "overlay": {
+        "startAtSec": 0.054654296342933,
+        "alpha": "(min(1,max(0,(t-0.054654296342933)/0.1251104166666666)))*(min(1,max(0,(t-0.054654296342933)/0.1251104166666666)))*(3-2*(min(1,max(0,(t-0.054654296342933)/0.1251104166666666))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 152.7 328.1 A 108 108 0 0 1 186.9 346.2 L 126.7 422.5 A 10.8 10.8 0 0 0 123.3 420.7 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 862
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "overlay": {
+        "startAtSec": 0.10800659117506467,
+        "alpha": "(min(1,max(0,(t-0.10800659117506467)/0.1251104166666666)))*(min(1,max(0,(t-0.10800659117506467)/0.1251104166666666)))*(3-2*(min(1,max(0,(t-0.10800659117506467)/0.1251104166666666))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 183.9 344 A 108 108 0 0 1 210.5 372.1 L 129.1 425.1 A 10.8 10.8 0 0 0 126.4 422.3 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 862
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "overlay": {
+        "startAtSec": 0.16292913800994954,
+        "alpha": "(min(1,max(0,(t-0.16292913800994954)/0.1251104166666666)))*(min(1,max(0,(t-0.16292913800994954)/0.1251104166666666)))*(3-2*(min(1,max(0,(t-0.16292913800994954)/0.1251104166666666))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 208.4 369 A 108 108 0 0 1 224.6 404.1 L 130.5 428.3 A 10.8 10.8 0 0 0 128.8 424.8 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 862
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "overlay": {
+        "startAtSec": 0.21956932639352897,
+        "alpha": "(min(1,max(0,(t-0.21956932639352897)/0.12511041666666667)))*(min(1,max(0,(t-0.21956932639352897)/0.12511041666666667)))*(3-2*(min(1,max(0,(t-0.21956932639352897)/0.12511041666666667))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 223.6 400.5 A 108 108 0 0 1 227.7 439 L 130.8 431.8 A 10.8 10.8 0 0 0 130.4 428 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 862
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "overlay": {
+        "startAtSec": 0.2780991562534521,
+        "alpha": "(min(1,max(0,(t-0.2780991562534521)/0.12511041666666659)))*(min(1,max(0,(t-0.2780991562534521)/0.12511041666666659)))*(3-2*(min(1,max(0,(t-0.2780991562534521)/0.12511041666666659))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 227.9 435.2 A 108 108 0 0 1 219.5 473 L 129.9 435.2 A 10.8 10.8 0 0 0 130.8 431.4 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 862
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "overlay": {
+        "startAtSec": 0.338721406636136,
+        "alpha": "(min(1,max(0,(t-0.338721406636136)/0.12511041666666659)))*(min(1,max(0,(t-0.338721406636136)/0.12511041666666659)))*(3-2*(min(1,max(0,(t-0.338721406636136)/0.12511041666666659))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 220.9 469.5 A 108 108 0 0 1 200.8 502.6 L 128.1 438.2 A 10.8 10.8 0 0 0 130.1 434.9 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 862
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "overlay": {
+        "startAtSec": 0.40167794739767954,
+        "alpha": "(min(1,max(0,(t-0.40167794739767954)/0.12511041666666667)))*(min(1,max(0,(t-0.40167794739767954)/0.12511041666666667)))*(3-2*(min(1,max(0,(t-0.40167794739767954)/0.12511041666666667))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 203.3 499.8 A 108 108 0 0 1 173.7 524.7 L 125.4 440.4 A 10.8 10.8 0 0 0 128.3 437.9 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 862
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#388bfd",
+      "overlay": {
+        "startAtSec": 0.4731482202493389,
+        "alpha": "(min(1,max(0,(t-0.4731482202493389)/0.13058888888888887)))*(min(1,max(0,(t-0.4731482202493389)/0.13058888888888887)))*(3-2*(min(1,max(0,(t-0.4731482202493389)/0.13058888888888887))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 170.4 526.5 A 108 108 0 0 1 135.7 537.9 L 121.6 441.7 A 10.8 10.8 0 0 0 125 440.6 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 862
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#388bfd",
+      "overlay": {
+        "startAtSec": 0.5449561242435332,
+        "alpha": "(min(1,max(0,(t-0.5449561242435332)/0.13058888888888887)))*(min(1,max(0,(t-0.5449561242435332)/0.13058888888888887)))*(3-2*(min(1,max(0,(t-0.5449561242435332)/0.13058888888888887))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 139.4 537.2 A 108 108 0 0 1 99.1 537 L 117.9 441.6 A 10.8 10.8 0 0 0 121.9 441.6 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 862
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#388bfd",
+      "overlay": {
+        "startAtSec": 0.6205814774457635,
+        "alpha": "(min(1,max(0,(t-0.6205814774457635)/0.13058888888888887)))*(min(1,max(0,(t-0.6205814774457635)/0.13058888888888887)))*(3-2*(min(1,max(0,(t-0.6205814774457635)/0.13058888888888887))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 102.9 537.6 A 108 108 0 0 1 65 524 L 114.5 440.3 A 10.8 10.8 0 0 0 118.3 441.7 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 862
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#388bfd",
+      "overlay": {
+        "startAtSec": 0.7007067516578619,
+        "alpha": "(min(1,max(0,(t-0.7007067516578619)/0.13058888888888887)))*(min(1,max(0,(t-0.7007067516578619)/0.13058888888888887)))*(3-2*(min(1,max(0,(t-0.7007067516578619)/0.13058888888888887))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 68.3 525.8 A 108 108 0 0 1 37.2 500.3 L 111.7 437.9 A 10.8 10.8 0 0 0 114.8 440.5 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 862
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#388bfd",
+      "overlay": {
+        "startAtSec": 0.7862458129648364,
+        "alpha": "(min(1,max(0,(t-0.7862458129648364)/0.13058888888888887)))*(min(1,max(0,(t-0.7862458129648364)/0.13058888888888887)))*(3-2*(min(1,max(0,(t-0.7862458129648364)/0.13058888888888887))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 39.7 503.2 A 108 108 0 0 1 18.8 468.8 L 109.9 434.8 A 10.8 10.8 0 0 0 112 438.2 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 862
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#388bfd",
+      "overlay": {
+        "startAtSec": 0.8784713814379054,
+        "alpha": "(min(1,max(0,(t-0.8784713814379054)/0.13058888888888887)))*(min(1,max(0,(t-0.8784713814379054)/0.13058888888888887)))*(3-2*(min(1,max(0,(t-0.8784713814379054)/0.13058888888888887))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 20.2 472.3 A 108 108 0 0 1 12 432.9 L 109.2 431.2 A 10.8 10.8 0 0 0 110 435.1 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 862
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3fb950",
+      "overlay": {
+        "startAtSec": 0.9816468621862763,
+        "alpha": "(min(1,max(0,(t-0.9816468621862763)/0.1475833333333333)))*(min(1,max(0,(t-0.9816468621862763)/0.1475833333333333)))*(3-2*(min(1,max(0,(t-0.9816468621862763)/0.1475833333333333))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 12 429.1 A 108 108 0 0 1 20.6 388.8 L 110.1 426.8 A 10.8 10.8 0 0 0 109.2 430.8 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 862
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3fb950",
+      "overlay": {
+        "startAtSec": 1.1101324603783087,
+        "alpha": "(min(1,max(0,(t-1.1101324603783087)/0.1475833333333333)))*(min(1,max(0,(t-1.1101324603783087)/0.1475833333333333)))*(3-2*(min(1,max(0,(t-1.1101324603783087)/0.1475833333333333))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 19.2 392.3 A 108 108 0 0 1 43.6 354.6 L 112.4 423.4 A 10.8 10.8 0 0 0 109.9 427.1 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 862
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3fb950",
+      "overlay": {
+        "startAtSec": 1.2621331343158488,
+        "alpha": "(min(1,max(0,(t-1.2621331343158488)/0.1475833333333333)))*(min(1,max(0,(t-1.2621331343158488)/0.1475833333333333)))*(3-2*(min(1,max(0,(t-1.2621331343158488)/0.1475833333333333))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 41 357.3 A 108 108 0 0 1 77.8 331.6 L 115.8 421.1 A 10.8 10.8 0 0 0 112.1 423.6 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 862
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3fb950",
+      "overlay": {
+        "startAtSec": 1.4589189200592114,
+        "alpha": "(min(1,max(0,(t-1.4589189200592114)/0.1475833333333333)))*(min(1,max(0,(t-1.4589189200592114)/0.1475833333333333)))*(3-2*(min(1,max(0,(t-1.4589189200592114)/0.1475833333333333))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 74.4 333.1 A 108 108 0 0 1 118.1 323 L 119.8 420.2 A 10.8 10.8 0 0 0 115.4 421.2 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 862
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "42%"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#111827"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.2599999999999998)/0.6299999999999999)))*(min(1,max(0,(t-1.2599999999999998)/0.6299999999999999)))*(3-2*(min(1,max(0,(t-1.2599999999999998)/0.6299999999999999))))",
+        "window": {
+          "startSec": 1.2599999999999998
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "33%"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#111827"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.2599999999999998)/0.6299999999999999)))*(min(1,max(0,(t-1.2599999999999998)/0.6299999999999999)))*(3-2*(min(1,max(0,(t-1.2599999999999998)/0.6299999999999999))))",
+        "window": {
+          "startSec": 1.2599999999999998
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "25%"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#111827"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.2599999999999998)/0.6299999999999999)))*(min(1,max(0,(t-1.2599999999999998)/0.6299999999999999)))*(3-2*(min(1,max(0,(t-1.2599999999999998)/0.6299999999999999))))",
+        "window": {
+          "startSec": 1.2599999999999998
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "$%{eif\\:12*((1-(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))*(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))))+0.5\\:d},%{eif\\:480*((1-(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))*(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))))+0.5\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 10,
+            "fontColor": "#F1F5F9"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Total"
+          },
+          "style": {
+            "fontSize": 8,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4699999999999998)/0.6299999999999999)))*(min(1,max(0,(t-1.4699999999999998)/0.6299999999999999)))*(3-2*(min(1,max(0,(t-1.4699999999999998)/0.6299999999999999))))",
+        "window": {
+          "startSec": 1.4699999999999998
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "placement": {
+        "inset": {
+          "y": 0.25
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.4
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Enterprise"
+          },
+          "style": {
+            "fontSize": 17,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "42%"
+          },
+          "style": {
+            "fontSize": 17,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#388bfd",
+      "placement": {
+        "inset": {
+          "y": 0.25
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.4
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Pro"
+          },
+          "style": {
+            "fontSize": 17,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "33%"
+          },
+          "style": {
+            "fontSize": 17,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3fb950",
+      "placement": {
+        "inset": {
+          "y": 0.25
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.4
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Free"
+          },
+          "style": {
+            "fontSize": 17,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "25%"
+          },
+          "style": {
+            "fontSize": 17,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-dark-thick-ring** (gate-4 stress set for `@m0saic/alpine/donut/v3`).\n\nTALL SKINNY + preset:dark + ringThicknessFrac 0.9 (nearly a pie) + custom colors. Watch: hole text still fits the tiny hole, dark legend contrast.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": null
+  }
+}

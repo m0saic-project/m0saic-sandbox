@@ -1,0 +1,34 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/donut/v3",
+      "props": {}
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-02"
+  },
+  "agent": {
+    "note": "**GATE 4, TAKE 2 — ring rebuilt on current conventions** (forked from candidate-01, rejected: sliver-seam squares + weak animation).\n\nThe white squares WERE the construction: the premium sweep bbox-snapped ~N slivers to a coarse grid, and the rectangular snap corners printed at the segment gaps on every frame. That machinery existed only to keep mask counts under the overlay cliff for the draw-on.\n\n**Rebuild:** ONE construction for every mode — a full-cell inline-mask per segment (seam-free by construction, the same clean masks the static ring always used). Premium = clockwise staggered alpha BLOOM: each segment starts as the eased front reaches its start angle and fades over a duration proportional to its own arc, so the reveal advances like a continuous clockwise build. Light = same stagger as enable pops. The whole sliver apparatus (placePiece, letterbox, 96-division quantize, overlap constants) is DELETED — ~90 fewer lines, ≤MAX_SEGMENTS masks in every mode.\n\nEverything from candidate-01 still holds: content-hug legend + width-caps, equal-band legend stack, debugLayout contract (legend-swatch equal 2%+1px). 53/53 unit (sweep tests → bloom tests), e2e 7/7, battery ×14 canvases ×5 configs.\n\nStill open from take 1: the legend LOOK-SHIFT call, cover?, tutorial?, and the portrait `legend: bottom` design question.",
+    "question": "Play the animation — does the clockwise bloom read well? Final frame should be seam-free. Then the take-1 questions: ship in base? cover/tutorial? legend look-shift ok? portrait legend-bottom now or v3.1?",
+    "response": {
+      "body": "liked that each segment animated in pieces (not one big chunk) — keep that behavior, just fix the white squares.",
+      "from": "human",
+      "at": "2026-08-20T22:35:32.000Z",
+      "via": "chat — transcribed by agent"
+    },
+    "comments": []
+  }
+}

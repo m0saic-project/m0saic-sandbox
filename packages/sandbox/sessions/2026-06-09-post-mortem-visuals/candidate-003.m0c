@@ -1,0 +1,94 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-09T23:34:32.165Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.09",
+  "meta": {
+    "title": "2026-06-09-post-mortem-visuals · candidate-003"
+  },
+  "agent": {
+    "note": "Iter 3 — addressing the bigger feedback. Dropped --regions from wireframe.mjs (it allowed fake stableKeys, which is a chess-grade blunder per your framing). New --labels flag validates against the m0's real stableKey parse — invalid keys are a hard error. When --labels is passed, output is .m0c (proper labels system) instead of .m0. Also extended auto-grading: --layout-intent with broken stableKey references in agent.regions now auto-grades as 'blunder' with rationale 'references unknown stableKey: X (valid: f0, f1, ...)'. Split bumped 1:3 → 2:5 (~28.6% chat). loadSession now reads both .m0 and .m0c; post-mortem forwards m0c.labels (only) to m0-snapshot. Old broken regions stripped from candidate-001/002 in this session + candidate-003 in pc-mvp.",
+    "question": "Does the 2:5 split feel right? Try the labels system in this file — File Details should now show 'Chat' and 'Hero / Layout area' bound to the real stableKeys (no 'not present in current parse' warning). Ready for chat-bubble styling next, or another tuning pass?",
+    "context": {
+      "category": {
+        "kind": "known",
+        "value": "template-scaffolding"
+      },
+      "intent": {
+        "action": "refine",
+        "summary": ".m0c migration + stableKey safety + split bump"
+      },
+      "relation": {
+        "kind": "refines",
+        "target": "002"
+      },
+      "layoutIntent": "comparison",
+      "evaluation": {
+        "grade": "good",
+        "source": "automated",
+        "at": "2026-06-09T23:34:32.160Z",
+        "breakdown": {
+          "total": 0.5000000000000042,
+          "feasible": true,
+          "components": {
+            "precision": {
+              "quality": 1,
+              "weight": 0,
+              "raw": 0.0026041666666666665
+            },
+            "spread": {
+              "quality": 8.391457565647415e-15,
+              "weight": 0.5,
+              "raw": 1152
+            },
+            "gutter": {
+              "quality": 1,
+              "weight": 0,
+              "raw": 0
+            },
+            "frames": {
+              "quality": 1,
+              "weight": 0.39,
+              "raw": 2
+            },
+            "structure": {
+              "quality": 1,
+              "weight": 0.1,
+              "raw": 3
+            },
+            "compactness": {
+              "quality": 1,
+              "weight": 0.01,
+              "raw": 12
+            }
+          }
+        }
+      }
+    },
+    "response": {
+      "body": "Labels show well. Chat area still needs more width. Because it shows receipient and sender style replies, from agent and human. So chat needs more width.",
+      "from": "human",
+      "at": "2026-06-09T23:39:08.121Z"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "5(1,0,0,0,1)",
+  "labels": {
+    "r/fc0": {
+      "text": "Chat"
+    },
+    "r/fc4": {
+      "text": "Hero / Layout area"
+    }
+  },
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "rankSets": null,
+  "custom": null
+}

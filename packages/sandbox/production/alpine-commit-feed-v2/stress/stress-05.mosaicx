@@ -1,0 +1,81 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1001,
+    "height": 733
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/commit-feed/v2",
+      "props": {
+        "rows": [
+          {
+            "kind": "feat",
+            "area": "libavformat/mpegts",
+            "title": "mpegts: поддержка новых дескрипторов потоков (very long Cyrillic title)",
+            "hash": "a1b2c3d",
+            "author": "Александр Стрельцов",
+            "date": "May 15",
+            "pr": "GH-14201-experimental",
+            "reviewers": [
+              "王小明"
+            ],
+            "signal": "win"
+          },
+          {
+            "kind": "fix",
+            "area": "字幕",
+            "title": "字幕渲染修复：处理超长标题的情况以及溢出行为",
+            "hash": "d4e5f6g",
+            "author": "王小明",
+            "date": "May 14",
+            "pr": 14198,
+            "reviewers": [],
+            "signal": "neutral"
+          },
+          {
+            "kind": "perf",
+            "area": "cache",
+            "title": "🔥 hot-path: an extremely long commit title that keeps going and going to test the fit behavior of the row",
+            "hash": "h7i8j9k",
+            "author": "Emoji McFireface 🚀",
+            "date": "May 13",
+            "pr": 14185,
+            "reviewers": [
+              "Ñoño Ibáñez"
+            ],
+            "signal": "warn"
+          }
+        ],
+        "title": "COMMITS WITH AN EXTREMELY LONG HEADER TITLE BAND",
+        "subtitle": "A subtitle that also runs very long to threaten the header fit",
+        "iconPath": "M16.944 11h4.306a.75.75 0 0 1 0 1.5h-4.306a5.001 5.001 0 0 1-9.888 0H2.75a.75.75 0 0 1 0-1.5h4.306a5.001 5.001 0 0 1 9.888 0Zm-1.444.75a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0Z",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-unicode-long-strings** (retro stress set for `@m0saic/alpine/commit-feed/v2`).\n\nUNICODE + LONG: CJK/Cyrillic/emoji titles, very long title/area/author, long PR string. Watch: truncation vs overflow, tofu fallout.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-20T21:51:59.667Z",
+      "src": "<sandbox>/production/alpine-commit-feed-v2/stress/./stress-05-1001x733.mp4"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1001,
+    "height": 733
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/line-chart/v2",
+      "props": {
+        "values": [
+          12,
+          19,
+          15,
+          25,
+          22,
+          30,
+          28,
+          36
+        ],
+        "labels": [
+          "Январь",
+          "二月",
+          "Март",
+          "四月",
+          "Май",
+          "六月",
+          "Июль",
+          "八月"
+        ],
+        "title": "MONTHLY ACTIVE USERS WITH AN EXTREMELY LONG TITLE",
+        "subtitle": "A subtitle that also runs long enough to threaten the header fit",
+        "curve": "smooth",
+        "preset": "light",
+        "grid": {
+          "show": true,
+          "count": 4
+        },
+        "area": {
+          "show": true,
+          "opacity": 0.22
+        },
+        "points": {
+          "show": true
+        },
+        "anim": {
+          "introFrac": 0.7,
+          "ease": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-unicode-long** (gate-8 stress set for `@m0saic/alpine/line-chart/v2`).\n\nUNICODE + LONG: CJK/Cyrillic labels, long title/subtitle. Watch: label decimation accounts for wide glyphs, header fits (shared card cap).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-22T22:35:40.000Z",
+      "via": "chat (\"pass, lets ship\" — gate-8 stress set, post-regen) — transcribed by agent"
+    }
+  }
+}

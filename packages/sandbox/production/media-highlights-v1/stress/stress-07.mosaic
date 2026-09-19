@@ -1,0 +1,351 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "multi",
+  "fps": 30,
+  "steps": [
+    {
+      "name": "reel-10s__range_01",
+      "label": "reel-10s_0.0s-2.0s",
+      "durationMs": 2000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "m0": "1",
+        "assets": {
+          "reel-10s": {
+            "kind": "file",
+            "path": "<sandbox>/production/media-highlights-v1/fixtures/reel-10s.mp4",
+            "mediaType": "video"
+          }
+        },
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "reel-10s",
+            "placement": {
+              "fit": "cover"
+            },
+            "playback": {
+              "clipStartMs": 0,
+              "clipDurationMs": 2000,
+              "loopMode": "cut"
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "size": {
+          "width": 1280,
+          "height": 720
+        },
+        "backgroundColor": "#000000",
+        "format": {
+          "kind": "video",
+          "container": "mp4"
+        },
+        "fps": 30,
+        "durationMs": 2000,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    },
+    {
+      "name": "reel-10s__range_02",
+      "label": "zero-width",
+      "durationMs": 1000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {},
+        "m0": "1",
+        "sources": [
+          {
+            "type": "text",
+            "visual": {
+              "backgroundColor": "#000000"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "ERROR: Highlights"
+                },
+                "style": {
+                  "fontSize": 40,
+                  "fontColor": "#ffffff"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "w*0.06",
+                  "yExpr": "h*0.06"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "Range 2 invalid: endMs (5000) must be greater than startMs (5000)"
+                },
+                "style": {
+                  "fontSize": 22,
+                  "fontColor": "#ffffff"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "w*0.06",
+                  "yExpr": "h*0.180000"
+                }
+              }
+            ],
+            "engine": {
+              "renderStatus": "error",
+              "renderError": {
+                "message": "Highlights: Range 2 invalid: endMs (5000) must be greater than startMs (5000)"
+              }
+            },
+            "editor": {
+              "owner": "user"
+            }
+          }
+        ],
+        "size": {
+          "width": 1280,
+          "height": 720
+        },
+        "fps": 30,
+        "durationMs": 1000,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    },
+    {
+      "name": "reel-10s__range_03",
+      "label": "inverted",
+      "durationMs": 1000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {},
+        "m0": "1",
+        "sources": [
+          {
+            "type": "text",
+            "visual": {
+              "backgroundColor": "#000000"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "ERROR: Highlights"
+                },
+                "style": {
+                  "fontSize": 40,
+                  "fontColor": "#ffffff"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "w*0.06",
+                  "yExpr": "h*0.06"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "Range 3 invalid: endMs (4000) must be greater than startMs (6000)"
+                },
+                "style": {
+                  "fontSize": 22,
+                  "fontColor": "#ffffff"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "w*0.06",
+                  "yExpr": "h*0.180000"
+                }
+              }
+            ],
+            "engine": {
+              "renderStatus": "error",
+              "renderError": {
+                "message": "Highlights: Range 3 invalid: endMs (4000) must be greater than startMs (6000)"
+              }
+            },
+            "editor": {
+              "owner": "user"
+            }
+          }
+        ],
+        "size": {
+          "width": 1280,
+          "height": 720
+        },
+        "fps": 30,
+        "durationMs": 1000,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    },
+    {
+      "name": "reel-10s__range_04",
+      "label": "outside",
+      "durationMs": 1000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {},
+        "m0": "1",
+        "sources": [
+          {
+            "type": "text",
+            "visual": {
+              "backgroundColor": "#000000"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "ERROR: Highlights"
+                },
+                "style": {
+                  "fontSize": 40,
+                  "fontColor": "#ffffff"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "w*0.06",
+                  "yExpr": "h*0.06"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "Range 4 invalid: range [12000, 15000] lies outside the source duration (10000ms)"
+                },
+                "style": {
+                  "fontSize": 22,
+                  "fontColor": "#ffffff"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "w*0.06",
+                  "yExpr": "h*0.180000"
+                }
+              }
+            ],
+            "engine": {
+              "renderStatus": "error",
+              "renderError": {
+                "message": "Highlights: Range 4 invalid: range [12000, 15000] lies outside the source duration (10000ms)"
+              }
+            },
+            "editor": {
+              "owner": "user"
+            }
+          }
+        ],
+        "size": {
+          "width": 1280,
+          "height": 720
+        },
+        "fps": 30,
+        "durationMs": 1000,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    },
+    {
+      "name": "reel-10s__range_05",
+      "label": "reel-10s_8.0s-9.5s",
+      "durationMs": 1500,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "m0": "1",
+        "assets": {
+          "reel-10s": {
+            "kind": "file",
+            "path": "<sandbox>/production/media-highlights-v1/fixtures/reel-10s.mp4",
+            "mediaType": "video"
+          }
+        },
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "reel-10s",
+            "placement": {
+              "fit": "cover"
+            },
+            "playback": {
+              "clipStartMs": 8000,
+              "clipDurationMs": 1500,
+              "loopMode": "cut"
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "size": {
+          "width": 1280,
+          "height": 720
+        },
+        "backgroundColor": "#000000",
+        "format": {
+          "kind": "video",
+          "container": "mp4"
+        },
+        "fps": 30,
+        "durationMs": 1500,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "durationMs": 5000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

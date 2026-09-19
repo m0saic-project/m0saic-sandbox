@@ -1,0 +1,129 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "multi",
+  "fps": 30,
+  "steps": [
+    {
+      "name": "talk-720p__range_01",
+      "label": "open",
+      "durationMs": 1500,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "m0": "1",
+        "assets": {
+          "talk-720p": {
+            "kind": "file",
+            "path": "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4",
+            "mediaType": "video"
+          }
+        },
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover"
+            },
+            "playback": {
+              "clipStartMs": 0,
+              "clipDurationMs": 1500,
+              "loopMode": "cut"
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "size": {
+          "width": 1280,
+          "height": 720
+        },
+        "backgroundColor": "#000000",
+        "format": {
+          "kind": "video",
+          "container": "webm"
+        },
+        "fps": 30,
+        "durationMs": 1500,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    },
+    {
+      "name": "talk-720p__range_02",
+      "label": "close",
+      "durationMs": 1500,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "m0": "1",
+        "assets": {
+          "talk-720p": {
+            "kind": "file",
+            "path": "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4",
+            "mediaType": "video"
+          }
+        },
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover"
+            },
+            "playback": {
+              "clipStartMs": 1500,
+              "clipDurationMs": 1500,
+              "loopMode": "cut"
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "size": {
+          "width": 1280,
+          "height": 720
+        },
+        "backgroundColor": "#000000",
+        "format": {
+          "kind": "video",
+          "container": "webm"
+        },
+        "fps": 30,
+        "durationMs": 1500,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "durationMs": 5000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

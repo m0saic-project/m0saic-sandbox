@@ -1,0 +1,66 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-02"
+  },
+  "agent": {
+    "note": "**STRESS 02/10 \u2014 02-sliver-storm** (gate-15 stress set for `@m0saic/charts/donut/v4`).\n\nSLIVERS: one 90% whale + six 1-2% slivers, and centerValue CLEARED (\"\") \u2014 exercises the blank-derives-sum fix (defaults keep the field populated, so clearing is the only route to the documented derive behavior; it used to render an empty hole). Watch: sub-14\u00b0 slivers skip their labels, sliver sweep stays seam-free, center shows the derived sum 99.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/donut/v4",
+      "props": {
+        "segments": [
+          {
+            "label": "Core",
+            "value": 90
+          },
+          {
+            "label": "A",
+            "value": 2
+          },
+          {
+            "label": "B",
+            "value": 2
+          },
+          {
+            "label": "C",
+            "value": 2
+          },
+          {
+            "label": "D",
+            "value": 1
+          },
+          {
+            "label": "E",
+            "value": 1
+          },
+          {
+            "label": "F",
+            "value": 1
+          }
+        ],
+        "centerLabel": "Share of Requests",
+        "segmentLabels": "percent",
+        "centerValue": ""
+      }
+    }
+  ]
+}

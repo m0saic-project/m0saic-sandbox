@@ -1,0 +1,56 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1920
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/theming/v1",
+      "props": {
+        "preset": "light",
+        "alias": "theme",
+        "preview": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-003"
+  },
+  "agent": {
+    "note": "All three of your asks landed:\n1. **Real mosaic-M** — the brand M glyph (from dsl-tutorial), drawn via **`placeRect` as a perfect square** at any resolution. M + `m0saic` wordmark are both placeRect overlays, so they never distort or collide across aspect ratios.\n2. **Surface swatches now visible** — a hairline `borderStrong` **stroke** on the four surface blocks (Surface App `#050314` == the bg, so it needs the outline).\n3. **Aspect-adaptive** — landscape/square = the side-by-side grid; **portrait = a stacked list** (each swatch a row: color block + name/hex). Verified wide (1920×1080), square (1080×1080), and tall (1080×1920) all render clean.",
+    "question": "Ship-readiness pass — **render all three aspects** (one-liners in chat) and stress it:\n1. Does the **portrait stacked layout** read right, or tweak the block/label ratio?\n2. The **surface stroke** — good weight, or thinner?\n3. Nudge `preset` to **light** / **high-contrast** — do the surfaces + M read in every mode?\n\nIf it's good across all three aspects + three presets, I lock it (unit + CLI-e2e + variant + preview asset).",
+    "context": {
+      "topic": "theming/v1 preview render (Theme Tokens sheet)",
+      "stage": "real-render-v2 (M + borders + aspect-adaptive)",
+      "changes": [
+        "mosaic-M via placeRect (perfect square, both M+wordmark absolute)",
+        "surface swatch stroke (borderStrong)",
+        "aspect-adaptive: wide grid vs tall stacked list"
+      ],
+      "newFiles": [
+        "theming/v1/token-sheet.ts (rewritten)",
+        "theming/v1/brand-m-glyph.ts (M glyph, copied from dsl-tutorial — TODO hoist to shared brand-glyph)"
+      ],
+      "openMinor": [
+        "surface stroke weight",
+        "portrait block/label ratio",
+        "label name/hex vertical spacing"
+      ],
+      "next": "aspect + preset gate → lock (§10 closeout)"
+    },
+    "response": {
+      "body": "center m0saic M and wordmark in portrait. need more surface stroke, i still cant see its bound. also find a reasonable place to add the Dark / Light / High Contrast theme in the template so i know which its for",
+      "from": "human",
+      "at": "2026-07-07T06:28:15.293Z",
+      "src": "<sandbox>/sessions/2026-07-06-theming-token-sheet/./candidate-003-1080x1920.mp4"
+    }
+  }
+}

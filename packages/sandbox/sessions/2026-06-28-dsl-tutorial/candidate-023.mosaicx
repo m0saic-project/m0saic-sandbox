@@ -1,0 +1,39 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "2[7(1,0,1,1,1,1,1),9(1,1,1,1,1,0,1,1,1)]",
+        "speedMultiplier": 1,
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-023"
+  },
+  "agent": {
+    "note": "**Relayout polish — the two nits from 022. Same seed so you can A/B it.**\n\n**1 · Flush-top alignment.** The inspector, the DSL strip+ruler, and the narration banner each opened with a top spacer band that floated their content low — so the inspector never lined up with the canvas top. All three now sit **flush to the top of their parent rect** (bottom pad kept). The inspector's first row, the ruler, and the canvas top should read on one line now.\n\n**2 · Tighter ruler.** Per-char width dropped `30 → 22px`, so glyphs ride **closer together** and **~36% more chars fit on a page** before it scrolls. On this seed (`2[7(F,>,...),9(...)]`) the strip reads denser; long strings page over later.\n\n*(Pretty-form-all-input + `Pass` chip from 022 still in. Tests green.)*\n\n**Still deferred to the engine-state teaching pass (next candidate):** R *consumption* (count down + `--` as tiles claim remainder px, with a which-tiles callout) · C explicit *claim* moment + narration · remove the dashed split overlay once a frame claims it · N row/col note · lean the explanation text into narrating passthrough-absorption + remainder.",
+    "question": "Does the inspector now line up with the canvas/viewframe top, and do the strip + narration read flush? Is the tighter ruler the right density, or push it tighter/looser? If this lands, I move to the R/C engine-state teaching pass.",
+    "response": {
+      "body": "good changes, we can continue. make the ruler even a tad tighter please",
+      "from": "human",
+      "at": "2026-06-29T22:46:32.526Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/./candidate-023-1920x1080.mp4"
+    }
+  }
+}

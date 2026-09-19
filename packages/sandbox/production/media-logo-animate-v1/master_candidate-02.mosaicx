@@ -1,0 +1,32 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2520,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-02"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/media/logo-animate/v1` take 2** (gate 21; candidate-01 redirected — all four founder asks landed).\n\n| Ask | Landed |\n|---|---|\n| Default order → **diag** | `DEFAULT_RANK_SET = \"diag\"`; defaults lock in unit tests |\n| **Built-in mark enum** | new `mark` prop: **Mosaic M / m0 monogram / Mosaic pattern** (baked verbatim from `apps/mosaic/assets/brand/*.svg`); svg/svgPath still win; invalid mark fails fast |\n| **Cover** (blank t=0) | assembled STATIC mark (silhouette masks, no exprs) contain-fit above the adaptive welcome band; follows the chosen mark + preset |\n| **Tutorial** | six SaaS beats with **LIVE nested logo renders** — hero assembles for real; marks beat shows all three built-ins; bring-your-own-SVG how-to (Inkscape flatten steps); logo_loop + progress_fill running side by side; bitmap-mode beat; knobs recap (~27s) |\n\n**Real bug found + fixed en route:** the pattern mark's hand-placed pieces carry near-coincident edges (sub-0.5%) → sliver lattice → **whole-doc cull below its native 2177px width** (0 cells at 1920×890). Fix: `PATTERN_SAFE_DRIFT = 1` applied at convert time for the built-in pattern (render + cover + tutorial; explicit user drift still wins; user SVGs untouched). Verified 110/110 cells down to 640×360.\n\nShowcase = pure defaults `{}`: Mosaic M, assemble, diag, light. Battery 18 configs green (incl. both new marks + the tutorial render). 61/61 unit tests. Preview assets re-minted for the diag default.",
+    "question": "Take-2 verdict: diag default look? Cover face OK? Tutorial pass (open the ? player)? Mark enum labels right? Then stress.",
+    "response": {
+      "verdict": "revise",
+      "text": "my mistake, i forgot we already have a mosaic brand marks template. we can remove the m0 and mosaic pattern. they are already covered in the brand marks template. / cover is still squished. / this tutorial beat is a bit squished. it has to do with the aspect of the m0 for the 0 - it requires a specific resolution canvas. this affects the pattern too. the dictionary is explicit about the accepted resolution for each glyph set. / can we animate this bitmap beat, its static right now.",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/logo-animate/v1",
+      "props": {}
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T03:28:02.741Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.10",
+  "meta": {
+    "title": "2026-06-09-post-mortem-visuals · candidate-008 (avatar mask fix — no band-split)"
+  },
+  "agent": {
+    "note": "Iter 8 — fixing the broken iter7 layout you caught. Root cause: placeRects band-splits rects in the same y-row when they have different heights — my 40-tall avatar + 100-tall body shared a row, so body decomposed into a 40-tall top band (alongside avatar) + 60-tall bottom band. spec-index → stableKey mapping lined up wrong for the split frames, so the avatar circle mask landed on a 600×40 body-top frame (stretched into the orange ellipse you saw) and labels misaligned. Fix: avatar rect is now 40×100 (matches body height — no band-splitting). The 40px circle mask lives in the TOP of the 40×100 bounds (mask path coords use the full 40×100 box, so the engine scales 1:1 and the circle stays a circle). End state: 9 input rects → 9 output frames; masks present on exactly the 4 avatar frames; nothing leaks onto body rects.",
+    "question": "Layout should now be evaluable. Open with Rects + Masks + Label colors on. You should see: orange human bubbles (right) with darker-orange circle avatars in top-right; dark agent bubbles (left) with pale-steel circle avatars in top-left; full-width gray system separator; bg #14151b. If still off — what specifically? Also: should we extend placeRects (or add a higher-level builder) to take input→output stableKey mapping AS data, so labels/masks bind to input rects rather than output frame index? That would prevent this whole class of mistake.",
+    "context": {
+      "category": {
+        "kind": "known",
+        "value": "edge-case-handling"
+      },
+      "intent": {
+        "action": "refine",
+        "summary": "fix band-split mask leak; same-Y rect heights per row"
+      },
+      "relation": {
+        "kind": "refines",
+        "target": "007"
+      },
+      "layoutIntent": "free"
+    },
+    "response": {
+      "body": "the human and agent avatars are not squares. reject layout",
+      "from": "human",
+      "at": "2026-06-10T03:58:25.908Z"
+    }
+  },
+  "size": {
+    "width": 768,
+    "height": 1080
+  },
+  "m0": "270[0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,192(0,0,0,0,-,0,0,0,0,0,0,0,0,0,1,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,192(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-),0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,192(0,0,0,0,-,0,0,0,0,0,0,0,0,0,1,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,192(0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-),0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,192(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]",
+  "labels": {
+    "r/gcolc113/fc186": {
+      "text": "system: candidate-002 · spacing-alignment",
+      "color": "#4b5563"
+    },
+    "r/gcolc144/fc173": {
+      "text": "human: response 2",
+      "color": "#ef7525"
+    },
+    "r/gcolc144/fc186": {
+      "text": "human · 👤",
+      "color": "#c25e1c"
+    },
+    "r/gcolc34/fc14": {
+      "text": "agent · 🤖",
+      "color": "#bcd6e8"
+    },
+    "r/gcolc34/fc167": {
+      "text": "agent: opening question",
+      "color": "#23262f"
+    },
+    "r/gcolc65/fc173": {
+      "text": "human: response",
+      "color": "#ef7525"
+    },
+    "r/gcolc65/fc186": {
+      "text": "human · 👤",
+      "color": "#c25e1c"
+    },
+    "r/gcolc96/fc14": {
+      "text": "agent · 🤖",
+      "color": "#bcd6e8"
+    },
+    "r/gcolc96/fc167": {
+      "text": "agent: follow-up",
+      "color": "#23262f"
+    }
+  },
+  "derive": {
+    "background": "#14151b"
+  },
+  "masks": {
+    "r/gcolc144/fc186": {
+      "localPath": "M 20 0 A 20 20 0 1 0 20 40 A 20 20 0 1 0 20 0 Z",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 100
+      }
+    },
+    "r/gcolc34/fc14": {
+      "localPath": "M 20 0 A 20 20 0 1 0 20 40 A 20 20 0 1 0 20 0 Z",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 100
+      }
+    },
+    "r/gcolc65/fc186": {
+      "localPath": "M 20 0 A 20 20 0 1 0 20 40 A 20 20 0 1 0 20 0 Z",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 100
+      }
+    },
+    "r/gcolc96/fc14": {
+      "localPath": "M 20 0 A 20 20 0 1 0 20 40 A 20 20 0 1 0 20 0 Z",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 100
+      }
+    }
+  },
+  "rankSets": null,
+  "custom": null
+}

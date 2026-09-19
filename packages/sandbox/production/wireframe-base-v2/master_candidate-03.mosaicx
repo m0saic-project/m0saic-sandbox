@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-03"
+  },
+  "agent": {
+    "note": "**TAKE 3 — no cover, grid default** (founder on take 2: \"no renderCover needed for this template, its a dev template. just use a basic grid default.\").\n\n- `renderCover` REMOVED (the cover kit import + hero layout gone; `renderCover` is undefined → Make opens straight on the render, no first-open face). Locked.\n- Default `M0String` → **`2(2[1,1],2[1,1])`** (a basic 2×2 grid, the e2e \"grid-2x2\" shape) — the default face is four numbered cells with their pixel sizes, not one bare cell. Explicit debug defaults from take 2 stand (Mode Debug · Dimensions · Degrade · Transparent · Fill 0).\n- Preset-decides-mode rule from take 2 stands. Grid-paper lattice + the four engine/CLI fixes stand.\n\nStress twins re-frozen; stress renders unchanged (they carry their own layouts).",
+    "question": "Grid default reads right? Then stress-01..10. Still open: core-vs-publisher (rec. CORE) · internal:true? (rec. no) · grid-paper keep/prune · label → \"Wireframe\"?",
+    "response": {
+      "verdict": "revise",
+      "text": "transparent bg is poor when the background is also black. we need to default to white",
+      "via": "chat + 2 Make screenshots — transcribed by agent (09-02)",
+      "note": "Grid default accepted implicitly; the transparent default read as an EMPTY canvas on the editor's dark stage (black ink on black) → take 4: background defaults to white."
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {}
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "45[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)]{45[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-)]}",
+  "assets": {
+    "c0_chat_sr": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/chat_sr.mp4",
+      "mediaType": "video"
+    },
+    "c0_photo-13-2400x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-13-2400x1000.png",
+      "mediaType": "image"
+    },
+    "c0_inbox_sr": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/inbox_sr.mp4",
+      "mediaType": "video"
+    },
+    "c0_photo-04-800x1200": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-04-800x1200.png",
+      "mediaType": "image"
+    },
+    "c0_invoice_sr": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/invoice_sr.mp4",
+      "mediaType": "video"
+    },
+    "c0_signed-letter_sr": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/signed-letter_sr.mp4",
+      "mediaType": "video"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 3333,
+  "suggestedOutput": {
+    "dir": "./renders",
+    "basename": "06-open-loop-odd-frames"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-open-loop-odd-frames** (gate-36 stress set for `@m0saic/media/scroll_wall/v1`).\n\nA LOOP DELIBERATELY LEFT OPEN, OVER A NON-WHOLE FRAME COUNT at 1920x1080. `cycles: 0.25` is the bottom of the slider and does NOT close the loop, over 3333ms which is 99.99 frames at 30fps — the velocity solver derives px/s from the FRAME COUNT, not the wall duration, precisely so this case stays exact. Watch: smooth motion throughout (the open loop is the ask, not a bug), no stutter at the end, and the last frame is a quarter-cycle from the first.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_chat_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(5760-216*t,2880)-480"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i0"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-13-2400x1000",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(6240-216*t,2880)-960"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i1"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_inbox_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(6720-216*t,2880)-1440"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i2"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-04-800x1200",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(7200-216*t,2880)-1920"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i3"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_signed-letter_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(240+216*t,2880)-480"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i0"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_chat_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(720+216*t,2880)-960"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i1"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-13-2400x1000",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(1200+216*t,2880)-1440"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i2"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_inbox_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(1680+216*t,2880)-1920"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i3"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_invoice_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(7680-216*t,2880)-480"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i4"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_signed-letter_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(8160-216*t,2880)-960"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i5"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-04-800x1200",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(2160+216*t,2880)-480"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i4"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_invoice_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(2640+216*t,2880)-960"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i5"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "audio": {
+    "mode": "off"
+  },
+  "backgroundColor": "#0b0b0f"
+}

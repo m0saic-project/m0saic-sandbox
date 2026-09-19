@@ -1,0 +1,1209 @@
+{
+  "schemaVersion": 1,
+  "totalMs": 42772,
+  "commandCount": 76,
+  "commands": [
+    {
+      "index": 1,
+      "node": "root:0:1_text",
+      "description": "Render text source \"root:0:1_text\" to image",
+      "elapsedMs": 190,
+      "exitCode": 0
+    },
+    {
+      "index": 2,
+      "node": "root:0:3_text",
+      "description": "Render text source \"root:0:3_text\" to image",
+      "elapsedMs": 349,
+      "exitCode": 0
+    },
+    {
+      "index": 3,
+      "node": "root:0:5_text",
+      "description": "Render text source \"root:0:5_text\" to video",
+      "elapsedMs": 127,
+      "exitCode": 0
+    },
+    {
+      "index": 4,
+      "node": "root:0",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 440,
+      "exitCode": 0,
+      "label": "chrome-header"
+    },
+    {
+      "index": 5,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 1554,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 6,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 6716,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 7,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 1463,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 8,
+      "node": "root:1",
+      "description": "stitch 3 parts for root:1",
+      "elapsedMs": 397,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 9,
+      "node": "root:2:0_text",
+      "description": "Render text source \"root:2:0_text\" to image",
+      "elapsedMs": 104,
+      "exitCode": 0
+    },
+    {
+      "index": 10,
+      "node": "root:2:1_text",
+      "description": "Render text source \"root:2:1_text\" to image",
+      "elapsedMs": 77,
+      "exitCode": 0
+    },
+    {
+      "index": 11,
+      "node": "root:2:2_text",
+      "description": "Render text source \"root:2:2_text\" to image",
+      "elapsedMs": 77,
+      "exitCode": 0
+    },
+    {
+      "index": 12,
+      "node": "root:2:3_text",
+      "description": "Render text source \"root:2:3_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 13,
+      "node": "root:2:4_text",
+      "description": "Render text source \"root:2:4_text\" to image",
+      "elapsedMs": 76,
+      "exitCode": 0
+    },
+    {
+      "index": 14,
+      "node": "root:2:5_text",
+      "description": "Render text source \"root:2:5_text\" to image",
+      "elapsedMs": 77,
+      "exitCode": 0
+    },
+    {
+      "index": 15,
+      "node": "root:2:6_text",
+      "description": "Render text source \"root:2:6_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 16,
+      "node": "root:2:7_text",
+      "description": "Render text source \"root:2:7_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 17,
+      "node": "root:2:8_text",
+      "description": "Render text source \"root:2:8_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 18,
+      "node": "root:2:9_text",
+      "description": "Render text source \"root:2:9_text\" to image",
+      "elapsedMs": 89,
+      "exitCode": 0
+    },
+    {
+      "index": 19,
+      "node": "root:2:10_text",
+      "description": "Render text source \"root:2:10_text\" to image",
+      "elapsedMs": 91,
+      "exitCode": 0
+    },
+    {
+      "index": 20,
+      "node": "root:2:11_text",
+      "description": "Render text source \"root:2:11_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 21,
+      "node": "root:2",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 10012,
+      "exitCode": 0,
+      "label": "dsl-narration"
+    },
+    {
+      "index": 22,
+      "node": "root:3:0_text",
+      "description": "Render text source \"root:3:0_text\" to image",
+      "elapsedMs": 116,
+      "exitCode": 0
+    },
+    {
+      "index": 23,
+      "node": "root:3:1_text",
+      "description": "Render text source \"root:3:1_text\" to image",
+      "elapsedMs": 93,
+      "exitCode": 0
+    },
+    {
+      "index": 24,
+      "node": "root:3:2_text",
+      "description": "Render text source \"root:3:2_text\" to image",
+      "elapsedMs": 90,
+      "exitCode": 0
+    },
+    {
+      "index": 25,
+      "node": "root:3:3_text",
+      "description": "Render text source \"root:3:3_text\" to image",
+      "elapsedMs": 93,
+      "exitCode": 0
+    },
+    {
+      "index": 26,
+      "node": "root:3:4_text",
+      "description": "Render text source \"root:3:4_text\" to image",
+      "elapsedMs": 91,
+      "exitCode": 0
+    },
+    {
+      "index": 27,
+      "node": "root:3:5_text",
+      "description": "Render text source \"root:3:5_text\" to image",
+      "elapsedMs": 91,
+      "exitCode": 0
+    },
+    {
+      "index": 28,
+      "node": "root:3",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 7128,
+      "exitCode": 0,
+      "label": "canvas"
+    },
+    {
+      "index": 29,
+      "node": "root:4:0_text",
+      "description": "Render text source \"root:4:0_text\" to image",
+      "elapsedMs": 84,
+      "exitCode": 0
+    },
+    {
+      "index": 30,
+      "node": "root:4:2_text",
+      "description": "Render text source \"root:4:2_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 31,
+      "node": "root:4:3_text",
+      "description": "Render text source \"root:4:3_text\" to image",
+      "elapsedMs": 76,
+      "exitCode": 0
+    },
+    {
+      "index": 32,
+      "node": "root:4:4_text",
+      "description": "Render text source \"root:4:4_text\" to image",
+      "elapsedMs": 78,
+      "exitCode": 0
+    },
+    {
+      "index": 33,
+      "node": "root:4:6_text",
+      "description": "Render text source \"root:4:6_text\" to image",
+      "elapsedMs": 103,
+      "exitCode": 0
+    },
+    {
+      "index": 34,
+      "node": "root:4:7_text",
+      "description": "Render text source \"root:4:7_text\" to image",
+      "elapsedMs": 79,
+      "exitCode": 0
+    },
+    {
+      "index": 35,
+      "node": "root:4:8_text",
+      "description": "Render text source \"root:4:8_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 36,
+      "node": "root:4:9_text",
+      "description": "Render text source \"root:4:9_text\" to image",
+      "elapsedMs": 92,
+      "exitCode": 0
+    },
+    {
+      "index": 37,
+      "node": "root:4:10_text",
+      "description": "Render text source \"root:4:10_text\" to image",
+      "elapsedMs": 120,
+      "exitCode": 0
+    },
+    {
+      "index": 38,
+      "node": "root:4:11_text",
+      "description": "Render text source \"root:4:11_text\" to image",
+      "elapsedMs": 138,
+      "exitCode": 0
+    },
+    {
+      "index": 39,
+      "node": "root:4:13_text",
+      "description": "Render text source \"root:4:13_text\" to video",
+      "elapsedMs": 112,
+      "exitCode": 0
+    },
+    {
+      "index": 40,
+      "node": "root:4:14_text",
+      "description": "Render text source \"root:4:14_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 41,
+      "node": "root:4:16_text",
+      "description": "Render text source \"root:4:16_text\" to video",
+      "elapsedMs": 102,
+      "exitCode": 0
+    },
+    {
+      "index": 42,
+      "node": "root:4:17_text",
+      "description": "Render text source \"root:4:17_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 43,
+      "node": "root:4:19_text",
+      "description": "Render text source \"root:4:19_text\" to video",
+      "elapsedMs": 98,
+      "exitCode": 0
+    },
+    {
+      "index": 44,
+      "node": "root:4:20_text",
+      "description": "Render text source \"root:4:20_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 45,
+      "node": "root:4:22_text",
+      "description": "Render text source \"root:4:22_text\" to video",
+      "elapsedMs": 96,
+      "exitCode": 0
+    },
+    {
+      "index": 46,
+      "node": "root:4:23_text",
+      "description": "Render text source \"root:4:23_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 47,
+      "node": "root:4:25_text",
+      "description": "Render text source \"root:4:25_text\" to video",
+      "elapsedMs": 92,
+      "exitCode": 0
+    },
+    {
+      "index": 48,
+      "node": "root:4:26_text",
+      "description": "Render text source \"root:4:26_text\" to image",
+      "elapsedMs": 77,
+      "exitCode": 0
+    },
+    {
+      "index": 49,
+      "node": "root:4:28_text",
+      "description": "Render text source \"root:4:28_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 50,
+      "node": "root:4:30_text",
+      "description": "Render text source \"root:4:30_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 51,
+      "node": "root:4:31_text",
+      "description": "Render text source \"root:4:31_text\" to image",
+      "elapsedMs": 76,
+      "exitCode": 0
+    },
+    {
+      "index": 52,
+      "node": "root:4:33_text",
+      "description": "Render text source \"root:4:33_text\" to video",
+      "elapsedMs": 97,
+      "exitCode": 0
+    },
+    {
+      "index": 53,
+      "node": "root:4:34_text",
+      "description": "Render text source \"root:4:34_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 54,
+      "node": "root:4:36_text",
+      "description": "Render text source \"root:4:36_text\" to video",
+      "elapsedMs": 92,
+      "exitCode": 0
+    },
+    {
+      "index": 55,
+      "node": "root:4:37_text",
+      "description": "Render text source \"root:4:37_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 56,
+      "node": "root:4:39_text",
+      "description": "Render text source \"root:4:39_text\" to video",
+      "elapsedMs": 92,
+      "exitCode": 0
+    },
+    {
+      "index": 57,
+      "node": "root:4",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 5814,
+      "exitCode": 0,
+      "label": "inspector"
+    },
+    {
+      "index": 58,
+      "node": "root:5:1_text",
+      "description": "Render text source \"root:5:1_text\" to image",
+      "elapsedMs": 84,
+      "exitCode": 0
+    },
+    {
+      "index": 59,
+      "node": "root:5:3_text",
+      "description": "Render text source \"root:5:3_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 60,
+      "node": "root:5:4_text",
+      "description": "Render text source \"root:5:4_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 61,
+      "node": "root:5:5_text",
+      "description": "Render text source \"root:5:5_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 62,
+      "node": "root:5:6_text",
+      "description": "Render text source \"root:5:6_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 63,
+      "node": "root:5:7_text",
+      "description": "Render text source \"root:5:7_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 64,
+      "node": "root:5:8_text",
+      "description": "Render text source \"root:5:8_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 65,
+      "node": "root:5:9_text",
+      "description": "Render text source \"root:5:9_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 66,
+      "node": "root:5:10_text",
+      "description": "Render text source \"root:5:10_text\" to image",
+      "elapsedMs": 77,
+      "exitCode": 0
+    },
+    {
+      "index": 67,
+      "node": "root:5:11_text",
+      "description": "Render text source \"root:5:11_text\" to image",
+      "elapsedMs": 77,
+      "exitCode": 0
+    },
+    {
+      "index": 68,
+      "node": "root:5:12_text",
+      "description": "Render text source \"root:5:12_text\" to image",
+      "elapsedMs": 78,
+      "exitCode": 0
+    },
+    {
+      "index": 69,
+      "node": "root:5:13_text",
+      "description": "Render text source \"root:5:13_text\" to image",
+      "elapsedMs": 81,
+      "exitCode": 0
+    },
+    {
+      "index": 70,
+      "node": "root:5:14_text",
+      "description": "Render text source \"root:5:14_text\" to image",
+      "elapsedMs": 82,
+      "exitCode": 0
+    },
+    {
+      "index": 71,
+      "node": "root:5:15_text",
+      "description": "Render text source \"root:5:15_text\" to image",
+      "elapsedMs": 76,
+      "exitCode": 0
+    },
+    {
+      "index": 72,
+      "node": "root:5:16_text",
+      "description": "Render text source \"root:5:16_text\" to image",
+      "elapsedMs": 76,
+      "exitCode": 0
+    },
+    {
+      "index": 73,
+      "node": "root:5:17_text",
+      "description": "Render text source \"root:5:17_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 74,
+      "node": "root:5:18_text",
+      "description": "Render text source \"root:5:18_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 75,
+      "node": "root:5",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 587,
+      "exitCode": 0,
+      "label": "chrome-status"
+    },
+    {
+      "index": 76,
+      "node": "root",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 2714,
+      "exitCode": 0
+    }
+  ],
+  "slowest": [
+    {
+      "index": 21,
+      "node": "root:2",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 10012,
+      "exitCode": 0,
+      "label": "dsl-narration"
+    },
+    {
+      "index": 28,
+      "node": "root:3",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 7128,
+      "exitCode": 0,
+      "label": "canvas"
+    },
+    {
+      "index": 6,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 6716,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 57,
+      "node": "root:4",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 5814,
+      "exitCode": 0,
+      "label": "inspector"
+    },
+    {
+      "index": 76,
+      "node": "root",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 2714,
+      "exitCode": 0
+    },
+    {
+      "index": 5,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 1554,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 7,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 1463,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 75,
+      "node": "root:5",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 587,
+      "exitCode": 0,
+      "label": "chrome-status"
+    },
+    {
+      "index": 4,
+      "node": "root:0",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 440,
+      "exitCode": 0,
+      "label": "chrome-header"
+    },
+    {
+      "index": 8,
+      "node": "root:1",
+      "description": "stitch 3 parts for root:1",
+      "elapsedMs": 397,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 2,
+      "node": "root:0:3_text",
+      "description": "Render text source \"root:0:3_text\" to image",
+      "elapsedMs": 349,
+      "exitCode": 0
+    },
+    {
+      "index": 1,
+      "node": "root:0:1_text",
+      "description": "Render text source \"root:0:1_text\" to image",
+      "elapsedMs": 190,
+      "exitCode": 0
+    }
+  ],
+  "byCategory": [
+    {
+      "description": "m0saic render (mosaic node)",
+      "count": 9,
+      "totalMs": 36428,
+      "pct": 85.2
+    },
+    {
+      "description": "Render text source \"…\" to image",
+      "count": 57,
+      "totalMs": 5039,
+      "pct": 11.8
+    },
+    {
+      "description": "Render text source \"…\" to video",
+      "count": 9,
+      "totalMs": 908,
+      "pct": 2.1
+    },
+    {
+      "description": "stitch 3 parts for root:1",
+      "count": 1,
+      "totalMs": 397,
+      "pct": 0.9
+    }
+  ],
+  "nodeTree": [
+    {
+      "node": "root",
+      "selfMs": 2714,
+      "subtreeMs": 42772,
+      "commandCount": 1,
+      "children": [
+        {
+          "node": "root:2",
+          "label": "dsl-narration",
+          "selfMs": 10012,
+          "subtreeMs": 10978,
+          "commandCount": 1,
+          "children": [
+            {
+              "node": "root:2:0_text",
+              "selfMs": 104,
+              "subtreeMs": 104,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:10_text",
+              "selfMs": 91,
+              "subtreeMs": 91,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:9_text",
+              "selfMs": 89,
+              "subtreeMs": 89,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:1_text",
+              "selfMs": 77,
+              "subtreeMs": 77,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:2_text",
+              "selfMs": 77,
+              "subtreeMs": 77,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:5_text",
+              "selfMs": 77,
+              "subtreeMs": 77,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:4_text",
+              "selfMs": 76,
+              "subtreeMs": 76,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:3_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:6_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:7_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:8_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:11_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "node": "root:1",
+          "label": "dsl-string",
+          "selfMs": 10130,
+          "subtreeMs": 10130,
+          "commandCount": 4,
+          "children": []
+        },
+        {
+          "node": "root:4",
+          "label": "inspector",
+          "selfMs": 5814,
+          "subtreeMs": 8259,
+          "commandCount": 1,
+          "children": [
+            {
+              "node": "root:4:11_text",
+              "selfMs": 138,
+              "subtreeMs": 138,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:10_text",
+              "selfMs": 120,
+              "subtreeMs": 120,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:13_text",
+              "selfMs": 112,
+              "subtreeMs": 112,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:6_text",
+              "selfMs": 103,
+              "subtreeMs": 103,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:16_text",
+              "selfMs": 102,
+              "subtreeMs": 102,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:19_text",
+              "selfMs": 98,
+              "subtreeMs": 98,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:33_text",
+              "selfMs": 97,
+              "subtreeMs": 97,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:22_text",
+              "selfMs": 96,
+              "subtreeMs": 96,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:9_text",
+              "selfMs": 92,
+              "subtreeMs": 92,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:25_text",
+              "selfMs": 92,
+              "subtreeMs": 92,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:36_text",
+              "selfMs": 92,
+              "subtreeMs": 92,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:39_text",
+              "selfMs": 92,
+              "subtreeMs": 92,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:0_text",
+              "selfMs": 84,
+              "subtreeMs": 84,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:7_text",
+              "selfMs": 79,
+              "subtreeMs": 79,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:4_text",
+              "selfMs": 78,
+              "subtreeMs": 78,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:26_text",
+              "selfMs": 77,
+              "subtreeMs": 77,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:3_text",
+              "selfMs": 76,
+              "subtreeMs": 76,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:31_text",
+              "selfMs": 76,
+              "subtreeMs": 76,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:8_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:28_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:30_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:37_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:14_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:17_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:20_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:2_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:23_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:34_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "node": "root:3",
+          "label": "canvas",
+          "selfMs": 7128,
+          "subtreeMs": 7702,
+          "commandCount": 1,
+          "children": [
+            {
+              "node": "root:3:0_text",
+              "selfMs": 116,
+              "subtreeMs": 116,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:1_text",
+              "selfMs": 93,
+              "subtreeMs": 93,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:3_text",
+              "selfMs": 93,
+              "subtreeMs": 93,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:4_text",
+              "selfMs": 91,
+              "subtreeMs": 91,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:5_text",
+              "selfMs": 91,
+              "subtreeMs": 91,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:2_text",
+              "selfMs": 90,
+              "subtreeMs": 90,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "node": "root:5",
+          "label": "chrome-status",
+          "selfMs": 587,
+          "subtreeMs": 1883,
+          "commandCount": 1,
+          "children": [
+            {
+              "node": "root:5:1_text",
+              "selfMs": 84,
+              "subtreeMs": 84,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:14_text",
+              "selfMs": 82,
+              "subtreeMs": 82,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:13_text",
+              "selfMs": 81,
+              "subtreeMs": 81,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:12_text",
+              "selfMs": 78,
+              "subtreeMs": 78,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:10_text",
+              "selfMs": 77,
+              "subtreeMs": 77,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:11_text",
+              "selfMs": 77,
+              "subtreeMs": 77,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:15_text",
+              "selfMs": 76,
+              "subtreeMs": 76,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:16_text",
+              "selfMs": 76,
+              "subtreeMs": 76,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:3_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:8_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:17_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:4_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:6_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:7_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:9_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:18_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:5_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "node": "root:0",
+          "label": "chrome-header",
+          "selfMs": 440,
+          "subtreeMs": 1106,
+          "commandCount": 1,
+          "children": [
+            {
+              "node": "root:0:3_text",
+              "selfMs": 349,
+              "subtreeMs": 349,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:0:1_text",
+              "selfMs": 190,
+              "subtreeMs": 190,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:0:5_text",
+              "selfMs": 127,
+              "subtreeMs": 127,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hotPath": [
+    {
+      "node": "root",
+      "selfMs": 2714,
+      "subtreeMs": 42772,
+      "pct": 100
+    },
+    {
+      "node": "root:2",
+      "label": "dsl-narration",
+      "selfMs": 10012,
+      "subtreeMs": 10978,
+      "pct": 25.7
+    }
+  ]
+}

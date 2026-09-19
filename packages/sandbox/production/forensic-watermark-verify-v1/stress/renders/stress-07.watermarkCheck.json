@@ -1,0 +1,26 @@
+{
+  "ok": false,
+  "expectedHex": "",
+  "matches": false,
+  "correctedBitCount": 0,
+  "errorPositions": [],
+  "worstAbsScore": 0,
+  "framesSampled": 0,
+  "mode": "id32",
+  "verdict": "error",
+  "grid": {
+    "cols": 0,
+    "rows": 0
+  },
+  "ecc": {
+    "n": 0,
+    "k": 0,
+    "t": 0
+  },
+  "videoPath": "<repo>/packages/cli/examples/media/hero/hero_4.mp4",
+  "sidecarPath": "<repo>/packages/cli/examples/media/hero/hero_4.watermark.json",
+  "error": {
+    "code": "SIDECAR_NOT_FOUND",
+    "message": "Sidecar not found: <repo>/packages/cli/examples/media/hero/hero_4.watermark.json"
+  }
+}

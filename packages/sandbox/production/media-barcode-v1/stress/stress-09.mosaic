@@ -1,0 +1,77 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1",
+  "sources": [
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "#000000"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "ERROR: Brand Barcode (v1)"
+          },
+          "style": {
+            "fontSize": 40,
+            "fontColor": "#ffffff"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "top",
+            "xExpr": "w*0.06",
+            "yExpr": "h*0.06"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Barcode: ean13: expected 12 or 13 digits, got \"ABC123\""
+          },
+          "style": {
+            "fontSize": 22,
+            "fontColor": "#ffffff"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "top",
+            "xExpr": "w*0.06",
+            "yExpr": "h*0.180000"
+          }
+        }
+      ],
+      "engine": {
+        "renderStatus": "error",
+        "renderError": {
+          "message": "Brand Barcode (v1): Barcode: ean13: expected 12 or 13 digits, got \"ABC123\""
+        }
+      },
+      "editor": {
+        "owner": "user"
+      }
+    }
+  ],
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-09"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 — 09-invalid-payload** (gate-18 stress set for `@m0saic/media/barcode/v1`).\n\nINVALID payload: letters in an EAN-13 -> the template fail-fasts to an error mosaic. KNOWN CAVEAT: through the .mosaicx resolver path, error docs render BLACK with exit 1 (candidate 2026-08-22-nested-error-doc-black-render) — the render 'fails' here BY DESIGN of the current engine; direct renders show the error card. Verdict = is this acceptable pending the engine candidate?",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  }
+}

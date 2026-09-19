@@ -1,0 +1,67 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 480,
+    "height": 1040
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/treemap/v2",
+      "props": {
+        "items": [
+          {
+            "label": "Alpha",
+            "value": 48200,
+            "color": "#a371f7"
+          },
+          {
+            "label": "Beta",
+            "value": 26100
+          },
+          {
+            "label": "Gamma",
+            "value": 15800,
+            "color": "#f78166"
+          },
+          {
+            "label": "Delta",
+            "value": 9400
+          }
+        ],
+        "title": "HEADCOUNT",
+        "subtitle": "By department",
+        "preset": "dark",
+        "valueMode": "value",
+        "tiles": {
+          "cornerRadius": 0.5
+        },
+        "showValue": true,
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-dark-value-mode** (gate-12 stress set for `@m0saic/alpine/treemap/v2` — the LAST alpine gate).\n\nTALL SKINNY + dark + valueMode:'value' (raw numbers) + max rounding 0.5 + per-item colors. Watch: pill-round tiles, compact numbers, dark contrast.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

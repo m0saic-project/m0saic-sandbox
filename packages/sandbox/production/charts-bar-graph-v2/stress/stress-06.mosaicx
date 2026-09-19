@@ -1,0 +1,39 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 900,
+    "height": 900
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/bar-graph/v2",
+      "props": {
+        "values": [
+          42
+        ],
+        "labels": [
+          "Only"
+        ]
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-single-bar** (gate-14 stress set for `@m0saic/charts/bar-graph/v2`).\n\nDEGENERATE: ONE bar (equal relation gated off at N=1). Watch: a lone bar reads cleanly, label centered.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

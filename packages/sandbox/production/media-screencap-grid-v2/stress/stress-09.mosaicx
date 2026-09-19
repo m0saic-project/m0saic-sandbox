@@ -1,0 +1,41 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 2500,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-09"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 — 09-multi-mixed-mp4** (gate-24 stress set for `@m0saic/media/screencap_grid/v2`).\n\nemit:multi with MIXED inputs — two videos + one IMAGE — in ANIMATED mode: 3 named deliverables via {{label}}; the image sheet renders static tiles inside an mp4. All three must carry no audio stream (the -an fix across the pipeline fan-out).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "stress set pass 10/10 — \"ship\"",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/screencap_grid/v2",
+      "props": {
+        "sourceIds": [
+          "<sandbox>/production/media-highlights-v1/fixtures/reel-10s.mp4",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/demo-docs/invoice.png"
+        ],
+        "outputFormat": "mp4",
+        "rows": 2,
+        "cols": 2
+      }
+    }
+  ]
+}

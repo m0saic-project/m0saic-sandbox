@@ -1,0 +1,138 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/line-chart/v2",
+      "props": {
+        "values": [
+          20,
+          24.5,
+          28,
+          31.5,
+          35,
+          36.5,
+          38,
+          38.5,
+          38,
+          36.5,
+          34,
+          31.5,
+          28,
+          24.5,
+          22,
+          18.5,
+          17,
+          15.5,
+          14,
+          14.5,
+          16,
+          17.5,
+          20,
+          23.5,
+          28,
+          32.5,
+          36,
+          40.5,
+          44,
+          46.5,
+          49,
+          50.5,
+          51,
+          50.5,
+          49,
+          46.5,
+          44,
+          41.5,
+          38,
+          34.5
+        ],
+        "labels": [
+          "W1",
+          "W2",
+          "W3",
+          "W4",
+          "W5",
+          "W6",
+          "W7",
+          "W8",
+          "W9",
+          "W10",
+          "W11",
+          "W12",
+          "W13",
+          "W14",
+          "W15",
+          "W16",
+          "W17",
+          "W18",
+          "W19",
+          "W20",
+          "W21",
+          "W22",
+          "W23",
+          "W24",
+          "W25",
+          "W26",
+          "W27",
+          "W28",
+          "W29",
+          "W30",
+          "W31",
+          "W32",
+          "W33",
+          "W34",
+          "W35",
+          "W36",
+          "W37",
+          "W38",
+          "W39",
+          "W40"
+        ],
+        "title": "LINE CHART",
+        "subtitle": "Monthly Active Users",
+        "curve": "smooth",
+        "preset": "light",
+        "grid": {
+          "show": true,
+          "count": 4
+        },
+        "area": {
+          "show": true,
+          "opacity": 0.22
+        },
+        "points": {
+          "show": true
+        },
+        "anim": {
+          "introFrac": 0.7,
+          "ease": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-01"
+  },
+  "agent": {
+    "note": "**STRESS 01/10 — 01-max-points** (gate-8 stress set for `@m0saic/alpine/line-chart/v2`).\n\nMAX LOAD: 40 points with weekly labels (labels must DECIMATE, ticks follow kept labels only — flat tile count). Watch: line density, decimation, tick alignment.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-22T22:35:40.000Z",
+      "via": "chat (\"pass, lets ship\" — gate-8 stress set, post-regen) — transcribed by agent"
+    }
+  }
+}

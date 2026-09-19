@@ -1,0 +1,28 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 1080,
+  "height": 1920
+ },
+ "fps": 30,
+ "durationMs": 10000,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/media/subtitle-burn/v1",
+   "props": {
+    "sourceId": "<sandbox>/production/media-subtitle-burn-v1/fixtures/reel-subs.mp4"
+   }
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "stress-08"
+ },
+ "agent": {
+  "note": "**STRESS 08/10 — 08-portrait-wrap** (gate-26 stress set for `@m0saic/media/subtitle-burn/v1`).\n\nPORTRAIT + WRAP-FIT: 1080×1920. Watch: the 155-char cue wraps to ≤3 lines in the narrow em budget (wrap-first fix) — words NEVER dropped, no edge clipping; band stays inside the safe bottom quarter."
+ }
+}

@@ -1,0 +1,548 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "4[11(0,0,0,1,1,0,0,0,1,0,1),11(0,0,1,0,1,0,0,0,1,0,1),11(0,0,1,0,1,0,0,1,0,1,1),11(0,1,0,1,1,0,1,0,1,1,1)]",
+  "assets": {
+    "c0_photo-01-1500x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-01-1500x1000.png",
+      "mediaType": "image"
+    },
+    "c0_photo-02-1200x900": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-02-1200x900.png",
+      "mediaType": "image"
+    },
+    "c0_photo-03-1920x1080": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-03-1920x1080.png",
+      "mediaType": "image"
+    },
+    "c0_photo-04-800x1200": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-04-800x1200.png",
+      "mediaType": "image"
+    },
+    "c0_photo-05-1500x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-05-1500x1000.png",
+      "mediaType": "image"
+    },
+    "c0_photo-06-1250x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-06-1250x1000.png",
+      "mediaType": "image"
+    },
+    "c0_photo-07-900x1200": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-07-900x1200.png",
+      "mediaType": "image"
+    },
+    "c0_photo-08-1600x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-08-1600x1000.png",
+      "mediaType": "image"
+    },
+    "c0_photo-09-1000x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-09-1000x1000.png",
+      "mediaType": "image"
+    },
+    "c0_photo-10-1450x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-10-1450x1000.png",
+      "mediaType": "image"
+    },
+    "c0_photo-11-720x1280": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-11-720x1280.png",
+      "mediaType": "image"
+    },
+    "c0_photo-12-1330x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-12-1330x1000.png",
+      "mediaType": "image"
+    },
+    "c0_photo-13-2400x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-13-2400x1000.png",
+      "mediaType": "image"
+    },
+    "c0_photo-14-1000x1500": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-14-1000x1500.png",
+      "mediaType": "image"
+    },
+    "c0_photo-15-1600x900": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-15-1600x900.png",
+      "mediaType": "image"
+    },
+    "c0_photo-16-1080x1080": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-16-1080x1080.png",
+      "mediaType": "image"
+    },
+    "c0_photo-17-1920x800": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-17-1920x800.png",
+      "mediaType": "image"
+    },
+    "c0_photo-18-1000x1600": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-18-1000x1600.png",
+      "mediaType": "image"
+    },
+    "c0_photo-19-1400x1050": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-19-1400x1050.png",
+      "mediaType": "image"
+    },
+    "c0_photo-20-3000x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-20-3000x1000.png",
+      "mediaType": "image"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-syn-20-crop-budget-0** (gate-31 stress set for `@m0saic/collage/image-collage/v1`).\n\n20 mixed aspects with a ZERO crop budget — the solver must find aspect-exact spans (soft: exceeded minimally, reported).\n\nWatch: labels in File Details show crop % near 0; panoramas/portraits get their spans; any filler shows as background.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-17-1920x800",
+      "editor": {
+        "owner": "template",
+        "label": "img:16"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.016452074391988557,
+          "right": 0.007868383404864092,
+          "top": 0.04259259259259259,
+          "bottom": 0.012962962962962963
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-07-900x1200",
+      "editor": {
+        "owner": "template",
+        "label": "img:6"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.03735632183908046,
+          "right": 0.031609195402298854,
+          "top": 0.04259259259259259,
+          "bottom": 0.012962962962962963
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-13-2400x1000",
+      "editor": {
+        "owner": "template",
+        "label": "img:12"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.009325681492109038,
+          "right": 0.012195121951219513,
+          "top": 0.04259259259259259,
+          "bottom": 0.012962962962962963
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-01-1500x1000",
+      "editor": {
+        "owner": "template",
+        "label": "img:0"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.01,
+          "right": 0.032857142857142856,
+          "top": 0.04259259259259259,
+          "bottom": 0.012962962962962963
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-03-1920x1080",
+      "editor": {
+        "owner": "template",
+        "label": "img:2"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.021904761904761906,
+          "right": 0.008571428571428572,
+          "top": 0.03148148148148148,
+          "bottom": 0.020370370370370372
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-05-1500x1000",
+      "editor": {
+        "owner": "template",
+        "label": "img:4"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.021551724137931036,
+          "right": 0.015804597701149427,
+          "top": 0.03148148148148148,
+          "bottom": 0.020370370370370372
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-20-3000x1000",
+      "editor": {
+        "owner": "template",
+        "label": "img:19"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.009325681492109038,
+          "right": 0.012195121951219513,
+          "top": 0.03148148148148148,
+          "bottom": 0.020370370370370372
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-02-1200x900",
+      "editor": {
+        "owner": "template",
+        "label": "img:1"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.01,
+          "right": 0.032857142857142856,
+          "top": 0.03148148148148148,
+          "bottom": 0.020370370370370372
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-15-1600x900",
+      "editor": {
+        "owner": "template",
+        "label": "img:14"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.021904761904761906,
+          "right": 0.008571428571428572,
+          "top": 0.024074074074074074,
+          "bottom": 0.03148148148148148
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-09-1000x1000",
+      "editor": {
+        "owner": "template",
+        "label": "img:8"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.021551724137931036,
+          "right": 0.015804597701149427,
+          "top": 0.024074074074074074,
+          "bottom": 0.03148148148148148
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-08-1600x1000",
+      "editor": {
+        "owner": "template",
+        "label": "img:7"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.012452107279693486,
+          "right": 0.014367816091954023,
+          "top": 0.024074074074074074,
+          "bottom": 0.03148148148148148
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-06-1250x1000",
+      "editor": {
+        "owner": "template",
+        "label": "img:5"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.012857142857142857,
+          "right": 0.03,
+          "top": 0.024074074074074074,
+          "bottom": 0.03148148148148148
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-04-800x1200",
+      "editor": {
+        "owner": "template",
+        "label": "img:3"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.008571428571428572,
+          "right": 0.06571428571428571,
+          "top": 0.024074074074074074,
+          "bottom": 0.03148148148148148
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-12-1330x1000",
+      "editor": {
+        "owner": "template",
+        "label": "img:11"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.032857142857142856,
+          "right": 0.01,
+          "top": 0.012962962962962963,
+          "bottom": 0.04259259259259259
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-19-1400x1050",
+      "editor": {
+        "owner": "template",
+        "label": "img:18"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.024355300859598854,
+          "right": 0.015759312320916905,
+          "top": 0.012962962962962963,
+          "bottom": 0.04259259259259259
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-14-1000x1500",
+      "editor": {
+        "owner": "template",
+        "label": "img:13"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.03735632183908046,
+          "right": 0.031609195402298854,
+          "top": 0.012962962962962963,
+          "bottom": 0.04259259259259259
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-10-1450x1000",
+      "editor": {
+        "owner": "template",
+        "label": "img:9"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.01867816091954023,
+          "right": 0.01867816091954023,
+          "top": 0.012962962962962963,
+          "bottom": 0.04259259259259259
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-16-1080x1080",
+      "editor": {
+        "owner": "template",
+        "label": "img:15"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.015759312320916905,
+          "right": 0.024355300859598854,
+          "top": 0.012962962962962963,
+          "bottom": 0.04259259259259259
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-11-720x1280",
+      "editor": {
+        "owner": "template",
+        "label": "img:10"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.02,
+          "right": 0.06,
+          "top": 0.012962962962962963,
+          "bottom": 0.04259259259259259
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-18-1000x1600",
+      "editor": {
+        "owner": "template",
+        "label": "img:17"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.008571428571428572,
+          "right": 0.06571428571428571,
+          "top": 0.012962962962962963,
+          "bottom": 0.04259259259259259
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "format": {
+    "kind": "image",
+    "container": "png"
+  },
+  "backgroundColor": "#101014"
+}

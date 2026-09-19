@@ -1,0 +1,7 @@
+{
+  "_comment": "FFmpeg Weekly Pulse — Contributions heatmap beat sandbox walkthrough. Invokes @m0saic/meta/post-mortem/v1 against this session (candidate-001 one-shot + master). Render on demand: m0saic make packages/sandbox/sessions/2026-06-25-ffmpeg-pulse-contributions/postmortem.mosaicx -o /tmp/contributions-session.mp4 -w 1920 -h 1080. NOT rendered at closeout by design.",
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "fps": 30, "durationMs": 9000,
+  "size": { "width": 1920, "height": 1080 }, "assets": {},
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/meta/post-mortem/v1",
+    "props": { "sessionPath": "packages/sandbox/sessions/2026-06-25-ffmpeg-pulse-contributions", "msPerCandidate": 3000, "msTitleCard": 2000, "msEndCard": 2000 } } ]
+}

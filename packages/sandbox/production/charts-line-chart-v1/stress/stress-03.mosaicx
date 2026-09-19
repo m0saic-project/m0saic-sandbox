@@ -1,0 +1,64 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 480
+  },
+  "fps": 30,
+  "durationMs": 3500,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 \u2014 03-money-ultrawide** (gate-16 stress set for `@m0saic/charts/line-chart/v1`).\n\nLONG $-TICKS at ultrawide: raw format + prefix/suffix + tick marks + value labels, static. Watch: the auto-widened y gutter fits \"$10,000,000 USD\", value labels sit above markers.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/line-chart/v1",
+      "props": {
+        "values": [
+          [
+            482000,
+            1250000,
+            2890000,
+            4520000,
+            6100000,
+            9850000
+          ]
+        ],
+        "seriesLabels": [
+          "Revenue"
+        ],
+        "titles": {
+          "title": "Revenue"
+        },
+        "axes": {
+          "yAxis": {
+            "format": "raw",
+            "prefix": "$",
+            "suffix": " USD",
+            "showTicks": true
+          }
+        },
+        "valueLabels": {
+          "show": true,
+          "format": "compact"
+        },
+        "anim": {
+          "reduceMotion": true
+        }
+      }
+    }
+  ]
+}

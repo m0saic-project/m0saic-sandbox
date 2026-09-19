@@ -1,0 +1,69 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 720,
+    "height": 1280
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/treemap/v2",
+      "props": {
+        "items": [
+          {
+            "label": "Engineering",
+            "value": 42
+          },
+          {
+            "label": "Sales",
+            "value": 26
+          },
+          {
+            "label": "Marketing",
+            "value": 16
+          },
+          {
+            "label": "Support",
+            "value": 9
+          },
+          {
+            "label": "Design",
+            "value": 7
+          }
+        ],
+        "title": "HEADCOUNT",
+        "subtitle": "By department",
+        "preset": "light",
+        "valueMode": "percent",
+        "tiles": {
+          "cornerRadius": 0.06
+        },
+        "showValue": true,
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-04"
+  },
+  "agent": {
+    "note": "**STRESS 04/10 — 04-portrait** (gate-12 stress set for `@m0saic/alpine/treemap/v2` — the LAST alpine gate).\n\nPORTRAIT 9:16, defaults. Watch: vertical strip carving, no sub-pixel refusal (the gate fix).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

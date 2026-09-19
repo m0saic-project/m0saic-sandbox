@@ -1,0 +1,268 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "3[0,14(0,0,1,0,0,0,2[1,1],0,0,0,2[1,1],0,0,2[1,1]),14(0,0,0,1,0,0,1,0,0,1,0,1,0,1)]",
+  "assets": {
+    "c0_photo-01-1500x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-01-1500x1000.png",
+      "mediaType": "image"
+    },
+    "c0_photo-02-1200x900": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-02-1200x900.png",
+      "mediaType": "image"
+    },
+    "c0_photo-03-1920x1080": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-03-1920x1080.png",
+      "mediaType": "image"
+    },
+    "c0_photo-04-800x1200": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-04-800x1200.png",
+      "mediaType": "image"
+    },
+    "c0_photo-05-1500x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-05-1500x1000.png",
+      "mediaType": "image"
+    },
+    "c0_photo-06-1250x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-06-1250x1000.png",
+      "mediaType": "image"
+    },
+    "c0_photo-07-900x1200": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-07-900x1200.png",
+      "mediaType": "image"
+    },
+    "c0_photo-08-1600x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-08-1600x1000.png",
+      "mediaType": "image"
+    },
+    "c0_photo-09-1000x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-09-1000x1000.png",
+      "mediaType": "image"
+    },
+    "c0_photo-10-1450x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-10-1450x1000.png",
+      "mediaType": "image"
+    },
+    "c0_photo-11-720x1280": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-11-720x1280.png",
+      "mediaType": "image"
+    },
+    "c0_photo-12-1330x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-12-1330x1000.png",
+      "mediaType": "image"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-04"
+  },
+  "agent": {
+    "note": "**STRESS 04/10 — 04-syn-12-flush** (gate-31 stress set for `@m0saic/collage/image-collage/v1`).\n\nFlush collage: gutter 0 / margin 0 (the e2e 'flush' variant), 12 mixed aspects, seed 3.\n\nWatch: zero background pixels; tiles butt edge to edge with no hairline seams.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-11-720x1280",
+      "editor": {
+        "owner": "template",
+        "label": "img:10"
+      },
+      "placement": {
+        "fit": "cover"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-01-1500x1000",
+      "editor": {
+        "owner": "template",
+        "label": "img:0"
+      },
+      "placement": {
+        "fit": "cover"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-05-1500x1000",
+      "editor": {
+        "owner": "template",
+        "label": "img:4"
+      },
+      "placement": {
+        "fit": "cover"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-03-1920x1080",
+      "editor": {
+        "owner": "template",
+        "label": "img:2"
+      },
+      "placement": {
+        "fit": "cover"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-08-1600x1000",
+      "editor": {
+        "owner": "template",
+        "label": "img:7"
+      },
+      "placement": {
+        "fit": "cover"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-02-1200x900",
+      "editor": {
+        "owner": "template",
+        "label": "img:1"
+      },
+      "placement": {
+        "fit": "cover"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-06-1250x1000",
+      "editor": {
+        "owner": "template",
+        "label": "img:5"
+      },
+      "placement": {
+        "fit": "cover"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-10-1450x1000",
+      "editor": {
+        "owner": "template",
+        "label": "img:9"
+      },
+      "placement": {
+        "fit": "cover"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-09-1000x1000",
+      "editor": {
+        "owner": "template",
+        "label": "img:8"
+      },
+      "placement": {
+        "fit": "cover"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-12-1330x1000",
+      "editor": {
+        "owner": "template",
+        "label": "img:11"
+      },
+      "placement": {
+        "fit": "cover"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-04-800x1200",
+      "editor": {
+        "owner": "template",
+        "label": "img:3"
+      },
+      "placement": {
+        "fit": "cover"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-07-900x1200",
+      "editor": {
+        "owner": "template",
+        "label": "img:6"
+      },
+      "placement": {
+        "fit": "cover"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "format": {
+    "kind": "image",
+    "container": "png"
+  },
+  "backgroundColor": "#101014"
+}

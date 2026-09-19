@@ -1,0 +1,303 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "multi",
+  "steps": [
+    {
+      "name": "land-meta",
+      "label": "land-meta",
+      "durationMs": 1000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {},
+        "m0": "1",
+        "sources": [
+          {
+            "type": "text",
+            "visual": {
+              "backgroundColor": "#000000"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "ERROR: Metadata Stamp"
+                },
+                "style": {
+                  "fontSize": 40,
+                  "fontColor": "#ffffff"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "w*0.06",
+                  "yExpr": "h*0.06"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "No probed dimensions for input:"
+                },
+                "style": {
+                  "fontSize": 22,
+                  "fontColor": "#ffffff"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "w*0.06",
+                  "yExpr": "h*0.180000"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "<sandbox>/production/media-metadata-stamp-v1/fixtures/land-meta.mp4"
+                },
+                "style": {
+                  "fontSize": 22,
+                  "fontColor": "#ffffff"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "w*0.06",
+                  "yExpr": "h*0.205463"
+                }
+              }
+            ],
+            "engine": {
+              "renderStatus": "error",
+              "renderError": {
+                "message": "Metadata Stamp: No probed dimensions for input: <sandbox>/production/media-metadata-stamp-v1/fixtures/land-meta.mp4"
+              }
+            },
+            "editor": {
+              "owner": "user"
+            }
+          }
+        ],
+        "size": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fps": 30,
+        "durationMs": 1000,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    },
+    {
+      "name": "port-offset",
+      "label": "port-offset",
+      "durationMs": 1000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {},
+        "m0": "1",
+        "sources": [
+          {
+            "type": "text",
+            "visual": {
+              "backgroundColor": "#000000"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "ERROR: Metadata Stamp"
+                },
+                "style": {
+                  "fontSize": 40,
+                  "fontColor": "#ffffff"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "w*0.06",
+                  "yExpr": "h*0.06"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "No probed dimensions for input:"
+                },
+                "style": {
+                  "fontSize": 22,
+                  "fontColor": "#ffffff"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "w*0.06",
+                  "yExpr": "h*0.180000"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "<sandbox>/production/media-metadata-stamp-v1/fixtures/port-offset.mp4"
+                },
+                "style": {
+                  "fontSize": 22,
+                  "fontColor": "#ffffff"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "w*0.06",
+                  "yExpr": "h*0.205463"
+                }
+              }
+            ],
+            "engine": {
+              "renderStatus": "error",
+              "renderError": {
+                "message": "Metadata Stamp: No probed dimensions for input: <sandbox>/production/media-metadata-stamp-v1/fixtures/port-offset.mp4"
+              }
+            },
+            "editor": {
+              "owner": "user"
+            }
+          }
+        ],
+        "size": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fps": 30,
+        "durationMs": 1000,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    },
+    {
+      "name": "sq-nometa",
+      "label": "sq-nometa",
+      "durationMs": 1000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {},
+        "m0": "1",
+        "sources": [
+          {
+            "type": "text",
+            "visual": {
+              "backgroundColor": "#000000"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "ERROR: Metadata Stamp"
+                },
+                "style": {
+                  "fontSize": 40,
+                  "fontColor": "#ffffff"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "w*0.06",
+                  "yExpr": "h*0.06"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "No probed dimensions for input:"
+                },
+                "style": {
+                  "fontSize": 22,
+                  "fontColor": "#ffffff"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "w*0.06",
+                  "yExpr": "h*0.180000"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "<sandbox>/production/media-metadata-stamp-v1/fixtures/sq-nometa.mp4"
+                },
+                "style": {
+                  "fontSize": 22,
+                  "fontColor": "#ffffff"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "w*0.06",
+                  "yExpr": "h*0.205463"
+                }
+              }
+            ],
+            "engine": {
+              "renderStatus": "error",
+              "renderError": {
+                "message": "Metadata Stamp: No probed dimensions for input: <sandbox>/production/media-metadata-stamp-v1/fixtures/sq-nometa.mp4"
+              }
+            },
+            "editor": {
+              "owner": "user"
+            }
+          }
+        ],
+        "size": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fps": 30,
+        "durationMs": 1000,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/media/metadata-stamp/v1`** (gate 13 — first POST-ALPINE gate; the founder-added backlog item; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = defaults over 3 ledger fixtures (with-tag / offset-tag / no-tag) — Make shows the multi-step pipeline: two stamped outputs + one clean passthrough.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated, NOT primitive (utility — correct) | confirm |\n| Gate | — | **base** |\n| Preview assets | none yet | mint after approval |\n| Cover / Tutorial | cover BUILT this gate (real render REQUIRES media → first open was the missing-sources error card; cover = synthetic frame + demo chip + band) | eyeball cover; tutorial needed? |\n\n**Pre-audit: the template is WELL-BUILT (watermark-class conventions) — zero structural fixes needed.** measureText-on-real-glyphs chip fit (script-safe by construction, better than the alpine em model), per-file error-card degradation (one bad file never kills a batch), pure-UTC date math, output canvas tracks each input's probed dims (verified: 160×120 and 720×1280 outputs from one 1920×1080 CLI invocation).\n\nBattery: 15 input-driven configs ×  fixtures (metadata present/absent/offset-tagged, unicode filename+custom text, 9-position sample, size/margin extremes, chip-off, tiny 160×120 input, image-input error path, mixed error batch) — 15/15 clean. Verified in pixels: correct UTC-offset math (+0530 tag at −720 offset → \"Dec 31, 2023\"), true passthrough for tagless files (zero chip), legible per-step error cards.\n\n**SOFT ITEMS for your ruling:**\n1. **CJK tofu in stamp text** — the SVG rasterizer's bundled font lacks CJK (Cyrillic fine). Same class you accepted at stat-card (emoji tofu); the @m0saic/text package project is the future fix. Accept, or gate CJK inputs?\n2. **Unicode filenames slug thin in output names** — \"Лето-2024-クリップ.mp4\" → \"batch-all-2024.mp4\" (non-ASCII stripped by the step-name slugger; collision-dedupe exists). Accept?\n\n31/31 unit (format-date + template). Fixtures live in the ledger (`fixtures/`, 4.3MB) so this file renders forever.",
+    "question": "Default look verdict (open the steps in Make)? Cover OK? Tutorial needed? NOT-primitive confirmed? Rulings on the 2 soft items? Then stress.",
+    "response": {
+      "verdict": "ship",
+      "text": "default pass-with-cover-fix → stress x10 pass → \"ship it\"",
+      "via": "chat — transcribed by agent",
+      "note": "SHIPPED base ☑ (gate 13, first post-alpine). Tutorial not needed; NOT primitive (utility). Soft items accepted: CJK tofu (svg font), thin unicode slugs. Star stress lesson: MP4 wraps post-2040 creation dates at CONTAINER level — the template stamps container truth."
+    }
+  }
+}

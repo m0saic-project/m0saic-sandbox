@@ -1,0 +1,74 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/donut/v3",
+      "props": {
+        "segments": [
+          {
+            "label": "Enterprise",
+            "value": 42,
+            "color": "#2563EB"
+          },
+          {
+            "label": "Pro",
+            "value": 33,
+            "color": "#10B981"
+          },
+          {
+            "label": "Free",
+            "value": 25,
+            "color": "#F59E0B"
+          }
+        ],
+        "title": "DONUT CHART",
+        "subtitle": "Revenue Mix",
+        "centerValue": "$12,480",
+        "centerLabel": "Total",
+        "preset": "light",
+        "ringThicknessFrac": 0.42,
+        "segmentLabels": "percent",
+        "legend": "right",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        },
+        "debugLayout": false
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-03"
+  },
+  "agent": {
+    "note": "**GATE 4, TAKE 3 — piecewise draw-on, seam-free** (forked from candidate-02: bloom was too chunky; you wanted the pieces back).\n\nThe squares were never the SUBDIVISION — they were the bbox CROPPING. So the pieces are back with nothing to crop: each segment subdivides into a few slivers, and every sliver is a FULL-CELL annular mask. Slivers overlap 2° backward within their segment — same color over same color composites invisibly, so boundaries never show, mid-fade or final. Each piece fades as the eased front reaches its start angle, duration ∝ its arc — the continuous clockwise draw-on.\n\nThe one hard constraint the old crop machinery existed for is handled by BUDGET instead: total slivers ≤ 24 − N − 2 (labels + center reserved), capped 18 — always under the ~25-overlay mask cliff. 3 segments → ~6 pieces each; 8 segments → 1-2 each. Light/static stay one clean mask per segment.\n\nEverything else rides from takes 1-2: content-hug legend + width-caps, equal-band stack, swatch contract, ~90 lines of sliver apparatus still deleted. 54/54 unit (budget + stagger locks), e2e 7/7, battery ×14 canvases ×5 configs incl. 8-seg.\n\nStill open: ship in base? cover/tutorial? legend look-shift? portrait `legend: bottom` now or v3.1?",
+    "question": "Play the animation — pieces are back, squares are gone. Good? Then the standing questions: ship in base, cover/tutorial, legend look-shift, portrait legend-bottom.",
+    "response": {
+      "body": "approved",
+      "from": "human",
+      "at": "2026-08-20T22:38:11.322Z",
+      "src": "<sandbox>/production/alpine-donut-v3/./master_candidate-03-1280x708.mp4"
+    },
+    "comments": [
+      {
+        "from": "human",
+        "at": "2026-08-21T18:55:58.000Z",
+        "text": "SHIP RULING (chat, transcribed): approved — needs a cover (ADDED), no tutorial necessary, regen assets (DONE). Good to ship."
+      }
+    ]
+  }
+}

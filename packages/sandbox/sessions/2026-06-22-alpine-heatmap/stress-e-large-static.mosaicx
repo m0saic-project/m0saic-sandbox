@@ -1,0 +1,209 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/heatmap/v1",
+      "props": {
+        "rows": [
+          {
+            "label": "Mon",
+            "values": [
+              0,
+              2,
+              1,
+              4,
+              3,
+              5,
+              2,
+              6,
+              1,
+              3,
+              2,
+              5,
+              4,
+              6,
+              3,
+              7
+            ]
+          },
+          {
+            "label": "Tue",
+            "values": [
+              1,
+              3,
+              2,
+              5,
+              4,
+              6,
+              3,
+              7,
+              2,
+              4,
+              3,
+              6,
+              5,
+              8,
+              4,
+              9
+            ]
+          },
+          {
+            "label": "Wed",
+            "values": [
+              2,
+              4,
+              3,
+              6,
+              5,
+              8,
+              4,
+              9,
+              1,
+              2,
+              4,
+              5,
+              7,
+              6,
+              5,
+              8
+            ]
+          },
+          {
+            "label": "Thu",
+            "values": [
+              1,
+              2,
+              4,
+              5,
+              7,
+              6,
+              5,
+              8,
+              3,
+              5,
+              6,
+              8,
+              9,
+              7,
+              8,
+              10
+            ]
+          },
+          {
+            "label": "Fri",
+            "values": [
+              3,
+              5,
+              6,
+              8,
+              9,
+              7,
+              8,
+              10,
+              0,
+              1,
+              0,
+              2,
+              1,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "label": "Sat",
+            "values": [
+              0,
+              1,
+              0,
+              2,
+              1,
+              3,
+              1,
+              2,
+              2,
+              4,
+              3,
+              6,
+              5,
+              8,
+              4,
+              9
+            ]
+          },
+          {
+            "label": "Sun",
+            "values": [
+              0,
+              0,
+              1,
+              1,
+              0,
+              2,
+              0,
+              1,
+              1,
+              3,
+              2,
+              5,
+              4,
+              6,
+              3,
+              7
+            ]
+          }
+        ],
+        "colLabels": [
+          "W1",
+          "W2",
+          "W3",
+          "W4",
+          "W5",
+          "W6",
+          "W7",
+          "W8",
+          "W9",
+          "W10",
+          "W11",
+          "W12",
+          "W13",
+          "W14",
+          "W15",
+          "W16"
+        ],
+        "title": "CONTRIBUTIONS",
+        "subtitle": "16-week history",
+        "preset": "light",
+        "levels": 5,
+        "cellRadius": 0.25,
+        "showLegend": true,
+        "showValues": false,
+        "anim": {
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": true
+        }
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant E — LARGE grid (7 rows × 16 cols = 112 cells) + reduceMotion (static board). Tests tile count / feasibility at scale and the static (no-animation) path.",
+    "question": "Approve or deny. Does the 7×16 grid stay feasible + legible, and is the static (reduceMotion) board correct?",
+    "response": {
+      "body": "Working correctly. lets also run a test for big numbers and then show values, what happens when the number is too long to show?",
+      "from": "human",
+      "at": "2026-06-22T21:45:28.337Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

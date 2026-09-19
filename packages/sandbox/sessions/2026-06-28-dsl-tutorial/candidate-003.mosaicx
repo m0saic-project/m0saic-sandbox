@@ -1,0 +1,53 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "2(2[1,1],2[1,1])",
+        "speedMultiplier": 1,
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-003"
+  },
+  "agent": {
+    "note": "**candidate-003 — chrome iteration per your verdict.**\n\n- **Removed the traffic-light dots** → **baked m0saic logo**: the app-icon mark resized to 128px, embedded as a data-URI and placed as a single **media rect** (no template, no asset fetch — baked into the file).\n- **Tutorial chip widened** + now a rounded-rect, not a tall oval.\n- **Step pill widened + inner padding** so large numbers never crowd the edge — it'll read `Step 1247 / 58320` cleanly as DSL complexity grows.\n- All pills are rounded rects now (not full ovals).\n\nContent panels are still placeholders (M1–M4). `suggestedOutput` is set so this candidate's renders + `.mosaic` twin land here in the session dir.",
+    "question": "Does the chrome land now — the baked logo square, the wider Tutorial chip, the roomier Step pill? Anything else before I start **M1 (the animated canvas)**?",
+    "context": {
+      "category": {
+        "kind": "other",
+        "label": "ide-shell-chrome"
+      },
+      "intent": {
+        "action": "refine",
+        "summary": "chrome: baked logo, wider chip, roomier step pill"
+      },
+      "relation": {
+        "kind": "refines",
+        "target": "002"
+      }
+    },
+    "response": {
+      "body": "approved",
+      "from": "human",
+      "at": "2026-06-28T08:18:04.615Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/./candidate-003-1920x1080.mp4"
+    }
+  }
+}

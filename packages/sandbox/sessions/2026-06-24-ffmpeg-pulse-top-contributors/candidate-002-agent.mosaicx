@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 9000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/top-contributors/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-24-ffmpeg-pulse-top-contributors", "basename": "candidate-002" },
+  "agent": { "note": "candidate-001 feedback applied. ROOT CAUSE: the nested table drew its OWN card surface, so its edges didn't match the beat's chrome panels (header/rail/footer, which are beat-drawn with a ±pad inset). FIX: the table is now TRANSPARENT (backgroundColor black@0) and the BEAT draws its backdrop — so ALL panels (table / rail / header / footer) share the same ±pad inset and aligned edges. (The table's row washes now blend against a solid base regardless, so the banded rows stay visible with no self-surface; standalone table output is unchanged — washBase==cardBg for a solid bg.) RESULT: (1) desktop — the rail (Total Commits…) panel top/bottom now line up with the table panel; (2) mobile — the table (stacked-card) panel now matches the header section width. Renders: /tmp/b3d3.mp4 (desktop), /tmp/b3s3.mp4 (square), /tmp/b3m3.mp4 (mobile).", "question": "Alignment good now on desktop + mobile? Square OK too? Any remaining nudges before I lock Beat 3?" }
+}

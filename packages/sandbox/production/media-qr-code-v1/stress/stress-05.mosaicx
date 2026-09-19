@@ -1,0 +1,37 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2400,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-video-centre** (gate-22 stress set for `@m0saic/media/qr/code/v1`).\n\nA VIDEO as the carved centre (talk-720p) inside a spawning QR — the flashiest composite this template does. Watch: video plays inside the safe-area cutout while modules spawn around it.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "stress set pass (02 noted as engine limitation, 09 accepted+documented)",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/qr/code/v1",
+      "props": {
+        "outputFormat": "mp4",
+        "center": {
+          "assetPath": "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4"
+        }
+      }
+    }
+  ]
+}

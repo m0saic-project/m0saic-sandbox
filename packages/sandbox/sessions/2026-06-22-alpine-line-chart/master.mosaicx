@@ -1,0 +1,4 @@
+{"kind":"mosaicx_document","version":1,"m0":"F","assets":{},"size":{"width":1280,"height":800},"fps":30,"durationMs":2000,
+"sources":[{"type":"template_invocation","templateId":"@m0saic/alpine/line-chart/v1","props":{
+"title":"LINE CHART","subtitle":"Monthly Active Users","values":[12,19,15,25,22,30,28,36],
+"labels":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug"],"curve":"smooth"}}]}

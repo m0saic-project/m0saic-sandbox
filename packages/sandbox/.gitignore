@@ -1,0 +1,15 @@
+# Rendered videos are NOT committed — the .m0c/.mosaicx candidates are the
+# artifacts; renders are reproducible from them. The dated-render provenance
+# trail lives in each response's `src` pointer (path + timestamp), not in
+# checked-in binaries.
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+*.m4v
+*.gif
+
+# m0saic render artifacts
+*.mosaic-plan.json
+*.commands.json

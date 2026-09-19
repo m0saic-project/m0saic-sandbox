@@ -1,0 +1,29 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 384,
+  "height": 512
+ },
+ "fps": 30,
+ "durationMs": 3200,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/brand/logo/v3",
+   "props": {
+    "size": "m0",
+    "animation": "logo_loop"
+   }
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "stress-04"
+ },
+ "agent": {
+  "note": "**STRESS 04/10 — 04-m0-logotype** (gate-28 stress set for `@m0saic/brand/logo/v3`).\n\nThe m0 LOGOTYPE at its official 384x512. Watch: portrait official canvas, mask cutouts intact."
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 1280,
+  "height": 400
+ },
+ "fps": 30,
+ "durationMs": 6800,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/hero/search-typing/v1",
+   "props": {
+    "words": [
+     "Everything"
+    ],
+    "timing": {
+     "typeCharMs": 400,
+     "deleteCharMs": 200,
+     "emptyHoldMs": 500,
+     "wordHoldMs": 1500,
+     "leadMs": 400,
+     "trailMs": 400
+    }
+   }
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "stress-07"
+ },
+ "agent": {
+  "note": "**STRESS 07/10 — 07-slow-single** (gate-27 stress set for `@m0saic/hero/search-typing/v1`; PUBLISHER ruling — ships under @m0saic-dev, same bar).\n\nOne slow word. Watch: hold-last poster; deliberate cadence."
+ }
+}

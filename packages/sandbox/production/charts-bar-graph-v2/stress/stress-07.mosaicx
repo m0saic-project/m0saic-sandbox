@@ -1,0 +1,51 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/bar-graph/v2",
+      "props": {
+        "values": [
+          150,
+          0,
+          2,
+          55,
+          98
+        ],
+        "labels": [
+          "Over",
+          "Zero",
+          "Tiny",
+          "Mid",
+          "High"
+        ],
+        "domain": {
+          "minValue": 0,
+          "maxValue": 100
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-hostile-domain** (gate-14 stress set for `@m0saic/charts/bar-graph/v2`).\n\nHOSTILE: explicit domain 0..100 with an over-domain outlier (150 clamps full) + zero + near-zero. Watch: clamps sane, value labels on short bars, no NaN.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

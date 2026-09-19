@@ -1,0 +1,386 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{24[-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121(0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15[0,1,0,0,0,0,0,0,0,0,0,0,0,0,12[0,0,0,0,1{81[0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},0,0,0,0,0,0,20(0,0,0,0,0,0,0,0,1{113[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},0,0,0,0,0,0,0,0,0,0,2[1{57[0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},30(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{56[0,0,0,0,-,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},0,0,0,0,0,0,0,0,0,0,0,0,1{28[0,-,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]})])]],0,0,0,0,0,0,-),-]}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#E5E7EB",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "HEADCOUNT"
+          },
+          "style": {
+            "fontSize": 49,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "By department"
+          },
+          "style": {
+            "fontSize": 25,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "card-header"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "placement": {
+        "inset": {
+          "top": 0.012241400416207615,
+          "right": 0.006125574272588055,
+          "bottom": 0.012241400416207615,
+          "left": 0.006125574272588055
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Engineering"
+          },
+          "style": {
+            "fontSize": 27,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.04900459418070444
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#10B981",
+      "placement": {
+        "inset": {
+          "top": 0.008864462370357238,
+          "right": 0.013664742608081046,
+          "bottom": 0.008864462370357238,
+          "left": 0.013664742608081046
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Sales"
+          },
+          "style": {
+            "fontSize": 27,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09565319825656732
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#F59E0B",
+      "placement": {
+        "inset": {
+          "top": 0.017728924740714476,
+          "right": 0.01110260336906585,
+          "bottom": 0.017728924740714476,
+          "left": 0.01110260336906585
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Marketing"
+          },
+          "style": {
+            "fontSize": 27,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.061064318529862174
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EF4444",
+      "placement": {
+        "inset": {
+          "top": 0.017728924740714476,
+          "right": 0.01973796154500596,
+          "bottom": 0.017728924740714476,
+          "left": 0.01973796154500596
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Support"
+          },
+          "style": {
+            "fontSize": 27,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.0937553173387783
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8B5CF6",
+      "placement": {
+        "inset": {
+          "top": 0.017728924740714476,
+          "right": 0.025377379129293366,
+          "bottom": 0.017728924740714476,
+          "left": 0.025377379129293366
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Design"
+          },
+          "style": {
+            "fontSize": 27,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09516517173485013
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "#F8FAFC",
+  "fps": 30,
+  "durationMs": 3000,
+  "size": {
+    "width": 733,
+    "height": 977
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-09"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 — 09-static-novalue** (gate-12 stress set for `@m0saic/alpine/treemap/v2` — the LAST alpine gate).\n\nreduceMotion static + values OFF + rounding 0 (sharp corners). Watch: complete static map, name-only tiles, square edges.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

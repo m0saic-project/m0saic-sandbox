@@ -1,0 +1,26 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": { "width": 1280, "height": 800 },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/bar-graph/v1",
+      "props": {
+        "title": "BAR CHART",
+        "subtitle": "Sales by Channel",
+        "values": [12400, 8700, 5600, 2100, 1200],
+        "labels": ["Email", "Twitter", "Reddit", "Hacker News", "Other"],
+        "preset": "light"
+      }
+    }
+  ],
+  "agent": {
+    "note": "candidate-002 — DUAL PROPS added (you asked to nail the prop shape). The human view now has friendly controls: Animation → 'Animate' checkbox + 'Speed' slider; Appearance → 'Gridlines' checkbox; Labels → 'Value labels' checkbox. These are sync-both DERIVED bindings: each reads from + writes to the canonical agent props (anim / grid / valueLabels), which live under a new collapsed 'Agent props (raw)' escape. render() reads ONLY the canonical props — the sliders never enter the render. (Existing sliders: Gap, Bar Rounding; pickers: Preset, Bar Color.)",
+    "question": "Play with the human sliders (no JSON). Does the human prop surface feel right — the right knobs, ranges, labels, sections? Should anything move between the human view and the Agent-props escape, or get added (e.g. a 'spacing' slider for gap)?"
+  }
+}

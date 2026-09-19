@@ -1,0 +1,288 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121(0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,119(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45[0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,-)},0,0,0,0,0,0,0,0,0,0,-],-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1}],0,0,0,-),0,0,0,0,0,0,-]}",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#E5E7EB",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "MONTHLY REVENUE"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.5249999999999999)))*(min(1,max(0,(t-0)/0.5249999999999999)))*(3-2*(min(1,max(0,(t-0)/0.5249999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "$%{eif\\:48*((1-(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))*(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))))+0.5\\:d},%{eif\\:250*((1-(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))*(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))))+0.5\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 106,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#16A34A",
+      "overlay": {
+        "alpha": "((min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))))*0.14"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "delta-pill"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#16A34A",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 23 9.1 L 39.1 36.9 L 6.9 36.9 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 46,
+          "height": 46
+        }
+      },
+      "placement": {
+        "inset": {
+          "x": 0.1891891891891892
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "delta-arrow"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "+12.5%"
+          },
+          "style": {
+            "fontSize": 24,
+            "fontColor": "#16A34A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "vs last month"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#16A34A",
+      "overlay": {
+        "alpha": "((min(1,max(0,(t-0)/1.0499999999999998)))*(min(1,max(0,(t-0)/1.0499999999999998)))*(3-2*(min(1,max(0,(t-0)/1.0499999999999998)))))*0.16"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 0 176 L 4.68 174.97 L 10.3 173.63 L 16.78 172.01 L 24 170.16 L 31.87 168.15 L 40.3 166.01 L 49.19 163.8 L 58.43 161.57 L 67.94 159.36 L 77.6 157.23 L 87.34 155.23 L 97.04 153.4 L 106.61 151.79 L 115.95 150.46 L 124.96 149.46 L 133.56 148.83 L 141.9 148.66 L 150.25 148.95 L 158.6 149.63 L 166.94 150.64 L 175.29 151.89 L 183.64 153.33 L 191.99 154.88 L 200.33 156.47 L 208.68 158.04 L 217.03 159.51 L 225.37 160.82 L 233.72 161.89 L 242.07 162.65 L 250.42 163.04 L 258.76 162.99 L 267.11 162.42 L 275.46 161.26 L 283.81 159.55 L 292.15 157.36 L 300.5 154.78 L 308.85 151.87 L 317.19 148.73 L 325.54 145.42 L 333.89 142.04 L 342.24 138.66 L 350.58 135.36 L 358.93 132.21 L 367.28 129.31 L 375.62 126.72 L 383.97 124.53 L 392.32 122.82 L 400.67 121.67 L 409.01 121.14 L 417.36 121.18 L 425.71 121.72 L 434.06 122.67 L 442.4 123.95 L 450.75 125.47 L 459.1 127.14 L 467.44 128.88 L 475.79 130.61 L 484.14 132.25 L 492.49 133.7 L 500.83 134.88 L 509.18 135.71 L 517.53 136.11 L 525.88 135.98 L 534.22 135.25 L 542.57 133.85 L 550.92 131.81 L 559.26 129.25 L 567.61 126.23 L 575.96 122.86 L 584.31 119.21 L 592.65 115.39 L 601 111.48 L 609.35 107.57 L 617.69 103.75 L 626.04 100.1 L 634.39 96.73 L 642.74 93.71 L 651.08 91.14 L 659.43 89.11 L 667.78 87.71 L 676.13 86.99 L 684.47 86.9 L 692.82 87.35 L 701.17 88.24 L 709.51 89.49 L 717.86 91.01 L 726.21 92.71 L 734.56 94.5 L 742.9 96.29 L 751.25 97.99 L 759.6 99.51 L 767.94 100.76 L 776.29 101.65 L 784.64 102.1 L 792.99 102.01 L 801.33 101.29 L 809.68 99.89 L 818.03 97.86 L 826.37 95.29 L 834.72 92.27 L 843.07 88.9 L 851.42 85.25 L 859.76 81.43 L 868.11 77.52 L 876.46 73.61 L 884.81 69.79 L 893.15 66.14 L 901.5 62.77 L 909.85 59.75 L 918.19 57.19 L 926.54 55.15 L 934.89 53.75 L 943.24 53.04 L 951.58 52.99 L 959.93 53.48 L 968.28 54.44 L 976.63 55.76 L 984.97 57.35 L 993.32 59.12 L 1001.67 60.97 L 1010.01 62.8 L 1018.36 64.53 L 1026.71 66.05 L 1035.06 67.28 L 1043.4 68.12 L 1051.75 68.47 L 1060.1 68.24 L 1068.44 67.33 L 1077.04 65.7 L 1086.05 63.42 L 1095.39 60.57 L 1104.96 57.25 L 1114.66 53.55 L 1124.4 49.55 L 1134.06 45.34 L 1143.57 41.02 L 1152.81 36.67 L 1161.7 32.38 L 1170.13 28.25 L 1178 24.35 L 1185.22 20.79 L 1191.7 17.66 L 1197.32 15.03 L 1202 13 L 1202 189 L 0 189 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1202,
+          "height": 189
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#16A34A",
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/1.0499999999999998)))*(min(1,max(0,(t-0)/1.0499999999999998)))*(3-2*(min(1,max(0,(t-0)/1.0499999999999998))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 1.18 181.37 L 5.86 180.35 L 3.5 169.6 L -1.18 170.63 Z M 5.96 180.32 L 11.59 178.97 L 9.02 168.28 L 3.4 169.63 Z M 11.64 178.96 L 18.11 177.34 L 15.44 166.67 L 8.97 168.29 Z M 18.14 177.33 L 25.36 175.49 L 22.64 164.83 L 15.42 166.68 Z M 25.36 175.49 L 33.24 173.48 L 30.51 162.82 L 22.64 164.84 Z M 33.22 173.48 L 41.65 171.34 L 38.95 160.68 L 30.52 162.82 Z M 41.63 171.35 L 50.51 169.14 L 47.86 158.46 L 38.97 160.67 Z M 50.48 169.15 L 59.72 166.91 L 57.14 156.22 L 47.89 158.46 Z M 59.67 166.93 L 69.18 164.72 L 66.69 154 L 57.19 156.21 Z M 69.12 164.73 L 78.79 162.6 L 76.42 151.86 L 66.75 153.99 Z M 78.71 162.62 L 88.45 160.61 L 86.23 149.84 L 76.49 151.84 Z M 88.36 160.63 L 98.06 158.8 L 96.02 147.99 L 86.32 149.82 Z M 97.95 158.82 L 107.52 157.22 L 105.7 146.37 L 96.13 147.97 Z M 107.38 157.24 L 116.72 155.91 L 115.17 145.02 L 105.83 146.35 Z M 116.56 155.93 L 125.57 154.93 L 124.36 144 L 115.34 145 Z M 125.37 154.95 L 133.96 154.32 L 133.15 143.35 L 124.56 143.98 Z M 133.67 154.33 L 142.02 154.16 L 141.79 143.16 L 133.44 143.33 Z M 141.71 154.16 L 150.06 154.45 L 150.44 143.46 L 142.09 143.17 Z M 149.8 154.43 L 158.15 155.12 L 159.04 144.15 L 150.7 143.47 Z M 157.94 155.09 L 166.29 156.1 L 167.6 145.18 L 159.25 144.17 Z M 166.13 156.08 L 174.47 157.33 L 176.11 146.45 L 167.76 145.2 Z M 174.36 157.31 L 182.71 158.75 L 184.57 147.91 L 176.23 146.47 Z M 182.63 158.74 L 190.98 160.29 L 192.99 149.47 L 184.64 147.92 Z M 190.95 160.28 L 199.3 161.88 L 201.36 151.07 L 193.02 149.48 Z M 199.32 161.88 L 207.67 163.45 L 209.7 152.64 L 201.35 151.07 Z M 207.73 163.46 L 216.07 164.93 L 217.98 154.1 L 209.63 152.62 Z M 216.18 164.95 L 224.53 166.25 L 226.22 155.38 L 217.88 154.08 Z M 224.68 166.27 L 233.02 167.34 L 234.42 156.43 L 226.07 155.36 Z M 233.22 167.36 L 241.57 168.13 L 242.57 157.17 L 234.22 156.41 Z M 241.81 168.14 L 250.16 168.53 L 250.67 157.55 L 242.33 157.16 Z M 250.45 168.54 L 258.8 168.49 L 258.73 157.49 L 250.38 157.54 Z M 259.14 168.47 L 267.48 167.9 L 266.74 156.93 L 258.39 157.5 Z M 267.86 167.86 L 276.21 166.71 L 274.71 155.81 L 266.36 156.97 Z M 276.56 166.65 L 284.91 164.94 L 282.7 154.16 L 274.35 155.87 Z M 285.2 164.87 L 293.55 162.68 L 290.76 152.04 L 282.41 154.23 Z M 293.78 162.62 L 302.13 160.03 L 298.87 149.52 L 290.52 152.11 Z M 302.31 159.97 L 310.66 157.07 L 307.04 146.68 L 298.69 149.58 Z M 310.79 157.02 L 319.13 153.87 L 315.26 143.58 L 306.91 146.72 Z M 319.22 153.84 L 327.57 150.54 L 323.52 140.31 L 315.17 143.61 Z M 327.61 150.52 L 335.95 147.14 L 331.82 136.94 L 323.48 140.33 Z M 335.95 147.14 L 344.3 143.76 L 340.17 133.56 L 331.82 136.94 Z M 344.26 143.77 L 352.61 140.47 L 348.56 130.24 L 340.21 133.54 Z M 352.52 140.5 L 360.87 137.36 L 356.99 127.07 L 348.64 130.21 Z M 360.74 137.41 L 369.09 134.5 L 365.47 124.11 L 357.12 127.02 Z M 368.91 134.56 L 377.25 131.97 L 374 121.47 L 365.65 124.05 Z M 377.02 132.04 L 385.37 129.85 L 382.58 119.21 L 374.23 121.4 Z M 385.08 129.92 L 393.42 128.21 L 391.21 117.43 L 382.87 119.14 Z M 393.07 128.27 L 401.42 127.11 L 399.91 116.22 L 391.57 117.37 Z M 401.02 127.16 L 409.36 126.62 L 408.66 115.65 L 400.32 116.18 Z M 408.98 126.64 L 417.33 126.68 L 417.39 115.68 L 409.05 115.64 Z M 417.01 126.67 L 425.35 127.21 L 426.06 116.24 L 417.72 115.69 Z M 425.09 127.19 L 433.43 128.14 L 434.68 117.21 L 426.33 116.26 Z M 433.22 128.11 L 441.57 129.39 L 443.23 118.51 L 434.89 117.24 Z M 441.42 129.36 L 449.77 130.88 L 451.73 120.06 L 443.39 118.54 Z M 449.67 130.86 L 458.02 132.53 L 460.18 121.75 L 451.83 120.07 Z M 457.97 132.52 L 466.32 134.27 L 468.57 123.5 L 460.22 121.76 Z M 466.33 134.27 L 474.68 136 L 476.91 125.23 L 468.56 123.5 Z M 474.74 136.01 L 483.08 137.64 L 485.19 126.85 L 476.85 125.22 Z M 483.2 137.66 L 491.54 139.11 L 493.43 128.28 L 485.08 126.83 Z M 491.71 139.14 L 500.06 140.32 L 501.61 129.43 L 493.26 128.25 Z M 500.29 140.35 L 508.64 141.18 L 509.73 130.24 L 501.38 129.41 Z M 508.92 141.2 L 517.27 141.6 L 517.79 130.61 L 509.44 130.22 Z M 517.61 141.6 L 525.96 141.48 L 525.79 130.48 L 517.45 130.61 Z M 526.35 141.46 L 534.7 140.73 L 533.74 129.77 L 525.4 130.5 Z M 535.13 140.67 L 543.48 139.27 L 541.66 128.42 L 533.31 129.83 Z M 543.87 139.19 L 552.22 137.16 L 549.62 126.47 L 541.27 128.5 Z M 552.53 137.07 L 560.88 134.5 L 557.65 123.99 L 549.3 126.56 Z M 561.13 134.42 L 569.48 131.4 L 565.74 121.06 L 557.39 124.07 Z M 569.67 131.33 L 578.02 127.95 L 573.9 117.76 L 565.55 121.13 Z M 578.16 127.9 L 586.51 124.25 L 582.11 114.17 L 573.76 117.81 Z M 586.6 124.21 L 594.94 120.39 L 590.36 110.39 L 582.02 114.21 Z M 594.99 120.37 L 603.33 116.46 L 598.67 106.5 L 590.32 110.41 Z M 603.33 116.46 L 611.68 112.55 L 607.01 102.59 L 598.67 106.5 Z M 611.64 112.57 L 619.98 108.75 L 615.4 98.74 L 607.06 102.57 Z M 619.89 108.79 L 628.24 105.14 L 623.84 95.06 L 615.49 98.7 Z M 628.1 105.2 L 636.45 101.83 L 632.33 91.63 L 623.98 95 Z M 636.26 101.9 L 644.61 98.89 L 640.87 88.54 L 632.52 91.56 Z M 644.35 98.97 L 652.7 96.4 L 649.47 85.89 L 641.12 88.46 Z M 652.38 96.49 L 660.73 94.46 L 658.13 83.77 L 649.78 85.8 Z M 660.34 94.54 L 668.69 93.13 L 666.87 82.28 L 658.52 83.69 Z M 668.25 93.19 L 676.6 92.47 L 675.65 81.51 L 667.31 82.23 Z M 676.19 92.49 L 684.53 92.4 L 684.41 81.4 L 676.06 81.49 Z M 684.18 92.39 L 692.53 92.84 L 693.11 81.85 L 684.77 81.41 Z M 692.23 92.81 L 700.58 93.71 L 701.75 82.77 L 693.4 81.88 Z M 700.35 93.68 L 708.7 94.93 L 710.33 84.05 L 701.98 82.8 Z M 708.53 94.9 L 716.88 96.42 L 718.85 85.6 L 710.5 84.08 Z M 716.76 96.4 L 725.11 98.1 L 727.31 87.32 L 718.96 85.62 Z M 725.06 98.09 L 733.4 99.88 L 735.71 89.12 L 727.36 87.33 Z M 733.4 99.88 L 741.75 101.67 L 744.06 90.91 L 735.71 89.12 Z M 741.81 101.68 L 750.15 103.38 L 752.35 92.6 L 744 90.9 Z M 750.26 103.4 L 758.61 104.92 L 760.58 94.1 L 752.24 92.58 Z M 758.78 104.95 L 767.13 106.2 L 768.76 95.32 L 760.41 94.07 Z M 767.36 106.23 L 775.71 107.12 L 776.88 96.19 L 768.53 95.29 Z M 776 107.15 L 784.35 107.59 L 784.93 96.61 L 776.59 96.16 Z M 784.7 107.6 L 793.05 107.51 L 792.93 96.51 L 784.58 96.6 Z M 793.46 107.49 L 801.8 106.77 L 800.86 95.81 L 792.51 96.53 Z M 802.25 106.72 L 810.59 105.31 L 808.77 94.46 L 800.42 95.87 Z M 810.98 105.23 L 819.33 103.2 L 816.73 92.51 L 808.38 94.54 Z M 819.65 103.11 L 827.99 100.54 L 824.76 90.03 L 816.41 92.6 Z M 828.24 100.46 L 836.59 97.44 L 832.85 87.1 L 824.51 90.11 Z M 836.78 97.37 L 845.13 94 L 841.01 83.8 L 832.66 87.17 Z M 845.27 93.94 L 853.62 90.3 L 849.22 80.21 L 840.87 83.86 Z M 853.71 90.26 L 862.05 86.43 L 857.47 76.43 L 849.13 80.25 Z M 862.1 86.41 L 870.44 82.5 L 865.78 72.54 L 857.43 76.45 Z M 870.44 82.5 L 878.79 78.59 L 874.12 68.63 L 865.78 72.54 Z M 878.75 78.61 L 887.1 74.79 L 882.52 64.79 L 874.17 68.61 Z M 887.01 74.83 L 895.35 71.19 L 890.95 61.1 L 882.61 64.75 Z M 895.21 71.24 L 903.56 67.87 L 899.44 57.67 L 891.09 61.05 Z M 903.37 67.94 L 911.72 64.93 L 907.98 54.58 L 899.63 57.6 Z M 911.46 65.01 L 919.81 62.44 L 916.58 51.93 L 908.23 54.5 Z M 919.49 62.53 L 927.84 60.5 L 925.24 49.81 L 916.89 51.84 Z M 927.45 60.58 L 935.8 59.17 L 933.98 48.33 L 925.63 49.73 Z M 935.35 59.23 L 943.7 58.52 L 942.77 47.56 L 934.43 48.27 Z M 943.27 58.54 L 951.62 58.49 L 951.55 47.49 L 943.2 47.54 Z M 951.26 58.48 L 959.6 58.97 L 960.26 47.99 L 951.91 47.5 Z M 959.3 58.95 L 967.65 59.9 L 968.9 48.98 L 960.56 48.02 Z M 967.42 59.87 L 975.77 61.19 L 977.48 50.33 L 969.14 49.01 Z M 975.6 61.16 L 983.94 62.75 L 986 51.95 L 977.65 50.36 Z M 983.83 62.73 L 992.18 64.5 L 994.46 53.74 L 986.11 51.97 Z M 992.13 64.49 L 1000.48 66.34 L 1002.86 55.6 L 994.51 53.75 Z M 1000.49 66.34 L 1008.83 68.17 L 1011.19 57.43 L 1002.85 55.59 Z M 1008.9 68.19 L 1017.25 69.91 L 1019.48 59.14 L 1011.13 57.41 Z M 1017.37 69.94 L 1025.72 71.46 L 1027.7 60.64 L 1019.35 59.12 Z M 1025.91 71.49 L 1034.26 72.72 L 1035.86 61.84 L 1027.51 60.61 Z M 1034.51 72.75 L 1042.85 73.59 L 1043.95 62.64 L 1035.6 61.81 Z M 1043.17 73.61 L 1051.52 73.96 L 1051.98 62.97 L 1043.63 62.62 Z M 1051.9 73.97 L 1060.25 73.74 L 1059.95 62.74 L 1051.6 62.97 Z M 1060.69 73.71 L 1069.04 72.8 L 1067.85 61.87 L 1059.5 62.77 Z M 1069.47 72.74 L 1078.06 71.11 L 1076.01 60.3 L 1067.42 61.93 Z M 1078.39 71.04 L 1087.4 68.75 L 1084.7 58.09 L 1075.69 60.37 Z M 1087.66 68.68 L 1097 65.83 L 1093.79 55.31 L 1084.45 58.16 Z M 1097.2 65.77 L 1106.77 62.45 L 1103.16 52.06 L 1093.59 55.38 Z M 1106.93 62.39 L 1116.63 58.68 L 1112.7 48.41 L 1103 52.11 Z M 1116.76 58.63 L 1126.49 54.63 L 1122.31 44.46 L 1112.57 48.46 Z M 1126.59 54.59 L 1136.26 50.38 L 1131.87 40.3 L 1122.2 44.5 Z M 1136.34 50.34 L 1145.85 46.02 L 1141.29 36.01 L 1131.79 40.33 Z M 1145.91 45.99 L 1155.15 41.64 L 1150.47 31.69 L 1141.23 36.04 Z M 1155.2 41.62 L 1164.09 37.33 L 1159.31 27.43 L 1150.42 31.71 Z M 1164.12 37.32 L 1172.55 33.18 L 1167.71 23.31 L 1159.28 27.44 Z M 1172.56 33.18 L 1180.44 29.29 L 1175.56 19.42 L 1167.69 23.32 Z M 1180.43 29.29 L 1187.66 25.73 L 1182.79 15.86 L 1175.57 19.42 Z M 1187.62 25.74 L 1194.1 22.6 L 1189.3 12.71 L 1182.82 15.85 Z M 1194.02 22.64 L 1199.65 20.01 L 1194.99 10.05 L 1189.37 12.67 Z M 1199.51 20.07 L 1204.19 18.05 L 1199.81 7.95 L 1195.13 9.98 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1202,
+          "height": 189
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/alpine/kpi-card/v2`** (gate 6; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase defaults (Monthly Revenue KPI). v1 deprecated → rides base·dep.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated | confirm |\n| Gate | — | **base** |\n| Preview assets | re-mint after approval (pill fix shifts defaults) | review |\n| Cover / Tutorial | neither | needed? (value counts up from 0 but card chrome is visible at t=0 — cover maybe optional here) |\n\n**Pre-audit findings, already fixed:** (1) the DELTA PILL stretched to ~60% of wide canvases (arrow ~400px from its text at 1920×480; visibly stretched even at the 1280×708 default) — px weights against a unit filler become ratios; the filler is now the remaining pixels, so the pill hugs arrow+text everywhere. **LOOK-SHIFT: the default canvas pill is now compact.** (2) The value CLIPPED at narrow canvases (\"$48,25\" at 720×1280) — width-capped. NEW: `debugLayout` contract — the pill must paint within ±25/30% of its intended content width (this exact rule catches the stretch class).\n\nSOFT FINDING for your eye: the sparkline stroke shows a sawtooth texture at steep slopes on narrow canvases (mask sampling) — visible in portrait. Design-level call: acceptable or worth a v2.1 smoothing pass?\n\n37/37 unit, e2e 3/3, battery green ×14 canvases ×5 configs. **Stress:** mints after your default verdict.",
+    "question": "Ship `@m0saic/alpine/kpi-card/v2` in the v1 base? Judge the pill look-shift (compact now). Cover/tutorial? Sparkline sawtooth acceptable?",
+    "response": {
+      "body": "good (take 2: cover + fixed triangle approved). proceed to stress.",
+      "from": "human",
+      "at": "2026-08-22T05:17:27.000Z",
+      "via": "chat — transcribed by agent"
+    },
+    "comments": [
+      {
+        "from": "agent",
+        "text": "Your two asks are in:\n\n1. **Cover** — static default card (light, reduceMotion) as `coverCard` child + welcome band \"KPI CARD - one metric, count-up value, delta pill, sparkline / Supply label, value, delta and an optional sparkline[]...\".\n2. **Triangle fixed** — verified visually: clean equilateral in the compact pill. Three layers to the fix: the pill band is now height-PINNED (the old [1,pillH,1] pads were negligible against an ~84px band, so the pill painted 1.7× tall and stretched the mask); the arrow box carries its own pads via a symmetric placement inset (a leading EMPTY pad DONATES FORWARD into the next tile's box — engine law, now on record); and the pill-inner weights are pre-quantized to a 100 basis (the serializer re-quantizes large px splits NON-proportionally — measured [74,113,14] → yields 85/100/16 — commit-feed's wOf convention avoids it).\n\n**Contract honesty note:** the pill WIDTH rule is active and green ×14 canvases. An arrow-ASPECT rule is deliberately NOT in — while wiring it I found the contract's frames↔sources index zip misreads boxes in docs with expr-text sources (it kept measuring a neighbor's 40px box no matter the construction). Filed as `.ai/candidates/2026-08-22-contract-frame-zip-misalignment.md` — fixing the measurement channel (stableKey-keyed lookup) re-enables the rule. 41/41 unit, e2e 3/3."
+      },
+      {
+        "from": "agent",
+        "text": "STRESS SET minted (`stress/stress-01..10.mosaicx`, twins frozen, stills in `stress/renders/`). My pass: NO hard failures. Long strings fit (value cap + pill hug hold at max length), unicode ↑/¥/CJK render (no tofu), N/A + countUp does not NaN, flat sparkline does not div-zero (renders along the band bottom — semantic choice, judge), 100-point spark renders. Soft items for your eye: stress-05 Cyrillic sublabel clips its tail (0.62em width model underestimates wide scripts — same class as emoji tofu, font-metric limitation); stress-07 flat line sits at the BOTTOM of the band (zero-range normalizes to 0 — mid-band alternative possible); stress-08 shows the known sparkline sawtooth on steep slopes."
+      },
+      {
+        "from": "human",
+        "at": "2026-08-22T10:11:49.000Z",
+        "text": "SHIP RULING (chat, transcribed): ship it. Stress ×10 pass; soft items (Cyrillic sublabel width model, flat-spark-at-bottom semantic, sparkline sawtooth) accepted as-is. Tutorial: not explicitly ruled — treated as not needed, flag if wanted."
+      }
+    ]
+  }
+}

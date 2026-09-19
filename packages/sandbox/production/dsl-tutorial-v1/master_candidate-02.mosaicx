@@ -1,0 +1,27 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 15800,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-02"
+  },
+  "agent": {
+    "note": "**TAKE 2 \u2014 the Make panel shows what the render does** (founder on take 1: \"title is empty when the title is defaulted\u2026 showCanvas is defaulted to off even though it's on\u2026 enforce that at the contract level\").\n\n| Before | Now |\n|---|---|\n| `defaultProps` carried 5 of 12 optional knobs; `title`, `showCanvas`, `showInspector`, `showDslString`, `canvasWidth/Height`, `debugLayout` resolved INSIDE render() (`?? \"DSL Tutorial\"`, `!== false`) where no editor can see them \u2192 Make showed an empty title and three OFF toggles for panels that were on | `defaultProps` is COMPLETE (12 knobs); the explicit defaults render byte-identical to the old fallbacks (locked). `cameraZoom` is the one deliberate unset \u2014 unset = AUTO, its placeholder says \"auto\" |\n\n**The contract (fleet-wide, new in @m0saic/template-utils):** `auditDefaultProps(template)` / `assertDefaultPropsComplete` \u2014 an optional knob's UNSET state must be visible: booleans and closed-set pickers MUST have a `defaultProps` value (a toggle shows OFF for unset; a picker shows \"\u2014\"); plain strings/numbers need a default OR a `control.placeholder` naming the unset behaviour. Required, `ui.hidden` and `consumer:\"human\"` (derived) knobs are exempt. The registry sweep (`packages/templates/src/default-props-audit.test.ts`) is a RATCHET: unlisted templates must be clean, listed offenders may stay red until fixed, a listed template that becomes clean must leave the list. Snapshot at mint: **78 of 101 templates hide a default (374 knobs)** \u2014 25\u00d7 the alpine `theme` group, 24\u00d7 `debugLayout`, then colour overrides / `animate` / titles. dsl-tutorial is clean.\n\nRecipe unchanged (pure defaults, 15.8s). Stress-01..10 unchanged (the defaults change is panel-only; renders identical).",
+    "question": "Do the panel values now match the render (title, the three panel toggles, canvas 1920\u00d71080)? Is the ratchet the right enforcement shape \u2014 and do you want the 78-template burn-down done now (mechanical: `debugLayout:false` \u00d724, the alpine theme group \u00d725, placeholders for colour overrides) or gate by gate?"
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {}
+    }
+  ]
+}

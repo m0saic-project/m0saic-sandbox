@@ -1,0 +1,37 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-no-anim-talk-bl** (gate-23 stress set for `@m0saic/media/qr/stamp/v1`).\n\nanimation \"none\" + bl corner + a different fixture (talk-720p). Watch: stamp present at full alpha from frame 0 (no entrance), bl placement correct.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "stress set pass 10/10 — \"ship\"",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/qr/stamp/v1",
+      "props": {
+        "mediaPath": "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4",
+        "mode": "light",
+        "position": "bl",
+        "animation": "none"
+      }
+    }
+  ]
+}

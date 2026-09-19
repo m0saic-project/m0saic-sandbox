@@ -1,0 +1,30 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1920
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-02"
+  },
+  "agent": {
+    "note": "**STRESS 02/10 — 02-portrait-1080x1920** (gate-35 stress set for `@m0saic/forensic/watermark/verify/v1`).\n\nPASS card on a phone canvas.\n\nWatch: tiles + payload strip fit; nothing clips.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/forensic/watermark/verify/v1",
+      "props": {
+        "videoPath": "<repo>/packages/cli/examples/media/forensic/watermarked_deadbeef.mp4",
+        "sidecarPath": "<repo>/packages/cli/examples/media/forensic/watermarked_deadbeef.watermark.json"
+      }
+    }
+  ]
+}

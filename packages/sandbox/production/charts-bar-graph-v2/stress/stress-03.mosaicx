@@ -1,0 +1,50 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 480
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/bar-graph/v2",
+      "props": {
+        "layout": {
+          "orientation": "horizontal"
+        },
+        "labels": [
+          "Infrastructure Engineering",
+          "Sales Operations",
+          "Customer Success",
+          "Marketing",
+          "Design"
+        ],
+        "values": [
+          420,
+          380,
+          210,
+          160,
+          90
+        ]
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 — 03-ultrawide-horizontal** (gate-14 stress set for `@m0saic/charts/bar-graph/v2`).\n\nULTRAWIDE 4:1 + HORIZONTAL + long labels. Watch: cat rail caps, value gutter sized to longest value, equal heights.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

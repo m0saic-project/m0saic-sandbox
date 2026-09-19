@@ -1,0 +1,61 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/leaderboard/v1",
+      "props": {
+        "items": [
+          {
+            "name": "East Region",
+            "value": 1200
+          },
+          {
+            "name": "West Region",
+            "value": 3400
+          },
+          {
+            "name": "North Region",
+            "value": 800
+          },
+          {
+            "name": "South Region",
+            "value": 2100
+          }
+        ],
+        "title": "WEEKLY STANDINGS",
+        "subtitle": "Input order kept (preSorted)",
+        "preset": "light",
+        "podiumTint": true,
+        "showValue": true,
+        "anim": {
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        },
+        "preSorted": true,
+        "valueSuffix": " pts"
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant A — preSorted:true keeps the input order instead of auto-sorting by value (so rank reflects the order you give, not the score).",
+    "question": "Approve or deny this config.",
+    "response": {
+      "body": "Approved.",
+      "from": "human",
+      "at": "2026-06-22T19:26:20.149Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

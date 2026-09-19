@@ -1,0 +1,587 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121(0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15[0,1,0,0,0,0,0,0,0,0,0,0,0,0,1{1{1{1{1{1{1{1{1{1{1{1{1{1{1{1{1{1{24[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,20(0,0,0,0,0,0,-,0,0,0,0,0,1,0,0,0,0,0,0,-),0,-]{120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]}}}}}}}}}}}}}}}}}}}],0,0,0,0,0,0,-),0,0,0,0,0,0,-]}",
+  "assets": {},
+  "size": {
+    "width": 900,
+    "height": 900
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#E5E7EB",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "DONUT CHART"
+          },
+          "style": {
+            "fontSize": 45,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Revenue Mix"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0,
+        "alpha": "(min(1,max(0,(t-0)/0.12)))*(min(1,max(0,(t-0)/0.12)))*(3-2*(min(1,max(0,(t-0)/0.12))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 400 34.6 A 311 311 0 0 1 506.4 53.3 L 461.7 176 A 180.4 180.4 0 0 0 400 165.1 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 691
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.03606359576633593,
+        "alpha": "(min(1,max(0,(t-0.03606359576633593)/0.12)))*(min(1,max(0,(t-0.03606359576633593)/0.12)))*(3-2*(min(1,max(0,(t-0.03606359576633593)/0.12))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 496.1 49.8 A 311 311 0 0 1 599.9 107.3 L 515.9 207.3 A 180.4 180.4 0 0 0 455.7 174 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 691
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.07320442677495889,
+        "alpha": "(min(1,max(0,(t-0.07320442677495889)/0.12)))*(min(1,max(0,(t-0.07320442677495889)/0.12)))*(3-2*(min(1,max(0,(t-0.07320442677495889)/0.12))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 591.4 100.5 A 311 311 0 0 1 669.3 190 L 556.2 255.3 A 180.4 180.4 0 0 0 511 203.4 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 691
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.11152521065564555,
+        "alpha": "(min(1,max(0,(t-0.11152521065564555)/0.12)))*(min(1,max(0,(t-0.11152521065564555)/0.12)))*(3-2*(min(1,max(0,(t-0.11152521065564555)/0.12))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 663.7 180.7 A 311 311 0 0 1 706.2 291.5 L 577.6 314.2 A 180.4 180.4 0 0 0 552.9 249.9 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 691
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.151146107279108,
+        "alpha": "(min(1,max(0,(t-0.151146107279108)/0.12)))*(min(1,max(0,(t-0.151146107279108)/0.12)))*(3-2*(min(1,max(0,(t-0.151146107279108)/0.12))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 704.2 280.8 A 311 311 0 0 1 706.2 399.5 L 577.6 376.8 A 180.4 180.4 0 0 0 576.4 308 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 691
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.1922091704335392,
+        "alpha": "(min(1,max(0,(t-0.1922091704335392)/0.12)))*(min(1,max(0,(t-0.1922091704335392)/0.12)))*(3-2*(min(1,max(0,(t-0.1922091704335392)/0.12))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 707.9 388.8 A 311 311 0 0 1 669.3 501 L 556.2 435.7 A 180.4 180.4 0 0 0 578.6 370.6 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 691
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.23488437641251064,
+        "alpha": "(min(1,max(0,(t-0.23488437641251064)/0.12)))*(min(1,max(0,(t-0.23488437641251064)/0.12)))*(3-2*(min(1,max(0,(t-0.23488437641251064)/0.12))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 674.6 491.5 A 311 311 0 0 1 599.9 583.7 L 515.9 483.7 A 180.4 180.4 0 0 0 559.2 430.2 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 691
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.2793779712376682,
+        "alpha": "(min(1,max(0,(t-0.2793779712376682)/0.12)))*(min(1,max(0,(t-0.2793779712376682)/0.12)))*(3-2*(min(1,max(0,(t-0.2793779712376682)/0.12))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 608.1 576.6 A 311 311 0 0 1 506.4 637.7 L 461.7 515 A 180.4 180.4 0 0 0 520.7 479.5 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 691
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.3259443296000897,
+        "alpha": "(min(1,max(0,(t-0.3259443296000897)/0.12)))*(min(1,max(0,(t-0.3259443296000897)/0.12)))*(3-2*(min(1,max(0,(t-0.3259443296000897)/0.12))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 516.5 633.8 A 311 311 0 0 1 400 656.5 L 400 525.9 A 180.4 180.4 0 0 0 467.6 512.7 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 691
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.37490332008121907,
+        "alpha": "(min(1,max(0,(t-0.37490332008121907)/0.12)))*(min(1,max(0,(t-0.37490332008121907)/0.12)))*(3-2*(min(1,max(0,(t-0.37490332008121907)/0.12))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 410.9 656.3 A 311 311 0 0 1 293.6 637.7 L 338.3 515 A 180.4 180.4 0 0 0 406.3 525.7 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 691
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.42666666666666664,
+        "alpha": "(min(1,max(0,(t-0.42666666666666664)/0.12)))*(min(1,max(0,(t-0.42666666666666664)/0.12)))*(3-2*(min(1,max(0,(t-0.42666666666666664)/0.12))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 303.9 641.2 A 311 311 0 0 1 200.1 583.7 L 284.1 483.7 A 180.4 180.4 0 0 0 344.3 517 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 691
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.4817797574882258,
+        "alpha": "(min(1,max(0,(t-0.4817797574882258)/0.12)))*(min(1,max(0,(t-0.4817797574882258)/0.12)))*(3-2*(min(1,max(0,(t-0.4817797574882258)/0.12))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 208.6 590.5 A 311 311 0 0 1 130.7 501 L 243.8 435.7 A 180.4 180.4 0 0 0 289 487.6 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 691
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.5409916554372788,
+        "alpha": "(min(1,max(0,(t-0.5409916554372788)/0.12)))*(min(1,max(0,(t-0.5409916554372788)/0.12)))*(3-2*(min(1,max(0,(t-0.5409916554372788)/0.12))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 136.3 510.3 A 311 311 0 0 1 93.8 399.5 L 222.4 376.8 A 180.4 180.4 0 0 0 247.1 441.1 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 691
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.6053807658307456,
+        "alpha": "(min(1,max(0,(t-0.6053807658307456)/0.12)))*(min(1,max(0,(t-0.6053807658307456)/0.12)))*(3-2*(min(1,max(0,(t-0.6053807658307456)/0.12))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 95.8 410.2 A 311 311 0 0 1 93.8 291.5 L 222.4 314.2 A 180.4 180.4 0 0 0 223.6 383 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 691
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.6766022133874794,
+        "alpha": "(min(1,max(0,(t-0.6766022133874794)/0.12)))*(min(1,max(0,(t-0.6766022133874794)/0.12)))*(3-2*(min(1,max(0,(t-0.6766022133874794)/0.12))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 92.1 302.2 A 311 311 0 0 1 130.7 190 L 243.8 255.3 A 180.4 180.4 0 0 0 221.4 320.4 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 691
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.7574421882062554,
+        "alpha": "(min(1,max(0,(t-0.7574421882062554)/0.12)))*(min(1,max(0,(t-0.7574421882062554)/0.12)))*(3-2*(min(1,max(0,(t-0.7574421882062554)/0.12))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 125.4 199.5 A 311 311 0 0 1 200.1 107.3 L 284.1 207.3 A 180.4 180.4 0 0 0 240.8 260.8 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 691
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.853333333333333,
+        "alpha": "(min(1,max(0,(t-0.853333333333333)/0.12)))*(min(1,max(0,(t-0.853333333333333)/0.12)))*(3-2*(min(1,max(0,(t-0.853333333333333)/0.12))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 191.9 114.4 A 311 311 0 0 1 293.6 53.3 L 338.3 176 A 180.4 180.4 0 0 0 279.3 211.5 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 691
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.9783011066937395,
+        "alpha": "(min(1,max(0,(t-0.9783011066937395)/0.12)))*(min(1,max(0,(t-0.9783011066937395)/0.12)))*(3-2*(min(1,max(0,(t-0.9783011066937395)/0.12))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 283.5 57.2 A 311 311 0 0 1 400 34.6 L 400 165.1 A 180.4 180.4 0 0 0 332.4 178.3 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 691
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "100%"
+          },
+          "style": {
+            "fontSize": 55,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.84)/0.42)))*(min(1,max(0,(t-0.84)/0.42)))*(3-2*(min(1,max(0,(t-0.84)/0.42))))",
+        "window": {
+          "startSec": 0.84
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:100*((1-(1-(min(1\\,max(0\\,(t-0)/1.4))))*(1-(min(1\\,max(0\\,(t-0)/1.4))))))+0.5\\:d}\\%",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 94,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-single-segment-full-ring** (gate-4 stress set for `@m0saic/alpine/donut/v3`).\n\nDEGENERATE: ONE segment = a full unbroken ring (no gaps), legend:none, no centerLabel, square canvas. Contract has no swatch rule at N=1 — flip Debug layout, wireframe must still render. Watch: ring closes cleanly at 12 o'clock.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": null
+  }
+}

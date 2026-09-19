@@ -1,0 +1,109 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "multi",
+  "fps": 30,
+  "steps": [
+    {
+      "name": "talk-720p",
+      "label": "talk-720p",
+      "durationMs": 3000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {
+          "talk-720p": {
+            "kind": "file",
+            "path": "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4",
+            "mediaType": "video"
+          }
+        },
+        "size": {
+          "width": 1280,
+          "height": 720
+        },
+        "backgroundColor": "#000000",
+        "m0": "1{1}",
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover"
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:base"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "effects": {
+              "blur": 24
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M200 150H600V450H200Z M400 300H800V600H400Z M300 250H600V450H300Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:regions"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "format": {
+          "kind": "video",
+          "container": "mp4"
+        },
+        "fps": 30,
+        "durationMs": 3000,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "durationMs": 3000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-09"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 — 09-overlapping** (gate-19 stress set for `@m0saic/media/blur-regions/v1`).\n\nTHREE overlapping regions (union covers an L-shape), mask geometry. Watch: overlap does NOT double-apply the effect (single mask union), edges clean.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  }
+}

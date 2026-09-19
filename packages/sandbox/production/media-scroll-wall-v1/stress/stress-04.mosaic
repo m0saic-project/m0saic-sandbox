@@ -1,0 +1,187 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-){16(0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-)}",
+  "assets": {
+    "c0_inbox_sr": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/inbox_sr.mp4",
+      "mediaType": "video"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "suggestedOutput": {
+    "dir": "./renders",
+    "basename": "04-single-clip-conveyor"
+  },
+  "agent": {
+    "note": "**STRESS 04/10 — 04-single-clip-conveyor** (gate-36 stress set for `@m0saic/media/scroll_wall/v1`).\n\nTHE DEGENERATE CONVEYOR — ONE CLIP IN EVERY SLOT at 1920x1080. One clip, one row, five visible: every slot on the belt is the SAME file. `staggerRepeats` gives each repeat a seeded `clipStartMs` so the wall is not five identical copies marching in lockstep. Watch: the tiles show DIFFERENT moments of the same recording, and the wrap still hands off cleanly with only one asset in the manifest.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_inbox_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 1267
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(4608-576*t,2304)-384"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i0"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_inbox_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 1267,
+        "clipStartMs": 44
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(4992-576*t,2304)-768"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i1"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_inbox_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 1267,
+        "clipStartMs": 8579
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(5376-576*t,2304)-1152"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i2"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_inbox_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 1267,
+        "clipStartMs": 15957
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(5760-576*t,2304)-1536"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i3"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_inbox_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 1267,
+        "clipStartMs": 15751
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(6144-576*t,2304)-1920"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i4"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_inbox_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 1267,
+        "clipStartMs": 4572
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(6528-576*t,2304)-384"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i5"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "audio": {
+    "mode": "off"
+  },
+  "backgroundColor": "#0b0b0f"
+}

@@ -1,0 +1,64 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 640,
+    "height": 360
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/progress-card/v1",
+      "props": {
+        "items": [
+          {
+            "label": "Q4 Sales",
+            "value": 68
+          },
+          {
+            "label": "New Users",
+            "value": 84
+          },
+          {
+            "label": "Retention",
+            "value": 92
+          },
+          {
+            "label": "NPS Target",
+            "value": 45
+          }
+        ],
+        "title": "QUARTERLY GOALS",
+        "subtitle": "Progress to target",
+        "preset": "light",
+        "bars": {
+          "cornerRadius": 0.5
+        },
+        "showValue": true,
+        "anim": {
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-02"
+  },
+  "agent": {
+    "note": "**STRESS 02/10 — 02-tiny** (gate-9 stress set for `@m0saic/alpine/progress-card/v1`).\n\nTINY canvas, defaults. Watch: label/value legibility, track rounding at thin bars.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

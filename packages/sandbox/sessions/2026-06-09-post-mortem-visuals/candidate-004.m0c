@@ -1,0 +1,96 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T00:25:56.527Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.09",
+  "meta": {
+    "title": "2026-06-09-post-mortem-visuals · candidate-004"
+  },
+  "agent": {
+    "note": "Iter 4 — width-first validation per your direction. Split bumped 2:5 → 2:3 (40/60). Inside the chat column, dummy bubble rects are now placed via placeRects (agent left, human right, system center) and labeled via the same stableKey-keyed M0Label system we built in iter3. Total reuse: m0-snapshot renders both the chat-stream and the hero candidate via the same labeled-wireframe pipeline. Also fixed a latent bug: the post-mortem template now scales per-step durations to fit ctx.target.durationMs, so .mosaicx renders no longer need --durationMs at the CLI (the previous video was sentinel-rendering silently).",
+    "question": "Does 40% feel right for the chat column? Are the dummy bubbles legible enough to imagine the real chat-bubble styling here, or do we need to bump width further before investing in styling?",
+    "context": {
+      "category": {
+        "kind": "known",
+        "value": "hierarchy-emphasis"
+      },
+      "intent": {
+        "action": "refine",
+        "summary": "wider chat for bubbles + structural placeholder rects"
+      },
+      "relation": {
+        "kind": "refines",
+        "target": "003"
+      },
+      "layoutIntent": "comparison",
+      "evaluation": {
+        "grade": "good",
+        "source": "automated",
+        "at": "2026-06-10T00:25:56.525Z",
+        "breakdown": {
+          "total": 0.5000074207683366,
+          "feasible": true,
+          "components": {
+            "precision": {
+              "quality": 1,
+              "weight": 0,
+              "raw": 0.0026041666666666665
+            },
+            "spread": {
+              "quality": 0.000014841536673161104,
+              "weight": 0.5,
+              "raw": 384
+            },
+            "gutter": {
+              "quality": 1,
+              "weight": 0,
+              "raw": 0
+            },
+            "frames": {
+              "quality": 1,
+              "weight": 0.39,
+              "raw": 2
+            },
+            "structure": {
+              "quality": 1,
+              "weight": 0.1,
+              "raw": 3
+            },
+            "compactness": {
+              "quality": 1,
+              "weight": 0.01,
+              "raw": 12
+            }
+          }
+        }
+      }
+    },
+    "response": {
+      "body": "I think this is a good place to start. Approved.",
+      "from": "human",
+      "at": "2026-06-10T02:28:32.821Z"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "5(0,1,0,0,1)",
+  "labels": {
+    "r/fc1": {
+      "text": "Chat (40%)",
+      "color": "#9aa0a6"
+    },
+    "r/fc4": {
+      "text": "Hero / Layout area (60%)",
+      "color": "#9aa0a6"
+    }
+  },
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "rankSets": null,
+  "custom": null
+}

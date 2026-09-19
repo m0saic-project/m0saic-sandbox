@@ -1,0 +1,201 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{25[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4[0,0,1,1],0,0,1]}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#161b22",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Queue Depth"
+          },
+          "style": {
+            "fontSize": 81,
+            "fontColor": "#8b949e"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.06
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-label"
+      },
+      "overlay": {
+        "yExpr": "(1-(min(1,max(0,(t-0)/0.25))))*H",
+        "enable": "gte(t,0)",
+        "startAtSec": 0,
+        "window": {
+          "startSec": 0
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:1*((1-(1-(min(1\\,max(0\\,(t-0)/1.75))))*(1-(min(1\\,max(0\\,(t-0)/1.75))))))+0.5\\:d},%{eif\\:24*((1-(1-(min(1\\,max(0\\,(t-0)/1.75))))*(1-(min(1\\,max(0\\,(t-0)/1.75))))))+0.5\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 272,
+            "fontColor": "#e6edf3"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.06
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-value"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "±%{eif\\:0*((1-(1-(min(1\\,max(0\\,(t-0.9625000000000001)/0.6124999999999999))))*(1-(min(1\\,max(0\\,(t-0.9625000000000001)/0.6124999999999999))))))+0.5\\:d} (%{eif\\:0*((1-(1-(min(1\\,max(0\\,(t-0.9625000000000001)/0.6124999999999999))))*(1-(min(1\\,max(0\\,(t-0.9625000000000001)/0.6124999999999999))))))\\:d}.%{eif\\:mod(0*((1-(1-(min(1\\,max(0\\,(t-0.9625000000000001)/0.6124999999999999))))*(1-(min(1\\,max(0\\,(t-0.9625000000000001)/0.6124999999999999))))))*10\\,10)\\:d\\:1}\\%)",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 95,
+            "fontColor": "#8b949e"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.06
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-delta"
+      },
+      "overlay": {
+        "yExpr": "(1-(min(1,max(0,(t-0.9625000000000001)/0.612))))*H",
+        "enable": "gte(t,0.9625000000000001)",
+        "startAtSec": 0.9625000000000001,
+        "window": {
+          "startSec": 0.9625000000000001
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "unchanged this window"
+          },
+          "style": {
+            "fontSize": 59,
+            "fontColor": "#6e7681"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.06
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-sublabel"
+      },
+      "overlay": {
+        "yExpr": "(1-(min(1,max(0,(t-1.4875)/0.263))))*H",
+        "enable": "gte(t,1.4875)",
+        "startAtSec": 1.4875,
+        "window": {
+          "startSec": 1.4875
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "#161b22",
+  "fps": 30,
+  "durationMs": 2500,
+  "size": {
+    "width": 977,
+    "height": 733
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-flat-coprime** (gate-17 stress set for `@m0saic/charts/stat-card/v1` — the charts-pack closer).\n\nFLAT direction: no arrow, muted delta color, coprime canvas. Watch: delta text aligns to the value's left edge (no arrow cell), muted gray delta.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  }
+}

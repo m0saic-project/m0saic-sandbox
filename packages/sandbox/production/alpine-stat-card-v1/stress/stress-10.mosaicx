@@ -1,0 +1,42 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 977,
+    "height": 733
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/stat-card/v1",
+      "props": {
+        "label": "Deploys 🚀 per week",
+        "value": "1 234 567",
+        "delta": "+100.00%",
+        "direction": "up",
+        "sublabel": "w/w — best ever",
+        "icon": "commits",
+        "renderMode": "premium",
+        "preset": "light",
+        "iconPath": "M4 4h16v16H4Z M8 8h8v8H8Z"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-hostile-strings** (gate-10 stress set for `@m0saic/alpine/stat-card/v1`).\n\nHOSTILE STRINGS: emoji in label, thin-space value, %%-heavy delta, raw custom iconPath. Watch: no crash, tofu acceptable (glyph coverage ≠ width), caps hold.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it. keep both as base",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

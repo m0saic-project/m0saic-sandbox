@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 6000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/fin/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-25-ffmpeg-pulse-fin", "basename": "candidate-004" },
+  "agent": { "note": "QR version 4 -> 8 + re-baked at 720px (qr-fin.mp4). At v4 the logo cutout ate too much for ECC-H to recover (undecodable, not a size issue); v8 has far more redundancy so the cutout is a small fraction → decodable. Still the baked single-media-ref (cheap fin). bake-fin-qr.sh updated (v8/720/safeArea170).", "question": "Scan-test on mobile now (mobile one-liner). Does v8 scan? If still no, I can (a) bump version further, or (b) enlarge the fin QR rect so each module gets more display pixels. If it scans, I lock fin → all 8 beats done → Phase 3 runner." }
+}

@@ -1,0 +1,66 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 480,
+    "height": 1040
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/timeline/v2",
+      "props": {
+        "events": [
+          {
+            "date": "Jan 2024",
+            "title": "Kickoff",
+            "description": "First commit landed"
+          },
+          {
+            "date": "Apr 2024",
+            "title": "Beta launch",
+            "description": "500 early users"
+          },
+          {
+            "date": "Aug 2024",
+            "title": "Series A",
+            "description": "$12M raised"
+          },
+          {
+            "date": "Dec 2024",
+            "title": "10k customers",
+            "description": "Five figures crossed"
+          }
+        ],
+        "title": "MILESTONES",
+        "subtitle": "Our journey so far",
+        "preset": "light",
+        "orientation": "horizontal",
+        "showDescription": true,
+        "anim": {
+          "renderMode": "light",
+          "reduceMotion": false,
+          "introFrac": 0.7,
+          "easing": "easeOut"
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-forced-horizontal-tall** (gate-11 stress set for `@m0saic/alpine/timeline/v2`).\n\nORIENTATION OVERRIDE: horizontal FORCED on a tall 480×1040 canvas + light renderMode. Watch: the heuristic override holds, columns squeeze but wrap/step-down keeps text legible.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "seems fine, no tutorial is needed, and i approve the renders. ship",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

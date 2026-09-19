@@ -1,0 +1,55 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 977,
+    "height": 733
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/kpi-card/v2",
+      "props": {
+        "label": "MONTHLY REVENUE",
+        "value": "N/A",
+        "delta": "+12.5%",
+        "direction": "up",
+        "sublabel": "no data this period",
+        "preset": "light",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        },
+        "sparkline": [
+          -10,
+          -4,
+          -12,
+          -6,
+          -2,
+          -8
+        ]
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-non-numeric-value** (gate-6 stress set for `@m0saic/alpine/kpi-card/v2`).\n\nNON-NUMERIC value (\"N/A\") with countUp ON — the count-up path must not NaN; negative sparkline values. Watch: value renders as-is, spark handles negatives.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-22T10:11:49.000Z",
+      "via": "chat (\"ship it\" — gate-6 stress set) — transcribed by agent"
+    }
+  }
+}

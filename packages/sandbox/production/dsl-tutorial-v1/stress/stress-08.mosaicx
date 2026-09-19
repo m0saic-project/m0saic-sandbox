@@ -1,0 +1,30 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 24800,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-null-passthrough-half-speed** (gate-33 stress set for `@m0saic/dsl-tutorial/v1`).\n\nA null slot, a nested passthrough, at HALF speed (Speed pill 0.5×, 26.7s).\n\nWatch: `-` narrates 'reserve space, paint nothing'; the nested `>` donates DOWN (row split) to the tile below; the pace is deliberately slow.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "3(F,-,2[>,F])",
+        "speedMultiplier": 0.5
+      }
+    }
+  ]
+}

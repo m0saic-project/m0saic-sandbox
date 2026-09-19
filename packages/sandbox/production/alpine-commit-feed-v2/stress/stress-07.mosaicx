@@ -1,0 +1,85 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/commit-feed/v2",
+      "props": {
+        "rows": [
+          {
+            "kind": "mystery",
+            "area": "unknown",
+            "title": "mystery: a kind the catalog has never seen",
+            "hash": "a1b2c3d",
+            "author": "Anton Khirnov",
+            "date": "May 15",
+            "pr": 14201,
+            "reviewers": [],
+            "signal": "warn"
+          },
+          {
+            "kind": "chore",
+            "area": "build",
+            "title": "chore: custom raw-path glyph on a custom kind",
+            "hash": "d4e5f6g",
+            "author": "James Almer",
+            "date": "May 14",
+            "pr": 14198,
+            "reviewers": [
+              "Anton Khirnov"
+            ],
+            "signal": "neutral"
+          },
+          {
+            "kind": "totally-unmapped",
+            "area": "misc",
+            "title": "unmapped kind with NO override — pure fallback",
+            "signal": "win"
+          },
+          {
+            "title": "row with ONLY a title — every optional field missing"
+          }
+        ],
+        "title": "NOTABLE COMMITS",
+        "subtitle": "Highlight interesting work.",
+        "iconPath": "M16.944 11h4.306a.75.75 0 0 1 0 1.5h-4.306a5.001 5.001 0 0 1-9.888 0H2.75a.75.75 0 0 1 0-1.5h4.306a5.001 5.001 0 0 1 9.888 0Zm-1.444.75a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0Z",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "reduceMotion": false
+        },
+        "kindColors": {
+          "mystery": "#db61a2",
+          "chore": "#6e7681"
+        },
+        "kindGlyphs": {
+          "mystery": "shield",
+          "chore": "M4 4h16v16H4Z"
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-hostile-kinds-custom-maps** (retro stress set for `@m0saic/alpine/commit-feed/v2`).\n\nHOSTILE KINDS: unknown kind names (fallback color/glyph?), kindColors override, kindGlyphs with BOTH a mark NAME (shield) and a RAW path. Missing hash/author/date/pr on one row. Watch: fallbacks, no crashes, custom marks render.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-20T21:53:04.517Z",
+      "src": "<sandbox>/production/alpine-commit-feed-v2/stress/./stress-07-1280x708.mp4"
+    }
+  }
+}

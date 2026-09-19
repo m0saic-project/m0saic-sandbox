@@ -1,0 +1,38 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/metadata-stamp/v1",
+      "props": {
+        "sourceIds": [
+          "<sandbox>/production/media-metadata-stamp-v1/fixtures/uhd-4k.mp4"
+        ],
+        "sizeRatio": 0.2,
+        "dateFormat": "MM/DD/YYYY"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-09"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 — 09-uhd-max-chip** (gate-13 stress set for `@m0saic/media/metadata-stamp/v1`).\n\n4K INPUT + sizeRatio 0.2 (max) + MM/DD/YYYY. Watch: the big chip scales crisply at 3840×2160, output stays 4K.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

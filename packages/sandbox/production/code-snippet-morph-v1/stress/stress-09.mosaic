@@ -1,0 +1,828 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "single",
+  "steps": [
+    {
+      "name": "state-1",
+      "durationMs": 1350,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "m0": "1{1{120[0,0,0,0,0,0,0,0,0,0,1,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(-,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),0,0,0,-,0,80(-,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,-,0,0,0,0,80(-,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,80(0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]}}}}}}",
+        "sources": [
+          {
+            "type": "lavfi",
+            "color": "#080B14",
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#011627",
+            "editor": {
+              "owner": "template",
+              "label": "card"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#0B2942",
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0.022727272727272728,
+                "left": 0
+              }
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#011627",
+            "editor": {
+              "owner": "template",
+              "label": "code-area"
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.0078125,
+                "bottom": 0.0024752475247524753,
+                "left": 0.011101973684210526
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#011627",
+            "editor": {
+              "owner": "template",
+              "label": "gutter"
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.19791666666666666,
+                "bottom": 0.0024752475247524753,
+                "left": 0.19791666666666666
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "rasterizer": "svg",
+            "renderMode": {
+              "kind": "image"
+            },
+            "visual": {
+              "backgroundColor": "black@0"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "snippet.ts"
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 20,
+                  "fontColor": "#D6DEEB"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "middle"
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template",
+              "label": "title",
+              "binding": {
+                "propKey": "chrome.title"
+              }
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.004136029411764706,
+                "bottom": 0.022727272727272728,
+                "left": 0
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "rasterizer": "svg",
+            "renderMode": {
+              "kind": "image"
+            },
+            "visual": {
+              "backgroundColor": "black@0"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "1"
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 8,
+                  "fontColor": "#5F7E97"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "top"
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.3020833333333333,
+                "bottom": 0,
+                "left": 0.19791666666666666
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "rasterizer": "svg",
+            "renderMode": {
+              "kind": "image"
+            },
+            "visual": {
+              "backgroundColor": "black@0"
+            },
+            "style": {
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 23
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "●"
+                },
+                "style": {
+                  "fontColor": "#FF5F57"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "middle",
+                  "xExpr": "0"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "●"
+                },
+                "style": {
+                  "fontColor": "#FFBD2E"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "middle",
+                  "xExpr": "27.6"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "●"
+                },
+                "style": {
+                  "fontColor": "#28C840"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "middle",
+                  "xExpr": "55.2"
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template",
+              "label": "traffic-lights"
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.03125,
+                "bottom": 0.08333333333333333,
+                "left": 0.11875
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "rasterizer": "svg",
+            "renderMode": {
+              "kind": "image"
+            },
+            "visual": {
+              "backgroundColor": "black@0"
+            },
+            "style": {
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 8,
+              "fontWeight": "normal",
+              "fontStyle": "normal"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "const"
+                },
+                "style": {
+                  "fontColor": "#C792EA"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "0"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "veryLongIdentifierName"
+                },
+                "style": {
+                  "fontColor": "#D6DEEB"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "28.8"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "="
+                },
+                "style": {
+                  "fontColor": "#7FDBCA"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "139.2"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "someFunctionCall"
+                },
+                "style": {
+                  "fontColor": "#82AAFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "148.8"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "("
+                },
+                "style": {
+                  "fontColor": "#89DDFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "225.6"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "argumentNumber0"
+                },
+                "style": {
+                  "fontColor": "#D6DEEB"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "230.4"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": ")"
+                },
+                "style": {
+                  "fontColor": "#89DDFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "302.4"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "+"
+                },
+                "style": {
+                  "fontColor": "#7FDBCA"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "312"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "someFunctionCall"
+                },
+                "style": {
+                  "fontColor": "#82AAFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "321.6"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "("
+                },
+                "style": {
+                  "fontColor": "#89DDFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "398.4"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "argumentNumber1"
+                },
+                "style": {
+                  "fontColor": "#D6DEEB"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "403.2"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": ")"
+                },
+                "style": {
+                  "fontColor": "#89DDFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "475.2"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "+"
+                },
+                "style": {
+                  "fontColor": "#7FDBCA"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "484.8"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "someFunctionCall"
+                },
+                "style": {
+                  "fontColor": "#82AAFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "494.4"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "("
+                },
+                "style": {
+                  "fontColor": "#89DDFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "571.2"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "argumentNumber2"
+                },
+                "style": {
+                  "fontColor": "#D6DEEB"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "576"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": ")"
+                },
+                "style": {
+                  "fontColor": "#89DDFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "648"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "+"
+                },
+                "style": {
+                  "fontColor": "#7FDBCA"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "657.6"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "someFunctionCall"
+                },
+                "style": {
+                  "fontColor": "#82AAFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "667.2"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "("
+                },
+                "style": {
+                  "fontColor": "#89DDFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "744"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "argumentNumber3"
+                },
+                "style": {
+                  "fontColor": "#D6DEEB"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "748.8"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": ")"
+                },
+                "style": {
+                  "fontColor": "#89DDFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "820.8"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "+"
+                },
+                "style": {
+                  "fontColor": "#7FDBCA"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "830.4"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "someFunctionCall"
+                },
+                "style": {
+                  "fontColor": "#82AAFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "840"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "("
+                },
+                "style": {
+                  "fontColor": "#89DDFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "916.8"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "argumentNumber4"
+                },
+                "style": {
+                  "fontColor": "#D6DEEB"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "921.6"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": ")"
+                },
+                "style": {
+                  "fontColor": "#89DDFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "993.6"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "+"
+                },
+                "style": {
+                  "fontColor": "#7FDBCA"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "1003.2"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "someFunctionCall"
+                },
+                "style": {
+                  "fontColor": "#82AAFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "1012.8"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "("
+                },
+                "style": {
+                  "fontColor": "#89DDFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "1089.6"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "argumentNumber5"
+                },
+                "style": {
+                  "fontColor": "#D6DEEB"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "1094.4"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": ")"
+                },
+                "style": {
+                  "fontColor": "#89DDFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "1166.4"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "+"
+                },
+                "style": {
+                  "fontColor": "#7FDBCA"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "1176"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "someFunctionCall"
+                },
+                "style": {
+                  "fontColor": "#82AAFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "1185.6"
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template",
+              "binding": {
+                "propKey": "states",
+                "index": 0,
+                "range": {
+                  "start": 0,
+                  "end": 317
+                }
+              }
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.0078125,
+                "bottom": 0,
+                "left": 0.011101973684210526
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "assets": {},
+        "size": {
+          "width": 1280,
+          "height": 720
+        },
+        "fps": 30,
+        "durationMs": 1350,
+        "backgroundColor": "#080B14",
+        "format": {
+          "kind": "video",
+          "container": "mp4"
+        },
+        "audio": {
+          "mode": "off"
+        },
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "defaultTransition": {
+    "type": "cut"
+  },
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 1350,
+  "backgroundColor": "#080B14",
+  "format": {
+    "kind": "video",
+    "container": "mp4"
+  },
+  "audio": {
+    "mode": "off"
+  },
+  "editor": {
+    "owner": "user",
+    "provenance": {
+      "kind": "template_invocation",
+      "templateId": "@m0saic/code/snippet-morph/v1",
+      "props": {
+        "states": [
+          "const veryLongIdentifierName = someFunctionCall(argumentNumber0) + someFunctionCall(argumentNumber1) + someFunctionCall(argumentNumber2) + someFunctionCall(argumentNumber3) + someFunctionCall(argumentNumber4) + someFunctionCall(argumentNumber5) + someFunctionCall(argumentNumber6) + someFunctionCall(argumentNumber7);"
+        ],
+        "timing": {
+          "holdMs": 600
+        }
+      },
+      "invocationId": "inv-sources-0",
+      "sourcePath": "sources[0]"
+    }
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

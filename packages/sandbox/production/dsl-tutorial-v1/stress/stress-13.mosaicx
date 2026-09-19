@@ -1,0 +1,29 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 30000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-13-grid-20-auto"
+  },
+  "agent": {
+    "note": "## stress-13 — grid-20-auto\n\nA 20×20 grid (400 tiles, 900 steps) — the mid-weight case between the gate-33 10×10 (3.1×) and the brand M.\n\n| | |\n|---|---|\n| chars / steps | 883 / 883 |\n| tier | **summarize** (teach ≤ 400 chars · summarize ≤ 8,000 · sloth beyond) |\n| length | 30.0 s (Speed pill ~27×; 13.3 min at 1×) |\n\nRender: `m0saic make packages/sandbox/production/dsl-tutorial-v1/stress/stress-13.mosaicx -w 960 -h 540 -o /tmp/dsl-tutorial-heavy-review/stress-13.mp4`",
+    "question": "SUMMARIZE tier (883 chars > 400): 30 s. Is 400 chars the right teach→summarize line — would you rather READ a 400-tile grid (teach = ~110 s at 2×) or watch it paint?"
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "20(20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F],20[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F])"
+      }
+    }
+  ]
+}

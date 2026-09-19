@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 9000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/top-contributors/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-24-ffmpeg-pulse-top-contributors", "basename": "candidate-005" },
+  "agent": { "note": "candidate-004 feedback: leaderboard panel now uses theme.card (same as header/rail/footer) so the whole beat blends as one cohesive surface (no distinct lighter panel). The earlier 'too dark' read was really the black-gap bug (now fixed) — with that gone, matching the chrome looks unified. Rows still subtly banded (top-3 green tint). Renders: /tmp/b3d7.mp4 (desktop), /tmp/b3m7.mp4 (mobile); square unchanged-color from c-004 (/tmp/b3s6.mp4 still valid except panel color is now theme.card — re-render if needed).", "question": "Cohesive look good across all 3? If yes, I lock Beat 3 (unit test + master gate + preview + postmortem) and start Beat 4 (changes-breakdown)." }
+}

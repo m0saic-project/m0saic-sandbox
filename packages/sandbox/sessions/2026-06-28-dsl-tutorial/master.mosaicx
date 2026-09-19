@@ -1,0 +1,29 @@
+{
+  "_comment": "LOCKED master for @m0saic/dsl-tutorial/v1 (approved master_candidate-03, 2026-07-03). Camera-stress showcase: dense 17-tile layout with passthroughs + varied nesting, no full-width tile → auto-zoom 2x with follow through rows/passthroughs/nested regions, then pull-back + hold. Render: m0saic open packages/sandbox/sessions/2026-06-28-dsl-tutorial/master.mosaicx (Run), or m0saic make @m0saic/dsl-tutorial/v1 --props '{...}' -o out.mp4.",
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "4[4(F,F,F,F),4(0,F,0,F),3(2[F,F],3[F,F,F],2[F,F]),4(F,F,F,F)]",
+        "preset": "light",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master"
+  }
+}

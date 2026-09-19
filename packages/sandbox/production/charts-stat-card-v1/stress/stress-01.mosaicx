@@ -1,0 +1,38 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-01"
+  },
+  "agent": {
+    "note": "**STRESS 01/10 \u2014 01-max-length** (gate-17 stress set for `@m0saic/charts/stat-card/v1` \u2014 the charts-pack closer).\n\nMAX LENGTH every field: 13-char value + long label/delta/sublabel. Watch: the gate's width caps \u2014 value fits (it clipped to '1,248,9' before), all four groups complete, count-up animates the fitted text.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "ship",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/stat-card/v1",
+      "props": {
+        "label": "Cumulative Renders Delivered Worldwide Across Every Pipeline",
+        "value": "1,248,900,332",
+        "delta": "+1,204,332 (+18.94%)",
+        "direction": "up",
+        "sublabel": "vs the trailing twelve month comparison window"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 — 03-auto-buckets-override** (gate-23 stress set for `@m0saic/media/qr/stamp/v1`).\n\nExplicit `luminanceBuckets` OVERRIDE (the host-integration path) — the probe must NOT run; the hand-fed buckets disagree mid-clip. Watch: black card for the first ~1.5s, then a 0.4s crossfade to the white card. (Also fixes my battery's wrong bucket shape — real `avgLuma` fields this time.)",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "stress set pass 10/10 — \"ship\"",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/qr/stamp/v1",
+      "props": {
+        "mediaPath": "<sandbox>/production/media-highlights-v1/fixtures/reel-10s.mp4",
+        "mode": "auto",
+        "animation": "none",
+        "luminanceBuckets": [
+          {
+            "startMs": 0,
+            "endMs": 1500,
+            "avgLuma": 40
+          },
+          {
+            "startMs": 1500,
+            "endMs": 3000,
+            "avgLuma": 220
+          }
+        ]
+      }
+    }
+  ]
+}

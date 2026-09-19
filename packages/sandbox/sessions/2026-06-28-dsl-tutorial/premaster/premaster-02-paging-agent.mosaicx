@@ -1,0 +1,39 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 90000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "2[40(1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1),40(1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1)]",
+        "speedMultiplier": 1,
+        "preset": "dark",
+        "stepEvents": "all",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "premaster-02-paging"
+  },
+  "agent": {
+    "note": "**Pre-master · DSL paging.** Wide **80-leaf** `2[40(…),40(…)]` — long enough to **page the DSL-string panel**. `stepEvents: \"all\"` (finer granularity, includes exits). Watch the DSL string **page** as the caret advances; ruler + caret stay aligned.",
+    "question": "DSL string pages correctly (caret always on-screen, no overflow) and 'all' granularity reads right?",
+    "response": {
+      "body": "pages and all granularity read correct. approved",
+      "from": "human",
+      "at": "2026-07-02T21:20:55.726Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/premaster/./premaster-02-paging-1920x1080.mp4"
+    }
+  }
+}

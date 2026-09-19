@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 9000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/notable-commits/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-25-ffmpeg-pulse-notable-commits", "basename": "master" },
+  "agent": { "note": "MASTER — @m0saic/hero/ffmpeg-pulse/notable-commits/v1 (Beat 6). Shared pulse-chrome wrapping the nested @m0saic/alpine/commit-feed (transparent, washColor=theme.card) + a 2x2 maintainer rail (Merged PRs / Review Coverage / Open Issues / Contributors). Feed row: signal bar (win/warn/neutral) · kind icon · title · #PR · area chip · author · reviewer discs · date; narrow drops PR+reviewers. 6 unit tests; internal beat (skips CLI E2E). Preview + postmortem set." }
+}

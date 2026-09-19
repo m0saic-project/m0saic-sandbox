@@ -1,0 +1,32 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2520,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-01"
+  },
+  "agent": {
+    "note": "**STRESS 01/10 — 01-default-hero** (gate-21 stress set for `@m0saic/media/logo-animate/v1`).\n\nTHE default: baked M, assemble, diag order, light preset, square canvas. Watch: corner-sweep assembly reads intentional, M dead square, full white canvas, no blank tail after the fade-out.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "\"all 10 pass, ship it\" (set verdict — reviewed via stress/renders/)",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/logo-animate/v1",
+      "props": {}
+    }
+  ]
+}

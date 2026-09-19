@@ -1,0 +1,57 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/timeline/v1",
+      "props": {
+        "events": [
+          {
+            "date": "Q1 2024",
+            "title": "This is an absolutely absurdly long milestone title that no card could ever hope to contain on a single line",
+            "description": "And the description is even more verbose, rambling on well past any reasonable width a designer would budget for a timeline cell block"
+          },
+          {
+            "date": "Q2 2024",
+            "title": "Short one",
+            "description": "Normal length"
+          },
+          {
+            "date": "Q3 2024",
+            "title": "Another extremely long title that should also overflow and possibly collide with its neighbors on the spine",
+            "description": "More overflowing text here too"
+          }
+        ],
+        "title": "OVERFLOW TEST",
+        "subtitle": "Absurdly long text",
+        "preset": "light",
+        "orientation": "horizontal",
+        "showDescription": true,
+        "anim": {
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": true
+        }
+      }
+    }
+  ],
+  "agent": {
+    "note": "stress-f (fixed) — absurdly long titles/descriptions now TRUNCATE with an ellipsis. Horizontal: each block is clipped to ~one column width so adjacent events never collide; vertical: clipped to the room between the text rail and the card right edge. The truncation is length-aware (per line font). No overflow, no collisions.",
+    "question": "Approve or deny. Do the over-long lines truncate cleanly with an ellipsis (no overflow / collision) in both orientations?",
+    "response": {
+      "body": "approved.",
+      "from": "human",
+      "at": "2026-06-22T23:02:31.533Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

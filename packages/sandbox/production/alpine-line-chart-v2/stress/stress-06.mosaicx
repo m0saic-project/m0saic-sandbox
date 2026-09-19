@@ -1,0 +1,59 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 900,
+    "height": 900
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/line-chart/v2",
+      "props": {
+        "values": [
+          10,
+          30
+        ],
+        "labels": [],
+        "title": "LINE CHART",
+        "subtitle": "Monthly Active Users",
+        "curve": "smooth",
+        "preset": "light",
+        "grid": {
+          "show": false,
+          "count": 4
+        },
+        "area": {
+          "show": false,
+          "opacity": 0.22
+        },
+        "points": {
+          "show": false
+        },
+        "anim": {
+          "introFrac": 0.7,
+          "ease": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-minimal-two-points** (gate-8 stress set for `@m0saic/alpine/line-chart/v2`).\n\nMINIMAL: 2 points, no labels (→ no ticks band), area/points/grid OFF. Contract trivially green — flip Debug layout, wireframe must render. Watch: a bare line reads cleanly.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-22T22:35:40.000Z",
+      "via": "chat (\"pass, lets ship\" — gate-8 stress set, post-regen) — transcribed by agent"
+    }
+  }
+}

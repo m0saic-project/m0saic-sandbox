@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "3[4(0,0,0,F),2(F,3[F,F,F]),F]",
+        "preset": "light",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**MASTER CANDIDATE — the ship gate for `@m0saic/dsl-tutorial/v1`.**\n\nA clean app-shell showcase — passthrough **hero** (`4(0,0,0,F)` → full-width) · **sidebar + 3-row content** (`2(F,3[F,F,F])`) · footer — in the new **light** default. It exercises passthrough donation, nested splits, the inspector fields, and the camera in one legible walk.\n\n**What's validated (the whole pre-master suite, all approved):**\n\n| dimension | candidate |\n|---|---|\n| camera zoom + end-hold | 01-b |\n| DSL paging | 02 |\n| passthrough (single + multi) | 03, 09 |\n| null slots | 04 |\n| overlays (single + complex multi) | 05-a, 10 |\n| F frames + portrait canvas | 06 |\n| square output + light + panel toggles | 07-b |\n| chromeless reflow | 08-a |\n\nPlus the W1 perf win (canvas 228s → ~5s at 10×10), rounded corners preserved, N=3 split-count fix, panel-hide reflow, and the header divider.\n\n**This is a TEMPLATE approval, not a frame.** Try to break it — I'd hit: extreme grids (16×16), a >2000-char DSL, `preset: dark` (the IDE look), all panels hidden but one, non-default aspect (portrait/square output), `speedMultiplier` at 0.25 and 8, a single `F`, and a null-heavy layout. I pre-verified this showcase renders clean at **landscape, portrait, and square** output.\n\n**Say \"ship it\"** and I promote this to `master.mosaicx` + `master.mosaic`, wire the preview asset, write `postmortem.mosaicx`, and prep the lock (unit + CLI-E2E case + `e2eTemplateVariants` entry). Prefer **dark** for the shipped showcase, or a different layout? Tell me before I promote.",
+    "question": "Ship it? (Approving the TEMPLATE for v1 lock — or name a change to the showcase layout/preset first.)",
+    "response": null
+  }
+}

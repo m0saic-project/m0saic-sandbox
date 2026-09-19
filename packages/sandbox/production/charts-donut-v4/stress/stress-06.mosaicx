@@ -1,0 +1,56 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 \u2014 06-thin-ring-static** (gate-15 stress set for `@m0saic/charts/donut/v4`).\n\nFLAGGED FLOOR #2: thickness 0.08 + percent labels + reduceMotion. Watch: 9px-floor labels straddle the thin ring; 1% sliver skips its label. Extreme-knob honesty \u2014 your call.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/donut/v4",
+      "props": {
+        "ringThicknessFrac": 0.08,
+        "segmentLabels": "percent",
+        "segments": [
+          {
+            "label": "A",
+            "value": 55
+          },
+          {
+            "label": "B",
+            "value": 30
+          },
+          {
+            "label": "C",
+            "value": 14
+          },
+          {
+            "label": "Sliver",
+            "value": 1
+          }
+        ],
+        "anim": {
+          "reduceMotion": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,789 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1{1{100[0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,40(-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,-,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,-,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,-,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,40(0,0,0,0,0,0,-,0,1,0,0,0,0,0,0,0,-,0,1,0,0,0,0,0,0,0,-,0,1,0,0,0,0,0,0,0,-,0,1,-),0,0,0,0,0,-]{100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,-,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,-,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,-,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,-,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,-]{100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40(0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),0,0,0,0,0,0,0,0,-]{100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40(0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),0,0,0,0,0,0,0,0,-]{100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40(0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),0,0,0,0,0,0,0,0,-]{100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40(0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),0,0,0,0,0,0,0,0,-]{100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40(0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),0,0,0,0,0,0,0,0,-]{100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,40(0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,-),0,0,0,-,0,0,0,0,0,0,0,0,0,0,40(0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,-,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,-,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,-,0,0,0,0,0,0,0,0,0,0,40(0,0,0,0,0,0,-,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,-]{25[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,1]{100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,80(-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),0,0,0,0,0,0,-]{100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,80(-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),0,0,-]}}}}}}}}}}}}",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.014423076923076924,
+          "right": 0.009457236842105263,
+          "bottom": 0.014423076923076924,
+          "left": 0.009457236842105263
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.020833333333333332,
+          "right": 0.036057692307692304,
+          "bottom": 0.029166666666666667,
+          "left": 0.055288461538461536
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.020833333333333332,
+          "right": 0.04296875,
+          "bottom": 0.029166666666666667,
+          "left": 0.02734375
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0,
+          "right": 0.036057692307692304,
+          "bottom": 0.04583333333333333,
+          "left": 0.055288461538461536
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0,
+          "right": 0.04296875,
+          "bottom": 0.04583333333333333,
+          "left": 0.02734375
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.203125,
+          "right": 0.2109375,
+          "bottom": 0.046875,
+          "left": 0.1484375
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.203125,
+          "right": 0.1796875,
+          "bottom": 0.046875,
+          "left": 0.1796875
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.203125,
+          "right": 0.2109375,
+          "bottom": 0.046875,
+          "left": 0.1484375
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.203125,
+          "right": 0.1796875,
+          "bottom": 0.046875,
+          "left": 0.1796875
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.05859375,
+          "right": 0.036057692307692304,
+          "bottom": 0.05078125,
+          "left": 0.055288461538461536
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.05859375,
+          "right": 0.09375,
+          "bottom": 0.05078125,
+          "left": 0.0798611111111111
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.04583333333333333,
+          "right": 0.036057692307692304,
+          "bottom": 0,
+          "left": 0.055288461538461536
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.04583333333333333,
+          "right": 0.09375,
+          "bottom": 0,
+          "left": 0.0798611111111111
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.029166666666666667,
+          "right": 0.036057692307692304,
+          "bottom": 0.020833333333333332,
+          "left": 0.055288461538461536
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.029166666666666667,
+          "right": 0.09375,
+          "bottom": 0.020833333333333332,
+          "left": 0.0798611111111111
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.012842465753424657,
+          "right": 0.01123046875,
+          "bottom": 0.004280821917808219,
+          "left": 0.00927734375
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.012842465753424657,
+          "right": 0.01123046875,
+          "bottom": 0.004280821917808219,
+          "left": 0.00927734375
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.012842465753424657,
+          "right": 0.01123046875,
+          "bottom": 0.004280821917808219,
+          "left": 0.00927734375
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.012842465753424657,
+          "right": 0.01123046875,
+          "bottom": 0.004280821917808219,
+          "left": 0.00927734375
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8b949e@0.12",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#8b949e",
+          "alpha": 0.55
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.012842465753424657,
+          "right": 0.01123046875,
+          "bottom": 0.004280821917808219,
+          "left": 0.00927734375
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2ea043@0.30",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#3fb950",
+          "alpha": 0.9
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.04375,
+          "right": 0.007472826086956522,
+          "bottom": 0.03125,
+          "left": 0.012907608695652174
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2ea043@0.30",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#3fb950",
+          "alpha": 0.9
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.07386363636363637,
+          "right": 0.024816176470588234,
+          "bottom": 0.08522727272727272,
+          "left": 0.017463235294117647
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2ea043@0.30",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#3fb950",
+          "alpha": 0.9
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.01875,
+          "right": 0.01636904761904762,
+          "bottom": 0.05625,
+          "left": 0.028273809523809524
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2ea043@0.30",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#3fb950",
+          "alpha": 0.9
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.05625,
+          "right": 0.09375,
+          "bottom": 0.01875,
+          "left": 0.06597222222222222
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2ea043@0.30",
+      "effects": {
+        "stroke": {
+          "position": "inner",
+          "width": 0.012,
+          "color": "#3fb950",
+          "alpha": 0.9
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.08522727272727272,
+          "right": 0.057291666666666664,
+          "bottom": 0.07386363636363637,
+          "left": 0.09895833333333333
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#161b22",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "LAYOUT_CONTRACT OK — @m0saic/alpine/bar-graph/v1 @ 1280×800"
+          },
+          "style": {
+            "fontSize": 31,
+            "fontColor": "#3fb950",
+            "bold": true
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "placement": {
+        "inset": {
+          "top": 0.08035714285714286,
+          "right": 0.003605769230769231,
+          "bottom": 0.09821428571428571,
+          "left": 0.003605769230769231
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "\"bar\" equal height OK — spread 0.0% <= 2.0% (5 nodes)"
+          },
+          "style": {
+            "fontSize": 24,
+            "fontColor": "#c9d1d9"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "placement": {
+        "inset": {
+          "top": 0.0875,
+          "right": 0.003605769230769231,
+          "bottom": 0.0875,
+          "left": 0.003605769230769231
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-02"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — candidate 02** (fix for candidate-01's squashed middle bar; props = your exact repro + `debugLayout: true`).\n\n**Diagnosis:** the m0 was symmetric, but the row bands were multi-unit split weights — the engine distributes the quantization remainder OUTSIDE-IN (edges first, center LAST), so ancestor ±px drift starved the CENTER row by 17px.\n\n**Fix (handbook rung 3/5):** one EQUAL split cell per bar (spread ≤1px at any canvas, guaranteed) + the gap carved by a constant `placement.inset` fraction on each bar tile. Verified equal ±1px across 1280×800 / 1001×733 / 1920×1080 / 640×400 / 607×401, both orientations.\n\n**Your geometry contract:** new `debugLayout` prop (on in this candidate, in the Animation-fold style) — bars are tagged `bar` and `withLayoutContract` asserts equal height (horizontal) / equal width (vertical), tol 2%; violation renders a LAYOUT_CONTRACT error mosaic. 20/20 unit tests incl. the repro locked; CLI e2e 4/4.\n\n**Look-shift to judge:** bars are ~7% thinner at the same gap (the gap now lives inside each row band, incl. a half-gap at the plot's top/bottom edges).",
+    "question": "Middle bar fixed? Happy with the slightly thinner bars + edge half-gaps? If yes I'll promote this to master, roll the same audit across the other alpine cards as their gates come up, and mark the chart row.",
+    "response": {
+      "body": "yes looks good",
+      "from": "human",
+      "at": "2026-08-20T05:01:43.128Z",
+      "src": "<sandbox>/production/alpine-bar-graph-v1/./master_candidate-02-1280x800.mp4"
+    }
+  }
+}

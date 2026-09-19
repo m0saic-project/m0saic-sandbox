@@ -1,0 +1,76 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/leaderboard/v1",
+      "props": {
+        "items": [
+          {
+            "name": "Ava Chen",
+            "value": 284000
+          },
+          {
+            "name": "Liam Patel",
+            "value": 261500
+          },
+          {
+            "name": "Noah Kim",
+            "value": 239000
+          },
+          {
+            "name": "Mia Garcia",
+            "value": 197500
+          },
+          {
+            "name": "Ethan Wright",
+            "value": 164000
+          },
+          {
+            "name": "Zoe Adams",
+            "value": 151200
+          },
+          {
+            "name": "Kai Rivera",
+            "value": 138800
+          },
+          {
+            "name": "Omar Sayed",
+            "value": 120400
+          }
+        ],
+        "title": "SALES LEADERBOARD",
+        "subtitle": "8 reps",
+        "preset": "light",
+        "podiumTint": true,
+        "showValue": true,
+        "anim": {
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        },
+        "valuePrefix": "$"
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant C — 8 rows with a $ prefix on big numbers (auto-sorted, dense spacing).",
+    "question": "Approve or deny this config.",
+    "response": {
+      "body": "It looks correct, but I'm still confused why we are adding a 0?\n\ninput is 28400, but the render is $284,000",
+      "from": "human",
+      "at": "2026-06-22T20:18:18.170Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

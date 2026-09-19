@@ -1,0 +1,229 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{25[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4[0,0,1,100(0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1)],0,0,1]}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#0b1f16",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Open Issues"
+          },
+          "style": {
+            "fontSize": 78,
+            "fontColor": "#8b949e"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.06
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-label"
+      },
+      "overlay": {
+        "yExpr": "(1-(min(1,max(0,(t-0)/0.25))))*H",
+        "enable": "gte(t,0)",
+        "startAtSec": 0,
+        "window": {
+          "startSec": 0
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:412*((1-(1-(min(1\\,max(0\\,(t-0)/1.75))))*(1-(min(1\\,max(0\\,(t-0)/1.75))))))+0.5\\:d}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 326,
+            "fontColor": "#e6edf3"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.06
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-value"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f85149",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 20.6 24.2 L 120.2 24.2 L 70.4 110.4 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 140.8,
+          "height": 134.52
+        }
+      },
+      "overlay": {
+        "yExpr": "(1-(min(1,max(0,(t-0.9625000000000001)/0.612))))*H",
+        "enable": "gte(t,0.9625000000000001)",
+        "startAtSec": 0.9625000000000001,
+        "window": {
+          "startSec": 0.9625000000000001
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "-%{eif\\:42*((1-(1-(min(1\\,max(0\\,(t-0.9625000000000001)/0.6124999999999999))))*(1-(min(1\\,max(0\\,(t-0.9625000000000001)/0.6124999999999999))))))+0.5\\:d} (-%{eif\\:8.1*((1-(1-(min(1\\,max(0\\,(t-0.9625000000000001)/0.6124999999999999))))*(1-(min(1\\,max(0\\,(t-0.9625000000000001)/0.6124999999999999))))))\\:d}.%{eif\\:mod(8.1*((1-(1-(min(1\\,max(0\\,(t-0.9625000000000001)/0.6124999999999999))))*(1-(min(1\\,max(0\\,(t-0.9625000000000001)/0.6124999999999999))))))*10\\,10)\\:d\\:1}\\%)",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 92,
+            "fontColor": "#f85149"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.04
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-delta"
+      },
+      "overlay": {
+        "yExpr": "(1-(min(1,max(0,(t-0.9625000000000001)/0.612))))*H",
+        "enable": "gte(t,0.9625000000000001)",
+        "startAtSec": 0.9625000000000001,
+        "window": {
+          "startSec": 0.9625000000000001
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "vs last sprint"
+          },
+          "style": {
+            "fontSize": 57,
+            "fontColor": "#6e7681"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.06
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-sublabel"
+      },
+      "overlay": {
+        "yExpr": "(1-(min(1,max(0,(t-1.4875)/0.263))))*H",
+        "enable": "gte(t,1.4875)",
+        "startAtSec": 1.4875,
+        "window": {
+          "startSec": 1.4875
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "#0b1f16",
+  "fps": 30,
+  "durationMs": 2500,
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-down-custombg** (gate-17 stress set for `@m0saic/charts/stat-card/v1` — the charts-pack closer).\n\nDOWN delta + custom card color. Watch: red arrow + red text, custom #0b1f16 surface (the base-tile fix — cards rendered BLACK through .mosaicx before this gate).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  }
+}

@@ -1,0 +1,1168 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{1{1{1{1{1{1{90[0,0,0,0,0,0,0,0,0,0,0,-,0,0,40(0,0,0,0,-,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,-,0,0,160(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,1,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,40(0,0,0,0,-,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]}}}}}}}",
+  "children": {
+    "chrome": {
+      "kind": "mosaic_document",
+      "version": 1,
+      "assets": {},
+      "m0": "45[0,0,0,0,43[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,101(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,1,0,-,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-,0,0,0,0,1,0,-,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-)],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,160(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18[1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,1],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1{1}},0,0,0,0,-),0,160(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,-)]",
+      "sources": [
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Degenerate series"
+              },
+              "style": {
+                "fontSize": 22,
+                "fontColor": "#111827"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle",
+                "padding": {
+                  "left": 0.02,
+                  "right": 0.02
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "chart-title"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#2563eb",
+          "fitMode": "content",
+          "size": {
+            "wExpr": "TW",
+            "hExpr": "max(2, TH*0.3)"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Solo"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle",
+                "padding": {}
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "legend-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#16a34a",
+          "fitMode": "content",
+          "size": {
+            "wExpr": "TW",
+            "hExpr": "max(2, TH*0.3)"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Pair"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle",
+                "padding": {}
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "legend-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "45"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "top",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "40"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "35"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "30"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "25"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "20"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "15"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "10"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "5"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "0"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "bottom",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "mosaic",
+          "ref": "grid0",
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#d1d5db",
+          "fitMode": "content",
+          "size": {
+            "wExpr": "max(1, TW*0.004)",
+            "hExpr": "TH"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#d1d5db",
+          "fitMode": "content",
+          "size": {
+            "wExpr": "TW",
+            "hExpr": "max(1, TH*0.004)"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "bottom"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Start"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top",
+                "padding": {
+                  "top": 0.18,
+                  "left": 0.02,
+                  "right": 0.02
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "x-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "End"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "top",
+                "padding": {
+                  "top": 0.18,
+                  "left": 0.02,
+                  "right": 0.02
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "x-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      ],
+      "children": {
+        "grid0": {
+          "kind": "mosaic_document",
+          "version": 1,
+          "sources": [
+            {
+              "type": "lavfi",
+              "color": "#000000",
+              "visual": {
+                "opacity": 0
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#eef2f7",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*1"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#eef2f7",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0.8888888888888888"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#eef2f7",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0.7777777777777778"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#eef2f7",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0.6666666666666667"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#eef2f7",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0.5555555555555556"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#eef2f7",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0.4444444444444444"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#eef2f7",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0.33333333333333337"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#eef2f7",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0.2222222222222222"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#eef2f7",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0.11111111111111116"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#eef2f7",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            }
+          ],
+          "assets": {},
+          "m0": "1{1{1{1{1{1{1{1{1{1{1}}}}}}}}}}",
+          "durationMs": 3000,
+          "size": {
+            "width": 393,
+            "height": 878
+          },
+          "fps": 30,
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      },
+      "fps": 30,
+      "durationMs": 3000,
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  },
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#ffffff",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#ffffff",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.04
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#e5e7eb",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "mosaic",
+      "ref": "chrome",
+      "overlay": {
+        "startAtSec": 0,
+        "alpha": "(min(1,max(0,(t-0)/0.35)))*(min(1,max(0,(t-0)/0.35)))*(3-2*(min(1,max(0,(t-0)/0.35))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#16a34a",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 72 643.49 L 465 643.49 L 465 641.49 L 72 641.49 Z M 466 642.49 L 466 330.23 L 464 330.23 L 464 642.49 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 480,
+          "height": 1040
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563eb",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 69 174.1 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 480,
+          "height": 1040
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#16a34a",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 69 642.49 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z M 462 330.23 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 480,
+          "height": 1040
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "lavfi": "color=black@0,drawbox=x=67:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.109),drawbox=x=83:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.154),drawbox=x=99:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.199),drawbox=x=115:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.244),drawbox=x=131:y=111:w=17:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.289),drawbox=x=148:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.334),drawbox=x=164:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.379),drawbox=x=180:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.424),drawbox=x=196:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.470),drawbox=x=212:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.515),drawbox=x=228:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.560),drawbox=x=244:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.605),drawbox=x=260:y=111:w=17:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.650),drawbox=x=277:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.695),drawbox=x=293:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.740),drawbox=x=309:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.785),drawbox=x=325:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.830),drawbox=x=341:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.876),drawbox=x=357:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.921),drawbox=x=373:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.966),drawbox=x=389:y=111:w=17:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,1.011),drawbox=x=406:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,1.056),drawbox=x=422:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,1.101),drawbox=x=438:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,1.146),drawbox=x=454:y=111:w=16:h=888:color=#ffffff:t=fill:replace=1:enable=lt(t\\,1.191)",
+      "overlay": {
+        "window": {
+          "endSec": 1.191
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "42"
+          },
+          "style": {
+            "fontSize": 12,
+            "fontColor": "#2563eb"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "enable": "gte(t,0.100)"
+      },
+      "editor": {
+        "owner": "user",
+        "label": "value-label"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "34"
+          },
+          "style": {
+            "fontSize": 12,
+            "fontColor": "#16a34a"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "enable": "gte(t,1.200)"
+      },
+      "editor": {
+        "owner": "user",
+        "label": "value-label"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "18"
+          },
+          "style": {
+            "fontSize": 12,
+            "fontColor": "#16a34a"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "enable": "gte(t,0.100)"
+      },
+      "editor": {
+        "owner": "user",
+        "label": "value-label"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "#ffffff",
+  "size": {
+    "width": 480,
+    "height": 1040
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-single-point-steps** (gate-16 stress set for `@m0saic/charts/line-chart/v1`).\n\nEDGE CASES: series with a SINGLE point (no line segments — one marker) next to a stepped 2-point series, tall skinny canvas, value labels on. Watch: no crash, marker renders, stepped curve, labels fit.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  }
+}

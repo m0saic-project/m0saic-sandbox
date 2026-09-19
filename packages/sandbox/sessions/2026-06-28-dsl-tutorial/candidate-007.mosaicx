@@ -1,0 +1,53 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "8[8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F)]",
+        "speedMultiplier": 1,
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-007"
+  },
+  "agent": {
+    "note": "**M1b.2 — fit-to-duration + Frame outline.** Two things from your last note:\n\n**1 · The walk now FITS the output length.** Before, 64 tiles needed ~67s of animation, so at `durationMs: 30000` the walk got cut off half-painted. Now the whole timeline is *uniformly compressed* to fill exactly whatever duration the output is — every tile paints, the camera follows all 64, nothing is truncated. Speed up/slow down by changing `durationMs` alone.\n\n**2 · Recommendation scales with tile count.** When you DON'T pin a duration, the template recommends one from how much must paint (~0.9s/step):\n\n| layout | steps | recommended |\n|---|---|---|\n| 2×2 | ~7 | ~7s |\n| 4×4 | ~21 | ~20s |\n| 8×8 | 73 | ~67s |\n\nSo this 8×8 *recommends* ~67s; you pinned **30s**, so it runs ~2.2× faster and still completes. (Omit `durationMs` to get the full-dwell recommendation.)\n\n**3 · Thin Frame outline** now rings the whole canvas — the bounds every tile paints into. It's part of the canvas content, so under zoom it scales + pans with the walk (you see the frame edge as you reach it). Tunable via the new `frameOutline` theme token; toggle with `showFrame`.",
+    "question": "Two checks: (a) does the 8×8 walk now **finish** within the 30s (all 64 tiles painted), and (b) does the **Frame outline** read right — right weight/colour, and does it move with the zoom? If the fit feels too fast at 30s, say the word and I'll bump the duration or expose a per-step minimum dwell. If good, I start the **inspector panel (M2)**.",
+    "context": {
+      "category": {
+        "kind": "other",
+        "label": "canvas-camera"
+      },
+      "intent": {
+        "action": "propose",
+        "summary": "M1b.2 — fit animation to output duration (no truncation) + tile-count recommendation + Frame outline"
+      },
+      "relation": {
+        "kind": "refines",
+        "target": "006"
+      }
+    },
+    "response": {
+      "body": "yes all tiles now finish. frame outline reads correct. the camera is nice and premium. continue.",
+      "from": "human",
+      "at": "2026-06-28T21:30:13.085Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/./candidate-007-1920x1080.mp4"
+    }
+  }
+}

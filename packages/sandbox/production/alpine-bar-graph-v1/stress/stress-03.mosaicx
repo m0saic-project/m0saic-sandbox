@@ -1,0 +1,78 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 480
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/bar-graph/v1",
+      "props": {
+        "values": [
+          12400,
+          8700,
+          5600,
+          2100,
+          1200
+        ],
+        "labels": [
+          "Email",
+          "Twitter",
+          "Reddit",
+          "Hacker News",
+          "Other"
+        ],
+        "title": "BAR CHART",
+        "subtitle": "Sales by Channel",
+        "orientation": "vertical",
+        "preset": "light",
+        "bars": {
+          "gap": 0.55,
+          "cornerRadius": 0.4
+        },
+        "grid": {
+          "show": true,
+          "count": 3
+        },
+        "valueLabels": {
+          "show": true,
+          "format": "compact",
+          "decimals": 1,
+          "suffix": ""
+        },
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "ease": "smoothstep",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 — 03-ultrawide-vertical** (retro stress set for `@m0saic/alpine/bar-graph/v1`).\n\nULTRAWIDE + vertical orientation (skinny tall bars in a short canvas). Watch: bar width uniformity, value labels above bars.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass (after bars.thickness slider added)",
+      "from": "human",
+      "at": "2026-08-20T21:55:45.000Z",
+      "via": "chat (\"bar chart all 10 passed\") — transcribed by agent"
+    },
+    "comments": [
+      {
+        "from": "agent",
+        "text": "NEW PROP per your note: `bars.thickness` — a ratio slider (0.1..1) in the Bars group, directly setting bar width (vertical) / height (horizontal) as a fraction of its band; 1 = bars touch. It wins over the legacy `gap` knob when set; unset keeps the gap path BYTE-IDENTICAL (locked by test + e2e goldens). Drag Thickness on THIS candidate to thin the fat vertical bars. While wiring it, thin bars (11-12px) exposed that fractional contract tolerances false-red at tiny sizes — the contract itself gained `tolerancePx` (pass within frac OR px); all three shipped templates now use the honest 2% + 1px form. 23/23 bar unit, 100/100 across the three suites, battery ok ×14 canvases ×6 configs incl. thickness extremes."
+      }
+    ]
+  }
+}

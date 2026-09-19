@@ -1,0 +1,76 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/bar-graph/v1",
+      "props": {
+        "values": [
+          12400,
+          8700,
+          5600,
+          2100,
+          1200
+        ],
+        "labels": [
+          "Email",
+          "Reddit",
+          "Hacker News",
+          "test",
+          "smoke"
+        ],
+        "title": "BAR CHART",
+        "subtitle": "Sales by Channel",
+        "orientation": "horizontal",
+        "preset": "light",
+        "bars": {
+          "gap": 0.55,
+          "cornerRadius": 0.4
+        },
+        "grid": {
+          "show": true,
+          "count": 3
+        },
+        "valueLabels": {
+          "show": true,
+          "format": "compact",
+          "decimals": 1,
+          "suffix": ""
+        },
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "ease": "smoothstep",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master"
+  },
+  "agent": {
+    "note": "MASTER — @m0saic/alpine/bar-graph/v1 v1 PROD GATE, APPROVED 2026-08-20 (candidate-02). Gate found + fixed the squashed-middle-bar quantization bug (multi-unit split bands exposed to outside-in remainder under ancestor drift → one EQUAL cell per bar + gap-as-inset, equal ±1px at every canvas, both orientations) and added the founder-requested layout contract (`debugLayout` prop: bars tagged `bar`, equal height/width relation, tol 2%, LAYOUT_CONTRACT error mosaic on violation). 20/20 unit tests incl. the 5-canvas repro lock; CLI e2e 4/4. Look-shift accepted: bars ~7% thinner + edge half-gaps. FOLLOW-UP: preview assets predate the fix — re-mint at preview refresh. debugLayout stripped here (dev knob; production never sets it).",
+    "comments": [
+      {
+        "from": "agent",
+        "text": "RETRO STRESS SET 08-20 (`stress/stress-01..10.mosaicx`, stills in `stress/renders/`). Fixed en route: (1) bar equal-thickness tolerance 0.02→0.035 (pixel floor: ~33px bars make healthy ±1px ≈3%; locked at 640×360 + 1920×480); (2) category labels clipped (\"ker News\") at narrow canvases — catFont now width-capped to the rail; (3) tick labels garbled at high grid counts (count 8 @733px → ~10px sliver cells) — tick cells widen adaptively + font caps when even a full pitch cannot hold the longest tick. Defaults byte-identical (e2e goldens green). Battery: stamp+feasibility ok ×14 canvases ×3 configs. Awaiting your stress passes."
+      },
+      {
+        "from": "agent",
+        "at": "2026-08-20T21:55:45.000Z",
+        "text": "RETRO STRESS CLOSED 08-20: 10/10 pass (05 = conditional: equal-length 0 and 4.5K bars under a 1e9 outlier, \"acceptable for now\"; 03 pass after the new bars.thickness slider). Template shipped state re-confirmed."
+      }
+    ]
+  }
+}

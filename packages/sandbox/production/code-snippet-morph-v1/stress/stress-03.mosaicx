@@ -1,0 +1,40 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 3300,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 — 03-reduce-motion-cuts** (gate-32 stress set for `@m0saic/code/snippet-morph/v1`).\n\nReduce motion: every state at rest, hard cuts between them (the `animate` toggle off in Make).\n\nWatch: no sliding, no fades — three stills cut together.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/code/snippet-morph/v1",
+      "props": {
+        "states": [
+          "type Template = {\n  id: string;\n  render(): Promise<Artifact>;\n};",
+          "type Template = {\n  id: string;\n  render(): Promise<Artifact>;\n};\n\nconst ecosystem = new Map<string, Template>();",
+          "type Template = {\n  id: string;\n  render(): Promise<Artifact>;\n};\n\nconst ecosystem = new Map<string, Template>();\n\nexport function publish(template: Template) {\n  ecosystem.set(template.id, template);\n}"
+        ],
+        "animation": {
+          "reduceMotion": true
+        },
+        "timing": {
+          "holdMs": 800,
+          "morphMs": 300
+        }
+      }
+    }
+  ]
+}

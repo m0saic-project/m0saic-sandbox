@@ -1,0 +1,749 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{40[-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121(0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8[1,0,0,0,0,0,0,100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4(15[0,0,1,0,0,0,0,1,0,0,0,0,0,0,1],-,20[0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1],-),0,0,0,0,0,0,0,0,0,0,0,0,0,8(-,0,1,0,1,0,1,-){4(1,1,1,1)},0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4(-,19[0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1],-,19[0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1])]],0,0,0,0,0,0,-),-]}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#E5E7EB",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "MILESTONES"
+          },
+          "style": {
+            "fontSize": 52,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Our journey so far"
+          },
+          "style": {
+            "fontSize": 27,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "card-header"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Jan 2024"
+          },
+          "style": {
+            "fontSize": 19,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-date"
+      },
+      "overlay": {
+        "enable": "gte(t,0.297)",
+        "window": {
+          "startSec": 0.297
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Kicko…"
+          },
+          "style": {
+            "fontSize": 26,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-title"
+      },
+      "overlay": {
+        "enable": "gte(t,0.297)",
+        "window": {
+          "startSec": 0.297
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "First\ncommit…"
+          },
+          "style": {
+            "fontSize": 20,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-desc"
+      },
+      "overlay": {
+        "enable": "gte(t,0.297)",
+        "window": {
+          "startSec": 0.297
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Aug 2024"
+          },
+          "style": {
+            "fontSize": 19,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-date"
+      },
+      "overlay": {
+        "enable": "gte(t,1.145)",
+        "window": {
+          "startSec": 1.145
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Series\nA"
+          },
+          "style": {
+            "fontSize": 26,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-title"
+      },
+      "overlay": {
+        "enable": "gte(t,1.145)",
+        "window": {
+          "startSec": 1.145
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "$12M\nraised"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-desc"
+      },
+      "overlay": {
+        "enable": "gte(t,1.145)",
+        "window": {
+          "startSec": 1.145
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "placement": {
+        "inset": {
+          "x": 0,
+          "y": 0.47107438016528924
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "overlay": {
+        "enable": "gte(t,0.544)",
+        "window": {
+          "startSec": 0.544
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "placement": {
+        "inset": {
+          "x": 0,
+          "y": 0.47107438016528924
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "overlay": {
+        "enable": "gte(t,0.969)",
+        "window": {
+          "startSec": 0.969
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "placement": {
+        "inset": {
+          "x": 0,
+          "y": 0.47107438016528924
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "overlay": {
+        "enable": "gte(t,1.393)",
+        "window": {
+          "startSec": 1.393
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M1,12 A11,11 0 1,0 23,12 A11,11 0 1,0 1,12 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "placement": {
+        "inset": {
+          "x": 0.2897196261682243,
+          "y": 0.3140495867768595
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "dot"
+      },
+      "overlay": {
+        "enable": "gte(t,0.120)",
+        "window": {
+          "startSec": 0.12
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M1,12 A11,11 0 1,0 23,12 A11,11 0 1,0 1,12 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "placement": {
+        "inset": {
+          "x": 0.2897196261682243,
+          "y": 0.3140495867768595
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "dot"
+      },
+      "overlay": {
+        "enable": "gte(t,0.544)",
+        "window": {
+          "startSec": 0.544
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M1,12 A11,11 0 1,0 23,12 A11,11 0 1,0 1,12 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "placement": {
+        "inset": {
+          "x": 0.2897196261682243,
+          "y": 0.3140495867768595
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "dot"
+      },
+      "overlay": {
+        "enable": "gte(t,0.969)",
+        "window": {
+          "startSec": 0.969
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M1,12 A11,11 0 1,0 23,12 A11,11 0 1,0 1,12 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "placement": {
+        "inset": {
+          "x": 0.2897196261682243,
+          "y": 0.3140495867768595
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "dot"
+      },
+      "overlay": {
+        "enable": "gte(t,1.393)",
+        "window": {
+          "startSec": 1.393
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Apr 2024"
+          },
+          "style": {
+            "fontSize": 19,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-date"
+      },
+      "overlay": {
+        "enable": "gte(t,0.721)",
+        "window": {
+          "startSec": 0.721
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Beta\nlaunch"
+          },
+          "style": {
+            "fontSize": 26,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-title"
+      },
+      "overlay": {
+        "enable": "gte(t,0.721)",
+        "window": {
+          "startSec": 0.721
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "500\nearly …"
+          },
+          "style": {
+            "fontSize": 20,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-desc"
+      },
+      "overlay": {
+        "enable": "gte(t,0.721)",
+        "window": {
+          "startSec": 0.721
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Dec 2024"
+          },
+          "style": {
+            "fontSize": 19,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-date"
+      },
+      "overlay": {
+        "enable": "gte(t,1.570)",
+        "window": {
+          "startSec": 1.57
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "10k\ncusto…"
+          },
+          "style": {
+            "fontSize": 26,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-title"
+      },
+      "overlay": {
+        "enable": "gte(t,1.570)",
+        "window": {
+          "startSec": 1.57
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Five\nfigure…"
+          },
+          "style": {
+            "fontSize": 20,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-desc"
+      },
+      "overlay": {
+        "enable": "gte(t,1.570)",
+        "window": {
+          "startSec": 1.57
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "#F8FAFC",
+  "fps": 30,
+  "durationMs": 3000,
+  "size": {
+    "width": 480,
+    "height": 1040
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-forced-horizontal-tall** (gate-11 stress set for `@m0saic/alpine/timeline/v2`).\n\nORIENTATION OVERRIDE: horizontal FORCED on a tall 480×1040 canvas + light renderMode. Watch: the heuristic override holds, columns squeeze but wrap/step-down keeps text legible.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "seems fine, no tutorial is needed, and i approve the renders. ship",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

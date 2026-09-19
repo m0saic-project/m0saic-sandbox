@@ -1,0 +1,37 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1913,
+    "height": 1069
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "suggestedOutput": {
+    "dir": "./renders",
+    "basename": "07-quantum-collapse"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-quantum-collapse** (gate-36 stress set for `@m0saic/media/scroll_wall/v1`).\n\nA CANVAS THAT COLLAPSES THE PRECISION LATTICE at 1913x1069. 1913x1069 — both dimensions prime-ish, so the lattice quantum `q` falls to 1 and every geometry number stops being a coarse multiple. That is the documented degradation: the geometry stays CORRECT and pays in precision, blowing the m0 string out to roughly 47k characters. Three rows on top of it. Watch: it renders; the rows are even; the gaps are uniform; note the encoder rounds odd dimensions down to even (1912x1068) — that is h264, not the template.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/scroll_wall/v1",
+      "props": {
+        "rows": 3,
+        "clips": [
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/chat_sr.mp4",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-13-2400x1000.png",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/inbox_sr.mp4",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-04-800x1200.png",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/invoice_sr.mp4",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/signed-letter_sr.mp4"
+        ]
+      }
+    }
+  ]
+}

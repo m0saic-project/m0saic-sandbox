@@ -1,0 +1,28 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 1280,
+  "height": 720
+ },
+ "fps": 30,
+ "durationMs": 3000,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/media/subtitle-burn/v1",
+   "props": {
+    "sourceId": "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4"
+   }
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "stress-10"
+ },
+ "agent": {
+  "note": "**STRESS 10/10 — 10-no-subs-source** (gate-26 stress set for `@m0saic/media/subtitle-burn/v1`).\n\nNO SUBTITLE STREAMS: talk-720p.mp4 carries zero text tracks. Watch: rule \"no-tracks\" → clean passthrough of the 3s source, zero text layers, no error mosaic."
+ }
+}

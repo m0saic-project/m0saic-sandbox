@@ -1,0 +1,66 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 480,
+    "height": 1040
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/donut/v3",
+      "props": {
+        "segments": [
+          {
+            "label": "Enterprise",
+            "value": 42,
+            "color": "#a371f7"
+          },
+          {
+            "label": "Pro",
+            "value": 33,
+            "color": "#388bfd"
+          },
+          {
+            "label": "Free",
+            "value": 25,
+            "color": "#3fb950"
+          }
+        ],
+        "title": "DONUT CHART",
+        "subtitle": "Revenue Mix",
+        "centerValue": "$12,480",
+        "centerLabel": "Total",
+        "preset": "dark",
+        "ringThicknessFrac": 0.9,
+        "segmentLabels": "percent",
+        "legend": "right",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-dark-thick-ring** (gate-4 stress set for `@m0saic/alpine/donut/v3`).\n\nTALL SKINNY + preset:dark + ringThicknessFrac 0.9 (nearly a pie) + custom colors. Watch: hole text still fits the tiny hole, dark legend contrast.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-21T18:45:27.000Z",
+      "via": "chat (\"approved\" — gate-4 stress set) — transcribed by agent"
+    }
+  }
+}

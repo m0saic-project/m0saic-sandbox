@@ -1,0 +1,80 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 \u2014 05-dark-area-styles** (gate-16 stress set for `@m0saic/charts/line-chart/v1`).\n\nTHE AREA-OPACITY FIX SHOWCASE: dark preset, dashed+smooth, area 0.15, diamond markers, highlightLast, pinned 0-60 domain. Watch: areas TRANSLUCENT (both series legible through the overlap) \u2014 they rendered fully opaque before the gate.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/line-chart/v1",
+      "props": {
+        "values": [
+          [
+            10,
+            24,
+            18,
+            40,
+            32,
+            55
+          ],
+          [
+            8,
+            14,
+            22,
+            26,
+            38,
+            44
+          ]
+        ],
+        "seriesLabels": [
+          "main",
+          "dev"
+        ],
+        "appearance": {
+          "preset": "dark",
+          "cornerRadius": 0.06
+        },
+        "line": {
+          "lineStyle": "dashed",
+          "curve": "smooth",
+          "area": {
+            "show": true,
+            "opacity": 0.15
+          }
+        },
+        "points": {
+          "showPoints": true,
+          "pointShape": "diamond",
+          "highlightLast": true
+        },
+        "domain": {
+          "minValue": 0,
+          "maxValue": 60
+        },
+        "titles": {
+          "title": "Branch activity",
+          "subtitle": "dashed + smooth + translucent area + diamond markers"
+        }
+      }
+    }
+  ]
+}

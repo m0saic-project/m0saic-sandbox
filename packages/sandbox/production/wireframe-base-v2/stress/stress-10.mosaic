@@ -1,0 +1,188 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "4[1{1},0,0,3(2[1,1{1}],1{1},2[1,1{1}])]",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-cell-colors-heat** (gate-29 stress set for `@m0saic/wireframe/base/v2`).\n\nThe perf-heatmap consumer path: per-cell body colours BENEATH the label ink (nested F{F} children for labelled cells, flat stroke tiles for label-less ones, '' = transparent).\n\nWatch: A/C/D/F read on their colour; the two '' cells stay transparent; borders continuous across both paths.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#ff5722",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#000000",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M0 0 L1920 0 L1920 270 L0 270 Z M2 2 L2 268 L1918 268 L1918 2 Z M969.32 149.70L966.40 141.72L953.60 141.72L950.72 149.70L946.56 149.70L958.24 119.13L961.76 119.13L973.46 149.70L969.32 149.70ZM960 124.10L954.81 138.40L965.21 138.40L960 124.10Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 270
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#000000",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M0 0 L640 0 L640 405 L0 405 Z M2 2 L2 403 L638 403 L638 2 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 405
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2196f3",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#000000",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M0 0 L640 0 L640 405 L0 405 Z M2 2 L2 403 L638 403 L638 2 Z M332.08 210.05L338.20 210.05Q337.34 217.39 332.79 221.37Q328.24 225.35 320.68 225.35L320.68 225.35Q312.49 225.35 307.56 219.48Q302.62 213.61 302.62 203.77L302.62 203.77L302.62 199.33Q302.62 192.88 304.92 188.00Q307.23 183.11 311.45 180.49Q315.67 177.87 321.22 177.87L321.22 177.87Q328.59 177.87 333.03 181.98Q337.47 186.09 338.20 193.36L338.20 193.36L332.08 193.36Q331.28 187.84 328.63 185.36Q325.98 182.89 321.22 182.89L321.22 182.89Q315.38 182.89 312.07 187.20Q308.75 191.52 308.75 199.48L308.75 199.48L308.75 203.96Q308.75 211.48 311.89 215.93Q315.03 220.37 320.68 220.37L320.68 220.37Q325.76 220.37 328.47 218.07Q331.19 215.77 332.08 210.05L332.08 210.05Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 405
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#4caf50",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#000000",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M0 0 L640 0 L640 810 L0 810 Z M2 2 L2 808 L638 808 L638 2 Z M316.50 429.61L302.33 429.61L302.33 378.42L316.78 378.42Q323.46 378.42 328.60 381.38Q333.73 384.33 336.52 389.78Q339.32 395.23 339.35 402.29L339.35 402.29L339.35 405.56Q339.35 412.80 336.56 418.25Q333.76 423.70 328.58 426.62Q323.39 429.54 316.50 429.61L316.50 429.61ZM316.96 383.98L309.08 383.98L309.08 424.09L316.19 424.09Q323.99 424.09 328.33 419.24Q332.67 414.39 332.67 405.42L332.67 405.42L332.67 402.43Q332.67 393.71 328.58 388.88Q324.48 384.05 316.96 383.98L316.96 383.98Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 810
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#000000",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M0 0 L640 0 L640 405 L0 405 Z M2 2 L2 403 L638 403 L638 2 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 405
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#9c27b0",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#000000",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M0 0 L640 0 L640 405 L0 405 Z M2 2 L2 403 L638 403 L638 2 Z M332.89 199.33L332.89 204.31L313.49 204.31L313.49 224.72L307.40 224.72L307.40 178.51L336.03 178.51L336.03 183.52L313.49 183.52L313.49 199.33L332.89 199.33Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 405
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "format": {
+    "kind": "image",
+    "container": "png",
+    "pixelFormat": "rgba"
+  },
+  "backgroundColor": "#ffffff@1.0"
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/theming/v1",
+      "props": {
+        "preset": "high-contrast",
+        "alias": "theme",
+        "preview": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-004"
+  },
+  "agent": {
+    "note": "All three verdict items landed (verified dark-wide, light-tall, high-contrast):\n1. **Preset eyebrow** — an accent-orange `DARK` / `LIGHT` / `HIGH CONTRAST` kicker above the title (uses the `eyebrow` token), so the sheet says which mode it is.\n2. **Surface stroke** — bumped to a thick, clearly-visible `textMuted` gray outline; Surface App (`#050314` == the bg) now reads as a bounded box.\n3. **Portrait** — the M + wordmark lockup (and eyebrow + title) now **centered**; content sections stay left-aligned.",
+    "question": "Lock check. Render **wide-dark**, **tall-light**, **wide-high-contrast** (one-liners in chat) — if the preset eyebrow, surface bounds, and portrait centering all read right across the three, I lock it: unit + CLI-e2e case + `e2eTemplateVariants` entry + copy the preview render into the template's preview assets (§10 closeout). Any last spacing/weight nits before I do?",
+    "context": {
+      "topic": "theming/v1 preview render (Theme Tokens sheet)",
+      "stage": "real-render-v3 (eyebrow + thick stroke + centered portrait)",
+      "changes": [
+        "preset eyebrow (DARK/LIGHT/HIGH CONTRAST, eyebrow token)",
+        "surface stroke → thick textMuted outline",
+        "portrait: centered M+wordmark+eyebrow+title"
+      ],
+      "next": "human aspect+preset gate → LOCK (§10: unit + CLI-e2e + variant + preview asset)"
+    },
+    "response": {
+      "body": "ship it.",
+      "from": "human",
+      "at": "2026-07-07T06:37:57.912Z",
+      "src": "<sandbox>/sessions/2026-07-06-theming-token-sheet/./candidate-004-1920x1080.mp4"
+    }
+  }
+}

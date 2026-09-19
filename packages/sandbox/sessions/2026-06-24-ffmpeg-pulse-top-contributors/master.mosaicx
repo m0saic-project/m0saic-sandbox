@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 9000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/top-contributors/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-24-ffmpeg-pulse-top-contributors", "basename": "master" },
+  "agent": { "note": "MASTER — @m0saic/hero/ffmpeg-pulse/top-contributors/v1 (Beat 3). APPROVED (minor nits deferred by user). Shared pulse-chrome (BEAT 3 chip, FFmpeg logo, title, subtitle, footer, baked scatter, bg-first timing) wrapping the nested @m0saic/alpine/contributor-table/v1 (showHeader:false, transparent surface, washColor=theme.card so it blends cohesively) + a rail of aggregate stat-cards. Aspect-adaptive: desktop table-left + 2x2 rail; square table-top + 2x2 rail; mobile table reflows to portrait stacked-cards + 4x1 tall rail. Cohesive theme.card panels throughout. 6 unit tests; internal beat (skips CLI E2E per title/kpi/activity precedent). Preview + postmortem set." }
+}

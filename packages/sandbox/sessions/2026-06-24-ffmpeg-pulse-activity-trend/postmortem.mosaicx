@@ -1,0 +1,7 @@
+{
+  "_comment": "FFmpeg Weekly Pulse — ACTIVITY TREND beat (Beat 2) walkthrough. @m0saic/meta/post-mortem/v1 over this session. Arc: silhouette over Beat2.png (c001) -> built composition: Beat-1-aligned chrome + nested @m0saic/alpine/line-chart (COMMITS OVER TIME) + 4 derived rail stat-cards (c002) -> distinct chart bg + desktop 2x2 square-ish rail + mobile-title clip fix (c003-004) -> square 3-sections-one-width relayout (c005). Render on demand: m0saic make packages/sandbox/sessions/2026-06-24-ffmpeg-pulse-activity-trend/postmortem.mosaicx -o /tmp/at-session.mp4 -w 1920 -h 1080. NOT rendered at closeout.",
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "fps": 30, "durationMs": 28000,
+  "size": { "width": 1920, "height": 1080 }, "assets": {},
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/meta/post-mortem/v1",
+    "props": { "sessionPath": "packages/sandbox/sessions/2026-06-24-ffmpeg-pulse-activity-trend", "msPerCandidate": 3000, "msTitleCard": 2000, "msEndCard": 2000 } } ]
+}

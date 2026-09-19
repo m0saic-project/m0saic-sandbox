@@ -1,0 +1,26 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 544,
+  "height": 544
+ },
+ "fps": 30,
+ "durationMs": 3200,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/brand/logo/v3",
+   "props": {}
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "stress-01"
+ },
+ "agent": {
+  "note": "**STRESS 01/10 — 01-m33-default** (gate-28 stress set for `@m0saic/brand/logo/v3`).\n\nDEFAULTS (post-ruling: m-33 fast mark). Watch: official 544 regardless of host, loading_ui_v2 breathing, seconds-fast render."
+ }
+}

@@ -1,0 +1,68 @@
+{
+  "_comment": "MASTER recipe for @m0saic/charts/donut/v1 \u2014 the approved 'Issues Raised' showcase (6 segments through the palette, per-slice percent labels, caption pair, sweep + count-up lockstep). Double-click + Render for a fresh dated provenance pair (.mp4 + resolved .mosaic twin via runner sidecars). The committed master.mosaic/plan/commands sidecars are the TRUE source of the final preview.",
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "fps": 30,
+  "durationMs": 2000,
+  "size": {
+    "width": 360,
+    "height": 360
+  },
+  "assets": {},
+  "runner": {
+    "sidecars": {
+      "mosaic": true
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/donut/v1",
+      "props": {
+        "segments": [
+          {
+            "label": "Budget",
+            "value": 19
+          },
+          {
+            "label": "Operations",
+            "value": 10
+          },
+          {
+            "label": "Resource",
+            "value": 17
+          },
+          {
+            "label": "Schedule",
+            "value": 22
+          },
+          {
+            "label": "Supplier",
+            "value": 23
+          },
+          {
+            "label": "Technology",
+            "value": 8
+          }
+        ],
+        "centerValue": "59",
+        "centerLabel": "Issues Raised",
+        "segmentLabels": "percent"
+      }
+    }
+  ],
+  "agent": {
+    "note": "Session master recipe (2026-06-12-donut-distribution, closed). Geometry sign-off: master.m0c (approved, no compaction - 'this is already compact'). Verdict trail lives in the candidate files' responses (src + srcMosaic pointers).",
+    "context": {
+      "category": {
+        "kind": "known",
+        "value": "closeout"
+      },
+      "intent": {
+        "action": "ship",
+        "summary": "master recipe - approved shipped defaults"
+      }
+    }
+  }
+}

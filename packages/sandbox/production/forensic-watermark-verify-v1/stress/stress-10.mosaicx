@@ -1,0 +1,30 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1600,
+    "height": 1000
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-padded-9x16-no-rect** (gate-35 stress set for `@m0saic/forensic/watermark/verify/v1`).\n\nSame padded copy WITHOUT contentRect — the cells no longer line up.\n\nWatch: FAIL/ MISMATCH with low margin: the reason to set contentRect (or the cropdetect follow-up).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/forensic/watermark/verify/v1",
+      "props": {
+        "videoPath": "<sandbox>/production/forensic-watermark-verify-v1/fixtures/padded-9x16.mp4",
+        "sidecarPath": "<repo>/packages/cli/examples/media/forensic/watermarked_deadbeef.watermark.json"
+      }
+    }
+  ]
+}

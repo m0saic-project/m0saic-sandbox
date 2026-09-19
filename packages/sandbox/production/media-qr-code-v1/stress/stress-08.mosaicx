@@ -1,0 +1,38 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-custom-palette** (gate-22 stress set for `@m0saic/media/qr/code/v1`).\n\nOff-brand palette: navy circles on cream (overrides replace the duo entirely) with max module rounding. Watch: no orange anywhere; contrast still scans. PHONE-SCAN.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "stress set pass (02 noted as engine limitation, 09 accepted+documented)",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/qr/code/v1",
+      "props": {
+        "moduleColor": "#1e3a5f",
+        "backgroundColor": "#f5efe0",
+        "style": {
+          "moduleBorderRadius": 0.5
+        }
+      }
+    }
+  ]
+}

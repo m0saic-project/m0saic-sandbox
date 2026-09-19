@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "3[F,2(2[F,F]{F},F),F]{2(-,F)}",
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "premaster-10-overlay-complex"
+  },
+  "agent": {
+    "note": "**Pre-master · Complex overlays.**  — **two** overlays at different levels: a **sub-panel overlay** ( over the left 2-row split) and a **root modal** ( over the right half, full height). Non-trivial: the base reveals first, then each overlay lands on top at its own time / Z (per-tile real-geometry path). Verify the template represents BOTH overlays, not just a single full-frame case.",
+    "question": "Both overlays represent correctly — base first, then the sub-panel overlay + right-half modal on top at their Z, no reveal/z-order glitches?",
+    "response": null
+  }
+}

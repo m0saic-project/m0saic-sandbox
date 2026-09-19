@@ -1,0 +1,52 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-04"
+  },
+  "agent": {
+    "note": "**STRESS 04/10 — 04-syn-12-flush** (gate-31 stress set for `@m0saic/collage/image-collage/v1`).\n\nFlush collage: gutter 0 / margin 0 (the e2e 'flush' variant), 12 mixed aspects, seed 3.\n\nWatch: zero background pixels; tiles butt edge to edge with no hairline seams.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "shipped (not individually reviewed)",
+      "text": "Template shipped on the default + tutorial verdict (\"seems fine to me, lets ship it\"); this variant was not individually reviewed by the founder. Agent pre-pass: clean. Recipe + twin + still stay as the record.",
+      "via": "transcribed by agent from the gate-31 chat verdict",
+      "from": "agent:claude",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/collage/image-collage/v1",
+      "props": {
+        "sourceIds": [
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-01-1500x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-02-1200x900.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-03-1920x1080.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-04-800x1200.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-05-1500x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-06-1250x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-07-900x1200.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-08-1600x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-09-1000x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-10-1450x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-11-720x1280.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-12-1330x1000.png"
+        ],
+        "gutterPx": 0,
+        "marginPx": 0,
+        "seed": 3
+      }
+    }
+  ]
+}

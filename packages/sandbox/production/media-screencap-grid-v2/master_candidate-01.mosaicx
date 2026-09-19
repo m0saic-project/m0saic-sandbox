@@ -1,0 +1,37 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 5000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/media/screencap_grid/v2` \"Screencap Grid\"** (gate 24 — media pack remainder 7/n; chart: `.ai/LAUNCH/v1-template-cut.md`). Core tier. The onboarding-kit flagship: the ONLY template implementing BOTH `renderCover` and `renderTutorial` — **your verdict on those two surfaces is part of this gate** (the chart row has ✓ ☐ cells for each). Showcase props: pure defaults — 4×4 contact sheet, info pane, br timestamps, on the reel fixture.\n\n**Pre-audit battery: 16/16 green. Two real fixes shipped:**\n\n| Finding | Fix |\n|---|---|\n| Animated mp4 shipped a **silent placeholder audio track** (every tile mutes at source level only — the gate-20 highlights class, verified Max_level=0.0) | Doc-level `audio: {enabled: false}` on animated docs → the deliverable gets `-an`. Both return paths (generated + custom grid). Unit-locked ×3. |\n| Info pane draws literal text at fixed fonts — a long filename or dense metadata line **overruns the canvas silently** (the gate-16 CLI text-clip class) | Script-aware em-budget fit: title **middle-ellipsizes keeping the extension tail** (`…-FINAL.mp4`), metadata lines end-ellipsize. Pixel-verified at 1280w; unit-locked ×4 incl. portrait canvas. |\n\n**Verified live (renders + pixel checks):** all knobs — rows/cols, gap 0/40, fit contain, pane show/align, chips show/corner/color/bgColor (chip colors pixel-verified black-on-yellow — my own first eyeball misjudged the thumbnail; the pixels ruled), custom m0 grid incl. passthrough donation, invalid-grid + no-source error cards, image input, `emit:multi` fan-out with `--output-pattern {{label}}` naming, tutorial renders via `--tutorial` (33s, 18 steps — pages look polished, no clipped text seen).\n\n**Rulings I need from you:**\n1. **Cover + tutorial verdict** — open the template fresh (cover face) and hit the \"?\" tutorial. These are this template's own onboarding kit; the gate closes both chart cells.\n2. **Image inputs show `00:00:00.000` chips** by default (timestamps are meaningless on stills). Keep as-is, or auto-hide timestamps when the input is an image?\n3. **Chip font is fixed 18px** (v1 heritage): tiny at 4K, dominant on very small tiles. Accept for v1, or scale with tile size?\n\nKnown pre-existing (NOT this gate's collateral, verified on clean tree): the geometry-proof contract spec fails on the Mac only (gate-20 noted the same class for aspect-safe; merge machine is Windows).",
+    "question": "Default face look right? And the three rulings above — cover/tutorial verdict, image-input chips, fixed chip font.",
+    "response": {
+      "verdict": "ship",
+      "text": "cover: \"i quite like this cover... slightly different direction than our other templates have gone, but its nice\" → COVER ACCEPTED. Founder caught a Geometric Preview regression (info-pane text gone) + debug-geometry no-op in Make + tutorial \"reads as a dev cut... we can do better\" → preview fixed (childFitBox ignored cover focusX/focusY — 08-12 letterbox fix's gap, NOT the gate-23 plate), tutorial REBUILT on real material → \"okay decent enough. lets stress\" → stress ×10 pass (2 first-run reds = freeze-harness fidelity, both fixed) → \"ship\"",
+      "via": "chat — transcribed by agent",
+      "note": "SHIPPED base ☑ (gate 24, media pack remainder 7/n; core tier; the onboarding-kit flagship — cover AND tutorial cells both close this gate). Template fixes: (1) animated mp4 muxed a SILENT placeholder audio track (gate-20 class) → doc-level audio:{enabled:false} → -an, both return paths; (2) pane text overran the canvas silently (gate-16 CLI clip class) → script-aware em-budget: title middle-ellipsizes keeping the extension tail, metadata lines end-ellipsize; (3) pane title never prints a filesystem PATH (basename fallback when originalFileName absent — exposed by the enriched freeze harness). PREVIEW fix: childFitBox now honors cover focusX/focusY like the engine (the pane regression). TUTORIAL rebuilt: brand row + registered-preview material everywhere (sourceRect footage windows with baked chips trimmed, REAL pane pixels on the context page, cover-vs-contain on the same real frame); 405KB tutorial-sheet.jpg committed (web uses the served preview URL). HARNESS: freeze-twin ffprobe now full-fidelity (originalFileName + format/stream detail) — twins carry production-faithful panes for all future media gates. OPEN (not ruled): image-input chips show 00:00:00.000 (keep vs auto-hide); fixed 18px chip font at extreme canvases; debug-geometry Make no-op unresolved — template PROVEN correct on CLI + design-mode wrapped render (green both-directions wireframe); re-toggle after app restart, suspect main-process staleness. Pre-existing Mac-only geometry-proof spec noted (clean-tree verified, merge machine is Windows)."
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/screencap_grid/v2",
+      "props": {
+        "sourceIds": [
+          "<sandbox>/production/media-highlights-v1/fixtures/reel-10s.mp4"
+        ]
+      }
+    }
+  ]
+}

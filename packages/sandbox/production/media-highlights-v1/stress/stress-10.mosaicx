@@ -1,0 +1,44 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 5000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-fps-follow-60** (gate-20 stress set for `@m0saic/media/highlights/v1`).\n\nfps follows the SOURCE: a 60fps screen recording → pipeline fps 60 (not the engine default 30), full 1920×1200 native dims. The source has NO audio track. Watch: outputs are 60fps and butter-smooth on scroll; native res crisp.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "\"ship\" (set verdict — x10 reviewed via stress/renders/)",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/highlights/v1",
+      "props": {
+        "sourceId": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/invoice_sr.mp4",
+        "ranges": [
+          {
+            "startMs": 500,
+            "endMs": 2500
+          },
+          {
+            "startMs": 7000,
+            "endMs": 9000
+          }
+        ]
+      }
+    }
+  ]
+}

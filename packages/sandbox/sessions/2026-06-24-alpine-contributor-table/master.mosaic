@@ -1,0 +1,70 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "#000000"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "ERROR: @m0saic/alpine/contributor-table/v1 props"
+          },
+          "style": {
+            "fontSize": 40,
+            "fontColor": "#ffffff"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "top",
+            "xExpr": "w*0.06",
+            "yExpr": "h*0.06"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "contributor-table needs rows[] + columns[]"
+          },
+          "style": {
+            "fontSize": 22,
+            "fontColor": "#ffffff"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "top",
+            "xExpr": "w*0.06",
+            "yExpr": "h*0.180000"
+          }
+        }
+      ],
+      "engine": {
+        "renderStatus": "error",
+        "renderError": {
+          "message": "@m0saic/alpine/contributor-table/v1 props: contributor-table needs rows[] + columns[]"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": "<sandbox>/sessions/2026-06-24-alpine-contributor-table",
+    "basename": "master"
+  },
+  "agent": {
+    "note": "MASTER — @m0saic/alpine/contributor-table/v1. APPROVED across desktop/square/mobile. Landscape+square = multi-column ranked table (square icon chip, top-3 accent wash, green +additions / red -deletions signed columns, count-up values, width-capped names). Portrait (H>W*1.15) reflows to the SaaS mobile-leaderboard pattern: per-contributor stacked cards (rank | square avatar | name + big ranked-metric on the right, colored diff line below). All sources fade in (nothing at t=0). Light primitive (generated m0 ~3.3K). Reference layouts in assets/: layout-standard.m0 (0.6% collapse, floor 128x118) + layout-lite.m0 (1.2%, floor 80x59). Unit test 14/14 + CLI E2E (top-contributors) green. Preview set."
+  }
+}

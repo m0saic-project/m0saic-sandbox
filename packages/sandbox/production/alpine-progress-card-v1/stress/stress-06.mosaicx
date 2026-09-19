@@ -1,0 +1,52 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 900,
+    "height": 900
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/progress-card/v1",
+      "props": {
+        "items": [
+          {
+            "label": "Only Goal",
+            "value": 50
+          }
+        ],
+        "title": "QUARTERLY GOALS",
+        "subtitle": "Progress to target",
+        "preset": "light",
+        "bars": {
+          "cornerRadius": 0
+        },
+        "showValue": false,
+        "anim": {
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-single-novalue** (gate-9 stress set for `@m0saic/alpine/progress-card/v1`).\n\nDEGENERATE: ONE row, showValue OFF, rounding 0 (square bars). Contract relation gated off at N=1 — flip Debug layout, wireframe must render. Watch: a bare single row reads cleanly.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

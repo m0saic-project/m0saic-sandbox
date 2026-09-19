@@ -1,0 +1,60 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 977,
+    "height": 733
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/line-chart/v2",
+      "props": {
+        "values": [
+          42
+        ],
+        "labels": [
+          "Only"
+        ],
+        "title": "LINE CHART",
+        "subtitle": "Monthly Active Users",
+        "curve": "smooth",
+        "preset": "light",
+        "grid": {
+          "show": true,
+          "count": 4
+        },
+        "area": {
+          "show": true,
+          "opacity": 0.22
+        },
+        "points": {
+          "show": true
+        },
+        "anim": {
+          "introFrac": 0.7,
+          "ease": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-single-point** (gate-8 stress set for `@m0saic/alpine/line-chart/v2`).\n\nDEGENERATE: ONE data point (N=1 — line collapses to a point, no ticks possible). Watch: no crash, the single marker centers, no phantom axis artifacts.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-22T22:35:40.000Z",
+      "via": "chat (\"pass, lets ship\" — gate-8 stress set, post-regen) — transcribed by agent"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 9000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/activity-trend/v1", "props": { "preset": "dark" } } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-24-ffmpeg-pulse-activity-trend", "basename": "candidate-004" },
+  "agent": { "note": "c004 — your 3 points. (1) Desktop %-clip fixed: bumped the stat-card delta safety margin so '+18%' shows fully. (2) SQUARE rail relaid out to a 2x2 of square-ish, tight cards (300x268, centered) matching the desktop proportion — chart is now a compact strip on top. (3) Mobile untouched (your target). Note: the delta-margin tweak lives in the shared stat-card, so KPI-Overview deltas render a hair smaller too (harmless; flagging for the preview refresh).", "question": "Beat 2 ready to lock across all three? (square rail panel sits centered/narrower than the full-width chart panel above it — leave, or widen to match?) Per-point chart value labels still optional." }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 7500,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-02"
+  },
+  "agent": {
+    "note": "**TAKE 2 — the preview shows CODE, and the form says VIDEO** (founder on take 1: \"defaulted to image. and why is the default showing rectangles and not text? the output was fine, but the geometric preview shows opaque rects\").\n\n| Symptom | Cause | Fix |\n|---|---|---|\n| Output Type opened on **Image** | Make infers the kind from the lite stand-in when it carries no author stamp; the lite doc was static → \"image\", overriding the template hint | the lite doc now stamps `format:{video,mp4}` (+ `audio:{mode:\"off\"}`) — the author stamp wins in Make (`inferOutputKind`) |\n| Preview showed **colour bars** for code and gutter | `renderLite` drew one flat tile per token run (the July plan's \"coloured-rect approximation\") | lite pieces are now **text**: one JetBrains Mono text source per token run on the same character grid as the raster path, plus real right-aligned **line numbers** — 79 text sources for the default, 8 chrome tiles |\n| Title rendered in a serif face | the app only registered the bundled Roboto; a bare \"JetBrains Mono\" fell to the browser default | the app now registers the bundled JetBrains Mono (Regular/Bold/Italic/BoldItalic, OFL, from @m0saic/text) as a web font, and the preview appends its own fallback stack behind any declared family so a missing face never lands on serif |\n\nRecipe unchanged (pure defaults, 2 states, 7.5s). Locks: code suites 107/107 (new gate-32 lite-text lock; the old \"lite = coloured rectangles\" lock retired), web preview suites 151/151.\n\nStill open from take 1: rise vs fade · cover/tutorial · CJK/emoji tofu · stress-01..10.",
+    "question": "Does the preview now read as the render (code text, numbers, JetBrains Mono) and does the form open on Video? Then the take-1 questions + stress-01..10.",
+    "response": {
+      "verdict": "preview fixed; three asks",
+      "text": "\"code states is a form of json? or a string[]? im just thinking can we link the geometry to the prop, such that I can make minor changes in the real preview.\" · \"also geometric preview does not show the two states, all code is fully visible and no animation is seen - why?\" · \"lastly, we need a prop to make this take the full canvas and default to that. we can still have the terminal chrome, but remove the default margin it has against the canvas\" (two Make screenshots: the prop form with states, and the static lite preview)",
+      "via": "chat + screenshots, 2026-09-04 — transcribed by agent (no in-file response was saved)",
+      "from": "human",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/code/snippet-morph/v1",
+      "props": {}
+    }
+  ]
+}

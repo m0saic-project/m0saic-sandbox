@@ -1,0 +1,35 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 \u2014 08-single-char** (gate-18 stress set for `@m0saic/media/barcode/v1`).\n\nSHORTEST payload: one character. Watch: minimal module count still encodes (start+char+check+stop), HRI centered, generous quiet zone.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/barcode/v1",
+      "props": {
+        "text": "A",
+        "format": "code128"
+      }
+    }
+  ]
+}

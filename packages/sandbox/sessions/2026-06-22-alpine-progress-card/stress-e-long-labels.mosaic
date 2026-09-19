@@ -1,0 +1,393 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30(-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,119[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,33[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10(0,0,0,0,0,0,1,0,0,1),0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,1{60(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-)}],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,33[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10(0,0,0,0,0,0,1,0,0,1),0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,1{60(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-)}],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,33[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10(0,0,0,0,0,0,1,0,0,1),0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,1{10(0,0,0,0,0,0,0,0,1,-)}],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]],-),0,0,0,0,0,0,-]}",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#E5E7EB",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "ENGINEERING ROADMAP — H2"
+          },
+          "style": {
+            "fontSize": 40,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Long labels + long display"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Migrate the rendering executor to the shared scheduler"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.11199999999999999)/0.6778947368421052)))*(min(1,max(0,(t-0.11199999999999999)/0.6778947368421052)))*(3-2*(min(1,max(0,(t-0.11199999999999999)/0.6778947368421052))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:62*((1-(1-(min(1\\,max(0\\,(t-0.11199999999999999)/0.6778947368421052))))*(1-(min(1\\,max(0\\,(t-0.11199999999999999)/0.6778947368421052))))))+0.5\\:d}\\% (on track)",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.11199999999999999,
+        "alpha": "(1-(1-(min(1,max(0,lt/0.6778947368421052))))*(1-(min(1,max(0,lt/0.6778947368421052)))))",
+        "xExpr": "-(w*(1-((1-(1-(min(1,max(0,lt/0.6778947368421052))))*(1-(min(1,max(0,lt/0.6778947368421052))))))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Desktop / CLI render parity"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.41705263157894734)/0.6778947368421052)))*(min(1,max(0,(t-0.41705263157894734)/0.6778947368421052)))*(3-2*(min(1,max(0,(t-0.41705263157894734)/0.6778947368421052))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:38*((1-(1-(min(1\\,max(0\\,(t-0.41705263157894734)/0.6778947368421052))))*(1-(min(1\\,max(0\\,(t-0.41705263157894734)/0.6778947368421052))))))+0.5\\:d}\\% (at risk)",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#10B981",
+      "overlay": {
+        "startAtSec": 0.41705263157894734,
+        "alpha": "(1-(1-(min(1,max(0,lt/0.6778947368421052))))*(1-(min(1,max(0,lt/0.6778947368421052)))))",
+        "xExpr": "-(w*(1-((1-(1-(min(1,max(0,lt/0.6778947368421052))))*(1-(min(1,max(0,lt/0.6778947368421052))))))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Accessibility audit pass"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7221052631578947)/0.6778947368421052)))*(min(1,max(0,(t-0.7221052631578947)/0.6778947368421052)))*(3-2*(min(1,max(0,(t-0.7221052631578947)/0.6778947368421052))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:90*((1-(1-(min(1\\,max(0\\,(t-0.7221052631578947)/0.6778947368421052))))*(1-(min(1\\,max(0\\,(t-0.7221052631578947)/0.6778947368421052))))))+0.5\\:d}\\% (ahead)",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#F59E0B",
+      "overlay": {
+        "startAtSec": 0.7221052631578947,
+        "alpha": "(1-(1-(min(1,max(0,lt/0.6778947368421052))))*(1-(min(1,max(0,lt/0.6778947368421052)))))",
+        "xExpr": "-(w*(1-((1-(1-(min(1,max(0,lt/0.6778947368421052))))*(1-(min(1,max(0,lt/0.6778947368421052))))))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant E — very long labels + long Display strings (fit:contain should cap, watch for overflow).",
+    "question": "Approve or deny this config.",
+    "response": {
+      "body": "Approved.",
+      "from": "human",
+      "at": "2026-06-22T18:31:06.794Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

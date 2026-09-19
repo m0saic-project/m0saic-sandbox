@@ -1,0 +1,38 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-09"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 — 09-multi-mixed-six** (gate-25 stress set for `@m0saic/media/screencap_grid_aspect_safe/v1`).\n\nThree mixed inputs (two videos + an IMAGE) × two orientations = SIX named deliverables. Watch: the image pair renders identical stills; every output named {slug}__{orientation}.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "stress set pass 10/10 — \"ship\"",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/screencap_grid_aspect_safe/v1",
+      "props": {
+        "sourceIds": [
+          "<sandbox>/production/media-highlights-v1/fixtures/reel-10s.mp4",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/demo-docs/invoice.png"
+        ]
+      }
+    }
+  ]
+}

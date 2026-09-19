@@ -1,0 +1,274 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "3[7(0,1,0,1,0,1,1),0,14(0,0,0,0,0,0,0,0,0,0,2[11(0,0,0,1,0,0,0,1,0,0,1),11(0,0,1,0,0,1,0,0,1,0,1)],0,0,1)]",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master"
+  },
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#2d4f67",
+      "editor": {
+        "owner": "template",
+        "label": "img:0"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.020947176684881604,
+          "right": 0.00819672131147541,
+          "top": 0.03194444444444444,
+          "bottom": 0.0125
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3e5c46",
+      "editor": {
+        "owner": "template",
+        "label": "img:2"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.013686131386861315,
+          "right": 0.011861313868613138,
+          "top": 0.03194444444444444,
+          "bottom": 0.0125
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#37556e",
+      "editor": {
+        "owner": "template",
+        "label": "img:4"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.010036496350364963,
+          "right": 0.017335766423357664,
+          "top": 0.03194444444444444,
+          "bottom": 0.0125
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#7a5230",
+      "editor": {
+        "owner": "template",
+        "label": "img:3"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.00909090909090909,
+          "right": 0.04181818181818182,
+          "top": 0.03194444444444444,
+          "bottom": 0.0125
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#585a38",
+      "editor": {
+        "owner": "template",
+        "label": "img:7"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.020947176684881604,
+          "right": 0.00819672131147541,
+          "top": 0.020833333333333332,
+          "bottom": 0.020833333333333332
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2f5f58",
+      "editor": {
+        "owner": "template",
+        "label": "img:9"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.013686131386861315,
+          "right": 0.011861313868613138,
+          "top": 0.020833333333333332,
+          "bottom": 0.020833333333333332
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#5a3e5d",
+      "editor": {
+        "owner": "template",
+        "label": "img:1"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.01338199513381995,
+          "right": 0.02068126520681265,
+          "top": 0.020833333333333332,
+          "bottom": 0.020833333333333332
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#6e4444",
+      "editor": {
+        "owner": "template",
+        "label": "img:5"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.027912621359223302,
+          "right": 0.00849514563106796,
+          "top": 0.0125,
+          "bottom": 0.03194444444444444
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#4f4668",
+      "editor": {
+        "owner": "template",
+        "label": "img:8"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.02068126520681265,
+          "right": 0.01338199513381995,
+          "top": 0.0125,
+          "bottom": 0.03194444444444444
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3f5a2f",
+      "editor": {
+        "owner": "template",
+        "label": "img:11"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.015815085158150853,
+          "right": 0.01824817518248175,
+          "top": 0.0125,
+          "bottom": 0.03194444444444444
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#44606a",
+      "editor": {
+        "owner": "template",
+        "label": "img:6"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.016423357664233577,
+          "right": 0.03102189781021898,
+          "top": 0.0125,
+          "bottom": 0.03194444444444444
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#6a3f52",
+      "editor": {
+        "owner": "template",
+        "label": "img:10"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.00849514563106796,
+          "right": 0.027912621359223302,
+          "top": 0.010416666666666666,
+          "bottom": 0.01597222222222222
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "agent": {
+    "note": "**SHIPPED base ☑ (gate 31 — COLLAGE pack opener; `@m0saic/collage/image-collage/v1`).** Promoted from take 2 on 2026-09-04. Take 1 (\"seems fine to me\") approved the default face (the 12-tile demo set) and asked for the brand M on the gallery asset + a simple render tutorial; take 2 delivered both (\"seems fine to me, lets ship it\"). Shipped with it: `format:{image,png}` on every page doc; user-facing description; ASCII-safe error strings; `renderTutorial` (pick photos or a folder → the sheet lays itself out → big sets page; ~13s, deterministic, media-free); poster/preview corner-M (BR). Rode the gate: CLI `resolve` now probes recipe media like `make` (twins of `sourceIds` recipes were error cards); 3 collage tests aligned to the debug-shows-wireframe semantics (94→97 green). Stress ×10 shipped on the default verdict, not individually reviewed (agent pass clean; recipes + twins + stills stay as the record). Unruled: `spread-grid-mock` dev-or-delete; `sourceIds` required-with-demo.\n\n---\n\n**TAKE 2 — corner-M on the gallery asset + a three-beat tutorial** (founder on take 1: \"seems fine to me. lets add the brand M on the template cover asset, and prepare a render tutorial. keep it simple on how to use. select images, or a folder of images\").\n\n- **Gallery asset stamped**: `poster.png` = `preview.png` (your 07-12 real-photo sheet, 1280×720) now carry the corner-M bottom-right (40px, the gate-29/30 stamp tool; TARGETS entry added). Pixels otherwise untouched.\n- **Tutorial (`renderTutorial`, the Make \"?\" pill + `m0saic make <id> --tutorial`)**: three beats, ~13s, the shared SaaS kit —\n  1. **Pick photos — or a whole folder** (a folder listing of mixed-size files; \"Images → files or a folder\"),\n  2. **The sheet lays itself out** (a REAL demo-set solve inlined at the slot's true pixels — hero / portrait / panorama cells, inset gutters),\n  3. **More photos? More sheets** (two page cards, each a real solve of half the set; \"Max per sheet · 30 by default\").\n  Deterministic, media-free, own step timing (4.2 / 4.4 / 4.2 s); portrait canvases stack copy above the visual. 3 new locks (97/97 collage tests).\n\nRecipe unchanged (pure defaults). The tutorial lives on the template, not in this recipe — open the \"?\" in Make to play it, or `m0saic make @m0saic/collage/image-collage/v1 --tutorial -o tut.mp4`.",
+    "question": "Tutorial read right? Tone/beats OK or trim further? Then stress-01..10 remain open.",
+    "response": {
+      "verdict": "ship",
+      "text": "\"seems fine to me, lets ship it\" (take 2: corner-M gallery asset + 3-beat tutorial)",
+      "via": "chat, 2026-09-04 — transcribed by agent (no in-file response was saved)",
+      "from": "human",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "format": {
+    "kind": "image",
+    "container": "png"
+  },
+  "backgroundColor": "#101014"
+}

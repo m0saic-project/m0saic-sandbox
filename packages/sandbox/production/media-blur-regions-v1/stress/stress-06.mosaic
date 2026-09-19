@@ -1,0 +1,210 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "multi",
+  "fps": 30,
+  "steps": [
+    {
+      "name": "talk-720p",
+      "label": "talk-720p",
+      "durationMs": 3000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {
+          "talk-720p": {
+            "kind": "file",
+            "path": "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4",
+            "mediaType": "video"
+          }
+        },
+        "size": {
+          "width": 1280,
+          "height": 720
+        },
+        "backgroundColor": "#000000",
+        "m0": "1{120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10(1,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{8[80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,-]{60[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10(0,0,0,0,0,0,0,0,-,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{60[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-)]}}}}",
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover"
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:base"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover",
+              "sourceRect": {
+                "x": 0,
+                "y": 200,
+                "w": 120,
+                "h": 200
+              },
+              "inset": {
+                "top": 0.012254901960784314,
+                "right": 0.06640625,
+                "bottom": 0.012254901960784314,
+                "left": 0
+              }
+            },
+            "audio": {
+              "enabled": false
+            },
+            "effects": {
+              "blur": 24
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:region"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover",
+              "sourceRect": {
+                "x": 500,
+                "y": 0,
+                "w": 280,
+                "h": 90
+              },
+              "inset": {
+                "top": 0,
+                "right": 0.015625,
+                "bottom": 0,
+                "left": 0.015625
+              }
+            },
+            "audio": {
+              "enabled": false
+            },
+            "effects": {
+              "blur": 24
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:region"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover",
+              "sourceRect": {
+                "x": 1160,
+                "y": 300,
+                "w": 120,
+                "h": 200
+              },
+              "inset": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0.022058823529411766,
+                "left": 0.06640625
+              }
+            },
+            "audio": {
+              "enabled": false
+            },
+            "effects": {
+              "blur": 24
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:region"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover",
+              "sourceRect": {
+                "x": 500,
+                "y": 640,
+                "w": 280,
+                "h": 80
+              },
+              "inset": {
+                "top": 0.05357142857142857,
+                "right": 0.015625,
+                "bottom": 0,
+                "left": 0.015625
+              }
+            },
+            "audio": {
+              "enabled": false
+            },
+            "effects": {
+              "blur": 24
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:region"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "format": {
+          "kind": "video",
+          "container": "mp4"
+        },
+        "fps": 30,
+        "durationMs": 3000,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "durationMs": 3000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-edge-hug** (gate-19 stress set for `@m0saic/media/blur-regions/v1`).\n\nRegions hugging every edge: x=0 strip, y=0 strip, exact right-edge and bottom-edge rects. Watch: no off-by-one gaps at the borders, no clamp errors (all fully inside).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  }
+}

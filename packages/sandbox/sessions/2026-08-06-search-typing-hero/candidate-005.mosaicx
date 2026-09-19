@@ -1,0 +1,70 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 400
+  },
+  "fps": 30,
+  "durationMs": 18170,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/hero/search-typing/v1",
+      "props": {
+        "words": [
+          "Ideas",
+          "Answers",
+          "Templates",
+          "Tutorials",
+          "Inspiration"
+        ],
+        "label": "Search for",
+        "frame": "card",
+        "timing": {
+          "typeCharMs": 120,
+          "deleteCharMs": 90,
+          "emptyHoldMs": 850,
+          "wordHoldMs": 1100,
+          "leadMs": 400,
+          "trailMs": 400
+        },
+        "endBehavior": "hold",
+        "caret": {
+          "show": false,
+          "blinkMs": 1000,
+          "widthPx": 2
+        },
+        "underline": "grow",
+        "icon": {
+          "show": true
+        },
+        "style": {
+          "pageColor": "#F2F3F5",
+          "cardColor": "#FFFFFF",
+          "labelColor": "#9AA0A6",
+          "inkColor": "#9AA0A6",
+          "cornerRadiusPx": 16,
+          "barWidthFrac": 0.62,
+          "barAspect": 0.26
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-005"
+  },
+  "agent": {
+    "note": "**Real geometry, per your candidate-004 note** — the m0 is no longer an opaque overlay stack. Every element is now a true m0 cell (geometry-recipes Recipe 1: rects snap outward to an 8px grid, placeRects GCD-collapses, sources author cell-local):\n\n| cell | what |\n|---|---|\n| card | the bar container (fill: the canvas; card: the floating bar) |\n| icon | the magnifier square |\n| label zone | prompt glyphs + label underline |\n| word zone ×5 | one cell per word strip |\n| word zone | the cover curtain track |\n| underline band | the 2px grow track |\n\nThe default m0 went 27 chars → ~3.8K of real splits — structure preview / Render Hero / selection now see the layout. Pixel output is unchanged (smoke-compared both frame modes). A verify pass also caught + fixed two latent ink bugs at big fill-mode type: negative-side-bearing glyphs (\"j\", accents) could clip at a cell edge or leak past the curtain — zones and cover spans now pad proportionally to fontSize.\n\n*One trade-off for your awareness:* on canvases whose dims are NOT multiples of 8 (e.g. 1366×768) the m0 grows ~3-8× (12-30K chars) because the trailing edge breaks the snap grid. Renders fine, documented Recipe-1 behavior; say the word if you want the self-framed variant instead.",
+    "question": "Render + check the Structure panel / Layout view: do the bounding boxes read the way you wanted (card / icon / label / word zone / underline selectable)? Pixel output should be identical to candidate-004 — flag anything that moved. Good → P4 (preview assets + News + the closeout gate).",
+    "response": {
+      "body": "the outside floating card does not have a rect, can we put one for it? also, instead of mask the bg color for the search box, can we use a real bg color? it obscures the masks for the text. render came out good",
+      "from": "human",
+      "at": "2026-08-06T19:31:20.328Z",
+      "src": "<sandbox>/sessions/2026-08-06-search-typing-hero/./candidate-005-1280x400.mp4"
+    }
+  }
+}

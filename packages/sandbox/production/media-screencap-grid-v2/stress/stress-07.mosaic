@@ -1,0 +1,428 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "sources": [
+    {
+      "type": "mosaic",
+      "ref": "info-pane",
+      "placement": {
+        "fit": "cover",
+        "focusY": 0,
+        "inset": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0.05357142857142857,
+          "left": 0
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "reel-10s",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0,
+          "right": 0.007211538461538462,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "playback": {
+        "clipStartMs": 6000,
+        "clipDurationMs": 33,
+        "loopMode": "freeze"
+      },
+      "audio": {
+        "enabled": false
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "reel-10s",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0.007211538461538462
+        }
+      },
+      "playback": {
+        "clipStartMs": 8000,
+        "clipDurationMs": 33,
+        "loopMode": "freeze"
+      },
+      "audio": {
+        "enabled": false
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "reel-10s",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0.008169934640522876,
+          "right": 0.007211538461538462,
+          "bottom": 0.014705882352941176,
+          "left": 0
+        }
+      },
+      "playback": {
+        "clipStartMs": 2000,
+        "clipDurationMs": 33,
+        "loopMode": "freeze"
+      },
+      "audio": {
+        "enabled": false
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "reel-10s",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0.008169934640522876,
+          "right": 0,
+          "bottom": 0.014705882352941176,
+          "left": 0.007211538461538462
+        }
+      },
+      "playback": {
+        "clipStartMs": 4000,
+        "clipDurationMs": 33,
+        "loopMode": "freeze"
+      },
+      "audio": {
+        "enabled": false
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "image"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "00:00:02.000"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#000000",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#ffff00",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "top",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.008169934640522876,
+          "right": 0.007211538461538462,
+          "bottom": 0.014705882352941176,
+          "left": 0
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "image"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "00:00:04.000"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#000000",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#ffff00",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "top",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.008169934640522876,
+          "right": 0,
+          "bottom": 0.014705882352941176,
+          "left": 0.007211538461538462
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "image"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "00:00:06.000"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#000000",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#ffff00",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "top",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0,
+          "right": 0.007211538461538462,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "image"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "00:00:08.000"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#000000",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#ffff00",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "top",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0.007211538461538462
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "assets": {
+    "reel-10s": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-highlights-v1/fixtures/reel-10s.mp4",
+      "mediaType": "video"
+    }
+  },
+  "m0": "60[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1)]{120[0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1),0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1)]}}",
+  "children": {
+    "info-pane": {
+      "kind": "mosaic_document",
+      "version": 1,
+      "assets": {},
+      "m0": "1",
+      "sources": [
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "image"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "reel-10s.mp4"
+              },
+              "style": {
+                "fontSize": 16,
+                "fontColor": "#ffffff",
+                "borderWidth": 1,
+                "borderColor": "#ffffff"
+              },
+              "visual": {
+                "backgroundColor": "#0d0d0d"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "top",
+                "yExpr": "6",
+                "padding": {
+                  "x": 0.015
+                }
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Duration: 10.00s  |  Size: 3.81 MiB (3,993,932 bytes)  |  Bitrate: 3.2 Mbit/s  |  Container: QuickTime / MOV\nStream 0 Video: 1280x720 yuv420p 8-bit 30.00 fps H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10 (High)\nStream 1 Audio: mono 44.1 kHz 69 kbit/s AAC (Advanced Audio Coding)"
+              },
+              "style": {
+                "fontSize": 9,
+                "fontColor": "#a0a0a0"
+              },
+              "visual": {},
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "top",
+                "yExpr": "33",
+                "padding": {
+                  "x": 0.015
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "template"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      ],
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "fps": 30,
+      "durationMs": 2000,
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  },
+  "format": {
+    "kind": "image",
+    "container": "png"
+  },
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

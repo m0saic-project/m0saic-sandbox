@@ -1,0 +1,198 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1{23[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66(0,0,0,0,0,0,0,0,0,-,0,1,-,1,0,-,1,0,0,0,-,1,-,1,0,0,-,0,1,0,0,-,1,0,0,-,1,-,0,1,0,0,-,0,1,0,0,-,0,0,1,-,1,-,0,1,0,0,0,0,0,0,0,0,0,-),0,0,-]{23[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,33(0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-)]}}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#ffffff@1.0",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f97316",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f97316",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f97316",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f97316",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f97316",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f97316",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f97316",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f97316",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f97316",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f97316",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f97316",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f97316",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f97316",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "#ffffff@1.0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "A"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#f97316",
+            "fontFamily": "OCR-B, OCR B, Inconsolata, Menlo, Consolas, Courier New, monospace"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "assets": {},
+  "fps": 30,
+  "durationMs": 1000,
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "backgroundColor": "#ffffff@1.0",
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-single-char** (gate-18 stress set for `@m0saic/media/barcode/v1`).\n\nSHORTEST payload: one character. Watch: minimal module count still encodes (start+char+check+stop), HRI centered, generous quiet zone.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  }
+}

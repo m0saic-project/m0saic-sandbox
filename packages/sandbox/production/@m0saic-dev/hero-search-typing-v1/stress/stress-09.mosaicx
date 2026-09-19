@@ -1,0 +1,38 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 1280,
+  "height": 400
+ },
+ "fps": 30,
+ "durationMs": 24560,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/hero/search-typing/v1",
+   "props": {
+    "words": [
+     "One",
+     "Two",
+     "Three",
+     "Four",
+     "Five",
+     "Sixteenmore",
+     "Sevens",
+     "Eight"
+    ],
+    "label": ""
+   }
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "stress-09"
+ },
+ "agent": {
+  "note": "**STRESS 09/10 — 09-max-words-no-label** (gate-27 stress set for `@m0saic/hero/search-typing/v1`; PUBLISHER ruling — ships under @m0saic-dev, same bar).\n\nMAX_WORDS=8 + label cleared. Watch: word zone takes the full line, no prompt, 8 cycles."
+ }
+}

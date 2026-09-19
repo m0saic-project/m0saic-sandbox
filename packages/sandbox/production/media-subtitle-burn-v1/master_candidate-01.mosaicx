@@ -1,0 +1,29 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 9000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/media/subtitle-burn/v1` \"Subtitle Burn\"** (gate 26 — the LAST media-remainder gate; chart: `.ai/LAUNCH/v1-template-cut.md`). Core tier. Reads embedded text-subtitle streams (probeMedia extracts tracks + cues), burns them as enable-windowed text layers; selection rules (explicit index → language match → default-flag → first), clip-window cue remapping, opt-in cue emission (MosaicDataSource + `{basename}.cues.json` sidecar). Showcase props: the new 2-track fixture (eng default + spa) at 9s.\n\n**NEW FIXTURE:** `fixtures/reel-subs.mp4` (3.9MB — the reel remuxed with eng+spa mov_text tracks, eng default-flagged; cues include a deliberate 155-char line and a two-line cue).\n\n**Pre-audit: ONE real fix shipped (the gate-16 clip class, predicted by the family lens):**\n\n| Finding | Fix |\n|---|---|\n| A long cue **clipped BOTH edges silently** (fixed font, centered literal text — pixel-confirmed: \"…btitle line that keeps going…\" ran off both sides) | **Wrap-first cue fit**: greedy word-wrap each line to the script-aware em budget; only if the wrapped cue exceeds 3 lines does the font take ONE bounded 0.75× step (floor 14px) and re-wrap. Subtitles never lose words — no ellipsis, ever. Short cues byte-identical. 4 unit locks; the 155-char cue now renders as 3 clean lines. |\n\n**Battery 12/12**, the notable asserts: **audio PRESERVED and non-silent** (the inverse of the recent `-an` gates — a subtitle burn must keep the movie's sound; max level 0.092 ✓); burned glyphs pixel-detected during cues and absent between (white-mask discriminator); spa via languageCode AND via explicit trackIndex (sidecar-verified); strict-miss + no-subs passthroughs (twin-verified single source); sidecar written next to the output with clip context; **clip 3000..8000 remaps cues output-relative** ([0,2000] first cue, text burns at output start); invalid clip → error card; placement top + 64px; freeze fill.\n\n**HARNESS (3rd upgrade, final form):** freeze-twin now uses core's REAL `probeMedia` — one source of truth (subtitle tracks + cues, rotation, everything). Twins see exactly what the CLI sees.\n\n**Rulings I need:**\n1. **Cover?** First open in Make = the missing-source error card (the class that earned the family its covers).\n2. **Tutorial?** Selection rules, clip remapping, and cue emission have real teaching surface — or is this a power-user template that doesn't need one?\n3. **Base video is `fit: \"cover\"`** — crops the movie's edges when canvas aspect differs. Accept for v1, or default `contain` (letterbox, nothing lost — arguably right for film content)?",
+    "question": "Defaults look right (eng burn on the subbed reel)? And the three rulings — cover, tutorial, cover-vs-contain base fit."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/subtitle-burn/v1",
+      "props": {
+        "sourceId": "<sandbox>/production/media-subtitle-burn-v1/fixtures/reel-subs.mp4"
+      }
+    }
+  ]
+}

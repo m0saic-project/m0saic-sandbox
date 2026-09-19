@@ -1,0 +1,1055 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24(-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40(0,0,0,0,0,0,0,0,2[1{71[0,0,0,0,-,0,0,0,0,0,0,0,1,0,-,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},1{71[0,0,0,0,-,0,0,0,0,0,0,0,1,0,-,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]}],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2[1{71[0,0,0,0,-,0,0,0,0,0,0,0,1,0,-,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},1{71[0,0,0,0,-,0,0,0,0,0,0,0,1,0,-,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]}],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5[0,2(1{29[0,0,-,0,0,0,1,-,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},1{29[0,0,-,0,0,0,1,-,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]}),0,0,3(0,2[1{43[0,0,0,-,0,0,0,0,0,0,0,1,0,-,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},1{43[0,0,0,-,0,0,0,0,0,0,0,1,0,-,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]}],1{85[0,0,0,-,0,0,0,0,0,0,0,1,0,-,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]})]))],-),0,0,0,0,0,0,-]}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#E5E7EB",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "HEADCOUNT"
+          },
+          "style": {
+            "fontSize": 37,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "By department"
+          },
+          "style": {
+            "fontSize": 19,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "card-header"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0,
+        "enable": "gte(t,0.000)"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.012433392539964476,
+          "right": 0.017558528428093648,
+          "bottom": 0.012433392539964476,
+          "left": 0.017558528428093648
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Team A"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09531772575250837
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "enable": "gte(t,0.283)",
+        "window": {
+          "startSec": 0.283
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "11%"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09531772575250837
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "enable": "gte(t,0.378)",
+        "window": {
+          "startSec": 0.378
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#10B981",
+      "overlay": {
+        "startAtSec": 0.14437499999999998,
+        "enable": "gte(t,0.144)"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.012433392539964476,
+          "right": 0.017558528428093648,
+          "bottom": 0.012433392539964476,
+          "left": 0.017558528428093648
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Team B"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09531772575250837
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "enable": "gte(t,0.428)",
+        "window": {
+          "startSec": 0.428
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "11%"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09531772575250837
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "enable": "gte(t,0.522)",
+        "window": {
+          "startSec": 0.522
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#F59E0B",
+      "overlay": {
+        "startAtSec": 0.28874999999999995,
+        "enable": "gte(t,0.289)"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.012433392539964476,
+          "right": 0.017558528428093648,
+          "bottom": 0.012433392539964476,
+          "left": 0.017558528428093648
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Team C"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09531772575250837
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "enable": "gte(t,0.572)",
+        "window": {
+          "startSec": 0.572
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "11%"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09531772575250837
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "enable": "gte(t,0.667)",
+        "window": {
+          "startSec": 0.667
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EF4444",
+      "overlay": {
+        "startAtSec": 0.4331249999999999,
+        "enable": "gte(t,0.433)"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.012433392539964476,
+          "right": 0.017558528428093648,
+          "bottom": 0.012433392539964476,
+          "left": 0.017558528428093648
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Team D"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09531772575250837
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "enable": "gte(t,0.717)",
+        "window": {
+          "startSec": 0.717
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "11%"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09531772575250837
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "enable": "gte(t,0.811)",
+        "window": {
+          "startSec": 0.811
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8B5CF6",
+      "overlay": {
+        "startAtSec": 0.5774999999999999,
+        "enable": "gte(t,0.577)"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.0155417406749556,
+          "right": 0.014046822742474914,
+          "bottom": 0.0155417406749556,
+          "left": 0.014046822742474914
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Team E"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.08829431438127089
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "enable": "gte(t,0.861)",
+        "window": {
+          "startSec": 0.861
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "11%"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.08829431438127089
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "enable": "gte(t,0.955)",
+        "window": {
+          "startSec": 0.955
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0EA5E9",
+      "overlay": {
+        "startAtSec": 0.7218749999999998,
+        "enable": "gte(t,0.722)"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.0155417406749556,
+          "right": 0.014046822742474914,
+          "bottom": 0.0155417406749556,
+          "left": 0.014046822742474914
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Team F"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.08829431438127089
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "enable": "gte(t,1.005)",
+        "window": {
+          "startSec": 1.005
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "11%"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.08829431438127089
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "enable": "gte(t,1.100)",
+        "window": {
+          "startSec": 1.1
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.8662499999999999,
+        "enable": "gte(t,0.866)"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.020722320899940787,
+          "right": 0.01053511705685619,
+          "bottom": 0.020722320899940787,
+          "left": 0.01053511705685619
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Team G"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.04816053511705687
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "enable": "gte(t,1.150)",
+        "window": {
+          "startSec": 1.15
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "11%"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.04816053511705687
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "enable": "gte(t,1.244)",
+        "window": {
+          "startSec": 1.244
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#10B981",
+      "overlay": {
+        "startAtSec": 1.0106249999999999,
+        "enable": "gte(t,1.011)"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.020722320899940787,
+          "right": 0.01053511705685619,
+          "bottom": 0.020722320899940787,
+          "left": 0.01053511705685619
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Team H"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.04816053511705687
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "enable": "gte(t,1.294)",
+        "window": {
+          "startSec": 1.294
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "11%"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.04816053511705687
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "enable": "gte(t,1.389)",
+        "window": {
+          "startSec": 1.389
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#F59E0B",
+      "overlay": {
+        "startAtSec": 1.1549999999999998,
+        "enable": "gte(t,1.155)"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.010361160449970394,
+          "right": 0.02107023411371235,
+          "bottom": 0.010361160449970394,
+          "left": 0.02107023411371235
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Team I"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.0963210702341136
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "enable": "gte(t,1.438)",
+        "window": {
+          "startSec": 1.438
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "11%"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.0963210702341136
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "enable": "gte(t,1.533)",
+        "window": {
+          "startSec": 1.533
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "#F8FAFC",
+  "fps": 30,
+  "durationMs": 3000,
+  "size": {
+    "width": 977,
+    "height": 733
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-equal-values** (gate-12 stress set for `@m0saic/alpine/treemap/v2` — the LAST alpine gate).\n\nEQUAL VALUES: 9 identical items (squarify's grid-ish worst case) + light renderMode. Watch: near-uniform tiles, even gaps, enable-gate cascade.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

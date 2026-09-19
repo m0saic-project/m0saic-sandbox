@@ -1,0 +1,36 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 5000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/media/screencap_grid_aspect_safe/v1` \"Screencap Grid — Aspect Safe\"** (gate 25 — pulled forward per your call: \"a complement to screengrid\"; chart: `.ai/LAUNCH/v1-template-cut.md`). Core tier. Per input it renders a COORDINATED landscape + portrait pair — same cell count, cells steered to a wanted shape (landscape/square/portrait preset or exact ratio), quantization-free at both canvases, `emit:multi` (2 outputs per file). Showcase props: pure defaults on the reel.\n\n**⚠ The chart proposed this for the DEV bucket** (\"superseded? no e2e\") — your \"complement\" framing says otherwise. **This gate's ruling: base or dev?** (The \"no e2e\" note was half-stale: CLI E2E cases existed; the missing `e2e-variants.jsonc` entry is now added.)\n\n**Pre-audit: both gate-24 family fixes were LIVE here too — fixed + unit-locked ×3:**\n\n| Inherited bug | Status |\n|---|---|\n| Animated pairs muxed **silent placeholder audio tracks** (the gate-20/24 class, third family member) | Doc-level `audio:{enabled:false}` → `-an` on every orientation doc; verified in pixels: both mp4s now video-only |\n| Pane text unfitted (gate-16 clip class) + title could print a **filesystem path** | The v2 machinery applied per-orientation (each canvas fits its own budget): basename → title middle-ellipsis keeping the tail → metadata end-ellipsis |\n\n**Battery 13/13**, highlights: cell-shape steering verified from twins — square → cells L=1.17 / P=1.03, portrait → 0.49 / 0.60, exact 1.5 → 1.31 (quantized factorizations approximate the target; expected); gridChoice ranked list live; tight 30–32-cell window; custom canvases; chips black-on-yellow pixel-asserted; mixed error cards; 2 inputs → 4 named outputs.\n\n**Rulings I need:**\n1. **Bucket: base (complement) or dev?** — the gate's headline question.\n2. **Chip default here is `bgColor: \"none\"`** (bare white text on footage) vs v2's black chips — deliberate contrast choice or unify with the family?\n3. **No cover, no tutorial** — first open in Make shows the missing-source error card (the class that earned commit-feed and blur-regions their covers). Want a pair-story cover here, or is the v2 onboarding close enough for the family?",
+    "question": "Default pair look right (landscape + portrait)? And the three rulings — bucket, chip default, cover.",
+    "response": {
+      "verdict": "revise",
+      "text": "\"it needs a cover and tutorial. i do want this to ship in prod, not dev. my inital pass looked good\" — BASE bucket RULED; default pair approved; onboarding surfaces commissioned.",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/screencap_grid_aspect_safe/v1",
+      "props": {
+        "sourceIds": [
+          "<sandbox>/production/media-highlights-v1/fixtures/reel-10s.mp4"
+        ]
+      }
+    }
+  ]
+}

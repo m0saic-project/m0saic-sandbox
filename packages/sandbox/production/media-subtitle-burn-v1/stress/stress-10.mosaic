@@ -1,0 +1,44 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {
+    "talk-720p": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4",
+      "mediaType": "video"
+    }
+  },
+  "m0": "1",
+  "sources": [
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "talk-720p",
+      "placement": {
+        "fit": "cover"
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "format": {
+    "kind": "video",
+    "container": "mp4"
+  },
+  "durationMs": 3000,
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

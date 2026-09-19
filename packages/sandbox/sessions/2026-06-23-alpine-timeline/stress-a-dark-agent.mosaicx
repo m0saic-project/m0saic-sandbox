@@ -1,0 +1,66 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/timeline/v1",
+      "props": {
+        "events": [
+          {
+            "date": "Jan 2024",
+            "title": "Project kickoff",
+            "description": "Team assembled, first commit landed"
+          },
+          {
+            "date": "Mar 2024",
+            "title": "Beta launch",
+            "description": "500 early users onboarded"
+          },
+          {
+            "date": "Jun 2024",
+            "title": "Series A",
+            "description": "$12M raised to scale the team"
+          },
+          {
+            "date": "Sep 2024",
+            "title": "10k customers",
+            "description": "Crossed five figures"
+          },
+          {
+            "date": "Dec 2024",
+            "title": "Global expansion",
+            "description": "Live in 12 countries"
+          }
+        ],
+        "title": "MILESTONES",
+        "subtitle": "Our journey so far",
+        "preset": "dark",
+        "orientation": "auto",
+        "showDescription": true,
+        "anim": {
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant A — DARK preset, wide card (auto→horizontal). Tests the spine/dots/date/title/description reading on the navy card.",
+    "question": "Approve or deny. Does the horizontal timeline read cleanly on the dark card?",
+    "response": {
+      "body": "",
+      "from": "human",
+      "at": ""
+    }
+  }
+}

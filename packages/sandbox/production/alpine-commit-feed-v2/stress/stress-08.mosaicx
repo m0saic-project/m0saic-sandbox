@@ -1,0 +1,132 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 480,
+    "height": 1040
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/commit-feed/v2",
+      "props": {
+        "rows": [
+          {
+            "kind": "perf",
+            "area": "avcodec",
+            "title": "avcodec: improve AV1 decode performance",
+            "hash": "a1b2c3d",
+            "author": "Anton Khirnov",
+            "date": "May 15",
+            "pr": 14201,
+            "reviewers": [
+              "James Almer"
+            ],
+            "signal": "warn"
+          },
+          {
+            "kind": "feat",
+            "area": "avformat",
+            "title": "avformat: add support for new container",
+            "hash": "d4e5f6g",
+            "author": "James Almer",
+            "date": "May 14",
+            "pr": 14198,
+            "reviewers": [
+              "Anton Khirnov"
+            ],
+            "signal": "neutral"
+          },
+          {
+            "kind": "fix",
+            "area": "avfilter",
+            "title": "avfilter: fix memory leak in overlay filter",
+            "hash": "h7i8j9k",
+            "author": "Marton Balint",
+            "date": "May 13",
+            "pr": 14185,
+            "reviewers": [],
+            "signal": "win"
+          },
+          {
+            "kind": "docs",
+            "area": "doc",
+            "title": "doc: update HLS documentation",
+            "hash": "l0m1n2o",
+            "author": "Limin Wang",
+            "date": "May 12",
+            "pr": 14180,
+            "reviewers": [
+              "Marton Balint"
+            ],
+            "signal": "neutral"
+          },
+          {
+            "kind": "test",
+            "area": "tests",
+            "title": "tests: add FATE test for edge case",
+            "hash": "p3q4r5s",
+            "author": "Michael Niedermayer",
+            "date": "May 16",
+            "pr": 14205,
+            "reviewers": [],
+            "signal": "win"
+          },
+          {
+            "kind": "security",
+            "area": "avutil",
+            "title": "avutil: harden buffer bounds checks",
+            "hash": "t6u7v8w",
+            "author": "Niklas Haas",
+            "date": "May 16",
+            "pr": 14210,
+            "reviewers": [
+              "Anton Khirnov"
+            ],
+            "signal": "win"
+          },
+          {
+            "kind": "refactor",
+            "area": "swscale",
+            "title": "swscale: simplify colorspace path",
+            "hash": "x9y0z1a",
+            "author": "Paul B Mahol",
+            "date": "May 17",
+            "pr": 14212,
+            "reviewers": [],
+            "signal": "neutral"
+          }
+        ],
+        "title": "NOTABLE COMMITS",
+        "subtitle": "Highlight interesting work.",
+        "iconPath": "M12 .25a.75.75 0 0 1 .673.418l3.058 6.197 6.839.994a.75.75 0 0 1 .415 1.279l-4.948 4.823 1.168 6.811a.751.751 0 0 1-1.088.791L12 18.347l-6.117 3.216a.75.75 0 0 1-1.088-.79l1.168-6.812-4.948-4.823a.75.75 0 0 1 .416-1.28l6.838-.993L11.328.668A.75.75 0 0 1 12 .25Zm0 2.445L9.44 7.882a.75.75 0 0 1-.565.41l-5.725.832 4.143 4.038a.748.748 0 0 1 .215.664l-.978 5.702 5.121-2.692a.75.75 0 0 1 .698 0l5.12 2.692-.977-5.702a.748.748 0 0 1 .215-.664l4.143-4.038-5.725-.831a.75.75 0 0 1-.565-.41L12 2.694Z",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "reduceMotion": false
+        },
+        "preset": "dark",
+        "accent": "#a371f7",
+        "washColor": "#2d333b"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-dark-custom-tall** (retro stress set for `@m0saic/alpine/commit-feed/v2`).\n\nTALL SKINNY + preset:dark + custom accent/washColor + icon:stars (via raw). 7 rows (max). Watch: density at narrow width, dark washes, chip contrast.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-20T21:53:31.934Z",
+      "src": "<sandbox>/production/alpine-commit-feed-v2/stress/./stress-08-480x1040.mp4"
+    }
+  }
+}

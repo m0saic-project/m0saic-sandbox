@@ -1,0 +1,197 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121(0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15[0,1,0,0,0,0,0,0,0,0,0,0,0,0,100(0,0,0,0,0,1,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8[0,0,1,0,0,0,0,1])],0,0,0,0,0,0,-),0,0,0,0,0,0,-]}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#111827",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#1F2937",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "MILESTONES"
+          },
+          "style": {
+            "fontSize": 45,
+            "fontColor": "#F1F5F9"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Our journey so far"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "card-header"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3B82F6",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M1,12 A11,11 0 1,0 23,12 A11,11 0 1,0 1,12 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "placement": {
+        "inset": {
+          "x": 0.25,
+          "y": 0.48263386396526775
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "dot"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.08399999999999999)/1.3159999999999998)))*(min(1,max(0,(t-0.08399999999999999)/1.3159999999999998)))*(3-2*(min(1,max(0,(t-0.08399999999999999)/1.3159999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Jan 2025"
+          },
+          "style": {
+            "fontSize": 19,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-date"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.4129999999999999)/1.3159999999999998)))*(min(1,max(0,(t-0.4129999999999999)/1.3159999999999998)))*(3-2*(min(1,max(0,(t-0.4129999999999999)/1.3159999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Launch day"
+          },
+          "style": {
+            "fontSize": 27,
+            "fontColor": "#F1F5F9"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-title"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.4129999999999999)/1.3159999999999998)))*(min(1,max(0,(t-0.4129999999999999)/1.3159999999999998)))*(3-2*(min(1,max(0,(t-0.4129999999999999)/1.3159999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "#0B1120",
+  "fps": 30,
+  "durationMs": 2000,
+  "size": {
+    "width": 900,
+    "height": 900
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-single-dark** (gate-11 stress set for `@m0saic/alpine/timeline/v2`).\n\nDEGENERATE: ONE event (no spine possible), dark preset, no description. Contract dot-relation gated off at N=1 — flip Debug layout, wireframe must render. Watch: a lone milestone reads cleanly.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "seems fine, no tutorial is needed, and i approve the renders. ship",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

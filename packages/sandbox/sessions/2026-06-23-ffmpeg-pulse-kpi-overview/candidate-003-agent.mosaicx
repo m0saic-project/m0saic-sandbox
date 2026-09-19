@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 9000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/kpi-overview/v1", "props": { "preset": "dark" } } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-23-ffmpeg-pulse-kpi-overview", "basename": "candidate-003" },
+  "agent": { "note": "KPI OVERVIEW beat — first built composition with your 8 icons. Header cluster (FFmpeg logo + BEAT 1 chip + title + subtitle), 8 nested @m0saic/alpine/stat-card cards over the shared baked scatter, WEEK/period footer. Aspect-adaptive (4x2 desktop, 2x4 square/mobile). NOTE on the icons: rasterized PNG glyphs caused a renderer bug (any media-image source mis-laid-out the whole card, clipping label/%/sublabel) — so the glyphs are now drawn as SVG-MASK lavfi tiles (the Octicon paths, dark cut into the green chip), keyed by KPI in _shared/pulse-glyphs.ts. No media = no clip; verified full text on all 3 aspects.", "question": "Look & feel pass: (1) glyph treatment — dark cut-out on green; want white glyphs / different chip? (2) the bright green scatter tiles peeking through the card gutters — calm them with a backdrop panel behind the grid? (3) header / spacing / card density?" }
+}

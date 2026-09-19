@@ -1,0 +1,48 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/kpi-card/v2",
+      "props": {}
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/alpine/kpi-card/v2`** (gate 6; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase defaults (Monthly Revenue KPI). v1 deprecated → rides base·dep.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated | confirm |\n| Gate | — | **base** |\n| Preview assets | re-mint after approval (pill fix shifts defaults) | review |\n| Cover / Tutorial | neither | needed? (value counts up from 0 but card chrome is visible at t=0 — cover maybe optional here) |\n\n**Pre-audit findings, already fixed:** (1) the DELTA PILL stretched to ~60% of wide canvases (arrow ~400px from its text at 1920×480; visibly stretched even at the 1280×708 default) — px weights against a unit filler become ratios; the filler is now the remaining pixels, so the pill hugs arrow+text everywhere. **LOOK-SHIFT: the default canvas pill is now compact.** (2) The value CLIPPED at narrow canvases (\"$48,25\" at 720×1280) — width-capped. NEW: `debugLayout` contract — the pill must paint within ±25/30% of its intended content width (this exact rule catches the stretch class).\n\nSOFT FINDING for your eye: the sparkline stroke shows a sawtooth texture at steep slopes on narrow canvases (mask sampling) — visible in portrait. Design-level call: acceptable or worth a v2.1 smoothing pass?\n\n37/37 unit, e2e 3/3, battery green ×14 canvases ×5 configs. **Stress:** mints after your default verdict.",
+    "question": "Ship `@m0saic/alpine/kpi-card/v2` in the v1 base? Judge the pill look-shift (compact now). Cover/tutorial? Sparkline sawtooth acceptable?",
+    "response": {
+      "body": "good (take 2: cover + fixed triangle approved). proceed to stress.",
+      "from": "human",
+      "at": "2026-08-22T05:17:27.000Z",
+      "via": "chat — transcribed by agent"
+    },
+    "comments": [
+      {
+        "from": "agent",
+        "text": "Your two asks are in:\n\n1. **Cover** — static default card (light, reduceMotion) as `coverCard` child + welcome band \"KPI CARD - one metric, count-up value, delta pill, sparkline / Supply label, value, delta and an optional sparkline[]...\".\n2. **Triangle fixed** — verified visually: clean equilateral in the compact pill. Three layers to the fix: the pill band is now height-PINNED (the old [1,pillH,1] pads were negligible against an ~84px band, so the pill painted 1.7× tall and stretched the mask); the arrow box carries its own pads via a symmetric placement inset (a leading EMPTY pad DONATES FORWARD into the next tile's box — engine law, now on record); and the pill-inner weights are pre-quantized to a 100 basis (the serializer re-quantizes large px splits NON-proportionally — measured [74,113,14] → yields 85/100/16 — commit-feed's wOf convention avoids it).\n\n**Contract honesty note:** the pill WIDTH rule is active and green ×14 canvases. An arrow-ASPECT rule is deliberately NOT in — while wiring it I found the contract's frames↔sources index zip misreads boxes in docs with expr-text sources (it kept measuring a neighbor's 40px box no matter the construction). Filed as `.ai/candidates/2026-08-22-contract-frame-zip-misalignment.md` — fixing the measurement channel (stableKey-keyed lookup) re-enables the rule. 41/41 unit, e2e 3/3."
+      },
+      {
+        "from": "agent",
+        "text": "STRESS SET minted (`stress/stress-01..10.mosaicx`, twins frozen, stills in `stress/renders/`). My pass: NO hard failures. Long strings fit (value cap + pill hug hold at max length), unicode ↑/¥/CJK render (no tofu), N/A + countUp does not NaN, flat sparkline does not div-zero (renders along the band bottom — semantic choice, judge), 100-point spark renders. Soft items for your eye: stress-05 Cyrillic sublabel clips its tail (0.62em width model underestimates wide scripts — same class as emoji tofu, font-metric limitation); stress-07 flat line sits at the BOTTOM of the band (zero-range normalizes to 0 — mid-band alternative possible); stress-08 shows the known sparkline sawtooth on steep slopes."
+      },
+      {
+        "from": "human",
+        "at": "2026-08-22T10:11:49.000Z",
+        "text": "SHIP RULING (chat, transcribed): ship it. Stress ×10 pass; soft items (Cyrillic sublabel width model, flat-spark-at-bottom semantic, sparkline sawtooth) accepted as-is. Tutorial: not explicitly ruled — treated as not needed, flag if wanted."
+      }
+    ]
+  }
+}

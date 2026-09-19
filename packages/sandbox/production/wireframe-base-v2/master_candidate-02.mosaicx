@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-02"
+  },
+  "agent": {
+    "note": "**TAKE 2 — explicit debug defaults** (founder on take 1: \"looks good, but we need the props to default to this style of debug. other forms dont read as obvious in editor\").\n\n`defaultProps` now spell the shipped style out — **Mode Debug · Label Content Dimensions · Label Overflow Degrade · Background Transparent · Rect Fill 0** — so the Make form shows the state it renders. Render is byte-identical to take 1 (md5-checked on the default PNG).\n\nONE semantic change made that safe: a **preset now decides the mode** (thumb-dark / thumb-light / heatmap-depth / grid-paper → thumb; debug-contrast → debug); `mode` only applies when no preset is chosen. Without it the default `mode:\"debug\"` would have silently overridden every thumb preset — including the Layout page's Dark / Light / Heatmap / Textbook styles. Shared resolver (v1 `resolveTheme`), so animated/v1 follows the same rule at its gate. Locked ×4 (defaults shape, byte-identity, preset-over-default-mode, mode-alone still switches).\n\nEverything else from take 1 stands (cover, grid-paper lattice, the four engine/CLI fixes). Stress twins re-frozen against this source; renders unchanged.",
+    "question": "Does the form read right now? Then stress-01..10 (renders unchanged). Still open from take 1: core-vs-publisher (rec. CORE) · internal:true? (rec. no) · grid-paper keep/prune · label → \"Wireframe\"?",
+    "response": {
+      "verdict": "revise",
+      "text": "no renderCover needed for this template, its a dev template. just use a basic grid default.",
+      "via": "chat — transcribed by agent (09-02)",
+      "note": "Explicit defaults accepted implicitly; cover STRUCK (dev template); default layout → a basic grid → take 3 (master_candidate-03)."
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {}
+    }
+  ]
+}

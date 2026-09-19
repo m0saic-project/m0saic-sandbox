@@ -1,0 +1,28 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 800,
+  "height": 800
+ },
+ "fps": 30,
+ "durationMs": 3200,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/brand/logo/v3",
+   "props": {
+    "color": "#10B981"
+   }
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "stress-09"
+ },
+ "agent": {
+  "note": "**STRESS 09/10 — 09-m33-recolor-override** (gate-28 stress set for `@m0saic/brand/logo/v3`).\n\nRecolor + EXPLICIT -w/-h 800 (the canvas-law override case IN stress). Watch: user dims WIN over the official 544 - recommend, never enforce."
+ }
+}

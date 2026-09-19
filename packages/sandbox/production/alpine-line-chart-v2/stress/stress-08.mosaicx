@@ -1,0 +1,79 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 480,
+    "height": 1040
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/line-chart/v2",
+      "props": {
+        "values": [
+          12,
+          19,
+          15,
+          25,
+          22,
+          30,
+          28,
+          36
+        ],
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug"
+        ],
+        "title": "LINE CHART",
+        "subtitle": "Monthly Active Users",
+        "curve": "stepped",
+        "preset": "dark",
+        "grid": {
+          "show": true,
+          "count": 4
+        },
+        "area": {
+          "show": true,
+          "opacity": 0.22
+        },
+        "points": {
+          "show": true
+        },
+        "anim": {
+          "introFrac": 0.7,
+          "ease": "easeOut",
+          "reduceMotion": false
+        },
+        "lineColor": "#a371f7",
+        "domain": {
+          "minValue": 0,
+          "maxValue": 50
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-dark-stepped-domain** (gate-8 stress set for `@m0saic/alpine/line-chart/v2`).\n\nTALL SKINNY + dark + STEPPED curve + custom lineColor + domain clamp (0..50 with values above). Watch: step geometry at narrow width, clamped points, dark rail contrast.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-22T22:35:40.000Z",
+      "via": "chat (\"pass, lets ship\" — gate-8 stress set, post-regen) — transcribed by agent"
+    }
+  }
+}

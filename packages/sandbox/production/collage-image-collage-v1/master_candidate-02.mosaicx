@@ -1,0 +1,34 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-02"
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/collage/image-collage/v1",
+      "props": {}
+    }
+  ],
+  "agent": {
+    "note": "**TAKE 2 — corner-M on the gallery asset + a three-beat tutorial** (founder on take 1: \"seems fine to me. lets add the brand M on the template cover asset, and prepare a render tutorial. keep it simple on how to use. select images, or a folder of images\").\n\n- **Gallery asset stamped**: `poster.png` = `preview.png` (your 07-12 real-photo sheet, 1280×720) now carry the corner-M bottom-right (40px, the gate-29/30 stamp tool; TARGETS entry added). Pixels otherwise untouched.\n- **Tutorial (`renderTutorial`, the Make \"?\" pill + `m0saic make <id> --tutorial`)**: three beats, ~13s, the shared SaaS kit —\n  1. **Pick photos — or a whole folder** (a folder listing of mixed-size files; \"Images → files or a folder\"),\n  2. **The sheet lays itself out** (a REAL demo-set solve inlined at the slot's true pixels — hero / portrait / panorama cells, inset gutters),\n  3. **More photos? More sheets** (two page cards, each a real solve of half the set; \"Max per sheet · 30 by default\").\n  Deterministic, media-free, own step timing (4.2 / 4.4 / 4.2 s); portrait canvases stack copy above the visual. 3 new locks (97/97 collage tests).\n\nRecipe unchanged (pure defaults). The tutorial lives on the template, not in this recipe — open the \"?\" in Make to play it, or `m0saic make @m0saic/collage/image-collage/v1 --tutorial -o tut.mp4`.",
+    "question": "Tutorial read right? Tone/beats OK or trim further? Then stress-01..10 remain open.",
+    "response": {
+      "verdict": "ship",
+      "text": "\"seems fine to me, lets ship it\" (take 2: corner-M gallery asset + 3-beat tutorial)",
+      "via": "chat, 2026-09-04 — transcribed by agent (no in-file response was saved)",
+      "from": "human",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  }
+}

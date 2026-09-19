@@ -1,0 +1,54 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {
+    "c0_photo-01-1500x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-01-1500x1000.png",
+      "mediaType": "image"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-single-image-light** (gate-31 stress set for `@m0saic/collage/image-collage/v1`).\n\nThe degenerate set: ONE photo on a light background.\n\nWatch: the photo fills the sheet cover-cropped; only the 11px margin shows the light background.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-01-1500x1000",
+      "editor": {
+        "owner": "template",
+        "label": "img:0"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.005989583333333334,
+          "right": 0.005989583333333334,
+          "top": 0.010648148148148148,
+          "bottom": 0.010648148148148148
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "format": {
+    "kind": "image",
+    "container": "png"
+  },
+  "backgroundColor": "#f4f1ea"
+}

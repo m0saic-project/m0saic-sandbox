@@ -1,0 +1,148 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/commit-feed/v2",
+      "props": {
+        "rows": [
+          {
+            "kind": "perf",
+            "area": "avcodec",
+            "title": "avcodec: improve AV1 decode performance",
+            "hash": "a1b2c3d",
+            "author": "Anton Khirnov",
+            "date": "May 15",
+            "pr": 14201,
+            "reviewers": [
+              "James Almer",
+              "Michael Niedermayer",
+              "Limin Wang",
+              "Marton Balint"
+            ],
+            "signal": "warn"
+          },
+          {
+            "kind": "feat",
+            "area": "avformat",
+            "title": "avformat: add support for new container",
+            "hash": "d4e5f6g",
+            "author": "James Almer",
+            "date": "May 14",
+            "pr": 14198,
+            "reviewers": [
+              "Anton Khirnov"
+            ],
+            "signal": "neutral"
+          },
+          {
+            "kind": "fix",
+            "area": "avfilter",
+            "title": "avfilter: fix memory leak in overlay filter",
+            "hash": "h7i8j9k",
+            "author": "Marton Balint",
+            "date": "May 13",
+            "pr": 14185,
+            "reviewers": [
+              "Anton Khirnov",
+              "Limin Wang"
+            ],
+            "signal": "win"
+          },
+          {
+            "kind": "docs",
+            "area": "doc",
+            "title": "doc: update HLS documentation",
+            "hash": "l0m1n2o",
+            "author": "Limin Wang",
+            "date": "May 12",
+            "pr": 14180,
+            "reviewers": [
+              "Marton Balint"
+            ],
+            "signal": "neutral"
+          },
+          {
+            "kind": "test",
+            "area": "tests",
+            "title": "tests: add FATE test for edge case",
+            "hash": "p3q4r5s",
+            "author": "Michael Niedermayer",
+            "date": "May 16",
+            "pr": 14205,
+            "reviewers": [
+              "James Almer"
+            ],
+            "signal": "win"
+          },
+          {
+            "kind": "security",
+            "area": "avutil",
+            "title": "avutil: harden buffer bounds checks",
+            "hash": "t6u7v8w",
+            "author": "Niklas Haas",
+            "date": "May 16",
+            "pr": 14210,
+            "reviewers": [
+              "Anton Khirnov"
+            ],
+            "signal": "win"
+          },
+          {
+            "kind": "refactor",
+            "area": "swscale",
+            "title": "swscale: simplify colorspace conversion path",
+            "hash": "x9y0z1a",
+            "author": "Paul B Mahol",
+            "date": "May 17",
+            "pr": 14212,
+            "reviewers": [],
+            "signal": "neutral"
+          },
+          {
+            "kind": "feat",
+            "area": "overflow",
+            "title": "EIGHTH ROW MUST NOT RENDER",
+            "hash": "zzzzzzz",
+            "author": "Nobody",
+            "date": "Never",
+            "pr": 0,
+            "reviewers": [],
+            "signal": "neutral"
+          }
+        ],
+        "title": "NOTABLE COMMITS",
+        "subtitle": "Highlight interesting work.",
+        "iconPath": "M16.944 11h4.306a.75.75 0 0 1 0 1.5h-4.306a5.001 5.001 0 0 1-9.888 0H2.75a.75.75 0 0 1 0-1.5h4.306a5.001 5.001 0 0 1 9.888 0Zm-1.444.75a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0Z",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-01"
+  },
+  "agent": {
+    "note": "**STRESS 01/10 — 01-max-rows-all-kinds** (retro stress set for `@m0saic/alpine/commit-feed/v2`).\n\nMAX LOAD: 8 rows supplied (cap 7 — 8th must drop), every built-in kind, all 3 signals, 4 reviewers on one row. Watch: row density, chip colors, reviewer dots.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-20T21:49:36.969Z",
+      "src": "<sandbox>/production/alpine-commit-feed-v2/stress/./stress-01-1920x1080.mp4"
+    }
+  }
+}

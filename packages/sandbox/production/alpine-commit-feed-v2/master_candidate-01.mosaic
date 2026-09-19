@@ -1,0 +1,2080 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1{121[0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121(0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25[0,0,0,50(0,0,0,1{1},-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]),-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5[16[-,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(-,5[-,0,0,1,-],-,0,0,0,4[-,0,1{1},-],-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46[0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1),0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,98(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1},0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,5(0,5[-,0,0,1{1},-],-,0,5[-,0,0,1{1},-]),0,0,0,0,0,0,0,0,0,0,0,0,0,0,1),0,0,0,-],-)},-],16[-,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(-,5[-,0,0,1,-],-,0,0,0,4[-,0,1{1},-],-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46[0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1),0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,98(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1},0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,5[-,0,0,1{1},-],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1),0,0,0,-],-)},-],16[-,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(-,5[-,0,0,1,-],-,0,0,0,4[-,0,1{1},-],-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46[0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1),0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,98(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1},0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,5(0,5[-,0,0,1{1},-],-,0,5[-,0,0,1{1},-]),0,0,0,0,0,0,0,0,0,0,0,0,0,0,1),0,0,0,-],-)},-],16[-,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(-,5[-,0,0,1,-],-,0,0,0,4[-,0,1{1},-],-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46[0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1),0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,98(0,0,0,0,0,0,0,0,0,0,0,0,1{1},0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,5[-,0,0,1{1},-],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1),0,0,0,-],-)},-],16[-,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(-,5[-,0,0,1,-],-,0,0,0,4[-,0,1{1},-],-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46[0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1),0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,98(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1},0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,5[-,0,0,1{1},-],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1),0,0,0,-],-)},-]]],0,0,-),0,0,0,0,-]}",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.04
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.6499999999999999)))*(min(1,max(0,(t-0)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "placement": {
+        "inset": {
+          "x": 0.20000000000000004,
+          "y": 0.21840490797546017
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.28
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "header-icon"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.15)/0.6499999999999999)))*(min(1,max(0,(t-0.15)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.15)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.15
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M16.944 11h4.306a.75.75 0 0 1 0 1.5h-4.306a5.001 5.001 0 0 1-9.888 0H2.75a.75.75 0 0 1 0-1.5h4.306a5.001 5.001 0 0 1 9.888 0Zm-1.444.75a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "placement": {
+        "inset": {
+          "x": 0.332,
+          "y": 0.3423067484662577
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.15)/0.6499999999999999)))*(min(1,max(0,(t-0.15)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.15)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.15
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "NOTABLE COMMITS"
+          },
+          "style": {
+            "fontSize": 42,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.15)/0.6499999999999999)))*(min(1,max(0,(t-0.15)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.15)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.15
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Highlight interesting work."
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.15)/0.6499999999999999)))*(min(1,max(0,(t-0.15)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.15)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.15
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f1f4f8",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.12
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "row"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.15)/0.6499999999999999)))*(min(1,max(0,(t-0.15)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.15)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.15
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#e3b341",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.15)/0.6499999999999999)))*(min(1,max(0,(t-0.15)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.15)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.15
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.28
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.15)/0.6499999999999999)))*(min(1,max(0,(t-0.15)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.15)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.15
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M12 3.5 19.5 12H15v8.5H9V12H4.5L12 3.5Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "placement": {
+        "inset": {
+          "x": 0.22,
+          "y": 0.22
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.15)/0.6499999999999999)))*(min(1,max(0,(t-0.15)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.15)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.15
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "avcodec: improve AV1 decode performance"
+          },
+          "style": {
+            "fontSize": 27,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.15)/0.6499999999999999)))*(min(1,max(0,(t-0.15)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.15)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.15
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "#14201"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.15)/0.6499999999999999)))*(min(1,max(0,(t-0.15)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.15)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.15
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#e9ddfd",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.34
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.15)/0.6499999999999999)))*(min(1,max(0,(t-0.15)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.15)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.15
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "avcodec"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.08,
+              "right": 0.08
+            }
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.15)/0.6499999999999999)))*(min(1,max(0,(t-0.15)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.15)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.15
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Anton Khirnov"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.15)/0.6499999999999999)))*(min(1,max(0,(t-0.15)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.15)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.15
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3fb950",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.15)/0.6499999999999999)))*(min(1,max(0,(t-0.15)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.15)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.15
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "J"
+          },
+          "style": {
+            "fontSize": 15,
+            "fontColor": "#0d1117"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.15)/0.6499999999999999)))*(min(1,max(0,(t-0.15)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.15)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.15
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#388bfd",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.15)/0.6499999999999999)))*(min(1,max(0,(t-0.15)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.15)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.15
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "M"
+          },
+          "style": {
+            "fontSize": 15,
+            "fontColor": "#0d1117"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.15)/0.6499999999999999)))*(min(1,max(0,(t-0.15)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.15)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.15
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "May 15"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.15)/0.6499999999999999)))*(min(1,max(0,(t-0.15)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.15)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.15
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f1f4f8",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.12
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "row"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.475)/0.6499999999999999)))*(min(1,max(0,(t-0.475)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.475)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.475
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#6e7681",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.475)/0.6499999999999999)))*(min(1,max(0,(t-0.475)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.475)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.475
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3fb950",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.28
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.475)/0.6499999999999999)))*(min(1,max(0,(t-0.475)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.475)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.475
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M12.9 4.5a.9.9 0 0 0-1.8 0v6.6H4.5a.9.9 0 0 0 0 1.8h6.6v6.6a.9.9 0 0 0 1.8 0v-6.6h6.6a.9.9 0 0 0 0-1.8h-6.6V4.5Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "placement": {
+        "inset": {
+          "x": 0.22,
+          "y": 0.22
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.475)/0.6499999999999999)))*(min(1,max(0,(t-0.475)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.475)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.475
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "avformat: add support for new container"
+          },
+          "style": {
+            "fontSize": 27,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.475)/0.6499999999999999)))*(min(1,max(0,(t-0.475)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.475)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.475
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "#14198"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.475)/0.6499999999999999)))*(min(1,max(0,(t-0.475)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.475)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.475
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#d1eed5",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.34
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.475)/0.6499999999999999)))*(min(1,max(0,(t-0.475)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.475)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.475
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "avformat"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.08,
+              "right": 0.08
+            }
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.475)/0.6499999999999999)))*(min(1,max(0,(t-0.475)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.475)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.475
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "James Almer"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.475)/0.6499999999999999)))*(min(1,max(0,(t-0.475)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.475)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.475
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3fb950",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.475)/0.6499999999999999)))*(min(1,max(0,(t-0.475)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.475)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.475
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "A"
+          },
+          "style": {
+            "fontSize": 15,
+            "fontColor": "#0d1117"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.475)/0.6499999999999999)))*(min(1,max(0,(t-0.475)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.475)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.475
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "May 14"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.475)/0.6499999999999999)))*(min(1,max(0,(t-0.475)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.475)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.475
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f1f4f8",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.12
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "row"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.7999999999999999
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3fb950",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.7999999999999999
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#388bfd",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.28
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.7999999999999999
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M4.5 10.5h15a1.5 1.5 0 0 1 0 3h-15a1.5 1.5 0 0 1 0-3Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "placement": {
+        "inset": {
+          "x": 0.22,
+          "y": 0.22
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.7999999999999999
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "avfilter: fix memory leak in overlay filter"
+          },
+          "style": {
+            "fontSize": 27,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.7999999999999999
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "#14185"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.7999999999999999
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfe3ff",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.34
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.7999999999999999
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "avfilter"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.08,
+              "right": 0.08
+            }
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.7999999999999999
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Marton Balint"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.7999999999999999
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3fb950",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.7999999999999999
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "A"
+          },
+          "style": {
+            "fontSize": 15,
+            "fontColor": "#0d1117"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.7999999999999999
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#388bfd",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.7999999999999999
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "L"
+          },
+          "style": {
+            "fontSize": 15,
+            "fontColor": "#0d1117"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.7999999999999999
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "May 13"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-0.7999999999999999)/0.6499999999999999))))",
+        "window": {
+          "startSec": 0.7999999999999999
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f1f4f8",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.12
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "row"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.1249999999999998
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#6e7681",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.1249999999999998
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#e3b341",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.28
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.1249999999999998
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M5 5.4h14v2.4H5zM5 10.8h14v2.4H5zM5 16.2h9v2.4H5z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "placement": {
+        "inset": {
+          "x": 0.22,
+          "y": 0.22
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.1249999999999998
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "doc: update HLS documentation"
+          },
+          "style": {
+            "fontSize": 27,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.1249999999999998
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "#14180"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.1249999999999998
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f8edd1",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.34
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.1249999999999998
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "doc"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.08,
+              "right": 0.08
+            }
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.1249999999999998
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Limin Wang"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.1249999999999998
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3fb950",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.1249999999999998
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "M"
+          },
+          "style": {
+            "fontSize": 15,
+            "fontColor": "#0d1117"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.1249999999999998
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "May 12"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.1249999999999998)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.1249999999999998
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f1f4f8",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.12
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "row"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.4499999999999997
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3fb950",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.4499999999999997
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2ea043",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.28
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.4499999999999997
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M19.8 6.9a1 1 0 0 1 .15 1.41l-8.8 11a1 1 0 0 1-1.5.07l-4.6-4.6a1 1 0 1 1 1.4-1.42l3.8 3.8 8.13-10.16a1 1 0 0 1 1.42-.1Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "placement": {
+        "inset": {
+          "x": 0.22,
+          "y": 0.22
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.4499999999999997
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "tests: add FATE test for edge case"
+          },
+          "style": {
+            "fontSize": 27,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.4499999999999997
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "#14205"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.4499999999999997
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cde8d2",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.34
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.4499999999999997
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "tests"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.08,
+              "right": 0.08
+            }
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.4499999999999997
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Michael Niedermayer"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.4499999999999997
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3fb950",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.4499999999999997
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "J"
+          },
+          "style": {
+            "fontSize": 15,
+            "fontColor": "#0d1117"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.4499999999999997
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "May 16"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999)))*(3-2*(min(1,max(0,(t-1.4499999999999997)/0.6499999999999999))))",
+        "window": {
+          "startSec": 1.4499999999999997
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/alpine/commit-feed/v2`** (gate 2; chart: `.scratch/claude/v1-template-cut.md`). Props = the template's own showcase defaults (FFmpeg notable-commits feed).\n\nThis gate covers BOTH commit-feed rows:\n\n| Row | Current | Proposed |\n|---|---|---|\n| `commit-feed/v1` | DEPRECATED → v2 | **dev** (graveyard) — confirm |\n| `commit-feed/v2` | primitive, not internal | **base** — confirm |\n\n**Pre-audit finding, already fixed (per your gate-1 authorization):** v2 had the same interleaved-band quantization as bar-graph — rows measured 96/94/90/93/96 at 1001×733 (center starving). Now one EQUAL band per row + half-gap carved inside: rows 91/91/91/91/91, and a `debugLayout` contract (`row` equal size) guards it. 33/33 unit tests incl. the repro lock; e2e 2/2.\n\n**Look-shift to judge:** half-gap above the first row and below the last (was gaps-between-only); row boxes a hair shorter at the same gap.\n\n**Also:** flip `Debug layout` ON in the panel to see the green contract view (5 green rows + the measured rule). v2 preview assets (png+mp4+poster) predate this fix — re-mint before ship.\n\nStress knobs: 2 rows vs the max, `showHeader: false`, a very long title, `preset: \"dark\"`, `reduceMotion`, and one portrait render.",
+    "question": "Ship `@m0saic/alpine/commit-feed/v2` in the v1 base, and confirm v1 to the dev graveyard? Also: rows equal now — happy with the edge half-gaps look?",
+    "response": {
+      "body": "i think this can be shipped.",
+      "from": "human",
+      "at": "2026-08-20T14:44:49.019Z",
+      "src": "<sandbox>/production/alpine-commit-feed-v2/./master_candidate-01-1280x708.mp4"
+    }
+  }
+}

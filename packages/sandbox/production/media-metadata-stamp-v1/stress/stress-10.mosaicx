@@ -1,0 +1,40 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/metadata-stamp/v1",
+      "props": {
+        "sourceIds": [
+          "<sandbox>/production/media-metadata-stamp-v1/fixtures/tiny-meta.mp4"
+        ],
+        "sizeRatio": 0.02,
+        "marginRatio": 0,
+        "chipOpacity": 0.9,
+        "position": "bottom-right"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-tiny-min-chip** (gate-13 stress set for `@m0saic/media/metadata-stamp/v1`).\n\nTINY 160×120 INPUT + sizeRatio 0.02 (min) + margin 0 + chip 0.9 at bottom-right. Watch: the 4px font floor holds, chip hugs the corner, still legible-ish at postage-stamp size.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

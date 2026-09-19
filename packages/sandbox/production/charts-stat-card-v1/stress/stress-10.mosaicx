@@ -1,0 +1,38 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 480,
+    "height": 200
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 \u2014 10-tiny-tile** (gate-17 stress set for `@m0saic/charts/stat-card/v1` \u2014 the charts-pack closer).\n\nTINY dashboard-tile size (480x200, near-ideal 2.4:1 but small px). Watch: font floors hold, no min-cell culling (the cover lesson), arrow legible.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "ship",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/stat-card/v1",
+      "props": {
+        "label": "Cache Hits",
+        "value": "99.2%",
+        "delta": "+0.4pt",
+        "direction": "up",
+        "sublabel": "rolling 24h"
+      }
+    }
+  ]
+}

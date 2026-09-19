@@ -1,0 +1,49 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1920
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-syn-12-portrait** (gate-31 stress set for `@m0saic/collage/image-collage/v1`).\n\nPortrait phone canvas, 12 mixed aspects.\n\nWatch: the lattice rotates to the tall canvas; portraits become heroes; gutters stay 11px (short edge).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "shipped (not individually reviewed)",
+      "text": "Template shipped on the default + tutorial verdict (\"seems fine to me, lets ship it\"); this variant was not individually reviewed by the founder. Agent pre-pass: clean. Recipe + twin + still stay as the record.",
+      "via": "transcribed by agent from the gate-31 chat verdict",
+      "from": "agent:claude",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/collage/image-collage/v1",
+      "props": {
+        "sourceIds": [
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-01-1500x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-02-1200x900.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-03-1920x1080.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-04-800x1200.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-05-1500x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-06-1250x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-07-900x1200.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-08-1600x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-09-1000x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-10-1450x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-11-720x1280.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-12-1330x1000.png"
+        ]
+      }
+    }
+  ]
+}

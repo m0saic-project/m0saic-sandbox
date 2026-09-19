@@ -1,0 +1,27 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 1280,
+  "height": 400
+ },
+ "fps": 30,
+ "durationMs": 18170,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/hero/search-typing/v1",
+   "props": {}
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "master_candidate-03"
+ },
+ "agent": {
+  "note": "**TAKE 3** (take 2 rulings applied: PUBLISHER destination + icon contract). **v1 PROD GATE — `@m0saic/hero/search-typing/v1` \"Search Typing\"** (gate 27 — HERO pack opener; chart: `.ai/LAUNCH/v1-template-cut.md`). Core tier. Looping search-bar typing hero; defaults at the native 1280×400, natural cadence 18.17s (outputHints pin).\n\n**History:** candidate-006 approved 08-06 (\"looks good\"), P4 staged (previews + News + e2e all live) — this is the fresh v1-cut candidate on CURRENT code.\n\n**Pre-audit: TWO real fixes**\n\n| Finding | Fix |\n|---|---|\n| **DEFAULTS ERROR-CARDED at 720×1280 portrait** — fill mode hands the whole canvas to the bar, and barH-scaled pads+icon (0.14·2+0.42 of 1280 ≈ 900px) exceeded the 720px width, so even the 14px font floor threw (the 08-06 \"portrait clean\" claim was stale — VERIFY keeper) | metric base caps at 0.6·barW when the bar is taller than wide; landscape 1280×400 + square 1080² byte-identical (cap binds only portrait); portrait now fits at ~26px |\n| **Error cards muxed a SILENT AUDIO track** when rendered as video (no audio flag on errorDocument → the plan's anullsrc default → split-mux aac; gate-20 class via a new door) | errorDocument now declares `audio:{enabled:false}`; battery locks the error render has NO audio stream |\n\n**Cover: NOT NEEDED** — take-1 ruling (\"no cover render necessary for this one\"); the take-1 band cover was REMOVED, renderCover undefined is spec-locked. The typing bar is its own face.\n\n**Battery:** 10 configs (native/square/portrait, 6s pin, card+color, wide-script Cyrillic/CJK, loop+caret seam PSNR, 640×200 tiny, 1366×768 inflation case, words-cap error card) — see `.scratch/claude/search-typing-gate-battery.mjs`.\n\n**Known trade-off carried from 08-06 (still open, lesson 8):** m0 inflates 3–8× on canvases whose dims aren't multiples of 8 (snapOut clamp breaks the grid; functional, documented).\n\n**ALSO FLAGGED:** the chart still shows 4 ungated media base rows (scroll_wall, trickplay, video_to_png_sequence, watermark) — they were never in the founder-set media remainder; the \"media closed\" framing covered the remainder sequence only.\n\n**Take-2 additions:**\n| Finding | Fix |\n|---|---|\n| **Icon didn't shrink with the text** — the magnifier scaled off the metric base while the font shrink-fitted independently: 19.9× the font at 1080² (founder: \"this is not a good look\"), 5.2× portrait, 4.5× at 1600×900 card | Icon now couples to the TRIAL font inside the shrink loop: `min(0.42·metricH, 2em·font)` — both shrink together (loop stays convergent) and the freed overhead lets constrained canvases resolve a LARGER font (square 22.8→57.4px, portrait 34.6→44.7, card 84→98). Landscape 1280×400 byte-identical (1.88× < the 2em cap). |\n| No layout contract on the icon | `debugLayout` knob + `withLayoutContract`: icon aspect 1 (tol absorbs snapOut grid) + max width/height ≤ 2em·resolvedFont + slack, compiled to exact canvas fractions per render. GREEN at 1080². |\n\n**Stress ×10 = 35/35** (re-rendered 02/03/04/10 post-fix; ⭐ hint-echo pin fix from stress round 1 stands: custom timing keeps natural cadence, explicit asks still pin).\n\n**PUBLISHER ruling (take 2):** ships under `@m0saic-dev/hero/search-typing/v1` — ship close = publisher migration, not a base gate. Ledger relocated to `production/@m0saic-dev/` per founder organization.",
+  "question": "Take-3 verdict? (Icon em-cap look at square/portrait/card + the contract; then I run the publisher migration.)"
+ }
+}

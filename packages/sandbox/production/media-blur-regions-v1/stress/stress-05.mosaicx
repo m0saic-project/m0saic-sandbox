@@ -1,0 +1,37 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 \u2014 05-m0-quadrants** (gate-19 stress set for `@m0saic/media/blur-regions/v1`).\n\nm0-NATIVE regions (stdlib-built quadrant layout: top-left + bottom-right cells), pixelate. Watch: the two diagonal quadrants censored exactly on the cell bounds.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/blur-regions/v1",
+      "props": {
+        "sourceId": "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4",
+        "mode": "pixelate",
+        "strength": 40,
+        "regions": "2[2(1,-),2(-,1)]"
+      }
+    }
+  ]
+}

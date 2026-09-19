@@ -1,0 +1,177 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "multi",
+  "fps": 30,
+  "steps": [
+    {
+      "name": "talk-720p",
+      "label": "talk-720p",
+      "durationMs": 3000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {
+          "talk-720p": {
+            "kind": "file",
+            "path": "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4",
+            "mediaType": "video"
+          }
+        },
+        "size": {
+          "width": 1280,
+          "height": 720
+        },
+        "backgroundColor": "#000000",
+        "m0": "1{120[0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{60[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,-),0,0,-]}}}",
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover"
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:base"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover",
+              "sourceRect": {
+                "x": 120,
+                "y": 80,
+                "w": 240,
+                "h": 240
+              },
+              "inset": {
+                "top": 0.01016260162601626,
+                "right": 0.033203125,
+                "bottom": 0.018292682926829267,
+                "left": 0.033203125
+              }
+            },
+            "audio": {
+              "enabled": false
+            },
+            "effects": {
+              "blur": 48
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:region"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover",
+              "sourceRect": {
+                "x": 560,
+                "y": 140,
+                "w": 220,
+                "h": 220
+              },
+              "inset": {
+                "top": 0.01126126126126126,
+                "right": 0.020089285714285716,
+                "bottom": 0,
+                "left": 0
+              }
+            },
+            "audio": {
+              "enabled": false
+            },
+            "effects": {
+              "blur": 48
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:region"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover",
+              "sourceRect": {
+                "x": 950,
+                "y": 420,
+                "w": 260,
+                "h": 260
+              },
+              "inset": {
+                "top": 0,
+                "right": 0.02389705882352941,
+                "bottom": 0.017045454545454544,
+                "left": 0.02389705882352941
+              }
+            },
+            "audio": {
+              "enabled": false
+            },
+            "effects": {
+              "blur": 48
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:region"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "format": {
+          "kind": "video",
+          "container": "mp4"
+        },
+        "fps": 30,
+        "durationMs": 3000,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "durationMs": 3000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-01"
+  },
+  "agent": {
+    "note": "**STRESS 01/10 — 01-face-blur-strong** (gate-19 stress set for `@m0saic/media/blur-regions/v1`).\n\nTHE headline use case: three 'face' regions, strong blur (48), video with AUDIO. Watch: all three fully obscured (content unrecoverable), rest sharp, audio stream present in the output.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  }
+}

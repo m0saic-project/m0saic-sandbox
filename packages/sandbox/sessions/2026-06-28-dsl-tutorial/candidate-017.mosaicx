@@ -1,0 +1,53 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "3[3(2[F,F],F,F),3(4(F,F,F,F),F,F),3(F,F,F)]",
+        "speedMultiplier": 1,
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-017"
+  },
+  "agent": {
+    "note": "**Count-read steps now register a value (your \"M/G value\" ask).** Added an **N** field to the inspector, beneath Z:\n\n- **N = the arity of the split in focus** — the count just read, the size of the split the cursor sits inside, `0` at the root.\n- On a **count** step it shows that count and **pulses green** (the git-diff \"added\" wash), so reading `8` is no longer a visual no-op — exactly the derivation-table value you described.\n- Crucially it pulses on **every** count read even when the number repeats — so in an 8×8 grid (every count is `8`) each count step still lights up, instead of looking static.\n\n*(Verified: at the first `2` the inspector reads `N: 2` with a green pulse; Status chip = Count.)*\n\n**On the letter:** I went with **N** (number of parts / split arity) so it sits cleanly beside X/Y/W/H/Z — but you raised the naming, so just say the word if you'd rather it be **M**, **G**, **K**, **C**, or a short label like **Split**.\n\n**Next candidate (018):** the DSL-string **scrolling window** for long layouts — your 8×8 shot crammed ~150 chars to an illegible row. Plan: a hard cap on visible characters; under the cap, show everything; over it, a window that follows the caret and scrolls (so it stays legible into the thousands). Flagged it, building it next as its own candidate.",
+    "question": "Does the **N** field capture the count-read step the way your derivation tables do — and is **N** the right letter, or would you prefer **M / G / K / Split**? After your call, I'll ship the DSL-string scrolling window (018).",
+    "context": {
+      "category": {
+        "kind": "other",
+        "label": "inspector-count-field"
+      },
+      "intent": {
+        "action": "propose",
+        "summary": "Add an N (split arity) inspector field that registers + pulses on count-read steps, including repeated counts (8×8), so the count step isn't a no-op."
+      },
+      "relation": {
+        "kind": "refines",
+        "target": "016"
+      }
+    },
+    "response": {
+      "body": "yes, it looks good",
+      "from": "human",
+      "at": "2026-06-29T15:40:39.454Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/./candidate-017-1920x1080.mp4"
+    }
+  }
+}

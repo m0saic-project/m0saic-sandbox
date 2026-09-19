@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "mode": "render",
+  "ok": true,
+  "exitCode": 0,
+  "run": {
+    "id": "22c8a1b7-1ae8-4d3c-b34e-753dbe912029",
+    "startedAtIso": "2026-07-03T00:09:48.861Z",
+    "finishedAtIso": "2026-07-03T00:10:05.680Z",
+    "elapsedMs": 16819
+  },
+  "versions": {
+    "cli": {
+      "name": "mosaic-desktop",
+      "version": "0.1.0"
+    },
+    "engine": {
+      "name": "@m0saic/core",
+      "version": "0.1.0"
+    },
+    "dsl": {
+      "name": "@m0saic/dsl",
+      "version": "1.1.0"
+    },
+    "packages": {
+      "@m0saic/templates": "0.1.0",
+      "@m0saic/types": "0.1.0"
+    },
+    "ffmpeg": {
+      "baseline": {
+        "snapshot": "N-124279-g0f6ba39122",
+        "profile": "gpl",
+        "libx264": true,
+        "source": "martin-riedl.de (macOS arm64 snapshot, signed)"
+      },
+      "runtime": {
+        "found": true,
+        "version": "ffmpeg version N-124279-g0f6ba39122-https://www.martin-riedl.de Copyright (c) 2000-2026 the FFmpeg developers",
+        "libx264": true
+      }
+    },
+    "ffprobe": {
+      "runtime": {
+        "found": true,
+        "version": "ffprobe version N-124279-g0f6ba39122-https://www.martin-riedl.de Copyright (c) 2007-2026 the FFmpeg developers"
+      }
+    }
+  },
+  "paths": {
+    "cwd": {
+      "path": ".",
+      "absolutePath": "<repo>/apps/mosaic"
+    },
+    "output": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.mp4",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.mp4"
+    },
+    "savedMosaic": {
+      "path": "<sandbox>/sessions/2026-06-28-dsl-tutorial/./master_candidate-02-1920x1080.mosaic",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.mosaic",
+      "sha256": "958987f1fdf6f3fbf98dcb59ce0f8fa44886ecea29070389ca739d750ce316d3"
+    },
+    "savedPlan": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.mosaic-plan.json",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.mosaic-plan.json"
+    },
+    "savedM0": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.m0",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.m0"
+    },
+    "savedFlattenedM0": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.flattened.m0",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.flattened.m0"
+    },
+    "savedCommands": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.commands.json",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.commands.json"
+    },
+    "perf": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.perf.json",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.perf.json"
+    },
+    "perfMd": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.perf.md",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.perf.md"
+    },
+    "perfTopPng": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.perf.top.png",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.perf.top.png"
+    },
+    "perfFlattenedPng": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.perf.flattened.png",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.perf.flattened.png"
+    },
+    "reportFile": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.output.json",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/master_candidate-02-1920x1080.output.json"
+    }
+  },
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationMs": 12000
+  },
+  "template": {
+    "id": "@m0saic/dsl-tutorial/v1",
+    "props": {
+      "M0String": "3[4(0,0,0,F),2(F,3[F,F,F]),F]",
+      "speedMultiplier": 1,
+      "preset": "light",
+      "stepEvents": "enter+leaf",
+      "showChrome": true
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

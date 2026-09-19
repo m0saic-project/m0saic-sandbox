@@ -1,0 +1,32 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 25,
+  "durationMs": 12160,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-strong-0.03-hard** (gate-34 stress set for `@m0saic/forensic/watermark/video/v1`).\n\nDeliberately VISIBLE: uniform α 0.03, hard cells — the ceiling of the strength knob (PSNR ~37 dB).\n\nWatch: you should SEE the checkerboard; verify margin ~45.\n\nVerify the render: `m0saic make @m0saic/forensic/watermark/verify/v1 -o stress-08-check.png --props '{\"videoPath\":\"<render>.mp4\"}'` (the sidecar lands beside the render).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/forensic/watermark/video/v1",
+      "props": {
+        "videoPath": "<repo>/packages/cli/examples/media/hero/hero_4.mp4",
+        "luminanceAdaptive": false,
+        "alphaBase": 0.03,
+        "edgeSoftness": 0
+      }
+    }
+  ]
+}

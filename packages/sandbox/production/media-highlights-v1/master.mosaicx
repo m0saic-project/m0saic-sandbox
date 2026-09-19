@@ -1,0 +1,50 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 5700,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/media/highlights/v1` \"Highlight Clips\"** (gate 20 — media pack remainder; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase: reel-10s fixture + three ranges (one labeled `mid-game`) → an `emit:\"multi\"` batch, one mp4 per range.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated, not primitive | confirm |\n| Tags | media, clips, highlights, promo, multi-output | confirm |\n| Cover | **NEW this gate** — timeline-with-ranges + 3 clip cards + welcome band (no-source first-open face; MAKE now disabled on error cards, so the cover carries the intro) | review in Make |\n| Tutorial | none | needed? (single-picker + ranges UI; arguably self-evident) |\n| Battery | 10 configs GREEN after fixes (below) | — |\n\n**Battery findings (both fixed):**\n1. **`muteAudio` shipped a SILENT placeholder track** (aac at -91 dB) instead of stripping audio — source-level `audio.enabled:false` only mutes the mix contribution. Fix: step docs now ALSO set doc-level `audio: {enabled:false}` → `-an`, output is trackless. Unit-locked.\n2. **Header drift on the single-range container law.** Claimed \"container follows your `-o` extension\"; reality (rule 5): the `outputFormat` prop-bag is the template tier, so `-o clip.webm` without `outputFormat:\"webm\"` fails LOUDLY at plan time (\"Output extension implies container…\"). That loud error is contract-correct — header rewritten, battery asserts both the error and the prop+ext webm collapse (vp9/opus at the bare `-o`).\n\n**Battery coverage:** single-range collapse (exact `-o`, no siblings) · 3-range positional siblings · webm batch (vp9+opus) · maxWidth 640 downscale · maxWidth no-upscale · mute (trackless) · bad-range mid-batch (error step keeps slot, batch survives) · EOF overshoot clamp · hostile-label `--output-pattern {{label}}` sanitize · single-emit container mismatch + webm collapse.\n\n37/37 unit tests green. Battery: `node <scratchpad>/highlights-battery.mjs`.",
+    "question": "Showcase batch verdict (3 clips render from the M)? Cover OK? Tutorial needed or skip? Flags/tags confirmed? Then stress.",
+    "response": {
+      "verdict": "ship",
+      "text": "showcase pass -> cover reworked to real ranges-picker screenshot per founder -> stress x10 pass -> \"ship\"",
+      "via": "chat — transcribed by agent",
+      "note": "SHIPPED base ☑ (gate 20, media pack remainder). Tutorial: not needed — implicit in ship ruling; flag if wanted. Three real bugs fixed this gate: silent-placeholder mute, single-emit container header drift (behavior correct, loud), and the fps-follow stamp clobber (60fps sources rendered 30 — stampOutput authored-intent fix)."
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/highlights/v1",
+      "props": {
+        "sourceId": "<sandbox>/production/media-highlights-v1/fixtures/reel-10s.mp4",
+        "ranges": [
+          {
+            "startMs": 600,
+            "endMs": 2400
+          },
+          {
+            "startMs": 4200,
+            "endMs": 6300,
+            "label": "mid-game"
+          },
+          {
+            "startMs": 7600,
+            "endMs": 9400
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 712,
+    "height": 400
+  },
+  "fps": 30,
+  "durationMs": 18170,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/hero/search-typing/v1",
+      "props": {
+        "words": [
+          "Ideas",
+          "Answers",
+          "Templates",
+          "Tutorials",
+          "Inspiration"
+        ],
+        "label": "Search for",
+        "timing": {
+          "typeCharMs": 120,
+          "deleteCharMs": 90,
+          "emptyHoldMs": 850,
+          "wordHoldMs": 1100,
+          "leadMs": 400,
+          "trailMs": 400
+        },
+        "endBehavior": "hold",
+        "caret": {
+          "show": false,
+          "blinkMs": 1000,
+          "widthPx": 2
+        },
+        "underline": "grow",
+        "icon": {
+          "show": true
+        },
+        "style": {
+          "pageColor": "#F2F3F5",
+          "cardColor": "#FFFFFF",
+          "labelColor": "#9AA0A6",
+          "inkColor": "#136bc3",
+          "cornerRadiusPx": 15,
+          "barWidthFrac": 0.62,
+          "barAspect": 0.26
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-003"
+  },
+  "agent": {
+    "note": "**P2 color fix** — one change from candidate-002: the typed word, underline, and caret now default to the SAME color as the label (`inkColor` default \"#9AA0A6\" == `labelColor`), matching your reference screenshot (Outerwear renders uniform with \"Search for...\"). Motion untouched.\n\nBoth knobs stay independent — set `style.inkColor` darker (e.g. \"#202124\") to get the old two-tone split back.",
+    "question": "Uniform color read right now vs the reference? If yes this closes P2 — P3 (registry + E2E) is already wired in parallel.",
+    "response": {
+      "body": "good result. I played around with some knobs too and it works well. the only thing is i might want to remove the card bg and have the search box be full height / width. i dont see an option to do so - it should probably default to search box only tbh. I imagine this template would be called in nested fashion, so caller may want tight bounds",
+      "from": "human",
+      "at": "2026-08-06T18:08:57.600Z",
+      "src": "<sandbox>/sessions/2026-08-06-search-typing-hero/./candidate-003-712x400.mp4"
+    }
+  }
+}

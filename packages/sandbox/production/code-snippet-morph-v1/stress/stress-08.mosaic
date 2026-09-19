@@ -1,0 +1,1417 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "single",
+  "steps": [
+    {
+      "name": "state-1",
+      "durationMs": 1000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "m0": "1{1{120[0,0,0,0,0,0,0,0,0,0,1,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(-,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),0,0,0,-,0,0,0,80(-,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,80(-,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,-,0,0,0,0,80(-,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,80(0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,80(0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]}}}}}",
+        "sources": [
+          {
+            "type": "lavfi",
+            "color": "#080B14",
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#011627",
+            "editor": {
+              "owner": "template",
+              "label": "card"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#0B2942",
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0.022727272727272728,
+                "left": 0
+              }
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#011627",
+            "editor": {
+              "owner": "template",
+              "label": "gutter"
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.0703125,
+                "bottom": 0.0024752475247524753,
+                "left": 0.1484375
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#011627",
+            "editor": {
+              "owner": "template",
+              "label": "code-area"
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.008023648648648648,
+                "bottom": 0.0024752475247524753,
+                "left": 0.008023648648648648
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "rasterizer": "svg",
+            "renderMode": {
+              "kind": "image"
+            },
+            "visual": {
+              "backgroundColor": "black@0"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "snippet.ts"
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 20,
+                  "fontColor": "#D6DEEB"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "middle"
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template",
+              "label": "title",
+              "binding": {
+                "propKey": "chrome.title"
+              }
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.004136029411764706,
+                "bottom": 0.022727272727272728,
+                "left": 0
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "rasterizer": "svg",
+            "renderMode": {
+              "kind": "image"
+            },
+            "visual": {
+              "backgroundColor": "black@0"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "1"
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontColor": "#5F7E97"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "top"
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.2265625,
+                "bottom": 0,
+                "left": 0.1484375
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "rasterizer": "svg",
+            "renderMode": {
+              "kind": "image"
+            },
+            "visual": {
+              "backgroundColor": "black@0"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "2"
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontColor": "#5F7E97"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "top"
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.2265625,
+                "bottom": 0,
+                "left": 0.1484375
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "rasterizer": "svg",
+            "renderMode": {
+              "kind": "image"
+            },
+            "visual": {
+              "backgroundColor": "black@0"
+            },
+            "style": {
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 23
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "●"
+                },
+                "style": {
+                  "fontColor": "#FF5F57"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "middle",
+                  "xExpr": "0"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "●"
+                },
+                "style": {
+                  "fontColor": "#FFBD2E"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "middle",
+                  "xExpr": "27.6"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "●"
+                },
+                "style": {
+                  "fontColor": "#28C840"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "middle",
+                  "xExpr": "55.2"
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template",
+              "label": "traffic-lights"
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.03125,
+                "bottom": 0.08333333333333333,
+                "left": 0.11875
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "rasterizer": "svg",
+            "renderMode": {
+              "kind": "image"
+            },
+            "visual": {
+              "backgroundColor": "black@0"
+            },
+            "style": {
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 16,
+              "fontWeight": "normal",
+              "fontStyle": "normal"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "//"
+                },
+                "style": {
+                  "fontColor": "#637777"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "0"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "arrows"
+                },
+                "style": {
+                  "fontColor": "#637777"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "28.8"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "→"
+                },
+                "style": {
+                  "fontColor": "#637777"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "96"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "ticks"
+                },
+                "style": {
+                  "fontColor": "#637777"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "115.2"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "✓"
+                },
+                "style": {
+                  "fontColor": "#637777"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "172.8"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "and"
+                },
+                "style": {
+                  "fontColor": "#637777"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "192"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "日本語"
+                },
+                "style": {
+                  "fontColor": "#637777"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "230.4"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "🚀"
+                },
+                "style": {
+                  "fontColor": "#637777"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "268.8"
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template",
+              "binding": {
+                "propKey": "states",
+                "index": 0,
+                "range": {
+                  "start": 0,
+                  "end": 30
+                }
+              }
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.03453947368421053,
+                "bottom": 0,
+                "left": 0.03125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "rasterizer": "svg",
+            "renderMode": {
+              "kind": "image"
+            },
+            "visual": {
+              "backgroundColor": "black@0"
+            },
+            "style": {
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 16,
+              "fontWeight": "normal",
+              "fontStyle": "normal"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "const"
+                },
+                "style": {
+                  "fontColor": "#C792EA"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "0"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "caf"
+                },
+                "style": {
+                  "fontColor": "#D6DEEB"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "57.6"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "é"
+                },
+                "style": {
+                  "fontColor": "#D6DEEB"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "86.4"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "="
+                },
+                "style": {
+                  "fontColor": "#7FDBCA"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "105.6"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "\"naïve\""
+                },
+                "style": {
+                  "fontColor": "#ECC48D"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "124.8"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": ";"
+                },
+                "style": {
+                  "fontColor": "#89DDFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "192"
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template",
+              "binding": {
+                "propKey": "states",
+                "index": 0,
+                "range": {
+                  "start": 31,
+                  "end": 52
+                }
+              }
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.033482142857142856,
+                "bottom": 0,
+                "left": 0.04241071428571429
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "assets": {},
+        "size": {
+          "width": 1280,
+          "height": 720
+        },
+        "fps": 30,
+        "durationMs": 1000,
+        "backgroundColor": "#080B14",
+        "format": {
+          "kind": "video",
+          "container": "mp4"
+        },
+        "audio": {
+          "mode": "off"
+        },
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    },
+    {
+      "name": "state-2",
+      "durationMs": 1000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "m0": "1{1{120[0,0,0,0,0,0,0,0,0,0,1,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(-,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),0,0,0,-,0,0,0,80(-,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,80(-,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,80(-,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,-,0,0,0,0,80(-,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,80(0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,80(0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,80(0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]}}}}}}",
+        "sources": [
+          {
+            "type": "lavfi",
+            "color": "#080B14",
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#011627",
+            "editor": {
+              "owner": "template",
+              "label": "card"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#0B2942",
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0.022727272727272728,
+                "left": 0
+              }
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#011627",
+            "editor": {
+              "owner": "template",
+              "label": "gutter"
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.0703125,
+                "bottom": 0.0024752475247524753,
+                "left": 0.1484375
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#011627",
+            "editor": {
+              "owner": "template",
+              "label": "code-area"
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.008023648648648648,
+                "bottom": 0.0024752475247524753,
+                "left": 0.008023648648648648
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "rasterizer": "svg",
+            "renderMode": {
+              "kind": "image"
+            },
+            "visual": {
+              "backgroundColor": "black@0"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "snippet.ts"
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 20,
+                  "fontColor": "#D6DEEB"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "middle"
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template",
+              "label": "title",
+              "binding": {
+                "propKey": "chrome.title"
+              }
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.004136029411764706,
+                "bottom": 0.022727272727272728,
+                "left": 0
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "rasterizer": "svg",
+            "renderMode": {
+              "kind": "image"
+            },
+            "visual": {
+              "backgroundColor": "black@0"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "1"
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontColor": "#5F7E97"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "top"
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.2265625,
+                "bottom": 0,
+                "left": 0.1484375
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "rasterizer": "svg",
+            "renderMode": {
+              "kind": "image"
+            },
+            "visual": {
+              "backgroundColor": "black@0"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "2"
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontColor": "#5F7E97"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "top"
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.2265625,
+                "bottom": 0,
+                "left": 0.1484375
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "rasterizer": "svg",
+            "renderMode": {
+              "kind": "image"
+            },
+            "visual": {
+              "backgroundColor": "black@0"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "3"
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontColor": "#5F7E97"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "top"
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.2265625,
+                "bottom": 0,
+                "left": 0.1484375
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "rasterizer": "svg",
+            "renderMode": {
+              "kind": "image"
+            },
+            "visual": {
+              "backgroundColor": "black@0"
+            },
+            "style": {
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 23
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "●"
+                },
+                "style": {
+                  "fontColor": "#FF5F57"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "middle",
+                  "xExpr": "0"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "●"
+                },
+                "style": {
+                  "fontColor": "#FFBD2E"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "middle",
+                  "xExpr": "27.6"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "●"
+                },
+                "style": {
+                  "fontColor": "#28C840"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "middle",
+                  "xExpr": "55.2"
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template",
+              "label": "traffic-lights"
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.03125,
+                "bottom": 0.08333333333333333,
+                "left": 0.11875
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "rasterizer": "svg",
+            "renderMode": {
+              "kind": "image"
+            },
+            "visual": {
+              "backgroundColor": "black@0"
+            },
+            "style": {
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 16,
+              "fontWeight": "normal",
+              "fontStyle": "normal"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "//"
+                },
+                "style": {
+                  "fontColor": "#637777"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "0"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "arrows"
+                },
+                "style": {
+                  "fontColor": "#637777"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "28.8"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "→"
+                },
+                "style": {
+                  "fontColor": "#637777"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "96"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "ticks"
+                },
+                "style": {
+                  "fontColor": "#637777"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "115.2"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "✓"
+                },
+                "style": {
+                  "fontColor": "#637777"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "172.8"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "and"
+                },
+                "style": {
+                  "fontColor": "#637777"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "192"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "日本語"
+                },
+                "style": {
+                  "fontColor": "#637777"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "230.4"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "🚀"
+                },
+                "style": {
+                  "fontColor": "#637777"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "268.8"
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template",
+              "binding": {
+                "propKey": "states",
+                "index": 1,
+                "range": {
+                  "start": 0,
+                  "end": 30
+                }
+              }
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.03453947368421053,
+                "bottom": 0,
+                "left": 0.03125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "rasterizer": "svg",
+            "renderMode": {
+              "kind": "image"
+            },
+            "visual": {
+              "backgroundColor": "black@0"
+            },
+            "style": {
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 16,
+              "fontWeight": "normal",
+              "fontStyle": "normal"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "const"
+                },
+                "style": {
+                  "fontColor": "#C792EA"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "0"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "caf"
+                },
+                "style": {
+                  "fontColor": "#D6DEEB"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "57.6"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "é"
+                },
+                "style": {
+                  "fontColor": "#D6DEEB"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "86.4"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "="
+                },
+                "style": {
+                  "fontColor": "#7FDBCA"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "105.6"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "\"naïve\""
+                },
+                "style": {
+                  "fontColor": "#ECC48D"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "124.8"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": ";"
+                },
+                "style": {
+                  "fontColor": "#89DDFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "192"
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template",
+              "binding": {
+                "propKey": "states",
+                "index": 1,
+                "range": {
+                  "start": 31,
+                  "end": 52
+                }
+              }
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.033482142857142856,
+                "bottom": 0,
+                "left": 0.04241071428571429
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "rasterizer": "svg",
+            "renderMode": {
+              "kind": "image"
+            },
+            "visual": {
+              "backgroundColor": "black@0"
+            },
+            "style": {
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 16,
+              "fontWeight": "normal",
+              "fontStyle": "normal"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "const"
+                },
+                "style": {
+                  "fontColor": "#C792EA"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "0"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "total"
+                },
+                "style": {
+                  "fontColor": "#D6DEEB"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "57.6"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "="
+                },
+                "style": {
+                  "fontColor": "#7FDBCA"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "115.2"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "caf"
+                },
+                "style": {
+                  "fontColor": "#D6DEEB"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "134.4"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "é"
+                },
+                "style": {
+                  "fontColor": "#D6DEEB"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "163.2"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "."
+                },
+                "style": {
+                  "fontColor": "#89DDFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "172.8"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "length"
+                },
+                "style": {
+                  "fontColor": "#D6DEEB"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "182.4"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": ";"
+                },
+                "style": {
+                  "fontColor": "#89DDFF"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "240"
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template",
+              "binding": {
+                "propKey": "states",
+                "index": 1,
+                "range": {
+                  "start": 53,
+                  "end": 79
+                }
+              }
+            },
+            "overlay": {
+              "alpha": "(min(1,max(0,(t-0)/0.4)))*(min(1,max(0,(t-0)/0.4)))*(3-2*(min(1,max(0,(t-0)/0.4))))",
+              "yExpr": "(1-((min(1,max(0,(t-0)/0.4)))*(min(1,max(0,(t-0)/0.4)))*(3-2*(min(1,max(0,(t-0)/0.4))))))*6",
+              "startAtSec": 0,
+              "window": {
+                "startSec": 0
+              }
+            },
+            "placement": {
+              "inset": {
+                "top": 0,
+                "right": 0.027573529411764705,
+                "bottom": 0,
+                "left": 0.034926470588235295
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "assets": {},
+        "size": {
+          "width": 1280,
+          "height": 720
+        },
+        "fps": 30,
+        "durationMs": 1000,
+        "backgroundColor": "#080B14",
+        "format": {
+          "kind": "video",
+          "container": "mp4"
+        },
+        "audio": {
+          "mode": "off"
+        },
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "defaultTransition": {
+    "type": "cut"
+  },
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "backgroundColor": "#080B14",
+  "format": {
+    "kind": "video",
+    "container": "mp4"
+  },
+  "audio": {
+    "mode": "off"
+  },
+  "editor": {
+    "owner": "user",
+    "provenance": {
+      "kind": "template_invocation",
+      "templateId": "@m0saic/code/snippet-morph/v1",
+      "props": {
+        "states": [
+          "// arrows → ticks ✓ and 日本語 🚀\nconst café = \"naïve\";",
+          "// arrows → ticks ✓ and 日本語 🚀\nconst café = \"naïve\";\nconst total = café.length;"
+        ],
+        "timing": {
+          "holdMs": 600,
+          "morphMs": 400
+        }
+      },
+      "invocationId": "inv-sources-0",
+      "sourcePath": "sources[0]"
+    }
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

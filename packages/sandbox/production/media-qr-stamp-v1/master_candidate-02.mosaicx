@@ -1,0 +1,35 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 5000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-02"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/media/qr/stamp/v1` take 2** (gate 23; candidate-01 redirected — \"a lot of the knobs don't work\").\n\n**Both symptoms were real; both fixed:**\n\n| Symptom | Root cause | Fix |\n|---|---|---|\n| `position` ignored (tr rendered br) | **NEVER-WIRED knob** — `stampQrOnMedia`'s own docs said \"br is the only realized corner; others fall back\". The template exposed 4 values, 3 dead. | `buildCornerStampM0` generalized to all four corners (placeRect anchor + corner-facing gutter insets). **br path byte-identical** — the free-tier wrap + brand qr-stamp templates ride it (§7.7). CLI-verified per-quadrant tl/tr/bl/br + resolved-frame unit locks. |\n| sizePct rejected 18 (\"nearest 17 and 19\") | Make's NumberField put its magnitude-aware DYNAMIC step on the step attribute — value 18 at step 2 is an HTML stepMismatch. Every number field in Make could reject typed values this way. | step attribute is now **\"any\"** (typed values never invalid); magnitude steps drive keyboard arrows instead. 25/25 NumberField specs. |\n\nAudit of the rest: text/sizePct/marginPct/mode/animation all verified live in renders (size extremes, dark/light/transparent/auto-with-buckets, fade vs none from the battery). Battery 11/11 + the corner quadrant checks.\n\nShowcase unchanged: reel-10s + defaults.",
+    "question": "Take-2: knobs verdict (try tr/tl + type 18)? Phone-scan? Cover ruling + mp4-only hint ruling still open from take 1. Then stress.",
+    "response": {
+      "verdict": "ship",
+      "text": "take-2 review → founder: \"mode looks to be a no op in general\" → traced to TWO defects: the preview never painted a child doc's backgroundColor (the card IS the child bg), and auto (the default) was genuinely degenerate — empty buckets pin the light card and nothing ever filled them on the template path → founder chose option 1 (\"do 1\": template probes its own luma via ctx.analysis) → preview layering fixed per founder catch (card must paint UNDER the modules, alpha-gated with its variant) → stress ×10 pass → \"ship\"",
+      "via": "chat — transcribed by agent",
+      "note": "SHIPPED base ☑ (gate 23, media pack remainder 6/n; capability tier). THREE distinct owners behind one founder redirect ('knobs don't work'): (1) position NEVER-WIRED — buildCornerStampM0 generalized to 4 corners, br byte-identical (free-tier wrap §7.7 rides it); (2) Make NumberField put its magnitude ladder on the HTML step attribute → typed values stepMismatch-invalid app-wide — step=\"any\" + arrow-key magnitude steps; (3) mode: preview fidelity (GeometricPreview now paints child-doc backgroundColor inside the overlay-alpha wrapper — auto stacks alpha-gated light+dark children) AND ⭐ auto made REAL: the template probes the stamp corner via ctx.analysis.regionLuminance (lazy — auto only, prop override wins; cover-crop-mapped region + 10% over-sample; degrades to light without analysis; design mode never probes, so the Make preview shows the light card by design). E2E: same reel, br→white card, tl→black card. freeze-twin harness upgraded to createEngineContext+ffmpegPath so twins freeze probed exprs. OPEN (not ruled): cover/tutorial (synthetic cover offered), mp4-only format hint on image bases."
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/qr/stamp/v1",
+      "props": {
+        "mediaPath": "<sandbox>/production/media-highlights-v1/fixtures/reel-10s.mp4"
+      }
+    }
+  ]
+}

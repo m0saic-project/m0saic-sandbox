@@ -1,0 +1,44 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 720,
+    "height": 1280
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-02"
+  },
+  "agent": {
+    "note": "**STRESS 02/10 \u2014 02-plate-pixelate-portrait** (gate-19 stress set for `@m0saic/media/blur-regions/v1`).\n\nLicense-plate pattern: ONE small region, fine pixelate (16), portrait video. Watch: small block censor lands exactly; the rest untouched.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/blur-regions/v1",
+      "props": {
+        "sourceId": "<sandbox>/production/media-blur-regions-v1/fixtures/port-1080.mp4",
+        "mode": "pixelate",
+        "strength": 16,
+        "regions": [
+          {
+            "x": 220,
+            "y": 760,
+            "w": 280,
+            "h": 110
+          }
+        ]
+      }
+    }
+  ]
+}

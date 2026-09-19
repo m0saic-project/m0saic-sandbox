@@ -1,0 +1,125 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 2000,
+    "height": 1250
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/demos/asp-roster/v1",
+      "props": {
+        "brandEyebrow": "COACH",
+        "brandTitle": "ABSOLUTE STRENGTH & PERFORMANCE",
+        "navItems": [
+          "Athletes",
+          "Check-ins",
+          "New athlete",
+          "Settings",
+          "Coaches",
+          "Assignments"
+        ],
+        "eyebrow": "ROSTER",
+        "title": "Athletes",
+        "subtitle": "This week · 24 of 51 checked in",
+        "actionLabel": "New athlete",
+        "kpis": [
+          {
+            "value": "51",
+            "caption": "Total athletes"
+          },
+          {
+            "value": "24 / 51",
+            "caption": "Checked in this week",
+            "kind": "progress",
+            "progressPct": 47
+          },
+          {
+            "value": "3",
+            "caption": "Active categories"
+          },
+          {
+            "value": "27",
+            "caption": "Not started",
+            "kind": "warn"
+          }
+        ],
+        "columns": [
+          "#",
+          "ATHLETE",
+          "CATEGORY",
+          "EMAIL",
+          "LAST CHECK-IN",
+          "PROGRESS",
+          "STATUS"
+        ],
+        "rows": [
+          {
+            "name": "Alex Carter",
+            "category": "POWERLIFTING",
+            "email": "pl@asp.local",
+            "lastCheckIn": "—",
+            "progressPct": 0,
+            "status": "NOT STARTED",
+            "statusKind": "not-started"
+          },
+          {
+            "name": "Amelia Carter",
+            "category": "POWERLIFTING",
+            "email": "mock12@asp.local",
+            "lastCheckIn": "Mon 9:12a",
+            "progressPct": 100,
+            "status": "CHECKED IN",
+            "statusKind": "checked-in"
+          },
+          {
+            "name": "Isabella Brooks",
+            "category": "OLYMPIC",
+            "email": "mock10@asp.local",
+            "lastCheckIn": "Tue 6:40p",
+            "progressPct": 60,
+            "status": "IN PROGRESS",
+            "statusKind": "in-progress"
+          },
+          {
+            "name": "James Reyes",
+            "category": "OLYMPIC",
+            "email": "mock13@asp.local",
+            "lastCheckIn": "—",
+            "progressPct": 0,
+            "status": "NOT STARTED",
+            "statusKind": "not-started"
+          },
+          {
+            "name": "Benjamin Okafor",
+            "category": "GENERAL",
+            "email": "mock28@asp.local",
+            "lastCheckIn": "Wed 7:05a",
+            "progressPct": 100,
+            "status": "CHECKED IN",
+            "statusKind": "checked-in"
+          }
+        ]
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": "<sandbox>/sessions/2026-06-26-asp-roster",
+    "basename": "candidate-003"
+  },
+  "agent": {
+    "note": "**Roster · candidate-003 — contextual render.**\n\nThe wide-dashboard direction (002) made real. A scaffolded demo template `@m0saic/demos/asp-roster/v1` builds the geometry **and** real sources — text for every label, lavfi color tiles for surfaces, SVG masks for the avatar circles + status/category pills. Fully prop-driven, so the same chrome re-feeds with any roster data.\n\nHit **▶ Render** to produce the dated output + its `.mosaic` twin (freezes this exact look).",
+    "question": "1. Does the **rendered** dashboard hold up — type scale, spacing, color/contrast (cream / ink / tan + status colors)?\n2. Are the **KPI band** and **table** reading clearly at full width?\n3. Anything to fix before I apply the same treatment to the **intake form**?",
+    "response": {
+      "body": "this looks good. I think its a good hero candidate for this design. Thanks",
+      "from": "human",
+      "at": "2026-06-26T19:57:55.326Z",
+      "src": "<sandbox>/sessions/2026-06-26-asp-roster/candidate-003-2000x1250.mp4"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 59000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-02"
+  },
+  "agent": {
+    "note": "**STRESS 02/10 — 02-passthrough-overlay-mixed** (gate-33 stress set for `@m0saic/dsl-tutorial/v1`).\n\nPassthroughs (>) donating forward, uneven nested splits, and a root overlay {F} — the per-tile z-ordered canvas path.\n\nWatch: C (carry) counts up on each `>` and lands on the absorbing tile; the overlay tile reveals ON TOP at the end; Z reads 1 inside the braces.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "4[4(F,F,F,F),4(>,F,>,F),3(2[F,F],3[F,F,F],2[F,F]),4(F,F,F,F)]{F}"
+      }
+    }
+  ]
+}

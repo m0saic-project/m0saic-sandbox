@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/wireframe/base/v2` \"Wireframe v2\"** (gate 29 — WIREFRAME pack opener; chart: `.ai/LAUNCH/v1-template-cut.md`). Core tier, tags wireframe + docs-only (the Developer/Docs facet). THE m0 visualization primitive: the Layout page renders through it, the perf heatmap paints through it (`cellColors`), every sandbox wireframe still is one. Props = pure defaults (`F`) so Make opens on the **NEW COVER** first, then renders the bare single cell.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | core · not internal · not deprecated · not primitive | confirm — chart note says \"consider internal:true\"; recommend **NO** (people trace layouts with it; Layout page + facet depend on browse) |\n| Label | \"Wireframe v2\" | \"Wireframe\"? (v1 is deprecated-hidden, so the suffix reads odd in browse) — untouched, your call |\n| Cover | none → **pane cover ADDED**: 3 bubbles (string / labels / trace) + hero = its OWN render of a 6-cell editorial, ink on the theme surface, inlined flat, sized to the hero box | keep / band / strike |\n| Tutorial | none | skip? (the cover bubbles carry the mental model) |\n| Previews | `preview.png` only (07-15 regen) — default look UNCHANGED | leave as-is; eyeball ☐ |\n| Battery | **32/32 GREEN** (25 CLI renders + pixel asserts) | — |\n| E2E | basic tier 6/6 (default + 5 paint-order variants) | — |\n\n**Pre-audit findings → fixed:**\n\n| Finding | Fix |\n|---|---|\n| `grid-paper` preset + `theme.paperGrid` resolved a lattice that NOTHING drew — the Layout page sells it as \"Textbook — hand-drawn paper grid\" (audit-every-knob) | **wired**: ONE masked ink tile as a full-canvas top overlay (`X` → `X{1}`, nests past a root overlay), pitch 1/16 short side, alpha 0.08 — `utils/paperGrid.ts` + 9 locks. Revertable to a PRUNE (preset + Layout \"Textbook\" entry) if you'd rather |\n| Schema: labelContent \"Default aspect\", labels \"dimensions and aspect ratio are rendered\" — the real default is number + W×H | descriptions corrected |\n| Description was engineering-speak (\"masked color tile… no per-cell drawtext\") | user-facing blurb (what it draws, transparent default, trace, presets) |\n| No `format` on the doc (pre-gate-26 template) | `format:{image,png,rgba}` authored (same values the hints seeded; `-o .mp4` still refuses loudly — verified) |\n| `labelsByStableKey` / `cellColors` = programmatic props in the human form | `consumer:\"agent\"` → tucked under Agent props |\n\n| ⭐ **CLI BUG (found by this ledger): every wireframe `.mosaicx` rendered the \"no inputs\" USAGE CARD** — `m0saic make file.mosaicx` treated ANY `type:\"media\"` prop as a droppable input, so the optional trace `backgroundImage` made the runner skip the template (quote-card `avatar` + logo-animate `svgPath` sat in the same trap) | `mosaicxRunner.detectZeroInputUsageGap`: media prop = droppable only when REQUIRED, in the `sourceId`/`sourceIds` slot, or able to take VIDEO; image-only optional accessories render the template (+3 locks, 34/34). Make/Run page never used the detector |\n| ⭐ **ENGINE/CLI: through the `.mosaicx` route every transparent wireframe rendered OPAQUE BLACK** (black ink on black — 7 of 10 stress stills were empty) — three layers: (1) the trivial single-invocation wrapper root carried no `format`/background, so the child's authored rgba intent + `backgroundColor`/`backgroundImage` died at the root (flatten twins lost them too); (2) `.mosaic` FILE renders never applied the doc's alpha-bearing pixelFormat (rule-5 enrichment was template-tier only); (3) the nested child's h264 `.mov` carrier + its FINAL stitch (yuv420p, opaque base) destroyed alpha — the gate-22 LOW candidate `2026-08-27-child-mosaic-carrier-drops-alpha` | (1) `resolveMosaicx.inheritTrivialWrapperIntent`: full-canvas wrapper inherits the child's `format` (copy) and MOVES its bg colour/image (+asset) to the root; (2) `utils/enrichImageAlphaFromDoc` shared by template + file tiers (+4 locks); (3) `buildChunkCommands`: a non-root node under an alpha-bearing ROOT uses qtrle/argb through its final stitch on a transparent base — opaque roots byte-identical (+3 locks). Resolver 79/79, chunk 41/41, core plan/ffmpeg/runtime 1387 green. All 10 stress stills re-minted through the real `.mosaicx` route |\n\n**Verified, no change needed:** transparent default (alpha coverage 2.2%) · white+fill opaque · null tiles empty · label ladder degrade/hide/number-floor at 80×90px cells · overlay label suppression (per-line rects) · long custom labels shrink-to-fit · stableKey labels · heat cells (nested `F{F}` + flat) · trace backgroundImage contain/opacity · **400 inline masks render in 17s — no argv cliff** (100 → 4.6s, 200 → 9.6s, linear).\n\n**Design notes (not bugs):** cell bodies are transparent, so an overlay's label sits over the base tiles' borders; an infeasible string (60 cols @ 320px) renders 5px stripes with no error card — the wireframe shows what the engine would do.\n\nUnit 101/101 (wireframe family incl. 16 new locks). Stress ×10 pre-minted in `stress/` (agent pass clean) — review after the default verdict.",
+    "question": "Gate-29 verdict: default + NEW cover · core-vs-publisher (rec. CORE) · internal:true? (rec. no) · grid-paper: keep lattice or prune? · label → \"Wireframe\"? Then stress-01..10.",
+    "response": {
+      "verdict": "approve",
+      "text": "looks good, but we need the props to default to this style of debug. other forms dont read as obvious in editor",
+      "via": "chat — transcribed by agent (09-02)",
+      "note": "Default look + cover APPROVED as take 1. Ask = the Make form must READ the shipped debug style (explicit defaults) → take 2 (master_candidate-02)."
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {}
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-bitmap-balanced** (gate-21 stress set for `@m0saic/media/logo-animate/v1`).\n\nBitmap mode at balanced (64² raster) on the curvy single-path circle — the heavy tier the editor still previews. Watch: pixel circle round (not oval), diagonal assembly, acceptable render time. crisp/fine/ultra stay founder-graded sloth tiers.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "\"all 10 pass, ship it\" (set verdict — reviewed via stress/renders/)",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/logo-animate/v1",
+      "props": {
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M50 5 C75 5 95 25 95 50 C95 75 75 95 50 95 C25 95 5 75 5 50 C5 25 25 5 50 5 Z\"/></svg>\n",
+        "bitmap": true,
+        "bitmapPrecision": "balanced"
+      }
+    }
+  ]
+}

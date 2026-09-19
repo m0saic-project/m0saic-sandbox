@@ -1,0 +1,46 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T12:00:00.000Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.11",
+  "meta": {
+    "title": "02 · labels (text only)"
+  },
+  "agent": {
+    "id": "claude-smoke-2026-06-10",
+    "note": "Four plain text labels — alpha / beta / gamma / delta — with no chip tint.",
+    "question": "With the Labels toggle ON, do all four labels render as plain text chips (no background tint, no rect fill change)?",
+    "response": {
+      "body": "Yes, approved.",
+      "from": "human",
+      "at": "2026-06-11T01:44:32.335Z"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "4(1,1,1,1)",
+  "labels": {
+    "r/fc0": {
+      "text": "alpha"
+    },
+    "r/fc1": {
+      "text": "beta"
+    },
+    "r/fc2": {
+      "text": "gamma"
+    },
+    "r/fc3": {
+      "text": "delta"
+    }
+  },
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "fill": null,
+  "rankSets": null,
+  "custom": null
+}

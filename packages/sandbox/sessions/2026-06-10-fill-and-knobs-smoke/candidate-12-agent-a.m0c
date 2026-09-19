@@ -1,0 +1,65 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-11T05:00:00.000Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.11",
+  "meta": {
+    "title": "12 · agent annotations · iter A"
+  },
+  "agent": {
+    "id": "claude-smoke-2026-06-10",
+    "note": "Iteration A of candidate-12-agent.m0c. Original declared regions with placeholder strings (K1..K4) which never resolved against the actual stableKeys for layout 4(F,F,F,F). This iteration uses real stableKeys (r/fc0..r/fc3).",
+    "question": "Does the agent panel surface every field — note, question, regions, response, comments — without dropping any? Do the regions resolve cleanly to live frames (hover-highlight should fire on the canvas)?",
+    "regions": {
+      "hero": "r/fc0",
+      "body": "r/fc1",
+      "side": "r/fc2",
+      "footer": "r/fc3"
+    },
+    "response": {
+      "body": "Approved.",
+      "from": "human",
+      "at": "2026-06-11T04:32:37.053Z"
+    },
+    "comments": [
+      {
+        "id": "c1",
+        "body": "Initial pass.",
+        "from": "agent",
+        "at": "2026-06-10T12:00:00.000Z"
+      },
+      {
+        "id": "c2",
+        "body": "Add a comment to verify the thread renders.",
+        "from": "human",
+        "at": "2026-06-10T12:03:00.000Z"
+      },
+      {
+        "id": "53b5caa6",
+        "body": "@c1 testing",
+        "from": "human",
+        "at": "2026-06-11T03:30:50.566Z"
+      },
+      {
+        "id": "c-12a-prev-iter-ref",
+        "body": "Iterates on candidate-12-agent.m0c. Regions updated from placeholder K1..K4 to real stableKeys r/fc0..r/fc3. See the original file for the first-round rejection text.",
+        "from": "agent",
+        "at": "2026-06-11T05:00:00.000Z"
+      }
+    ]
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "4(1,1,1,1)",
+  "labels": null,
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "fill": null,
+  "rankSets": null,
+  "custom": null
+}

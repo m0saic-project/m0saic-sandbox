@@ -1,0 +1,37 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 5000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-02"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/media/screencap_grid_aspect_safe/v1` take 2** (gate 25; candidate-01 verdict: base RULED, default pair approved, \"it needs a cover and tutorial\").\n\n**Both onboarding surfaces built, in the family language you approved on v2:**\n\n| Surface | What it is |\n|---|---|\n| **Cover** | The v2 chat-pane structure (\"i quite like this cover\") with the pair pitch — brand row says **Aspect Safe Grid**, three accent messages (ADD SOURCE(S) · PICK THE SHAPE · SCROLL THE PAIRS), START HERE tip — beside the hero: this template's own REGISTERED preview, which is already the landscape + portrait pair composite. Web-safe asset pattern (bundled `pair-sheet.jpg` for node, served preview URL in the browser). |\n| **Tutorial** | Seven pages, real material throughout (the v2 `sourceRect` footage-window machinery, now EXPORTED and shared): 01 the coordinated pair in one glance (wide 2×4 desktop card + tall 4×2 mobile card, same 8 moments) · 02 sources → `__landscape`/`__portrait` fan-out · 03 the shape question (three shape cards) · 04 Grid Choice ranked list (#0 accent-framed) · 05 search window + exact aspect · 06 PNG/MP4 · 07 start. ~27s. |\n\n`tutorialBrand` gained a `productName` param (default keeps v2 byte-identical). Unit locks: cover hero + START HERE; tutorial page names, per-page sheet asset, 40+ sourceRect windows, concept coverage. 46/47 suite (the 1 red = the KNOWN pre-existing Mac-only geometry-proof spec).\n\n**To review:** open the template fresh (cover face), then hit ? for the tutorial. Chip-default question from take 1 still open (bgColor \"none\" here vs v2's black chips) — say the word and I'll unify.",
+    "question": "Cover + tutorial verdicts? (And the chip-default ruling if you want it unified with v2.)",
+    "response": {
+      "verdict": "ship",
+      "text": "take-1: \"it needs a cover and tutorial. i do want this to ship in prod, not dev. my inital pass looked good\" → base RULED + pair approved → cover + tutorial built (v2 family language, shared sourceRect machinery) → \"okay stress\" (surfaces accepted) → stress ×10 pass (floor variant reworked: pair search has a REAL 4-cell feasibility floor, below it the loud \"widen the range\" card) → \"ship\"",
+      "via": "chat — transcribed by agent",
+      "note": "SHIPPED base ☑ + COVER ☑ + TUTORIAL ☑ (gate 25; core tier; pulled forward per founder — \"a complement to screengrid\"; the chart's dev-bucket proposal REVERSED by ruling). Inherited family fixes applied + locked ×3: animated orientation docs muxed silent audio tracks (gate-20 class, 3rd member) → doc-level -an; pane text-fit per ORIENTATION (each canvas its own em budget) + basename fallback. Onboarding: cover = v2 chat-pane language with the registered PAIR preview as hero (pair-sheet.jpg bundled, served URL in browser); tutorial = 7 pages on the SHARED v2 sourceRect machinery (now exported — one source of truth; tutorialBrand gained productName, v2 byte-identical). e2e: CLI cases existed (chart note stale); e2e-variants.jsonc entry added. STRESS finding: pair search floor = 4 cells (2×2/2×2 smallest; [1,3] windows infeasible → loud error card, correct fail-fast). OPEN: chip default bgColor \"none\" here vs v2's black chips (unify?); debug-geometry Make re-toggle after app restart (family-wide, template proven). Pre-existing Mac-only geometry-proof spec (clean-tree verified)."
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/screencap_grid_aspect_safe/v1",
+      "props": {
+        "sourceIds": [
+          "<sandbox>/production/media-highlights-v1/fixtures/reel-10s.mp4"
+        ]
+      }
+    }
+  ]
+}

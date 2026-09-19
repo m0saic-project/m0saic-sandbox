@@ -1,0 +1,30 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1600,
+    "height": 1000
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-fail-unmarked-original** (gate-35 stress set for `@m0saic/forensic/watermark/verify/v1`).\n\nFAIL: the UN-MARKED hero_1 original against the fixture's sidecar.\n\nWatch: red band; reason line says no clean codeword / no watermark energy.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/forensic/watermark/verify/v1",
+      "props": {
+        "videoPath": "<repo>/packages/cli/examples/media/hero/hero_1.mp4",
+        "sidecarPath": "<repo>/packages/cli/examples/media/forensic/watermarked_deadbeef.watermark.json"
+      }
+    }
+  ]
+}

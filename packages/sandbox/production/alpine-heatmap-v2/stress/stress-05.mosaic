@@ -1,0 +1,1231 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24(-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121[0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,120(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6(1,1,1,1,1,1),-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121(-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4[6(0,0,0,0,1,-),6(0,0,0,0,1,-),6(0,0,0,0,1,-),6(0,0,0,0,1,-)],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4[6(1,1,1,1,1,1),6(1,1,1,1,1,1),6(1,1,1,1,1,1),6(1,1,1,1,1,1)],-),0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,33[0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,122(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,1,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5(1,1,1,1,1),0,-,0,0,0,0,0,1),0,0,0,0,0,0,0,-]]],-),0,0,0,0,0,0,-]}",
+  "assets": {},
+  "size": {
+    "width": 1001,
+    "height": 733
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#E5E7EB",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "CONTRIBUTIONS WITH AN EXTREMELY LONG TITLE BAND"
+          },
+          "style": {
+            "fontSize": 26,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "A subtitle that also runs long enough to threaten the header fit"
+          },
+          "style": {
+            "fontSize": 19,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "First Sprint"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Second Sprint"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Third Sprint"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Fourth Sprint"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Fifth Sprint"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Sixth Sprint"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Понедельник"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "星期二"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "🔥 Wednesday"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "A Very Long Row Label Indeed"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EBEEF2",
+      "overlay": {
+        "startAtSec": 0,
+        "alpha": "(min(1,max(0,(t-0)/0.7349999999999999)))*(min(1,max(0,(t-0)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.0049504950495049506,
+          "right": 0.14356435643564355,
+          "top": 0.005050505050505051,
+          "bottom": 0.12626262626262627
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.17062499999999997,
+        "alpha": "(min(1,max(0,(t-0.17062499999999997)/0.7349999999999999)))*(min(1,max(0,(t-0.17062499999999997)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.17062499999999997)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.025,
+          "right": 0.115,
+          "top": 0.005050505050505051,
+          "bottom": 0.12626262626262627
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.34124999999999994,
+        "alpha": "(min(1,max(0,(t-0.34124999999999994)/0.7349999999999999)))*(min(1,max(0,(t-0.34124999999999994)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.34124999999999994)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.055,
+          "right": 0.085,
+          "top": 0.005050505050505051,
+          "bottom": 0.12626262626262627
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#96b4f6",
+      "overlay": {
+        "startAtSec": 0.5118749999999999,
+        "alpha": "(min(1,max(0,(t-0.5118749999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.5118749999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.5118749999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.085,
+          "right": 0.065,
+          "top": 0.005050505050505051,
+          "bottom": 0.12626262626262627
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#96b4f6",
+      "overlay": {
+        "startAtSec": 0.6824999999999999,
+        "alpha": "(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.105,
+          "right": 0.035,
+          "top": 0.005050505050505051,
+          "bottom": 0.12626262626262627
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#5e8cf0",
+      "overlay": {
+        "startAtSec": 0.8531249999999999,
+        "alpha": "(min(1,max(0,(t-0.8531249999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.8531249999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.8531249999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.135,
+          "right": 0.005,
+          "top": 0.005050505050505051,
+          "bottom": 0.12626262626262627
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.17062499999999997,
+        "alpha": "(min(1,max(0,(t-0.17062499999999997)/0.7349999999999999)))*(min(1,max(0,(t-0.17062499999999997)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.17062499999999997)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.0049504950495049506,
+          "right": 0.14356435643564355,
+          "top": 0.045454545454545456,
+          "bottom": 0.08585858585858586
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#96b4f6",
+      "overlay": {
+        "startAtSec": 0.34124999999999994,
+        "alpha": "(min(1,max(0,(t-0.34124999999999994)/0.7349999999999999)))*(min(1,max(0,(t-0.34124999999999994)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.34124999999999994)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.025,
+          "right": 0.115,
+          "top": 0.045454545454545456,
+          "bottom": 0.08585858585858586
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.5118749999999999,
+        "alpha": "(min(1,max(0,(t-0.5118749999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.5118749999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.5118749999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.055,
+          "right": 0.085,
+          "top": 0.045454545454545456,
+          "bottom": 0.08585858585858586
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#5e8cf0",
+      "overlay": {
+        "startAtSec": 0.6824999999999999,
+        "alpha": "(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.085,
+          "right": 0.065,
+          "top": 0.045454545454545456,
+          "bottom": 0.08585858585858586
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#96b4f6",
+      "overlay": {
+        "startAtSec": 0.8531249999999999,
+        "alpha": "(min(1,max(0,(t-0.8531249999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.8531249999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.8531249999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.105,
+          "right": 0.035,
+          "top": 0.045454545454545456,
+          "bottom": 0.08585858585858586
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#5e8cf0",
+      "overlay": {
+        "startAtSec": 1.0237499999999997,
+        "alpha": "(min(1,max(0,(t-1.0237499999999997)/0.7349999999999999)))*(min(1,max(0,(t-1.0237499999999997)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.0237499999999997)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.135,
+          "right": 0.005,
+          "top": 0.045454545454545456,
+          "bottom": 0.08585858585858586
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.34124999999999994,
+        "alpha": "(min(1,max(0,(t-0.34124999999999994)/0.7349999999999999)))*(min(1,max(0,(t-0.34124999999999994)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.34124999999999994)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.0049504950495049506,
+          "right": 0.14356435643564355,
+          "top": 0.08673469387755102,
+          "bottom": 0.04591836734693878
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#96b4f6",
+      "overlay": {
+        "startAtSec": 0.5118749999999999,
+        "alpha": "(min(1,max(0,(t-0.5118749999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.5118749999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.5118749999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.025,
+          "right": 0.115,
+          "top": 0.08673469387755102,
+          "bottom": 0.04591836734693878
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#96b4f6",
+      "overlay": {
+        "startAtSec": 0.6824999999999999,
+        "alpha": "(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.055,
+          "right": 0.085,
+          "top": 0.08673469387755102,
+          "bottom": 0.04591836734693878
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#5e8cf0",
+      "overlay": {
+        "startAtSec": 0.8531249999999999,
+        "alpha": "(min(1,max(0,(t-0.8531249999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.8531249999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.8531249999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.085,
+          "right": 0.065,
+          "top": 0.08673469387755102,
+          "bottom": 0.04591836734693878
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#5e8cf0",
+      "overlay": {
+        "startAtSec": 1.0237499999999997,
+        "alpha": "(min(1,max(0,(t-1.0237499999999997)/0.7349999999999999)))*(min(1,max(0,(t-1.0237499999999997)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.0237499999999997)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.105,
+          "right": 0.035,
+          "top": 0.08673469387755102,
+          "bottom": 0.04591836734693878
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563eb",
+      "overlay": {
+        "startAtSec": 1.1943749999999997,
+        "alpha": "(min(1,max(0,(t-1.1943749999999997)/0.7349999999999999)))*(min(1,max(0,(t-1.1943749999999997)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.1943749999999997)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.135,
+          "right": 0.005,
+          "top": 0.08673469387755102,
+          "bottom": 0.04591836734693878
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.5118749999999999,
+        "alpha": "(min(1,max(0,(t-0.5118749999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.5118749999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.5118749999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.0049504950495049506,
+          "right": 0.14356435643564355,
+          "top": 0.12626262626262627,
+          "bottom": 0.005050505050505051
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.6824999999999999,
+        "alpha": "(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.025,
+          "right": 0.115,
+          "top": 0.12626262626262627,
+          "bottom": 0.005050505050505051
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#96b4f6",
+      "overlay": {
+        "startAtSec": 0.8531249999999999,
+        "alpha": "(min(1,max(0,(t-0.8531249999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.8531249999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.8531249999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.055,
+          "right": 0.085,
+          "top": 0.12626262626262627,
+          "bottom": 0.005050505050505051
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#5e8cf0",
+      "overlay": {
+        "startAtSec": 1.0237499999999997,
+        "alpha": "(min(1,max(0,(t-1.0237499999999997)/0.7349999999999999)))*(min(1,max(0,(t-1.0237499999999997)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.0237499999999997)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.085,
+          "right": 0.065,
+          "top": 0.12626262626262627,
+          "bottom": 0.005050505050505051
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563eb",
+      "overlay": {
+        "startAtSec": 1.1943749999999997,
+        "alpha": "(min(1,max(0,(t-1.1943749999999997)/0.7349999999999999)))*(min(1,max(0,(t-1.1943749999999997)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.1943749999999997)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.105,
+          "right": 0.035,
+          "top": 0.12626262626262627,
+          "bottom": 0.005050505050505051
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#5e8cf0",
+      "overlay": {
+        "startAtSec": 1.3649999999999998,
+        "alpha": "(min(1,max(0,(t-1.3649999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.3649999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.3649999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.135,
+          "right": 0.005,
+          "top": 0.12626262626262627,
+          "bottom": 0.005050505050505051
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Less"
+          },
+          "style": {
+            "fontSize": 15,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EBEEF2",
+      "placement": {
+        "inset": {
+          "x": 0.11363636363636363
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "placement": {
+        "inset": {
+          "x": 0.11363636363636363
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#96b4f6",
+      "placement": {
+        "inset": {
+          "x": 0.11363636363636363
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#5e8cf0",
+      "placement": {
+        "inset": {
+          "x": 0.11363636363636363
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563eb",
+      "placement": {
+        "inset": {
+          "x": 0.11363636363636363
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "More"
+          },
+          "style": {
+            "fontSize": 15,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-unicode-long-strings** (gate-5 stress set for `@m0saic/alpine/heatmap/v2`).\n\nUNICODE + LONG: Cyrillic/CJK/emoji row labels, long title/subtitle, long col labels. Watch: gutter sizes to the longest label, no clipping/tofu fallout breaking layout.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": null
+  }
+}

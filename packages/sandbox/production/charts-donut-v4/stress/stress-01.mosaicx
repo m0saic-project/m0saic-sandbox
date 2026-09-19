@@ -1,0 +1,86 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-01"
+  },
+  "agent": {
+    "note": "**STRESS 01/10 \u2014 01-max12-long** (gate-15 stress set for `@m0saic/charts/donut/v4`).\n\nMAX LOAD: 12 segments (the cap), long labels, percent labels, 9-char centerValue + long caption. Watch: thin-slice label skips, caption fits the hole (the gate cap), sweep order.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/donut/v4",
+      "props": {
+        "segments": [
+          {
+            "label": "Infrastructure Renders",
+            "value": 18
+          },
+          {
+            "label": "Marketing Campaign Clips",
+            "value": 14
+          },
+          {
+            "label": "Tutorial Walkthroughs",
+            "value": 12
+          },
+          {
+            "label": "Community Submissions",
+            "value": 11
+          },
+          {
+            "label": "Internal Dashboards",
+            "value": 9
+          },
+          {
+            "label": "Conference Assets",
+            "value": 8
+          },
+          {
+            "label": "Social Shorts",
+            "value": 7
+          },
+          {
+            "label": "Product Demos",
+            "value": 6
+          },
+          {
+            "label": "Onboarding Sequences",
+            "value": 5
+          },
+          {
+            "label": "QA Batteries",
+            "value": 4
+          },
+          {
+            "label": "Archive Migrations",
+            "value": 3
+          },
+          {
+            "label": "Misc",
+            "value": 3
+          }
+        ],
+        "centerValue": "1,248,900",
+        "centerLabel": "Total Annual Renders Across Every Pipeline",
+        "segmentLabels": "percent"
+      }
+    }
+  ]
+}

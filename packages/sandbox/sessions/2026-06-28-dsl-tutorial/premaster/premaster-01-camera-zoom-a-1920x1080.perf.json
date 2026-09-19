@@ -1,0 +1,2839 @@
+{
+  "schemaVersion": 2,
+  "totalMs": 13878,
+  "commandCount": 59,
+  "commands": [
+    {
+      "index": 1,
+      "node": "root:0:1_text",
+      "description": "Render text source \"root:0:1_text\" to image",
+      "elapsedMs": 79,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc8/gcolc12/fc38"
+      ],
+      "stableKey": "r/growc8/gcolc12/fc38",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 2,
+      "node": "root:0:3_text",
+      "description": "Render text source \"root:0:3_text\" to image",
+      "elapsedMs": 33,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc8/gcolc12/fc85/ov1c0/fc8"
+      ],
+      "stableKey": "r/growc8/gcolc12/fc85/ov1c0/fc8",
+      "leafCount": 1,
+      "overlayDepth": 1
+    },
+    {
+      "index": 3,
+      "node": "root:0:5_text",
+      "description": "Render text source \"root:0:5_text\" to video",
+      "elapsedMs": 126,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc8/gcolc12/fc109/ov1c0/fc8"
+      ],
+      "stableKey": "r/growc8/gcolc12/fc109/ov1c0/fc8",
+      "leafCount": 1,
+      "overlayDepth": 1
+    },
+    {
+      "index": 4,
+      "node": "root:0",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 470,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc8/gcolc12/gcolc8/fc87",
+        "r/growc8/gcolc12/fc38",
+        "r/growc8/gcolc12/fc85",
+        "r/growc8/gcolc12/fc85/ov1c0/fc8",
+        "r/growc8/gcolc12/fc109",
+        "r/growc8/gcolc12/fc109/ov1c0/fc8"
+      ],
+      "stableKey": "r/growc8/gcolc12",
+      "leafCount": 6,
+      "overlayDepth": 1,
+      "label": "chrome-header"
+    },
+    {
+      "index": 5,
+      "node": "root:1:0_text",
+      "description": "Render text source \"root:1:0_text\" to image",
+      "elapsedMs": 112,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc17/fc2"
+      ],
+      "stableKey": "r/growc17/fc2",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 6,
+      "node": "root:1:2_text",
+      "description": "Render text source \"root:1:2_text\" to image",
+      "elapsedMs": 112,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc17/fc22/ov1c0"
+      ],
+      "stableKey": "r/growc17/fc22/ov1c0",
+      "leafCount": 1,
+      "overlayDepth": 1
+    },
+    {
+      "index": 7,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 358,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc17/fc2",
+        "r/growc17/fc22",
+        "r/growc17/fc22/ov1c0",
+        "r/growc17/fc23"
+      ],
+      "stableKey": "r/growc17",
+      "leafCount": 4,
+      "overlayDepth": 1,
+      "label": "dsl-string"
+    },
+    {
+      "index": 8,
+      "node": "root:2:0_text",
+      "description": "Render text source \"root:2:0_text\" to video",
+      "elapsedMs": 143,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc23/gcolc4/fc96"
+      ],
+      "stableKey": "r/growc23/gcolc4/fc96",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 9,
+      "node": "root:2",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 103,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc23/gcolc4/fc96"
+      ],
+      "stableKey": "r/growc23/gcolc4/fc96",
+      "leafCount": 1,
+      "overlayDepth": 0,
+      "label": "dsl-narration"
+    },
+    {
+      "index": 10,
+      "node": "root:3:2_text",
+      "description": "Render text source \"root:3:2_text\" to image",
+      "elapsedMs": 107,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0"
+      ],
+      "stableKey": "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0",
+      "leafCount": 1,
+      "overlayDepth": 2
+    },
+    {
+      "index": 11,
+      "node": "root:3",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 5322,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/gcolc3/fc13",
+        "r/gcolc93/gcolc3/fc13/ov1c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0/ov3c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0/ov3c0/ov4c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0/ov3c0/ov4c0/ov5c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0/ov3c0/ov4c0/ov5c0/ov6c0"
+      ],
+      "stableKey": "r/gcolc93/gcolc3/fc13",
+      "leafCount": 7,
+      "overlayDepth": 6,
+      "label": "canvas"
+    },
+    {
+      "index": 12,
+      "node": "root:4:0_text",
+      "description": "Render text source \"root:4:0_text\" to image",
+      "elapsedMs": 33,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc10/fc14"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc14",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 13,
+      "node": "root:4:2_text",
+      "description": "Render text source \"root:4:2_text\" to image",
+      "elapsedMs": 27,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8",
+      "leafCount": 1,
+      "overlayDepth": 1
+    },
+    {
+      "index": 14,
+      "node": "root:4:3_text",
+      "description": "Render text source \"root:4:3_text\" to image",
+      "elapsedMs": 27,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8/ov2c0"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8/ov2c0",
+      "leafCount": 1,
+      "overlayDepth": 2
+    },
+    {
+      "index": 15,
+      "node": "root:4:4_text",
+      "description": "Render text source \"root:4:4_text\" to image",
+      "elapsedMs": 26,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8/ov2c0/ov3c0"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8/ov2c0/ov3c0",
+      "leafCount": 1,
+      "overlayDepth": 3
+    },
+    {
+      "index": 16,
+      "node": "root:4:6_text",
+      "description": "Render text source \"root:4:6_text\" to image",
+      "elapsedMs": 28,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8",
+      "leafCount": 1,
+      "overlayDepth": 1
+    },
+    {
+      "index": 17,
+      "node": "root:4:7_text",
+      "description": "Render text source \"root:4:7_text\" to image",
+      "elapsedMs": 27,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0",
+      "leafCount": 1,
+      "overlayDepth": 2
+    },
+    {
+      "index": 18,
+      "node": "root:4:8_text",
+      "description": "Render text source \"root:4:8_text\" to image",
+      "elapsedMs": 26,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0",
+      "leafCount": 1,
+      "overlayDepth": 3
+    },
+    {
+      "index": 19,
+      "node": "root:4:9_text",
+      "description": "Render text source \"root:4:9_text\" to image",
+      "elapsedMs": 28,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0/ov4c0"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0/ov4c0",
+      "leafCount": 1,
+      "overlayDepth": 4
+    },
+    {
+      "index": 20,
+      "node": "root:4:10_text",
+      "description": "Render text source \"root:4:10_text\" to image",
+      "elapsedMs": 28,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0/ov4c0/ov5c0"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0/ov4c0/ov5c0",
+      "leafCount": 1,
+      "overlayDepth": 5
+    },
+    {
+      "index": 21,
+      "node": "root:4:11_text",
+      "description": "Render text source \"root:4:11_text\" to image",
+      "elapsedMs": 29,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc22/fc7"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc22/fc7",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 22,
+      "node": "root:4:13_text",
+      "description": "Render text source \"root:4:13_text\" to video",
+      "elapsedMs": 62,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc22/fc29/ov1c0/fc10"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc22/fc29/ov1c0/fc10",
+      "leafCount": 1,
+      "overlayDepth": 1
+    },
+    {
+      "index": 23,
+      "node": "root:4:14_text",
+      "description": "Render text source \"root:4:14_text\" to image",
+      "elapsedMs": 27,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc34/fc7"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc34/fc7",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 24,
+      "node": "root:4:16_text",
+      "description": "Render text source \"root:4:16_text\" to video",
+      "elapsedMs": 66,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc34/fc29/ov1c0/fc10"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc34/fc29/ov1c0/fc10",
+      "leafCount": 1,
+      "overlayDepth": 1
+    },
+    {
+      "index": 25,
+      "node": "root:4:17_text",
+      "description": "Render text source \"root:4:17_text\" to image",
+      "elapsedMs": 35,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc46/fc7"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc46/fc7",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 26,
+      "node": "root:4:19_text",
+      "description": "Render text source \"root:4:19_text\" to video",
+      "elapsedMs": 57,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc46/fc29/ov1c0/fc10"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc46/fc29/ov1c0/fc10",
+      "leafCount": 1,
+      "overlayDepth": 1
+    },
+    {
+      "index": 27,
+      "node": "root:4:20_text",
+      "description": "Render text source \"root:4:20_text\" to image",
+      "elapsedMs": 26,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc58/fc7"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc58/fc7",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 28,
+      "node": "root:4:22_text",
+      "description": "Render text source \"root:4:22_text\" to video",
+      "elapsedMs": 63,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc58/fc29/ov1c0/fc10"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc58/fc29/ov1c0/fc10",
+      "leafCount": 1,
+      "overlayDepth": 1
+    },
+    {
+      "index": 29,
+      "node": "root:4:23_text",
+      "description": "Render text source \"root:4:23_text\" to image",
+      "elapsedMs": 26,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc70/fc7"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc70/fc7",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 30,
+      "node": "root:4:25_text",
+      "description": "Render text source \"root:4:25_text\" to video",
+      "elapsedMs": 61,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc70/fc29/ov1c0/fc10"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc70/fc29/ov1c0/fc10",
+      "leafCount": 1,
+      "overlayDepth": 1
+    },
+    {
+      "index": 31,
+      "node": "root:4:26_text",
+      "description": "Render text source \"root:4:26_text\" to image",
+      "elapsedMs": 28,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc80/fc20"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc80/fc20",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 32,
+      "node": "root:4:28_text",
+      "description": "Render text source \"root:4:28_text\" to image",
+      "elapsedMs": 26,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc93/fc7"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc93/fc7",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 33,
+      "node": "root:4:30_text",
+      "description": "Render text source \"root:4:30_text\" to image",
+      "elapsedMs": 26,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc93/fc15/ov1c0/fc8"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc93/fc15/ov1c0/fc8",
+      "leafCount": 1,
+      "overlayDepth": 1
+    },
+    {
+      "index": 34,
+      "node": "root:4:31_text",
+      "description": "Render text source \"root:4:31_text\" to image",
+      "elapsedMs": 27,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc93/fc15/ov1c0/fc8/ov2c0"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc93/fc15/ov1c0/fc8/ov2c0",
+      "leafCount": 1,
+      "overlayDepth": 2
+    },
+    {
+      "index": 35,
+      "node": "root:4:33_text",
+      "description": "Render text source \"root:4:33_text\" to video",
+      "elapsedMs": 66,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc93/fc29/ov1c0/fc10"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc93/fc29/ov1c0/fc10",
+      "leafCount": 1,
+      "overlayDepth": 1
+    },
+    {
+      "index": 36,
+      "node": "root:4:34_text",
+      "description": "Render text source \"root:4:34_text\" to image",
+      "elapsedMs": 27,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc105/fc7"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc105/fc7",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 37,
+      "node": "root:4:36_text",
+      "description": "Render text source \"root:4:36_text\" to video",
+      "elapsedMs": 50,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc105/fc29/ov1c0/fc10"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc105/fc29/ov1c0/fc10",
+      "leafCount": 1,
+      "overlayDepth": 1
+    },
+    {
+      "index": 38,
+      "node": "root:4:37_text",
+      "description": "Render text source \"root:4:37_text\" to image",
+      "elapsedMs": 26,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc117/fc7"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc117/fc7",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 39,
+      "node": "root:4:39_text",
+      "description": "Render text source \"root:4:39_text\" to video",
+      "elapsedMs": 61,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc117/fc29/ov1c0/fc10"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23/gcolc117/fc29/ov1c0/fc10",
+      "leafCount": 1,
+      "overlayDepth": 1
+    },
+    {
+      "index": 40,
+      "node": "root:4",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 2135,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc10/fc14",
+        "r/gcolc93/growc4/growc23/gcolc10/fc24",
+        "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8",
+        "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8/ov2c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8/ov2c0/ov3c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0/ov4c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0/ov4c0/ov5c0",
+        "r/gcolc93/growc4/growc23/gcolc22/fc7",
+        "r/gcolc93/growc4/growc23/gcolc22/fc29",
+        "r/gcolc93/growc4/growc23/gcolc22/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc34/fc7",
+        "r/gcolc93/growc4/growc23/gcolc34/fc29",
+        "r/gcolc93/growc4/growc23/gcolc34/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc46/fc7",
+        "r/gcolc93/growc4/growc23/gcolc46/fc29",
+        "r/gcolc93/growc4/growc23/gcolc46/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc58/fc7",
+        "r/gcolc93/growc4/growc23/gcolc58/fc29",
+        "r/gcolc93/growc4/growc23/gcolc58/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc70/fc7",
+        "r/gcolc93/growc4/growc23/gcolc70/fc29",
+        "r/gcolc93/growc4/growc23/gcolc70/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc80/fc20",
+        "r/gcolc93/growc4/growc23/gcolc80/growc47/fc5",
+        "r/gcolc93/growc4/growc23/gcolc93/fc7",
+        "r/gcolc93/growc4/growc23/gcolc93/fc15",
+        "r/gcolc93/growc4/growc23/gcolc93/fc15/ov1c0/fc8",
+        "r/gcolc93/growc4/growc23/gcolc93/fc15/ov1c0/fc8/ov2c0",
+        "r/gcolc93/growc4/growc23/gcolc93/fc29",
+        "r/gcolc93/growc4/growc23/gcolc93/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc105/fc7",
+        "r/gcolc93/growc4/growc23/gcolc105/fc29",
+        "r/gcolc93/growc4/growc23/gcolc105/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc117/fc7",
+        "r/gcolc93/growc4/growc23/gcolc117/fc29",
+        "r/gcolc93/growc4/growc23/gcolc117/fc29/ov1c0/fc10"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23",
+      "leafCount": 40,
+      "overlayDepth": 5,
+      "label": "inspector"
+    },
+    {
+      "index": 41,
+      "node": "root:5:1_text",
+      "description": "Render text source \"root:5:1_text\" to image",
+      "elapsedMs": 26,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/fc12"
+      ],
+      "stableKey": "r/growc99/gcolc12/fc12",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 42,
+      "node": "root:5:3_text",
+      "description": "Render text source \"root:5:3_text\" to image",
+      "elapsedMs": 26,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/gcolc27/fc5"
+      ],
+      "stableKey": "r/growc99/gcolc12/gcolc27/fc5",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 43,
+      "node": "root:5:4_text",
+      "description": "Render text source \"root:5:4_text\" to image",
+      "elapsedMs": 27,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/gcolc27/fc15"
+      ],
+      "stableKey": "r/growc99/gcolc12/gcolc27/fc15",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 44,
+      "node": "root:5:5_text",
+      "description": "Render text source \"root:5:5_text\" to image",
+      "elapsedMs": 26,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/gcolc40/fc4"
+      ],
+      "stableKey": "r/growc99/gcolc12/gcolc40/fc4",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 45,
+      "node": "root:5:6_text",
+      "description": "Render text source \"root:5:6_text\" to image",
+      "elapsedMs": 27,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/gcolc40/fc7"
+      ],
+      "stableKey": "r/growc99/gcolc12/gcolc40/fc7",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 46,
+      "node": "root:5:7_text",
+      "description": "Render text source \"root:5:7_text\" to image",
+      "elapsedMs": 33,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/gcolc53/fc5"
+      ],
+      "stableKey": "r/growc99/gcolc12/gcolc53/fc5",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 47,
+      "node": "root:5:8_text",
+      "description": "Render text source \"root:5:8_text\" to image",
+      "elapsedMs": 26,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/gcolc53/fc8"
+      ],
+      "stableKey": "r/growc99/gcolc12/gcolc53/fc8",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 48,
+      "node": "root:5:9_text",
+      "description": "Render text source \"root:5:9_text\" to image",
+      "elapsedMs": 27,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/gcolc66/fc11"
+      ],
+      "stableKey": "r/growc99/gcolc12/gcolc66/fc11",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 49,
+      "node": "root:5:10_text",
+      "description": "Render text source \"root:5:10_text\" to image",
+      "elapsedMs": 26,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/gcolc66/fc14"
+      ],
+      "stableKey": "r/growc99/gcolc12/gcolc66/fc14",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 50,
+      "node": "root:5:11_text",
+      "description": "Render text source \"root:5:11_text\" to image",
+      "elapsedMs": 26,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/gcolc79/fc4"
+      ],
+      "stableKey": "r/growc99/gcolc12/gcolc79/fc4",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 51,
+      "node": "root:5:12_text",
+      "description": "Render text source \"root:5:12_text\" to image",
+      "elapsedMs": 26,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/gcolc79/fc7"
+      ],
+      "stableKey": "r/growc99/gcolc12/gcolc79/fc7",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 52,
+      "node": "root:5:13_text",
+      "description": "Render text source \"root:5:13_text\" to image",
+      "elapsedMs": 35,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/gcolc92/fc5"
+      ],
+      "stableKey": "r/growc99/gcolc12/gcolc92/fc5",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 53,
+      "node": "root:5:14_text",
+      "description": "Render text source \"root:5:14_text\" to image",
+      "elapsedMs": 27,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/gcolc92/fc8"
+      ],
+      "stableKey": "r/growc99/gcolc12/gcolc92/fc8",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 54,
+      "node": "root:5:15_text",
+      "description": "Render text source \"root:5:15_text\" to image",
+      "elapsedMs": 26,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/gcolc105/fc8"
+      ],
+      "stableKey": "r/growc99/gcolc12/gcolc105/fc8",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 55,
+      "node": "root:5:16_text",
+      "description": "Render text source \"root:5:16_text\" to image",
+      "elapsedMs": 26,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/gcolc105/fc12"
+      ],
+      "stableKey": "r/growc99/gcolc12/gcolc105/fc12",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 56,
+      "node": "root:5:17_text",
+      "description": "Render text source \"root:5:17_text\" to image",
+      "elapsedMs": 26,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/gcolc118/fc11"
+      ],
+      "stableKey": "r/growc99/gcolc12/gcolc118/fc11",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 57,
+      "node": "root:5:18_text",
+      "description": "Render text source \"root:5:18_text\" to image",
+      "elapsedMs": 26,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/gcolc118/fc18"
+      ],
+      "stableKey": "r/growc99/gcolc12/gcolc118/fc18",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 58,
+      "node": "root:5",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 528,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/growc3/fc48",
+        "r/growc99/gcolc12/fc12",
+        "r/growc99/gcolc12/growc13/fc10",
+        "r/growc99/gcolc12/gcolc27/fc5",
+        "r/growc99/gcolc12/gcolc27/fc15",
+        "r/growc99/gcolc12/gcolc40/fc4",
+        "r/growc99/gcolc12/gcolc40/fc7",
+        "r/growc99/gcolc12/gcolc53/fc5",
+        "r/growc99/gcolc12/gcolc53/fc8",
+        "r/growc99/gcolc12/gcolc66/fc11",
+        "r/growc99/gcolc12/gcolc66/fc14",
+        "r/growc99/gcolc12/gcolc79/fc4",
+        "r/growc99/gcolc12/gcolc79/fc7",
+        "r/growc99/gcolc12/gcolc92/fc5",
+        "r/growc99/gcolc12/gcolc92/fc8",
+        "r/growc99/gcolc12/gcolc105/fc8",
+        "r/growc99/gcolc12/gcolc105/fc12",
+        "r/growc99/gcolc12/gcolc118/fc11",
+        "r/growc99/gcolc12/gcolc118/fc18"
+      ],
+      "stableKey": "r/growc99/gcolc12",
+      "leafCount": 19,
+      "overlayDepth": 0,
+      "label": "chrome-status"
+    },
+    {
+      "index": 59,
+      "node": "root",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 2749,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc8/gcolc12/gcolc8/fc87",
+        "r/growc8/gcolc12/fc38",
+        "r/growc8/gcolc12/fc85",
+        "r/growc8/gcolc12/fc85/ov1c0/fc8",
+        "r/growc8/gcolc12/fc109",
+        "r/growc8/gcolc12/fc109/ov1c0/fc8",
+        "r/growc17/fc2",
+        "r/growc17/fc22",
+        "r/growc17/fc22/ov1c0",
+        "r/growc17/fc23",
+        "r/growc23/gcolc4/fc96",
+        "r/gcolc93/gcolc3/fc13",
+        "r/gcolc93/gcolc3/fc13/ov1c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0/ov3c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0/ov3c0/ov4c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0/ov3c0/ov4c0/ov5c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0/ov3c0/ov4c0/ov5c0/ov6c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc14",
+        "r/gcolc93/growc4/growc23/gcolc10/fc24",
+        "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8",
+        "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8/ov2c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8/ov2c0/ov3c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0/ov4c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0/ov4c0/ov5c0",
+        "r/gcolc93/growc4/growc23/gcolc22/fc7",
+        "r/gcolc93/growc4/growc23/gcolc22/fc29",
+        "r/gcolc93/growc4/growc23/gcolc22/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc34/fc7",
+        "r/gcolc93/growc4/growc23/gcolc34/fc29",
+        "r/gcolc93/growc4/growc23/gcolc34/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc46/fc7",
+        "r/gcolc93/growc4/growc23/gcolc46/fc29",
+        "r/gcolc93/growc4/growc23/gcolc46/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc58/fc7",
+        "r/gcolc93/growc4/growc23/gcolc58/fc29",
+        "r/gcolc93/growc4/growc23/gcolc58/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc70/fc7",
+        "r/gcolc93/growc4/growc23/gcolc70/fc29",
+        "r/gcolc93/growc4/growc23/gcolc70/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc80/fc20",
+        "r/gcolc93/growc4/growc23/gcolc80/growc47/fc5",
+        "r/gcolc93/growc4/growc23/gcolc93/fc7",
+        "r/gcolc93/growc4/growc23/gcolc93/fc15",
+        "r/gcolc93/growc4/growc23/gcolc93/fc15/ov1c0/fc8",
+        "r/gcolc93/growc4/growc23/gcolc93/fc15/ov1c0/fc8/ov2c0",
+        "r/gcolc93/growc4/growc23/gcolc93/fc29",
+        "r/gcolc93/growc4/growc23/gcolc93/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc105/fc7",
+        "r/gcolc93/growc4/growc23/gcolc105/fc29",
+        "r/gcolc93/growc4/growc23/gcolc105/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc117/fc7",
+        "r/gcolc93/growc4/growc23/gcolc117/fc29",
+        "r/gcolc93/growc4/growc23/gcolc117/fc29/ov1c0/fc10",
+        "r/growc99/gcolc12/growc3/fc48",
+        "r/growc99/gcolc12/fc12",
+        "r/growc99/gcolc12/growc13/fc10",
+        "r/growc99/gcolc12/gcolc27/fc5",
+        "r/growc99/gcolc12/gcolc27/fc15",
+        "r/growc99/gcolc12/gcolc40/fc4",
+        "r/growc99/gcolc12/gcolc40/fc7",
+        "r/growc99/gcolc12/gcolc53/fc5",
+        "r/growc99/gcolc12/gcolc53/fc8",
+        "r/growc99/gcolc12/gcolc66/fc11",
+        "r/growc99/gcolc12/gcolc66/fc14",
+        "r/growc99/gcolc12/gcolc79/fc4",
+        "r/growc99/gcolc12/gcolc79/fc7",
+        "r/growc99/gcolc12/gcolc92/fc5",
+        "r/growc99/gcolc12/gcolc92/fc8",
+        "r/growc99/gcolc12/gcolc105/fc8",
+        "r/growc99/gcolc12/gcolc105/fc12",
+        "r/growc99/gcolc12/gcolc118/fc11",
+        "r/growc99/gcolc12/gcolc118/fc18"
+      ],
+      "stableKey": "r",
+      "leafCount": 77,
+      "overlayDepth": 6
+    }
+  ],
+  "slowest": [
+    {
+      "index": 11,
+      "node": "root:3",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 5322,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/gcolc3/fc13",
+        "r/gcolc93/gcolc3/fc13/ov1c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0/ov3c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0/ov3c0/ov4c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0/ov3c0/ov4c0/ov5c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0/ov3c0/ov4c0/ov5c0/ov6c0"
+      ],
+      "stableKey": "r/gcolc93/gcolc3/fc13",
+      "leafCount": 7,
+      "overlayDepth": 6,
+      "label": "canvas"
+    },
+    {
+      "index": 59,
+      "node": "root",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 2749,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc8/gcolc12/gcolc8/fc87",
+        "r/growc8/gcolc12/fc38",
+        "r/growc8/gcolc12/fc85",
+        "r/growc8/gcolc12/fc85/ov1c0/fc8",
+        "r/growc8/gcolc12/fc109",
+        "r/growc8/gcolc12/fc109/ov1c0/fc8",
+        "r/growc17/fc2",
+        "r/growc17/fc22",
+        "r/growc17/fc22/ov1c0",
+        "r/growc17/fc23",
+        "r/growc23/gcolc4/fc96",
+        "r/gcolc93/gcolc3/fc13",
+        "r/gcolc93/gcolc3/fc13/ov1c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0/ov3c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0/ov3c0/ov4c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0/ov3c0/ov4c0/ov5c0",
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0/ov3c0/ov4c0/ov5c0/ov6c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc14",
+        "r/gcolc93/growc4/growc23/gcolc10/fc24",
+        "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8",
+        "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8/ov2c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8/ov2c0/ov3c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0/ov4c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0/ov4c0/ov5c0",
+        "r/gcolc93/growc4/growc23/gcolc22/fc7",
+        "r/gcolc93/growc4/growc23/gcolc22/fc29",
+        "r/gcolc93/growc4/growc23/gcolc22/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc34/fc7",
+        "r/gcolc93/growc4/growc23/gcolc34/fc29",
+        "r/gcolc93/growc4/growc23/gcolc34/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc46/fc7",
+        "r/gcolc93/growc4/growc23/gcolc46/fc29",
+        "r/gcolc93/growc4/growc23/gcolc46/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc58/fc7",
+        "r/gcolc93/growc4/growc23/gcolc58/fc29",
+        "r/gcolc93/growc4/growc23/gcolc58/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc70/fc7",
+        "r/gcolc93/growc4/growc23/gcolc70/fc29",
+        "r/gcolc93/growc4/growc23/gcolc70/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc80/fc20",
+        "r/gcolc93/growc4/growc23/gcolc80/growc47/fc5",
+        "r/gcolc93/growc4/growc23/gcolc93/fc7",
+        "r/gcolc93/growc4/growc23/gcolc93/fc15",
+        "r/gcolc93/growc4/growc23/gcolc93/fc15/ov1c0/fc8",
+        "r/gcolc93/growc4/growc23/gcolc93/fc15/ov1c0/fc8/ov2c0",
+        "r/gcolc93/growc4/growc23/gcolc93/fc29",
+        "r/gcolc93/growc4/growc23/gcolc93/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc105/fc7",
+        "r/gcolc93/growc4/growc23/gcolc105/fc29",
+        "r/gcolc93/growc4/growc23/gcolc105/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc117/fc7",
+        "r/gcolc93/growc4/growc23/gcolc117/fc29",
+        "r/gcolc93/growc4/growc23/gcolc117/fc29/ov1c0/fc10",
+        "r/growc99/gcolc12/growc3/fc48",
+        "r/growc99/gcolc12/fc12",
+        "r/growc99/gcolc12/growc13/fc10",
+        "r/growc99/gcolc12/gcolc27/fc5",
+        "r/growc99/gcolc12/gcolc27/fc15",
+        "r/growc99/gcolc12/gcolc40/fc4",
+        "r/growc99/gcolc12/gcolc40/fc7",
+        "r/growc99/gcolc12/gcolc53/fc5",
+        "r/growc99/gcolc12/gcolc53/fc8",
+        "r/growc99/gcolc12/gcolc66/fc11",
+        "r/growc99/gcolc12/gcolc66/fc14",
+        "r/growc99/gcolc12/gcolc79/fc4",
+        "r/growc99/gcolc12/gcolc79/fc7",
+        "r/growc99/gcolc12/gcolc92/fc5",
+        "r/growc99/gcolc12/gcolc92/fc8",
+        "r/growc99/gcolc12/gcolc105/fc8",
+        "r/growc99/gcolc12/gcolc105/fc12",
+        "r/growc99/gcolc12/gcolc118/fc11",
+        "r/growc99/gcolc12/gcolc118/fc18"
+      ],
+      "stableKey": "r",
+      "leafCount": 77,
+      "overlayDepth": 6
+    },
+    {
+      "index": 40,
+      "node": "root:4",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 2135,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/growc4/growc23/gcolc10/fc14",
+        "r/gcolc93/growc4/growc23/gcolc10/fc24",
+        "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8",
+        "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8/ov2c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8/ov2c0/ov3c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0/ov4c0",
+        "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0/ov4c0/ov5c0",
+        "r/gcolc93/growc4/growc23/gcolc22/fc7",
+        "r/gcolc93/growc4/growc23/gcolc22/fc29",
+        "r/gcolc93/growc4/growc23/gcolc22/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc34/fc7",
+        "r/gcolc93/growc4/growc23/gcolc34/fc29",
+        "r/gcolc93/growc4/growc23/gcolc34/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc46/fc7",
+        "r/gcolc93/growc4/growc23/gcolc46/fc29",
+        "r/gcolc93/growc4/growc23/gcolc46/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc58/fc7",
+        "r/gcolc93/growc4/growc23/gcolc58/fc29",
+        "r/gcolc93/growc4/growc23/gcolc58/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc70/fc7",
+        "r/gcolc93/growc4/growc23/gcolc70/fc29",
+        "r/gcolc93/growc4/growc23/gcolc70/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc80/fc20",
+        "r/gcolc93/growc4/growc23/gcolc80/growc47/fc5",
+        "r/gcolc93/growc4/growc23/gcolc93/fc7",
+        "r/gcolc93/growc4/growc23/gcolc93/fc15",
+        "r/gcolc93/growc4/growc23/gcolc93/fc15/ov1c0/fc8",
+        "r/gcolc93/growc4/growc23/gcolc93/fc15/ov1c0/fc8/ov2c0",
+        "r/gcolc93/growc4/growc23/gcolc93/fc29",
+        "r/gcolc93/growc4/growc23/gcolc93/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc105/fc7",
+        "r/gcolc93/growc4/growc23/gcolc105/fc29",
+        "r/gcolc93/growc4/growc23/gcolc105/fc29/ov1c0/fc10",
+        "r/gcolc93/growc4/growc23/gcolc117/fc7",
+        "r/gcolc93/growc4/growc23/gcolc117/fc29",
+        "r/gcolc93/growc4/growc23/gcolc117/fc29/ov1c0/fc10"
+      ],
+      "stableKey": "r/gcolc93/growc4/growc23",
+      "leafCount": 40,
+      "overlayDepth": 5,
+      "label": "inspector"
+    },
+    {
+      "index": 58,
+      "node": "root:5",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 528,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc99/gcolc12/growc3/fc48",
+        "r/growc99/gcolc12/fc12",
+        "r/growc99/gcolc12/growc13/fc10",
+        "r/growc99/gcolc12/gcolc27/fc5",
+        "r/growc99/gcolc12/gcolc27/fc15",
+        "r/growc99/gcolc12/gcolc40/fc4",
+        "r/growc99/gcolc12/gcolc40/fc7",
+        "r/growc99/gcolc12/gcolc53/fc5",
+        "r/growc99/gcolc12/gcolc53/fc8",
+        "r/growc99/gcolc12/gcolc66/fc11",
+        "r/growc99/gcolc12/gcolc66/fc14",
+        "r/growc99/gcolc12/gcolc79/fc4",
+        "r/growc99/gcolc12/gcolc79/fc7",
+        "r/growc99/gcolc12/gcolc92/fc5",
+        "r/growc99/gcolc12/gcolc92/fc8",
+        "r/growc99/gcolc12/gcolc105/fc8",
+        "r/growc99/gcolc12/gcolc105/fc12",
+        "r/growc99/gcolc12/gcolc118/fc11",
+        "r/growc99/gcolc12/gcolc118/fc18"
+      ],
+      "stableKey": "r/growc99/gcolc12",
+      "leafCount": 19,
+      "overlayDepth": 0,
+      "label": "chrome-status"
+    },
+    {
+      "index": 4,
+      "node": "root:0",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 470,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc8/gcolc12/gcolc8/fc87",
+        "r/growc8/gcolc12/fc38",
+        "r/growc8/gcolc12/fc85",
+        "r/growc8/gcolc12/fc85/ov1c0/fc8",
+        "r/growc8/gcolc12/fc109",
+        "r/growc8/gcolc12/fc109/ov1c0/fc8"
+      ],
+      "stableKey": "r/growc8/gcolc12",
+      "leafCount": 6,
+      "overlayDepth": 1,
+      "label": "chrome-header"
+    },
+    {
+      "index": 7,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 358,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc17/fc2",
+        "r/growc17/fc22",
+        "r/growc17/fc22/ov1c0",
+        "r/growc17/fc23"
+      ],
+      "stableKey": "r/growc17",
+      "leafCount": 4,
+      "overlayDepth": 1,
+      "label": "dsl-string"
+    },
+    {
+      "index": 8,
+      "node": "root:2:0_text",
+      "description": "Render text source \"root:2:0_text\" to video",
+      "elapsedMs": 143,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc23/gcolc4/fc96"
+      ],
+      "stableKey": "r/growc23/gcolc4/fc96",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 3,
+      "node": "root:0:5_text",
+      "description": "Render text source \"root:0:5_text\" to video",
+      "elapsedMs": 126,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc8/gcolc12/fc109/ov1c0/fc8"
+      ],
+      "stableKey": "r/growc8/gcolc12/fc109/ov1c0/fc8",
+      "leafCount": 1,
+      "overlayDepth": 1
+    },
+    {
+      "index": 5,
+      "node": "root:1:0_text",
+      "description": "Render text source \"root:1:0_text\" to image",
+      "elapsedMs": 112,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc17/fc2"
+      ],
+      "stableKey": "r/growc17/fc2",
+      "leafCount": 1,
+      "overlayDepth": 0
+    },
+    {
+      "index": 6,
+      "node": "root:1:2_text",
+      "description": "Render text source \"root:1:2_text\" to image",
+      "elapsedMs": 112,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc17/fc22/ov1c0"
+      ],
+      "stableKey": "r/growc17/fc22/ov1c0",
+      "leafCount": 1,
+      "overlayDepth": 1
+    },
+    {
+      "index": 10,
+      "node": "root:3:2_text",
+      "description": "Render text source \"root:3:2_text\" to image",
+      "elapsedMs": 107,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0"
+      ],
+      "stableKey": "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0",
+      "leafCount": 1,
+      "overlayDepth": 2
+    },
+    {
+      "index": 9,
+      "node": "root:2",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 103,
+      "exitCode": 0,
+      "frameKeys": [
+        "r/growc23/gcolc4/fc96"
+      ],
+      "stableKey": "r/growc23/gcolc4/fc96",
+      "leafCount": 1,
+      "overlayDepth": 0,
+      "label": "dsl-narration"
+    }
+  ],
+  "byCategory": [
+    {
+      "description": "m0saic render (mosaic node)",
+      "count": 7,
+      "totalMs": 11665,
+      "pct": 84.1
+    },
+    {
+      "description": "Render text source \"…\" to image",
+      "count": 42,
+      "totalMs": 1458,
+      "pct": 10.5
+    },
+    {
+      "description": "Render text source \"…\" to video",
+      "count": 10,
+      "totalMs": 755,
+      "pct": 5.4
+    }
+  ],
+  "nodeTree": [
+    {
+      "node": "root",
+      "selfMs": 2749,
+      "subtreeMs": 13878,
+      "commandCount": 1,
+      "children": [
+        {
+          "node": "root:3",
+          "label": "canvas",
+          "selfMs": 5322,
+          "subtreeMs": 5429,
+          "commandCount": 1,
+          "children": [
+            {
+              "node": "root:3:2_text",
+              "selfMs": 107,
+              "subtreeMs": 107,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "node": "root:4",
+          "label": "inspector",
+          "selfMs": 2135,
+          "subtreeMs": 3174,
+          "commandCount": 1,
+          "children": [
+            {
+              "node": "root:4:16_text",
+              "selfMs": 66,
+              "subtreeMs": 66,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:33_text",
+              "selfMs": 66,
+              "subtreeMs": 66,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:22_text",
+              "selfMs": 63,
+              "subtreeMs": 63,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:13_text",
+              "selfMs": 62,
+              "subtreeMs": 62,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:25_text",
+              "selfMs": 61,
+              "subtreeMs": 61,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:39_text",
+              "selfMs": 61,
+              "subtreeMs": 61,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:19_text",
+              "selfMs": 57,
+              "subtreeMs": 57,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:36_text",
+              "selfMs": 50,
+              "subtreeMs": 50,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:17_text",
+              "selfMs": 35,
+              "subtreeMs": 35,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:0_text",
+              "selfMs": 33,
+              "subtreeMs": 33,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:11_text",
+              "selfMs": 29,
+              "subtreeMs": 29,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:6_text",
+              "selfMs": 28,
+              "subtreeMs": 28,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:9_text",
+              "selfMs": 28,
+              "subtreeMs": 28,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:10_text",
+              "selfMs": 28,
+              "subtreeMs": 28,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:26_text",
+              "selfMs": 28,
+              "subtreeMs": 28,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:2_text",
+              "selfMs": 27,
+              "subtreeMs": 27,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:3_text",
+              "selfMs": 27,
+              "subtreeMs": 27,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:7_text",
+              "selfMs": 27,
+              "subtreeMs": 27,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:14_text",
+              "selfMs": 27,
+              "subtreeMs": 27,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:31_text",
+              "selfMs": 27,
+              "subtreeMs": 27,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:34_text",
+              "selfMs": 27,
+              "subtreeMs": 27,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:4_text",
+              "selfMs": 26,
+              "subtreeMs": 26,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:8_text",
+              "selfMs": 26,
+              "subtreeMs": 26,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:20_text",
+              "selfMs": 26,
+              "subtreeMs": 26,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:23_text",
+              "selfMs": 26,
+              "subtreeMs": 26,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:28_text",
+              "selfMs": 26,
+              "subtreeMs": 26,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:30_text",
+              "selfMs": 26,
+              "subtreeMs": 26,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:37_text",
+              "selfMs": 26,
+              "subtreeMs": 26,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "node": "root:5",
+          "label": "chrome-status",
+          "selfMs": 528,
+          "subtreeMs": 990,
+          "commandCount": 1,
+          "children": [
+            {
+              "node": "root:5:13_text",
+              "selfMs": 35,
+              "subtreeMs": 35,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:7_text",
+              "selfMs": 33,
+              "subtreeMs": 33,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:4_text",
+              "selfMs": 27,
+              "subtreeMs": 27,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:6_text",
+              "selfMs": 27,
+              "subtreeMs": 27,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:9_text",
+              "selfMs": 27,
+              "subtreeMs": 27,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:14_text",
+              "selfMs": 27,
+              "subtreeMs": 27,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:1_text",
+              "selfMs": 26,
+              "subtreeMs": 26,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:3_text",
+              "selfMs": 26,
+              "subtreeMs": 26,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:5_text",
+              "selfMs": 26,
+              "subtreeMs": 26,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:8_text",
+              "selfMs": 26,
+              "subtreeMs": 26,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:10_text",
+              "selfMs": 26,
+              "subtreeMs": 26,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:11_text",
+              "selfMs": 26,
+              "subtreeMs": 26,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:12_text",
+              "selfMs": 26,
+              "subtreeMs": 26,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:15_text",
+              "selfMs": 26,
+              "subtreeMs": 26,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:16_text",
+              "selfMs": 26,
+              "subtreeMs": 26,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:17_text",
+              "selfMs": 26,
+              "subtreeMs": 26,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:18_text",
+              "selfMs": 26,
+              "subtreeMs": 26,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "node": "root:0",
+          "label": "chrome-header",
+          "selfMs": 470,
+          "subtreeMs": 708,
+          "commandCount": 1,
+          "children": [
+            {
+              "node": "root:0:5_text",
+              "selfMs": 126,
+              "subtreeMs": 126,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:0:1_text",
+              "selfMs": 79,
+              "subtreeMs": 79,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:0:3_text",
+              "selfMs": 33,
+              "subtreeMs": 33,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "node": "root:1",
+          "label": "dsl-string",
+          "selfMs": 358,
+          "subtreeMs": 582,
+          "commandCount": 1,
+          "children": [
+            {
+              "node": "root:1:0_text",
+              "selfMs": 112,
+              "subtreeMs": 112,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:2_text",
+              "selfMs": 112,
+              "subtreeMs": 112,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "node": "root:2",
+          "label": "dsl-narration",
+          "selfMs": 103,
+          "subtreeMs": 246,
+          "commandCount": 1,
+          "children": [
+            {
+              "node": "root:2:0_text",
+              "selfMs": 143,
+              "subtreeMs": 143,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rectTree": [
+    {
+      "stableKey": "r",
+      "node": "root",
+      "selfMs": 2749,
+      "subtreeMs": 13878,
+      "pct": 100,
+      "commandCount": 1,
+      "leafCount": 77,
+      "overlayDepth": 6,
+      "children": [
+        {
+          "stableKey": "r/gcolc93",
+          "selfMs": 0,
+          "subtreeMs": 8603,
+          "pct": 62,
+          "commandCount": 0,
+          "children": [
+            {
+              "stableKey": "r/gcolc93/gcolc3",
+              "selfMs": 0,
+              "subtreeMs": 5429,
+              "pct": 39.1,
+              "commandCount": 0,
+              "children": [
+                {
+                  "stableKey": "r/gcolc93/gcolc3/fc13",
+                  "label": "canvas",
+                  "node": "root:3",
+                  "selfMs": 5322,
+                  "subtreeMs": 5429,
+                  "pct": 39.1,
+                  "commandCount": 1,
+                  "leafCount": 7,
+                  "overlayDepth": 6,
+                  "children": [
+                    {
+                      "stableKey": "r/gcolc93/gcolc3/fc13/ov1c0",
+                      "selfMs": 0,
+                      "subtreeMs": 107,
+                      "pct": 0.8,
+                      "commandCount": 0,
+                      "children": [
+                        {
+                          "stableKey": "r/gcolc93/gcolc3/fc13/ov1c0/ov2c0",
+                          "node": "root:3:2_text",
+                          "selfMs": 107,
+                          "subtreeMs": 107,
+                          "pct": 0.8,
+                          "commandCount": 1,
+                          "leafCount": 1,
+                          "overlayDepth": 2,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "stableKey": "r/gcolc93/growc4",
+              "selfMs": 0,
+              "subtreeMs": 3174,
+              "pct": 22.9,
+              "commandCount": 0,
+              "children": [
+                {
+                  "stableKey": "r/gcolc93/growc4/growc23",
+                  "label": "inspector",
+                  "node": "root:4",
+                  "selfMs": 2135,
+                  "subtreeMs": 3174,
+                  "pct": 22.9,
+                  "commandCount": 1,
+                  "leafCount": 40,
+                  "overlayDepth": 5,
+                  "children": [
+                    {
+                      "stableKey": "r/gcolc93/growc4/growc23/gcolc10",
+                      "selfMs": 0,
+                      "subtreeMs": 250,
+                      "pct": 1.8,
+                      "commandCount": 0,
+                      "children": [
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc33",
+                          "selfMs": 0,
+                          "subtreeMs": 137,
+                          "pct": 1,
+                          "commandCount": 0,
+                          "children": [
+                            {
+                              "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0",
+                              "selfMs": 0,
+                              "subtreeMs": 137,
+                              "pct": 1,
+                              "commandCount": 0,
+                              "children": [
+                                {
+                                  "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8",
+                                  "node": "root:4:6_text",
+                                  "selfMs": 28,
+                                  "subtreeMs": 137,
+                                  "pct": 1,
+                                  "commandCount": 1,
+                                  "leafCount": 1,
+                                  "overlayDepth": 1,
+                                  "children": [
+                                    {
+                                      "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0",
+                                      "node": "root:4:7_text",
+                                      "selfMs": 27,
+                                      "subtreeMs": 109,
+                                      "pct": 0.8,
+                                      "commandCount": 1,
+                                      "leafCount": 1,
+                                      "overlayDepth": 2,
+                                      "children": [
+                                        {
+                                          "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0",
+                                          "node": "root:4:8_text",
+                                          "selfMs": 26,
+                                          "subtreeMs": 82,
+                                          "pct": 0.6,
+                                          "commandCount": 1,
+                                          "leafCount": 1,
+                                          "overlayDepth": 3,
+                                          "children": [
+                                            {
+                                              "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0/ov4c0",
+                                              "node": "root:4:9_text",
+                                              "selfMs": 28,
+                                              "subtreeMs": 56,
+                                              "pct": 0.4,
+                                              "commandCount": 1,
+                                              "leafCount": 1,
+                                              "overlayDepth": 4,
+                                              "children": [
+                                                {
+                                                  "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc33/ov1c0/fc8/ov2c0/ov3c0/ov4c0/ov5c0",
+                                                  "node": "root:4:10_text",
+                                                  "selfMs": 28,
+                                                  "subtreeMs": 28,
+                                                  "pct": 0.2,
+                                                  "commandCount": 1,
+                                                  "leafCount": 1,
+                                                  "overlayDepth": 5,
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc24",
+                          "selfMs": 0,
+                          "subtreeMs": 80,
+                          "pct": 0.6,
+                          "commandCount": 0,
+                          "children": [
+                            {
+                              "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0",
+                              "selfMs": 0,
+                              "subtreeMs": 80,
+                              "pct": 0.6,
+                              "commandCount": 0,
+                              "children": [
+                                {
+                                  "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8",
+                                  "node": "root:4:2_text",
+                                  "selfMs": 27,
+                                  "subtreeMs": 80,
+                                  "pct": 0.6,
+                                  "commandCount": 1,
+                                  "leafCount": 1,
+                                  "overlayDepth": 1,
+                                  "children": [
+                                    {
+                                      "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8/ov2c0",
+                                      "node": "root:4:3_text",
+                                      "selfMs": 27,
+                                      "subtreeMs": 53,
+                                      "pct": 0.4,
+                                      "commandCount": 1,
+                                      "leafCount": 1,
+                                      "overlayDepth": 2,
+                                      "children": [
+                                        {
+                                          "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc24/ov1c0/fc8/ov2c0/ov3c0",
+                                          "node": "root:4:4_text",
+                                          "selfMs": 26,
+                                          "subtreeMs": 26,
+                                          "pct": 0.2,
+                                          "commandCount": 1,
+                                          "leafCount": 1,
+                                          "overlayDepth": 3,
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc10/fc14",
+                          "node": "root:4:0_text",
+                          "selfMs": 33,
+                          "subtreeMs": 33,
+                          "pct": 0.2,
+                          "commandCount": 1,
+                          "leafCount": 1,
+                          "overlayDepth": 0,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "stableKey": "r/gcolc93/growc4/growc23/gcolc93",
+                      "selfMs": 0,
+                      "subtreeMs": 145,
+                      "pct": 1,
+                      "commandCount": 0,
+                      "children": [
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc93/fc29",
+                          "selfMs": 0,
+                          "subtreeMs": 66,
+                          "pct": 0.5,
+                          "commandCount": 0,
+                          "children": [
+                            {
+                              "stableKey": "r/gcolc93/growc4/growc23/gcolc93/fc29/ov1c0",
+                              "selfMs": 0,
+                              "subtreeMs": 66,
+                              "pct": 0.5,
+                              "commandCount": 0,
+                              "children": [
+                                {
+                                  "stableKey": "r/gcolc93/growc4/growc23/gcolc93/fc29/ov1c0/fc10",
+                                  "node": "root:4:33_text",
+                                  "selfMs": 66,
+                                  "subtreeMs": 66,
+                                  "pct": 0.5,
+                                  "commandCount": 1,
+                                  "leafCount": 1,
+                                  "overlayDepth": 1,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc93/fc15",
+                          "selfMs": 0,
+                          "subtreeMs": 53,
+                          "pct": 0.4,
+                          "commandCount": 0,
+                          "children": [
+                            {
+                              "stableKey": "r/gcolc93/growc4/growc23/gcolc93/fc15/ov1c0",
+                              "selfMs": 0,
+                              "subtreeMs": 53,
+                              "pct": 0.4,
+                              "commandCount": 0,
+                              "children": [
+                                {
+                                  "stableKey": "r/gcolc93/growc4/growc23/gcolc93/fc15/ov1c0/fc8",
+                                  "node": "root:4:30_text",
+                                  "selfMs": 26,
+                                  "subtreeMs": 53,
+                                  "pct": 0.4,
+                                  "commandCount": 1,
+                                  "leafCount": 1,
+                                  "overlayDepth": 1,
+                                  "children": [
+                                    {
+                                      "stableKey": "r/gcolc93/growc4/growc23/gcolc93/fc15/ov1c0/fc8/ov2c0",
+                                      "node": "root:4:31_text",
+                                      "selfMs": 27,
+                                      "subtreeMs": 27,
+                                      "pct": 0.2,
+                                      "commandCount": 1,
+                                      "leafCount": 1,
+                                      "overlayDepth": 2,
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc93/fc7",
+                          "node": "root:4:28_text",
+                          "selfMs": 26,
+                          "subtreeMs": 26,
+                          "pct": 0.2,
+                          "commandCount": 1,
+                          "leafCount": 1,
+                          "overlayDepth": 0,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "stableKey": "r/gcolc93/growc4/growc23/gcolc34",
+                      "selfMs": 0,
+                      "subtreeMs": 93,
+                      "pct": 0.7,
+                      "commandCount": 0,
+                      "children": [
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc34/fc29",
+                          "selfMs": 0,
+                          "subtreeMs": 66,
+                          "pct": 0.5,
+                          "commandCount": 0,
+                          "children": [
+                            {
+                              "stableKey": "r/gcolc93/growc4/growc23/gcolc34/fc29/ov1c0",
+                              "selfMs": 0,
+                              "subtreeMs": 66,
+                              "pct": 0.5,
+                              "commandCount": 0,
+                              "children": [
+                                {
+                                  "stableKey": "r/gcolc93/growc4/growc23/gcolc34/fc29/ov1c0/fc10",
+                                  "node": "root:4:16_text",
+                                  "selfMs": 66,
+                                  "subtreeMs": 66,
+                                  "pct": 0.5,
+                                  "commandCount": 1,
+                                  "leafCount": 1,
+                                  "overlayDepth": 1,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc34/fc7",
+                          "node": "root:4:14_text",
+                          "selfMs": 27,
+                          "subtreeMs": 27,
+                          "pct": 0.2,
+                          "commandCount": 1,
+                          "leafCount": 1,
+                          "overlayDepth": 0,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "stableKey": "r/gcolc93/growc4/growc23/gcolc46",
+                      "selfMs": 0,
+                      "subtreeMs": 92,
+                      "pct": 0.7,
+                      "commandCount": 0,
+                      "children": [
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc46/fc29",
+                          "selfMs": 0,
+                          "subtreeMs": 57,
+                          "pct": 0.4,
+                          "commandCount": 0,
+                          "children": [
+                            {
+                              "stableKey": "r/gcolc93/growc4/growc23/gcolc46/fc29/ov1c0",
+                              "selfMs": 0,
+                              "subtreeMs": 57,
+                              "pct": 0.4,
+                              "commandCount": 0,
+                              "children": [
+                                {
+                                  "stableKey": "r/gcolc93/growc4/growc23/gcolc46/fc29/ov1c0/fc10",
+                                  "node": "root:4:19_text",
+                                  "selfMs": 57,
+                                  "subtreeMs": 57,
+                                  "pct": 0.4,
+                                  "commandCount": 1,
+                                  "leafCount": 1,
+                                  "overlayDepth": 1,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc46/fc7",
+                          "node": "root:4:17_text",
+                          "selfMs": 35,
+                          "subtreeMs": 35,
+                          "pct": 0.3,
+                          "commandCount": 1,
+                          "leafCount": 1,
+                          "overlayDepth": 0,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "stableKey": "r/gcolc93/growc4/growc23/gcolc22",
+                      "selfMs": 0,
+                      "subtreeMs": 91,
+                      "pct": 0.7,
+                      "commandCount": 0,
+                      "children": [
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc22/fc29",
+                          "selfMs": 0,
+                          "subtreeMs": 62,
+                          "pct": 0.4,
+                          "commandCount": 0,
+                          "children": [
+                            {
+                              "stableKey": "r/gcolc93/growc4/growc23/gcolc22/fc29/ov1c0",
+                              "selfMs": 0,
+                              "subtreeMs": 62,
+                              "pct": 0.4,
+                              "commandCount": 0,
+                              "children": [
+                                {
+                                  "stableKey": "r/gcolc93/growc4/growc23/gcolc22/fc29/ov1c0/fc10",
+                                  "node": "root:4:13_text",
+                                  "selfMs": 62,
+                                  "subtreeMs": 62,
+                                  "pct": 0.4,
+                                  "commandCount": 1,
+                                  "leafCount": 1,
+                                  "overlayDepth": 1,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc22/fc7",
+                          "node": "root:4:11_text",
+                          "selfMs": 29,
+                          "subtreeMs": 29,
+                          "pct": 0.2,
+                          "commandCount": 1,
+                          "leafCount": 1,
+                          "overlayDepth": 0,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "stableKey": "r/gcolc93/growc4/growc23/gcolc58",
+                      "selfMs": 0,
+                      "subtreeMs": 89,
+                      "pct": 0.6,
+                      "commandCount": 0,
+                      "children": [
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc58/fc29",
+                          "selfMs": 0,
+                          "subtreeMs": 63,
+                          "pct": 0.5,
+                          "commandCount": 0,
+                          "children": [
+                            {
+                              "stableKey": "r/gcolc93/growc4/growc23/gcolc58/fc29/ov1c0",
+                              "selfMs": 0,
+                              "subtreeMs": 63,
+                              "pct": 0.5,
+                              "commandCount": 0,
+                              "children": [
+                                {
+                                  "stableKey": "r/gcolc93/growc4/growc23/gcolc58/fc29/ov1c0/fc10",
+                                  "node": "root:4:22_text",
+                                  "selfMs": 63,
+                                  "subtreeMs": 63,
+                                  "pct": 0.5,
+                                  "commandCount": 1,
+                                  "leafCount": 1,
+                                  "overlayDepth": 1,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc58/fc7",
+                          "node": "root:4:20_text",
+                          "selfMs": 26,
+                          "subtreeMs": 26,
+                          "pct": 0.2,
+                          "commandCount": 1,
+                          "leafCount": 1,
+                          "overlayDepth": 0,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "stableKey": "r/gcolc93/growc4/growc23/gcolc70",
+                      "selfMs": 0,
+                      "subtreeMs": 87,
+                      "pct": 0.6,
+                      "commandCount": 0,
+                      "children": [
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc70/fc29",
+                          "selfMs": 0,
+                          "subtreeMs": 61,
+                          "pct": 0.4,
+                          "commandCount": 0,
+                          "children": [
+                            {
+                              "stableKey": "r/gcolc93/growc4/growc23/gcolc70/fc29/ov1c0",
+                              "selfMs": 0,
+                              "subtreeMs": 61,
+                              "pct": 0.4,
+                              "commandCount": 0,
+                              "children": [
+                                {
+                                  "stableKey": "r/gcolc93/growc4/growc23/gcolc70/fc29/ov1c0/fc10",
+                                  "node": "root:4:25_text",
+                                  "selfMs": 61,
+                                  "subtreeMs": 61,
+                                  "pct": 0.4,
+                                  "commandCount": 1,
+                                  "leafCount": 1,
+                                  "overlayDepth": 1,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc70/fc7",
+                          "node": "root:4:23_text",
+                          "selfMs": 26,
+                          "subtreeMs": 26,
+                          "pct": 0.2,
+                          "commandCount": 1,
+                          "leafCount": 1,
+                          "overlayDepth": 0,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "stableKey": "r/gcolc93/growc4/growc23/gcolc117",
+                      "selfMs": 0,
+                      "subtreeMs": 87,
+                      "pct": 0.6,
+                      "commandCount": 0,
+                      "children": [
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc117/fc29",
+                          "selfMs": 0,
+                          "subtreeMs": 61,
+                          "pct": 0.4,
+                          "commandCount": 0,
+                          "children": [
+                            {
+                              "stableKey": "r/gcolc93/growc4/growc23/gcolc117/fc29/ov1c0",
+                              "selfMs": 0,
+                              "subtreeMs": 61,
+                              "pct": 0.4,
+                              "commandCount": 0,
+                              "children": [
+                                {
+                                  "stableKey": "r/gcolc93/growc4/growc23/gcolc117/fc29/ov1c0/fc10",
+                                  "node": "root:4:39_text",
+                                  "selfMs": 61,
+                                  "subtreeMs": 61,
+                                  "pct": 0.4,
+                                  "commandCount": 1,
+                                  "leafCount": 1,
+                                  "overlayDepth": 1,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc117/fc7",
+                          "node": "root:4:37_text",
+                          "selfMs": 26,
+                          "subtreeMs": 26,
+                          "pct": 0.2,
+                          "commandCount": 1,
+                          "leafCount": 1,
+                          "overlayDepth": 0,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "stableKey": "r/gcolc93/growc4/growc23/gcolc105",
+                      "selfMs": 0,
+                      "subtreeMs": 77,
+                      "pct": 0.6,
+                      "commandCount": 0,
+                      "children": [
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc105/fc29",
+                          "selfMs": 0,
+                          "subtreeMs": 50,
+                          "pct": 0.4,
+                          "commandCount": 0,
+                          "children": [
+                            {
+                              "stableKey": "r/gcolc93/growc4/growc23/gcolc105/fc29/ov1c0",
+                              "selfMs": 0,
+                              "subtreeMs": 50,
+                              "pct": 0.4,
+                              "commandCount": 0,
+                              "children": [
+                                {
+                                  "stableKey": "r/gcolc93/growc4/growc23/gcolc105/fc29/ov1c0/fc10",
+                                  "node": "root:4:36_text",
+                                  "selfMs": 50,
+                                  "subtreeMs": 50,
+                                  "pct": 0.4,
+                                  "commandCount": 1,
+                                  "leafCount": 1,
+                                  "overlayDepth": 1,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc105/fc7",
+                          "node": "root:4:34_text",
+                          "selfMs": 27,
+                          "subtreeMs": 27,
+                          "pct": 0.2,
+                          "commandCount": 1,
+                          "leafCount": 1,
+                          "overlayDepth": 0,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "stableKey": "r/gcolc93/growc4/growc23/gcolc80",
+                      "selfMs": 0,
+                      "subtreeMs": 28,
+                      "pct": 0.2,
+                      "commandCount": 0,
+                      "children": [
+                        {
+                          "stableKey": "r/gcolc93/growc4/growc23/gcolc80/fc20",
+                          "node": "root:4:26_text",
+                          "selfMs": 28,
+                          "subtreeMs": 28,
+                          "pct": 0.2,
+                          "commandCount": 1,
+                          "leafCount": 1,
+                          "overlayDepth": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stableKey": "r/growc99",
+          "selfMs": 0,
+          "subtreeMs": 990,
+          "pct": 7.1,
+          "commandCount": 0,
+          "children": [
+            {
+              "stableKey": "r/growc99/gcolc12",
+              "label": "chrome-status",
+              "node": "root:5",
+              "selfMs": 528,
+              "subtreeMs": 990,
+              "pct": 7.1,
+              "commandCount": 1,
+              "leafCount": 19,
+              "overlayDepth": 0,
+              "children": [
+                {
+                  "stableKey": "r/growc99/gcolc12/gcolc92",
+                  "selfMs": 0,
+                  "subtreeMs": 62,
+                  "pct": 0.4,
+                  "commandCount": 0,
+                  "children": [
+                    {
+                      "stableKey": "r/growc99/gcolc12/gcolc92/fc5",
+                      "node": "root:5:13_text",
+                      "selfMs": 35,
+                      "subtreeMs": 35,
+                      "pct": 0.3,
+                      "commandCount": 1,
+                      "leafCount": 1,
+                      "overlayDepth": 0,
+                      "children": []
+                    },
+                    {
+                      "stableKey": "r/growc99/gcolc12/gcolc92/fc8",
+                      "node": "root:5:14_text",
+                      "selfMs": 27,
+                      "subtreeMs": 27,
+                      "pct": 0.2,
+                      "commandCount": 1,
+                      "leafCount": 1,
+                      "overlayDepth": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "stableKey": "r/growc99/gcolc12/gcolc53",
+                  "selfMs": 0,
+                  "subtreeMs": 59,
+                  "pct": 0.4,
+                  "commandCount": 0,
+                  "children": [
+                    {
+                      "stableKey": "r/growc99/gcolc12/gcolc53/fc5",
+                      "node": "root:5:7_text",
+                      "selfMs": 33,
+                      "subtreeMs": 33,
+                      "pct": 0.2,
+                      "commandCount": 1,
+                      "leafCount": 1,
+                      "overlayDepth": 0,
+                      "children": []
+                    },
+                    {
+                      "stableKey": "r/growc99/gcolc12/gcolc53/fc8",
+                      "node": "root:5:8_text",
+                      "selfMs": 26,
+                      "subtreeMs": 26,
+                      "pct": 0.2,
+                      "commandCount": 1,
+                      "leafCount": 1,
+                      "overlayDepth": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "stableKey": "r/growc99/gcolc12/gcolc27",
+                  "selfMs": 0,
+                  "subtreeMs": 53,
+                  "pct": 0.4,
+                  "commandCount": 0,
+                  "children": [
+                    {
+                      "stableKey": "r/growc99/gcolc12/gcolc27/fc15",
+                      "node": "root:5:4_text",
+                      "selfMs": 27,
+                      "subtreeMs": 27,
+                      "pct": 0.2,
+                      "commandCount": 1,
+                      "leafCount": 1,
+                      "overlayDepth": 0,
+                      "children": []
+                    },
+                    {
+                      "stableKey": "r/growc99/gcolc12/gcolc27/fc5",
+                      "node": "root:5:3_text",
+                      "selfMs": 26,
+                      "subtreeMs": 26,
+                      "pct": 0.2,
+                      "commandCount": 1,
+                      "leafCount": 1,
+                      "overlayDepth": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "stableKey": "r/growc99/gcolc12/gcolc40",
+                  "selfMs": 0,
+                  "subtreeMs": 53,
+                  "pct": 0.4,
+                  "commandCount": 0,
+                  "children": [
+                    {
+                      "stableKey": "r/growc99/gcolc12/gcolc40/fc7",
+                      "node": "root:5:6_text",
+                      "selfMs": 27,
+                      "subtreeMs": 27,
+                      "pct": 0.2,
+                      "commandCount": 1,
+                      "leafCount": 1,
+                      "overlayDepth": 0,
+                      "children": []
+                    },
+                    {
+                      "stableKey": "r/growc99/gcolc12/gcolc40/fc4",
+                      "node": "root:5:5_text",
+                      "selfMs": 26,
+                      "subtreeMs": 26,
+                      "pct": 0.2,
+                      "commandCount": 1,
+                      "leafCount": 1,
+                      "overlayDepth": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "stableKey": "r/growc99/gcolc12/gcolc66",
+                  "selfMs": 0,
+                  "subtreeMs": 53,
+                  "pct": 0.4,
+                  "commandCount": 0,
+                  "children": [
+                    {
+                      "stableKey": "r/growc99/gcolc12/gcolc66/fc11",
+                      "node": "root:5:9_text",
+                      "selfMs": 27,
+                      "subtreeMs": 27,
+                      "pct": 0.2,
+                      "commandCount": 1,
+                      "leafCount": 1,
+                      "overlayDepth": 0,
+                      "children": []
+                    },
+                    {
+                      "stableKey": "r/growc99/gcolc12/gcolc66/fc14",
+                      "node": "root:5:10_text",
+                      "selfMs": 26,
+                      "subtreeMs": 26,
+                      "pct": 0.2,
+                      "commandCount": 1,
+                      "leafCount": 1,
+                      "overlayDepth": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "stableKey": "r/growc99/gcolc12/gcolc79",
+                  "selfMs": 0,
+                  "subtreeMs": 52,
+                  "pct": 0.4,
+                  "commandCount": 0,
+                  "children": [
+                    {
+                      "stableKey": "r/growc99/gcolc12/gcolc79/fc4",
+                      "node": "root:5:11_text",
+                      "selfMs": 26,
+                      "subtreeMs": 26,
+                      "pct": 0.2,
+                      "commandCount": 1,
+                      "leafCount": 1,
+                      "overlayDepth": 0,
+                      "children": []
+                    },
+                    {
+                      "stableKey": "r/growc99/gcolc12/gcolc79/fc7",
+                      "node": "root:5:12_text",
+                      "selfMs": 26,
+                      "subtreeMs": 26,
+                      "pct": 0.2,
+                      "commandCount": 1,
+                      "leafCount": 1,
+                      "overlayDepth": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "stableKey": "r/growc99/gcolc12/gcolc105",
+                  "selfMs": 0,
+                  "subtreeMs": 52,
+                  "pct": 0.4,
+                  "commandCount": 0,
+                  "children": [
+                    {
+                      "stableKey": "r/growc99/gcolc12/gcolc105/fc8",
+                      "node": "root:5:15_text",
+                      "selfMs": 26,
+                      "subtreeMs": 26,
+                      "pct": 0.2,
+                      "commandCount": 1,
+                      "leafCount": 1,
+                      "overlayDepth": 0,
+                      "children": []
+                    },
+                    {
+                      "stableKey": "r/growc99/gcolc12/gcolc105/fc12",
+                      "node": "root:5:16_text",
+                      "selfMs": 26,
+                      "subtreeMs": 26,
+                      "pct": 0.2,
+                      "commandCount": 1,
+                      "leafCount": 1,
+                      "overlayDepth": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "stableKey": "r/growc99/gcolc12/gcolc118",
+                  "selfMs": 0,
+                  "subtreeMs": 52,
+                  "pct": 0.4,
+                  "commandCount": 0,
+                  "children": [
+                    {
+                      "stableKey": "r/growc99/gcolc12/gcolc118/fc11",
+                      "node": "root:5:17_text",
+                      "selfMs": 26,
+                      "subtreeMs": 26,
+                      "pct": 0.2,
+                      "commandCount": 1,
+                      "leafCount": 1,
+                      "overlayDepth": 0,
+                      "children": []
+                    },
+                    {
+                      "stableKey": "r/growc99/gcolc12/gcolc118/fc18",
+                      "node": "root:5:18_text",
+                      "selfMs": 26,
+                      "subtreeMs": 26,
+                      "pct": 0.2,
+                      "commandCount": 1,
+                      "leafCount": 1,
+                      "overlayDepth": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "stableKey": "r/growc99/gcolc12/fc12",
+                  "node": "root:5:1_text",
+                  "selfMs": 26,
+                  "subtreeMs": 26,
+                  "pct": 0.2,
+                  "commandCount": 1,
+                  "leafCount": 1,
+                  "overlayDepth": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stableKey": "r/growc8",
+          "selfMs": 0,
+          "subtreeMs": 708,
+          "pct": 5.1,
+          "commandCount": 0,
+          "children": [
+            {
+              "stableKey": "r/growc8/gcolc12",
+              "label": "chrome-header",
+              "node": "root:0",
+              "selfMs": 470,
+              "subtreeMs": 708,
+              "pct": 5.1,
+              "commandCount": 1,
+              "leafCount": 6,
+              "overlayDepth": 1,
+              "children": [
+                {
+                  "stableKey": "r/growc8/gcolc12/fc109",
+                  "selfMs": 0,
+                  "subtreeMs": 126,
+                  "pct": 0.9,
+                  "commandCount": 0,
+                  "children": [
+                    {
+                      "stableKey": "r/growc8/gcolc12/fc109/ov1c0",
+                      "selfMs": 0,
+                      "subtreeMs": 126,
+                      "pct": 0.9,
+                      "commandCount": 0,
+                      "children": [
+                        {
+                          "stableKey": "r/growc8/gcolc12/fc109/ov1c0/fc8",
+                          "node": "root:0:5_text",
+                          "selfMs": 126,
+                          "subtreeMs": 126,
+                          "pct": 0.9,
+                          "commandCount": 1,
+                          "leafCount": 1,
+                          "overlayDepth": 1,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "stableKey": "r/growc8/gcolc12/fc38",
+                  "node": "root:0:1_text",
+                  "selfMs": 79,
+                  "subtreeMs": 79,
+                  "pct": 0.6,
+                  "commandCount": 1,
+                  "leafCount": 1,
+                  "overlayDepth": 0,
+                  "children": []
+                },
+                {
+                  "stableKey": "r/growc8/gcolc12/fc85",
+                  "selfMs": 0,
+                  "subtreeMs": 33,
+                  "pct": 0.2,
+                  "commandCount": 0,
+                  "children": [
+                    {
+                      "stableKey": "r/growc8/gcolc12/fc85/ov1c0",
+                      "selfMs": 0,
+                      "subtreeMs": 33,
+                      "pct": 0.2,
+                      "commandCount": 0,
+                      "children": [
+                        {
+                          "stableKey": "r/growc8/gcolc12/fc85/ov1c0/fc8",
+                          "node": "root:0:3_text",
+                          "selfMs": 33,
+                          "subtreeMs": 33,
+                          "pct": 0.2,
+                          "commandCount": 1,
+                          "leafCount": 1,
+                          "overlayDepth": 1,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stableKey": "r/growc17",
+          "label": "dsl-string",
+          "node": "root:1",
+          "selfMs": 358,
+          "subtreeMs": 582,
+          "pct": 4.2,
+          "commandCount": 1,
+          "leafCount": 4,
+          "overlayDepth": 1,
+          "children": [
+            {
+              "stableKey": "r/growc17/fc2",
+              "node": "root:1:0_text",
+              "selfMs": 112,
+              "subtreeMs": 112,
+              "pct": 0.8,
+              "commandCount": 1,
+              "leafCount": 1,
+              "overlayDepth": 0,
+              "children": []
+            },
+            {
+              "stableKey": "r/growc17/fc22",
+              "selfMs": 0,
+              "subtreeMs": 112,
+              "pct": 0.8,
+              "commandCount": 0,
+              "children": [
+                {
+                  "stableKey": "r/growc17/fc22/ov1c0",
+                  "node": "root:1:2_text",
+                  "selfMs": 112,
+                  "subtreeMs": 112,
+                  "pct": 0.8,
+                  "commandCount": 1,
+                  "leafCount": 1,
+                  "overlayDepth": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stableKey": "r/growc23",
+          "selfMs": 0,
+          "subtreeMs": 246,
+          "pct": 1.8,
+          "commandCount": 0,
+          "children": [
+            {
+              "stableKey": "r/growc23/gcolc4",
+              "selfMs": 0,
+              "subtreeMs": 246,
+              "pct": 1.8,
+              "commandCount": 0,
+              "children": [
+                {
+                  "stableKey": "r/growc23/gcolc4/fc96",
+                  "label": "dsl-narration",
+                  "node": "root:2:0_text",
+                  "selfMs": 246,
+                  "subtreeMs": 246,
+                  "pct": 1.8,
+                  "commandCount": 2,
+                  "leafCount": 1,
+                  "overlayDepth": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hotPath": [
+    {
+      "node": "root",
+      "selfMs": 2749,
+      "subtreeMs": 13878,
+      "pct": 100,
+      "stableKey": "r"
+    },
+    {
+      "node": "root:3",
+      "label": "canvas",
+      "selfMs": 5322,
+      "subtreeMs": 5429,
+      "pct": 39.1,
+      "stableKey": "r/gcolc93/gcolc3/fc13"
+    }
+  ]
+}

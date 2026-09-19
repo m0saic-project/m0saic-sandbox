@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 9000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/activity-trend/v1", "props": { "preset": "dark" } } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-24-ffmpeg-pulse-activity-trend", "basename": "candidate-005" },
+  "agent": { "note": "c005 — SQUARE relayout per your note. All three sections (header / chart / KPI rail) now share ONE width: a centered ~740px column (chart narrowed, rail widened ~19%). The 2x2 rail cards stay square-ish (360x258) and the panels align left+right. Desktop (you approved to lock) + mobile (your target) unchanged.", "question": "Square aligned + balanced now? If all three lock, I'll add the unit test + run closeout (master + preview + postmortem) for Beat 2." }
+}

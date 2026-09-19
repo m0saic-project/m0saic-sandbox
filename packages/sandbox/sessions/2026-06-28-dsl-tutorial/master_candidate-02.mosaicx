@@ -1,0 +1,39 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "3[4(0,0,0,F),2(F,3[F,F,F]),F]",
+        "speedMultiplier": 1,
+        "preset": "light",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-02"
+  },
+  "agent": {
+    "note": "**MASTER CANDIDATE (iterates 01 — fixes the camera).** You saw the camera zoom in and leave the three leading `>` passthroughs off-center / half-visible. Two fixes:\n\n1. **Auto-zoom never clips a tile.** It's now capped at *fit-the-widest-tile* (`fitZoom = min(canvasW/maxTileW, canvasH/maxTileH)`). This layout has a **full-width hero**, so the cap pins it to **zoom 1 — full view, nothing cut off**. Dense grids with no full-bleed tile still zoom for legibility (10×10 → 1.73×) and hold.\n2. **Camera follows passthroughs.** When it *does* zoom, it now keyframes on `>` steps too, so the walk through donating slots stays on-screen instead of pre-centering on the absorber ahead.\n\nRe-rendered: the passthrough hero, sidebar+content, and footer are all fully visible throughout; the cursor tracks the `>` donation on-screen (C=480 carry). Everything the pre-master suite validated still holds; 196 tests green.\n\n**Trade-off to weigh:** because this showcase is a full-width-hero layout, the fix means it now renders **without camera zoom** (clean full view). If you'd rather the master *demonstrate* the zoom+follow+hold, say so and I'll swap to a dense-grid showcase (e.g. `4[4(F,F,F,F)…]`) that zooms without clipping.\n\n**Say \"ship it\"** to promote → `master.mosaicx` + preview asset + `postmortem.mosaicx` + lock (unit + CLI-E2E + variant entry).",
+    "question": "Camera fixed — passthroughs on-screen, nothing clipped? Ship this full-view showcase, or swap to a dense-grid layout that shows the zoom+follow?",
+    "response": {
+      "body": "fixed. iterate one more time with a layout that stress tests camera.",
+      "from": "human",
+      "at": "2026-07-03T00:10:44.711Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/./master_candidate-02-1920x1080.mp4"
+    }
+  }
+}

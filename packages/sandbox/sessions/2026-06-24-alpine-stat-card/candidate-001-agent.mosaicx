@@ -1,0 +1,8 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 386, "height": 277 }, "fps": 30, "durationMs": 3000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/alpine/stat-card/v1",
+    "props": { "label": "Commits", "value": "1,243", "delta": "+12.4%", "direction": "up", "sublabel": "vs last week" } } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-24-alpine-stat-card", "basename": "candidate-001" },
+  "agent": { "note": "First Alpine/hero stat-card (@m0saic/alpine/stat-card/v1), based on charts/stat-card re-styled to the pulse hero look: rounded #161b22 card, GREEN accent chip + caps label, dominant count-up value, SVG-triangle delta (green up / red down) + muted sublabel. Self-contained (no hero-pack dependency; hero palette mirrored locally). Rendered at the real desktop grid-cell size (386x277). The green chip is a PLACEHOLDER for a per-KPI icon — NO icon assets exist in the repo yet (only mosaic.svg).", "question": "Does the card style + proportions match the hero vision? And for the icon: (a) author SVG glyphs per KPI (commit/PR/merge/issue/...), (b) one brand mark on every card, or (c) keep a clean accent chip with no glyph?" }
+}

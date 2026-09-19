@@ -1,0 +1,35 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 3120,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-04"
+  },
+  "agent": {
+    "note": "**STRESS 04/10 — 04-dense-64-shapes** (gate-21 stress set for `@m0saic/media/logo-animate/v1`).\n\nDensity: 64 shapes (32 rects + 32 triangle MASKS) assembling. Stresses the mask pipeline well under the argv keeper. Watch: every triangle silhouette crisp (no seam bleed), stagger readable, render completes briskly.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "\"all 10 pass, ship it\" (set verdict — reviewed via stress/renders/)",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/logo-animate/v1",
+      "props": {
+        "svg": "<svg viewBox=\"0 0 15.6 15.6\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1.6\" height=\"1.6\"/><path d=\"M2 0L3.6 0L2 1.6Z\"/><rect x=\"4\" y=\"0\" width=\"1.6\" height=\"1.6\"/><path d=\"M6 0L7.6 0L6 1.6Z\"/><rect x=\"8\" y=\"0\" width=\"1.6\" height=\"1.6\"/><path d=\"M10 0L11.6 0L10 1.6Z\"/><rect x=\"12\" y=\"0\" width=\"1.6\" height=\"1.6\"/><path d=\"M14 0L15.6 0L14 1.6Z\"/><path d=\"M0 2L1.6 2L0 3.6Z\"/><rect x=\"2\" y=\"2\" width=\"1.6\" height=\"1.6\"/><path d=\"M4 2L5.6 2L4 3.6Z\"/><rect x=\"6\" y=\"2\" width=\"1.6\" height=\"1.6\"/><path d=\"M8 2L9.6 2L8 3.6Z\"/><rect x=\"10\" y=\"2\" width=\"1.6\" height=\"1.6\"/><path d=\"M12 2L13.6 2L12 3.6Z\"/><rect x=\"14\" y=\"2\" width=\"1.6\" height=\"1.6\"/><rect x=\"0\" y=\"4\" width=\"1.6\" height=\"1.6\"/><path d=\"M2 4L3.6 4L2 5.6Z\"/><rect x=\"4\" y=\"4\" width=\"1.6\" height=\"1.6\"/><path d=\"M6 4L7.6 4L6 5.6Z\"/><rect x=\"8\" y=\"4\" width=\"1.6\" height=\"1.6\"/><path d=\"M10 4L11.6 4L10 5.6Z\"/><rect x=\"12\" y=\"4\" width=\"1.6\" height=\"1.6\"/><path d=\"M14 4L15.6 4L14 5.6Z\"/><path d=\"M0 6L1.6 6L0 7.6Z\"/><rect x=\"2\" y=\"6\" width=\"1.6\" height=\"1.6\"/><path d=\"M4 6L5.6 6L4 7.6Z\"/><rect x=\"6\" y=\"6\" width=\"1.6\" height=\"1.6\"/><path d=\"M8 6L9.6 6L8 7.6Z\"/><rect x=\"10\" y=\"6\" width=\"1.6\" height=\"1.6\"/><path d=\"M12 6L13.6 6L12 7.6Z\"/><rect x=\"14\" y=\"6\" width=\"1.6\" height=\"1.6\"/><rect x=\"0\" y=\"8\" width=\"1.6\" height=\"1.6\"/><path d=\"M2 8L3.6 8L2 9.6Z\"/><rect x=\"4\" y=\"8\" width=\"1.6\" height=\"1.6\"/><path d=\"M6 8L7.6 8L6 9.6Z\"/><rect x=\"8\" y=\"8\" width=\"1.6\" height=\"1.6\"/><path d=\"M10 8L11.6 8L10 9.6Z\"/><rect x=\"12\" y=\"8\" width=\"1.6\" height=\"1.6\"/><path d=\"M14 8L15.6 8L14 9.6Z\"/><path d=\"M0 10L1.6 10L0 11.6Z\"/><rect x=\"2\" y=\"10\" width=\"1.6\" height=\"1.6\"/><path d=\"M4 10L5.6 10L4 11.6Z\"/><rect x=\"6\" y=\"10\" width=\"1.6\" height=\"1.6\"/><path d=\"M8 10L9.6 10L8 11.6Z\"/><rect x=\"10\" y=\"10\" width=\"1.6\" height=\"1.6\"/><path d=\"M12 10L13.6 10L12 11.6Z\"/><rect x=\"14\" y=\"10\" width=\"1.6\" height=\"1.6\"/><rect x=\"0\" y=\"12\" width=\"1.6\" height=\"1.6\"/><path d=\"M2 12L3.6 12L2 13.6Z\"/><rect x=\"4\" y=\"12\" width=\"1.6\" height=\"1.6\"/><path d=\"M6 12L7.6 12L6 13.6Z\"/><rect x=\"8\" y=\"12\" width=\"1.6\" height=\"1.6\"/><path d=\"M10 12L11.6 12L10 13.6Z\"/><rect x=\"12\" y=\"12\" width=\"1.6\" height=\"1.6\"/><path d=\"M14 12L15.6 12L14 13.6Z\"/><path d=\"M0 14L1.6 14L0 15.6Z\"/><rect x=\"2\" y=\"14\" width=\"1.6\" height=\"1.6\"/><path d=\"M4 14L5.6 14L4 15.6Z\"/><rect x=\"6\" y=\"14\" width=\"1.6\" height=\"1.6\"/><path d=\"M8 14L9.6 14L8 15.6Z\"/><rect x=\"10\" y=\"14\" width=\"1.6\" height=\"1.6\"/><path d=\"M12 14L13.6 14L12 15.6Z\"/><rect x=\"14\" y=\"14\" width=\"1.6\" height=\"1.6\"/></svg>",
+        "spawnDurMs": 1600
+      }
+    }
+  ]
+}

@@ -1,0 +1,638 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30(-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,119[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(-,0,0,0,0,0,5[-,0,0,1{1},-],0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)},0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(-,0,0,0,0,0,5[-,0,0,1{1},-],0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)},0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(-,0,0,0,0,0,5[-,0,0,1{1},-],0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)},0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(-,0,0,0,0,0,5[-,0,0,1{1},-],0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)},0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]],-),0,0,0,0,0,0,-]}",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#E5E7EB",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "WEEKLY STANDINGS"
+          },
+          "style": {
+            "fontSize": 40,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Input order kept (preSorted)"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#F59E0B",
+      "overlay": {
+        "alpha": "0.12"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.18
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#F59E0B",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.32
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999)))*(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "1"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999)))*(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "East Region"
+          },
+          "style": {
+            "fontSize": 24,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999)))*(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:1*((1-(1-(min(1\\,max(0\\,(t-0.11199999999999999)/0.5151999999999999))))*(1-(min(1\\,max(0\\,(t-0.11199999999999999)/0.5151999999999999))))))+0.5\\:d},%{eif\\:200*((1-(1-(min(1\\,max(0\\,(t-0.11199999999999999)/0.5151999999999999))))*(1-(min(1\\,max(0\\,(t-0.11199999999999999)/0.5151999999999999))))))+0.5\\:d\\:3} pts",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 26,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999)))*(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#1E293B",
+      "overlay": {
+        "alpha": "0.12"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.18
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#1E293B",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.32
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999)))*(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "2"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999)))*(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "West Region"
+          },
+          "style": {
+            "fontSize": 24,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999)))*(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:3*((1-(1-(min(1\\,max(0\\,(t-0.36959999999999993)/0.5151999999999999))))*(1-(min(1\\,max(0\\,(t-0.36959999999999993)/0.5151999999999999))))))+0.5\\:d},%{eif\\:400*((1-(1-(min(1\\,max(0\\,(t-0.36959999999999993)/0.5151999999999999))))*(1-(min(1\\,max(0\\,(t-0.36959999999999993)/0.5151999999999999))))))+0.5\\:d\\:3} pts",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 26,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999)))*(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#B45309",
+      "overlay": {
+        "alpha": "0.12"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.18
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#B45309",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.32
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999)))*(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "3"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999)))*(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "North Region"
+          },
+          "style": {
+            "fontSize": 24,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999)))*(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:800*((1-(1-(min(1\\,max(0\\,(t-0.6271999999999999)/0.5151999999999999))))*(1-(min(1\\,max(0\\,(t-0.6271999999999999)/0.5151999999999999))))))+0.5\\:d} pts",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 26,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999)))*(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "overlay": {
+        "alpha": "0.55"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.18
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.32
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999)))*(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "4"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999)))*(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "South Region"
+          },
+          "style": {
+            "fontSize": 24,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999)))*(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:2*((1-(1-(min(1\\,max(0\\,(t-0.8847999999999998)/0.5151999999999999))))*(1-(min(1\\,max(0\\,(t-0.8847999999999998)/0.5151999999999999))))))+0.5\\:d},%{eif\\:100*((1-(1-(min(1\\,max(0\\,(t-0.8847999999999998)/0.5151999999999999))))*(1-(min(1\\,max(0\\,(t-0.8847999999999998)/0.5151999999999999))))))+0.5\\:d\\:3} pts",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 26,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999)))*(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant A — preSorted:true keeps the input order instead of auto-sorting by value (so rank reflects the order you give, not the score).",
+    "question": "Approve or deny this config.",
+    "response": {
+      "body": "Approved.",
+      "from": "human",
+      "at": "2026-06-22T19:26:20.149Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

@@ -1,0 +1,602 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30(-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12(0,0,0,0,1{120[0,0,0,0,0,0,0,0,-,0,0,0,0,0,1,0,-,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},0,0,0,0,0,0,20(0,0,0,0,0,0,0,0,1{120[0,0,0,0,0,-,0,0,0,0,0,1,0,-,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},0,0,0,0,0,0,0,0,0,0,2[1{77[0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,1,0,-,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},16(0,0,0,0,0,0,0,0,1{76[0,0,0,0,-,0,0,0,0,0,0,0,1,0,-,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},0,0,0,0,0,0,1{38[0,-,0,0,0,1,-,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]})]))],-),0,0,0,0,0,0,-]}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#E5E7EB",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "HEADCOUNT"
+          },
+          "style": {
+            "fontSize": 40,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "By department"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "card-header"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0,
+        "alpha": "(min(1,max(0,(t-0)/0.9449999999999998)))*(min(1,max(0,(t-0)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0)/0.9449999999999998))))"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.005700325732899023,
+          "right": 0.006991051454138703,
+          "bottom": 0.005700325732899023,
+          "left": 0.006991051454138703
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Engineering"
+          },
+          "style": {
+            "fontSize": 22,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09787472035794186
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.2834999999999999)/0.9449999999999998)))*(min(1,max(0,(t-0.2834999999999999)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.2834999999999999)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "42%"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09787472035794186
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.37799999999999995)/0.9449999999999998)))*(min(1,max(0,(t-0.37799999999999995)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.37799999999999995)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#10B981",
+      "overlay": {
+        "startAtSec": 0.28874999999999995,
+        "alpha": "(min(1,max(0,(t-0.28874999999999995)/0.9449999999999998)))*(min(1,max(0,(t-0.28874999999999995)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.28874999999999995)/0.9449999999999998))))"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.005700325732899023,
+          "right": 0.011293236964377904,
+          "bottom": 0.005700325732899023,
+          "left": 0.011293236964377904
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Sales"
+          },
+          "style": {
+            "fontSize": 22,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09679917398038203
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.5722499999999999)/0.9449999999999998)))*(min(1,max(0,(t-0.5722499999999999)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.5722499999999999)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "26%"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09679917398038203
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.66675)/0.9449999999999998)))*(min(1,max(0,(t-0.66675)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.66675)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#F59E0B",
+      "overlay": {
+        "startAtSec": 0.5774999999999999,
+        "alpha": "(min(1,max(0,(t-0.5774999999999999)/0.9449999999999998)))*(min(1,max(0,(t-0.5774999999999999)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.5774999999999999)/0.9449999999999998))))"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.011400651465798047,
+          "right": 0.009175755033557045,
+          "bottom": 0.011400651465798047,
+          "left": 0.009175755033557045
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Marketing"
+          },
+          "style": {
+            "fontSize": 22,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.07864932885906038
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.8609999999999998)/0.9449999999999998)))*(min(1,max(0,(t-0.8609999999999998)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.8609999999999998)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "16%"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.07864932885906038
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.9554999999999998)/0.9449999999999998)))*(min(1,max(0,(t-0.9554999999999998)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.9554999999999998)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EF4444",
+      "overlay": {
+        "startAtSec": 0.8662499999999999,
+        "alpha": "(min(1,max(0,(t-0.8662499999999999)/0.9449999999999998)))*(min(1,max(0,(t-0.8662499999999999)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.8662499999999999)/0.9449999999999998))))"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.011400651465798044,
+          "right": 0.01631245339299031,
+          "bottom": 0.011400651465798044,
+          "left": 0.01631245339299031
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Support"
+          },
+          "style": {
+            "fontSize": 22,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09787472035794186
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1497499999999998)/0.9449999999999998)))*(min(1,max(0,(t-1.1497499999999998)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-1.1497499999999998)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "9%"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09787472035794186
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.2442499999999999)/0.9449999999999998)))*(min(1,max(0,(t-1.2442499999999999)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-1.2442499999999999)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8B5CF6",
+      "overlay": {
+        "startAtSec": 1.1549999999999998,
+        "alpha": "(min(1,max(0,(t-1.1549999999999998)/0.9449999999999998)))*(min(1,max(0,(t-1.1549999999999998)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-1.1549999999999998)/0.9449999999999998))))"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.011400651465798044,
+          "right": 0.020973154362416088,
+          "bottom": 0.011400651465798044,
+          "left": 0.020973154362416088
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Design"
+          },
+          "style": {
+            "fontSize": 22,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09587727708533068
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4384999999999997)/0.9449999999999998)))*(min(1,max(0,(t-1.4384999999999997)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-1.4384999999999997)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "7%"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09587727708533068
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.5329999999999997)/0.9449999999999998)))*(min(1,max(0,(t-1.5329999999999997)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-1.5329999999999997)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "#F8FAFC",
+  "fps": 30,
+  "durationMs": 3000,
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/alpine/treemap/v2`** (gate 12 — THE LAST ALPINE GATE; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase defaults (Headcount, 5 tiles). v1 deprecated → rides base·dep.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated, primitive:true | confirm |\n| Gate | — | **base** |\n| Preview assets | re-mint after approval | review |\n| Cover / Tutorial | cover BUILT this gate (tiles fade in from blank) | eyeball cover; tutorial needed? |\n\n**Pre-audit found + fixed 2 REAL render-refusal bugs (20/84 baseline battery canvases failed, incl. 12-item configs at MOST canvases):**\n1. **Tile label stacks were 100-basis rowSplits inside tile cells** — sub-pixel cells at small tiles → engine folds paint slots → doc refused (the timeline class). Now px/4 weights (the ≥4px-per-weight law).\n2. **Squarify emitted raw px² areas as split weights** — the kit rescales to a 120 basis even inside a ~40px strip (0.3px cells → SPLIT_EXCEEDS_AXIS; max12@360×640 refused). Now px/4 along the split axis; proportions quantize ±2px, invisible.\nBattery 84/84 post-fix (was 64/84).\n\nAlso this gate: script-aware name sizing + truncation (was flat 0.6em), debugLayout contract (textFits on tile-name/tile-value; tiles are value-proportional so no equal relation applies — an area-proportionality rule is noted as a future contract primitive), cover. NOTE: per-side placement.inset keys verified WORKING engine-side (gaps render; the kpi-era lesson was narrower than remembered — insets left as-is).\n\n**Primitive-sense: KEEP primitive:true** — proportional-area tiles are a distinct block (donut shows shares as a ring; treemap as a surface — both earn their seat).\n\nVerified: battery 84/84, probe 14/14, 39/39 unit. Hostile sweeps eyeballed: 12-tile pack, 95%-skew slivers (labels drop cleanly), Cyrillic/CJK tile labels fit.",
+    "question": "Default look verdict? Cover OK? Tutorial needed? primitive:true confirmed? Then stress — and the alpine pack closes.",
+    "response": {
+      "verdict": "ship",
+      "text": "default+cover approved (tutorial not needed) → stress x10 pass → \"ship it\"",
+      "via": "chat — transcribed by agent",
+      "note": "SHIPPED base ☑ — THE ALPINE PACK CLOSES (12/12 gates)."
+    }
+  }
+}

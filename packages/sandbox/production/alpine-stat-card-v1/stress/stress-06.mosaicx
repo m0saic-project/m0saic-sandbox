@@ -1,0 +1,40 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 900,
+    "height": 900
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/stat-card/v1",
+      "props": {
+        "label": "Uptime",
+        "value": "99.99%",
+        "delta": "",
+        "direction": "flat",
+        "sublabel": "",
+        "renderMode": "premium",
+        "preset": "light"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-bare-minimum** (gate-10 stress set for `@m0saic/alpine/stat-card/v1`).\n\nDEGENERATE: label+value ONLY — no delta, no sublabel, icon CLEARED (bare chip). The delta band still reserves space (cross-card value alignment, by design). Watch: clean minimal card.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it. keep both as base",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

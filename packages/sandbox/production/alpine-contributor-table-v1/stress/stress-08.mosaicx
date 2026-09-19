@@ -1,0 +1,138 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 480,
+    "height": 1040
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/contributor-table/v1",
+      "props": {
+        "rows": [
+          {
+            "rank": 1,
+            "name": "Anton Khirnov",
+            "values": [
+              23,
+              4512,
+              2103
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Michael Niedermayer",
+            "values": [
+              18,
+              3204,
+              1034
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "James Almer",
+            "values": [
+              14,
+              2193,
+              812
+            ]
+          },
+          {
+            "rank": 4,
+            "name": "Marton Balint",
+            "values": [
+              11,
+              1842,
+              1201
+            ]
+          },
+          {
+            "rank": 5,
+            "name": "Limin Wang",
+            "values": [
+              9,
+              1503,
+              623
+            ]
+          },
+          {
+            "rank": 6,
+            "name": "Paul B Mahol",
+            "values": [
+              8,
+              1102,
+              455
+            ]
+          },
+          {
+            "rank": 7,
+            "name": "Andreas Rheinhardt",
+            "values": [
+              7,
+              998,
+              312
+            ]
+          },
+          {
+            "rank": 8,
+            "name": "Niklas Haas",
+            "values": [
+              5,
+              640,
+              208
+            ]
+          }
+        ],
+        "columns": [
+          "Commits",
+          "Additions",
+          "Deletions"
+        ],
+        "title": "TOP CONTRIBUTORS",
+        "subtitle": "This week",
+        "topTint": 3,
+        "columnColors": [
+          null,
+          "#3fb950",
+          "#f85149"
+        ],
+        "columnSigns": [
+          "",
+          "+",
+          "-"
+        ],
+        "iconPath": "M15 13.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm-12.5 6a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5Zm0 14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 21Zm12.5-6a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 15Z M6.5 7.25c0 2.9 2.35 5.25 5.25 5.25h4.5V14h-4.5A6.75 6.75 0 0 1 5 7.25Z M5.75 16.75A.75.75 0 0 1 5 16V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75Z",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": true
+        },
+        "preset": "dark",
+        "backgroundColor": "#1c2128",
+        "washColor": "#2d333b",
+        "accent": "#a371f7"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-tall-skinny-custom-colors** (gate 3 stress set for `@m0saic/alpine/contributor-table/v1`).\n\nTALL SKINNY portrait, 8 cards (max), preset:dark + custom backgroundColor/washColor/accent (purple), icon:mergedPrs, reduceMotion (static). Watch: card density at narrow width, custom wash blend.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-20T20:44:18.577Z",
+      "src": "<sandbox>/production/alpine-contributor-table-v1/stress/./stress-08-480x1040.mp4"
+    }
+  }
+}

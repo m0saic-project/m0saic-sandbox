@@ -1,0 +1,59 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T12:00:00.000Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.11",
+  "meta": {
+    "title": "12 · agent annotations"
+  },
+  "agent": {
+    "id": "claude-smoke-2026-06-10",
+    "note": "Smoke candidate covering the agent annotation block: note + question + regions registry + response + 2-comment thread.",
+    "question": "Does the agent panel surface every field — note, question, regions, response, comments — without dropping any? (Unlike the other candidates, this one ships with a sample response pre-filled to show the rendered shape.)",
+    "regions": {
+      "hero": "K1",
+      "body": "K2",
+      "side": "K3",
+      "footer": "K4"
+    },
+    "response": {
+      "body": "Blunder. The declared regions do not have real stablekeys.",
+      "from": "human",
+      "at": "2026-06-11T03:34:20.344Z"
+    },
+    "comments": [
+      {
+        "id": "c1",
+        "body": "Initial pass.",
+        "from": "agent",
+        "at": "2026-06-10T12:00:00.000Z"
+      },
+      {
+        "id": "c2",
+        "body": "Add a comment to verify the thread renders.",
+        "from": "human",
+        "at": "2026-06-10T12:03:00.000Z"
+      },
+      {
+        "id": "53b5caa6",
+        "body": "@c1 testing",
+        "from": "human",
+        "at": "2026-06-11T03:30:50.566Z"
+      }
+    ]
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "4(1,1,1,1)",
+  "labels": null,
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "fill": null,
+  "rankSets": null,
+  "custom": null
+}

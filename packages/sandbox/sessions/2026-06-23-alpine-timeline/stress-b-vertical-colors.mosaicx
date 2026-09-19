@@ -1,0 +1,70 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/timeline/v1",
+      "props": {
+        "events": [
+          {
+            "date": "Jan 2024",
+            "title": "Project kickoff",
+            "description": "Team assembled, first commit landed",
+            "color": "#16A34A"
+          },
+          {
+            "date": "Mar 2024",
+            "title": "Beta launch",
+            "description": "500 early users onboarded"
+          },
+          {
+            "date": "Jun 2024",
+            "title": "Series A",
+            "description": "$12M raised to scale the team",
+            "color": "#F59E0B"
+          },
+          {
+            "date": "Sep 2024",
+            "title": "10k customers",
+            "description": "Crossed five figures"
+          },
+          {
+            "date": "Dec 2024",
+            "title": "Global expansion",
+            "description": "Live in 12 countries"
+          }
+        ],
+        "title": "ROADMAP",
+        "subtitle": "Forced vertical",
+        "preset": "light",
+        "orientation": "vertical",
+        "showDescription": true,
+        "anim": {
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": false
+        },
+        "color": "#8B5CF6"
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant B — orientation FORCED vertical on a wide card + a violet accent (#8B5CF6) + per-event dot color overrides (event 1 green, event 3 amber). Tests the explicit-orientation override and the color knobs.",
+    "question": "Approve or deny. Does forcing vertical on a wide card + the accent / per-event colors work?",
+    "response": {
+      "body": "approved",
+      "from": "human",
+      "at": "2026-06-22T22:27:30.181Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

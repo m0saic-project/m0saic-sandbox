@@ -1,0 +1,42 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 720,
+    "height": 1280
+  },
+  "fps": 30,
+  "durationMs": 5000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-04"
+  },
+  "agent": {
+    "note": "**STRESS 04/10 — 04-portrait-long-labels** (gate-30 stress set for `@m0saic/wireframe/animated/v1`).\n\nPortrait phone canvas with custom labels incl. a 56-char masthead, an '' cell and a 68-char headline in a 360px-wide cell.\n\nWatch: labels shrink to their cell (ellipsis only at the 14px floor); the '' cell keeps its number + dims (unlabeled = marks); labeled cells drop the number.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "moot",
+      "text": "Not reviewed — the template was DEPRECATED by ruling at the default verdict (superseded by @m0saic/dsl-tutorial/v1; kept in base as base·dep). Recipe + twin + end frame stay as the agent pre-pass record (agent pass: clean).",
+      "via": "transcribed by agent from the gate-30 chat verdict",
+      "from": "agent:claude",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/animated/v1",
+      "props": {
+        "M0String": "3[1,2(1,1),1]",
+        "labels": [
+          "Masthead: The Quarterly Review of Everything Rectangular",
+          "Sidebar",
+          "",
+          "Hero story with a very very long headline that keeps going and going"
+        ]
+      }
+    }
+  ]
+}

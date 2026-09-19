@@ -1,0 +1,229 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{25[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4[0,0,1,50(0,0,-,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1)],0,0,1]}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Total Commits"
+          },
+          "style": {
+            "fontSize": 88,
+            "fontColor": "#56546A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.06
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-label"
+      },
+      "overlay": {
+        "yExpr": "(1-(min(1,max(0,(t-0)/0.25))))*H",
+        "enable": "gte(t,0)",
+        "startAtSec": 0,
+        "window": {
+          "startSec": 0
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:246*((1-(1-(min(1\\,max(0\\,(t-0)/1.75))))*(1-(min(1\\,max(0\\,(t-0)/1.75))))))+0.5\\:d}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 368,
+            "fontColor": "#12111F"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.06
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-value"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#16A34A",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 76.8 27.3 L 133 124.7 L 20.6 124.7 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 153.6,
+          "height": 152
+        }
+      },
+      "overlay": {
+        "yExpr": "(1-(min(1,max(0,(t-0.9625000000000001)/0.612))))*H",
+        "enable": "gte(t,0.9625000000000001)",
+        "startAtSec": 0.9625000000000001,
+        "window": {
+          "startSec": 0.9625000000000001
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "+%{eif\\:18*((1-(1-(min(1\\,max(0\\,(t-0.9625000000000001)/0.6124999999999999))))*(1-(min(1\\,max(0\\,(t-0.9625000000000001)/0.6124999999999999))))))+0.5\\:d} (+%{eif\\:7.9*((1-(1-(min(1\\,max(0\\,(t-0.9625000000000001)/0.6124999999999999))))*(1-(min(1\\,max(0\\,(t-0.9625000000000001)/0.6124999999999999))))))\\:d}.%{eif\\:mod(7.9*((1-(1-(min(1\\,max(0\\,(t-0.9625000000000001)/0.6124999999999999))))*(1-(min(1\\,max(0\\,(t-0.9625000000000001)/0.6124999999999999))))))*10\\,10)\\:d\\:1}\\%)",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 104,
+            "fontColor": "#16A34A"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.04
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-delta"
+      },
+      "overlay": {
+        "yExpr": "(1-(min(1,max(0,(t-0.9625000000000001)/0.612))))*H",
+        "enable": "gte(t,0.9625000000000001)",
+        "startAtSec": 0.9625000000000001,
+        "window": {
+          "startSec": 0.9625000000000001
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "vs last week"
+          },
+          "style": {
+            "fontSize": 64,
+            "fontColor": "#8A88A0"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.06
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-sublabel"
+      },
+      "overlay": {
+        "yExpr": "(1-(min(1,max(0,(t-1.4875)/0.263))))*H",
+        "enable": "gte(t,1.4875)",
+        "startAtSec": 1.4875,
+        "window": {
+          "startSec": 1.4875
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "#FFFFFF",
+  "fps": 30,
+  "durationMs": 2500,
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-themed-light** (gate-17 stress set for `@m0saic/charts/stat-card/v1` — the charts-pack closer).\n\nTHEME SELF-SEED: @m0saic/theming/v1 light preset — light surface, dark text, brand delta colors (the first applyTheme consumer, through the CLI path). Watch: white card via the base tile, all tokens flipped.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  }
+}

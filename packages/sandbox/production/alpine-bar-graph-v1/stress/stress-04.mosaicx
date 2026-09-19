@@ -1,0 +1,73 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 480,
+    "height": 1040
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/bar-graph/v1",
+      "props": {
+        "values": [
+          12400,
+          8700,
+          5600,
+          2100,
+          1200
+        ],
+        "labels": [
+          "Email",
+          "Twitter",
+          "Reddit",
+          "Hacker News",
+          "Other"
+        ],
+        "title": "BAR CHART",
+        "subtitle": "Sales by Channel",
+        "orientation": "horizontal",
+        "preset": "light",
+        "bars": {
+          "gap": 0.55,
+          "cornerRadius": 0.4
+        },
+        "grid": {
+          "show": true,
+          "count": 3
+        },
+        "valueLabels": {
+          "show": true,
+          "format": "compact",
+          "decimals": 1,
+          "suffix": ""
+        },
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "ease": "smoothstep",
+          "reduceMotion": false
+        },
+        "debugLayout": false
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-04"
+  },
+  "agent": {
+    "note": "**STRESS 04/10 — 04-tall-skinny-horizontal** (retro stress set for `@m0saic/alpine/bar-graph/v1`).\n\nTALL SKINNY portrait canvas, horizontal bars. Watch: label column squeeze, title fit.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-20T21:41:03.012Z",
+      "src": "<sandbox>/production/alpine-bar-graph-v1/stress/./stress-04-480x1040.mp4"
+    }
+  }
+}

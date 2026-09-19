@@ -1,0 +1,98 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/heatmap/v2",
+      "props": {
+        "rows": [
+          {
+            "label": "Neg",
+            "values": [
+              -5,
+              -1,
+              0,
+              2,
+              4,
+              6,
+              8,
+              10
+            ]
+          },
+          {
+            "label": "Outlier",
+            "values": [
+              0,
+              1,
+              2,
+              1000000,
+              2,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "label": "Ragged",
+            "values": [
+              3,
+              7
+            ]
+          },
+          {
+            "label": "CSV",
+            "values": "1, 2, 3, 4, 5, 6, 7, 8"
+          }
+        ],
+        "colLabels": [
+          "W1",
+          "W2",
+          "W3",
+          "W4",
+          "W5",
+          "W6",
+          "W7",
+          "W8"
+        ],
+        "title": "CONTRIBUTIONS",
+        "subtitle": "Commits by day",
+        "preset": "light",
+        "levels": 5,
+        "showLegend": true,
+        "showValues": true,
+        "scale": {
+          "cellRadius": 0.25
+        },
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-hostile-values** (gate-5 stress set for `@m0saic/alpine/heatmap/v2`).\n\nHOSTILE DATA: negative values, a 1e6 outlier flattening the scale, RAGGED rows (short rows → empty tail cells), a CSV-STRING values row (the objectRows editor form), showValues on. Watch: buckets sane, ragged tails render empty, CSV parses.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-22T04:01:16.000Z",
+      "via": "chat (\"pass\" — gate-5 stress set) — transcribed by agent"
+    }
+  }
+}

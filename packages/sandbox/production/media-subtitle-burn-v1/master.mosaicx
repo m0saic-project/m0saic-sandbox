@@ -1,0 +1,34 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 1920,
+  "height": 1080
+ },
+ "fps": 30,
+ "durationMs": 10000,
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "master"
+ },
+ "agent": {
+  "question": "Three rulings: cover? tutorial? base fit cover-vs-contain? (+ the qr/stamp duration-follow retrofit)",
+  "response": {
+   "verdict": "ship",
+   "text": "take-1: \"why is it trying to make my output an image\" → format stamp fixed (doc declares {kind:'video'}) → \"needs a cover\" + \"when i dropped big buck bunny, it defaulted to 10 seconds instead of the duration of the file\" → cover BUILT (BBB title-card hero ~16s, founder-picked; 'the mosaic branding cover' = family convention, rollout plan filed) + duration-follow authored → \"big buck bunny still chose 10 seconds\" → REAL culprit: stampDocOutput clobbered authored durationMs (registry wrapper, not the template) → authored-intent precedence fixed in stampOutput + assertTiming + wrapped-registry-path test lock → \"lets stress\" → stress ×10, 45/45 battery → \"ship\"",
+   "via": "chat — transcribed by agent",
+   "note": "SHIPPED base ☑ + COVER ☑ (gate 26 — the LAST media-remainder gate; media pack COMPLETE at 11/11). Core tier. Reads embedded subtitle streams (core probeMedia: tracks + cues), burns enable-windowed text layers. Selection ladder locked ×4 in stress: explicit index → language match → default-flag → first; strict-miss + no-subs = clean passthrough (no error mosaic). Wrap-first cue fit (gate-16 clip class): greedy word-wrap to script-aware em budget, ONE bounded 0.75× font step (floor 14) — words NEVER dropped; portrait worst case = 6 complete lines, unclipped. ENGINE-CLASS FIX shipped repo-wide: stampDocOutput now preserves authored doc durationMs (pipeline precedent extended to documents) — wireframe/base/v2's stale top-level 1000ms removed in the blast-radius sweep. Duration ground truth: fixture is 10.0s (video/audio; sub streams end 8s) — master re-minted at 10000ms at ship (candidate's 9000 was a stale estimate; VERIFY-against-live-files keeper reinforced). Cue emission: MosaicDataSource + {basename}.cues.json, clip-remapped output-relative, window-clamped (stress-06). Audio preserved incl. loop-concat legs (g21 class, stress-07 −25.8 dB). OPEN (unruled at ship): tutorial (real teaching surface: selection rules / clip remap / cue emission); base fit stays cover — contain-for-film question; qr/stamp duration-follow retrofit (older templates predate the authored-intent fix); polish: wrapped continuation lines left-anchor in a centered block (drawtext multiline) vs broadcast per-line centering."
+  }
+ },
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/media/subtitle-burn/v1",
+   "props": {
+    "sourceId": "<sandbox>/production/media-subtitle-burn-v1/fixtures/reel-subs.mp4"
+   }
+  }
+ ]
+}

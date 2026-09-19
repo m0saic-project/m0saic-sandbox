@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/stat-card/v1",
+      "props": {}
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/alpine/stat-card/v1`** (gate 10; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase defaults (Commits 1,243 +12.4%). Single version — no dep riders.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated, primitive:true | confirm |\n| Gate | — | **base** |\n| Preview assets | re-mint after approval | review |\n| Cover / Tutorial | cover BUILT this gate (count-up starts at 0) | eyeball cover; tutorial needed? |\n\n**Pre-audit found + fixed 3:**\n1. **Portrait proportion breakdown**: bands are height-fractions, so tall cards minted a ~195px icon chip towering over its width-capped label, and a 73px delta triangle beside 17px text. Chip now caps at 0.18·min-dim (square, band-centered); arrow sized in two passes to ≤1.25× the delta font. Landscape defaults byte-identical (caps sit above the default values).\n2. **Wide-script caps**: capFont counted flat chars — Cyrillic labels would clip (the gate-9 lesson). Now textEmUnits-based + floor-bound ellipsis on all four texts.\n3. Unused node:path import dropped; cover added (static default card + welcome band).\n\n**PRIMITIVE-SENSE — the real question this gate: the pack now has TWO KPI cards.** `kpi-card/v2` (shipped base ☑, gate 6: label/value/delta PILL + sparkline, alpineCard chrome) vs `stat-card/v1` (icon chip + label / value / triangle delta + sublabel, placeRect-EXACT geometry, geometry-contract, built to NEST in hero dashboard grids — the FFmpeg pulse tiles). My recommendation: KEEP BOTH as base — kpi-card is the standalone showcase card, stat-card is the nestable dashboard tile; the exact-geometry construction + transparent-surface + showHeader-style composability serve a different role. Alternative if you want ONE: stat-card could ride base·int (internal, hero-pack building block). Your call.\n\nALSO SURFACED (infra, not this gate): a template that THROWS (e.g. unknown icon name) renders a BLACK mp4 at exit 1 via the CLI — reported, but the error card pixels are lost when the error doc rides as a resolver child. Filed as a candidate note.\n\nBattery: 84/84 CLI feasible ×2 (pre+post fix; success-grep hardened — \"Render completed with errors\" no longer counts as a pass), probe 14/14 green (geometry-contract stamps), 23/23 unit.",
+    "question": "Default look verdict? Cover OK? Tutorial needed? And the KEEP-BOTH-KPI-CARDS ruling (base | base·int | fold into kpi-card)? Then stress.",
+    "response": {
+      "verdict": "ship",
+      "text": "default commit icon → all 10 stress pass → \"ship it. keep both as base\"",
+      "via": "chat — transcribed by agent",
+      "note": "SHIPPED base ☑. RULING: kpi-card/v2 AND stat-card/v1 BOTH ride base (showcase card vs nestable dashboard tile). Cover/tutorial implicit-OK (kpi-gate convention)."
+    }
+  }
+}

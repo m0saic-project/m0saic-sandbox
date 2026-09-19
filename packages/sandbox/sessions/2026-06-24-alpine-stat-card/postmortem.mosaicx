@@ -1,0 +1,7 @@
+{
+  "_comment": "Alpine hero KPI stat-card sandbox walkthrough. @m0saic/meta/post-mortem/v1 over this session. Arc: based on charts/stat-card, re-styled to the pulse hero look (c001); fixed-font width-capping so % + sublabel never clip across CLI/app render paths (c002-003, square = design truth); then hardened during the kpi-overview integration — icon went media-PNG -> SVG-mask lavfi (a media source mis-laid-out the card), and the card was refactored to per-element top-level layers. Render: m0saic make packages/sandbox/sessions/2026-06-24-alpine-stat-card/postmortem.mosaicx -o /tmp/statcard-session.mp4 -w 1080 -h 1080. NOT rendered at closeout.",
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "fps": 30, "durationMs": 14000,
+  "size": { "width": 1080, "height": 1080 }, "assets": {},
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/meta/post-mortem/v1",
+    "props": { "sessionPath": "packages/sandbox/sessions/2026-06-24-alpine-stat-card", "msPerCandidate": 3000, "msTitleCard": 2000, "msEndCard": 2000 } } ]
+}

@@ -1,0 +1,329 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "20[0,0,0,0,0,0,0,0,61(0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-),-,0,0,0,0,0,0,0,0,61(0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-),-]{20[0,0,0,0,0,0,0,0,61(0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),-,0,0,0,0,0,0,0,0,61(0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),-]}",
+  "assets": {
+    "c0_chat_sr": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/chat_sr.mp4",
+      "mediaType": "video"
+    },
+    "c0_photo-13-2400x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-13-2400x1000.png",
+      "mediaType": "image"
+    },
+    "c0_inbox_sr": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/inbox_sr.mp4",
+      "mediaType": "video"
+    },
+    "c0_photo-04-800x1200": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-04-800x1200.png",
+      "mediaType": "image"
+    },
+    "c0_invoice_sr": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/invoice_sr.mp4",
+      "mediaType": "video"
+    },
+    "c0_signed-letter_sr": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/signed-letter_sr.mp4",
+      "mediaType": "video"
+    }
+  },
+  "size": {
+    "width": 854,
+    "height": 480
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "suggestedOutput": {
+    "dir": "./renders",
+    "basename": "05-max-velocity-snap"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-max-velocity-snap** (gate-36 stress set for `@m0saic/media/scroll_wall/v1`).\n\nTHE WRAP AT MAXIMUM VELOCITY, SNAPPED TO THE FRAME GRID at 854x480. 2000 px/s — the top of the slider — on a small canvas, with `snapVelocityToFrameGrid` on (rounds to whole px/frame, killing sub-pixel jitter at the cost of the exact loop). At this speed a tile crosses a 854px canvas in under half a second, so the wrap handoff happens constantly. Watch: no tearing at the seam, no tile popping into existence mid-canvas, no strobing.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_chat_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(10080-2010*t,1260)-210"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i0"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-13-2400x1000",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(10290-2010*t,1260)-420"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i1"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_inbox_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(10500-2010*t,1260)-630"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i2"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-04-800x1200",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(10710-2010*t,1260)-840"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i3"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_signed-letter_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(105+2010*t,1260)-210"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i0"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_chat_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(315+2010*t,1260)-420"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i1"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-13-2400x1000",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(525+2010*t,1260)-630"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i2"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_inbox_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(735+2010*t,1260)-840"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i3"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_invoice_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(10920-2010*t,1260)-210"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i4"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_signed-letter_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(11130-2010*t,1260)-420"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i5"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-04-800x1200",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(945+2010*t,1260)-210"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i4"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_invoice_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 933
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(1155+2010*t,1260)-420"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i5"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "audio": {
+    "mode": "off"
+  },
+  "backgroundColor": "#0b0b0f"
+}

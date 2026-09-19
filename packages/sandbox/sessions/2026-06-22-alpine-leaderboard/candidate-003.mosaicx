@@ -1,0 +1,64 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/leaderboard/v1",
+      "props": {
+        "items": [
+          {
+            "name": "Ava Chen",
+            "value": 2840
+          },
+          {
+            "name": "Liam Patel",
+            "value": 2615
+          },
+          {
+            "name": "Noah Kim",
+            "value": 2390
+          },
+          {
+            "name": "Mia Garcia",
+            "value": 1975
+          },
+          {
+            "name": "Ethan Wright",
+            "value": 1640
+          }
+        ],
+        "title": "TOP CONTRIBUTORS",
+        "subtitle": "This month",
+        "preset": "light",
+        "podiumTint": true,
+        "showValue": true,
+        "anim": {
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        },
+        "valueSuffix": " commits"
+      }
+    }
+  ],
+  "agent": {
+    "note": "candidate-003 — rank 2 is now a DARKER grey (slate-700 #334155, was #475569) per your note. The board is dialed in: gold / darker-grey / brown / light-grey badges, every row washed with its rank color. Nothing else changed.",
+    "question": "Darker grey good now? If the look is settled, approve and I move to the ship-readiness stress pass — I generate a batch of prop-variant configs (preSorted, podiumTint off, 8 items, dark preset, long names, custom Display labels, per-item colors) and you review them one at a time, same as the progress card.",
+    "response": {
+      "body": "Even darker still.",
+      "from": "human",
+      "at": "2026-06-22T19:07:30.366Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

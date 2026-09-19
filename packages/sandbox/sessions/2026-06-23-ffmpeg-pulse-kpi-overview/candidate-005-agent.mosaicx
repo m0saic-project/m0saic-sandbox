@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 9000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/kpi-overview/v1", "props": { "preset": "dark" } } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-23-ffmpeg-pulse-kpi-overview", "basename": "candidate-005" },
+  "agent": { "note": "c005 — all of your notes. HEADER relayout (all 3): BEAT 1 chip floats top-left, FFmpeg logo now IN LINE with KPI OVERVIEW, subtitle under. ALIGNMENT: header / grid / footer backdrops now share one left edge (the grid margin); header+grid share full grid width. TIMING: bg reveal first -> header (KPI Overview) fades in -> THEN the 8 cards cascade ONE-AFTER-ANOTHER, quick, each starting as the previous ends (one flow). SQUARE RELAYOUT: now a 3x3 grid (squareish cards ~309x222, last row of 2 centered) instead of the wide-short 2x4. Desktop 4x2, mobile 2x4 unchanged.", "question": "Watch the cascade in playback — header-before-cards + sequential flow right? Square cards squareish enough? Still open: grid backdrop = card color (one panel) vs darker for separation; glyph dark-on-green vs white." }
+}

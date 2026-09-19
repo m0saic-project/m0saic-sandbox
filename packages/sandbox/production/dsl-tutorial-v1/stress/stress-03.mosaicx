@@ -1,0 +1,31 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 56300,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 — 03-dark-long-title-720p** (gate-33 stress set for `@m0saic/dsl-tutorial/v1`).\n\nDark preset at 720p with a 72-char title.\n\nWatch: the title ellipsizes at ~70% of the bar's size (not a caption-sized shrink); dark tokens keep contrast; the 61-char strip's first `4` and last `]` sit inside the panel.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "4[4(F,F,F,F),4(>,F,>,F),3(2[F,F],3[F,F,F],2[F,F]),4(F,F,F,F)]",
+        "title": "The m0 DSL geometry walk, a step-by-step tutorial for absolute beginners",
+        "preset": "dark"
+      }
+    }
+  ]
+}

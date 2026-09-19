@@ -1,0 +1,72 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 607,
+    "height": 401
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/bar-graph/v1",
+      "props": {
+        "values": [
+          512.25,
+          256.5,
+          128,
+          64.75,
+          32
+        ],
+        "labels": [
+          "Видео поток",
+          "音频流",
+          "🔥 Hot cache",
+          "Subtitles",
+          "Meta"
+        ],
+        "title": "STREAM SIZES",
+        "subtitle": "per container",
+        "orientation": "horizontal",
+        "preset": "light",
+        "bars": {
+          "gap": 0.55,
+          "cornerRadius": 0.4
+        },
+        "grid": {
+          "show": true,
+          "count": 3
+        },
+        "valueLabels": {
+          "show": true,
+          "format": "compact",
+          "decimals": 2,
+          "suffix": " MB"
+        },
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "ease": "smoothstep",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-unicode-suffix** (retro stress set for `@m0saic/alpine/bar-graph/v1`).\n\nUnicode labels (CJK/Cyrillic/emoji) + valueLabels suffix ' MB' + decimals 2, prime-ish small canvas. Watch: label shrink vs overflow, suffix fit.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-20T21:45:50.314Z",
+      "src": "<sandbox>/production/alpine-bar-graph-v1/stress/./stress-10-607x401.mp4"
+    }
+  }
+}

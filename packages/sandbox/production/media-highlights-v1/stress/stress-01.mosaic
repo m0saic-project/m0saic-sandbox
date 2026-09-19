@@ -1,0 +1,74 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "multi",
+  "fps": 30,
+  "steps": [
+    {
+      "name": "reel-10s__range_01",
+      "label": "reel-10s_2.0s-5.0s",
+      "durationMs": 3000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "m0": "1",
+        "assets": {
+          "reel-10s": {
+            "kind": "file",
+            "path": "<sandbox>/production/media-highlights-v1/fixtures/reel-10s.mp4",
+            "mediaType": "video"
+          }
+        },
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "reel-10s",
+            "placement": {
+              "fit": "cover"
+            },
+            "playback": {
+              "clipStartMs": 2000,
+              "clipDurationMs": 3000,
+              "loopMode": "cut"
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "size": {
+          "width": 1280,
+          "height": 720
+        },
+        "backgroundColor": "#000000",
+        "format": {
+          "kind": "video",
+          "container": "mp4"
+        },
+        "fps": 30,
+        "durationMs": 3000,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "durationMs": 3000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

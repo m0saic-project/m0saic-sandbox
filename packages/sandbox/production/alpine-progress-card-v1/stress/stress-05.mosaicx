@@ -1,0 +1,66 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1001,
+    "height": 733
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/progress-card/v1",
+      "props": {
+        "items": [
+          {
+            "label": "Выручка за квартал",
+            "value": 68
+          },
+          {
+            "label": "新規ユーザー獲得",
+            "value": 84
+          },
+          {
+            "label": "Удержание клиентов",
+            "value": 620,
+            "max": 1000,
+            "valueLabel": "620 из 1000 клиентов"
+          },
+          {
+            "label": "ドキュメント整備",
+            "value": 77
+          }
+        ],
+        "title": "ЦЕЛИ КВАРТАЛА С ОЧЕНЬ ДЛИННЫМ НАЗВАНИЕМ",
+        "subtitle": "進捗状況のトラッキング",
+        "preset": "light",
+        "bars": {
+          "cornerRadius": 0.5
+        },
+        "showValue": true,
+        "anim": {
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-unicode-long** (gate-9 stress set for `@m0saic/alpine/progress-card/v1`).\n\nUNICODE + LONG: CJK/Cyrillic labels, long custom Displays. Watch: caps + ellipsis handle wide glyphs, values right-align.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

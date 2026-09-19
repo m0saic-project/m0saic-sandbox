@@ -1,0 +1,98 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 480
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/contributor-table/v1",
+      "props": {
+        "rows": [
+          {
+            "rank": 1,
+            "name": "Anton Khirnov",
+            "values": [
+              23,
+              4512,
+              2103
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Michael Niedermayer",
+            "values": [
+              18,
+              3204,
+              1034
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "James Almer",
+            "values": [
+              14,
+              2193,
+              812
+            ]
+          },
+          {
+            "rank": 4,
+            "name": "Marton Balint",
+            "values": [
+              11,
+              1842,
+              1201
+            ]
+          }
+        ],
+        "columns": [
+          "Commits",
+          "Additions",
+          "Deletions"
+        ],
+        "title": "TOP CONTRIBUTORS",
+        "subtitle": "This week",
+        "topTint": 3,
+        "columnColors": [
+          null,
+          "#3fb950",
+          "#f85149"
+        ],
+        "columnSigns": [
+          "",
+          "+",
+          "-"
+        ],
+        "iconPath": "M16.944 11h4.306a.75.75 0 0 1 0 1.5h-4.306a5.001 5.001 0 0 1-9.888 0H2.75a.75.75 0 0 1 0-1.5h4.306a5.001 5.001 0 0 1 9.888 0Zm-1.444.75a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0Z",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 — 03-ultrawide-banner** (gate 3 stress set for `@m0saic/alpine/contributor-table/v1`).\n\nULTRAWIDE 4:1 banner, header ON, 4 rows. Watch: the icon chip must stay SQUARE (not stretch) in the short header; padded glyph.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-20T19:53:00.385Z",
+      "src": "<sandbox>/production/alpine-contributor-table-v1/stress/./stress-03-1920x480.mp4"
+    }
+  }
+}

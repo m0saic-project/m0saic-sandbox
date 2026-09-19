@@ -1,0 +1,31 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 8600,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-09"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 — 09-canvas-inspector-only-2x** (gate-33 stress set for `@m0saic/dsl-tutorial/v1`).\n\nChrome and DSL strip OFF at 2× — the canvas + inspector fill the whole frame.\n\nWatch: no header/status/strip; the body is the full canvas height; the inspector still reads every value; 8.6s.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "showChrome": false,
+        "showDslString": false,
+        "speedMultiplier": 2
+      }
+    }
+  ]
+}

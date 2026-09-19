@@ -1,0 +1,58 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-syn-20-crop-budget-0** (gate-31 stress set for `@m0saic/collage/image-collage/v1`).\n\n20 mixed aspects with a ZERO crop budget — the solver must find aspect-exact spans (soft: exceeded minimally, reported).\n\nWatch: labels in File Details show crop % near 0; panoramas/portraits get their spans; any filler shows as background.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "shipped (not individually reviewed)",
+      "text": "Template shipped on the default + tutorial verdict (\"seems fine to me, lets ship it\"); this variant was not individually reviewed by the founder. Agent pre-pass: clean. Recipe + twin + still stay as the record.",
+      "via": "transcribed by agent from the gate-31 chat verdict",
+      "from": "agent:claude",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/collage/image-collage/v1",
+      "props": {
+        "sourceIds": [
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-01-1500x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-02-1200x900.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-03-1920x1080.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-04-800x1200.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-05-1500x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-06-1250x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-07-900x1200.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-08-1600x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-09-1000x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-10-1450x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-11-720x1280.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-12-1330x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-13-2400x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-14-1000x1500.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-15-1600x900.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-16-1080x1080.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-17-1920x800.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-18-1000x1600.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-19-1400x1050.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-20-3000x1000.png"
+        ],
+        "cropBudget": 0
+      }
+    }
+  ]
+}

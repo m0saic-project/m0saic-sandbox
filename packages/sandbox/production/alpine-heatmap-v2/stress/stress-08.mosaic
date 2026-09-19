@@ -1,0 +1,2387 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1{40[-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121(0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,119[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,120(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8(1,1,1,1,1,1,1,1),0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120(0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7[6(0,0,0,0,1,-),6(0,0,0,0,1,-),6(0,0,0,0,1,-),6(0,0,0,0,1,-),6(0,0,0,0,1,-),6(0,0,0,0,1,-),6(0,0,0,0,1,-)],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7[8(1,1,1,1,1,1,1,1),8(1,1,1,1,1,1,1,1),8(1,1,1,1,1,1,1,1),8(1,1,1,1,1,1,1,1),8(1,1,1,1,1,1,1,1),8(1,1,1,1,1,1,1,1),8(1,1,1,1,1,1,1,1)],0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,46[0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107(0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9(1,1,1,1,1,1,1,1,1),0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1),0,0,0,0,0,0,0,0,0,0,-]]],0,0,0,0,0,0,-),-]}",
+  "assets": {},
+  "size": {
+    "width": 480,
+    "height": 1040
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#111827",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#1F2937",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "CONTRIBUTIONS"
+          },
+          "style": {
+            "fontSize": 43,
+            "fontColor": "#F1F5F9"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Commits by day"
+          },
+          "style": {
+            "fontSize": 27,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "W1"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "W2"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "W3"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "W4"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "W5"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "W6"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "W7"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "W8"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Mon"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Tue"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Wed"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Thu"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Fri"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Sat"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Sun"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "overlay": {
+        "startAtSec": 0,
+        "alpha": "(min(1,max(0,(t-0)/0.7349999999999999)))*(min(1,max(0,(t-0)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.011627906976744186,
+          "right": 0.1744186046511628,
+          "top": 0.011904761904761904,
+          "bottom": 0.17857142857142858
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#41366c",
+      "overlay": {
+        "startAtSec": 0.10499999999999998,
+        "alpha": "(min(1,max(0,(t-0.10499999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.10499999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.10499999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.03488372093023256,
+          "right": 0.1744186046511628,
+          "top": 0.011904761904761904,
+          "bottom": 0.17857142857142858
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#312c55",
+      "overlay": {
+        "startAtSec": 0.20999999999999996,
+        "alpha": "(min(1,max(0,(t-0.20999999999999996)/0.7349999999999999)))*(min(1,max(0,(t-0.20999999999999996)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.20999999999999996)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.03571428571428571,
+          "right": 0.13095238095238096,
+          "top": 0.011904761904761904,
+          "bottom": 0.17857142857142858
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#624a9a",
+      "overlay": {
+        "startAtSec": 0.31499999999999995,
+        "alpha": "(min(1,max(0,(t-0.31499999999999995)/0.7349999999999999)))*(min(1,max(0,(t-0.31499999999999995)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.31499999999999995)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.08333333333333333,
+          "right": 0.10714285714285714,
+          "top": 0.011904761904761904,
+          "bottom": 0.17857142857142858
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#524083",
+      "overlay": {
+        "startAtSec": 0.41999999999999993,
+        "alpha": "(min(1,max(0,(t-0.41999999999999993)/0.7349999999999999)))*(min(1,max(0,(t-0.41999999999999993)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.41999999999999993)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.10714285714285714,
+          "right": 0.05952380952380952,
+          "top": 0.011904761904761904,
+          "bottom": 0.17857142857142858
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#624a9a",
+      "overlay": {
+        "startAtSec": 0.5249999999999999,
+        "alpha": "(min(1,max(0,(t-0.5249999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.5249999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.5249999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.15476190476190477,
+          "right": 0.03571428571428571,
+          "top": 0.011904761904761904,
+          "bottom": 0.17857142857142858
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#41366c",
+      "overlay": {
+        "startAtSec": 0.6299999999999999,
+        "alpha": "(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.1744186046511628,
+          "right": 0.011627906976744186,
+          "top": 0.011904761904761904,
+          "bottom": 0.17857142857142858
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#7253b2",
+      "overlay": {
+        "startAtSec": 0.7349999999999999,
+        "alpha": "(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.19767441860465115,
+          "right": 0.011627906976744186,
+          "top": 0.011904761904761904,
+          "bottom": 0.17857142857142858
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#312c55",
+      "overlay": {
+        "startAtSec": 0.10499999999999998,
+        "alpha": "(min(1,max(0,(t-0.10499999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.10499999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.10499999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.011627906976744186,
+          "right": 0.1744186046511628,
+          "top": 0.03571428571428571,
+          "bottom": 0.15476190476190477
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#524083",
+      "overlay": {
+        "startAtSec": 0.20999999999999996,
+        "alpha": "(min(1,max(0,(t-0.20999999999999996)/0.7349999999999999)))*(min(1,max(0,(t-0.20999999999999996)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.20999999999999996)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.03488372093023256,
+          "right": 0.1744186046511628,
+          "top": 0.03571428571428571,
+          "bottom": 0.15476190476190477
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#41366c",
+      "overlay": {
+        "startAtSec": 0.31499999999999995,
+        "alpha": "(min(1,max(0,(t-0.31499999999999995)/0.7349999999999999)))*(min(1,max(0,(t-0.31499999999999995)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.31499999999999995)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.03571428571428571,
+          "right": 0.13095238095238096,
+          "top": 0.03571428571428571,
+          "bottom": 0.15476190476190477
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#624a9a",
+      "overlay": {
+        "startAtSec": 0.41999999999999993,
+        "alpha": "(min(1,max(0,(t-0.41999999999999993)/0.7349999999999999)))*(min(1,max(0,(t-0.41999999999999993)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.41999999999999993)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.08333333333333333,
+          "right": 0.10714285714285714,
+          "top": 0.03571428571428571,
+          "bottom": 0.15476190476190477
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#624a9a",
+      "overlay": {
+        "startAtSec": 0.5249999999999999,
+        "alpha": "(min(1,max(0,(t-0.5249999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.5249999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.5249999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.10714285714285714,
+          "right": 0.05952380952380952,
+          "top": 0.03571428571428571,
+          "bottom": 0.15476190476190477
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#7253b2",
+      "overlay": {
+        "startAtSec": 0.6299999999999999,
+        "alpha": "(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.15476190476190477,
+          "right": 0.03571428571428571,
+          "top": 0.03571428571428571,
+          "bottom": 0.15476190476190477
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#524083",
+      "overlay": {
+        "startAtSec": 0.7349999999999999,
+        "alpha": "(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.1744186046511628,
+          "right": 0.011627906976744186,
+          "top": 0.03571428571428571,
+          "bottom": 0.15476190476190477
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#825dc9",
+      "overlay": {
+        "startAtSec": 0.8399999999999999,
+        "alpha": "(min(1,max(0,(t-0.8399999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.8399999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.8399999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.19767441860465115,
+          "right": 0.011627906976744186,
+          "top": 0.03571428571428571,
+          "bottom": 0.15476190476190477
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#41366c",
+      "overlay": {
+        "startAtSec": 0.20999999999999996,
+        "alpha": "(min(1,max(0,(t-0.20999999999999996)/0.7349999999999999)))*(min(1,max(0,(t-0.20999999999999996)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.20999999999999996)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.011627906976744186,
+          "right": 0.1744186046511628,
+          "top": 0.05952380952380952,
+          "bottom": 0.13095238095238096
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#624a9a",
+      "overlay": {
+        "startAtSec": 0.31499999999999995,
+        "alpha": "(min(1,max(0,(t-0.31499999999999995)/0.7349999999999999)))*(min(1,max(0,(t-0.31499999999999995)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.31499999999999995)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.03488372093023256,
+          "right": 0.1744186046511628,
+          "top": 0.05952380952380952,
+          "bottom": 0.13095238095238096
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#524083",
+      "overlay": {
+        "startAtSec": 0.41999999999999993,
+        "alpha": "(min(1,max(0,(t-0.41999999999999993)/0.7349999999999999)))*(min(1,max(0,(t-0.41999999999999993)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.41999999999999993)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.03571428571428571,
+          "right": 0.13095238095238096,
+          "top": 0.05952380952380952,
+          "bottom": 0.13095238095238096
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#7253b2",
+      "overlay": {
+        "startAtSec": 0.5249999999999999,
+        "alpha": "(min(1,max(0,(t-0.5249999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.5249999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.5249999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.08333333333333333,
+          "right": 0.10714285714285714,
+          "top": 0.05952380952380952,
+          "bottom": 0.13095238095238096
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#624a9a",
+      "overlay": {
+        "startAtSec": 0.6299999999999999,
+        "alpha": "(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.10714285714285714,
+          "right": 0.05952380952380952,
+          "top": 0.05952380952380952,
+          "bottom": 0.13095238095238096
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#9367e0",
+      "overlay": {
+        "startAtSec": 0.7349999999999999,
+        "alpha": "(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.15476190476190477,
+          "right": 0.03571428571428571,
+          "top": 0.05952380952380952,
+          "bottom": 0.13095238095238096
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#624a9a",
+      "overlay": {
+        "startAtSec": 0.8399999999999999,
+        "alpha": "(min(1,max(0,(t-0.8399999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.8399999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.8399999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.1744186046511628,
+          "right": 0.011627906976744186,
+          "top": 0.05952380952380952,
+          "bottom": 0.13095238095238096
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "overlay": {
+        "startAtSec": 0.9449999999999998,
+        "alpha": "(min(1,max(0,(t-0.9449999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.9449999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.9449999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.19767441860465115,
+          "right": 0.011627906976744186,
+          "top": 0.05952380952380952,
+          "bottom": 0.13095238095238096
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#312c55",
+      "overlay": {
+        "startAtSec": 0.31499999999999995,
+        "alpha": "(min(1,max(0,(t-0.31499999999999995)/0.7349999999999999)))*(min(1,max(0,(t-0.31499999999999995)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.31499999999999995)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.011627906976744186,
+          "right": 0.1744186046511628,
+          "top": 0.08333333333333333,
+          "bottom": 0.08333333333333333
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#41366c",
+      "overlay": {
+        "startAtSec": 0.41999999999999993,
+        "alpha": "(min(1,max(0,(t-0.41999999999999993)/0.7349999999999999)))*(min(1,max(0,(t-0.41999999999999993)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.41999999999999993)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.03488372093023256,
+          "right": 0.1744186046511628,
+          "top": 0.08333333333333333,
+          "bottom": 0.08333333333333333
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#624a9a",
+      "overlay": {
+        "startAtSec": 0.5249999999999999,
+        "alpha": "(min(1,max(0,(t-0.5249999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.5249999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.5249999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.03571428571428571,
+          "right": 0.13095238095238096,
+          "top": 0.08333333333333333,
+          "bottom": 0.08333333333333333
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#624a9a",
+      "overlay": {
+        "startAtSec": 0.6299999999999999,
+        "alpha": "(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.08333333333333333,
+          "right": 0.10714285714285714,
+          "top": 0.08333333333333333,
+          "bottom": 0.08333333333333333
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#825dc9",
+      "overlay": {
+        "startAtSec": 0.7349999999999999,
+        "alpha": "(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.10714285714285714,
+          "right": 0.05952380952380952,
+          "top": 0.08333333333333333,
+          "bottom": 0.08333333333333333
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#7253b2",
+      "overlay": {
+        "startAtSec": 0.8399999999999999,
+        "alpha": "(min(1,max(0,(t-0.8399999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.8399999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.8399999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.15476190476190477,
+          "right": 0.03571428571428571,
+          "top": 0.08333333333333333,
+          "bottom": 0.08333333333333333
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#624a9a",
+      "overlay": {
+        "startAtSec": 0.9449999999999998,
+        "alpha": "(min(1,max(0,(t-0.9449999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.9449999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.9449999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.1744186046511628,
+          "right": 0.011627906976744186,
+          "top": 0.08333333333333333,
+          "bottom": 0.08333333333333333
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#9367e0",
+      "overlay": {
+        "startAtSec": 1.0499999999999998,
+        "alpha": "(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.19767441860465115,
+          "right": 0.011627906976744186,
+          "top": 0.08333333333333333,
+          "bottom": 0.08333333333333333
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#524083",
+      "overlay": {
+        "startAtSec": 0.41999999999999993,
+        "alpha": "(min(1,max(0,(t-0.41999999999999993)/0.7349999999999999)))*(min(1,max(0,(t-0.41999999999999993)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.41999999999999993)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.011627906976744186,
+          "right": 0.1744186046511628,
+          "top": 0.13095238095238096,
+          "bottom": 0.05952380952380952
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#624a9a",
+      "overlay": {
+        "startAtSec": 0.5249999999999999,
+        "alpha": "(min(1,max(0,(t-0.5249999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.5249999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.5249999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.03488372093023256,
+          "right": 0.1744186046511628,
+          "top": 0.13095238095238096,
+          "bottom": 0.05952380952380952
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#7253b2",
+      "overlay": {
+        "startAtSec": 0.6299999999999999,
+        "alpha": "(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.03571428571428571,
+          "right": 0.13095238095238096,
+          "top": 0.13095238095238096,
+          "bottom": 0.05952380952380952
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#9367e0",
+      "overlay": {
+        "startAtSec": 0.7349999999999999,
+        "alpha": "(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.08333333333333333,
+          "right": 0.10714285714285714,
+          "top": 0.13095238095238096,
+          "bottom": 0.05952380952380952
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "overlay": {
+        "startAtSec": 0.8399999999999999,
+        "alpha": "(min(1,max(0,(t-0.8399999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.8399999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.8399999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.10714285714285714,
+          "right": 0.05952380952380952,
+          "top": 0.13095238095238096,
+          "bottom": 0.05952380952380952
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#825dc9",
+      "overlay": {
+        "startAtSec": 0.9449999999999998,
+        "alpha": "(min(1,max(0,(t-0.9449999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.9449999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.9449999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.15476190476190477,
+          "right": 0.03571428571428571,
+          "top": 0.13095238095238096,
+          "bottom": 0.05952380952380952
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#9367e0",
+      "overlay": {
+        "startAtSec": 1.0499999999999998,
+        "alpha": "(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.1744186046511628,
+          "right": 0.011627906976744186,
+          "top": 0.13095238095238096,
+          "bottom": 0.05952380952380952
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "overlay": {
+        "startAtSec": 1.1549999999999998,
+        "alpha": "(min(1,max(0,(t-1.1549999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.1549999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.1549999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.19767441860465115,
+          "right": 0.011627906976744186,
+          "top": 0.13095238095238096,
+          "bottom": 0.05952380952380952
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "overlay": {
+        "startAtSec": 0.5249999999999999,
+        "alpha": "(min(1,max(0,(t-0.5249999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.5249999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.5249999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.011627906976744186,
+          "right": 0.1744186046511628,
+          "top": 0.15476190476190477,
+          "bottom": 0.03571428571428571
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#312c55",
+      "overlay": {
+        "startAtSec": 0.6299999999999999,
+        "alpha": "(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.03488372093023256,
+          "right": 0.1744186046511628,
+          "top": 0.15476190476190477,
+          "bottom": 0.03571428571428571
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "overlay": {
+        "startAtSec": 0.7349999999999999,
+        "alpha": "(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.03571428571428571,
+          "right": 0.13095238095238096,
+          "top": 0.15476190476190477,
+          "bottom": 0.03571428571428571
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#41366c",
+      "overlay": {
+        "startAtSec": 0.8399999999999999,
+        "alpha": "(min(1,max(0,(t-0.8399999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.8399999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.8399999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.08333333333333333,
+          "right": 0.10714285714285714,
+          "top": 0.15476190476190477,
+          "bottom": 0.03571428571428571
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#312c55",
+      "overlay": {
+        "startAtSec": 0.9449999999999998,
+        "alpha": "(min(1,max(0,(t-0.9449999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.9449999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.9449999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.10714285714285714,
+          "right": 0.05952380952380952,
+          "top": 0.15476190476190477,
+          "bottom": 0.03571428571428571
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#524083",
+      "overlay": {
+        "startAtSec": 1.0499999999999998,
+        "alpha": "(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.15476190476190477,
+          "right": 0.03571428571428571,
+          "top": 0.15476190476190477,
+          "bottom": 0.03571428571428571
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#312c55",
+      "overlay": {
+        "startAtSec": 1.1549999999999998,
+        "alpha": "(min(1,max(0,(t-1.1549999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.1549999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.1549999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.1744186046511628,
+          "right": 0.011627906976744186,
+          "top": 0.15476190476190477,
+          "bottom": 0.03571428571428571
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#41366c",
+      "overlay": {
+        "startAtSec": 1.2599999999999998,
+        "alpha": "(min(1,max(0,(t-1.2599999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.2599999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.2599999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.19767441860465115,
+          "right": 0.011627906976744186,
+          "top": 0.15476190476190477,
+          "bottom": 0.03571428571428571
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "overlay": {
+        "startAtSec": 0.6299999999999999,
+        "alpha": "(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.6299999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.011627906976744186,
+          "right": 0.1744186046511628,
+          "top": 0.17857142857142858,
+          "bottom": 0.011904761904761904
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "overlay": {
+        "startAtSec": 0.7349999999999999,
+        "alpha": "(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.7349999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.03488372093023256,
+          "right": 0.1744186046511628,
+          "top": 0.17857142857142858,
+          "bottom": 0.011904761904761904
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#312c55",
+      "overlay": {
+        "startAtSec": 0.8399999999999999,
+        "alpha": "(min(1,max(0,(t-0.8399999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.8399999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.8399999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.03571428571428571,
+          "right": 0.13095238095238096,
+          "top": 0.17857142857142858,
+          "bottom": 0.011904761904761904
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#312c55",
+      "overlay": {
+        "startAtSec": 0.9449999999999998,
+        "alpha": "(min(1,max(0,(t-0.9449999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.9449999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.9449999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.08333333333333333,
+          "right": 0.10714285714285714,
+          "top": 0.17857142857142858,
+          "bottom": 0.011904761904761904
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "overlay": {
+        "startAtSec": 1.0499999999999998,
+        "alpha": "(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.10714285714285714,
+          "right": 0.05952380952380952,
+          "top": 0.17857142857142858,
+          "bottom": 0.011904761904761904
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#41366c",
+      "overlay": {
+        "startAtSec": 1.1549999999999998,
+        "alpha": "(min(1,max(0,(t-1.1549999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.1549999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.1549999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.15476190476190477,
+          "right": 0.03571428571428571,
+          "top": 0.17857142857142858,
+          "bottom": 0.011904761904761904
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "overlay": {
+        "startAtSec": 1.2599999999999998,
+        "alpha": "(min(1,max(0,(t-1.2599999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.2599999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.2599999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.1744186046511628,
+          "right": 0.011627906976744186,
+          "top": 0.17857142857142858,
+          "bottom": 0.011904761904761904
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#312c55",
+      "overlay": {
+        "startAtSec": 1.3649999999999998,
+        "alpha": "(min(1,max(0,(t-1.3649999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.3649999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.3649999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.19767441860465115,
+          "right": 0.011627906976744186,
+          "top": 0.17857142857142858,
+          "bottom": 0.011904761904761904
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Less"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "placement": {
+        "inset": {
+          "x": 0.10344827586206896
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#312c55",
+      "placement": {
+        "inset": {
+          "x": 0.10344827586206896
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#41366c",
+      "placement": {
+        "inset": {
+          "x": 0.10344827586206896
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#524083",
+      "placement": {
+        "inset": {
+          "x": 0.10344827586206896
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#624a9a",
+      "placement": {
+        "inset": {
+          "x": 0.10344827586206896
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#7253b2",
+      "placement": {
+        "inset": {
+          "x": 0.10344827586206896
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#825dc9",
+      "placement": {
+        "inset": {
+          "x": 0.10344827586206896
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#9367e0",
+      "placement": {
+        "inset": {
+          "x": 0.10344827586206896
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "placement": {
+        "inset": {
+          "x": 0.10344827586206896
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "More"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-dark-purple-round** (gate-5 stress set for `@m0saic/alpine/heatmap/v2`).\n\nTALL SKINNY + preset:dark + purple scale + custom emptyColor + cellRadius 1 (max round → dots) + levels 9. Watch: 9-bucket legend fits at 480px width, dot-cells read.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": null
+  }
+}

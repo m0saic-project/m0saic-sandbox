@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 9000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/contributions/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-25-ffmpeg-pulse-contributions", "basename": "master_candidate" },
+  "agent": { "note": "MASTER CANDIDATE — final quality gate for @m0saic/hero/ffmpeg-pulse/contributions/v1 (heatmap beat, approved one-shot). Shared pulse-chrome wrapping a GitHub-style contribution heatmap (7 weekday rows x 8 trailing weeks, green intensity = theme.primaryBright) + a 2x2 activity rail; cohesive theme.card panels. Driven by pulse.activity.grid. Render the 3 aspects below and sign off; on approval I promote to master.* + set the template preview + write the postmortem. (Eyebrow BEAT 5 is provisional — runner assigns final order.)", "question": "Sign off on all 3 master renders (desktop / square / mobile)?" }
+}

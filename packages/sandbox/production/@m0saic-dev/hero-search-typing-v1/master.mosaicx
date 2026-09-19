@@ -1,0 +1,32 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 1280,
+  "height": 400
+ },
+ "fps": 30,
+ "durationMs": 18170,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic-dev/hero/search-typing/v1",
+   "props": {}
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "master"
+ },
+ "agent": {
+  "question": "Take-3 verdict? (Icon em-cap look + contract; then the publisher migration.)",
+  "response": {
+   "verdict": "ship",
+   "text": "take-1: \"no cover render necessary for this one\" → cover removed, renderCover-undefined spec-locked → take-2: PUBLISHER ruling (\"core should be a good baseline and not tons of random junk… plenty of space for that in community\") + \"we need a layout contract on the size of the search icon. this is not a good look\" → icon em-cap coupled into the shrink loop + debugLayout contract + ledger moved under production/@m0saic-dev/ → stress ×10 35/35 (⭐ hint-echo pin caught: custom timing was silently stretched to 18.17s) → \"ship\"",
+   "via": "chat — transcribed by agent",
+   "note": "SHIPPED as PUBLISHER MIGRATION (gate 27 — hero pack; the first base→publisher move of the cut). Template now lives at `packages/community-templates/src/publishers/m0saic-dev/templates/hero/search-typing/v1/` as `@m0saic-dev/hero/search-typing/v1` (community convention: no self-registration; publisher templates array + community registry entry; previews moved to community assets; manifest 8 templates). CORE PRUNED: hero barrel, curated registry, CLI e2e cases + size override + e2e-variants entry, News entry REMOVED entirely (founder post-ship ruling). Core manifest 102→101. Verified: community suite 570 green (incl. the moved 160-spec suite), core registry completeness green, core CLI list carries NO search-typing, publisher id renders via --community-repo (slug-hijack guard confirmed firing on the wrong flag). FIXES SHIPPED WITH THE MOVE: portrait metric cap (defaults error-carded at 720×1280); error-doc audio:{enabled:false} (silent-track class); ⭐ hint-echo pin (ctx duration echoing outputHints ≠ a user ask — custom words/timing keep natural cadence, explicit userIntent still pins); icon 2em cap coupled into the shrink loop (was 19.9× the font at 1080²) + debugLayout withLayoutContract (icon aspect 1 + ≤2em, GREEN at 1080²). CRITERION RATIFIED (founder): core = category baselines; specific creative pieces = publisher/community — 'is this the baseline for a category, or a specific creative piece?' OPEN: m0-inflation lesson-8 trade-off (unchanged, documented); Windows test:all before merge; 4 ungated media base rows (scroll_wall, trickplay, video_to_png_sequence, watermark) still awaiting founder sequencing."
+  }
+ }
+}

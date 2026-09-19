@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 9000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/changes-breakdown/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-25-ffmpeg-pulse-changes-breakdown", "basename": "master" },
+  "agent": { "note": "MASTER — @m0saic/hero/ffmpeg-pulse/changes-breakdown/v1 (Beat 4). APPROVED across desktop/square/mobile. Shared pulse-chrome wrapping a changes-by-subsystem donut (ring + legend + center 842 files changed) + a 2x2 aggregate stat-card rail; cohesive theme.card panels. Aspect-adaptive: desktop donut-left + 2x2 rail-right; square donut-top + 2x2 rail; mobile shortened donut + 2x2 rail. Banked this beat: stat-card now positions EVERY element via placeRect (exact-pixel, quantization-safe) — fixed off-center icon + clipped value, benefits ALL beats' rails. 6 unit tests; internal beat (skips CLI E2E per precedent). Preview + postmortem set." }
+}

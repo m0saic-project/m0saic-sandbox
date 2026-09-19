@@ -1,0 +1,81 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/timeline/v2",
+      "props": {
+        "events": [
+          {
+            "date": "Q1 2024",
+            "title": "Project kickoff and initial planning phase",
+            "description": "Team assembled across three continents, first commit landed"
+          },
+          {
+            "date": "Q2 2024",
+            "title": "Beta launch to early access cohort",
+            "description": "500 early users onboarded with white-glove support"
+          },
+          {
+            "date": "Q3 2024",
+            "title": "Series A fundraise closed",
+            "description": "$12M raised to scale the engineering team"
+          },
+          {
+            "date": "Q4 2024",
+            "title": "Ten thousand customers milestone",
+            "description": "Crossed five figures with 40% MoM growth"
+          },
+          {
+            "date": "Q1 2025",
+            "title": "Global expansion begins",
+            "description": "Live in 12 countries across 4 regions"
+          },
+          {
+            "date": "Q2 2025",
+            "title": "Enterprise tier general availability",
+            "description": "SSO, audit logs and SLAs shipped"
+          },
+          {
+            "date": "Q3 2025",
+            "title": "Acquisition announced",
+            "description": "Joining forces with a category leader"
+          }
+        ],
+        "title": "COMPANY HISTORY AND MAJOR MILESTONES",
+        "subtitle": "Our journey so far",
+        "preset": "light",
+        "orientation": "auto",
+        "showDescription": true,
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-01"
+  },
+  "agent": {
+    "note": "**STRESS 01/10 — 01-max7-long-wrap** (gate-11 stress set for `@m0saic/alpine/timeline/v2`).\n\nMAX LOAD: 7 events (the cap) + long titles/descriptions — the FIT-FIRST showcase. Watch: 2-line wraps show every word (no ellipsis), dots equal, cascade across 7.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "seems fine, no tutorial is needed, and i approve the renders. ship",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

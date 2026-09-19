@@ -1,0 +1,35 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 640,
+    "height": 360
+  },
+  "fps": 30,
+  "durationMs": 8000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-slow-loop-small** (gate-21 stress set for `@m0saic/media/logo-animate/v1`).\n\nOne long 8s loop period on a SMALL wide canvas (contain letterboxes the square M). Watch: the slow reveal stays smooth (no visible expr stepping), margins show clean background.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "\"all 10 pass, ship it\" (set verdict — reviewed via stress/renders/)",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/logo-animate/v1",
+      "props": {
+        "animation": "logo_loop",
+        "loopSec": 8
+      }
+    }
+  ]
+}

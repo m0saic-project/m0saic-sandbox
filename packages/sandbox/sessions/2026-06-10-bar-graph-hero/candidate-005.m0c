@@ -1,0 +1,97 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T07:14:47.485Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.10",
+  "meta": {
+    "title": "2026-06-10-bar-graph-hero · candidate-005"
+  },
+  "agent": {
+    "note": "Outer 2 rows: title-band (itself a 2-row split: title + subtitle) and plot. No label-band — for charts where bars carry their own labels (inline value text on each bar) and the story sits in the title.",
+    "question": "Worth a 'labelBand: auto | off' prop, or should label-band always be present and the user handles their own data shape?",
+    "context": {
+      "category": {
+        "kind": "known",
+        "value": "spacing-alignment"
+      },
+      "intent": {
+        "action": "branch",
+        "summary": "title+subtitle stacked, no label-band (self-labeling bars)"
+      },
+      "relation": {
+        "kind": "branch",
+        "target": "001"
+      },
+      "layoutIntent": "magazine",
+      "evaluation": {
+        "grade": "best",
+        "source": "automated",
+        "at": "2026-06-10T07:14:47.484Z",
+        "breakdown": {
+          "total": 1,
+          "feasible": true,
+          "components": {
+            "precision": {
+              "quality": 1,
+              "weight": 0,
+              "raw": 0.001851851851851852
+            },
+            "spread": {
+              "quality": 1,
+              "weight": 0,
+              "raw": 0
+            },
+            "gutter": {
+              "quality": 1,
+              "weight": 0,
+              "raw": 0
+            },
+            "frames": {
+              "quality": 1,
+              "weight": 0.89,
+              "raw": 3
+            },
+            "structure": {
+              "quality": 1,
+              "weight": 0.1,
+              "raw": 0
+            },
+            "compactness": {
+              "quality": 1,
+              "weight": 0.01,
+              "raw": 11
+            }
+          }
+        }
+      }
+    },
+    "response": {
+      "body": "Im a bit confused by the question. I dont like this layout though. combine tile and subtitle. text concern",
+      "from": "human",
+      "at": "2026-06-10T07:26:19.696Z"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "2[2[1,1],1]",
+  "labels": {
+    "r/fc1": {
+      "text": "plot"
+    },
+    "r/growc0/fc0": {
+      "text": "title"
+    },
+    "r/growc0/fc1": {
+      "text": "subtitle"
+    }
+  },
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "rankSets": null,
+  "custom": null
+}

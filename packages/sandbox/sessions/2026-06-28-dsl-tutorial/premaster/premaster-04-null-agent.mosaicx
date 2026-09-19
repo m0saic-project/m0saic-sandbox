@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "5[1,-,2(1,1),-,1]",
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "premaster-04-null"
+  },
+  "agent": {
+    "note": "**Pre-master · Null.** `5[1,-,2(1,1),-,1]` — **null `-` slots** are non-render holes. The two `-` positions stay **empty canvas** (no tile), with split guides + frame showing the structure around them.",
+    "question": "Null slots render as clean empty holes (no stray tile/label), layout around them correct?",
+    "response": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-12T05:09:18.592Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.11",
+  "meta": {
+    "title": "2026-06-12-donut-distribution · candidate-002"
+  },
+  "agent": {
+    "note": "Re-iteration per your candidate-001 verdict - simplified to match the reference crop. Three ideas only: (1) label band top, 120px (~19%), title region left-aligned 240px ('Commit Distribution' + 'Weekday vs Weekend' subtitle live here); (2) ONE main rect for the donut itself, 600x520 - implementation-wise this is exactly one cell whose ring is masked color tiles (single rect + mask, animated sweep-in), never separate ring bands; (3) the data number sits INSIDE the donut as a centered overlay zone (~200x58 marker), and it counts up KPI-style (same animateNumbersInText mechanism as stat-card). Reference shows no separate legend rows - the subtitle carries weekday-vs-weekend, so the primitive defaults legend off (a legend prop stays available for other uses). Center total per reference: 247.",
+    "question": "Two specifics: (a) is this the right decomposition now - label band ~19% / donut rect 81%, number centered inside the ring? (b) label alignment: reference is LEFT-aligned - keep left as the shipped default, or do you want center?",
+    "context": {
+      "category": {
+        "kind": "known",
+        "value": "spacing-alignment"
+      },
+      "intent": {
+        "action": "refine",
+        "summary": "single-donut-rect decomposition per human verdict: label band + one masked donut cell + centered count-up number overlay"
+      },
+      "relation": "refines:001",
+      "layoutIntent": "free"
+    },
+    "response": {
+      "body": "Feels like the center value should be larger, and we can size within it later in template layer. Also, it would be helpful if the reference image was saved to the Background. Fix please.",
+      "from": "human",
+      "at": "2026-06-12T05:47:53.823Z"
+    }
+  },
+  "size": {
+    "width": 600,
+    "height": 640
+  },
+  "m0": "16[0,0,5(0,1,-,-,-),0,0,0,0,0,0,0,0,0,0,0,0,1{9[-,-,-,-,3(-,1,-),-,-,-,-]}]",
+  "labels": {
+    "r/fc15": {
+      "text": "donut rect (single masked+animated cell)"
+    },
+    "r/fc15/ov1c0/gcolc4/fc1": {
+      "text": "center value (247, counts up)"
+    },
+    "r/gcolc2/fc1": {
+      "text": "label area (Commit Distribution / Weekday vs Weekend)"
+    }
+  },
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "fill": null,
+  "rankSets": null,
+  "custom": null
+}

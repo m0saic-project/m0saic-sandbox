@@ -1,0 +1,72 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 3500,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 \u2014 06-legend-bottom** (gate-16 stress set for `@m0saic/charts/line-chart/v1`).\n\nLEGEND POSITION: BOTTOM \u2014 the knob was typed but NEVER WIRED (audit-every-knob); wired this gate: footer band under the x labels, pad.bottom widened. Watch: legend centered at the bottom, x labels clear of it.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/line-chart/v1",
+      "props": {
+        "values": [
+          [
+            10,
+            24,
+            18,
+            40,
+            32,
+            55
+          ],
+          [
+            8,
+            14,
+            22,
+            26,
+            38,
+            44
+          ],
+          [
+            5,
+            9,
+            15,
+            19,
+            26,
+            33
+          ]
+        ],
+        "seriesLabels": [
+          "main",
+          "dev",
+          "preview"
+        ],
+        "legend": {
+          "show": true,
+          "position": "bottom"
+        },
+        "titles": {
+          "title": "Branch activity by environment",
+          "subtitle": "Legend repositioned to the footer."
+        }
+      }
+    }
+  ]
+}

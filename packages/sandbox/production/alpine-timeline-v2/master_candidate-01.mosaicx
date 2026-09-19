@@ -1,0 +1,32 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/timeline/v2",
+      "props": {}
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/alpine/timeline/v2`** (gate 11; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase defaults (Milestones, 5 events). v1 deprecated → rides base·dep.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated, primitive:true | confirm |\n| Gate | — | **base** |\n| Preview assets | re-mint after approval | review |\n| Cover / Tutorial | cover BUILT this gate (cascade starts near-blank) | eyeball cover; tutorial needed? |\n\n**Pre-audit: the insetNode flag was EARNED — the horizontal orientation was BROKEN at 15/84 battery canvases** (incl. plain defaults at 1280×720): insetNode px margins + gcd-1 px text weights minted 74/77/121-way canonical splits; sub-pixel cells made the engine fold paint slots away and REFUSE the doc (m0 22 slots vs 26 sources → exit 1, black). REBUILT with the pack law: dots + spine segments are now EQUAL bands with the tile carved by a symmetric placement.inset (zero split cells — also REQUIRED post-mask-fix: the circle mask now stretches, so the dot box must be square); text-line weights snapped to a small basis. Battery 84/84 post-fix.\n\nAlso this gate: script-aware truncation (the old 0.6em flat-char truncateToWidth under-cut wide scripts), debugLayout contract (dot equal-size relation — the check that would have caught the old drift — + text-fit on all three line kinds; NO expr text here so text-fit runs on every config), cover, dot test-helper updated (dots are full band cells now — found by tag, not by small-square heuristic).\n\n**Primitive-sense: KEEP primitive:true** — a milestone spine is a distinct composable block, no overlap with any shipped template.\n\n**LOOK QUESTION for you:** default copy truncates at the default canvas (horizontal = 5 columns × 0.92 width: \"Project kicko⋯\", \"Team assembled, fi⋯\"). Pre-existing behavior, not from the rebuild. Options: accept (timeline = glanceable, truncation honest), shorten the default copy, or drop default descriptions in horizontal.\n\nBattery 84/84 (was 69/84), probe 14/14, 37/37 unit (3 updated for the rebuild).",
+    "question": "Default look verdict (incl. the default-copy truncation question)? Cover OK? Tutorial needed? primitive:true confirmed? Then stress.",
+    "response": {
+      "verdict": "redirect",
+      "text": "i dont like how much text is cut off in default. we should make it only four 4 bullets and shorten text. but also in general, a user using this template probably prefers we try to fit as much of their text as possible. a balance where its not a vertical monstrosity that is unpleasant to read, but where we dont just cut all text longer than basic statements",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

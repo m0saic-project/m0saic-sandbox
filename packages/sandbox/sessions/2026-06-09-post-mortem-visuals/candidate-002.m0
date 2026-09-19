@@ -1,0 +1,13 @@
+# m0
+# version: 1
+# created: 2026-06-09T23:08:57.773Z
+# size: 1920x1080
+# app: m0saic-desktop
+# appVersion: 0.1.0+2026.06.09
+# title: 2026-06-09-post-mortem-visuals · candidate-002
+# m0agent:note: Iter 2 of post-mortem visuals — addressing your feedback. Widened chat from 1:4 to 1:3 (25/75). Exposed the split as tunable props (chatWeightSlots / canvasWeightSlots) so you can dial it from --props without me rebuilding each round. Added region label support: when a candidate carries m0agent:regions, m0-snapshot surfaces them on the hero (replaces default dim/AR text). Demoed by adding {hero, support-left, support-right} labels to candidate-003 of the pc-mvp fixture.
+# m0agent:question: Is the 1:3 split closer to what you want, or push further? Do the region labels on candidate-003's hero feel useful? Ready to move on to chat-bubble styling next, or another tuning pass first?
+# m0agent:context: {"category":{"kind":"known","value":"hierarchy-emphasis"},"intent":{"action":"refine","summary":"wider chat per feedback + label support + tunable props"},"relation":{"kind":"refines","target":"001"},"layoutIntent":"comparison","evaluation":{"grade":"good","source":"automated","at":"2026-06-09T23:08:57.771Z","breakdown":{"total":0.5000000000008604,"feasible":true,"components":{"precision":{"quality":1,"weight":0,"raw":0.0020833333333333333},"spread":{"quality":1.7208688345373903e-12,"weight":0.5,"raw":960},"gutter":{"quality":1,"weight":0,"raw":0},"frames":{"quality":1,"weight":0.39,"raw":2},"structure":{"quality":1,"weight":0.1,"raw":2},"compactness":{"quality":1,"weight":0.01,"raw":10}}}}}
+# m0agent:response: {"body":"those stablekeys are not accurate. But I can tell you mean Hero / Layout is right side, and Chat is left. I still want just a tad more space for the Chat area","from":"human","at":"2026-06-09T23:21:30.008Z"}
+
+4(1,0,0,1)

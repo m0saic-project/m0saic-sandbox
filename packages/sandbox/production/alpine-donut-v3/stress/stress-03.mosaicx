@@ -1,0 +1,66 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 480
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/donut/v3",
+      "props": {
+        "segments": [
+          {
+            "label": "Enterprise",
+            "value": 42,
+            "color": "#2563EB"
+          },
+          {
+            "label": "Pro",
+            "value": 33,
+            "color": "#10B981"
+          },
+          {
+            "label": "Free",
+            "value": 25,
+            "color": "#F59E0B"
+          }
+        ],
+        "title": "DONUT CHART",
+        "subtitle": "Revenue Mix",
+        "centerValue": "$12,480",
+        "centerLabel": "Total",
+        "preset": "light",
+        "ringThicknessFrac": 0.42,
+        "segmentLabels": "percent",
+        "legend": "right",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 — 03-ultrawide** (gate-4 stress set for `@m0saic/alpine/donut/v3`).\n\nULTRAWIDE 4:1 — the legend-drift repro canvas (fixed via content-hug rows). Watch: % values sit right after labels, ring centered in its cell.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-21T18:45:27.000Z",
+      "via": "chat (\"approved\" — gate-4 stress set) — transcribed by agent"
+    }
+  }
+}

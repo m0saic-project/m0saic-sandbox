@@ -1,0 +1,51 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T12:00:00.000Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.11",
+  "meta": {
+    "title": "03 · labels with chip color",
+    "note": "labels[k].color tints the badge — NOT the rect fill."
+  },
+  "agent": {
+    "id": "claude-smoke-2026-06-10",
+    "note": "Labels carry chip-tint colors. Under the v2 semantic split this should tint the badge ONLY — the rect fill must come from the separate `fill` map (see candidate 04).",
+    "question": "With Labels ON: do the four chips tint with their per-frame colors? With Rects ON: do the rects stay the uniform Rects-toggle color (i.e. NOT the label colors)?",
+    "response": {
+      "body": "Yes, approved.",
+      "from": "human",
+      "at": "2026-06-11T01:55:49.801Z"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "4(1,1,1,1)",
+  "labels": {
+    "r/fc0": {
+      "text": "alpha",
+      "color": "#ef7525"
+    },
+    "r/fc1": {
+      "text": "beta",
+      "color": "#bcd6e8"
+    },
+    "r/fc2": {
+      "text": "gamma",
+      "color": "#4b5563"
+    },
+    "r/fc3": {
+      "text": "delta",
+      "color": "#22c55e"
+    }
+  },
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "fill": null,
+  "rankSets": null,
+  "custom": null
+}

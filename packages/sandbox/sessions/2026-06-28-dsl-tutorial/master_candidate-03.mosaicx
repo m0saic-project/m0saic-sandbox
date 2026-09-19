@@ -1,0 +1,39 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "4[4(F,F,F,F),4(0,F,0,F),3(2[F,F],3[F,F,F],2[F,F]),4(F,F,F,F)]",
+        "speedMultiplier": 1,
+        "preset": "light",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-03"
+  },
+  "agent": {
+    "note": "**MASTER CANDIDATE (iterates 02 — a CAMERA STRESS layout).** Dense **17-tile** layout, no full-width tile → the camera **zooms 2×** and follows the walk hard: across all four rows (up/down/left/right pans), **through 2 passthrough donations** (row 2,  → two halves — exercises the new passthrough-follow), and **into three differently-nested regions** (row 3 = splits of arity 2 / 3 / 2), then **pulls back + holds** full view at the end. If the camera tracks all of that cleanly with nothing clipped, it is solid.",
+    "question": "Camera stress: zoom+follow tracks across rows / passthroughs / nested regions cleanly, tiles legible under 2× zoom, pull-back+hold reads right, nothing clipped? Ship it, or adjust?",
+    "response": {
+      "body": "approved.",
+      "from": "human",
+      "at": "2026-07-03T00:16:31.146Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/./master_candidate-03-1920x1080.mp4"
+    }
+  }
+}

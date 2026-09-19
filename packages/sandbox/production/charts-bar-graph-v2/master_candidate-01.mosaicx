@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/bar-graph/v2",
+      "props": {}
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/charts/bar-graph/v2`** (gate 14 — CHARTS PACK opens; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase defaults. v1 (nested 5-deep composition) rides base·dep; its 6 internal sub-templates ride base·int.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated, primitive:true | confirm |\n| Gate | — | **base** |\n| Preview assets | check git history before re-mint | review |\n| Cover / Tutorial | cover BUILT this gate (grow-in starts near-blank) | eyeball cover; tutorial needed? |\n\n**Pre-audit found + fixed 2 (the canonical template had the diseases its own forks cured):**\n1. **Interleaved [margin,bar,gap,…] px bands spread bar widths up to 50%** (18px vs 36px side by side at 360×640; 20% at 733×977; visible at DEFAULTS on 6 canvases) — the equal-width tripwire fired on its first pass. Ported alpine/bar-graph/v1's cure back to the original: one EQUAL band per bar + half-gap carved by a shared placement.inset (gap-as-inset). The in-file comment claiming insets can't compose with the grow overlay was pre-alpine folklore — alpine ships grow+inset through a full gate.\n2. **Zero text caps anywhere**: the center-aligned header clipped BOTH edges (\"КАЗАТЕЛИ КОМАН\"), category labels shredded at high N (\"ry|ry|ry…\"), horizontal value gutter was a flat 2.4em (clipped anything past ~4 chars). All four text groups now script-aware capped (textEmUnits) + floor-bound ellipsis; the horizontal value gutter sizes to the longest formatted value.\n\nAlso: debugLayout contract (bar equal-thickness + textFits ×4 groups; no expr text → full coverage), cover, and `tag`/`fitEmUnits` promoted to template-utils for the whole charts pack (alpine re-exports; 527/527 alpine suite green post-move).\n\n**Primitive-sense: KEEP primitive:true** — this IS the canonical data-viz primitive the registry names as such.\n\nBattery 84/84 ×2 (baseline was feasibility-green but VISUALLY broken — the stills tell it), probe 14/14, 31/31 unit.",
+    "question": "Default look verdict (bars are marginally wider now — the equal-band pitch replaces outer margins)? Cover OK? Tutorial needed? primitive:true confirmed? Then stress.",
+    "response": {
+      "verdict": "ship",
+      "text": "default pass (equal-band bars approved) → stress x10 pass → \"ship it\"",
+      "via": "chat — transcribed by agent",
+      "note": "SHIPPED base ☑ (gate 14, charts pack 1/4). Preview assets: founder-committed BESPOKE poster (baa23947, \"Monthly Renders\") — left untouched per the cover-not-preview ruling."
+    }
+  }
+}

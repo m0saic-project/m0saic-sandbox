@@ -1,0 +1,66 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 480
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/timeline/v2",
+      "props": {
+        "events": [
+          {
+            "date": "Jan 2024",
+            "title": "Kickoff",
+            "description": "First commit landed"
+          },
+          {
+            "date": "Apr 2024",
+            "title": "Beta launch",
+            "description": "500 early users"
+          },
+          {
+            "date": "Aug 2024",
+            "title": "Series A",
+            "description": "$12M raised"
+          },
+          {
+            "date": "Dec 2024",
+            "title": "10k customers",
+            "description": "Five figures crossed"
+          }
+        ],
+        "title": "MILESTONES",
+        "subtitle": "Our journey so far",
+        "preset": "light",
+        "orientation": "auto",
+        "showDescription": true,
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 — 03-ultrawide** (gate-11 stress set for `@m0saic/alpine/timeline/v2`).\n\nULTRAWIDE 4:1, defaults. Watch: spine spans cleanly, alternating text breathes.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "seems fine, no tutorial is needed, and i approve the renders. ship",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

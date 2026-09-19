@@ -1,0 +1,45 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 5000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-maxwidth-320** (gate-20 stress set for `@m0saic/media/highlights/v1`).\n\nExtreme downscale: a 1920×1200 60fps screen recording capped at maxWidth 320 → 320×200, even-rounded, aspect-preserved. Watch: tiny but legible clips, no distortion, 60fps preserved.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "\"ship\" (set verdict — x10 reviewed via stress/renders/)",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/highlights/v1",
+      "props": {
+        "sourceId": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/invoice_sr.mp4",
+        "maxWidth": 320,
+        "ranges": [
+          {
+            "startMs": 0,
+            "endMs": 2000
+          },
+          {
+            "startMs": 8000,
+            "endMs": 10000
+          }
+        ]
+      }
+    }
+  ]
+}

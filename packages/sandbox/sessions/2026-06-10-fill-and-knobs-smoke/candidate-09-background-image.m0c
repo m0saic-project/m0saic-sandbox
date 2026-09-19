@@ -1,0 +1,33 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T12:00:00.000Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.11",
+  "meta": {
+    "title": "09 · background (embedded image)"
+  },
+  "agent": {
+    "id": "claude-smoke-2026-06-10",
+    "note": "1x1 fully-opaque red PNG embedded as a data: URI in derive.background. The inspector should stretch it to canvas size.",
+    "question": "Does the canvas show a red background (the 1x1 PNG stretched to fit) behind the rects?",
+    "response": {
+      "body": "aspect differs — image fits letterboxed inside the 1920×1080 canvas. Which makes this impossible to see. Rejected. Background Images do not stretch. They are rendered true to scale.",
+      "from": "human",
+      "at": "2026-06-11T02:21:35.463Z"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "4(1,1,1,1)",
+  "labels": null,
+  "derive": {
+    "background": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII="
+  },
+  "masks": null,
+  "fill": null,
+  "rankSets": null,
+  "custom": null
+}

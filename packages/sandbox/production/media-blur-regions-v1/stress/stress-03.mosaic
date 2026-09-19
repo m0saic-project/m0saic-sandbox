@@ -1,0 +1,132 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "multi",
+  "steps": [
+    {
+      "name": "photo",
+      "label": "photo",
+      "durationMs": 40,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {
+          "photo": {
+            "kind": "file",
+            "path": "<sandbox>/production/media-blur-regions-v1/fixtures/photo.png",
+            "mediaType": "image"
+          }
+        },
+        "size": {
+          "width": 800,
+          "height": 600
+        },
+        "backgroundColor": "#000000",
+        "m0": "1{60[0,0,0,-,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{30[0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,100(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,-),0,0,0,-]}}",
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo",
+            "placement": {
+              "fit": "cover"
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:base"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo",
+            "placement": {
+              "fit": "cover",
+              "sourceRect": {
+                "x": 0,
+                "y": 40,
+                "w": 800,
+                "h": 70
+              }
+            },
+            "effects": {
+              "pixelize": 24
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:region"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo",
+            "placement": {
+              "fit": "cover",
+              "sourceRect": {
+                "x": 520,
+                "y": 300,
+                "w": 220,
+                "h": 220
+              },
+              "inset": {
+                "top": 0,
+                "right": 0.020089285714285716,
+                "bottom": 0,
+                "left": 0
+              }
+            },
+            "effects": {
+              "pixelize": 24
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:region"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "format": {
+          "kind": "image",
+          "container": "png"
+        },
+        "fps": 30,
+        "durationMs": 40,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "size": {
+    "width": 800,
+    "height": 600
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 — 03-image-redact-strip** (gate-19 stress set for `@m0saic/media/blur-regions/v1`).\n\nDocument-redaction pattern on an IMAGE: a thin full-width name strip + a square, PNG output. Watch: single-frame render, strip fully covered edge to edge.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  }
+}

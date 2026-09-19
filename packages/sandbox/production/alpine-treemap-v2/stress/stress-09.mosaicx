@@ -1,0 +1,69 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 733,
+    "height": 977
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/treemap/v2",
+      "props": {
+        "items": [
+          {
+            "label": "Engineering",
+            "value": 42
+          },
+          {
+            "label": "Sales",
+            "value": 26
+          },
+          {
+            "label": "Marketing",
+            "value": 16
+          },
+          {
+            "label": "Support",
+            "value": 9
+          },
+          {
+            "label": "Design",
+            "value": 7
+          }
+        ],
+        "title": "HEADCOUNT",
+        "subtitle": "By department",
+        "preset": "light",
+        "valueMode": "percent",
+        "tiles": {
+          "cornerRadius": 0
+        },
+        "showValue": false,
+        "anim": {
+          "renderMode": "premium",
+          "reduceMotion": true,
+          "introFrac": 0.7,
+          "easing": "easeOut"
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-09"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 — 09-static-novalue** (gate-12 stress set for `@m0saic/alpine/treemap/v2` — the LAST alpine gate).\n\nreduceMotion static + values OFF + rounding 0 (sharp corners). Watch: complete static map, name-only tiles, square edges.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/progress-card/v1",
+      "props": {
+        "items": [
+          {
+            "label": "Zero Progress",
+            "value": 0
+          },
+          {
+            "label": "Overflow",
+            "value": 150
+          },
+          {
+            "label": "Negative",
+            "value": -20
+          },
+          {
+            "label": "Max Zero",
+            "value": 5,
+            "max": 0
+          },
+          {
+            "label": "Budget Used",
+            "value": 45200,
+            "max": 60000,
+            "valueLabel": "$45,200 of $60,000"
+          }
+        ],
+        "title": "QUARTERLY GOALS",
+        "subtitle": "Progress to target",
+        "preset": "light",
+        "bars": {
+          "cornerRadius": 0.5
+        },
+        "showValue": true,
+        "anim": {
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-hostile-values** (gate-9 stress set for `@m0saic/alpine/progress-card/v1`).\n\nHOSTILE DATA: 0%, overflow 150 (clamps to 100), negative value (clamps to 0), value/max pairs, max:0 (clamps), 17-char custom Display. Watch: clamps sane, no NaN, empty track at 0.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

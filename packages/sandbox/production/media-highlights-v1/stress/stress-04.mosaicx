@@ -1,0 +1,47 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 5000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-04"
+  },
+  "agent": {
+    "note": "**STRESS 04/10 — 04-webm-batch** (gate-20 stress set for `@m0saic/media/highlights/v1`).\n\nContainer knob: webm batch on a DIFFERENT source (talk-720p). Per-step formats drive per-file containers (vp9+opus). Watch: two .webm siblings, both play, audio intact.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "\"ship\" (set verdict — x10 reviewed via stress/renders/)",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/highlights/v1",
+      "props": {
+        "sourceId": "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4",
+        "outputFormat": "webm",
+        "ranges": [
+          {
+            "startMs": 0,
+            "endMs": 1500,
+            "label": "open"
+          },
+          {
+            "startMs": 1500,
+            "endMs": 3000,
+            "label": "close"
+          }
+        ]
+      }
+    }
+  ]
+}

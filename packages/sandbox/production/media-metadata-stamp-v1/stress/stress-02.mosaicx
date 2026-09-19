@@ -1,0 +1,37 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/metadata-stamp/v1",
+      "props": {
+        "sourceIds": [
+          "<sandbox>/production/media-metadata-stamp-v1/fixtures/bad-date.mp4"
+        ],
+        "fallbackText": "Date unknown"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-02"
+  },
+  "agent": {
+    "note": "**STRESS 02/10 — 02-bad-date-fallback** (gate-13 stress set for `@m0saic/media/metadata-stamp/v1`).\n\nMALFORMED TAG: creation_time='definitely-not-a-date' + fallback 'Date unknown'. Watch: parse fails safely → the fallback stamps.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

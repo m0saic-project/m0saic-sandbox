@@ -1,0 +1,40 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "2(2[1,1],2[1,1])",
+        "speedMultiplier": 1,
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": false,
+        "showInspector": false
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "premaster-08-chromeless"
+  },
+  "agent": {
+    "note": "**Pre-master · Panel toggles.** `2(2[1,1],2[1,1])` with **`showChrome: false`** (no header/status) and **`showInspector: false`** — a bare canvas + DSL-string view. Verify the shell **reflows** to fill the freed space with no gaps / misalignment.",
+    "question": "Chromeless + inspector-off relayout is clean (canvas + string fill the frame, no leftover gaps)?",
+    "response": {
+      "body": "same critique here. if something is disabled, do not reserve space for it in the layout. allow other elements to grow larger, particuarly the canvas hero. It grows in width or height depending on what chrome is hidden.",
+      "from": "human",
+      "at": "2026-07-02T21:36:12.637Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/premaster/./premaster-08-chromeless-1920x1080.mp4"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "recoveredHex": "deadbeef",
+  "expectedHex": "0badcafe",
+  "matches": false,
+  "correctedBitCount": 0,
+  "errorPositions": [],
+  "worstAbsScore": 6.8130630630630336,
+  "meanAbsScore": 14.331654489134806,
+  "framesSampled": 37,
+  "mode": "id32",
+  "verdict": "mismatch",
+  "grid": {
+    "cols": 48,
+    "rows": 27
+  },
+  "ecc": {
+    "n": 127,
+    "k": 36,
+    "t": 15
+  },
+  "videoPath": "<repo>/packages/cli/examples/media/forensic/watermarked_deadbeef.mp4",
+  "sidecarPath": "<repo>/packages/cli/examples/media/forensic/watermarked_deadbeef.watermark.json"
+}

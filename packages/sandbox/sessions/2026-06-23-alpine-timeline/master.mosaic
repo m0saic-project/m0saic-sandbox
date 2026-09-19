@@ -1,0 +1,912 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {
+    "node_root": {
+      "kind": "node-output",
+      "nodeId": "root"
+    }
+  },
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "mosaic",
+      "ref": "inv-sources-0"
+    }
+  ],
+  "agent": {
+    "note": "master — @m0saic/alpine/timeline/v1 (the 8th Alpine template), LOCKED 2026-06-23. A milestone timeline in the friendly white card: a spine with a dot per event that draws down/across as events cascade in, each a date + title + description. ASPECT-AWARE: orientation 'auto' lays out a VERTICAL left-rail on square/tall cards and a HORIZONTAL spine (events alternating above/below) on wide cards so the layout always fills its canvas (or force vertical/horizontal). Built on the donut/heatmap absolute-placement model (tight rects on the 4px lattice, grid passed as a full-canvas extraLayer → no quantization). Three bugs fixed in the sandbox: (1) c001 wide-card empty width → added the orientation prop + horizontal layout; (2) horizontal edge events' centered text spilled past the card → clamp the block center in-bounds; (3) absurdly long titles overflowed + collided → truncate with an ellipsis bounded to one column. Per-event dot colors + custom accent; same dual props (Animate / Intro length / Show description). 6 stress variants approved (A dark · B forced-vertical+colors · C 7-events-no-desc · D square-static · E long-text · F overflow-truncation). Also shipped alongside: the `open --make` file-size passthrough so a square candidate opens at its authored aspect.",
+    "question": "Locked master — showcase props (5-event MILESTONES timeline, auto orientation → horizontal at 1280x800, draw-down cascade). This is the preview the Templates page renders.",
+    "response": {
+      "body": "Approved — locked.",
+      "from": "human",
+      "at": "2026-06-23T00:00:00.000Z"
+    }
+  },
+  "children": {
+    "inv-sources-0": {
+      "kind": "mosaic_document",
+      "version": 1,
+      "assets": {
+        "lavfi_771a107b0c": {
+          "kind": "lavfi",
+          "graph": "color=#FFFFFF:s=1280x800:r=30:d=2.000,format=rgba,scale=1280:800"
+        },
+        "text_root_0_1": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_1_text.png",
+          "mediaType": "image"
+        },
+        "lavfi_3f3bf4719f": {
+          "kind": "lavfi",
+          "graph": "color=#E2E8F0:s=264x4:r=30:d=2.000,format=rgba,scale=264:4"
+        },
+        "lavfi_639d59f425": {
+          "kind": "lavfi",
+          "graph": "color=#E2E8F0:s=260x4:r=30:d=2.000,format=rgba,scale=260:4"
+        },
+        "text_root_0_6": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_6_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_7": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_7_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_8": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_8_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_9": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_9_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_10": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_10_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_11": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_11_text.png",
+          "mediaType": "image"
+        },
+        "lavfi_2ac3430cac": {
+          "kind": "lavfi",
+          "graph": "color=#2563EB:s=24x24:r=30:d=2.000,format=rgba,scale=24:24"
+        },
+        "text_root_0_17": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_17_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_18": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_18_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_19": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_19_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_20": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_20_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_21": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_21_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_22": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_22_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_23": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_23_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_24": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_24_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_25": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_25_text.png",
+          "mediaType": "image"
+        },
+        "node_root_0": {
+          "kind": "node-output",
+          "nodeId": "root:0"
+        }
+      },
+      "m0": "F{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30(-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-],-),0,0,0,0,0,0,-]{200[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,320(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{200[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,320(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,320(0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-),0,-,0,0,0,0,0,320(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,-,0,0,0,0,0,0,0,320(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,-,0,0,0,0,0,0,0,0,320(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{200[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,320(0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,320(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]}}}}",
+      "sources": [
+        {
+          "type": "lavfi",
+          "color": "#FFFFFF",
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.08
+            },
+            "stroke": {
+              "position": "inner",
+              "width": 0.002,
+              "color": "#E5E7EB",
+              "alpha": 1
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "MILESTONES"
+              },
+              "style": {
+                "fontSize": 40,
+                "fontColor": "#0F172A"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Our journey so far"
+              },
+              "style": {
+                "fontSize": 21,
+                "fontColor": "#64748B"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "bottom"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#E2E8F0",
+          "overlay": {
+            "startAtSec": 0.31623529411764706,
+            "alpha": "(min(1,max(0,(t-0.31623529411764706)/0.38705882352941173)))*(min(1,max(0,(t-0.31623529411764706)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.31623529411764706)/0.38705882352941173))))"
+          },
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.5
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#E2E8F0",
+          "overlay": {
+            "startAtSec": 0.548470588235294,
+            "alpha": "(min(1,max(0,(t-0.548470588235294)/0.38705882352941173)))*(min(1,max(0,(t-0.548470588235294)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.548470588235294)/0.38705882352941173))))"
+          },
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.5
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#E2E8F0",
+          "overlay": {
+            "startAtSec": 0.780705882352941,
+            "alpha": "(min(1,max(0,(t-0.780705882352941)/0.38705882352941173)))*(min(1,max(0,(t-0.780705882352941)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.780705882352941)/0.38705882352941173))))"
+          },
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.5
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#E2E8F0",
+          "overlay": {
+            "startAtSec": 1.0129411764705882,
+            "alpha": "(min(1,max(0,(t-1.0129411764705882)/0.38705882352941173)))*(min(1,max(0,(t-1.0129411764705882)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-1.0129411764705882)/0.38705882352941173))))"
+          },
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.5
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Jan 2024"
+              },
+              "style": {
+                "fontSize": 17,
+                "fontColor": "#94A3B8"
+              },
+              "placement": {
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.18076470588235294)/0.38705882352941173)))*(min(1,max(0,(t-0.18076470588235294)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.18076470588235294)/0.38705882352941173))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Jun 2024"
+              },
+              "style": {
+                "fontSize": 17,
+                "fontColor": "#94A3B8"
+              },
+              "placement": {
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.645235294117647)/0.38705882352941173)))*(min(1,max(0,(t-0.645235294117647)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.645235294117647)/0.38705882352941173))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Dec 2024"
+              },
+              "style": {
+                "fontSize": 17,
+                "fontColor": "#94A3B8"
+              },
+              "placement": {
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-1.109705882352941)/0.38705882352941173)))*(min(1,max(0,(t-1.109705882352941)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-1.109705882352941)/0.38705882352941173))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "First commit landed"
+              },
+              "style": {
+                "fontSize": 18,
+                "fontColor": "#64748B"
+              },
+              "placement": {
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.18076470588235294)/0.38705882352941173)))*(min(1,max(0,(t-0.18076470588235294)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.18076470588235294)/0.38705882352941173))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "$12M Series A raised"
+              },
+              "style": {
+                "fontSize": 18,
+                "fontColor": "#64748B"
+              },
+              "placement": {
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.645235294117647)/0.38705882352941173)))*(min(1,max(0,(t-0.645235294117647)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.645235294117647)/0.38705882352941173))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Live in 12 countries"
+              },
+              "style": {
+                "fontSize": 18,
+                "fontColor": "#64748B"
+              },
+              "placement": {
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-1.109705882352941)/0.38705882352941173)))*(min(1,max(0,(t-1.109705882352941)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-1.109705882352941)/0.38705882352941173))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#2563EB",
+          "overlay": {
+            "startAtSec": 0.08399999999999999,
+            "alpha": "(min(1,max(0,(t-0.08399999999999999)/0.38705882352941173)))*(min(1,max(0,(t-0.08399999999999999)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.08399999999999999)/0.38705882352941173))))"
+          },
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.5
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#2563EB",
+          "overlay": {
+            "startAtSec": 0.31623529411764706,
+            "alpha": "(min(1,max(0,(t-0.31623529411764706)/0.38705882352941173)))*(min(1,max(0,(t-0.31623529411764706)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.31623529411764706)/0.38705882352941173))))"
+          },
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.5
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#2563EB",
+          "overlay": {
+            "startAtSec": 0.548470588235294,
+            "alpha": "(min(1,max(0,(t-0.548470588235294)/0.38705882352941173)))*(min(1,max(0,(t-0.548470588235294)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.548470588235294)/0.38705882352941173))))"
+          },
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.5
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#2563EB",
+          "overlay": {
+            "startAtSec": 0.780705882352941,
+            "alpha": "(min(1,max(0,(t-0.780705882352941)/0.38705882352941173)))*(min(1,max(0,(t-0.780705882352941)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.780705882352941)/0.38705882352941173))))"
+          },
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.5
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#2563EB",
+          "overlay": {
+            "startAtSec": 1.0129411764705882,
+            "alpha": "(min(1,max(0,(t-1.0129411764705882)/0.38705882352941173)))*(min(1,max(0,(t-1.0129411764705882)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-1.0129411764705882)/0.38705882352941173))))"
+          },
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.5
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Mar 2024"
+              },
+              "style": {
+                "fontSize": 17,
+                "fontColor": "#94A3B8"
+              },
+              "placement": {
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.413)/0.38705882352941173)))*(min(1,max(0,(t-0.413)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.413)/0.38705882352941173))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Sep 2024"
+              },
+              "style": {
+                "fontSize": 17,
+                "fontColor": "#94A3B8"
+              },
+              "placement": {
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.877470588235294)/0.38705882352941173)))*(min(1,max(0,(t-0.877470588235294)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.877470588235294)/0.38705882352941173))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "500 users onboarded"
+              },
+              "style": {
+                "fontSize": 18,
+                "fontColor": "#64748B"
+              },
+              "placement": {
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.413)/0.38705882352941173)))*(min(1,max(0,(t-0.413)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.413)/0.38705882352941173))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Crossed five figures"
+              },
+              "style": {
+                "fontSize": 18,
+                "fontColor": "#64748B"
+              },
+              "placement": {
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.877470588235294)/0.38705882352941173)))*(min(1,max(0,(t-0.877470588235294)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.877470588235294)/0.38705882352941173))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Project kickoff"
+              },
+              "style": {
+                "fontSize": 24,
+                "fontColor": "#0F172A"
+              },
+              "placement": {
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.18076470588235294)/0.38705882352941173)))*(min(1,max(0,(t-0.18076470588235294)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.18076470588235294)/0.38705882352941173))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Series A"
+              },
+              "style": {
+                "fontSize": 24,
+                "fontColor": "#0F172A"
+              },
+              "placement": {
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.645235294117647)/0.38705882352941173)))*(min(1,max(0,(t-0.645235294117647)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.645235294117647)/0.38705882352941173))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Global expansion"
+              },
+              "style": {
+                "fontSize": 24,
+                "fontColor": "#0F172A"
+              },
+              "placement": {
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-1.109705882352941)/0.38705882352941173)))*(min(1,max(0,(t-1.109705882352941)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-1.109705882352941)/0.38705882352941173))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Beta launch"
+              },
+              "style": {
+                "fontSize": 24,
+                "fontColor": "#0F172A"
+              },
+              "placement": {
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.413)/0.38705882352941173)))*(min(1,max(0,(t-0.413)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.413)/0.38705882352941173))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "10k customers"
+              },
+              "style": {
+                "fontSize": 24,
+                "fontColor": "#0F172A"
+              },
+              "placement": {
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.877470588235294)/0.38705882352941173)))*(min(1,max(0,(t-0.877470588235294)/0.38705882352941173)))*(3-2*(min(1,max(0,(t-0.877470588235294)/0.38705882352941173))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      ],
+      "backgroundColor": "#F8FAFC",
+      "fps": 30,
+      "durationMs": 2000,
+      "size": {
+        "width": 1280,
+        "height": 800
+      },
+      "editor": {
+        "owner": "user",
+        "provenance": {
+          "kind": "template_invocation",
+          "templateId": "@m0saic/alpine/timeline/v1",
+          "props": {
+            "events": [
+              {
+                "date": "Jan 2024",
+                "title": "Project kickoff",
+                "description": "First commit landed"
+              },
+              {
+                "date": "Mar 2024",
+                "title": "Beta launch",
+                "description": "500 users onboarded"
+              },
+              {
+                "date": "Jun 2024",
+                "title": "Series A",
+                "description": "$12M Series A raised"
+              },
+              {
+                "date": "Sep 2024",
+                "title": "10k customers",
+                "description": "Crossed five figures"
+              },
+              {
+                "date": "Dec 2024",
+                "title": "Global expansion",
+                "description": "Live in 12 countries"
+              }
+            ],
+            "title": "MILESTONES",
+            "subtitle": "Our journey so far",
+            "preset": "light",
+            "orientation": "auto",
+            "showDescription": true,
+            "anim": {
+              "introFrac": 0.7,
+              "easing": "easeOut",
+              "reduceMotion": false
+            }
+          },
+          "invocationId": "inv-sources-0",
+          "sourcePath": "sources[0]"
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  }
+}

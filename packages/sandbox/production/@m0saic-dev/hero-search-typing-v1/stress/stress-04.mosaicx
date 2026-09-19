@@ -1,0 +1,31 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 1600,
+  "height": 900
+ },
+ "fps": 30,
+ "durationMs": 18170,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/hero/search-typing/v1",
+   "props": {
+    "frame": "card",
+    "cardColor": "#1c2530",
+    "pageColor": "#0b0b12",
+    "labelColor": "#8b949e"
+   }
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "stress-04"
+ },
+ "agent": {
+  "note": "**STRESS 04/10 — 04-card-dark** (gate-27 stress set for `@m0saic/hero/search-typing/v1`; PUBLISHER ruling — ships under @m0saic-dev, same bar).\n\nCARD frame on a dark page. Watch: snap-grid card floats centered; colors flow label->ink."
+ }
+}

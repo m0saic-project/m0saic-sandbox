@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-09"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 — 09-wide-canvas** (gate-22 stress set for `@m0saic/media/qr/code/v1`).\n\nNon-square canvas: the QR doc declares its own square size — watch how it lands on 1920×1080 (contain/letterbox vs stretch). Whatever this shows IS the current behavior — rule on it.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "accept and document is fine for the stretched qr at horizontal canvas. most callers using this template will supply a square canvas, as is the default",
+      "via": "chat — transcribed by agent",
+      "note": "Accepted + documented in outputHints.note: render at square canvases; non-square stretches uniformly."
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/qr/code/v1",
+      "props": {}
+    }
+  ]
+}

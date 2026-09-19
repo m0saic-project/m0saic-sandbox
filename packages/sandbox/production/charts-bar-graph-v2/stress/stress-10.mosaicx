@@ -1,0 +1,61 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 977,
+    "height": 733
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/bar-graph/v2",
+      "props": {
+        "appearance": {
+          "preset": "paper"
+        },
+        "anim": {
+          "renderMode": "light",
+          "reduceMotion": false,
+          "intro": {
+            "durationSec": 0.8,
+            "delaySec": 0,
+            "staggerSec": 0.06,
+            "ease": "smoothstep"
+          }
+        },
+        "grid": {
+          "show": false,
+          "count": 4
+        },
+        "baseline": {
+          "show": false
+        },
+        "valueAxis": {
+          "show": false
+        },
+        "valueLabels": {
+          "show": false,
+          "format": "raw",
+          "decimals": 0
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-light-bare** (gate-14 stress set for `@m0saic/charts/bar-graph/v2`).\n\nLIGHT renderMode + paper preset + grid/axes/labels ALL OFF (bare bars). Watch: enable-gate pops, clean minimal chart, no phantom rails.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

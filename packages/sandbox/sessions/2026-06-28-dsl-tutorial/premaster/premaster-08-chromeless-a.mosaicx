@@ -1,0 +1,46 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "2(2[1,1],2[1,1])",
+        "speedMultiplier": 1,
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": false,
+        "showInspector": false
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "premaster-08-chromeless-a"
+  },
+  "agent": {
+    "note": "**Re-review (fixes candidate-08).** Hidden chrome **and** inspector no longer reserve space — the **canvas hero grows to fill the freed width and height** (no '· hidden' stub). A hidden inspector gives the canvas the full body width; hidden chrome gives it the header/status height.",
+    "question": "Chromeless + inspector-off reflow fills the frame cleanly (no leftover gaps)?",
+    "response": {
+      "body": "good result. approved.",
+      "from": "human",
+      "at": "2026-07-02T22:16:19.594Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/premaster/./premaster-08-chromeless-a-1920x1080.mp4"
+    },
+    "comments": [
+      {
+        "body": "Iterates `premaster-08-chromeless` (frozen at its verdict). Same config; the fix is template-side.",
+        "from": "agent"
+      }
+    ]
+  }
+}

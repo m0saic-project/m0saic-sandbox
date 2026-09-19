@@ -1,0 +1,29 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 544,
+  "height": 544
+ },
+ "fps": 30,
+ "durationMs": 3200,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/brand/logo/v3",
+   "props": {
+    "animation": "logo_loop",
+    "rankSet": "cascade"
+   }
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "stress-02"
+ },
+ "agent": {
+  "note": "**STRESS 02/10 — 02-m33-loop-cascade** (gate-28 stress set for `@m0saic/brand/logo/v3`).\n\nlogo_loop + cascade rank set (the knob the runner never exposed pre-gate). Watch: row-by-row top-down reveal."
+ }
+}

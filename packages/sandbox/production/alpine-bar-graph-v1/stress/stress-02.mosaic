@@ -1,0 +1,807 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121(0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15[0,0,0,0,0,0,0,0,0,0,0,0,0,120(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5[1,1,1,1,1],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1{1{5[50(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,-),50(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),50(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),50(0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),50(0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-)]{1{1}}}}}),120(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72(0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,1))]],0,0,0,-),0,0,0,0,0,0,-]}",
+  "assets": {},
+  "size": {
+    "width": 640,
+    "height": 360
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#E5E7EB",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "BAR CHART"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Sales by Channel"
+          },
+          "style": {
+            "fontSize": 10,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Email"
+          },
+          "style": {
+            "fontSize": 11,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle",
+            "padding": {
+              "right": 0.14
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Twitter"
+          },
+          "style": {
+            "fontSize": 11,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle",
+            "padding": {
+              "right": 0.14
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Reddit"
+          },
+          "style": {
+            "fontSize": 11,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle",
+            "padding": {
+              "right": 0.14
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Hacker News"
+          },
+          "style": {
+            "fontSize": 11,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle",
+            "padding": {
+              "right": 0.14
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Other"
+          },
+          "style": {
+            "fontSize": 11,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle",
+            "padding": {
+              "right": 0.14
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "fitMode": "content",
+      "size": {
+        "wExpr": "max(1, TW*0.002)",
+        "hExpr": "TH"
+      },
+      "placement": {
+        "fit": "contain",
+        "hAlign": "left",
+        "vAlign": "top"
+      },
+      "visual": {
+        "opacity": 1
+      },
+      "overlay": {
+        "xExpr": "W*0.3333333333333333",
+        "yExpr": "0"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "fitMode": "content",
+      "size": {
+        "wExpr": "max(1, TW*0.002)",
+        "hExpr": "TH"
+      },
+      "placement": {
+        "fit": "contain",
+        "hAlign": "left",
+        "vAlign": "top"
+      },
+      "visual": {
+        "opacity": 1
+      },
+      "overlay": {
+        "xExpr": "W*0.6666666666666666",
+        "yExpr": "0"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "fitMode": "content",
+      "size": {
+        "wExpr": "max(1, TW*0.002)",
+        "hExpr": "TH"
+      },
+      "placement": {
+        "fit": "contain",
+        "hAlign": "left",
+        "vAlign": "top"
+      },
+      "visual": {
+        "opacity": 1
+      },
+      "overlay": {
+        "xExpr": "W*1",
+        "yExpr": "0"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.15,
+        "alpha": "(min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714))))",
+        "xExpr": "-(w*(1-((min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714)))))))"
+      },
+      "placement": {
+        "inset": {
+          "y": 0.1774193548387097
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.4
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "bar"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "12.4K"
+          },
+          "style": {
+            "fontSize": 11,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.12
+            }
+          }
+        }
+      ],
+      "overlay": {
+        "startAtSec": 0.46339285714285716,
+        "alpha": "min(1,max(0,lt/0.3482142857142857))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.46339285714285716,
+        "alpha": "(min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714))))",
+        "xExpr": "-(w*(1-((min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714)))))))"
+      },
+      "placement": {
+        "inset": {
+          "y": 0.1774193548387097
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.4
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "bar"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "8.7K"
+          },
+          "style": {
+            "fontSize": 11,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.12
+            }
+          }
+        }
+      ],
+      "overlay": {
+        "startAtSec": 0.7767857142857143,
+        "alpha": "min(1,max(0,lt/0.3482142857142857))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.7767857142857143,
+        "alpha": "(min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714))))",
+        "xExpr": "-(w*(1-((min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714)))))))"
+      },
+      "placement": {
+        "inset": {
+          "y": 0.1774193548387097
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.4
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "bar"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "5.6K"
+          },
+          "style": {
+            "fontSize": 11,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.12
+            }
+          }
+        }
+      ],
+      "overlay": {
+        "startAtSec": 1.0901785714285714,
+        "alpha": "min(1,max(0,lt/0.3482142857142857))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 1.0901785714285714,
+        "alpha": "(min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714))))",
+        "xExpr": "-(w*(1-((min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714)))))))"
+      },
+      "placement": {
+        "inset": {
+          "y": 0.1774193548387097
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.4
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "bar"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "2.1K"
+          },
+          "style": {
+            "fontSize": 11,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.12
+            }
+          }
+        }
+      ],
+      "overlay": {
+        "startAtSec": 1.4035714285714285,
+        "alpha": "min(1,max(0,lt/0.3482142857142857))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 1.4035714285714285,
+        "alpha": "(min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714))))",
+        "xExpr": "-(w*(1-((min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714)))))))"
+      },
+      "placement": {
+        "inset": {
+          "y": 0.1774193548387097
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.4
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "bar"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "1.2K"
+          },
+          "style": {
+            "fontSize": 11,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.12
+            }
+          }
+        }
+      ],
+      "overlay": {
+        "startAtSec": 1.7169642857142855,
+        "alpha": "min(1,max(0,lt/0.3482142857142857))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#CBD5E1",
+      "fitMode": "content",
+      "visual": {
+        "opacity": 1
+      },
+      "size": {
+        "wExpr": "TW",
+        "hExpr": "max(1,TH*0.004)"
+      },
+      "placement": {
+        "fit": "contain",
+        "hAlign": "center",
+        "vAlign": "bottom"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#CBD5E1",
+      "fitMode": "content",
+      "visual": {
+        "opacity": 1
+      },
+      "size": {
+        "wExpr": "max(1,TW*0.004)",
+        "hExpr": "TH"
+      },
+      "placement": {
+        "fit": "contain",
+        "hAlign": "left",
+        "vAlign": "middle"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "0"
+          },
+          "style": {
+            "fontSize": 10,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "top"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "5K"
+          },
+          "style": {
+            "fontSize": 10,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "top"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "10K"
+          },
+          "style": {
+            "fontSize": 10,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "top"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "15K"
+          },
+          "style": {
+            "fontSize": 10,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "top"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-02"
+  },
+  "agent": {
+    "note": "**STRESS 02/10 — 02-tiny-horizontal** (retro stress set for `@m0saic/alpine/bar-graph/v1`).\n\nTINY canvas (bars ~33px — the tolerance-floor repro). Watch: text legibility, ±1px equal bars.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": null
+  }
+}

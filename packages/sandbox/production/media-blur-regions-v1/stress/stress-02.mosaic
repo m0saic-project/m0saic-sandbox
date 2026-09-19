@@ -1,0 +1,111 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "multi",
+  "fps": 30,
+  "steps": [
+    {
+      "name": "port-1080",
+      "label": "port-1080",
+      "durationMs": 2000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {
+          "port-1080": {
+            "kind": "file",
+            "path": "<sandbox>/production/media-blur-regions-v1/fixtures/port-1080.mp4",
+            "mediaType": "video"
+          }
+        },
+        "size": {
+          "width": 720,
+          "height": 1280
+        },
+        "backgroundColor": "#000000",
+        "m0": "1{80[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,10(0,0,-,0,0,0,1,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]}",
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "port-1080",
+            "placement": {
+              "fit": "cover"
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:base"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "port-1080",
+            "placement": {
+              "fit": "cover",
+              "sourceRect": {
+                "x": 220,
+                "y": 760,
+                "w": 280,
+                "h": 110
+              },
+              "inset": {
+                "top": 0.06640625,
+                "right": 0.015625,
+                "bottom": 0.08203125,
+                "left": 0.015625
+              }
+            },
+            "audio": {
+              "enabled": false
+            },
+            "effects": {
+              "pixelize": 16
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:region"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "format": {
+          "kind": "video",
+          "container": "mp4"
+        },
+        "fps": 30,
+        "durationMs": 2000,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "size": {
+    "width": 720,
+    "height": 1280
+  },
+  "durationMs": 2000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-02"
+  },
+  "agent": {
+    "note": "**STRESS 02/10 — 02-plate-pixelate-portrait** (gate-19 stress set for `@m0saic/media/blur-regions/v1`).\n\nLicense-plate pattern: ONE small region, fine pixelate (16), portrait video. Watch: small block censor lands exactly; the rest untouched.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  }
+}

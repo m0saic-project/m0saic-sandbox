@@ -1,0 +1,64 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 900,
+    "height": 900
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/bar-graph/v1",
+      "props": {
+        "values": [
+          42
+        ],
+        "labels": [
+          "Answer"
+        ],
+        "title": "BAR CHART",
+        "subtitle": "Sales by Channel",
+        "orientation": "horizontal",
+        "preset": "light",
+        "bars": {
+          "gap": 0.55,
+          "cornerRadius": 0.4
+        },
+        "grid": {
+          "show": true,
+          "count": 3
+        },
+        "valueLabels": {
+          "show": true,
+          "format": "compact",
+          "decimals": 1,
+          "suffix": ""
+        },
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "ease": "smoothstep",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-single-bar-square** (retro stress set for `@m0saic/alpine/bar-graph/v1`).\n\nDEGENERATE: N=1 bar on a square canvas (contract has no equal rule at N=1 — flip Debug layout, wireframe must still render). Watch: bar proportions.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-20T21:43:26.963Z",
+      "src": "<sandbox>/production/alpine-bar-graph-v1/stress/./stress-06-900x900.mp4"
+    }
+  }
+}

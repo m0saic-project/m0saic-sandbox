@@ -1,0 +1,13 @@
+# m0
+# version: 1
+# created: 2026-06-10T07:14:25.885Z
+# size: 1920x1080
+# app: m0saic-desktop
+# appVersion: 0.1.0+2026.06.10
+# title: 2026-06-10-bar-graph-hero · candidate-002
+# m0agent:note: Adds a dedicated subtitle band between title and plot. Proxy weights uniform; real weights would be ~1:1:10:1 to keep plot dominant.
+# m0agent:question: Worth a separate subtitle band, or keep subtitle inside title-band (today's behavior)?
+# m0agent:context: {"category":{"kind":"known","value":"spacing-alignment"},"intent":{"action":"refine","summary":"dedicated subtitle band; title gets airier"},"relation":{"kind":"refines","target":"001"},"layoutIntent":"magazine","evaluation":{"grade":"best","source":"automated","at":"2026-06-10T07:14:25.883Z","breakdown":{"total":1,"feasible":true,"components":{"precision":{"quality":1,"weight":0,"raw":0.003703703703703704},"spread":{"quality":1,"weight":0,"raw":0},"gutter":{"quality":1,"weight":0,"raw":0},"frames":{"quality":1,"weight":0.89,"raw":4},"structure":{"quality":1,"weight":0.1,"raw":0},"compactness":{"quality":1,"weight":0.01,"raw":10}}}}}
+# m0agent:response: {"body":"I might be misunderstanding. Title and subtitle should be within the same rect, this is a text concern. I suppose for the overall structure, I like Title, and Plot Area as two large logical areas.","from":"human","at":"2026-06-10T07:22:51.858Z"}
+
+4[1,1,1,1]

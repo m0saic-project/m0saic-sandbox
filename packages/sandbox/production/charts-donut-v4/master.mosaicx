@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE \u2014 `@m0saic/charts/donut/v4`** (gate 15 \u2014 charts pack 2/4; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase defaults. charts/donut v1-v3 ride base\u00b7dep (superseded lineage); alpine/donut/v3 already shipped base with the alpine pack.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated, primitive:true | confirm |\n| Gate | \u2014 | **base** |\n| Preview assets | founder-committed set (4c49de84) \u2014 default look unchanged, LEFT UNTOUCHED | confirm |\n| Cover / Tutorial | cover BUILT this gate (sweep starts near-blank; ring letterboxed above band \u2014 bottom band would overlap the centered ring) | eyeball cover; tutorial needed? |\n\n**Pre-audit found + fixed 3 (all center-text width):**\n1. **centerValue had NO width cap in either mode** \u2014 `holeDia\u00b70.3` regardless of length; a 10-char value overflowed the ring ~2\u00d7. Backported alpine/donut/v3's hole cap, script-aware (textEmUnits).\n2. **Caption cap was flat 0.55em/char** (wide-script blind: Cyrillic runs ~0.95em) \u2014 at 640\u00d7360 a Cyrillic caption spilled across the ring into a segment label. Now textEmUnits-capped + **fit-first last resort**: when the min-font floor still overflows the hole, the string ellipsizes inside the hole (never spills). Half-unit tolerance so a string the cap sized exactly never loses its last char.\n3. **textBBox measured flat .length** (premium placeRect cells under-sized for wide scripts) \u2014 now textEmUnits.\n\nAlso: debugLayout contract (textFits center-value / center-label / seg-label; gated on the expr-free doc \u2014 count-up center is expr text, the frames\u2194sources zip candidate), tagged text sources, cover. Seg % labels are ASCII by construction. Light + premium verified visually identical at defaults.\n\n**Known floor behaviors (honest, flagged for verdict):** ringThicknessFrac 0.9 \u2192 ~44px hole at 1920\u00d7480: value+caption ellipsize to a few chars INSIDE the tiny hole (was: sprawled across the pie). Thin ring 0.08 + percent labels: 9px-floor labels straddle the thin ring. Both are extreme-knob choices; template stays honest.\n\n**Primitive-sense: KEEP primitive:true** \u2014 the canonical ring-chart primitive (self-framed coarse-quantize, RATIO at any canvas; light mode composable).\n\nBattery 84/84 \u00d72 (baseline + final build), contract probe 14/14 defaults + 84/84 binding configs (incl. Cyrillic, thick 0.9, thin 0.08), jest 16/16.",
+    "question": "Default look verdict? Cover OK? Tutorial needed? primitive:true confirmed? Thick/thin floor behaviors acceptable? Then stress.",
+    "response": {
+      "verdict": "ship",
+      "text": "default pass (founder reviewed in Make; cover seam fix + debug-contract visibility fix requested and applied mid-gate) -> stress x10 pass -> \"all 10 pass, ship it\"",
+      "via": "chat \u2014 transcribed by agent",
+      "note": "SHIPPED base \u2611 (gate 15, charts pack 2/4). primitive:true stays. Both floor behaviors (thick 0.9 in-hole ellipsis, thin 0.08 straddling labels) shipped as-is. No tutorial flagged. Preview assets: founder-committed set (4c49de84) untouched \u2014 default look unchanged. backgroundColor base-tile workaround shipped pending candidate 2026-08-06-template-invocation-bg-drop."
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/donut/v4",
+      "props": {}
+    }
+  ]
+}

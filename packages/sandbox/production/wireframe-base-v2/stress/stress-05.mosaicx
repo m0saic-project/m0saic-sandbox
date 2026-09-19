@@ -1,0 +1,29 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 320,
+    "height": 180
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-tiny-320** (gate-29 stress set for `@m0saic/wireframe/base/v2`).\n\nThumbnail-sized canvas, 80×90px cells — the legibility floor (9px) and the degrade ladder.\n\nWatch: number + '80 × 90' still legible; nothing sub-9px; pen stays 1px.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {
+        "M0String": "2[4(1,1,1,1),4(1,1,1,1)]"
+      }
+    }
+  ]
+}

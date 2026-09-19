@@ -1,0 +1,47 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T12:00:00.000Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.11",
+  "meta": {
+    "title": "13 · custom JSON"
+  },
+  "agent": {
+    "id": "claude-smoke-2026-06-10",
+    "note": "Free-form payload (brand / copy / flags) stashed in `custom`. Format treats it as opaque JSON.",
+    "question": "Does the inspector's custom-JSON view surface the brand / copy / flags object unchanged (no key reorders, no value drops)?",
+    "response": {
+      "body": "Yes, approved.",
+      "from": "human",
+      "at": "2026-06-11T04:05:35.845Z"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "4(1,1,1,1)",
+  "labels": null,
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "fill": null,
+  "rankSets": null,
+  "custom": {
+    "brand": {
+      "primary": "#ef7525",
+      "secondary": "#bcd6e8",
+      "neutral": "#23262f"
+    },
+    "copy": {
+      "hero": "Hello, smoke.",
+      "sub": "Every knob, accounted for."
+    },
+    "flags": {
+      "showOverlay": true,
+      "dataset": "fill-and-knobs"
+    }
+  }
+}

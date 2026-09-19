@@ -1,0 +1,61 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-01"
+  },
+  "agent": {
+    "note": "**STRESS 01/10 \u2014 01-face-blur-strong** (gate-19 stress set for `@m0saic/media/blur-regions/v1`).\n\nTHE headline use case: three 'face' regions, strong blur (48), video with AUDIO. Watch: all three fully obscured (content unrecoverable), rest sharp, audio stream present in the output.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/blur-regions/v1",
+      "props": {
+        "sourceId": "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4",
+        "strength": 48,
+        "regions": {
+          "canvas": {
+            "w": 1280,
+            "h": 720
+          },
+          "regions": [
+            {
+              "x": 120,
+              "y": 80,
+              "w": 240,
+              "h": 240
+            },
+            {
+              "x": 560,
+              "y": 140,
+              "w": 220,
+              "h": 220
+            },
+            {
+              "x": 950,
+              "y": 420,
+              "w": 260,
+              "h": 260
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

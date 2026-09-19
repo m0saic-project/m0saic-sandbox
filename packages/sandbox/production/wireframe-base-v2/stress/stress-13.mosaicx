@@ -1,0 +1,36 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-13"
+  },
+  "agent": {
+    "note": "**STRESS 13 — passthrough LATTICE** (dev diagram piece 3 for `@m0saic/wireframe/base/v2`).\n\n`passthroughFrames: \"show\"` on `4[1,0,0,4(1,0,0,1)]{2[-,1]}`: every `0` slot becomes its own DOTTED, light (40%) cell labelled `0` + size, and claimants shrink back to their raw slot — the rough grid the composite was carved from. Layer explode as before: `layer-0` = the 7-slot lattice (row cell, two donated rows, then cell / slot / slot / cell), `layer-1` = the root overlay (its `-` stays a hole — nullFrames is off here — and its cell paints). One geometry across both stills.\n\nWatch: dotted vs the holes' dashed rhythm; the claimant `2` now reads 480 × 270 (its own slot) instead of the merged run; `10(`-style counts are untouched (positional swap).",
+    "question": "Lattice pass or fail? `0` vs `>` label default? Ready for the heavy case (stress-14)?",
+    "response": {
+      "verdict": "revise",
+      "text": "they read as really noisy at high scale, which makes sense. but maybe we can visualize differently? the idea is mostly to see where the grid gets really coarse and where its lighter.",
+      "via": "chat — transcribed by agent (09-03)",
+      "note": "Per-slot dotted rings at 19 px = noise. Take 2 = adaptive DENSITY wash → stress-13-a / stress-14-a."
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {
+        "M0String": "4[1,0,0,4(1,0,0,1)]{2[-,1]}",
+        "passthroughFrames": "show"
+      }
+    }
+  ]
+}

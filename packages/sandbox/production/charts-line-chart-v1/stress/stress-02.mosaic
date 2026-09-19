@@ -1,0 +1,836 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{1{1{1{1{1{1{1}}}}}}}",
+  "children": {
+    "chrome": {
+      "kind": "mosaic_document",
+      "version": 1,
+      "assets": {},
+      "m0": "15[0,0,0,0,57[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,101(0,-,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,-,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-)],0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,4[1,0,1,1],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1{1}},0,-),0,80(0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10(1,0,1,0,1,0,1,0,1,1),0,-)]",
+      "sources": [
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Общий объём выполненных задач"
+              },
+              "style": {
+                "fontSize": 21,
+                "fontColor": "#111827"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle",
+                "padding": {
+                  "left": 0.02,
+                  "right": 0.02
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "chart-title"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Ежемесячная статистика по всем командам разработки."
+              },
+              "style": {
+                "fontSize": 12,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle",
+                "padding": {
+                  "left": 0.02,
+                  "right": 0.02
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "chart-subtitle"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#2563eb",
+          "fitMode": "content",
+          "size": {
+            "wExpr": "TW",
+            "hExpr": "max(2, TH*0.3)"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Выполненные задачи"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle",
+                "padding": {}
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "legend-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#16a34a",
+          "fitMode": "content",
+          "size": {
+            "wExpr": "TW",
+            "hExpr": "max(2, TH*0.3)"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Отложенные задачи"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle",
+                "padding": {}
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "legend-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "1,000"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "top",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "500"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "0"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "bottom",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "mosaic",
+          "ref": "grid0",
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#d1d5db",
+          "fitMode": "content",
+          "size": {
+            "wExpr": "max(1, TW*0.004)",
+            "hExpr": "TH"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#d1d5db",
+          "fitMode": "content",
+          "size": {
+            "wExpr": "TW",
+            "hExpr": "max(1, TH*0.004)"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "bottom"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Янв"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top",
+                "padding": {
+                  "top": 0.18,
+                  "left": 0.02,
+                  "right": 0.02
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "x-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Фев"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "top",
+                "padding": {
+                  "top": 0.18,
+                  "left": 0.02,
+                  "right": 0.02
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "x-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Мар"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "top",
+                "padding": {
+                  "top": 0.18,
+                  "left": 0.02,
+                  "right": 0.02
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "x-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Апр"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "top",
+                "padding": {
+                  "top": 0.18,
+                  "left": 0.02,
+                  "right": 0.02
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "x-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Май"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "top",
+                "padding": {
+                  "top": 0.18,
+                  "left": 0.02,
+                  "right": 0.02
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "x-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Июн"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#6b7280"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "top",
+                "padding": {
+                  "top": 0.18,
+                  "left": 0.02,
+                  "right": 0.02
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "x-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      ],
+      "children": {
+        "grid0": {
+          "kind": "mosaic_document",
+          "version": 1,
+          "sources": [
+            {
+              "type": "lavfi",
+              "color": "#000000",
+              "visual": {
+                "opacity": 0
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#eef2f7",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*1"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#eef2f7",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0.5"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#eef2f7",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            }
+          ],
+          "assets": {},
+          "m0": "1{1{1{1}}}",
+          "durationMs": 3500,
+          "size": {
+            "width": 552,
+            "height": 192
+          },
+          "fps": 30,
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      },
+      "fps": 30,
+      "durationMs": 3500,
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  },
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#ffffff",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#ffffff",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.04
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#e5e7eb",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "mosaic",
+      "ref": "chrome",
+      "overlay": {
+        "startAtSec": 0,
+        "alpha": "(min(1,max(0,(t-0)/0.35)))*(min(1,max(0,(t-0)/0.35)))*(3-2*(min(1,max(0,(t-0)/0.35))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563eb",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 72.36 289.89 L 182.76 247.65 L 182.04 245.79 L 71.64 288.03 Z M 182.3 247.71 L 292.7 259.23 L 292.9 257.25 L 182.5 245.73 Z M 293.17 259.17 L 403.57 215.01 L 402.83 213.15 L 292.43 257.31 Z M 403.39 215.06 L 513.79 193.94 L 513.41 191.98 L 403.01 213.1 Z M 514.03 193.87 L 624.43 142.03 L 623.57 140.21 L 513.17 192.05 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 360
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#16a34a",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 72.2 295.7 L 182.6 272.66 L 182.2 270.7 L 71.8 293.74 Z M 182.49 272.68 L 292.89 263.08 L 292.71 261.08 L 182.31 270.68 Z M 293 263.06 L 403.4 240.02 L 403 238.06 L 292.6 261.1 Z M 403.35 240.03 L 513.75 222.75 L 513.45 220.77 L 403.05 238.05 Z M 513.8 222.74 L 624.2 199.7 L 623.8 197.74 L 513.4 220.78 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 360
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563eb",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 69 288.96 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z M 179.4 246.72 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z M 289.8 258.24 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z M 400.2 214.08 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z M 510.6 192.96 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z M 621 141.12 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 360
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#16a34a",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 69 294.72 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z M 179.4 271.68 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z M 289.8 262.08 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z M 400.2 239.04 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z M 510.6 221.76 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z M 621 198.72 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 360
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "lavfi": "color=black@0,drawbox=x=67:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.106),drawbox=x=83:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.138),drawbox=x=99:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.170),drawbox=x=115:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.202),drawbox=x=131:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.234),drawbox=x=147:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.266),drawbox=x=163:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.298),drawbox=x=179:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.330),drawbox=x=195:y=115:w=17:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.362),drawbox=x=212:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.394),drawbox=x=228:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.426),drawbox=x=244:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.458),drawbox=x=260:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.490),drawbox=x=276:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.522),drawbox=x=292:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.554),drawbox=x=308:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.586),drawbox=x=324:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.618),drawbox=x=340:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.650),drawbox=x=356:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.682),drawbox=x=372:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.714),drawbox=x=388:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.746),drawbox=x=404:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.778),drawbox=x=420:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.810),drawbox=x=436:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.842),drawbox=x=452:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.874),drawbox=x=468:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.906),drawbox=x=484:y=115:w=17:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.938),drawbox=x=501:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,0.970),drawbox=x=517:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,1.002),drawbox=x=533:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,1.034),drawbox=x=549:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,1.066),drawbox=x=565:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,1.098),drawbox=x=581:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,1.130),drawbox=x=597:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,1.162),drawbox=x=613:y=115:w=16:h=202:color=#ffffff:t=fill:replace=1:enable=lt(t\\,1.194)",
+      "overlay": {
+        "window": {
+          "endSec": 1.194
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "#ffffff",
+  "size": {
+    "width": 640,
+    "height": 360
+  },
+  "fps": 30,
+  "durationMs": 3500,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-02"
+  },
+  "agent": {
+    "note": "**STRESS 02/10 — 02-cyrillic-narrow** (gate-16 stress set for `@m0saic/charts/line-chart/v1`).\n\nCYRILLIC at a small canvas: title/subtitle/legend/x labels all wide-script. Watch: the gate's textEmUnits caps — legend labels complete, title fits or ellipsizes, no CLI clips.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  }
+}

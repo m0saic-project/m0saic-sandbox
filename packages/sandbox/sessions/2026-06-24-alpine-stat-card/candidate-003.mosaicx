@@ -1,0 +1,40 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 480,
+    "height": 480
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/stat-card/v1",
+      "props": {
+        "label": "Commits",
+        "value": "1,243",
+        "delta": "+12.4%",
+        "direction": "up",
+        "sublabel": "vs last week",
+        "accent": "#3fb950"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": "<sandbox>/sessions/2026-06-24-alpine-stat-card",
+    "basename": "candidate-003"
+  },
+  "agent": {
+    "note": "c003 — clip fix, take 2. Diagnosis from your attached render: the CLI renderer fit the delta at a tight margin but the APP renderer's font metrics run a hair wider, pushing the '%' over the cell edge (why GeometricPreview looked fine). Fix: the delta now leaves a WIDE safety margin (em-per-char 0.82 + a 50% cell), so '+12.4%' sits well inside its cell with ~40px slack before 'vs last week' — robust across both render paths. Trade-off: the delta is a bit smaller than before to buy that margin. Please RENDER in the app (not just the geometric preview) to confirm.",
+    "question": "Is the % fully visible in the app RENDER now? If the smaller delta bothers you, I can move 'vs last week' to its own muted line below to give the delta more size. (Icon call still open: a=SVG glyphs per KPI, b=one brand mark, c=clean chip.)",
+    "response": {
+      "body": "Approved. Stable key r/ov1c0/gcolc10/growc10/gcolc30/fc23 will become a rect that serves a media asset for the final template. That way we can bake in the nice visuals of each kpi stat card.",
+      "from": "human",
+      "at": "2026-06-23T22:28:45.421Z",
+      "src": "<sandbox>/sessions/2026-06-24-alpine-stat-card/candidate-003-480x480.mp4"
+    }
+  }
+}

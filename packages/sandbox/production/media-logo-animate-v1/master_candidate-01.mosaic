@@ -1,0 +1,146 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "8[0,0,0,0,4(1,0,-,1),-,0,1]{8[0,8(0,0,-,0,1,0,0,-),-,0,8(0,0,-,0,1,0,0,-),0,0,-]}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#f97316",
+      "overlay": {
+        "alpha": "((min(1,max(0,(t-0.000)/0.220))*min(1,max(0,(t-0.000)/0.220))*(3-2*min(1,max(0,(t-0.000)/0.220)))))*((1-(min(1,max(0,(t-1.820)/0.700))*min(1,max(0,(t-1.820)/0.700))*(3-2*min(1,max(0,(t-1.820)/0.700))))))",
+        "xExpr": "(1.000*(1-(min(1,max(0,(t-0.000)/0.220))*min(1,max(0,(t-0.000)/0.220))*(3-2*min(1,max(0,(t-0.000)/0.220))))))",
+        "yExpr": "(1.000*(1-(min(1,max(0,(t-0.000)/0.220))*min(1,max(0,(t-0.000)/0.220))*(3-2*min(1,max(0,(t-0.000)/0.220))))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 0 0 L 4 0 L 4 10 L 0 10 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 4,
+          "height": 10
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f97316",
+      "overlay": {
+        "alpha": "((min(1,max(0,(t-0.750)/0.220))*min(1,max(0,(t-0.750)/0.220))*(3-2*min(1,max(0,(t-0.750)/0.220)))))*((1-(min(1,max(0,(t-1.820)/0.700))*min(1,max(0,(t-1.820)/0.700))*(3-2*min(1,max(0,(t-1.820)/0.700))))))",
+        "xExpr": "(1.000*(1-(min(1,max(0,(t-0.750)/0.220))*min(1,max(0,(t-0.750)/0.220))*(3-2*min(1,max(0,(t-0.750)/0.220))))))",
+        "yExpr": "(1.000*(1-(min(1,max(0,(t-0.750)/0.220))*min(1,max(0,(t-0.750)/0.220))*(3-2*min(1,max(0,(t-0.750)/0.220))))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 0 0 L 4 0 L 4 10 L 0 10 Z",
+        "bounds": {
+          "x": 12,
+          "y": 0,
+          "width": 4,
+          "height": 10
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f97316",
+      "overlay": {
+        "alpha": "((min(1,max(0,(t-0.250)/0.220))*min(1,max(0,(t-0.250)/0.220))*(3-2*min(1,max(0,(t-0.250)/0.220)))))*((1-(min(1,max(0,(t-1.820)/0.700))*min(1,max(0,(t-1.820)/0.700))*(3-2*min(1,max(0,(t-1.820)/0.700))))))",
+        "xExpr": "(1.000*(1-(min(1,max(0,(t-0.250)/0.220))*min(1,max(0,(t-0.250)/0.220))*(3-2*min(1,max(0,(t-0.250)/0.220))))))",
+        "yExpr": "(1.000*(1-(min(1,max(0,(t-0.250)/0.220))*min(1,max(0,(t-0.250)/0.220))*(3-2*min(1,max(0,(t-0.250)/0.220))))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 0 0 L 16 0 L 16 4 L 0 4 Z",
+        "bounds": {
+          "x": 0,
+          "y": 12,
+          "width": 16,
+          "height": 4
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f97316",
+      "overlay": {
+        "alpha": "((min(1,max(0,(t-1.000)/0.220))*min(1,max(0,(t-1.000)/0.220))*(3-2*min(1,max(0,(t-1.000)/0.220)))))*((1-(min(1,max(0,(t-1.820)/0.700))*min(1,max(0,(t-1.820)/0.700))*(3-2*min(1,max(0,(t-1.820)/0.700))))))",
+        "xExpr": "(1.000*(1-(min(1,max(0,(t-1.000)/0.220))*min(1,max(0,(t-1.000)/0.220))*(3-2*min(1,max(0,(t-1.000)/0.220))))))",
+        "yExpr": "(1.000*(1-(min(1,max(0,(t-1.000)/0.220))*min(1,max(0,(t-1.000)/0.220))*(3-2*min(1,max(0,(t-1.000)/0.220))))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 0 0 L 4 0 L 4 4 L 0 4 Z",
+        "bounds": {
+          "x": 6,
+          "y": 0,
+          "width": 4,
+          "height": 4
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f97316",
+      "overlay": {
+        "alpha": "((min(1,max(0,(t-0.500)/0.220))*min(1,max(0,(t-0.500)/0.220))*(3-2*min(1,max(0,(t-0.500)/0.220)))))*((1-(min(1,max(0,(t-1.820)/0.700))*min(1,max(0,(t-1.820)/0.700))*(3-2*min(1,max(0,(t-1.820)/0.700))))))",
+        "xExpr": "(1.000*(1-(min(1,max(0,(t-0.500)/0.220))*min(1,max(0,(t-0.500)/0.220))*(3-2*min(1,max(0,(t-0.500)/0.220))))))",
+        "yExpr": "(1.000*(1-(min(1,max(0,(t-0.500)/0.220))*min(1,max(0,(t-0.500)/0.220))*(3-2*min(1,max(0,(t-0.500)/0.220))))))"
+      },
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 0 0 L 4 0 L 4 4 L 0 4 Z",
+        "bounds": {
+          "x": 6,
+          "y": 6,
+          "width": 4,
+          "height": 4
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "assets": {},
+  "backgroundColor": "#ffffff",
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2520,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 7500,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master"
+  },
+  "agent": {
+    "note": "**TAKE 4 — double-click edits THE LINE UNDER THE POINTER** (founder on take 3: \"this isnt that great actually because its not aware of which text is here\").\n\n| Before | Now |\n|---|---|\n| A code run bound to `states[i]` = the WHOLE multi-line state; the inline editor put all of it in a token-sized single-line box | Every run binds **one line** of its state (`range`, raw-prop character span) and names **its own token** (`focus`). Double-click a token → the editor shows that line in a box aligned to the line (monospace, JetBrains Mono), the token pre-selected; Enter splices the edited line back into the state — the rest of the state is untouched. Removed (fading) lines edit the previous state's line |\n\nPlatform feature, not a template hack: `source.editor.binding.range` / `.focus` (@m0saic/types) · `bindingRange()` validation in @m0saic/platform (string leaves only; malformed ranges fall back to whole-leaf edits) · `bindPropRange()` in template-utils for authors (lyrics / captions / any multi-line string prop can use it) · Make: bindings index + edit hook (slice on open, splice on commit, span-aware re-anchor) + editor box (line-wide, token selected). Offsets index the RAW prop — tabs (`tabWidth`) and CRLF map back correctly.\n\nRecipe unchanged (pure defaults, 2 states, 7.5s, full bleed). Locks: 213 core (platform 5 new, template-utils 1, gate-32 range lock incl. tabs/CRLF/deletes) + 51 Make editor tests. Probe: default lite = 28 + 63 bound runs, 8 + 13 distinct lines, 0 focus/range mismatches.\n\nStill open: rise vs fade · cover/tutorial · CJK/emoji tofu · commit `code-png/`? · stress-01..10 (unchanged since take 3). Sizing of the multi-colour svg-text promotion (retires renderLite + sharp) is in chat.",
+    "question": "Double-click a token: does the line open in place with the token selected, and does Enter change just that line? (Make web bundle may need a dev-server restart to pick up the platform change.) Then the take-1 questions + stress-01..10.",
+    "response": {
+      "verdict": "SHIP (core) — + cover asset asks, no tutorial",
+      "text": "\"lets ship this first. add the M to the template cover, and make it full bleed and larger clear to read text. i dont think we need renderTutorial. I'm on the fence about core m0saic template or move to my community publisher, what do you think\" (after the badge fix: \"well its still about size… the pencil icon is apt\" → pencil threshold 18→60px)",
+      "via": "chat, 2026-09-04 — transcribed by agent (no in-file response was saved)",
+      "from": "human",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/code/snippet-morph/v1",
+      "props": {}
+    }
+  ]
+}

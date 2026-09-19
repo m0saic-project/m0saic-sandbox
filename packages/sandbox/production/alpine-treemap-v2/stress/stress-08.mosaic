@@ -1,0 +1,501 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{40[-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121(0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8[1,0,0,0,0,0,0,60[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{105[0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,1,0,0,-,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{57[0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,1,0,0,-,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{55[0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,1,0,0,-,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{55[0,0,0,-,0,0,0,0,0,0,0,0,0,0,1,0,0,-,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]})]]],0,0,0,0,0,0,-),-]}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#111827",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#1F2937",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "HEADCOUNT"
+          },
+          "style": {
+            "fontSize": 52,
+            "fontColor": "#F1F5F9"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "By department"
+          },
+          "style": {
+            "fontSize": 27,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "card-header"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "overlay": {
+        "startAtSec": 0,
+        "alpha": "(min(1,max(0,(t-0)/0.9449999999999998)))*(min(1,max(0,(t-0)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0)/0.9449999999999998))))"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.00599394701712281,
+          "right": 0.005841121495327103,
+          "bottom": 0.00599394701712281,
+          "left": 0.005841121495327103
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Alpha"
+          },
+          "style": {
+            "fontSize": 29,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09579439252336448
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.2834999999999999)/0.9449999999999998)))*(min(1,max(0,(t-0.2834999999999999)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.2834999999999999)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "48.2K"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09579439252336448
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.37799999999999995)/0.9449999999999998)))*(min(1,max(0,(t-0.37799999999999995)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.37799999999999995)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#10B981",
+      "overlay": {
+        "startAtSec": 0.3849999999999999,
+        "alpha": "(min(1,max(0,(t-0.3849999999999999)/0.9449999999999998)))*(min(1,max(0,(t-0.3849999999999999)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.3849999999999999)/0.9449999999999998))))"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.011069281464571624,
+          "right": 0.005841121495327103,
+          "bottom": 0.011069281464571624,
+          "left": 0.005841121495327103
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Beta"
+          },
+          "style": {
+            "fontSize": 29,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.0514018691588785
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.6684999999999999)/0.9449999999999998)))*(min(1,max(0,(t-0.6684999999999999)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.6684999999999999)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "26.1K"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.0514018691588785
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7629999999999999)/0.9449999999999998)))*(min(1,max(0,(t-0.7629999999999999)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.7629999999999999)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#f78166",
+      "overlay": {
+        "startAtSec": 0.7699999999999998,
+        "alpha": "(min(1,max(0,(t-0.7699999999999998)/0.9449999999999998)))*(min(1,max(0,(t-0.7699999999999998)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.7699999999999998)/0.9449999999999998))))"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.011464612945449182,
+          "right": 0.009316219093812849,
+          "bottom": 0.011464612945449182,
+          "left": 0.009316219093812849
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Gamma"
+          },
+          "style": {
+            "fontSize": 29,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.07825624038802792
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.0534999999999997)/0.9449999999999998)))*(min(1,max(0,(t-1.0534999999999997)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-1.0534999999999997)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "15.8K"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.07825624038802792
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1479999999999997)/0.9449999999999998)))*(min(1,max(0,(t-1.1479999999999997)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-1.1479999999999997)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EF4444",
+      "overlay": {
+        "startAtSec": 1.1549999999999998,
+        "alpha": "(min(1,max(0,(t-1.1549999999999998)/0.9449999999999998)))*(min(1,max(0,(t-1.1549999999999998)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-1.1549999999999998)/0.9449999999999998))))"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.011464612945449182,
+          "right": 0.0156591767747067,
+          "bottom": 0.011464612945449182,
+          "left": 0.0156591767747067
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Delta"
+          },
+          "style": {
+            "fontSize": 29,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09395506064824019
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4384999999999997)/0.9449999999999998)))*(min(1,max(0,(t-1.4384999999999997)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-1.4384999999999997)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "9.4K"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.09395506064824019
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.5329999999999997)/0.9449999999999998)))*(min(1,max(0,(t-1.5329999999999997)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-1.5329999999999997)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "#0B1120",
+  "fps": 30,
+  "durationMs": 3000,
+  "size": {
+    "width": 480,
+    "height": 1040
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-dark-value-mode** (gate-12 stress set for `@m0saic/alpine/treemap/v2` — the LAST alpine gate).\n\nTALL SKINNY + dark + valueMode:'value' (raw numbers) + max rounding 0.5 + per-item colors. Watch: pill-round tiles, compact numbers, dark contrast.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

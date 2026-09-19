@@ -1,0 +1,44 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2500,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 \u2014 08-themed-light** (gate-17 stress set for `@m0saic/charts/stat-card/v1` \u2014 the charts-pack closer).\n\nTHEME SELF-SEED: @m0saic/theming/v1 light preset \u2014 light surface, dark text, brand delta colors (the first applyTheme consumer, through the CLI path). Watch: white card via the base tile, all tokens flipped.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "ship",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/stat-card/v1",
+      "props": {
+        "label": "Total Commits",
+        "value": "246",
+        "delta": "+18 (+7.9%)",
+        "direction": "up",
+        "sublabel": "vs last week",
+        "theme": {
+          "slug": "@m0saic/theming/v1",
+          "props": {
+            "preset": "light"
+          }
+        }
+      }
+    }
+  ]
+}

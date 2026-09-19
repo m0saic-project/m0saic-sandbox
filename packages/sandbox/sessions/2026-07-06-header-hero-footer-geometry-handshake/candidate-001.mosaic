@@ -1,0 +1,132 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "5[1,0,0,2(1,1),1]",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "sources": [
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "#0f172a"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "LAUNCH DAY"
+          },
+          "style": {
+            "fontColor": "#f8fafc",
+            "fontSize": 65
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "#f97316"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Features"
+          },
+          "style": {
+            "fontColor": "#f8fafc",
+            "fontSize": 76
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "#38bdf8"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Pricing"
+          },
+          "style": {
+            "fontColor": "#f8fafc",
+            "fontSize": 76
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "#1e293b"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "getm0saic.com"
+          },
+          "style": {
+            "fontColor": "#f8fafc",
+            "fontSize": 38
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-001"
+  },
+  "agent": {
+    "note": "Smoke test of the Make geometry-edit handshake. Header / two-column hero / footer demo. The hero is hardcoded to two COLUMNS regardless of aspect — the flaw we want to surface and fix from your drags. This candidate lives in the sandbox session, so your saved edits freeze as candidate-001_humanedits.mosaic right here in the folder.",
+    "question": "Check three aspects in order: (1) Desktop 1920x1080, (2) Square 1080x1080 — the two-column hero reads fine, no edit. (3) Set Mobile 1080x1920 and RE-RENDER. On mobile the columns cramp: enter Edit mode and drag the two hero cells into TWO ROWS — Hero Left to the top half of the hero band, Hero Right to the bottom half (both full width). Then answer here (that freezes your edits as candidate-001_humanedits.mosaic). Do NOT change dims or props AFTER dragging — edits are discarded on any re-render."
+  }
+}

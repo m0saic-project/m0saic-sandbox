@@ -1,0 +1,41 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 854,
+    "height": 480
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "suggestedOutput": {
+    "dir": "./renders",
+    "basename": "05-max-velocity-snap"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-max-velocity-snap** (gate-36 stress set for `@m0saic/media/scroll_wall/v1`).\n\nTHE WRAP AT MAXIMUM VELOCITY, SNAPPED TO THE FRAME GRID at 854x480. 2000 px/s — the top of the slider — on a small canvas, with `snapVelocityToFrameGrid` on (rounds to whole px/frame, killing sub-pixel jitter at the cost of the exact loop). At this speed a tile crosses a 854px canvas in under half a second, so the wrap handoff happens constantly. Watch: no tearing at the seam, no tile popping into existence mid-canvas, no strobing.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/scroll_wall/v1",
+      "props": {
+        "motion": {
+          "speedMode": "pxPerSec",
+          "pxPerSec": 2000,
+          "snapVelocityToFrameGrid": true
+        },
+        "clips": [
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/chat_sr.mp4",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-13-2400x1000.png",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/inbox_sr.mp4",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-04-800x1200.png",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/invoice_sr.mp4",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/signed-letter_sr.mp4"
+        ]
+      }
+    }
+  ]
+}

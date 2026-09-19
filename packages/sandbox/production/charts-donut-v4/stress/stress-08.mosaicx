@@ -1,0 +1,55 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 \u2014 08-fade-no-countup** (gate-15 stress set for `@m0saic/charts/donut/v4`).\n\nFADE MODE + countUp OFF: staggered per-segment fade, literal (non-expr) center value. Watch: fade stagger order, static value from frame one, smoothstep easing.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/donut/v4",
+      "props": {
+        "anim": {
+          "mode": "fade",
+          "countUp": false,
+          "easing": "smoothstep"
+        },
+        "centerValue": "247",
+        "centerLabel": "Deploys This Quarter",
+        "segmentLabels": "percent",
+        "segments": [
+          {
+            "label": "US-East",
+            "value": 40
+          },
+          {
+            "label": "EU-West",
+            "value": 35
+          },
+          {
+            "label": "APAC",
+            "value": 25
+          }
+        ]
+      }
+    }
+  ]
+}

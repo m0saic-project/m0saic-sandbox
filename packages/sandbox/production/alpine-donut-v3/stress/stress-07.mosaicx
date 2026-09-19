@@ -1,0 +1,75 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/donut/v3",
+      "props": {
+        "segments": [
+          {
+            "label": "Dominant",
+            "value": 97
+          },
+          {
+            "label": "Tiny A",
+            "value": 1
+          },
+          {
+            "label": "Tiny B",
+            "value": 1
+          },
+          {
+            "label": "Tiny C",
+            "value": 1
+          },
+          {
+            "label": "Zero",
+            "value": 0
+          },
+          {
+            "label": "Negative",
+            "value": -5
+          }
+        ],
+        "title": "DONUT CHART",
+        "subtitle": "Revenue Mix",
+        "centerValue": "",
+        "centerLabel": "Total",
+        "preset": "light",
+        "ringThicknessFrac": 0.42,
+        "segmentLabels": "percent",
+        "legend": "right",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-hostile-values** (gate-4 stress set for `@m0saic/alpine/donut/v3`).\n\nHOSTILE DATA: one dominant segment (97) + tiny slivers (1,1,1 — below the 16° label threshold, % labels must DROP not overlap), plus a zero and a negative value (both must be filtered). Watch: tiny arcs render, no label collisions, derived sum center.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-21T18:45:27.000Z",
+      "via": "chat (\"approved\" — gate-4 stress set) — transcribed by agent"
+    }
+  }
+}

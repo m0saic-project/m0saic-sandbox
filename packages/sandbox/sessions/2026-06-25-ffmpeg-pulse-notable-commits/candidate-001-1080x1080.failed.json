@@ -1,0 +1,642 @@
+{
+  "schemaVersion": 1,
+  "mode": "render",
+  "ok": false,
+  "exitCode": 124,
+  "run": {
+    "id": "d2f8d5af-50af-40b2-8f36-1057de46f2d1",
+    "startedAtIso": "2026-06-25T07:05:49.499Z",
+    "finishedAtIso": "2026-06-25T07:05:54.394Z",
+    "elapsedMs": 4895
+  },
+  "versions": {
+    "cli": {
+      "name": "mosaic-desktop",
+      "version": "0.1.0"
+    },
+    "engine": {
+      "name": "@m0saic/core",
+      "version": "0.1.0"
+    },
+    "dsl": {
+      "name": "@m0saic/dsl",
+      "version": "1.1.0"
+    },
+    "packages": {
+      "@m0saic/templates": "0.1.0",
+      "@m0saic/types": "0.1.0"
+    }
+  },
+  "paths": {
+    "cwd": {
+      "path": ".",
+      "absolutePath": "<repo>/apps/mosaic"
+    },
+    "output": {
+      "path": "../../packages/sandbox/sessions/2026-06-25-ffmpeg-pulse-notable-commits/candidate-001-1080x1080.mp4",
+      "absolutePath": "<sandbox>/sessions/2026-06-25-ffmpeg-pulse-notable-commits/candidate-001-1080x1080.mp4"
+    },
+    "reportFile": {
+      "path": "../../packages/sandbox/sessions/2026-06-25-ffmpeg-pulse-notable-commits/candidate-001-1080x1080.output.json",
+      "absolutePath": "<sandbox>/sessions/2026-06-25-ffmpeg-pulse-notable-commits/candidate-001-1080x1080.output.json"
+    }
+  },
+  "output": {
+    "width": 1080,
+    "height": 1080,
+    "fps": 30,
+    "durationMs": 9000
+  },
+  "template": {
+    "id": "@m0saic/hero/ffmpeg-pulse/notable-commits/v1",
+    "props": {
+      "pulse": {
+        "repo": {
+          "name": "FFmpeg",
+          "fullName": "FFmpeg/FFmpeg"
+        },
+        "period": {
+          "weekNumber": 20,
+          "startISO": "2025-05-12",
+          "endISO": "2025-05-18"
+        },
+        "kpis": [
+          {
+            "key": "commits",
+            "label": "Commits",
+            "value": 127,
+            "deltaPct": 18,
+            "direction": "up",
+            "sublabel": "vs last week"
+          },
+          {
+            "key": "pullRequests",
+            "label": "Pull Requests",
+            "value": 34,
+            "deltaPct": 8.7,
+            "direction": "up",
+            "sublabel": "vs last week"
+          },
+          {
+            "key": "mergedPrs",
+            "label": "Merged PRs",
+            "value": 28,
+            "deltaPct": 9.1,
+            "direction": "up",
+            "sublabel": "vs last week"
+          },
+          {
+            "key": "openIssues",
+            "label": "Open Issues",
+            "value": 156,
+            "deltaPct": 4.3,
+            "direction": "down",
+            "sublabel": "vs last week"
+          },
+          {
+            "key": "contributors",
+            "label": "Contributors",
+            "value": 19,
+            "deltaPct": 26,
+            "direction": "up",
+            "sublabel": "vs last week"
+          },
+          {
+            "key": "additions",
+            "label": "Additions",
+            "value": 18463,
+            "deltaPct": 22,
+            "direction": "up",
+            "sublabel": "vs last week"
+          },
+          {
+            "key": "deletions",
+            "label": "Deletions",
+            "value": 9731,
+            "deltaPct": 8,
+            "direction": "up",
+            "sublabel": "vs last week"
+          },
+          {
+            "key": "stars",
+            "label": "Stars Δ",
+            "value": 87,
+            "display": "+87",
+            "deltaPct": 9,
+            "direction": "up",
+            "sublabel": "vs last week"
+          }
+        ],
+        "activity": {
+          "days": [
+            {
+              "label": "Mon",
+              "commits": 12
+            },
+            {
+              "label": "Tue",
+              "commits": 18
+            },
+            {
+              "label": "Wed",
+              "commits": 21
+            },
+            {
+              "label": "Thu",
+              "commits": 35
+            },
+            {
+              "label": "Fri",
+              "commits": 22
+            },
+            {
+              "label": "Sat",
+              "commits": 11
+            },
+            {
+              "label": "Sun",
+              "commits": 8
+            }
+          ],
+          "peak": {
+            "dayLabel": "Thu",
+            "dateISO": "2025-05-15",
+            "commits": 35
+          },
+          "grid": {
+            "weekLabels": [
+              "W13",
+              "W14",
+              "W15",
+              "W16",
+              "W17",
+              "W18",
+              "W19",
+              "W20"
+            ],
+            "rows": [
+              {
+                "label": "Mon",
+                "values": [
+                  10,
+                  14,
+                  8,
+                  16,
+                  11,
+                  13,
+                  9,
+                  12
+                ]
+              },
+              {
+                "label": "Tue",
+                "values": [
+                  16,
+                  20,
+                  15,
+                  22,
+                  18,
+                  19,
+                  14,
+                  18
+                ]
+              },
+              {
+                "label": "Wed",
+                "values": [
+                  19,
+                  24,
+                  17,
+                  26,
+                  20,
+                  23,
+                  16,
+                  21
+                ]
+              },
+              {
+                "label": "Thu",
+                "values": [
+                  28,
+                  33,
+                  25,
+                  38,
+                  30,
+                  34,
+                  24,
+                  35
+                ]
+              },
+              {
+                "label": "Fri",
+                "values": [
+                  18,
+                  22,
+                  16,
+                  25,
+                  19,
+                  24,
+                  17,
+                  22
+                ]
+              },
+              {
+                "label": "Sat",
+                "values": [
+                  8,
+                  12,
+                  6,
+                  14,
+                  9,
+                  13,
+                  7,
+                  11
+                ]
+              },
+              {
+                "label": "Sun",
+                "values": [
+                  5,
+                  8,
+                  4,
+                  10,
+                  6,
+                  9,
+                  5,
+                  8
+                ]
+              }
+            ]
+          },
+          "rail": [
+            {
+              "key": "totalCommits",
+              "label": "Total Commits",
+              "value": 127,
+              "deltaPct": 18,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "peakDay",
+              "label": "Peak Day",
+              "value": 35,
+              "sublabel": "May 15, 2025"
+            },
+            {
+              "key": "dailyAvg",
+              "label": "Daily Avg",
+              "value": 18,
+              "display": "18.1",
+              "deltaPct": 12,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "activeDays",
+              "label": "Active Days",
+              "value": 7,
+              "display": "7/7",
+              "sublabel": "100% of week"
+            }
+          ]
+        },
+        "contributors": {
+          "rows": [
+            {
+              "rank": 1,
+              "login": "akhirnov",
+              "name": "Anton Khirnov",
+              "commits": 23,
+              "additions": 4512,
+              "deletions": 2103
+            },
+            {
+              "rank": 2,
+              "login": "michaelni",
+              "name": "Michael Niedermayer",
+              "commits": 18,
+              "additions": 3204,
+              "deletions": 1034
+            },
+            {
+              "rank": 3,
+              "login": "jamrial",
+              "name": "James Almer",
+              "commits": 14,
+              "additions": 2193,
+              "deletions": 812
+            },
+            {
+              "rank": 4,
+              "login": "cus",
+              "name": "Marton Balint",
+              "commits": 11,
+              "additions": 1842,
+              "deletions": 1201
+            },
+            {
+              "rank": 5,
+              "login": "lance-lmwang",
+              "name": "Limin Wang",
+              "commits": 9,
+              "additions": 1503,
+              "deletions": 623
+            }
+          ],
+          "rail": [
+            {
+              "key": "totalCommits",
+              "label": "Total Commits",
+              "value": 127,
+              "deltaPct": 18,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "contributors",
+              "label": "Total Contributors",
+              "value": 19,
+              "deltaPct": 26,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "additions",
+              "label": "Additions",
+              "value": 18463,
+              "deltaPct": 22,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "deletions",
+              "label": "Deletions",
+              "value": 9731,
+              "deltaPct": 8,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "stars",
+              "label": "Stars Δ",
+              "value": 87,
+              "display": "+87",
+              "deltaPct": 9,
+              "direction": "up",
+              "sublabel": "vs last week"
+            }
+          ]
+        },
+        "changes": {
+          "totalFiles": 842,
+          "byArea": [
+            {
+              "area": "libavcodec",
+              "files": 286,
+              "color": "#2ea043"
+            },
+            {
+              "area": "libavformat",
+              "files": 185,
+              "color": "#238636"
+            },
+            {
+              "area": "libavfilter",
+              "files": 126,
+              "color": "#3fb950"
+            },
+            {
+              "area": "doc",
+              "files": 84,
+              "color": "#d29922"
+            },
+            {
+              "area": "tests",
+              "files": 67,
+              "color": "#8957e5"
+            },
+            {
+              "area": "tools",
+              "files": 50,
+              "color": "#6e7681"
+            },
+            {
+              "area": "other",
+              "files": 44,
+              "color": "#6e7681"
+            }
+          ],
+          "rail": [
+            {
+              "key": "totalFiles",
+              "label": "Total Files Changed",
+              "value": 842,
+              "deltaPct": 14,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "additions",
+              "label": "Additions",
+              "value": 18463,
+              "deltaPct": 22,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "deletions",
+              "label": "Deletions",
+              "value": 9731,
+              "deltaPct": 8,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "netChanges",
+              "label": "Net Changes",
+              "value": 8732,
+              "display": "+8,732",
+              "deltaPct": 16,
+              "direction": "up",
+              "sublabel": "vs last week"
+            }
+          ]
+        },
+        "notable": {
+          "items": [
+            {
+              "kind": "perf",
+              "area": "avcodec",
+              "title": "avcodec: improve AV1 decode performance",
+              "hash": "a1b2c3d",
+              "author": "Anton Khirnov",
+              "dateISO": "2025-05-15",
+              "pr": 14201,
+              "reviewers": [
+                "James Almer",
+                "Michael Niedermayer"
+              ],
+              "signal": "warn"
+            },
+            {
+              "kind": "feat",
+              "area": "avformat",
+              "title": "avformat: add support for new container",
+              "hash": "d4e5f6g",
+              "author": "James Almer",
+              "dateISO": "2025-05-14",
+              "pr": 14198,
+              "reviewers": [
+                "Anton Khirnov"
+              ],
+              "signal": "neutral"
+            },
+            {
+              "kind": "fix",
+              "area": "avfilter",
+              "title": "avfilter: fix memory leak in overlay filter",
+              "hash": "h7i8j9k",
+              "author": "Marton Balint",
+              "dateISO": "2025-05-13",
+              "pr": 14185,
+              "reviewers": [
+                "Anton Khirnov",
+                "Limin Wang"
+              ],
+              "signal": "win"
+            },
+            {
+              "kind": "docs",
+              "area": "doc",
+              "title": "doc: update HLS documentation",
+              "hash": "l0m1n2o",
+              "author": "Limin Wang",
+              "dateISO": "2025-05-12",
+              "pr": 14180,
+              "reviewers": [
+                "Marton Balint"
+              ],
+              "signal": "neutral"
+            },
+            {
+              "kind": "test",
+              "area": "tests",
+              "title": "tests: add FATE test for edge case",
+              "hash": "p3q4r5s",
+              "author": "Michael Niedermayer",
+              "dateISO": "2025-05-16",
+              "pr": 14205,
+              "reviewers": [
+                "James Almer"
+              ],
+              "signal": "win"
+            }
+          ],
+          "rail": [
+            {
+              "key": "mergedPrs",
+              "label": "Merged PRs",
+              "value": 31,
+              "deltaPct": 18,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "reviewCoverage",
+              "label": "Review Coverage",
+              "value": 92,
+              "display": "92%",
+              "sublabel": "of merged PRs"
+            },
+            {
+              "key": "openIssues",
+              "label": "Open Issues",
+              "value": 47,
+              "deltaPct": 6,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "contributors",
+              "label": "Contributors",
+              "value": 19,
+              "deltaPct": 26,
+              "direction": "up",
+              "sublabel": "vs last week"
+            }
+          ]
+        },
+        "fin": {
+          "headline": "THANK YOU!",
+          "subhead": "ANOTHER WEEK OF PROGRESS.",
+          "kpiStrip": [
+            {
+              "key": "commits",
+              "label": "Commits",
+              "value": 127,
+              "deltaPct": 18,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "contributors",
+              "label": "Contributors",
+              "value": 19,
+              "deltaPct": 26,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "filesChanged",
+              "label": "Files Changed",
+              "value": 842,
+              "deltaPct": 14,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "stars",
+              "label": "Stars Δ",
+              "value": 87,
+              "display": "+87",
+              "deltaPct": 9,
+              "direction": "up",
+              "sublabel": "vs last week"
+            }
+          ],
+          "qr": {
+            "url": "https://ffmpeg.org/pulse",
+            "caption": "View full report and past weeks"
+          },
+          "footer": "Built with m0saic"
+        }
+      },
+      "eyebrow": "BEAT 6",
+      "headline": "NOTABLE COMMITS",
+      "subtitle": "Highlight interesting work.",
+      "preset": "dark",
+      "anim": {
+        "introFrac": 0.7,
+        "reduceMotion": false
+      }
+    }
+  },
+  "errors": [
+    {
+      "code": "FFMPEG_NONZERO_EXIT",
+      "message": "Command 25/46 (root:11 — m0saic render (mosaic node)) exited 124\n--- stderr (tail) ---\nult\n  Stream #25:0 (png) -> setpts:default\n  Stream #26:0 (png) -> setpts:default\n  Stream #27:0 (png) -> setpts:default\n  Stream #28:0 (png) -> setpts:default\n  Stream #29:0 (png) -> setpts:default\n  Stream #30:0 (png) -> setpts:default\n  Stream #31:0 (png) -> setpts:default\n  Stream #32:0 (png) -> setpts:default\n  Stream #33:0 (png) -> setpts:default\n  Stream #34:0 (png) -> setpts:default\n  Stream #35:0 (png) -> setpts:default\n  Stream #36:0 (png) -> setpts:default\n  Stream #37:0 (png) -> setpts:default\n  Stream #38:0 (png) -> setpts:default\n  Stream #39:0 (png) -> setpts:default\n  Stream #40:0 (png) -> setpts:default\n  Stream #41:0 (png) -> setpts:default\n  Stream #42:0 (png) -> setpts:default\n  Stream #43:0 (png) -> setpts:default\n  Stream #44:0 (png) -> setpts:default\n  Stream #45:0 (png) -> scale:default\n  Stream #46:0 (png) -> scale:default\n  Stream #47:0 (png) -> scale:default\n  Stream #48:0 (png) -> scale:default\n  Stream #49:0 (png) -> scale:default\n  format:default -> Stream #0:0 (qtrle)\n  asetpts:default -> Stream #0:1 (aac)\nPress [q] to stop, [?] for help\nOutput #0, mov, to '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/node_root_11.mov':\n  Metadata:\n    encoder         : Lavf62.3.100\n  Stream #0:0: Video: qtrle (rle  / 0x20656C72), argb(pc, gbr/unknown/unknown, progressive), 738x432 [SAR 1:1 DAR 41:24], q=2-31, 200 kb/s, 30 fps, 90k tbn\n    Metadata:\n      encoder         : Lavc62.11.100 qtrle\n  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 192 kb/s\n    Metadata:\n      encoder         : Lavc62.11.100 aac\n[out#0/mov @ 0x15775ba20] video:74KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 2.287414%\nframe=   11 fps=7.0 q=-0.0 Lsize=      76KiB time=00:00:00.36 bitrate=1695.7kbits/s speed=0.232x elapsed=0:00:01.58    \n[aac @ 0x1576a2e30] Qavg: 65536.000\nExiting normally, received signal 15.\n\n⚠ killed: render was cancelled or the process was killed.\n   • If this wasn't intentional, check whether another process or the OS terminated ffmpeg (out-of-memory killer, antivirus, sleep/standby)."
+    }
+  ],
+  "warnings": [],
+  "workspaceDir": "$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp",
+  "failedCommand": {
+    "index": 25,
+    "total": 46,
+    "node": "root:11",
+    "description": "m0saic render (mosaic node)",
+    "exitCode": 124,
+    "elapsedMs": 1727,
+    "stderr": "ffmpeg version 8.0.1 Copyright (c) 2000-2025 the FFmpeg developers\n  built with Apple clang version 16.0.0 (clang-1600.0.26.6)\n  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/8.0.1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon\n  libavutil      60.  8.100 / 60.  8.100\n  libavcodec     62. 11.100 / 62. 11.100\n  libavformat    62.  3.100 / 62.  3.100\n  libavdevice    62.  1.100 / 62.  1.100\n  libavfilter    11.  4.100 / 11.  4.100\n  libswscale      9.  1.100 /  9.  1.100\n  libswresample   6.  1.100 /  6.  1.100\n-filter_complex_script is deprecated, use -/filter_complex $TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/ffgraph/root_11.ffgraph instead\nInput #0, lavfi, from 'color=#191f29:s=704x71:r=30:d=9.000,format=rgba,scale=704:71':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #0:0: Video: wrapped_avframe, rgba, 704x71 [SAR 1:1 DAR 704:71], 30 fps, 30 tbr, 30 tbn\nInput #1, lavfi, from 'color=#191f29:s=704x71:r=30:d=9.000,format=rgba,scale=704:71':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #1:0: Video: wrapped_avframe, rgba, 704x71 [SAR 1:1 DAR 704:71], 30 fps, 30 tbr, 30 tbn\nInput #2, lavfi, from 'color=#191f29:s=704x71:r=30:d=9.000,format=rgba,scale=704:71':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #2:0: Video: wrapped_avframe, rgba, 704x71 [SAR 1:1 DAR 704:71], 30 fps, 30 tbr, 30 tbn\nInput #3, lavfi, from 'color=#191f29:s=704x71:r=30:d=9.000,format=rgba,scale=704:71':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #3:0: Video: wrapped_avframe, rgba, 704x71 [SAR 1:1 DAR 704:71], 30 fps, 30 tbr, 30 tbn\nInput #4, lavfi, from 'color=#191f29:s=704x71:r=30:d=9.000,format=rgba,scale=704:71':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #4:0: Video: wrapped_avframe, rgba, 704x71 [SAR 1:1 DAR 704:71], 30 fps, 30 tbr, 30 tbn\nInput #5, lavfi, from 'color=#e3b341:s=4x43:r=30:d=9.000,format=rgba,scale=4:43':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #5:0: Video: wrapped_avframe, rgba, 4x43 [SAR 1:1 DAR 4:43], 30 fps, 30 tbr, 30 tbn\nInput #6, lavfi, from 'color=#6e7681:s=4x43:r=30:d=9.000,format=rgba,scale=4:43':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #6:0: Video: wrapped_avframe, rgba, 4x43 [SAR 1:1 DAR 4:43], 30 fps, 30 tbr, 30 tbn\nInput #7, lavfi, from 'color=#3fb950:s=4x43:r=30:d=9.000,format=rgba,scale=4:43':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #7:0: Video: wrapped_avframe, rgba, 4x43 [SAR 1:1 DAR 4:43], 30 fps, 30 tbr, 30 tbn\nInput #8, lavfi, from 'color=#6e7681:s=4x43:r=30:d=9.000,format=rgba,scale=4:43':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #8:0: Video: wrapped_avframe, rgba, 4x43 [SAR 1:1 DAR 4:43], 30 fps, 30 tbr, 30 tbn\nInput #9, lavfi, from 'color=#3fb950:s=4x43:r=30:d=9.000,format=rgba,scale=4:43':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #9:0: Video: wrapped_avframe, rgba, 4x43 [SAR 1:1 DAR 4:43], 30 fps, 30 tbr, 30 tbn\nInput #10, lavfi, from 'color=#a371f7:s=36x36:r=30:d=9.000,format=rgba,scale=36:36':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #10:0: Video: wrapped_avframe, rgba, 36x36 [SAR 1:1 DAR 1:1], 30 fps, 30 tbr, 30 tbn\nInput #11, lavfi, from 'color=#3fb950:s=36x36:r=30:d=9.000,format=rgba,scale=36:36':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #11:0: Video: wrapped_avframe, rgba, 36x36 [SAR 1:1 DAR 1:1], 30 fps, 30 tbr, 30 tbn\nInput #12, lavfi, from 'color=#388bfd:s=36x36:r=30:d=9.000,format=rgba,scale=36:36':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #12:0: Video: wrapped_avframe, rgba, 36x36 [SAR 1:1 DAR 1:1], 30 fps, 30 tbr, 30 tbn\nInput #13, lavfi, from 'color=#e3b341:s=36x36:r=30:d=9.000,format=rgba,scale=36:36':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #13:0: Video: wrapped_avframe, rgba, 36x36 [SAR 1:1 DAR 1:1], 30 fps, 30 tbr, 30 tbn\nInput #14, lavfi, from 'color=#2ea043:s=36x36:r=30:d=9.000,format=rgba,scale=36:36':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #14:0: Video: wrapped_avframe, rgba, 36x36 [SAR 1:1 DAR 1:1], 30 fps, 30 tbr, 30 tbn\nInput #15, lavfi, from 'color=#383055:s=73x21:r=30:d=9.000,format=rgba,scale=73:21':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #15:0: Video: wrapped_avframe, rgba, 73x21 [SAR 1:1 DAR 73:21], 30 fps, 30 tbr, 30 tbn\nInput #16, lavfi, from 'color=#20412d:s=81x21:r=30:d=9.000,format=rgba,scale=81:21':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #16:0: Video: wrapped_avframe, rgba, 81x21 [SAR 1:1 DAR 27:7], 30 fps, 30 tbr, 30 tbn\nInput #17, lavfi, from 'color=#1e3657:s=81x21:r=30:d=9.000,format=rgba,scale=81:21':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #17:0: Video: wrapped_avframe, rgba, 81x21 [SAR 1:1 DAR 27:7], 30 fps, 30 tbr, 30 tbn\nInput #18, lavfi, from 'color=#473f29:s=40x21:r=30:d=9.000,format=rgba,scale=40:21':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #18:0: Video: wrapped_avframe, rgba, 40x21 [SAR 1:1 DAR 40:21], 30 fps, 30 tbr, 30 tbn\nInput #19, lavfi, from 'color=#1c3b2a:s=56x21:r=30:d=9.000,format=rgba,scale=56:21':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #19:0: Video: wrapped_avframe, rgba, 56x21 [SAR 1:1 DAR 8:3], 30 fps, 30 tbr, 30 tbn\nInput #20, lavfi, from 'color=#0d1117:s=20x20:r=30:d=9.000,format=rgba,scale=20:20':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #20:0: Video: wrapped_avframe, rgba, 20x20 [SAR 1:1 DAR 1:1], 30 fps, 30 tbr, 30 tbn\nInput #21, lavfi, from 'color=#0d1117:s=20x20:r=30:d=9.000,format=rgba,scale=20:20':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #21:0: Video: wrapped_avframe, rgba, 20x20 [SAR 1:1 DAR 1:1], 30 fps, 30 tbr, 30 tbn\nInput #22, lavfi, from 'color=#0d1117:s=20x20:r=30:d=9.000,format=rgba,scale=20:20':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #22:0: Video: wrapped_avframe, rgba, 20x20 [SAR 1:1 DAR 1:1], 30 fps, 30 tbr, 30 tbn\nInput #23, lavfi, from 'color=#0d1117:s=20x20:r=30:d=9.000,format=rgba,scale=20:20':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #23:0: Video: wrapped_avframe, rgba, 20x20 [SAR 1:1 DAR 1:1], 30 fps, 30 tbr, 30 tbn\nInput #24, lavfi, from 'color=#0d1117:s=20x20:r=30:d=9.000,format=rgba,scale=20:20':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #24:0: Video: wrapped_avframe, rgba, 20x20 [SAR 1:1 DAR 1:1], 30 fps, 30 tbr, 30 tbn\nInput #25, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_25_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #25:0: Video: png, rgba(pc, gbr/unknown/unknown), 615x28 [SAR 1:1 DAR 615:28], 30 fps, 30 tbr, 30 tbn\nInput #26, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_26_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #26:0: Video: png, rgba(pc, gbr/unknown/unknown), 73x21 [SAR 1:1 DAR 73:21], 30 fps, 30 tbr, 30 tbn\nInput #27, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_27_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #27:0: Video: png, rgba(pc, gbr/unknown/unknown), 364x21 [SAR 1:1 DAR 52:3], 30 fps, 30 tbr, 30 tbn\nInput #28, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_28_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #28:0: Video: png, rgba(pc, gbr/unknown/unknown), 160x21 [SAR 1:1 DAR 160:21], 30 fps, 30 tbr, 30 tbn\nInput #29, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_29_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #29:0: Video: png, rgba(pc, gbr/unknown/unknown), 615x28 [SAR 1:1 DAR 615:28], 30 fps, 30 tbr, 30 tbn\nInput #30, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_30_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #30:0: Video: png, rgba(pc, gbr/unknown/unknown), 81x21 [SAR 1:1 DAR 27:7], 30 fps, 30 tbr, 30 tbn\nInput #31, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_31_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #31:0: Video: png, rgba(pc, gbr/unknown/unknown), 356x21 [SAR 1:1 DAR 356:21], 30 fps, 30 tbr, 30 tbn\nInput #32, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_32_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #32:0: Video: png, rgba(pc, gbr/unknown/unknown), 160x21 [SAR 1:1 DAR 160:21], 30 fps, 30 tbr, 30 tbn\nInput #33, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_33_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #33:0: Video: png, rgba(pc, gbr/unknown/unknown), 615x28 [SAR 1:1 DAR 615:28], 30 fps, 30 tbr, 30 tbn\nInput #34, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_34_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #34:0: Video: png, rgba(pc, gbr/unknown/unknown), 81x21 [SAR 1:1 DAR 27:7], 30 fps, 30 tbr, 30 tbn\nInput #35, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_35_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #35:0: Video: png, rgba(pc, gbr/unknown/unknown), 356x21 [SAR 1:1 DAR 356:21], 30 fps, 30 tbr, 30 tbn\nInput #36, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_36_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #36:0: Video: png, rgba(pc, gbr/unknown/unknown), 160x21 [SAR 1:1 DAR 160:21], 30 fps, 30 tbr, 30 tbn\nInput #37, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_37_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #37:0: Video: png, rgba(pc, gbr/unknown/unknown), 615x28 [SAR 1:1 DAR 615:28], 30 fps, 30 tbr, 30 tbn\nInput #38, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_38_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #38:0: Video: png, rgba(pc, gbr/unknown/unknown), 40x21 [SAR 1:1 DAR 40:21], 30 fps, 30 tbr, 30 tbn\nInput #39, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_39_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #39:0: Video: png, rgba(pc, gbr/unknown/unknown), 397x21 [SAR 1:1 DAR 397:21], 30 fps, 30 tbr, 30 tbn\nInput #40, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_40_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #40:0: Video: png, rgba(pc, gbr/unknown/unknown), 160x21 [SAR 1:1 DAR 160:21], 30 fps, 30 tbr, 30 tbn\nInput #41, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_41_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #41:0: Video: png, rgba(pc, gbr/unknown/unknown), 615x28 [SAR 1:1 DAR 615:28], 30 fps, 30 tbr, 30 tbn\nInput #42, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_42_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #42:0: Video: png, rgba(pc, gbr/unknown/unknown), 56x21 [SAR 1:1 DAR 8:3], 30 fps, 30 tbr, 30 tbn\nInput #43, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_43_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #43:0: Video: png, rgba(pc, gbr/unknown/unknown), 381x21 [SAR 1:1 DAR 127:7], 30 fps, 30 tbr, 30 tbn\nInput #44, png_pipe, from '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/root_11_root_11_44_text.png':\n  Duration: N/A, bitrate: N/A\n  Stream #44:0: Video: png, rgba(pc, gbr/unknown/unknown), 160x21 [SAR 1:1 DAR 160:21], 30 fps, 30 tbr, 30 tbn\nInput #45, png_pipe, from '$TMPDIR/[m0saic]_mask-cache/mask-004f399ef95408cb.png':\n  Duration: N/A, bitrate: N/A\n  Stream #45:0: Video: png, rgba(pc, gbr/unknown/unknown), 20x20 [SAR 2835:2835 DAR 1:1], 30 fps, 30 tbr, 30 tbn\nInput #46, png_pipe, from '$TMPDIR/[m0saic]_mask-cache/mask-848a3140a91b7f1b.png':\n  Duration: N/A, bitrate: N/A\n  Stream #46:0: Video: png, rgba(pc, gbr/unknown/unknown), 20x20 [SAR 2835:2835 DAR 1:1], 30 fps, 30 tbr, 30 tbn\nInput #47, png_pipe, from '$TMPDIR/[m0saic]_mask-cache/mask-5e14bf0b91a2463c.png':\n  Duration: N/A, bitrate: N/A\n  Stream #47:0: Video: png, rgba(pc, gbr/unknown/unknown), 20x20 [SAR 2835:2835 DAR 1:1], 30 fps, 30 tbr, 30 tbn\nInput #48, png_pipe, from '$TMPDIR/[m0saic]_mask-cache/mask-66941d302a3e693f.png':\n  Duration: N/A, bitrate: N/A\n  Stream #48:0: Video: png, rgba(pc, gbr/unknown/unknown), 20x20 [SAR 2835:2835 DAR 1:1], 30 fps, 30 tbr, 30 tbn\nInput #49, png_pipe, from '$TMPDIR/[m0saic]_mask-cache/mask-b9a7e898fb62958e.png':\n  Duration: N/A, bitrate: N/A\n  Stream #49:0: Video: png, rgba(pc, gbr/unknown/unknown), 20x20 [SAR 2835:2835 DAR 1:1], 30 fps, 30 tbr, 30 tbn\nStream mapping:\n  Stream #0:0 (wrapped_avframe) -> setpts:default\n  Stream #1:0 (wrapped_avframe) -> setpts:default\n  Stream #2:0 (wrapped_avframe) -> setpts:default\n  Stream #3:0 (wrapped_avframe) -> setpts:default\n  Stream #4:0 (wrapped_avframe) -> setpts:default\n  Stream #5:0 (wrapped_avframe) -> setpts:default\n  Stream #6:0 (wrapped_avframe) -> setpts:default\n  Stream #7:0 (wrapped_avframe) -> setpts:default\n  Stream #8:0 (wrapped_avframe) -> setpts:default\n  Stream #9:0 (wrapped_avframe) -> setpts:default\n  Stream #10:0 (wrapped_avframe) -> setpts:default\n  Stream #11:0 (wrapped_avframe) -> setpts:default\n  Stream #12:0 (wrapped_avframe) -> setpts:default\n  Stream #13:0 (wrapped_avframe) -> setpts:default\n  Stream #14:0 (wrapped_avframe) -> setpts:default\n  Stream #15:0 (wrapped_avframe) -> setpts:default\n  Stream #16:0 (wrapped_avframe) -> setpts:default\n  Stream #17:0 (wrapped_avframe) -> setpts:default\n  Stream #18:0 (wrapped_avframe) -> setpts:default\n  Stream #19:0 (wrapped_avframe) -> setpts:default\n  Stream #20:0 (wrapped_avframe) -> setpts:default\n  Stream #21:0 (wrapped_avframe) -> setpts:default\n  Stream #22:0 (wrapped_avframe) -> setpts:default\n  Stream #23:0 (wrapped_avframe) -> setpts:default\n  Stream #24:0 (wrapped_avframe) -> setpts:default\n  Stream #25:0 (png) -> setpts:default\n  Stream #26:0 (png) -> setpts:default\n  Stream #27:0 (png) -> setpts:default\n  Stream #28:0 (png) -> setpts:default\n  Stream #29:0 (png) -> setpts:default\n  Stream #30:0 (png) -> setpts:default\n  Stream #31:0 (png) -> setpts:default\n  Stream #32:0 (png) -> setpts:default\n  Stream #33:0 (png) -> setpts:default\n  Stream #34:0 (png) -> setpts:default\n  Stream #35:0 (png) -> setpts:default\n  Stream #36:0 (png) -> setpts:default\n  Stream #37:0 (png) -> setpts:default\n  Stream #38:0 (png) -> setpts:default\n  Stream #39:0 (png) -> setpts:default\n  Stream #40:0 (png) -> setpts:default\n  Stream #41:0 (png) -> setpts:default\n  Stream #42:0 (png) -> setpts:default\n  Stream #43:0 (png) -> setpts:default\n  Stream #44:0 (png) -> setpts:default\n  Stream #45:0 (png) -> scale:default\n  Stream #46:0 (png) -> scale:default\n  Stream #47:0 (png) -> scale:default\n  Stream #48:0 (png) -> scale:default\n  Stream #49:0 (png) -> scale:default\n  format:default -> Stream #0:0 (qtrle)\n  asetpts:default -> Stream #0:1 (aac)\nPress [q] to stop, [?] for help\nOutput #0, mov, to '$TMPDIR/[m0saic]_make-_m0saic_hero_ffmpeg-pulse_notable-commits_v1-d2f8d5af-50af-40b2-8f36-1057de46f2d1-KQRclp/node_root_11.mov':\n  Metadata:\n    encoder         : Lavf62.3.100\n  Stream #0:0: Video: qtrle (rle  / 0x20656C72), argb(pc, gbr/unknown/unknown, progressive), 738x432 [SAR 1:1 DAR 41:24], q=2-31, 200 kb/s, 30 fps, 90k tbn\n    Metadata:\n      encoder         : Lavc62.11.100 qtrle\n  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 192 kb/s\n    Metadata:\n      encoder         : Lavc62.11.100 aac\n[out#0/mov @ 0x15775ba20] video:74KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 2.287414%\nframe=   11 fps=7.0 q=-0.0 Lsize=      76KiB time=00:00:00.36 bitrate=1695.7kbits/s speed=0.232x elapsed=0:00:01.58    \n[aac @ 0x1576a2e30] Qavg: 65536.000\nExiting normally, received signal 15.\n"
+  }
+}

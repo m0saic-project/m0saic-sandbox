@@ -1,0 +1,63 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1001,
+    "height": 733
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/donut/v3",
+      "props": {
+        "segments": [
+          {
+            "label": "Корпоративные клиенты",
+            "value": 42
+          },
+          {
+            "label": "专业版订阅",
+            "value": 33
+          },
+          {
+            "label": "🔥 Freemium conversions and other long tail",
+            "value": 25
+          }
+        ],
+        "title": "REVENUE MIX WITH AN EXTREMELY LONG TITLE BAND",
+        "subtitle": "A subtitle that also runs long enough to threaten the header fit",
+        "centerValue": "$1,234,567.89",
+        "centerLabel": "Total Recognized Revenue",
+        "preset": "light",
+        "ringThicknessFrac": 0.42,
+        "segmentLabels": "percent",
+        "legend": "right",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-unicode-long-strings** (gate-4 stress set for `@m0saic/alpine/donut/v3`).\n\nUNICODE + LONG: CJK/Cyrillic/emoji labels, long title/subtitle, long centerValue. Watch: legend font shrinks instead of colliding; center value hole-capped.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-21T18:45:27.000Z",
+      "via": "chat (\"approved\" — gate-4 stress set) — transcribed by agent"
+    }
+  }
+}

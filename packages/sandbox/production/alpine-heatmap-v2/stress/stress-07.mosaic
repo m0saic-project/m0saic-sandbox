@@ -1,0 +1,2797 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121(0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15[0,1,0,0,0,0,0,0,0,0,0,0,0,0,121[-,0,0,0,0,0,15(0,-,0,0,0,0,0,0,0,0,0,0,0,8(1,1,1,1,1,1,1,1),-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15(-,4[6(0,0,0,0,1,-),6(0,0,0,0,1,-),6(0,0,0,0,1,-),6(0,0,0,0,1,-)],0,0,0,0,0,0,0,0,0,0,0,4[8(1,1,1,1,1,1,1,1),8(1,1,1,1,1,1,1,1),8(1,1,1,1,1,1,1,1),8(1,1,1,1,1,1,1,1)]{4[8(1,1,1,1,1,1,1,1),8(1,1,1,1,1,1,1,1),8(1,1,1,1,1,1,1,1),8(1,1,1,1,1,1,1,1)]},-),-,0,0,0,0,0,0,31[0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,1,-,0,0,0,0,0,0,0,0,0,5(1,1,1,1,1),-,0,0,0,1),0,0,0,0,0,0,0,-]]],0,0,0,-),0,0,0,0,0,0,-]}",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#E5E7EB",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "CONTRIBUTIONS"
+          },
+          "style": {
+            "fontSize": 35,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Commits by day"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "W1"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "W2"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "W3"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "W4"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "W5"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "W6"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "W7"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "W8"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Neg"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Outlier"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Ragged"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "CSV"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EBEEF2",
+      "overlay": {
+        "startAtSec": 0,
+        "alpha": "(min(1,max(0,(t-0)/0.7349999999999999)))*(min(1,max(0,(t-0)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.004201680672268907,
+          "right": 0.12184873949579832,
+          "top": 0.004273504273504274,
+          "bottom": 0.11538461538461539
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EBEEF2",
+      "overlay": {
+        "startAtSec": 0.13649999999999998,
+        "alpha": "(min(1,max(0,(t-0.13649999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.13649999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.13649999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.02100840336134454,
+          "right": 0.10504201680672269,
+          "top": 0.004273504273504274,
+          "bottom": 0.11538461538461539
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EBEEF2",
+      "overlay": {
+        "startAtSec": 0.27299999999999996,
+        "alpha": "(min(1,max(0,(t-0.27299999999999996)/0.7349999999999999)))*(min(1,max(0,(t-0.27299999999999996)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.27299999999999996)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.037815126050420166,
+          "right": 0.08823529411764706,
+          "top": 0.004273504273504274,
+          "bottom": 0.11538461538461539
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.4094999999999999,
+        "alpha": "(min(1,max(0,(t-0.4094999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.4094999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.4094999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.0546218487394958,
+          "right": 0.07142857142857142,
+          "top": 0.004273504273504274,
+          "bottom": 0.11538461538461539
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.5459999999999999,
+        "alpha": "(min(1,max(0,(t-0.5459999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.5459999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.5459999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.07142857142857142,
+          "right": 0.0546218487394958,
+          "top": 0.004273504273504274,
+          "bottom": 0.11538461538461539
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.6824999999999999,
+        "alpha": "(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.08823529411764706,
+          "right": 0.037815126050420166,
+          "top": 0.004273504273504274,
+          "bottom": 0.11538461538461539
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.8189999999999998,
+        "alpha": "(min(1,max(0,(t-0.8189999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.8189999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.8189999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.10504201680672269,
+          "right": 0.02100840336134454,
+          "top": 0.004273504273504274,
+          "bottom": 0.11538461538461539
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.9554999999999998,
+        "alpha": "(min(1,max(0,(t-0.9554999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.9554999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.9554999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.12184873949579832,
+          "right": 0.004201680672268907,
+          "top": 0.004273504273504274,
+          "bottom": 0.11538461538461539
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EBEEF2",
+      "overlay": {
+        "startAtSec": 0.13649999999999998,
+        "alpha": "(min(1,max(0,(t-0.13649999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.13649999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.13649999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.004201680672268907,
+          "right": 0.12184873949579832,
+          "top": 0.03017241379310345,
+          "bottom": 0.07327586206896551
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.27299999999999996,
+        "alpha": "(min(1,max(0,(t-0.27299999999999996)/0.7349999999999999)))*(min(1,max(0,(t-0.27299999999999996)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.27299999999999996)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.02100840336134454,
+          "right": 0.10504201680672269,
+          "top": 0.03017241379310345,
+          "bottom": 0.07327586206896551
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.4094999999999999,
+        "alpha": "(min(1,max(0,(t-0.4094999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.4094999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.4094999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.037815126050420166,
+          "right": 0.08823529411764706,
+          "top": 0.03017241379310345,
+          "bottom": 0.07327586206896551
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563eb",
+      "overlay": {
+        "startAtSec": 0.5459999999999999,
+        "alpha": "(min(1,max(0,(t-0.5459999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.5459999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.5459999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.0546218487394958,
+          "right": 0.07142857142857142,
+          "top": 0.03017241379310345,
+          "bottom": 0.07327586206896551
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.6824999999999999,
+        "alpha": "(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.07142857142857142,
+          "right": 0.0546218487394958,
+          "top": 0.03017241379310345,
+          "bottom": 0.07327586206896551
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.8189999999999998,
+        "alpha": "(min(1,max(0,(t-0.8189999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.8189999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.8189999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.08823529411764706,
+          "right": 0.037815126050420166,
+          "top": 0.03017241379310345,
+          "bottom": 0.07327586206896551
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EBEEF2",
+      "overlay": {
+        "startAtSec": 0.9554999999999998,
+        "alpha": "(min(1,max(0,(t-0.9554999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.9554999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.9554999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.10504201680672269,
+          "right": 0.02100840336134454,
+          "top": 0.03017241379310345,
+          "bottom": 0.07327586206896551
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 1.0919999999999999,
+        "alpha": "(min(1,max(0,(t-1.0919999999999999)/0.7349999999999999)))*(min(1,max(0,(t-1.0919999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.0919999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.12184873949579832,
+          "right": 0.004201680672268907,
+          "top": 0.03017241379310345,
+          "bottom": 0.07327586206896551
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.27299999999999996,
+        "alpha": "(min(1,max(0,(t-0.27299999999999996)/0.7349999999999999)))*(min(1,max(0,(t-0.27299999999999996)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.27299999999999996)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.004201680672268907,
+          "right": 0.12184873949579832,
+          "top": 0.07327586206896551,
+          "bottom": 0.03879310344827586
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.4094999999999999,
+        "alpha": "(min(1,max(0,(t-0.4094999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.4094999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.4094999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.02100840336134454,
+          "right": 0.10504201680672269,
+          "top": 0.07327586206896551,
+          "bottom": 0.03879310344827586
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EBEEF2",
+      "overlay": {
+        "startAtSec": 0.5459999999999999,
+        "alpha": "(min(1,max(0,(t-0.5459999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.5459999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.5459999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.037815126050420166,
+          "right": 0.08823529411764706,
+          "top": 0.07327586206896551,
+          "bottom": 0.03879310344827586
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EBEEF2",
+      "overlay": {
+        "startAtSec": 0.6824999999999999,
+        "alpha": "(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.0546218487394958,
+          "right": 0.07142857142857142,
+          "top": 0.07327586206896551,
+          "bottom": 0.03879310344827586
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EBEEF2",
+      "overlay": {
+        "startAtSec": 0.8189999999999998,
+        "alpha": "(min(1,max(0,(t-0.8189999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.8189999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.8189999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.07142857142857142,
+          "right": 0.0546218487394958,
+          "top": 0.07327586206896551,
+          "bottom": 0.03879310344827586
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EBEEF2",
+      "overlay": {
+        "startAtSec": 0.9554999999999998,
+        "alpha": "(min(1,max(0,(t-0.9554999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.9554999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.9554999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.08823529411764706,
+          "right": 0.037815126050420166,
+          "top": 0.07327586206896551,
+          "bottom": 0.03879310344827586
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EBEEF2",
+      "overlay": {
+        "startAtSec": 1.0919999999999999,
+        "alpha": "(min(1,max(0,(t-1.0919999999999999)/0.7349999999999999)))*(min(1,max(0,(t-1.0919999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.0919999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.10504201680672269,
+          "right": 0.02100840336134454,
+          "top": 0.07327586206896551,
+          "bottom": 0.03879310344827586
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EBEEF2",
+      "overlay": {
+        "startAtSec": 1.2285,
+        "alpha": "(min(1,max(0,(t-1.2285)/0.7349999999999999)))*(min(1,max(0,(t-1.2285)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.2285)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.12184873949579832,
+          "right": 0.004201680672268907,
+          "top": 0.07327586206896551,
+          "bottom": 0.03879310344827586
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.4094999999999999,
+        "alpha": "(min(1,max(0,(t-0.4094999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.4094999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.4094999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.004201680672268907,
+          "right": 0.12184873949579832,
+          "top": 0.10775862068965517,
+          "bottom": 0.004310344827586207
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.5459999999999999,
+        "alpha": "(min(1,max(0,(t-0.5459999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.5459999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.5459999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.02100840336134454,
+          "right": 0.10504201680672269,
+          "top": 0.10775862068965517,
+          "bottom": 0.004310344827586207
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.6824999999999999,
+        "alpha": "(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.6824999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.037815126050420166,
+          "right": 0.08823529411764706,
+          "top": 0.10775862068965517,
+          "bottom": 0.004310344827586207
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.8189999999999998,
+        "alpha": "(min(1,max(0,(t-0.8189999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.8189999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.8189999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.0546218487394958,
+          "right": 0.07142857142857142,
+          "top": 0.10775862068965517,
+          "bottom": 0.004310344827586207
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 0.9554999999999998,
+        "alpha": "(min(1,max(0,(t-0.9554999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.9554999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.9554999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.07142857142857142,
+          "right": 0.0546218487394958,
+          "top": 0.10775862068965517,
+          "bottom": 0.004310344827586207
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 1.0919999999999999,
+        "alpha": "(min(1,max(0,(t-1.0919999999999999)/0.7349999999999999)))*(min(1,max(0,(t-1.0919999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.0919999999999999)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.08823529411764706,
+          "right": 0.037815126050420166,
+          "top": 0.10775862068965517,
+          "bottom": 0.004310344827586207
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 1.2285,
+        "alpha": "(min(1,max(0,(t-1.2285)/0.7349999999999999)))*(min(1,max(0,(t-1.2285)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.2285)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.10504201680672269,
+          "right": 0.02100840336134454,
+          "top": 0.10775862068965517,
+          "bottom": 0.004310344827586207
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "overlay": {
+        "startAtSec": 1.3649999999999998,
+        "alpha": "(min(1,max(0,(t-1.3649999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.3649999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.3649999999999998)/0.7349999999999999))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "cell"
+      },
+      "placement": {
+        "inset": {
+          "left": 0.12184873949579832,
+          "right": 0.004201680672268907,
+          "top": 0.10775862068965517,
+          "bottom": 0.004310344827586207
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": " "
+          },
+          "style": {
+            "fontSize": 8,
+            "fontColor": "black@0"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "placement": {
+        "inset": {
+          "left": 0.004201680672268907,
+          "right": 0.12184873949579832,
+          "top": 0.004273504273504274,
+          "bottom": 0.11538461538461539
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": " "
+          },
+          "style": {
+            "fontSize": 8,
+            "fontColor": "black@0"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "placement": {
+        "inset": {
+          "left": 0.02100840336134454,
+          "right": 0.10504201680672269,
+          "top": 0.004273504273504274,
+          "bottom": 0.11538461538461539
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": " "
+          },
+          "style": {
+            "fontSize": 8,
+            "fontColor": "black@0"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "placement": {
+        "inset": {
+          "left": 0.037815126050420166,
+          "right": 0.08823529411764706,
+          "top": 0.004273504273504274,
+          "bottom": 0.11538461538461539
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "2"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7769999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.7769999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.7769999999999999)/0.7349999999999999))))",
+        "window": {
+          "startSec": 0.7769999999999999
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.0546218487394958,
+          "right": 0.07142857142857142,
+          "top": 0.004273504273504274,
+          "bottom": 0.11538461538461539
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "4"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.9134999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.9134999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.9134999999999999)/0.7349999999999999))))",
+        "window": {
+          "startSec": 0.9134999999999999
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.07142857142857142,
+          "right": 0.0546218487394958,
+          "top": 0.004273504273504274,
+          "bottom": 0.11538461538461539
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "6"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999))))",
+        "window": {
+          "startSec": 1.0499999999999998
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.08823529411764706,
+          "right": 0.037815126050420166,
+          "top": 0.004273504273504274,
+          "bottom": 0.11538461538461539
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "8"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1864999999999997)/0.7349999999999999)))*(min(1,max(0,(t-1.1864999999999997)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.1864999999999997)/0.7349999999999999))))",
+        "window": {
+          "startSec": 1.1864999999999997
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.10504201680672269,
+          "right": 0.02100840336134454,
+          "top": 0.004273504273504274,
+          "bottom": 0.11538461538461539
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "10"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.3229999999999997)/0.7349999999999999)))*(min(1,max(0,(t-1.3229999999999997)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.3229999999999997)/0.7349999999999999))))",
+        "window": {
+          "startSec": 1.3229999999999997
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.12184873949579832,
+          "right": 0.004201680672268907,
+          "top": 0.004273504273504274,
+          "bottom": 0.11538461538461539
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": " "
+          },
+          "style": {
+            "fontSize": 8,
+            "fontColor": "black@0"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "placement": {
+        "inset": {
+          "left": 0.004201680672268907,
+          "right": 0.12184873949579832,
+          "top": 0.03017241379310345,
+          "bottom": 0.07327586206896551
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "1"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.6404999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.6404999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.6404999999999998)/0.7349999999999999))))",
+        "window": {
+          "startSec": 0.6404999999999998
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.02100840336134454,
+          "right": 0.10504201680672269,
+          "top": 0.03017241379310345,
+          "bottom": 0.07327586206896551
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "2"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7769999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.7769999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.7769999999999999)/0.7349999999999999))))",
+        "window": {
+          "startSec": 0.7769999999999999
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.037815126050420166,
+          "right": 0.08823529411764706,
+          "top": 0.03017241379310345,
+          "bottom": 0.07327586206896551
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "1M"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.9134999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.9134999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.9134999999999999)/0.7349999999999999))))",
+        "window": {
+          "startSec": 0.9134999999999999
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.0546218487394958,
+          "right": 0.07142857142857142,
+          "top": 0.03017241379310345,
+          "bottom": 0.07327586206896551
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "2"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999))))",
+        "window": {
+          "startSec": 1.0499999999999998
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.07142857142857142,
+          "right": 0.0546218487394958,
+          "top": 0.03017241379310345,
+          "bottom": 0.07327586206896551
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "1"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1864999999999997)/0.7349999999999999)))*(min(1,max(0,(t-1.1864999999999997)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.1864999999999997)/0.7349999999999999))))",
+        "window": {
+          "startSec": 1.1864999999999997
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.08823529411764706,
+          "right": 0.037815126050420166,
+          "top": 0.03017241379310345,
+          "bottom": 0.07327586206896551
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": " "
+          },
+          "style": {
+            "fontSize": 8,
+            "fontColor": "black@0"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "placement": {
+        "inset": {
+          "left": 0.10504201680672269,
+          "right": 0.02100840336134454,
+          "top": 0.03017241379310345,
+          "bottom": 0.07327586206896551
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "1"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4594999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.4594999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.4594999999999998)/0.7349999999999999))))",
+        "window": {
+          "startSec": 1.4594999999999998
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.12184873949579832,
+          "right": 0.004201680672268907,
+          "top": 0.03017241379310345,
+          "bottom": 0.07327586206896551
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "3"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.6404999999999998)/0.7349999999999999)))*(min(1,max(0,(t-0.6404999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.6404999999999998)/0.7349999999999999))))",
+        "window": {
+          "startSec": 0.6404999999999998
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.004201680672268907,
+          "right": 0.12184873949579832,
+          "top": 0.07327586206896551,
+          "bottom": 0.03879310344827586
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "7"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7769999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.7769999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.7769999999999999)/0.7349999999999999))))",
+        "window": {
+          "startSec": 0.7769999999999999
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.02100840336134454,
+          "right": 0.10504201680672269,
+          "top": 0.07327586206896551,
+          "bottom": 0.03879310344827586
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": " "
+          },
+          "style": {
+            "fontSize": 8,
+            "fontColor": "black@0"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "placement": {
+        "inset": {
+          "left": 0.037815126050420166,
+          "right": 0.08823529411764706,
+          "top": 0.07327586206896551,
+          "bottom": 0.03879310344827586
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": " "
+          },
+          "style": {
+            "fontSize": 8,
+            "fontColor": "black@0"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "placement": {
+        "inset": {
+          "left": 0.0546218487394958,
+          "right": 0.07142857142857142,
+          "top": 0.07327586206896551,
+          "bottom": 0.03879310344827586
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": " "
+          },
+          "style": {
+            "fontSize": 8,
+            "fontColor": "black@0"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "placement": {
+        "inset": {
+          "left": 0.07142857142857142,
+          "right": 0.0546218487394958,
+          "top": 0.07327586206896551,
+          "bottom": 0.03879310344827586
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": " "
+          },
+          "style": {
+            "fontSize": 8,
+            "fontColor": "black@0"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "placement": {
+        "inset": {
+          "left": 0.08823529411764706,
+          "right": 0.037815126050420166,
+          "top": 0.07327586206896551,
+          "bottom": 0.03879310344827586
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": " "
+          },
+          "style": {
+            "fontSize": 8,
+            "fontColor": "black@0"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "placement": {
+        "inset": {
+          "left": 0.10504201680672269,
+          "right": 0.02100840336134454,
+          "top": 0.07327586206896551,
+          "bottom": 0.03879310344827586
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": " "
+          },
+          "style": {
+            "fontSize": 8,
+            "fontColor": "black@0"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "placement": {
+        "inset": {
+          "left": 0.12184873949579832,
+          "right": 0.004201680672268907,
+          "top": 0.07327586206896551,
+          "bottom": 0.03879310344827586
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "1"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7769999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.7769999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.7769999999999999)/0.7349999999999999))))",
+        "window": {
+          "startSec": 0.7769999999999999
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.004201680672268907,
+          "right": 0.12184873949579832,
+          "top": 0.10775862068965517,
+          "bottom": 0.004310344827586207
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "2"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.9134999999999999)/0.7349999999999999)))*(min(1,max(0,(t-0.9134999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-0.9134999999999999)/0.7349999999999999))))",
+        "window": {
+          "startSec": 0.9134999999999999
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.02100840336134454,
+          "right": 0.10504201680672269,
+          "top": 0.10775862068965517,
+          "bottom": 0.004310344827586207
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "3"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.0499999999999998)/0.7349999999999999))))",
+        "window": {
+          "startSec": 1.0499999999999998
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.037815126050420166,
+          "right": 0.08823529411764706,
+          "top": 0.10775862068965517,
+          "bottom": 0.004310344827586207
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "4"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1864999999999997)/0.7349999999999999)))*(min(1,max(0,(t-1.1864999999999997)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.1864999999999997)/0.7349999999999999))))",
+        "window": {
+          "startSec": 1.1864999999999997
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.0546218487394958,
+          "right": 0.07142857142857142,
+          "top": 0.10775862068965517,
+          "bottom": 0.004310344827586207
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "5"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.3229999999999997)/0.7349999999999999)))*(min(1,max(0,(t-1.3229999999999997)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.3229999999999997)/0.7349999999999999))))",
+        "window": {
+          "startSec": 1.3229999999999997
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.07142857142857142,
+          "right": 0.0546218487394958,
+          "top": 0.10775862068965517,
+          "bottom": 0.004310344827586207
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "6"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4594999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.4594999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.4594999999999998)/0.7349999999999999))))",
+        "window": {
+          "startSec": 1.4594999999999998
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.08823529411764706,
+          "right": 0.037815126050420166,
+          "top": 0.10775862068965517,
+          "bottom": 0.004310344827586207
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "7"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.5959999999999999)/0.7349999999999999)))*(min(1,max(0,(t-1.5959999999999999)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.5959999999999999)/0.7349999999999999))))",
+        "window": {
+          "startSec": 1.5959999999999999
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.10504201680672269,
+          "right": 0.02100840336134454,
+          "top": 0.10775862068965517,
+          "bottom": 0.004310344827586207
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "8"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.7324999999999997)/0.7349999999999999)))*(min(1,max(0,(t-1.7324999999999997)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.7324999999999997)/0.7349999999999999))))",
+        "window": {
+          "startSec": 1.7324999999999997
+        }
+      },
+      "placement": {
+        "inset": {
+          "left": 0.12184873949579832,
+          "right": 0.004201680672268907,
+          "top": 0.10775862068965517,
+          "bottom": 0.004310344827586207
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Less"
+          },
+          "style": {
+            "fontSize": 14,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EBEEF2",
+      "placement": {
+        "inset": {
+          "x": 0.10526315789473684
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#cfddfb",
+      "placement": {
+        "inset": {
+          "x": 0.10526315789473684
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#96b4f6",
+      "placement": {
+        "inset": {
+          "x": 0.10526315789473684
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#5e8cf0",
+      "placement": {
+        "inset": {
+          "x": 0.10526315789473684
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563eb",
+      "placement": {
+        "inset": {
+          "x": 0.10526315789473684
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.25
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "legend-swatch"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "More"
+          },
+          "style": {
+            "fontSize": 14,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-hostile-values** (gate-5 stress set for `@m0saic/alpine/heatmap/v2`).\n\nHOSTILE DATA: negative values, a 1e6 outlier flattening the scale, RAGGED rows (short rows → empty tail cells), a CSV-STRING values row (the objectRows editor form), showValues on. Watch: buckets sane, ragged tails render empty, CSV parses.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 5000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-labels-empty-mode** (gate-30 stress set for `@m0saic/wireframe/animated/v1`).\n\nThe opt-in blank mode — labels are the ONLY text; three unlabeled cells stay bare (this exact recipe crashed the render before the cell fix).\n\nWatch: renders (no error card); bare cells keep their border + white body; Masthead / Hero centred.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "moot",
+      "text": "Not reviewed — the template was DEPRECATED by ruling at the default verdict (superseded by @m0saic/dsl-tutorial/v1; kept in base as base·dep). Recipe + twin + end frame stay as the agent pre-pass record (agent pass: clean).",
+      "via": "transcribed by agent from the gate-30 chat verdict",
+      "from": "agent:claude",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/animated/v1",
+      "props": {
+        "M0String": "4[1,0,0,3(2[1,1],1,2[1,1])]",
+        "labels": [
+          "Masthead",
+          "",
+          "Hero"
+        ],
+        "unlabeledCells": "empty"
+      }
+    }
+  ]
+}

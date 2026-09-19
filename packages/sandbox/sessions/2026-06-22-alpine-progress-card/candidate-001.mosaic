@@ -1,0 +1,488 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30(-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,122[0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,33[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10(0,0,0,0,0,0,1,0,0,1),0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,1{60(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-)}],0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,33[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10(0,0,0,0,0,0,1,0,0,1),0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,1{120(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-)}],0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,33[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10(0,0,0,0,0,0,1,0,0,1),0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,1{12(0,0,0,0,0,0,0,0,0,0,1,-)}],0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,33[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10(0,0,0,0,0,0,1,0,0,1),0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,1{20(0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-)}],0,0,0,0,0,0,0,0,0,0,0,0,0,-]],-),0,0,0,0,0,0,-]}",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#E5E7EB",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "QUARTERLY GOALS"
+          },
+          "style": {
+            "fontSize": 40,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Progress to target"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Q4 Sales"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.11199999999999999)/0.5480851063829786)))*(min(1,max(0,(t-0.11199999999999999)/0.5480851063829786)))*(3-2*(min(1,max(0,(t-0.11199999999999999)/0.5480851063829786))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:68*((1-(1-(min(1\\,max(0\\,(t-0.11199999999999999)/0.5480851063829786))))*(1-(min(1\\,max(0\\,(t-0.11199999999999999)/0.5480851063829786))))))+0.5\\:d}\\%",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0.11199999999999999,
+        "alpha": "(1-(1-(min(1,max(0,lt/0.5480851063829786))))*(1-(min(1,max(0,lt/0.5480851063829786)))))",
+        "xExpr": "-(w*(1-((1-(1-(min(1,max(0,lt/0.5480851063829786))))*(1-(min(1,max(0,lt/0.5480851063829786))))))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "New Users"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.35863829787234036)/0.5480851063829786)))*(min(1,max(0,(t-0.35863829787234036)/0.5480851063829786)))*(3-2*(min(1,max(0,(t-0.35863829787234036)/0.5480851063829786))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:84*((1-(1-(min(1\\,max(0\\,(t-0.35863829787234036)/0.5480851063829786))))*(1-(min(1\\,max(0\\,(t-0.35863829787234036)/0.5480851063829786))))))+0.5\\:d}\\%",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#10B981",
+      "overlay": {
+        "startAtSec": 0.35863829787234036,
+        "alpha": "(1-(1-(min(1,max(0,lt/0.5480851063829786))))*(1-(min(1,max(0,lt/0.5480851063829786)))))",
+        "xExpr": "-(w*(1-((1-(1-(min(1,max(0,lt/0.5480851063829786))))*(1-(min(1,max(0,lt/0.5480851063829786))))))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Retention"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.6052765957446807)/0.5480851063829786)))*(min(1,max(0,(t-0.6052765957446807)/0.5480851063829786)))*(3-2*(min(1,max(0,(t-0.6052765957446807)/0.5480851063829786))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:92*((1-(1-(min(1\\,max(0\\,(t-0.6052765957446807)/0.5480851063829786))))*(1-(min(1\\,max(0\\,(t-0.6052765957446807)/0.5480851063829786))))))+0.5\\:d}\\%",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#F59E0B",
+      "overlay": {
+        "startAtSec": 0.6052765957446807,
+        "alpha": "(1-(1-(min(1,max(0,lt/0.5480851063829786))))*(1-(min(1,max(0,lt/0.5480851063829786)))))",
+        "xExpr": "-(w*(1-((1-(1-(min(1,max(0,lt/0.5480851063829786))))*(1-(min(1,max(0,lt/0.5480851063829786))))))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "NPS Target"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.8519148936170211)/0.5480851063829786)))*(min(1,max(0,(t-0.8519148936170211)/0.5480851063829786)))*(3-2*(min(1,max(0,(t-0.8519148936170211)/0.5480851063829786))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:45*((1-(1-(min(1\\,max(0\\,(t-0.8519148936170211)/0.5480851063829786))))*(1-(min(1\\,max(0\\,(t-0.8519148936170211)/0.5480851063829786))))))+0.5\\:d}\\%",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EF4444",
+      "overlay": {
+        "startAtSec": 0.8519148936170211,
+        "alpha": "(1-(1-(min(1,max(0,lt/0.5480851063829786))))*(1-(min(1,max(0,lt/0.5480851063829786)))))",
+        "xExpr": "-(w*(1-((1-(1-(min(1,max(0,lt/0.5480851063829786))))*(1-(min(1,max(0,lt/0.5480851063829786))))))))"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "agent": {
+    "note": "candidate-001 — first cut of @m0saic/alpine/progress-card/v1 (the 5th Alpine template, a goal-tracker). A list of progress rows in the white card: each row is a label (left) + value (right) over a rounded TRACK with a colored FILL grown to its fraction. Per-row colors cycle the Alpine palette (overridable per item or globally via barColor). Items take value+max (value/max → fraction) OR a bare value as a 0–100 percent; valueLabel lets you show '$680K' / '680 GB' instead of '%'. Built on the bar-graph model — real m0 cells (row/col splits + rounded makeColorTile), NO inline-masks — so it's light. Animation: bars FILL left→right (overlay translate clipped by a plot child doc, the proven bar-graph grow), staggered top-to-bottom, with the value counting up and the label fading in; reduceMotion → static. Verified 8 cases valid incl. max-based, 1 item, 8 items, no-values, >100% (clamps), empty (error mosaic). Dual props: Animate / Intro length / Value labels.",
+    "question": "First look at the Alpine progress card. Scrub it — bars fill left→right in a cascade, values count up. Does the look land (row spacing, bar thickness, the per-row palette colors, track softness)? Open questions if you have a preference: (1) per-row palette colors (current) vs one brand color for all bars? (2) value on the right as a separate line — keep, or inline at the end of the bar? I'll iterate one nudge at a time."
+  }
+}

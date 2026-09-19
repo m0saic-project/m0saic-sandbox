@@ -1,0 +1,26 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 1080,
+  "height": 1080
+ },
+ "fps": 30,
+ "durationMs": 18170,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/hero/search-typing/v1",
+   "props": {}
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "stress-03"
+ },
+ "agent": {
+  "note": "**STRESS 03/10 — 03-square** (gate-27 stress set for `@m0saic/hero/search-typing/v1`; PUBLISHER ruling — ships under @m0saic-dev, same bar).\n\nSquare canvas, uncapped metrics (barH==barW). Watch: unchanged from the 08-06 approved square look."
+ }
+}

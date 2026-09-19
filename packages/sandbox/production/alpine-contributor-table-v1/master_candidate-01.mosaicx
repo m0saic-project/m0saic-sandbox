@@ -1,0 +1,44 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/contributor-table/v1",
+      "props": {}
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/alpine/contributor-table/v1`** (gate 3; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase defaults (FFmpeg top-contributors table).\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | `primitive`, not internal, not deprecated | confirm |\n| Gate | — | **base** |\n| Preview assets | png + mp4 + poster (predate this gate's fix — re-mint after approval) | review |\n| News / E2E | no news; e2e variants + auto-sweep (2/2) | — |\n| Cover / Tutorial | neither | needed? |\n\n**Pre-audit finding, already fixed (third template with the same class):** interleaved-band quantization in BOTH layouts — landscape rows 75/72/72/72/74 at 1001×733, portrait cards 195/187/187/187/194 at 720×1280 (center starving). Now one EQUAL band per row/card, half-gap carved inside: all bands within 1px at every canvas. `debugLayout` contract guards rows (equal size, tol 3% — rows bottom out ~37px where healthy ±1px is 2.7%) AND the header chip (aspect 1). 23/23 unit incl. the repro locks; e2e 2/2.\n\n**Look-shift to judge:** half-gap above the first row and below the last (same accepted change as gates 1-2); rows a hair shorter at the same gap.\n\n**This one has TWO layouts** — the portrait path is a different design (stacked hero-metric cards). Stress: resize to portrait (e.g. 720×1280), `showHeader: false`, 2 rows vs 8, a very long name, `preset: \"dark\"`, `topTint: 0`, `reduceMotion`. Flip `Debug layout` for the green contract view in either orientation.",
+    "question": "Ship `@m0saic/alpine/contributor-table/v1` in the v1 base? Check BOTH orientations (portrait is the stacked-cards design). Cover/tutorial needed, or fine without?",
+    "comments": [
+      {
+        "from": "agent",
+        "text": "STRESS SET minted at `stress/stress-01..10.mosaicx` (twins frozen, stills+mp4s in `stress/renders/`). It caught and I fixed 4 real bugs: (1) SPLIT_EXCEEDS_AXIS killed the WHOLE doc at 733×977 — portrait card-interior pixel-weight splits vs ±1px ancestor drift; grain-collapsed to px-per-weight ≥4 per the handbook, regression-locked at 5 hostile dims. (2) Portrait hero digits clipped at wide-short aspects — heroFont now height-capped too. (3) Landscape long title overflowed the canvas — now width-capped like portrait. (4) Long column headers collided — colFont width-capped to the value slot. Defaults render byte-identical (caps only bind on long strings); 32/32 unit, e2e green, contract+feasibility sweep green ×8 canvases.",
+        "next": "Review stress-01..10 one at a time (`m0saic open stress/stress-NN.mosaicx --make`), or eyeball the stills first. Two SOFT findings left for your call: avatar chips stretch non-square at extreme cells (wide pill at 1920×480, tall pill in the N=1 square card — fixable like the header chip if you want it); emoji in names render as tofu (font/drawtext limitation, not template-fixable)."
+      },
+      {
+        "from": "agent",
+        "text": "Your two asks are in (same treatment as commit-feed/v2):\n\n1. **Cover** — `renderCover` added: static default table (reduceMotion) + welcome band \"CONTRIBUTOR TABLE - a ranked multi-column leaderboard / Supply rows[] (name, rank, values) and columns[]. Portrait canvases switch to stacked hero cards.\"\n2. **Friendly icon knob** — new `icon` dropdown (8 named Octicons from the shared alpine catalog) syncing to the raw `iconPath` agent prop; raw always wins; picking a name writes the SVG string through. **I defaulted it to `contributors`** (parallel to commit-feed's `commits` default) — the header chip now ships a glyph instead of an empty accent square. Veto if you want the empty chip back.\n\n27/27 unit, targeted e2e green, contract sweep green at all 6 canvases. Template hot-reloads from dist — reload/reopen in Make to see the knob + cover."
+      }
+    ],
+    "response": {
+      "body": "ship in v1 base. no tutorial needed.",
+      "from": "human",
+      "at": "2026-08-20T20:48:51.000Z",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

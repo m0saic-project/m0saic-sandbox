@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-trace-screenshot** (gate-29 stress set for `@m0saic/wireframe/base/v2`).\n\nThe trace workflow: a real UI screenshot (the blur-regions inbox fixture) baked beneath three columns, 60% opacity, 10% rect wash.\n\nWatch: image contained (no crop), lines + labels on top, wash tints the whole canvas evenly (all three cells cover it).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {
+        "M0String": "3(1,1,1)",
+        "backgroundImage": "<sandbox>/production/media-blur-regions-v1/fixtures/demo-docs/inbox.png",
+        "backgroundImageFit": "contain",
+        "backgroundImageOpacity": 0.6,
+        "fill": 0.1
+      }
+    }
+  ]
+}

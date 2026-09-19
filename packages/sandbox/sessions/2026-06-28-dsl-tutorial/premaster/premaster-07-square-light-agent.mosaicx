@@ -1,0 +1,38 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 14000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "3(3[1,1,1],3[1,1,1],3[1,1,1])",
+        "preset": "light",
+        "title": "Square • Light",
+        "stepEvents": "enter+leaf",
+        "showChrome": true,
+        "speedMultiplier": 2,
+        "showDslString": false,
+        "canvasWidth": 1080,
+        "canvasHeight": 1080
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "premaster-07-square-light"
+  },
+  "agent": {
+    "note": "**Pre-master · Square + light + knobs.** `3(3[1,1,1]×3)` at a **square 1080×1080 output**, **`preset: light`**, custom **`title`**, **`speedMultiplier: 2`**, and **`showDslString: false`** (panel hidden → shell reflows). Knob mop-up: light theme, title, square framing, 2x speed, 3-panel relayout.",
+    "question": "Light + square + title + 2x speed read right, and the shell reflows cleanly with the DSL-string panel hidden?",
+    "response": null
+  }
+}

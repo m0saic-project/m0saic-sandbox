@@ -1,0 +1,36 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2520,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/media/logo-animate/v1` \"Logo Animate\"** (gate 21 — media pack remainder 4/n; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase: the `blocks.svg` ledger fixture via **svgPath** (the primary file-picker flow; first CAPABILITY-tier gate — `fs.read`), assemble/light at 1080×1080.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | capability tier (fs.read), not internal, not deprecated, not primitive | confirm |\n| Tags | media, logo, animated, svg-to-mosaic, brand | confirm |\n| Cover | none — **the default state IS a real face** (baked placeholder M animates standalone) | none needed? |\n| Tutorial | none | needed? (drop an SVG, pick an animation — arguably self-evident) |\n| Battery | **15/15 GREEN, ZERO template bugs** | — |\n| Web | Desktop-only CTA (fs-tainted, excluded from web.ts) | by design |\n\n**Battery coverage (all verified by ffprobe + frame-luminance + geometry stills):** default placeholder (light) · dark preset · inline `svg` vector (5-rect mark, silhouette-true) · `svgPath` file (capability read) · all 5 animation modes (assemble, logo_loop @1.6s seamless window, progress_fill oneShot, progress **freeze at 0.5** for stills, breathing, shimmer) · bitmap draft 32² on a single-path circle (chunky-pixel look correct) · **single-shape-without-bitmap → actionable error card** (points at Bitmap mode) · both-sources conflict → props error card · contain letterbox at 1920×540 (square mark centered, bg margins) · fill stretch · radial rank order. Durations track --durationMs exactly; contain child declares its size (the keeper honored in-code).\n\n**Pre-audit notes:** no text surfaces beyond error cards (text-clip lens clean); `ultra` (512²) documented long-render tier left out of the battery by design (sloth-class); mask-resolver argv keeper not reachable at sane shape counts (bitmap mode is maskless).\n\n53/53 unit tests. Battery: `node <scratchpad>/logo-animate-battery.mjs`.",
+    "question": "Showcase verdict (assemble on the blocks mark)? Cover ruling — is the animated placeholder enough as the first-open face? Tutorial needed or skip? Capability flags/tags confirmed? Then stress.",
+    "response": {
+      "verdict": "revise",
+      "text": "change default to diag and we need to regen assets. this template is a candidate for a cover because its t=0 state is a blank screen. also, can we add enum for the main m0saic assets? Mosaic M, m0, mosaic Pattern? this is also a candidate for a tutorial because there are pieces to communicate to user about how to use this template for their own custom svg / animation",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/logo-animate/v1",
+      "props": {
+        "svgPath": "<sandbox>/production/media-logo-animate-v1/fixtures/blocks.svg",
+        "animation": "assemble",
+        "preset": "light"
+      }
+    }
+  ]
+}

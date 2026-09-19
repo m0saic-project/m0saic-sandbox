@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 9000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/contributions/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-25-ffmpeg-pulse-contributions", "basename": "candidate-001" },
+  "agent": { "note": "NEW BEAT — contributions heatmap, using @m0saic/alpine/heatmap. Same pulse-chrome as the family; main panel = GitHub-style contribution heatmap (7 weekday rows x 8 trailing weeks W13-W20, green intensity scale = theme.primaryBright) driven by a new pulse.activity.grid field (API: /stats/commit_activity, last column == this week's days). Rail reuses pulse.activity.rail (Total Commits / Peak Day / Daily Avg / Active Days). Aspect-adaptive: desktop heat-left + 2x2 rail-right; square heat-top + 2x2; mobile heat-top + 2x2. Eyebrow BEAT 5 is provisional — final ordering is the runner's call (this pairs naturally with the activity-trend beat). Render one-liners in .scratch/share.md.", "question": "Heatmap beat good? (green scale ok, grid/labels readable, cohesive with the family?) Where should it sit in the beat order? Also noted your meaningful-commits direction for the commit-feed (size/tags/watch-terms to surface what leadership cares about) as a Phase-4 angle." }
+}

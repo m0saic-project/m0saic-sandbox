@@ -1,0 +1,114 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T12:00:00.000Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.11",
+  "meta": {
+    "title": "14 · kitchen sink",
+    "author": "smoke generator",
+    "source": "fill-and-knobs-smoke",
+    "note": "Every M0cFile knob populated at once."
+  },
+  "agent": {
+    "id": "claude-smoke-2026-06-10",
+    "note": "Kitchen sink — every M0cFile knob populated at once. The canary: if a future change ever drops a field on round-trip, this is the candidate that exposes it.",
+    "question": "Does every knob render simultaneously without any field being dropped? Specifically: labels (with chip color), background tint, masks (two circles), fill (per-frame color + mediaRef), rank sets (diag + importance), agent block, custom JSON — all visible at once?",
+    "regions": {
+      "hero": "K1",
+      "body": "K2",
+      "side": "K3",
+      "footer": "K4"
+    },
+    "response": {
+      "body": "Regions point to non existent stablekeys. Rejected. There are no rank sets in this file. Untested. No other issues observed.",
+      "from": "human",
+      "at": "2026-06-11T04:15:16.891Z"
+    },
+    "comments": [
+      {
+        "id": "c1",
+        "body": "All fields visible at the time of generation.",
+        "from": "agent",
+        "at": "2026-06-10T12:10:00.000Z"
+      }
+    ]
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "4(1,1,1,1)",
+  "labels": {
+    "r/fc0": {
+      "text": "agent · 🤖",
+      "color": "#bcd6e8"
+    },
+    "r/fc1": {
+      "text": "human · 👤",
+      "color": "#ef7525"
+    },
+    "r/fc2": {
+      "text": "brand",
+      "color": "#4b5563"
+    },
+    "r/fc3": {
+      "text": "context",
+      "color": "#23262f"
+    }
+  },
+  "derive": {
+    "background": "#14151b"
+  },
+  "masks": {
+    "r/fc0": {
+      "localPath": "M 20 0 A 20 20 0 1 0 20 40 A 20 20 0 1 0 20 0 Z",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 100
+      }
+    },
+    "r/fc1": {
+      "localPath": "M 20 0 A 20 20 0 1 0 20 40 A 20 20 0 1 0 20 0 Z",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 100
+      }
+    },
+    "r/fc2": null,
+    "r/fc3": null
+  },
+  "fill": {
+    "r/fc0": {
+      "color": "#bcd6e8",
+      "mediaRef": "./media/avatar-agent.png"
+    },
+    "r/fc1": {
+      "color": "#ef7525",
+      "mediaRef": "./media/avatar-human.png"
+    },
+    "r/fc2": {
+      "color": "#4b5563"
+    },
+    "r/fc3": {
+      "mediaRef": "asset:context-decoration"
+    }
+  },
+  "rankSets": null,
+  "custom": {
+    "brand": {
+      "primary": "#ef7525",
+      "secondary": "#bcd6e8"
+    },
+    "copy": {
+      "hero": "Hello, kitchen sink."
+    },
+    "flags": {
+      "reviewed": false
+    }
+  }
+}

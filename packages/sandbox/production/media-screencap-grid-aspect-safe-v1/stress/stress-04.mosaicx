@@ -1,0 +1,43 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-04"
+  },
+  "agent": {
+    "note": "**STRESS 04/10 — 04-square-4k-pair** (gate-25 stress set for `@m0saic/media/screencap_grid_aspect_safe/v1`).\n\n4K pair with SQUARE cells: the search at big canvases (twin-asserted cell aspect ≈ 1 both ways). Watch: pane typography scales (fonts derive from canvas height), chips stay legible at 4K.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "stress set pass 10/10 — \"ship\"",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/screencap_grid_aspect_safe/v1",
+      "props": {
+        "sourceIds": [
+          "<sandbox>/production/media-highlights-v1/fixtures/reel-10s.mp4"
+        ],
+        "cellShape": "square",
+        "canvas": {
+          "landscapeW": 3840,
+          "landscapeH": 2160,
+          "portraitW": 2160,
+          "portraitH": 3840
+        }
+      }
+    }
+  ]
+}

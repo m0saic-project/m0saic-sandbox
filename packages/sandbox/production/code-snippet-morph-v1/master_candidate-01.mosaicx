@@ -1,0 +1,34 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 7500,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/code/snippet-morph/v1` \"Code Snippet Morph\"** (gate 32 — CODE pack, the only row; chart: `.ai/LAUNCH/v1-template-cut.md`). Capability tier (fs read/write/temp — it rasterizes glyph PNGs through sharp), tags developer · code · snippet · animated. Diff-morph code video: ordered TS/JS states, LCS line diff, lines move / add / remove in an editor card with JetBrains Mono. Props = pure defaults → the NEW 2-state default (a morph template's default face now morphs), 7.5s.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | capability · not internal · not deprecated | confirm (fs caps are real: sharp rasters to the workspace) |\n| Label | \"Code Snippet Morph\" | keep |\n| Default | was ONE state (a 3.75s hold — no morph on first open) | **two states**: the second adds a field, a value and an `announce()` function → adds + moves visible; hint 7.5s. Revertable |\n| Cover / Tutorial | none / none | none / none? (the default face IS the demo; say if you want a \"?\" walkthrough like the collage) |\n| Entrance | `addEntrance: \"rise\"` (plan said \"fade\"; taste call left open 07-23) | your call — battery has both |\n| Previews | 07-23 set: poster/preview.png identical; preview.mp4 3.5s WITH a silent AAC track, older card colours | RE-MINT after the verdict (+ corner-M) |\n| Battery | **25/25 GREEN** (22 CLI mp4 renders + duration / no-audio / motion asserts; `.scratch/claude/snippet-morph-battery/`) | — |\n| Preview fidelity | Make's lite preview (`renderLite`, coloured-rect approximation by design) vs the ffmpeg frame: card rect within 1px | — |\n\n**Pre-audit findings → fixed:**\n\n| Finding | Fix |\n|---|---|\n| ⭐ **Any timing knob or state count that didn't sum to the 3750ms hint FAILED the render** (\"mosaic_pipeline must stitch to ctx.target.durationMs (got 2000 expected 3750)\") — the default and the e2e variant passed only because their timings happen to total 3750. The 07-23 \"preview re-mint blocked on CLI pipeline-duration bug\" was this. | shared `assertTiming` (template-utils) now follows the same authored-intent law as documents and the output stamp: an explicit pin (`ctx.userIntent.durationMs`) must be matched; else the pipeline's own declared `durationMs`; else the host target. Declared ≠ stitched still throws (the hero-class bug). 4 locks (15/15) |\n| No `format` / `audio` stamps on the pipeline (pre-convention) | `format:{video,mp4}` + `audio:{mode:\"off\"}` on the root (+ `outputHints.format`); battery verifies 0 audio streams ×22 |\n| 3 unit tests RED at HEAD — written for the pre-e5e70287 debug semantics (debug-on now SHOWS the contract wireframe) | aligned (contract stamp on the wireframe + its banner), 106/106 code tests incl. 4 gate-32 locks |\n| Single-state default | 2-state default (above) |\n\n**Verified, no change needed:** duration follows states × timing (2 states × 1000 = 2.0s) and an explicit `--durationMs 10000` pins to 10s · reduceMotion hard cuts · fade and rise entrances · all 4 presets + token override · chrome off · gutter off + centred · js + tabs · long line autofits to the 8px floor · 60 lines → loud error card (\"use fewer lines\") · portrait / square / 480×270 / 4K · lead + trail · identical states render motionless.\n\n**Design notes (not bugs):** non-Latin glyph coverage is JetBrains Mono's (see stress-08); code that overflows horizontally at the 8px floor CLIPS rather than erroring (the vertical case errors) — matches the shipped unit tests.\n\nStress ×10 pre-minted in `stress/` (agent pass clean; end-frame PNGs beside the recipes, mp4s local) — review after the default verdict.",
+    "question": "Gate-32 verdict: the 2-state default (keep / revert to one state) · rise vs fade entrance · cover / tutorial wanted? · capability tier confirm. Then stress-01..10.",
+    "response": {
+      "verdict": "two fixes asked",
+      "text": "\"defaulted to image. and why is the default showing rectangles and not text? the output was fine, but the geometric preview shows opaque rects\" (Make screenshot: Output Type = Image; lite preview = colour bars)",
+      "via": "chat + screenshot, 2026-09-04 — transcribed by agent (no in-file response was saved)",
+      "from": "human",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/code/snippet-morph/v1",
+      "props": {}
+    }
+  ]
+}

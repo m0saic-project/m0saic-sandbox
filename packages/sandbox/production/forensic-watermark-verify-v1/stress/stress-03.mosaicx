@@ -1,0 +1,30 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 480,
+    "height": 270
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 — 03-tiny-480x270** (gate-35 stress set for `@m0saic/forensic/watermark/verify/v1`).\n\nPASS card at thumbnail size.\n\nWatch: font floors hold; band headline readable.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/forensic/watermark/verify/v1",
+      "props": {
+        "videoPath": "<repo>/packages/cli/examples/media/forensic/watermarked_deadbeef.mp4",
+        "sidecarPath": "<repo>/packages/cli/examples/media/forensic/watermarked_deadbeef.watermark.json"
+      }
+    }
+  ]
+}

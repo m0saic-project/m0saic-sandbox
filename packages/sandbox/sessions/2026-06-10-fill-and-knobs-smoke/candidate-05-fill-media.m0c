@@ -1,0 +1,60 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T12:00:00.000Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.11",
+  "meta": {
+    "title": "05 · fill (mediaRef only)",
+    "note": "mediaRef is a forward-compat slot. No resolver yet."
+  },
+  "agent": {
+    "id": "claude-smoke-2026-06-10",
+    "note": "mediaRef-only fill entries. No resolver hookup yet, so rendering is not expected — the goal is to confirm the field round-trips on disk and surfaces in the editor.",
+    "question": "Does the file-details panel (or any per-frame inspector view) surface the per-frame mediaRef strings? Visible rendering of the referenced media is NOT expected at this stage.",
+    "response": {
+      "body": "Yes, the paths / asset are under Fill category. There is no visible rendering yet at this time",
+      "from": "human",
+      "at": "2026-06-11T02:18:56.846Z"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "4(1,1,1,1)",
+  "labels": {
+    "r/fc0": {
+      "text": "avatar"
+    },
+    "r/fc1": {
+      "text": "hero"
+    },
+    "r/fc2": {
+      "text": "logo"
+    },
+    "r/fc3": {
+      "text": "ornament"
+    }
+  },
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "fill": {
+    "r/fc0": {
+      "mediaRef": "./media/avatar-1.png"
+    },
+    "r/fc1": {
+      "mediaRef": "./media/hero-banner.jpg"
+    },
+    "r/fc2": {
+      "mediaRef": "asset:brand-logo"
+    },
+    "r/fc3": {
+      "mediaRef": "asset:ornament-sparkle"
+    }
+  },
+  "rankSets": null,
+  "custom": null
+}

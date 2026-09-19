@@ -1,0 +1,31 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 3840,
+    "height": 2160
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-04"
+  },
+  "agent": {
+    "note": "**STRESS 04/10 — 04-4k-redacted** (gate-35 stress set for `@m0saic/forensic/watermark/verify/v1`).\n\n4K card with payloads REDACTED (••••beef) — the shareable form.\n\nWatch: no full hex anywhere on the card.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/forensic/watermark/verify/v1",
+      "props": {
+        "videoPath": "<repo>/packages/cli/examples/media/forensic/watermarked_deadbeef.mp4",
+        "sidecarPath": "<repo>/packages/cli/examples/media/forensic/watermarked_deadbeef.watermark.json",
+        "showPayload": false
+      }
+    }
+  ]
+}

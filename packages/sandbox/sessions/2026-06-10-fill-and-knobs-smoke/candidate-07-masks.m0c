@@ -1,0 +1,75 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T12:00:00.000Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.11",
+  "meta": {
+    "title": "07 · masks (SVG silhouettes)"
+  },
+  "agent": {
+    "id": "claude-smoke-2026-06-10",
+    "note": "Two circle masks, one inner-rect mask, one explicit-null entry (K4 = 'no mask, on purpose').",
+    "question": "With Masks ON, do K1/K2 render as circle silhouettes, K3 as a smaller inner rect, and K4 stay a full rect (the explicit-null entry should NOT mask it)?",
+    "response": {
+      "body": "Yes, approved.",
+      "from": "human",
+      "at": "2026-06-11T02:20:06.246Z"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "4(1,1,1,1)",
+  "labels": {
+    "r/fc0": {
+      "text": "circle 1"
+    },
+    "r/fc1": {
+      "text": "circle 2"
+    },
+    "r/fc2": {
+      "text": "rect"
+    },
+    "r/fc3": {
+      "text": "(no mask)"
+    }
+  },
+  "derive": {
+    "background": null
+  },
+  "masks": {
+    "r/fc0": {
+      "localPath": "M 20 0 A 20 20 0 1 0 20 40 A 20 20 0 1 0 20 0 Z",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 100
+      }
+    },
+    "r/fc1": {
+      "localPath": "M 20 0 A 20 20 0 1 0 20 40 A 20 20 0 1 0 20 0 Z",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 100
+      }
+    },
+    "r/fc2": {
+      "localPath": "M 10 10 H 90 V 90 H 10 Z",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 100,
+        "height": 100
+      }
+    },
+    "r/fc3": null
+  },
+  "fill": null,
+  "rankSets": null,
+  "custom": null
+}

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "mode": "render",
+  "ok": false,
+  "exitCode": 187,
+  "run": {
+    "id": "26683d32-dc11-47c1-bc5e-9d5609cab34f",
+    "startedAtIso": "2026-06-28T20:35:51.850Z",
+    "finishedAtIso": "2026-06-28T20:40:56.208Z",
+    "elapsedMs": 304358
+  },
+  "versions": {
+    "cli": {
+      "name": "mosaic-desktop",
+      "version": "0.1.0"
+    },
+    "engine": {
+      "name": "@m0saic/core",
+      "version": "0.1.0"
+    },
+    "dsl": {
+      "name": "@m0saic/dsl",
+      "version": "1.1.0"
+    },
+    "packages": {
+      "@m0saic/templates": "0.1.0",
+      "@m0saic/types": "0.1.0"
+    }
+  },
+  "paths": {
+    "cwd": {
+      "path": ".",
+      "absolutePath": "<repo>/apps/mosaic"
+    },
+    "output": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/candidate-006-1920x1080.mp4",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/candidate-006-1920x1080.mp4"
+    },
+    "reportFile": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/candidate-006-1920x1080.output.json",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/candidate-006-1920x1080.output.json"
+    }
+  },
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationMs": 30000
+  },
+  "template": {
+    "id": "@m0saic/dsl-tutorial/v1",
+    "props": {
+      "M0String": "8[8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F)]",
+      "speedMultiplier": 1,
+      "preset": "dark",
+      "stepEvents": "enter+leaf",
+      "showChrome": true
+    }
+  },
+  "errors": [
+    {
+      "code": "FFMPEG_NONZERO_EXIT",
+      "message": "Command 74/81 (root:3 — stitch 2 parts for root:3) exited 187\n--- stderr (tail) ---\n5/lmshm0k97tnbk1by0g4m6b500000gn/T/[m0saic]_make-_m0saic_dsl-tutorial_v1-26683d32-dc11-47c1-bc5e-9d5609cab34f-nYgEsT/node_root_3_chunk_1_part_0.mov':\n  Metadata:\n    major_brand     : qt  \n    minor_version   : 512\n    compatible_brands: qt  \n    encoder         : Lavf62.3.100\n  Duration: 00:00:30.00, start: 0.000000, bitrate: 850 kb/s\n  Stream #1:0[0x1]: Video: qtrle (rle  / 0x20656C72), argb(progressive), 1458x677, 841 kb/s, SAR 1:1 DAR 1458:677, 30 fps, 30 tbr, 90k tbn (default)\n    Metadata:\n      handler_name    : VideoHandler\n      vendor_id       : FFMP\n      encoder         : Lavc62.11.100 qtrle\n  Stream #1:1[0x2]: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 2 kb/s (default)\n    Metadata:\n      handler_name    : SoundHandler\n      vendor_id       : [0][0][0][0]\nStream mapping:\n  Stream #0:0 (qtrle) -> setpts:default\n  Stream #1:0 (qtrle) -> setpts:default\n  format:default -> Stream #0:0 (libx264)\nPress [q] to stop, [?] for help\n[libx264 @ 0x129f19220] height not divisible by 2 (1458x677)\n[vost#0:0/libx264 @ 0x12b023860] [enc:libx264 @ 0x129f12170] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height.\n[fc#0 @ 0x12c008200] Error sending frames to consumers: Generic error in an external library\n[fc#0 @ 0x12c008200] Task finished with error code: -542398533 (Generic error in an external library)\n[fc#0 @ 0x12c008200] Terminating thread with return code -542398533 (Generic error in an external library)\n[vost#0:0/libx264 @ 0x12b023860] [enc:libx264 @ 0x129f12170] Could not open encoder before EOF\n[vost#0:0/libx264 @ 0x12b023860] Task finished with error code: -22 (Invalid argument)\n[vost#0:0/libx264 @ 0x12b023860] Terminating thread with return code -22 (Invalid argument)\n[out#0/mov @ 0x12b022e10] Nothing was written into output file, because at least one of its streams received no packets.\nframe=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.01    \nConversion failed!\n\nRun again with `--verbose` to capture full ffmpeg output. Check `qr_stamp.failed.json` (or the equivalent sidecar) for the full stderr tail."
+    }
+  ],
+  "warnings": [],
+  "workspaceDir": "$TMPDIR/[m0saic]_make-_m0saic_dsl-tutorial_v1-26683d32-dc11-47c1-bc5e-9d5609cab34f-nYgEsT",
+  "failedCommand": {
+    "index": 74,
+    "total": 81,
+    "node": "root:3",
+    "description": "stitch 2 parts for root:3",
+    "exitCode": 187,
+    "elapsedMs": 103,
+    "stderr": "ffmpeg version 8.0.1 Copyright (c) 2000-2025 the FFmpeg developers\n  built with Apple clang version 16.0.0 (clang-1600.0.26.6)\n  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/8.0.1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon\n  libavutil      60.  8.100 / 60.  8.100\n  libavcodec     62. 11.100 / 62. 11.100\n  libavformat    62.  3.100 / 62.  3.100\n  libavdevice    62.  1.100 / 62.  1.100\n  libavfilter    11.  4.100 / 11.  4.100\n  libswscale      9.  1.100 /  9.  1.100\n  libswresample   6.  1.100 /  6.  1.100\n-filter_complex_script is deprecated, use -/filter_complex $TMPDIR/[m0saic]_make-_m0saic_dsl-tutorial_v1-26683d32-dc11-47c1-bc5e-9d5609cab34f-nYgEsT/ffgraph/root_3_stitch_0.ffgraph instead\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '$TMPDIR/[m0saic]_make-_m0saic_dsl-tutorial_v1-26683d32-dc11-47c1-bc5e-9d5609cab34f-nYgEsT/node_root_3_chunk_0_part_0.mov':\n  Metadata:\n    major_brand     : qt  \n    minor_version   : 512\n    compatible_brands: qt  \n    encoder         : Lavf62.3.100\n  Duration: 00:00:30.00, start: 0.000000, bitrate: 1757 kb/s\n  Stream #0:0[0x1]: Video: qtrle (rle  / 0x20656C72), argb(progressive), 1458x677, 1748 kb/s, SAR 1:1 DAR 1458:677, 30 fps, 30 tbr, 90k tbn (default)\n    Metadata:\n      handler_name    : VideoHandler\n      vendor_id       : FFMP\n      encoder         : Lavc62.11.100 qtrle\n  Stream #0:1[0x2]: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 2 kb/s (default)\n    Metadata:\n      handler_name    : SoundHandler\n      vendor_id       : [0][0][0][0]\nInput #1, mov,mp4,m4a,3gp,3g2,mj2, from '$TMPDIR/[m0saic]_make-_m0saic_dsl-tutorial_v1-26683d32-dc11-47c1-bc5e-9d5609cab34f-nYgEsT/node_root_3_chunk_1_part_0.mov':\n  Metadata:\n    major_brand     : qt  \n    minor_version   : 512\n    compatible_brands: qt  \n    encoder         : Lavf62.3.100\n  Duration: 00:00:30.00, start: 0.000000, bitrate: 850 kb/s\n  Stream #1:0[0x1]: Video: qtrle (rle  / 0x20656C72), argb(progressive), 1458x677, 841 kb/s, SAR 1:1 DAR 1458:677, 30 fps, 30 tbr, 90k tbn (default)\n    Metadata:\n      handler_name    : VideoHandler\n      vendor_id       : FFMP\n      encoder         : Lavc62.11.100 qtrle\n  Stream #1:1[0x2]: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 2 kb/s (default)\n    Metadata:\n      handler_name    : SoundHandler\n      vendor_id       : [0][0][0][0]\nStream mapping:\n  Stream #0:0 (qtrle) -> setpts:default\n  Stream #1:0 (qtrle) -> setpts:default\n  format:default -> Stream #0:0 (libx264)\nPress [q] to stop, [?] for help\n[libx264 @ 0x129f19220] height not divisible by 2 (1458x677)\n[vost#0:0/libx264 @ 0x12b023860] [enc:libx264 @ 0x129f12170] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height.\n[fc#0 @ 0x12c008200] Error sending frames to consumers: Generic error in an external library\n[fc#0 @ 0x12c008200] Task finished with error code: -542398533 (Generic error in an external library)\n[fc#0 @ 0x12c008200] Terminating thread with return code -542398533 (Generic error in an external library)\n[vost#0:0/libx264 @ 0x12b023860] [enc:libx264 @ 0x129f12170] Could not open encoder before EOF\n[vost#0:0/libx264 @ 0x12b023860] Task finished with error code: -22 (Invalid argument)\n[vost#0:0/libx264 @ 0x12b023860] Terminating thread with return code -22 (Invalid argument)\n[out#0/mov @ 0x12b022e10] Nothing was written into output file, because at least one of its streams received no packets.\nframe=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.01    \nConversion failed!\n"
+  }
+}

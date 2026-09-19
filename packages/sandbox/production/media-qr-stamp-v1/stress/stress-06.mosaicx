@@ -1,0 +1,34 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-image-base-auto** (gate-23 stress set for `@m0saic/media/qr/stamp/v1`).\n\nIMAGE base (white invoice) through the auto probe's still path (single bucket, 500ms smoothing). Expect: light card chosen — it blends into the white page. Watch: stamp readable over the page, no weird crop (invoice is cover-fit).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "stress set pass 10/10 — \"ship\"",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/qr/stamp/v1",
+      "props": {
+        "mediaPath": "<sandbox>/production/media-blur-regions-v1/fixtures/demo-docs/invoice.png"
+      }
+    }
+  ]
+}

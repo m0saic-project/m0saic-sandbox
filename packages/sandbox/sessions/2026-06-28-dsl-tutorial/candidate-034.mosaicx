@@ -1,0 +1,41 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "8[8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F)]",
+        "speedMultiplier": 1,
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": true,
+        "canvasWidth": 1080,
+        "canvasHeight": 1920
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-034"
+  },
+  "agent": {
+    "note": "**Canvas target dims — now a PURE GEOMETRY fix. (Rebuild core + templates + reload.)**\n\nPer your call: no child-declared size. The **parent sizes the canvas cell to the target aspect using real m0 cells** — the canvas is wrapped in `insetNode` with NULL-padded letterbox bars, so `frames[3]` (the canvas slot) IS the container. The parent hands the child exactly that size to target; nothing infers or stretches. Panel leaf-indices stay stable because null bars aren't render leaves.\n\nRender-verified on a frame (this candidate): portrait canvas centred + letterboxed, tiles 540×640, inspector X/W/H = 540/540/640, info bar `canvas 1080×1920 · precision 2×3 · min feasible 2×3 px`. Identical result to before, but via geometry.\n\n**On the engine `size` capability:** I kept it as an optional escape hatch (a child CAN declare `size` to enforce its aspect) since you were OK with that — but it's unused here. I also **documented `MosaicDocument.size`'s nested-child behavior** in `packages/types/.../document.ts` per your ask.\n\n**Heads-up:** the default 1920×1080 now also renders the layout at its TRUE 16:9 (small side bars), since the panel cell is ~2:1 — the same true-shape rule applied uniformly. If you'd rather the default fill the cell, say so.\n\n*(Core changed → rebuild required. 174 tests green.)*",
+    "question": "Portrait letterboxes correctly via the geometry path? And do you want the default 1920×1080 to fill the panel cell, or keep it true-aspect (small bars) like every other aspect?",
+    "response": {
+      "body": "good changes. this is very close to being ready to lock for v1. lets do a perf run. we review HOW the template is structured and look for perf wins as we tighten.",
+      "from": "human",
+      "at": "2026-07-01T14:40:48.520Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/candidate-034-2-1920x1080.mp4"
+    }
+  }
+}

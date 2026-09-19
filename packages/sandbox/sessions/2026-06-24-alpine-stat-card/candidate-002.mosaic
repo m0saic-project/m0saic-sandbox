@@ -1,0 +1,205 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1{12[-,0,0,0,0,0,0,0,0,0,12(-,0,0,0,0,0,0,0,0,0,108[0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,119(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1),0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120(0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1),0,0,0,0,0,0,0,0,-],-),-]}",
+  "assets": {},
+  "size": {
+    "width": 480,
+    "height": 480
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#161b22",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3fb950",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.28
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.5249999999999999)))*(min(1,max(0,(t-0)/0.5249999999999999)))*(3-2*(min(1,max(0,(t-0)/0.5249999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "COMMITS"
+          },
+          "style": {
+            "fontSize": 53,
+            "fontColor": "#8b949e"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.5249999999999999)))*(min(1,max(0,(t-0)/0.5249999999999999)))*(3-2*(min(1,max(0,(t-0)/0.5249999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:1*((1-(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))*(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))))+0.5\\:d},%{eif\\:243*((1-(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))*(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))))+0.5\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 120,
+            "fontColor": "#f0f6fc"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3fb950",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 25 9.4 L 43 40.6 L 7 40.6 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1549999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.1549999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.1549999999999998)/0.7349999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "+12.4%"
+          },
+          "style": {
+            "fontSize": 34,
+            "fontColor": "#3fb950"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1549999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.1549999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.1549999999999998)/0.7349999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "vs last week"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#6e7681"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.7849999999999997)/0.31499999999999995)))*(min(1,max(0,(t-1.7849999999999997)/0.31499999999999995)))*(3-2*(min(1,max(0,(t-1.7849999999999997)/0.31499999999999995))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": "<sandbox>/sessions/2026-06-24-alpine-stat-card",
+    "basename": "candidate-002"
+  },
+  "agent": {
+    "note": "c002 — fixes from c001. (1) CLIP FIX: the % + 'vs last week' were cut off because fit:'contain' scales text to the band HEIGHT then clips width on a long line. Switched to FIXED fonts sized to fit each cell's WIDTH up front (capFont, 0.66 em/char safety margin) — verified % shows + sublabel full across up/down + wide values (18,463, OPEN ISSUES). (2) DESIGN TRUTH = SQUARE: outputHints + this .mosaicx are now 480x480. (3) Compact arrow. The green chip is still a placeholder for the per-KPI icon.",
+    "question": "Square card read right now (% + sublabel intact)? And the icon call: (a) author SVG glyphs per KPI, (b) one brand mark, or (c) clean accent chip / no glyph?"
+  }
+}

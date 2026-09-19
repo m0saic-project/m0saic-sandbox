@@ -1,0 +1,1118 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {
+    "bg": {
+      "kind": "file",
+      "path": "<repo>/packages/cli/examples/media/nyc-square/8.jpg",
+      "mediaType": "image"
+    }
+  },
+  "m0": "1{1{1{1}}}",
+  "children": {
+    "chrome": {
+      "kind": "mosaic_document",
+      "version": 1,
+      "assets": {},
+      "m0": "30[0,0,0,0,43[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,101(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,1,-,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-)],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,160(0,0,0,0,0,0,0,0,18[1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,1],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1{1}},0,-),0,160(0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10(1,0,1,0,1,0,1,0,1,1),0,-)]",
+      "sources": [
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Image surface mode"
+              },
+              "style": {
+                "fontSize": 22,
+                "fontColor": "#22c55e"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle",
+                "padding": {
+                  "left": 0.02,
+                  "right": 0.02
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "chart-title"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#22c55e",
+          "fitMode": "content",
+          "size": {
+            "wExpr": "TW",
+            "hExpr": "max(2, TH*0.3)"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Deploys"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#22c55e"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle",
+                "padding": {}
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "legend-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "45"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#22c55e"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "top",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "40"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#22c55e"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "35"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#22c55e"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "30"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#22c55e"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "25"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#22c55e"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "20"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#22c55e"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "15"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#22c55e"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "10"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#22c55e"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "5"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#22c55e"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "0"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#22c55e"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "bottom",
+                "padding": {
+                  "right": 0.16,
+                  "left": 0.04
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "y-tick"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "mosaic",
+          "ref": "grid0",
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#14532d",
+          "fitMode": "content",
+          "size": {
+            "wExpr": "max(1, TW*0.004)",
+            "hExpr": "TH"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#14532d",
+          "fitMode": "content",
+          "size": {
+            "wExpr": "TW",
+            "hExpr": "max(1, TH*0.004)"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "bottom"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Jan"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#22c55e"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top",
+                "padding": {
+                  "top": 0.18,
+                  "left": 0.02,
+                  "right": 0.02
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "x-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Feb"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#22c55e"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "top",
+                "padding": {
+                  "top": 0.18,
+                  "left": 0.02,
+                  "right": 0.02
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "x-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Mar"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#22c55e"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "top",
+                "padding": {
+                  "top": 0.18,
+                  "left": 0.02,
+                  "right": 0.02
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "x-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Apr"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#22c55e"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "top",
+                "padding": {
+                  "top": 0.18,
+                  "left": 0.02,
+                  "right": 0.02
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "x-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "May"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#22c55e"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "top",
+                "padding": {
+                  "top": 0.18,
+                  "left": 0.02,
+                  "right": 0.02
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "x-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Jun"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#22c55e"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "top",
+                "padding": {
+                  "top": 0.18,
+                  "left": 0.02,
+                  "right": 0.02
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user",
+            "label": "x-label"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      ],
+      "children": {
+        "grid0": {
+          "kind": "mosaic_document",
+          "version": 1,
+          "sources": [
+            {
+              "type": "lavfi",
+              "color": "#000000",
+              "visual": {
+                "opacity": 0
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#14301c",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*1"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#14301c",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0.8888888888888888"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#14301c",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0.7777777777777778"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#14301c",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0.6666666666666667"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#14301c",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0.5555555555555556"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#14301c",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0.4444444444444444"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#14301c",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0.33333333333333337"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#14301c",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0.2222222222222222"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#14301c",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0.11111111111111116"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            },
+            {
+              "type": "lavfi",
+              "color": "#14301c",
+              "fitMode": "content",
+              "size": {
+                "wExpr": "TW",
+                "hExpr": "max(1, TH*0.002)"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              },
+              "visual": {
+                "opacity": 1
+              },
+              "overlay": {
+                "xExpr": "0",
+                "yExpr": "H*0"
+              },
+              "editor": {
+                "owner": "user"
+              },
+              "engine": {
+                "renderStatus": "ok"
+              }
+            }
+          ],
+          "assets": {},
+          "m0": "1{1{1{1{1{1{1{1{1{1{1}}}}}}}}}}",
+          "durationMs": 3500,
+          "size": {
+            "width": 1192,
+            "height": 552
+          },
+          "fps": 30,
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      },
+      "fps": 30,
+      "durationMs": 3500,
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  },
+  "sources": [
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "bg",
+      "placement": {
+        "fit": "cover"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.04
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#22c55e",
+          "alpha": 0.18
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "mosaic",
+      "ref": "chrome",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#22c55e",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 72.34 611.61 L 310.74 525.74 L 310.06 523.86 L 71.66 609.73 Z M 310.25 525.79 L 548.65 562.59 L 548.95 560.61 L 310.55 523.81 Z M 549.36 562.43 L 787.76 402.96 L 786.64 401.3 L 548.24 560.77 Z M 787.58 403.06 L 1025.98 304.92 L 1025.22 303.08 L 786.82 401.21 Z M 1026.09 304.87 L 1264.49 169.94 L 1263.51 168.2 L 1025.11 303.13 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#22c55e",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 69 610.67 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z M 307.4 524.8 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z M 545.8 561.6 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z M 784.2 402.13 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z M 1022.6 304 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z M 1261 169.07 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 3500,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-image-bg** (gate-16 stress set for `@m0saic/charts/line-chart/v1`).\n\nIMAGE BACKGROUND (repo fixture photo, cover-fit, rounded) + terminal preset accents, static. Watch: image surface under the plot, text readable over the photo. NOTE: an adversarial 4x4-px data-uri bg was PATHOLOGICALLY SLOW (~10+ min vs 4s — extreme-upscale image card, adjacent to the 2026-08-15 loop-before-scale candidate); realistic images render normally. Flagged in the gate note.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  }
+}

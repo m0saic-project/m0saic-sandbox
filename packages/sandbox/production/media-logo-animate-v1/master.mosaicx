@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2520,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-03"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/media/logo-animate/v1` take 3** (gate 21; candidate-02 redirected — all four notes landed).\n\n| Note | Landed |\n|---|---|\n| Drop m0/pattern (Brand Marks v3 owns them) | `mark` enum REMOVED entirely (one-value enum is no enum) — baked M placeholder returns as the implicit no-SVG default; M0/PATTERN constants deleted. Sidesteps the glyph-resolution aspect class too (the dictionary owns those resolutions). |\n| Cover still squished | Root cause: the CHILD-mosaic composite. Cover now INLINES the M flat (the pixel-verified tutorial path) — **pixel-measured 756×756, aspect 1.000 at 1080²**. Contract test now measures the resolved bbox. |\n| yoursvg beat squished (m0 glyph) | Beat now demos a purpose-built \"your logo\" SVG (bars + pennant; the triangle exercises silhouette masks) — reads as bring-your-own, not another brand mark. |\n| Animate the bitmap beat | Mock pixels now ASSEMBLE (diagonal staggered fade) and the grid is squared via the new **measured-slot** machinery (every card visual builds against probed TRUE pixels — the estimate-stretch class is closed template-wide). |\n\nTutorial = 5 beats (~23s): hero · yoursvg · modes · bitmap · finish. 61/61 unit tests incl. the 1:1 contracts (hero bbox + cover bbox at 1080², 720p, 1080p landscape; bitmap-animates lock). Showcase = pure defaults.",
+    "question": "Take-3 verdict: cover square? tutorial beats pass (incl. animated bitmap)? Then stress.",
+    "response": {
+      "verdict": "ship",
+      "text": "take-3 pass -> stress x10 pass -> \"all 10 pass, ship it\"",
+      "via": "chat — transcribed by agent",
+      "note": "SHIPPED base ☑ (gate 21, media pack remainder 4/n; capability tier — fs.read). 3-take gate: enum added→removed (Brand Marks v3 owns the brand set), cover = real geometry full-bleed (pixel-proved 1:1), tutorial = 5 live-inline beats + text-fit contract. Engine fix shipped: chunked pipeline steps stitch video-only — the concat now synths silence for audio-less legs. Judgment items accepted with the pass: shimmer is enable-gated (band-only visibility) and fit:fill stretches by definition."
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/logo-animate/v1",
+      "props": {}
+    }
+  ]
+}

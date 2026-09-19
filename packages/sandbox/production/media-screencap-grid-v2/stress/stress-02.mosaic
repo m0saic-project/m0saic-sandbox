@@ -1,0 +1,797 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "sources": [
+    {
+      "type": "mosaic",
+      "ref": "info-pane",
+      "placement": {
+        "fit": "cover",
+        "focusY": 0,
+        "inset": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0.05357142857142857,
+          "left": 0
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "reel-10s",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0,
+          "right": 0.015046296296296295,
+          "bottom": 0.020833333333333332,
+          "left": 0
+        }
+      },
+      "playback": {
+        "clipStartMs": 4000
+      },
+      "audio": {
+        "enabled": false
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "reel-10s",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0.020833333333333332,
+          "left": 0.015046296296296295
+        }
+      },
+      "playback": {
+        "clipStartMs": 6000
+      },
+      "audio": {
+        "enabled": false
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "reel-10s",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0.011574074074074073,
+          "right": 0.015046296296296295,
+          "bottom": 0.011574074074074073,
+          "left": 0
+        }
+      },
+      "playback": {
+        "clipStartMs": 1000
+      },
+      "audio": {
+        "enabled": false
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "reel-10s",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0.011574074074074073,
+          "right": 0,
+          "bottom": 0.011574074074074073,
+          "left": 0.015046296296296295
+        }
+      },
+      "playback": {
+        "clipStartMs": 3000
+      },
+      "audio": {
+        "enabled": false
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "reel-10s",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0,
+          "right": 0.027901785714285716,
+          "bottom": 0.020833333333333332,
+          "left": 0.027901785714285716
+        }
+      },
+      "playback": {
+        "clipStartMs": 5000
+      },
+      "audio": {
+        "enabled": false
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "reel-10s",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0.011574074074074073,
+          "right": 0.027901785714285716,
+          "bottom": 0.011574074074074073,
+          "left": 0.027901785714285716
+        }
+      },
+      "playback": {
+        "clipStartMs": 2000
+      },
+      "audio": {
+        "enabled": false
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "reel-10s",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0.020833333333333332,
+          "right": 0.015046296296296295,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "playback": {
+        "clipStartMs": 7000
+      },
+      "audio": {
+        "enabled": false
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "reel-10s",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0.020833333333333332,
+          "right": 0,
+          "bottom": 0,
+          "left": 0.015046296296296295
+        }
+      },
+      "playback": {
+        "clipStartMs": 9000
+      },
+      "audio": {
+        "enabled": false
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "reel-10s",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0.020833333333333332,
+          "right": 0.027901785714285716,
+          "bottom": 0,
+          "left": 0.027901785714285716
+        }
+      },
+      "playback": {
+        "clipStartMs": 8000
+      },
+      "audio": {
+        "enabled": false
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:(t+1.000)/3600\\:d\\:2}:%{eif\\:mod((t+1.000)/60\\,60)\\:d\\:2}:%{eif\\:mod(t+1.000\\,60)\\:d\\:2}.%{eif\\:mod((t+1.000)*1000\\,1000)\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#ffffff",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#000000",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.011574074074074073,
+          "right": 0.015046296296296295,
+          "bottom": 0.011574074074074073,
+          "left": 0
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:(t+3.000)/3600\\:d\\:2}:%{eif\\:mod((t+3.000)/60\\,60)\\:d\\:2}:%{eif\\:mod(t+3.000\\,60)\\:d\\:2}.%{eif\\:mod((t+3.000)*1000\\,1000)\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#ffffff",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#000000",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.011574074074074073,
+          "right": 0,
+          "bottom": 0.011574074074074073,
+          "left": 0.015046296296296295
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:(t+4.000)/3600\\:d\\:2}:%{eif\\:mod((t+4.000)/60\\,60)\\:d\\:2}:%{eif\\:mod(t+4.000\\,60)\\:d\\:2}.%{eif\\:mod((t+4.000)*1000\\,1000)\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#ffffff",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#000000",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0,
+          "right": 0.015046296296296295,
+          "bottom": 0.020833333333333332,
+          "left": 0
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:(t+6.000)/3600\\:d\\:2}:%{eif\\:mod((t+6.000)/60\\,60)\\:d\\:2}:%{eif\\:mod(t+6.000\\,60)\\:d\\:2}.%{eif\\:mod((t+6.000)*1000\\,1000)\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#ffffff",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#000000",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0.020833333333333332,
+          "left": 0.015046296296296295
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:(t+2.000)/3600\\:d\\:2}:%{eif\\:mod((t+2.000)/60\\,60)\\:d\\:2}:%{eif\\:mod(t+2.000\\,60)\\:d\\:2}.%{eif\\:mod((t+2.000)*1000\\,1000)\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#ffffff",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#000000",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.011574074074074073,
+          "right": 0.027901785714285716,
+          "bottom": 0.011574074074074073,
+          "left": 0.027901785714285716
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:(t+5.000)/3600\\:d\\:2}:%{eif\\:mod((t+5.000)/60\\,60)\\:d\\:2}:%{eif\\:mod(t+5.000\\,60)\\:d\\:2}.%{eif\\:mod((t+5.000)*1000\\,1000)\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#ffffff",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#000000",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0,
+          "right": 0.027901785714285716,
+          "bottom": 0.020833333333333332,
+          "left": 0.027901785714285716
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:(t+7.000)/3600\\:d\\:2}:%{eif\\:mod((t+7.000)/60\\,60)\\:d\\:2}:%{eif\\:mod(t+7.000\\,60)\\:d\\:2}.%{eif\\:mod((t+7.000)*1000\\,1000)\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#ffffff",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#000000",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.020833333333333332,
+          "right": 0.015046296296296295,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:(t+9.000)/3600\\:d\\:2}:%{eif\\:mod((t+9.000)/60\\,60)\\:d\\:2}:%{eif\\:mod(t+9.000\\,60)\\:d\\:2}.%{eif\\:mod((t+9.000)*1000\\,1000)\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#ffffff",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#000000",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.020833333333333332,
+          "right": 0,
+          "bottom": 0,
+          "left": 0.015046296296296295
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:(t+8.000)/3600\\:d\\:2}:%{eif\\:mod((t+8.000)/60\\,60)\\:d\\:2}:%{eif\\:mod(t+8.000\\,60)\\:d\\:2}.%{eif\\:mod((t+8.000)*1000\\,1000)\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#ffffff",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#000000",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.020833333333333332,
+          "right": 0.027901785714285716,
+          "bottom": 0,
+          "left": 0.027901785714285716
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "assets": {
+    "reel-10s": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-highlights-v1/fixtures/reel-10s.mp4",
+      "mediaType": "video"
+    }
+  },
+  "m0": "120[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40(0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40(0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1)]{10[0,0,0,0,0,0,-,0,0,40(0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-)]{120[0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40(0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40(0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{10[0,0,0,0,0,0,-,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1)]{10[0,0,0,0,0,0,-,0,0,40(0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-)]}}}}}}}",
+  "children": {
+    "info-pane": {
+      "kind": "mosaic_document",
+      "version": 1,
+      "assets": {},
+      "m0": "1",
+      "sources": [
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "image"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "reel-10s.mp4"
+              },
+              "style": {
+                "fontSize": 16,
+                "fontColor": "#ffffff",
+                "borderWidth": 1,
+                "borderColor": "#ffffff"
+              },
+              "visual": {
+                "backgroundColor": "#0d0d0d"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "top",
+                "yExpr": "6",
+                "padding": {
+                  "x": 0.015
+                }
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Duration: 10.00s  |  Size: 3.81 MiB (3,993,932 bytes)  |  Bitrate: 3.2 Mbit/s  |  Container: QuickTime / MOV\nStream 0 Video: 1280x720 yuv420p 8-bit 30.00 fps H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10 (High)\nStream 1 Audio: mono 44.1 kHz 69 kbit/s AAC (Advanced Audio Coding)"
+              },
+              "style": {
+                "fontSize": 9,
+                "fontColor": "#a0a0a0"
+              },
+              "visual": {},
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "top",
+                "yExpr": "33",
+                "padding": {
+                  "x": 0.015
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "template"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      ],
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "fps": 30,
+      "durationMs": 3000,
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  },
+  "format": {
+    "kind": "video",
+    "container": "mp4"
+  },
+  "audio": {
+    "enabled": false
+  },
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

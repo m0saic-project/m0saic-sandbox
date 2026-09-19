@@ -1,0 +1,38 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-14-a"
+  },
+  "agent": {
+    "note": "**STRESS 14-a — the heavy case as a DENSITY map** (iteration of 14).\n\nThe 100-basis split now reads as two graded bands (35% and 65% of the width) at the 1/100-slot wash, with the two claimants standing as 19 px anchors — no rings, no `>` labels below the 64 px floor, so nothing smears. The overlay layer still shows its dashed hole, one dotted slot (1/3 canvas → legible, so ring + `>` label) and its cell.\n\nWatch: the band reads as ONE tone (no per-slot seams), the claimants are findable, and layer 1 keeps ring + label for its big slot. Tunables if you want them moved: 64 px label floor, the 0.03 + 0.16/decade wash ramp, 0.55 cap.",
+    "question": "Heavy case readable now? Keep the 64 px floor and the wash ramp, or tune?",
+    "response": {
+      "verdict": "reject",
+      "text": "it still reads poorly to me. maybe we just remove it, using layout is a better result in most cases anyways. passthrough is a means to an end, if it is imporatnt we can revisit later",
+      "via": "chat — transcribed by agent (09-03)",
+      "note": "FEATURE REMOVED 09-03: `passthroughFrames` / `passthroughLabel` knobs, the lattice geometry and the density wash are gone from the template. This file is frozen history (its props no longer exist). Null layer explode (stress-11-a / 12) stays."
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {
+        "M0String": "100(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1){3[-,0,1]}",
+        "passthroughFrames": "show",
+        "nullFrames": "show",
+        "passthroughLabel": ">"
+      }
+    }
+  ]
+}

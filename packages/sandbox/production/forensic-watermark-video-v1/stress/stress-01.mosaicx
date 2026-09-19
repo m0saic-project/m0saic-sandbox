@@ -1,0 +1,29 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-01"
+  },
+  "agent": {
+    "note": "**STRESS 01/10 — 01-aac-audio-survives** (gate-34 stress set for `@m0saic/forensic/watermark/video/v1`).\n\n3 s 720p clip WITH an AAC track — the deliverable keeps the audio.\n\nWatch: audio plays; verify PASS.\n\nVerify the render: `m0saic make @m0saic/forensic/watermark/verify/v1 -o stress-01-check.png --props '{\"videoPath\":\"<render>.mp4\"}'` (the sidecar lands beside the render).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/forensic/watermark/video/v1",
+      "props": {
+        "videoPath": "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4"
+      }
+    }
+  ]
+}

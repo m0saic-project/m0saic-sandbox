@@ -1,0 +1,37 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1920
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "suggestedOutput": {
+    "dir": "./renders",
+    "basename": "03-aspect-zoo"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 — 03-aspect-zoo** (gate-36 stress set for `@m0saic/media/scroll_wall/v1`).\n\nAN ASPECT-RATIO ZOO UNDER COVER-CROP, ON A PORTRAIT CANVAS at 1080x1920. 3.0:1 panorama, 0.67:1 tall, 1:1 square, 2.4:1, 0.56:1, 0.8:1 — six wildly different source aspects cropped to ONE cell aspect on a portrait canvas. `fit: cover` must fill every cell with no letterbox slivers and no stretched art. Watch: no background showing inside any tile, and nothing looks squeezed rather than cropped.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/scroll_wall/v1",
+      "props": {
+        "clips": [
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-20-3000x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-21-640x960.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-16-1080x1080.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-13-2400x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-25-900x1600.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-32-800x1000.png"
+        ],
+        "visibleCount": 2
+      }
+    }
+  ]
+}

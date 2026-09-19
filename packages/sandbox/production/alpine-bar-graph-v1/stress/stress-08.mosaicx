@@ -1,0 +1,72 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 733,
+    "height": 977
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/bar-graph/v1",
+      "props": {
+        "values": [
+          12400,
+          8700,
+          5600,
+          2100,
+          1200
+        ],
+        "labels": [
+          "Email",
+          "Twitter",
+          "Reddit",
+          "Hacker News",
+          "Other"
+        ],
+        "title": "BAR CHART",
+        "subtitle": "Sales by Channel",
+        "orientation": "horizontal",
+        "preset": "light",
+        "bars": {
+          "gap": 0,
+          "cornerRadius": 0
+        },
+        "grid": {
+          "show": true,
+          "count": 8
+        },
+        "valueLabels": {
+          "show": true,
+          "format": "compact",
+          "decimals": 1,
+          "suffix": ""
+        },
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "ease": "smoothstep",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-no-gap-no-radius-portrait** (retro stress set for `@m0saic/alpine/bar-graph/v1`).\n\ngap 0 + cornerRadius 0 + grid count 8, ODD portrait dims (the contributor-table killer canvas). Watch: bars touch cleanly, engine feasibility, 8 gridlines.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-20T21:44:29.447Z",
+      "src": "<sandbox>/production/alpine-bar-graph-v1/stress/./stress-08-733x977.mp4"
+    }
+  }
+}

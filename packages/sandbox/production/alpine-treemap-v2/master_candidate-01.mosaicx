@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/treemap/v2",
+      "props": {}
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/alpine/treemap/v2`** (gate 12 — THE LAST ALPINE GATE; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase defaults (Headcount, 5 tiles). v1 deprecated → rides base·dep.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated, primitive:true | confirm |\n| Gate | — | **base** |\n| Preview assets | re-mint after approval | review |\n| Cover / Tutorial | cover BUILT this gate (tiles fade in from blank) | eyeball cover; tutorial needed? |\n\n**Pre-audit found + fixed 2 REAL render-refusal bugs (20/84 baseline battery canvases failed, incl. 12-item configs at MOST canvases):**\n1. **Tile label stacks were 100-basis rowSplits inside tile cells** — sub-pixel cells at small tiles → engine folds paint slots → doc refused (the timeline class). Now px/4 weights (the ≥4px-per-weight law).\n2. **Squarify emitted raw px² areas as split weights** — the kit rescales to a 120 basis even inside a ~40px strip (0.3px cells → SPLIT_EXCEEDS_AXIS; max12@360×640 refused). Now px/4 along the split axis; proportions quantize ±2px, invisible.\nBattery 84/84 post-fix (was 64/84).\n\nAlso this gate: script-aware name sizing + truncation (was flat 0.6em), debugLayout contract (textFits on tile-name/tile-value; tiles are value-proportional so no equal relation applies — an area-proportionality rule is noted as a future contract primitive), cover. NOTE: per-side placement.inset keys verified WORKING engine-side (gaps render; the kpi-era lesson was narrower than remembered — insets left as-is).\n\n**Primitive-sense: KEEP primitive:true** — proportional-area tiles are a distinct block (donut shows shares as a ring; treemap as a surface — both earn their seat).\n\nVerified: battery 84/84, probe 14/14, 39/39 unit. Hostile sweeps eyeballed: 12-tile pack, 95%-skew slivers (labels drop cleanly), Cyrillic/CJK tile labels fit.",
+    "question": "Default look verdict? Cover OK? Tutorial needed? primitive:true confirmed? Then stress — and the alpine pack closes.",
+    "response": {
+      "verdict": "ship",
+      "text": "default+cover approved (tutorial not needed) → stress x10 pass → \"ship it\"",
+      "via": "chat — transcribed by agent",
+      "note": "SHIPPED base ☑ — THE ALPINE PACK CLOSES (12/12 gates)."
+    }
+  }
+}

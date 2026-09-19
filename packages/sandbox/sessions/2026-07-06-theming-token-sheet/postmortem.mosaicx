@@ -1,0 +1,17 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "fps": 30,
+  "durationMs": 1000,
+  "size": { "width": 1920, "height": 1080 },
+  "assets": {},
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/meta/post-mortem/v1",
+      "props": { "sessionPath": "packages/sandbox/sessions/2026-07-06-theming-token-sheet" }
+    }
+  ],
+  "suggestedOutput": { "dir": ".", "basename": "postmortem" }
+}

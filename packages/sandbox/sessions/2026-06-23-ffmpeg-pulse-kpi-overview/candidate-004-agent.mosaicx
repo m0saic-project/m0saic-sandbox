@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 9000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/kpi-overview/v1", "props": { "preset": "dark" } } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-23-ffmpeg-pulse-kpi-overview", "basename": "candidate-004" },
+  "agent": { "note": "c004 — all 4 of your notes. (1) BG-FIRST: the baked scatter reveal plays alone (~first 22%), THEN backdrops + header + footer + KPI cards fade in (like the title beat; verified — early frame = scatter only). (2-4) BACKDROP CARDS behind the header cluster, behind the WHOLE KPI grid (gutters no longer leak scatter), and behind the WEEK footer — all theme.card (#161b22), rounded, fading in with the chrome.", "question": "Reads cleaner now? Open Qs: (a) the grid backdrop is the same color as the cards so the grid reads as one panel — want the backdrop a touch DARKER (#0d1117) so individual cards separate, or keep the unified panel? (b) glyph treatment still dark-cut-on-green — want white glyphs instead?" }
+}

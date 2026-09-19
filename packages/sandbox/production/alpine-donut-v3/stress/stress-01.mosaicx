@@ -1,0 +1,103 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/donut/v3",
+      "props": {
+        "segments": [
+          {
+            "label": "Enterprise Plus",
+            "value": 18
+          },
+          {
+            "label": "Enterprise",
+            "value": 14
+          },
+          {
+            "label": "Professional",
+            "value": 12
+          },
+          {
+            "label": "Team Edition",
+            "value": 10
+          },
+          {
+            "label": "Starter",
+            "value": 9
+          },
+          {
+            "label": "Free Tier",
+            "value": 8
+          },
+          {
+            "label": "Legacy Contracts",
+            "value": 7
+          },
+          {
+            "label": "Partners",
+            "value": 6
+          },
+          {
+            "label": "Education",
+            "value": 5
+          },
+          {
+            "label": "Non-Profit",
+            "value": 4
+          },
+          {
+            "label": "Government",
+            "value": 4
+          },
+          {
+            "label": "Other Sources",
+            "value": 3
+          },
+          {
+            "label": "THIRTEENTH MUST NOT RENDER",
+            "value": 99
+          }
+        ],
+        "title": "DONUT CHART",
+        "subtitle": "Revenue Mix",
+        "centerValue": "$12,480",
+        "centerLabel": "Total",
+        "preset": "light",
+        "ringThicknessFrac": 0.42,
+        "segmentLabels": "percent",
+        "legend": "right",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-01"
+  },
+  "agent": {
+    "note": "**STRESS 01/10 — 01-max-segments-cliff-probe** (gate-4 stress set for `@m0saic/alpine/donut/v3`).\n\nMAX LOAD: 13 segments supplied (cap 12 — 13th must drop), long labels. This is also the OVERLAY-CLIFF probe: 12 masks + % labels + center text approaches the ~25-layer mask limit. Watch: all 12 render, no silently dropped masks, legend fits.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-21T18:40:21.692Z",
+      "src": "<sandbox>/production/alpine-donut-v3/stress/./stress-01-1920x1080.mp4"
+    }
+  }
+}

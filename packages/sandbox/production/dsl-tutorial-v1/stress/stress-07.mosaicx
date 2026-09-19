@@ -1,0 +1,27 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 480,
+    "height": 270
+  },
+  "fps": 30,
+  "durationMs": 15800,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-tiny-480x270** (gate-33 stress set for `@m0saic/dsl-tutorial/v1`).\n\nThe 480×270 canvas that used to REFUSE to render (0-size frame).\n\nWatch: renders; the inspector auto-hides (canvas takes the body); pills read `1.0x` · `10 / 16`; the status strip keeps 2 whole metrics.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {}
+    }
+  ]
+}

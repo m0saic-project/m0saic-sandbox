@@ -1,0 +1,39 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/leaderboard/v1",
+      "props": {}
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/alpine/leaderboard/v1`** (gate 7; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase defaults (Top Contributors podium). Only version — no dep chain.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated | confirm |\n| Gate | — | **base** |\n| Preview assets | re-mint after approval | review |\n| Cover / Tutorial | neither | needed? (rows cascade in — cover likely) |\n\n**Pre-audit:** the row stack was the interleaved [margin,row,gap,…] anti-pattern (the pack-wide center-starve class, 7th instance) — rebuilt as one EQUAL band per row + [1,K,1] half-gap carve BEFORE it could bite. NEW `debugLayout` contract (row equal-size, 2%+1px) verifies it; wash tiles tagged. Feasibility was already clean ×14 canvases. 21/21 unit, e2e 1/1, battery green ×14 canvases ×5 configs (incl. 9-items→8-cap).\n\n**Look note:** rows now sit on the equal-band pitch (half-gap above the first row / below the last — the same accepted shift as every prior gate).\n\n**Judgment item:** portrait badges render wider than square (~1.5:1 rounded rects) — same family as the avatar/chip aspect items. Fixable with the inset-square treatment if you want badges square everywhere.\n\n**Stress:** mints after your default verdict.",
+    "question": "Ship `@m0saic/alpine/leaderboard/v1` in the v1 base? Cover/tutorial? Badges: square everywhere or fine as-is?",
+    "response": {
+      "body": "ship. (cover in, no tutorial, badges as-is, preSorted medal semantics accepted)",
+      "from": "human",
+      "at": "2026-08-22T10:45:10.000Z",
+      "via": "chat — transcribed by agent"
+    },
+    "comments": [
+      {
+        "from": "agent",
+        "text": "COVER added per your ruling (static podium child + welcome band, 23/23 unit). STRESS SET minted (`stress/stress-01..10`, twins frozen, stills in `stress/renders/`). My pass caught + fixed ONE bug: values LEFT-CLIPPED at narrow canvases (\"900 kg\"→\"00 kg\" @480×1040) — valueFont now width-capped to its column (the pack-standard cap; verified fixed). Everything else clean: 8-cap enforced, preSorted preserves unsorted order (note: medal tints follow POSITION not value — semantic to confirm), €prefix/suffix + unicode fine, ties/zero/negative render, single-item minimal green. Badges stay ~1.5:1 pills per your as-is acceptance."
+      }
+    ]
+  }
+}

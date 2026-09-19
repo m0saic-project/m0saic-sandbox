@@ -1,0 +1,111 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/commit-feed/v2",
+      "props": {
+        "rows": [
+          {
+            "kind": "perf",
+            "area": "avcodec",
+            "title": "avcodec: improve AV1 decode performance",
+            "hash": "a1b2c3d",
+            "author": "Anton Khirnov",
+            "date": "May 15",
+            "pr": 14201,
+            "reviewers": [
+              "James Almer",
+              "Michael Niedermayer"
+            ],
+            "signal": "warn"
+          },
+          {
+            "kind": "feat",
+            "area": "avformat",
+            "title": "avformat: add support for new container",
+            "hash": "d4e5f6g",
+            "author": "James Almer",
+            "date": "May 14",
+            "pr": 14198,
+            "reviewers": [
+              "Anton Khirnov"
+            ],
+            "signal": "neutral"
+          },
+          {
+            "kind": "fix",
+            "area": "avfilter",
+            "title": "avfilter: fix memory leak in overlay filter",
+            "hash": "h7i8j9k",
+            "author": "Marton Balint",
+            "date": "May 13",
+            "pr": 14185,
+            "reviewers": [
+              "Anton Khirnov",
+              "Limin Wang"
+            ],
+            "signal": "win"
+          },
+          {
+            "kind": "docs",
+            "area": "doc",
+            "title": "doc: update HLS documentation",
+            "hash": "l0m1n2o",
+            "author": "Limin Wang",
+            "date": "May 12",
+            "pr": 14180,
+            "reviewers": [
+              "Marton Balint"
+            ],
+            "signal": "neutral"
+          },
+          {
+            "kind": "test",
+            "area": "tests",
+            "title": "tests: add FATE test for edge case",
+            "hash": "p3q4r5s",
+            "author": "Michael Niedermayer",
+            "date": "May 16",
+            "pr": 14205,
+            "reviewers": [
+              "James Almer"
+            ],
+            "signal": "win"
+          }
+        ],
+        "title": "NOTABLE COMMITS",
+        "subtitle": "Highlight interesting work.",
+        "iconPath": "M16.944 11h4.306a.75.75 0 0 1 0 1.5h-4.306a5.001 5.001 0 0 1-9.888 0H2.75a.75.75 0 0 1 0-1.5h4.306a5.001 5.001 0 0 1 9.888 0Zm-1.444.75a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0Z",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/alpine/commit-feed/v2`** (gate 2; chart: `.scratch/claude/v1-template-cut.md`). Props = the template's own showcase defaults (FFmpeg notable-commits feed).\n\nThis gate covers BOTH commit-feed rows:\n\n| Row | Current | Proposed |\n|---|---|---|\n| `commit-feed/v1` | DEPRECATED → v2 | **dev** (graveyard) — confirm |\n| `commit-feed/v2` | primitive, not internal | **base** — confirm |\n\n**Pre-audit finding, already fixed (per your gate-1 authorization):** v2 had the same interleaved-band quantization as bar-graph — rows measured 96/94/90/93/96 at 1001×733 (center starving). Now one EQUAL band per row + half-gap carved inside: rows 91/91/91/91/91, and a `debugLayout` contract (`row` equal size) guards it. 33/33 unit tests incl. the repro lock; e2e 2/2.\n\n**Look-shift to judge:** half-gap above the first row and below the last (was gaps-between-only); row boxes a hair shorter at the same gap.\n\n**Also:** flip `Debug layout` ON in the panel to see the green contract view (5 green rows + the measured rule). v2 preview assets (png+mp4+poster) predate this fix — re-mint before ship.\n\nStress knobs: 2 rows vs the max, `showHeader: false`, a very long title, `preset: \"dark\"`, `reduceMotion`, and one portrait render.",
+    "question": "Ship `@m0saic/alpine/commit-feed/v2` in the v1 base, and confirm v1 to the dev graveyard? Also: rows equal now — happy with the edge half-gaps look?",
+    "response": {
+      "body": "i think this can be shipped.",
+      "from": "human",
+      "at": "2026-08-20T14:44:49.019Z",
+      "src": "<sandbox>/production/alpine-commit-feed-v2/./master_candidate-01-1280x708.mp4"
+    }
+  }
+}

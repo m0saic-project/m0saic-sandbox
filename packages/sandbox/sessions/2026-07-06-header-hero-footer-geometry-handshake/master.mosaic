@@ -1,0 +1,132 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "5[1,0,0,2[1,1],1]",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1920
+  },
+  "sources": [
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "#0f172a"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "LAUNCH DAY"
+          },
+          "style": {
+            "fontColor": "#f8fafc",
+            "fontSize": 65
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "#f97316"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Features"
+          },
+          "style": {
+            "fontColor": "#f8fafc",
+            "fontSize": 76
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "#38bdf8"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Pricing"
+          },
+          "style": {
+            "fontColor": "#f8fafc",
+            "fontSize": 76
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "#1e293b"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "getm0saic.com"
+          },
+          "style": {
+            "fontColor": "#f8fafc",
+            "fontSize": 38
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-002"
+  },
+  "agent": {
+    "note": "Handshake fix applied. I decoded your candidate-001 drags — both hero columns went full-width and stacked (left on top, right below) on the 1080×1920 render — as intent: 'on a portrait canvas, rows not columns.' Re-encoded at the TEMPLATE level (not by replaying your rects): the hero is now aspect-adaptive — `2(1,1)` on landscape/square, `2[1,1]` on portrait. This candidate opens at mobile 1080×1920 so you can see it render as rows natively, with NO edit needed.",
+    "question": "On mobile (1080×1920) the hero should now render as two stacked full-width rows on its own — Features on top, Pricing below — no Edit-mode dragging required. Does it match the layout you dragged to? Then flip to Desktop 1920×1080 and Square 1080×1080 and confirm those still show two columns (the fix must only trigger on portrait). Reply 'ship it' if all three read right, or tell me what's off."
+  }
+}

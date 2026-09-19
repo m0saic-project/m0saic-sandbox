@@ -1,0 +1,97 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-11T06:19:13.286Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.11",
+  "meta": {
+    "title": "2026-06-11-stat-card-kpi · candidate-001"
+  },
+  "agent": {
+    "note": "First canonical KPI stat-card geometry session. Structural baseline: four stacked row-bands, top->bottom — (1) category-label ('Total Commits'), (2) value ('246'), (3) delta ('triangle +18 (+7.9%)'), (4) sublabel ('vs last week'). Bands are EQUAL height here on purpose, just to agree the decomposition; value-dominant weighting comes next via passthrough (0) donation. Regions are stableKey-labeled per your candidate-001 note on the bar-graph session. Card aspect ~2.2:1 (matches the mock's stat tiles).",
+    "question": "Is this the right band decomposition for a KPI card? Two specifics: (a) does 'vs last week' earn its own 4th band, or should it tuck under the delta into a combined band? (b) Is label-on-top correct, or should the category label sit BELOW the number (number-first 'big-number hero' reading order)?",
+    "context": {
+      "category": {
+        "kind": "known",
+        "value": "spacing-alignment"
+      },
+      "intent": {
+        "action": "propose",
+        "summary": "baseline 4-band KPI decomposition, equal weights for a clean structural read"
+      },
+      "layoutIntent": "free",
+      "evaluation": {
+        "grade": "best",
+        "source": "automated",
+        "at": "2026-06-11T06:19:13.282Z",
+        "breakdown": {
+          "total": 1,
+          "feasible": true,
+          "components": {
+            "precision": {
+              "quality": 1,
+              "weight": 0,
+              "raw": 0.011764705882352941
+            },
+            "spread": {
+              "quality": 1,
+              "weight": 0.3,
+              "raw": 0
+            },
+            "gutter": {
+              "quality": 1,
+              "weight": 0.25,
+              "raw": 0
+            },
+            "frames": {
+              "quality": 1,
+              "weight": 0.34,
+              "raw": 4
+            },
+            "structure": {
+              "quality": 1,
+              "weight": 0.1,
+              "raw": 0
+            },
+            "compactness": {
+              "quality": 1,
+              "weight": 0.01,
+              "raw": 10
+            }
+          }
+        }
+      }
+    },
+    "response": {
+      "body": "hmm I'm not sure about this one, my reference has more emphasis on the value, labels and sublabels more \"float\". I feel like combining value and delta into one rect band and then dividing between them based on emphasis desired is more like my reference.",
+      "from": "human",
+      "at": "2026-06-11T06:24:48.689Z"
+    }
+  },
+  "size": {
+    "width": 760,
+    "height": 340
+  },
+  "m0": "4[1,1,1,1]",
+  "labels": {
+    "r/fc0": {
+      "text": "category-label"
+    },
+    "r/fc1": {
+      "text": "value"
+    },
+    "r/fc2": {
+      "text": "delta"
+    },
+    "r/fc3": {
+      "text": "sublabel"
+    }
+  },
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "fill": null,
+  "rankSets": null,
+  "custom": null
+}

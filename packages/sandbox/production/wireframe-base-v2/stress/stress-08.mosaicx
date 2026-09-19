@@ -1,0 +1,30 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-grid-paper-textbook** (gate-29 stress set for `@m0saic/wireframe/base/v2`).\n\nThe NEWLY WIRED paper grid (Layout page 'Textbook' style): thumb-light tiles + a 1/16-pitch lattice at 8% ink OVER the tiles.\n\nWatch: graph-paper reads across the whole canvas incl. over tiles; rounded thumb corners; no labels (thumb mode). Prune-vs-keep verdict here.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {
+        "M0String": "4[1,0,0,3(2[1,1],1,2[1,1])]",
+        "preset": "grid-paper"
+      }
+    }
+  ]
+}

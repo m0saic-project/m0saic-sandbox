@@ -1,0 +1,779 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121(0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15[0,1,0,0,0,0,0,0,0,0,0,0,0,0,121[0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5[9[-,0,0,0,0,0,0,1{100(-,0,5[-,0,0,1{1},-],-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)},-],9[-,0,0,0,0,0,0,1{100(-,0,5[-,0,0,1{1},-],-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)},-],9[-,0,0,0,0,0,0,1{100(-,0,5[-,0,0,1{1},-],-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)},-],9[-,0,0,0,0,0,0,1{100(-,0,5[-,0,0,1{1},-],-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)},-],9[-,0,0,0,0,0,0,1{100(-,0,5[-,0,0,1{1},-],-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)},-]],0,0,-]],0,-),0,0,0,0,0,0,-]}",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 480
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#E5E7EB",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "TOP CONTRIBUTORS"
+          },
+          "style": {
+            "fontSize": 24,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "This month"
+          },
+          "style": {
+            "fontSize": 12,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#F59E0B",
+      "overlay": {
+        "alpha": "0.12"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.18
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "row"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#F59E0B",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.32
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.12)/0.6599999999999998)))*(min(1,max(0,(t-0.12)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-0.12)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "1"
+          },
+          "style": {
+            "fontSize": 12,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.12)/0.6599999999999998)))*(min(1,max(0,(t-0.12)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-0.12)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Ava Chen"
+          },
+          "style": {
+            "fontSize": 14,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.12)/0.6599999999999998)))*(min(1,max(0,(t-0.12)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-0.12)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:2*((1-(1-(min(1\\,max(0\\,(t-0.12)/0.6599999999999998))))*(1-(min(1\\,max(0\\,(t-0.12)/0.6599999999999998))))))+0.5\\:d},%{eif\\:840*((1-(1-(min(1\\,max(0\\,(t-0.12)/0.6599999999999998))))*(1-(min(1\\,max(0\\,(t-0.12)/0.6599999999999998))))))+0.5\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 15,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.12)/0.6599999999999998)))*(min(1,max(0,(t-0.12)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-0.12)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#1E293B",
+      "overlay": {
+        "alpha": "0.12"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.18
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "row"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#1E293B",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.32
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.4499999999999999)/0.6599999999999998)))*(min(1,max(0,(t-0.4499999999999999)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-0.4499999999999999)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "2"
+          },
+          "style": {
+            "fontSize": 12,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.4499999999999999)/0.6599999999999998)))*(min(1,max(0,(t-0.4499999999999999)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-0.4499999999999999)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Liam Patel"
+          },
+          "style": {
+            "fontSize": 14,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.4499999999999999)/0.6599999999999998)))*(min(1,max(0,(t-0.4499999999999999)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-0.4499999999999999)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:2*((1-(1-(min(1\\,max(0\\,(t-0.4499999999999999)/0.6599999999999998))))*(1-(min(1\\,max(0\\,(t-0.4499999999999999)/0.6599999999999998))))))+0.5\\:d},%{eif\\:615*((1-(1-(min(1\\,max(0\\,(t-0.4499999999999999)/0.6599999999999998))))*(1-(min(1\\,max(0\\,(t-0.4499999999999999)/0.6599999999999998))))))+0.5\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 15,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.4499999999999999)/0.6599999999999998)))*(min(1,max(0,(t-0.4499999999999999)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-0.4499999999999999)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#B45309",
+      "overlay": {
+        "alpha": "0.12"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.18
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "row"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#B45309",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.32
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7799999999999998)/0.6599999999999998)))*(min(1,max(0,(t-0.7799999999999998)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-0.7799999999999998)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "3"
+          },
+          "style": {
+            "fontSize": 12,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7799999999999998)/0.6599999999999998)))*(min(1,max(0,(t-0.7799999999999998)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-0.7799999999999998)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Noah Kim"
+          },
+          "style": {
+            "fontSize": 14,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7799999999999998)/0.6599999999999998)))*(min(1,max(0,(t-0.7799999999999998)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-0.7799999999999998)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:2*((1-(1-(min(1\\,max(0\\,(t-0.7799999999999998)/0.6599999999999998))))*(1-(min(1\\,max(0\\,(t-0.7799999999999998)/0.6599999999999998))))))+0.5\\:d},%{eif\\:390*((1-(1-(min(1\\,max(0\\,(t-0.7799999999999998)/0.6599999999999998))))*(1-(min(1\\,max(0\\,(t-0.7799999999999998)/0.6599999999999998))))))+0.5\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 15,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7799999999999998)/0.6599999999999998)))*(min(1,max(0,(t-0.7799999999999998)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-0.7799999999999998)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "overlay": {
+        "alpha": "0.55"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.18
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "row"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.32
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1099999999999999)/0.6599999999999998)))*(min(1,max(0,(t-1.1099999999999999)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-1.1099999999999999)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "4"
+          },
+          "style": {
+            "fontSize": 12,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1099999999999999)/0.6599999999999998)))*(min(1,max(0,(t-1.1099999999999999)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-1.1099999999999999)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Mia Garcia"
+          },
+          "style": {
+            "fontSize": 14,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1099999999999999)/0.6599999999999998)))*(min(1,max(0,(t-1.1099999999999999)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-1.1099999999999999)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:1*((1-(1-(min(1\\,max(0\\,(t-1.1099999999999999)/0.6599999999999998))))*(1-(min(1\\,max(0\\,(t-1.1099999999999999)/0.6599999999999998))))))+0.5\\:d},%{eif\\:975*((1-(1-(min(1\\,max(0\\,(t-1.1099999999999999)/0.6599999999999998))))*(1-(min(1\\,max(0\\,(t-1.1099999999999999)/0.6599999999999998))))))+0.5\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 15,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1099999999999999)/0.6599999999999998)))*(min(1,max(0,(t-1.1099999999999999)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-1.1099999999999999)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "overlay": {
+        "alpha": "0.55"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.18
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "row"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.32
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4399999999999995)/0.6599999999999998)))*(min(1,max(0,(t-1.4399999999999995)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-1.4399999999999995)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "5"
+          },
+          "style": {
+            "fontSize": 12,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4399999999999995)/0.6599999999999998)))*(min(1,max(0,(t-1.4399999999999995)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-1.4399999999999995)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Ethan Wright"
+          },
+          "style": {
+            "fontSize": 14,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4399999999999995)/0.6599999999999998)))*(min(1,max(0,(t-1.4399999999999995)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-1.4399999999999995)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:1*((1-(1-(min(1\\,max(0\\,(t-1.4399999999999995)/0.6599999999999998))))*(1-(min(1\\,max(0\\,(t-1.4399999999999995)/0.6599999999999998))))))+0.5\\:d},%{eif\\:640*((1-(1-(min(1\\,max(0\\,(t-1.4399999999999995)/0.6599999999999998))))*(1-(min(1\\,max(0\\,(t-1.4399999999999995)/0.6599999999999998))))))+0.5\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 15,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4399999999999995)/0.6599999999999998)))*(min(1,max(0,(t-1.4399999999999995)/0.6599999999999998)))*(3-2*(min(1,max(0,(t-1.4399999999999995)/0.6599999999999998))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 — 03-ultrawide** (gate-7 stress set for `@m0saic/alpine/leaderboard/v1`).\n\nULTRAWIDE 4:1. Watch: rows stay equal, badges keep proportion, value column right-aligned.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": null
+  }
+}

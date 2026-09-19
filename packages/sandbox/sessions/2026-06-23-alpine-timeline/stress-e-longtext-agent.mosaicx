@@ -1,0 +1,61 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/timeline/v1",
+      "props": {
+        "events": [
+          {
+            "date": "Q1 2024",
+            "title": "Discovery & research phase",
+            "description": "Interviewed 40 design partners across six verticals"
+          },
+          {
+            "date": "Q2 2024",
+            "title": "Private beta",
+            "description": "Onboarded the first cohort of power users"
+          },
+          {
+            "date": "Q3 2024",
+            "title": "General availability launch",
+            "description": "Opened signups worldwide with localized onboarding"
+          },
+          {
+            "date": "Q4 2024",
+            "title": "Enterprise tier",
+            "description": "Shipped SSO, audit logs, and SOC 2 Type II"
+          }
+        ],
+        "title": "PRODUCT TIMELINE",
+        "subtitle": "Long-text stress",
+        "preset": "light",
+        "orientation": "horizontal",
+        "showDescription": true,
+        "anim": {
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant E — LONG titles + descriptions on a horizontal card. Tests the edge-clamp (first/last blocks staying in-bounds) and whether long centered blocks collide between adjacent dots.",
+    "question": "Approve or deny. Do the long text blocks stay in-bounds and readable (any collisions)?",
+    "response": {
+      "body": "",
+      "from": "human",
+      "at": ""
+    }
+  }
+}

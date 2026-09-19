@@ -1,0 +1,7257 @@
+{
+  "schemaVersion": 1,
+  "totalMs": 327534,
+  "commandCount": 512,
+  "commands": [
+    {
+      "index": 1,
+      "node": "root:0:1_text",
+      "description": "Render text source \"root:0:1_text\" to image",
+      "elapsedMs": 279,
+      "exitCode": 0
+    },
+    {
+      "index": 2,
+      "node": "root:0:3_text",
+      "description": "Render text source \"root:0:3_text\" to image",
+      "elapsedMs": 99,
+      "exitCode": 0
+    },
+    {
+      "index": 3,
+      "node": "root:0:5_text",
+      "description": "Render text source \"root:0:5_text\" to video",
+      "elapsedMs": 139,
+      "exitCode": 0
+    },
+    {
+      "index": 4,
+      "node": "root:0",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 477,
+      "exitCode": 0,
+      "label": "chrome-header"
+    },
+    {
+      "index": 5,
+      "node": "root:1:0_text",
+      "description": "Render text source \"root:1:0_text\" to image",
+      "elapsedMs": 78,
+      "exitCode": 0
+    },
+    {
+      "index": 6,
+      "node": "root:1:1_text",
+      "description": "Render text source \"root:1:1_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 7,
+      "node": "root:1:2_text",
+      "description": "Render text source \"root:1:2_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 8,
+      "node": "root:1:3_text",
+      "description": "Render text source \"root:1:3_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 9,
+      "node": "root:1:4_text",
+      "description": "Render text source \"root:1:4_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 10,
+      "node": "root:1:5_text",
+      "description": "Render text source \"root:1:5_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 11,
+      "node": "root:1:6_text",
+      "description": "Render text source \"root:1:6_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 12,
+      "node": "root:1:7_text",
+      "description": "Render text source \"root:1:7_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 13,
+      "node": "root:1:8_text",
+      "description": "Render text source \"root:1:8_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 14,
+      "node": "root:1:9_text",
+      "description": "Render text source \"root:1:9_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 15,
+      "node": "root:1:10_text",
+      "description": "Render text source \"root:1:10_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 16,
+      "node": "root:1:11_text",
+      "description": "Render text source \"root:1:11_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 17,
+      "node": "root:1:12_text",
+      "description": "Render text source \"root:1:12_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 18,
+      "node": "root:1:13_text",
+      "description": "Render text source \"root:1:13_text\" to image",
+      "elapsedMs": 79,
+      "exitCode": 0
+    },
+    {
+      "index": 19,
+      "node": "root:1:14_text",
+      "description": "Render text source \"root:1:14_text\" to image",
+      "elapsedMs": 84,
+      "exitCode": 0
+    },
+    {
+      "index": 20,
+      "node": "root:1:15_text",
+      "description": "Render text source \"root:1:15_text\" to image",
+      "elapsedMs": 84,
+      "exitCode": 0
+    },
+    {
+      "index": 21,
+      "node": "root:1:16_text",
+      "description": "Render text source \"root:1:16_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 22,
+      "node": "root:1:17_text",
+      "description": "Render text source \"root:1:17_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 23,
+      "node": "root:1:18_text",
+      "description": "Render text source \"root:1:18_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 24,
+      "node": "root:1:19_text",
+      "description": "Render text source \"root:1:19_text\" to image",
+      "elapsedMs": 79,
+      "exitCode": 0
+    },
+    {
+      "index": 25,
+      "node": "root:1:20_text",
+      "description": "Render text source \"root:1:20_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 26,
+      "node": "root:1:21_text",
+      "description": "Render text source \"root:1:21_text\" to image",
+      "elapsedMs": 85,
+      "exitCode": 0
+    },
+    {
+      "index": 27,
+      "node": "root:1:22_text",
+      "description": "Render text source \"root:1:22_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 28,
+      "node": "root:1:23_text",
+      "description": "Render text source \"root:1:23_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 29,
+      "node": "root:1:24_text",
+      "description": "Render text source \"root:1:24_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 30,
+      "node": "root:1:25_text",
+      "description": "Render text source \"root:1:25_text\" to image",
+      "elapsedMs": 79,
+      "exitCode": 0
+    },
+    {
+      "index": 31,
+      "node": "root:1:26_text",
+      "description": "Render text source \"root:1:26_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 32,
+      "node": "root:1:27_text",
+      "description": "Render text source \"root:1:27_text\" to image",
+      "elapsedMs": 69,
+      "exitCode": 0
+    },
+    {
+      "index": 33,
+      "node": "root:1:28_text",
+      "description": "Render text source \"root:1:28_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 34,
+      "node": "root:1:29_text",
+      "description": "Render text source \"root:1:29_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 35,
+      "node": "root:1:30_text",
+      "description": "Render text source \"root:1:30_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 36,
+      "node": "root:1:31_text",
+      "description": "Render text source \"root:1:31_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 37,
+      "node": "root:1:32_text",
+      "description": "Render text source \"root:1:32_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 38,
+      "node": "root:1:33_text",
+      "description": "Render text source \"root:1:33_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 39,
+      "node": "root:1:34_text",
+      "description": "Render text source \"root:1:34_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 40,
+      "node": "root:1:35_text",
+      "description": "Render text source \"root:1:35_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 41,
+      "node": "root:1:36_text",
+      "description": "Render text source \"root:1:36_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 42,
+      "node": "root:1:37_text",
+      "description": "Render text source \"root:1:37_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 43,
+      "node": "root:1:38_text",
+      "description": "Render text source \"root:1:38_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 44,
+      "node": "root:1:39_text",
+      "description": "Render text source \"root:1:39_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 45,
+      "node": "root:1:40_text",
+      "description": "Render text source \"root:1:40_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 46,
+      "node": "root:1:41_text",
+      "description": "Render text source \"root:1:41_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 47,
+      "node": "root:1:42_text",
+      "description": "Render text source \"root:1:42_text\" to image",
+      "elapsedMs": 69,
+      "exitCode": 0
+    },
+    {
+      "index": 48,
+      "node": "root:1:43_text",
+      "description": "Render text source \"root:1:43_text\" to image",
+      "elapsedMs": 89,
+      "exitCode": 0
+    },
+    {
+      "index": 49,
+      "node": "root:1:44_text",
+      "description": "Render text source \"root:1:44_text\" to image",
+      "elapsedMs": 94,
+      "exitCode": 0
+    },
+    {
+      "index": 50,
+      "node": "root:1:45_text",
+      "description": "Render text source \"root:1:45_text\" to image",
+      "elapsedMs": 79,
+      "exitCode": 0
+    },
+    {
+      "index": 51,
+      "node": "root:1:46_text",
+      "description": "Render text source \"root:1:46_text\" to image",
+      "elapsedMs": 88,
+      "exitCode": 0
+    },
+    {
+      "index": 52,
+      "node": "root:1:47_text",
+      "description": "Render text source \"root:1:47_text\" to image",
+      "elapsedMs": 85,
+      "exitCode": 0
+    },
+    {
+      "index": 53,
+      "node": "root:1:48_text",
+      "description": "Render text source \"root:1:48_text\" to image",
+      "elapsedMs": 94,
+      "exitCode": 0
+    },
+    {
+      "index": 54,
+      "node": "root:1:49_text",
+      "description": "Render text source \"root:1:49_text\" to image",
+      "elapsedMs": 105,
+      "exitCode": 0
+    },
+    {
+      "index": 55,
+      "node": "root:1:50_text",
+      "description": "Render text source \"root:1:50_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 56,
+      "node": "root:1:51_text",
+      "description": "Render text source \"root:1:51_text\" to image",
+      "elapsedMs": 69,
+      "exitCode": 0
+    },
+    {
+      "index": 57,
+      "node": "root:1:52_text",
+      "description": "Render text source \"root:1:52_text\" to image",
+      "elapsedMs": 82,
+      "exitCode": 0
+    },
+    {
+      "index": 58,
+      "node": "root:1:53_text",
+      "description": "Render text source \"root:1:53_text\" to image",
+      "elapsedMs": 76,
+      "exitCode": 0
+    },
+    {
+      "index": 59,
+      "node": "root:1:54_text",
+      "description": "Render text source \"root:1:54_text\" to image",
+      "elapsedMs": 85,
+      "exitCode": 0
+    },
+    {
+      "index": 60,
+      "node": "root:1:55_text",
+      "description": "Render text source \"root:1:55_text\" to image",
+      "elapsedMs": 82,
+      "exitCode": 0
+    },
+    {
+      "index": 61,
+      "node": "root:1:56_text",
+      "description": "Render text source \"root:1:56_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 62,
+      "node": "root:1:57_text",
+      "description": "Render text source \"root:1:57_text\" to image",
+      "elapsedMs": 81,
+      "exitCode": 0
+    },
+    {
+      "index": 63,
+      "node": "root:1:58_text",
+      "description": "Render text source \"root:1:58_text\" to image",
+      "elapsedMs": 79,
+      "exitCode": 0
+    },
+    {
+      "index": 64,
+      "node": "root:1:59_text",
+      "description": "Render text source \"root:1:59_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 65,
+      "node": "root:1:60_text",
+      "description": "Render text source \"root:1:60_text\" to image",
+      "elapsedMs": 79,
+      "exitCode": 0
+    },
+    {
+      "index": 66,
+      "node": "root:1:61_text",
+      "description": "Render text source \"root:1:61_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 67,
+      "node": "root:1:62_text",
+      "description": "Render text source \"root:1:62_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 68,
+      "node": "root:1:63_text",
+      "description": "Render text source \"root:1:63_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 69,
+      "node": "root:1:64_text",
+      "description": "Render text source \"root:1:64_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 70,
+      "node": "root:1:65_text",
+      "description": "Render text source \"root:1:65_text\" to image",
+      "elapsedMs": 104,
+      "exitCode": 0
+    },
+    {
+      "index": 71,
+      "node": "root:1:66_text",
+      "description": "Render text source \"root:1:66_text\" to image",
+      "elapsedMs": 96,
+      "exitCode": 0
+    },
+    {
+      "index": 72,
+      "node": "root:1:67_text",
+      "description": "Render text source \"root:1:67_text\" to image",
+      "elapsedMs": 87,
+      "exitCode": 0
+    },
+    {
+      "index": 73,
+      "node": "root:1:68_text",
+      "description": "Render text source \"root:1:68_text\" to image",
+      "elapsedMs": 88,
+      "exitCode": 0
+    },
+    {
+      "index": 74,
+      "node": "root:1:69_text",
+      "description": "Render text source \"root:1:69_text\" to image",
+      "elapsedMs": 78,
+      "exitCode": 0
+    },
+    {
+      "index": 75,
+      "node": "root:1:70_text",
+      "description": "Render text source \"root:1:70_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 76,
+      "node": "root:1:71_text",
+      "description": "Render text source \"root:1:71_text\" to image",
+      "elapsedMs": 76,
+      "exitCode": 0
+    },
+    {
+      "index": 77,
+      "node": "root:1:72_text",
+      "description": "Render text source \"root:1:72_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 78,
+      "node": "root:1:73_text",
+      "description": "Render text source \"root:1:73_text\" to image",
+      "elapsedMs": 79,
+      "exitCode": 0
+    },
+    {
+      "index": 79,
+      "node": "root:1:74_text",
+      "description": "Render text source \"root:1:74_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 80,
+      "node": "root:1:75_text",
+      "description": "Render text source \"root:1:75_text\" to image",
+      "elapsedMs": 83,
+      "exitCode": 0
+    },
+    {
+      "index": 81,
+      "node": "root:1:76_text",
+      "description": "Render text source \"root:1:76_text\" to image",
+      "elapsedMs": 91,
+      "exitCode": 0
+    },
+    {
+      "index": 82,
+      "node": "root:1:77_text",
+      "description": "Render text source \"root:1:77_text\" to image",
+      "elapsedMs": 87,
+      "exitCode": 0
+    },
+    {
+      "index": 83,
+      "node": "root:1:78_text",
+      "description": "Render text source \"root:1:78_text\" to image",
+      "elapsedMs": 68,
+      "exitCode": 0
+    },
+    {
+      "index": 84,
+      "node": "root:1:79_text",
+      "description": "Render text source \"root:1:79_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 85,
+      "node": "root:1:80_text",
+      "description": "Render text source \"root:1:80_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 86,
+      "node": "root:1:81_text",
+      "description": "Render text source \"root:1:81_text\" to image",
+      "elapsedMs": 82,
+      "exitCode": 0
+    },
+    {
+      "index": 87,
+      "node": "root:1:82_text",
+      "description": "Render text source \"root:1:82_text\" to image",
+      "elapsedMs": 76,
+      "exitCode": 0
+    },
+    {
+      "index": 88,
+      "node": "root:1:83_text",
+      "description": "Render text source \"root:1:83_text\" to image",
+      "elapsedMs": 123,
+      "exitCode": 0
+    },
+    {
+      "index": 89,
+      "node": "root:1:84_text",
+      "description": "Render text source \"root:1:84_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 90,
+      "node": "root:1:85_text",
+      "description": "Render text source \"root:1:85_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 91,
+      "node": "root:1:86_text",
+      "description": "Render text source \"root:1:86_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 92,
+      "node": "root:1:87_text",
+      "description": "Render text source \"root:1:87_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 93,
+      "node": "root:1:88_text",
+      "description": "Render text source \"root:1:88_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 94,
+      "node": "root:1:89_text",
+      "description": "Render text source \"root:1:89_text\" to image",
+      "elapsedMs": 76,
+      "exitCode": 0
+    },
+    {
+      "index": 95,
+      "node": "root:1:90_text",
+      "description": "Render text source \"root:1:90_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 96,
+      "node": "root:1:91_text",
+      "description": "Render text source \"root:1:91_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 97,
+      "node": "root:1:92_text",
+      "description": "Render text source \"root:1:92_text\" to image",
+      "elapsedMs": 69,
+      "exitCode": 0
+    },
+    {
+      "index": 98,
+      "node": "root:1:93_text",
+      "description": "Render text source \"root:1:93_text\" to image",
+      "elapsedMs": 79,
+      "exitCode": 0
+    },
+    {
+      "index": 99,
+      "node": "root:1:94_text",
+      "description": "Render text source \"root:1:94_text\" to image",
+      "elapsedMs": 90,
+      "exitCode": 0
+    },
+    {
+      "index": 100,
+      "node": "root:1:95_text",
+      "description": "Render text source \"root:1:95_text\" to image",
+      "elapsedMs": 86,
+      "exitCode": 0
+    },
+    {
+      "index": 101,
+      "node": "root:1:96_text",
+      "description": "Render text source \"root:1:96_text\" to image",
+      "elapsedMs": 80,
+      "exitCode": 0
+    },
+    {
+      "index": 102,
+      "node": "root:1:97_text",
+      "description": "Render text source \"root:1:97_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 103,
+      "node": "root:1:98_text",
+      "description": "Render text source \"root:1:98_text\" to image",
+      "elapsedMs": 90,
+      "exitCode": 0
+    },
+    {
+      "index": 104,
+      "node": "root:1:99_text",
+      "description": "Render text source \"root:1:99_text\" to image",
+      "elapsedMs": 85,
+      "exitCode": 0
+    },
+    {
+      "index": 105,
+      "node": "root:1:100_text",
+      "description": "Render text source \"root:1:100_text\" to image",
+      "elapsedMs": 79,
+      "exitCode": 0
+    },
+    {
+      "index": 106,
+      "node": "root:1:101_text",
+      "description": "Render text source \"root:1:101_text\" to image",
+      "elapsedMs": 77,
+      "exitCode": 0
+    },
+    {
+      "index": 107,
+      "node": "root:1:102_text",
+      "description": "Render text source \"root:1:102_text\" to image",
+      "elapsedMs": 78,
+      "exitCode": 0
+    },
+    {
+      "index": 108,
+      "node": "root:1:103_text",
+      "description": "Render text source \"root:1:103_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 109,
+      "node": "root:1:104_text",
+      "description": "Render text source \"root:1:104_text\" to image",
+      "elapsedMs": 78,
+      "exitCode": 0
+    },
+    {
+      "index": 110,
+      "node": "root:1:105_text",
+      "description": "Render text source \"root:1:105_text\" to image",
+      "elapsedMs": 92,
+      "exitCode": 0
+    },
+    {
+      "index": 111,
+      "node": "root:1:107_text",
+      "description": "Render text source \"root:1:107_text\" to image",
+      "elapsedMs": 82,
+      "exitCode": 0
+    },
+    {
+      "index": 112,
+      "node": "root:1:109_text",
+      "description": "Render text source \"root:1:109_text\" to image",
+      "elapsedMs": 77,
+      "exitCode": 0
+    },
+    {
+      "index": 113,
+      "node": "root:1:111_text",
+      "description": "Render text source \"root:1:111_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 114,
+      "node": "root:1:113_text",
+      "description": "Render text source \"root:1:113_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 115,
+      "node": "root:1:115_text",
+      "description": "Render text source \"root:1:115_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 116,
+      "node": "root:1:117_text",
+      "description": "Render text source \"root:1:117_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 117,
+      "node": "root:1:119_text",
+      "description": "Render text source \"root:1:119_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 118,
+      "node": "root:1:121_text",
+      "description": "Render text source \"root:1:121_text\" to image",
+      "elapsedMs": 77,
+      "exitCode": 0
+    },
+    {
+      "index": 119,
+      "node": "root:1:123_text",
+      "description": "Render text source \"root:1:123_text\" to image",
+      "elapsedMs": 69,
+      "exitCode": 0
+    },
+    {
+      "index": 120,
+      "node": "root:1:125_text",
+      "description": "Render text source \"root:1:125_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 121,
+      "node": "root:1:127_text",
+      "description": "Render text source \"root:1:127_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 122,
+      "node": "root:1:129_text",
+      "description": "Render text source \"root:1:129_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 123,
+      "node": "root:1:131_text",
+      "description": "Render text source \"root:1:131_text\" to image",
+      "elapsedMs": 76,
+      "exitCode": 0
+    },
+    {
+      "index": 124,
+      "node": "root:1:133_text",
+      "description": "Render text source \"root:1:133_text\" to image",
+      "elapsedMs": 77,
+      "exitCode": 0
+    },
+    {
+      "index": 125,
+      "node": "root:1:135_text",
+      "description": "Render text source \"root:1:135_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 126,
+      "node": "root:1:137_text",
+      "description": "Render text source \"root:1:137_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 127,
+      "node": "root:1:139_text",
+      "description": "Render text source \"root:1:139_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 128,
+      "node": "root:1:141_text",
+      "description": "Render text source \"root:1:141_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 129,
+      "node": "root:1:143_text",
+      "description": "Render text source \"root:1:143_text\" to image",
+      "elapsedMs": 91,
+      "exitCode": 0
+    },
+    {
+      "index": 130,
+      "node": "root:1:145_text",
+      "description": "Render text source \"root:1:145_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 131,
+      "node": "root:1:147_text",
+      "description": "Render text source \"root:1:147_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 132,
+      "node": "root:1:149_text",
+      "description": "Render text source \"root:1:149_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 133,
+      "node": "root:1:151_text",
+      "description": "Render text source \"root:1:151_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 134,
+      "node": "root:1:153_text",
+      "description": "Render text source \"root:1:153_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 135,
+      "node": "root:1:155_text",
+      "description": "Render text source \"root:1:155_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 136,
+      "node": "root:1:157_text",
+      "description": "Render text source \"root:1:157_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 137,
+      "node": "root:1:159_text",
+      "description": "Render text source \"root:1:159_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 138,
+      "node": "root:1:161_text",
+      "description": "Render text source \"root:1:161_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 139,
+      "node": "root:1:163_text",
+      "description": "Render text source \"root:1:163_text\" to image",
+      "elapsedMs": 84,
+      "exitCode": 0
+    },
+    {
+      "index": 140,
+      "node": "root:1:165_text",
+      "description": "Render text source \"root:1:165_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 141,
+      "node": "root:1:167_text",
+      "description": "Render text source \"root:1:167_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 142,
+      "node": "root:1:169_text",
+      "description": "Render text source \"root:1:169_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 143,
+      "node": "root:1:171_text",
+      "description": "Render text source \"root:1:171_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 144,
+      "node": "root:1:173_text",
+      "description": "Render text source \"root:1:173_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 145,
+      "node": "root:1:175_text",
+      "description": "Render text source \"root:1:175_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 146,
+      "node": "root:1:177_text",
+      "description": "Render text source \"root:1:177_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 147,
+      "node": "root:1:179_text",
+      "description": "Render text source \"root:1:179_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 148,
+      "node": "root:1:181_text",
+      "description": "Render text source \"root:1:181_text\" to image",
+      "elapsedMs": 80,
+      "exitCode": 0
+    },
+    {
+      "index": 149,
+      "node": "root:1:183_text",
+      "description": "Render text source \"root:1:183_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 150,
+      "node": "root:1:185_text",
+      "description": "Render text source \"root:1:185_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 151,
+      "node": "root:1:187_text",
+      "description": "Render text source \"root:1:187_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 152,
+      "node": "root:1:189_text",
+      "description": "Render text source \"root:1:189_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 153,
+      "node": "root:1:191_text",
+      "description": "Render text source \"root:1:191_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 154,
+      "node": "root:1:193_text",
+      "description": "Render text source \"root:1:193_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 155,
+      "node": "root:1:195_text",
+      "description": "Render text source \"root:1:195_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 156,
+      "node": "root:1:197_text",
+      "description": "Render text source \"root:1:197_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 157,
+      "node": "root:1:199_text",
+      "description": "Render text source \"root:1:199_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 158,
+      "node": "root:1:201_text",
+      "description": "Render text source \"root:1:201_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 159,
+      "node": "root:1:203_text",
+      "description": "Render text source \"root:1:203_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 160,
+      "node": "root:1:205_text",
+      "description": "Render text source \"root:1:205_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 161,
+      "node": "root:1:207_text",
+      "description": "Render text source \"root:1:207_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 162,
+      "node": "root:1:209_text",
+      "description": "Render text source \"root:1:209_text\" to image",
+      "elapsedMs": 89,
+      "exitCode": 0
+    },
+    {
+      "index": 163,
+      "node": "root:1:211_text",
+      "description": "Render text source \"root:1:211_text\" to image",
+      "elapsedMs": 77,
+      "exitCode": 0
+    },
+    {
+      "index": 164,
+      "node": "root:1:213_text",
+      "description": "Render text source \"root:1:213_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 165,
+      "node": "root:1:215_text",
+      "description": "Render text source \"root:1:215_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 166,
+      "node": "root:1:217_text",
+      "description": "Render text source \"root:1:217_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 167,
+      "node": "root:1:219_text",
+      "description": "Render text source \"root:1:219_text\" to image",
+      "elapsedMs": 83,
+      "exitCode": 0
+    },
+    {
+      "index": 168,
+      "node": "root:1:221_text",
+      "description": "Render text source \"root:1:221_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 169,
+      "node": "root:1:223_text",
+      "description": "Render text source \"root:1:223_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 170,
+      "node": "root:1:225_text",
+      "description": "Render text source \"root:1:225_text\" to image",
+      "elapsedMs": 76,
+      "exitCode": 0
+    },
+    {
+      "index": 171,
+      "node": "root:1:227_text",
+      "description": "Render text source \"root:1:227_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 172,
+      "node": "root:1:229_text",
+      "description": "Render text source \"root:1:229_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 173,
+      "node": "root:1:231_text",
+      "description": "Render text source \"root:1:231_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 174,
+      "node": "root:1:233_text",
+      "description": "Render text source \"root:1:233_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 175,
+      "node": "root:1:235_text",
+      "description": "Render text source \"root:1:235_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 176,
+      "node": "root:1:237_text",
+      "description": "Render text source \"root:1:237_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 177,
+      "node": "root:1:239_text",
+      "description": "Render text source \"root:1:239_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 178,
+      "node": "root:1:241_text",
+      "description": "Render text source \"root:1:241_text\" to image",
+      "elapsedMs": 69,
+      "exitCode": 0
+    },
+    {
+      "index": 179,
+      "node": "root:1:243_text",
+      "description": "Render text source \"root:1:243_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 180,
+      "node": "root:1:245_text",
+      "description": "Render text source \"root:1:245_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 181,
+      "node": "root:1:247_text",
+      "description": "Render text source \"root:1:247_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 182,
+      "node": "root:1:249_text",
+      "description": "Render text source \"root:1:249_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 183,
+      "node": "root:1:251_text",
+      "description": "Render text source \"root:1:251_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 184,
+      "node": "root:1:253_text",
+      "description": "Render text source \"root:1:253_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 185,
+      "node": "root:1:255_text",
+      "description": "Render text source \"root:1:255_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 186,
+      "node": "root:1:257_text",
+      "description": "Render text source \"root:1:257_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 187,
+      "node": "root:1:259_text",
+      "description": "Render text source \"root:1:259_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 188,
+      "node": "root:1:261_text",
+      "description": "Render text source \"root:1:261_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 189,
+      "node": "root:1:263_text",
+      "description": "Render text source \"root:1:263_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 190,
+      "node": "root:1:265_text",
+      "description": "Render text source \"root:1:265_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 191,
+      "node": "root:1:267_text",
+      "description": "Render text source \"root:1:267_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 192,
+      "node": "root:1:269_text",
+      "description": "Render text source \"root:1:269_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 193,
+      "node": "root:1:271_text",
+      "description": "Render text source \"root:1:271_text\" to image",
+      "elapsedMs": 69,
+      "exitCode": 0
+    },
+    {
+      "index": 194,
+      "node": "root:1:273_text",
+      "description": "Render text source \"root:1:273_text\" to image",
+      "elapsedMs": 81,
+      "exitCode": 0
+    },
+    {
+      "index": 195,
+      "node": "root:1:275_text",
+      "description": "Render text source \"root:1:275_text\" to image",
+      "elapsedMs": 82,
+      "exitCode": 0
+    },
+    {
+      "index": 196,
+      "node": "root:1:277_text",
+      "description": "Render text source \"root:1:277_text\" to image",
+      "elapsedMs": 85,
+      "exitCode": 0
+    },
+    {
+      "index": 197,
+      "node": "root:1:279_text",
+      "description": "Render text source \"root:1:279_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 198,
+      "node": "root:1:281_text",
+      "description": "Render text source \"root:1:281_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 199,
+      "node": "root:1:283_text",
+      "description": "Render text source \"root:1:283_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 200,
+      "node": "root:1:285_text",
+      "description": "Render text source \"root:1:285_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 201,
+      "node": "root:1:287_text",
+      "description": "Render text source \"root:1:287_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 202,
+      "node": "root:1:289_text",
+      "description": "Render text source \"root:1:289_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 203,
+      "node": "root:1:291_text",
+      "description": "Render text source \"root:1:291_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 204,
+      "node": "root:1:293_text",
+      "description": "Render text source \"root:1:293_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 205,
+      "node": "root:1:295_text",
+      "description": "Render text source \"root:1:295_text\" to image",
+      "elapsedMs": 80,
+      "exitCode": 0
+    },
+    {
+      "index": 206,
+      "node": "root:1:297_text",
+      "description": "Render text source \"root:1:297_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 207,
+      "node": "root:1:299_text",
+      "description": "Render text source \"root:1:299_text\" to image",
+      "elapsedMs": 69,
+      "exitCode": 0
+    },
+    {
+      "index": 208,
+      "node": "root:1:301_text",
+      "description": "Render text source \"root:1:301_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 209,
+      "node": "root:1:303_text",
+      "description": "Render text source \"root:1:303_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 210,
+      "node": "root:1:305_text",
+      "description": "Render text source \"root:1:305_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 211,
+      "node": "root:1:307_text",
+      "description": "Render text source \"root:1:307_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 212,
+      "node": "root:1:309_text",
+      "description": "Render text source \"root:1:309_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 213,
+      "node": "root:1:311_text",
+      "description": "Render text source \"root:1:311_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 214,
+      "node": "root:1:313_text",
+      "description": "Render text source \"root:1:313_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 215,
+      "node": "root:1:315_text",
+      "description": "Render text source \"root:1:315_text\" to image",
+      "elapsedMs": 68,
+      "exitCode": 0
+    },
+    {
+      "index": 216,
+      "node": "root:1:317_text",
+      "description": "Render text source \"root:1:317_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 217,
+      "node": "root:1:424_text",
+      "description": "Render text source \"root:1:424_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 218,
+      "node": "root:1:425_text",
+      "description": "Render text source \"root:1:425_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 219,
+      "node": "root:1:426_text",
+      "description": "Render text source \"root:1:426_text\" to image",
+      "elapsedMs": 86,
+      "exitCode": 0
+    },
+    {
+      "index": 220,
+      "node": "root:1:427_text",
+      "description": "Render text source \"root:1:427_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 221,
+      "node": "root:1:428_text",
+      "description": "Render text source \"root:1:428_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 222,
+      "node": "root:1:429_text",
+      "description": "Render text source \"root:1:429_text\" to image",
+      "elapsedMs": 69,
+      "exitCode": 0
+    },
+    {
+      "index": 223,
+      "node": "root:1:430_text",
+      "description": "Render text source \"root:1:430_text\" to image",
+      "elapsedMs": 85,
+      "exitCode": 0
+    },
+    {
+      "index": 224,
+      "node": "root:1:431_text",
+      "description": "Render text source \"root:1:431_text\" to image",
+      "elapsedMs": 88,
+      "exitCode": 0
+    },
+    {
+      "index": 225,
+      "node": "root:1:432_text",
+      "description": "Render text source \"root:1:432_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 226,
+      "node": "root:1:433_text",
+      "description": "Render text source \"root:1:433_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 227,
+      "node": "root:1:434_text",
+      "description": "Render text source \"root:1:434_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 228,
+      "node": "root:1:435_text",
+      "description": "Render text source \"root:1:435_text\" to image",
+      "elapsedMs": 81,
+      "exitCode": 0
+    },
+    {
+      "index": 229,
+      "node": "root:1:436_text",
+      "description": "Render text source \"root:1:436_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 230,
+      "node": "root:1:437_text",
+      "description": "Render text source \"root:1:437_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 231,
+      "node": "root:1:438_text",
+      "description": "Render text source \"root:1:438_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 232,
+      "node": "root:1:439_text",
+      "description": "Render text source \"root:1:439_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 233,
+      "node": "root:1:440_text",
+      "description": "Render text source \"root:1:440_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 234,
+      "node": "root:1:441_text",
+      "description": "Render text source \"root:1:441_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 235,
+      "node": "root:1:442_text",
+      "description": "Render text source \"root:1:442_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 236,
+      "node": "root:1:443_text",
+      "description": "Render text source \"root:1:443_text\" to image",
+      "elapsedMs": 83,
+      "exitCode": 0
+    },
+    {
+      "index": 237,
+      "node": "root:1:444_text",
+      "description": "Render text source \"root:1:444_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 238,
+      "node": "root:1:445_text",
+      "description": "Render text source \"root:1:445_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 239,
+      "node": "root:1:446_text",
+      "description": "Render text source \"root:1:446_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 240,
+      "node": "root:1:447_text",
+      "description": "Render text source \"root:1:447_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 241,
+      "node": "root:1:448_text",
+      "description": "Render text source \"root:1:448_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 242,
+      "node": "root:1:449_text",
+      "description": "Render text source \"root:1:449_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 243,
+      "node": "root:1:450_text",
+      "description": "Render text source \"root:1:450_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 244,
+      "node": "root:1:451_text",
+      "description": "Render text source \"root:1:451_text\" to image",
+      "elapsedMs": 68,
+      "exitCode": 0
+    },
+    {
+      "index": 245,
+      "node": "root:1:452_text",
+      "description": "Render text source \"root:1:452_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 246,
+      "node": "root:1:453_text",
+      "description": "Render text source \"root:1:453_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 247,
+      "node": "root:1:454_text",
+      "description": "Render text source \"root:1:454_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 248,
+      "node": "root:1:455_text",
+      "description": "Render text source \"root:1:455_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 249,
+      "node": "root:1:456_text",
+      "description": "Render text source \"root:1:456_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 250,
+      "node": "root:1:457_text",
+      "description": "Render text source \"root:1:457_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 251,
+      "node": "root:1:458_text",
+      "description": "Render text source \"root:1:458_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 252,
+      "node": "root:1:459_text",
+      "description": "Render text source \"root:1:459_text\" to image",
+      "elapsedMs": 83,
+      "exitCode": 0
+    },
+    {
+      "index": 253,
+      "node": "root:1:460_text",
+      "description": "Render text source \"root:1:460_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 254,
+      "node": "root:1:461_text",
+      "description": "Render text source \"root:1:461_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 255,
+      "node": "root:1:462_text",
+      "description": "Render text source \"root:1:462_text\" to image",
+      "elapsedMs": 76,
+      "exitCode": 0
+    },
+    {
+      "index": 256,
+      "node": "root:1:463_text",
+      "description": "Render text source \"root:1:463_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 257,
+      "node": "root:1:464_text",
+      "description": "Render text source \"root:1:464_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 258,
+      "node": "root:1:465_text",
+      "description": "Render text source \"root:1:465_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 259,
+      "node": "root:1:466_text",
+      "description": "Render text source \"root:1:466_text\" to image",
+      "elapsedMs": 78,
+      "exitCode": 0
+    },
+    {
+      "index": 260,
+      "node": "root:1:467_text",
+      "description": "Render text source \"root:1:467_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 261,
+      "node": "root:1:468_text",
+      "description": "Render text source \"root:1:468_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 262,
+      "node": "root:1:469_text",
+      "description": "Render text source \"root:1:469_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 263,
+      "node": "root:1:470_text",
+      "description": "Render text source \"root:1:470_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 264,
+      "node": "root:1:471_text",
+      "description": "Render text source \"root:1:471_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 265,
+      "node": "root:1:473_text",
+      "description": "Render text source \"root:1:473_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 266,
+      "node": "root:1:475_text",
+      "description": "Render text source \"root:1:475_text\" to image",
+      "elapsedMs": 69,
+      "exitCode": 0
+    },
+    {
+      "index": 267,
+      "node": "root:1:477_text",
+      "description": "Render text source \"root:1:477_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 268,
+      "node": "root:1:479_text",
+      "description": "Render text source \"root:1:479_text\" to image",
+      "elapsedMs": 83,
+      "exitCode": 0
+    },
+    {
+      "index": 269,
+      "node": "root:1:481_text",
+      "description": "Render text source \"root:1:481_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 270,
+      "node": "root:1:483_text",
+      "description": "Render text source \"root:1:483_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 271,
+      "node": "root:1:485_text",
+      "description": "Render text source \"root:1:485_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 272,
+      "node": "root:1:487_text",
+      "description": "Render text source \"root:1:487_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 273,
+      "node": "root:1:489_text",
+      "description": "Render text source \"root:1:489_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 274,
+      "node": "root:1:491_text",
+      "description": "Render text source \"root:1:491_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 275,
+      "node": "root:1:493_text",
+      "description": "Render text source \"root:1:493_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 276,
+      "node": "root:1:495_text",
+      "description": "Render text source \"root:1:495_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 277,
+      "node": "root:1:497_text",
+      "description": "Render text source \"root:1:497_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 278,
+      "node": "root:1:499_text",
+      "description": "Render text source \"root:1:499_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 279,
+      "node": "root:1:501_text",
+      "description": "Render text source \"root:1:501_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 280,
+      "node": "root:1:503_text",
+      "description": "Render text source \"root:1:503_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 281,
+      "node": "root:1:505_text",
+      "description": "Render text source \"root:1:505_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 282,
+      "node": "root:1:507_text",
+      "description": "Render text source \"root:1:507_text\" to image",
+      "elapsedMs": 84,
+      "exitCode": 0
+    },
+    {
+      "index": 283,
+      "node": "root:1:509_text",
+      "description": "Render text source \"root:1:509_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 284,
+      "node": "root:1:511_text",
+      "description": "Render text source \"root:1:511_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 285,
+      "node": "root:1:513_text",
+      "description": "Render text source \"root:1:513_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 286,
+      "node": "root:1:515_text",
+      "description": "Render text source \"root:1:515_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 287,
+      "node": "root:1:517_text",
+      "description": "Render text source \"root:1:517_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 288,
+      "node": "root:1:519_text",
+      "description": "Render text source \"root:1:519_text\" to image",
+      "elapsedMs": 78,
+      "exitCode": 0
+    },
+    {
+      "index": 289,
+      "node": "root:1:521_text",
+      "description": "Render text source \"root:1:521_text\" to image",
+      "elapsedMs": 69,
+      "exitCode": 0
+    },
+    {
+      "index": 290,
+      "node": "root:1:523_text",
+      "description": "Render text source \"root:1:523_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 291,
+      "node": "root:1:525_text",
+      "description": "Render text source \"root:1:525_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 292,
+      "node": "root:1:527_text",
+      "description": "Render text source \"root:1:527_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 293,
+      "node": "root:1:529_text",
+      "description": "Render text source \"root:1:529_text\" to image",
+      "elapsedMs": 87,
+      "exitCode": 0
+    },
+    {
+      "index": 294,
+      "node": "root:1:531_text",
+      "description": "Render text source \"root:1:531_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 295,
+      "node": "root:1:533_text",
+      "description": "Render text source \"root:1:533_text\" to image",
+      "elapsedMs": 75,
+      "exitCode": 0
+    },
+    {
+      "index": 296,
+      "node": "root:1:535_text",
+      "description": "Render text source \"root:1:535_text\" to image",
+      "elapsedMs": 68,
+      "exitCode": 0
+    },
+    {
+      "index": 297,
+      "node": "root:1:537_text",
+      "description": "Render text source \"root:1:537_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 298,
+      "node": "root:1:539_text",
+      "description": "Render text source \"root:1:539_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 299,
+      "node": "root:1:541_text",
+      "description": "Render text source \"root:1:541_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 300,
+      "node": "root:1:543_text",
+      "description": "Render text source \"root:1:543_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 301,
+      "node": "root:1:545_text",
+      "description": "Render text source \"root:1:545_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 302,
+      "node": "root:1:547_text",
+      "description": "Render text source \"root:1:547_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 303,
+      "node": "root:1:549_text",
+      "description": "Render text source \"root:1:549_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 304,
+      "node": "root:1:551_text",
+      "description": "Render text source \"root:1:551_text\" to image",
+      "elapsedMs": 73,
+      "exitCode": 0
+    },
+    {
+      "index": 305,
+      "node": "root:1:553_text",
+      "description": "Render text source \"root:1:553_text\" to image",
+      "elapsedMs": 70,
+      "exitCode": 0
+    },
+    {
+      "index": 306,
+      "node": "root:1:555_text",
+      "description": "Render text source \"root:1:555_text\" to image",
+      "elapsedMs": 74,
+      "exitCode": 0
+    },
+    {
+      "index": 307,
+      "node": "root:1:557_text",
+      "description": "Render text source \"root:1:557_text\" to image",
+      "elapsedMs": 72,
+      "exitCode": 0
+    },
+    {
+      "index": 308,
+      "node": "root:1:559_text",
+      "description": "Render text source \"root:1:559_text\" to image",
+      "elapsedMs": 107,
+      "exitCode": 0
+    },
+    {
+      "index": 309,
+      "node": "root:1:561_text",
+      "description": "Render text source \"root:1:561_text\" to image",
+      "elapsedMs": 89,
+      "exitCode": 0
+    },
+    {
+      "index": 310,
+      "node": "root:1:563_text",
+      "description": "Render text source \"root:1:563_text\" to image",
+      "elapsedMs": 84,
+      "exitCode": 0
+    },
+    {
+      "index": 311,
+      "node": "root:1:565_text",
+      "description": "Render text source \"root:1:565_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 312,
+      "node": "root:1:567_text",
+      "description": "Render text source \"root:1:567_text\" to image",
+      "elapsedMs": 71,
+      "exitCode": 0
+    },
+    {
+      "index": 313,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 6749,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 314,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 6612,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 315,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 1450,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 316,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 9796,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 317,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 9887,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 318,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 9816,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 319,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 10043,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 320,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 6677,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 321,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 13639,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 322,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 12243,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 323,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 1998,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 324,
+      "node": "root:1",
+      "description": "stitch 11 parts for root:1",
+      "elapsedMs": 1130,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 325,
+      "node": "root:2:0_text",
+      "description": "Render text source \"root:2:0_text\" to image",
+      "elapsedMs": 169,
+      "exitCode": 0
+    },
+    {
+      "index": 326,
+      "node": "root:2:1_text",
+      "description": "Render text source \"root:2:1_text\" to image",
+      "elapsedMs": 97,
+      "exitCode": 0
+    },
+    {
+      "index": 327,
+      "node": "root:2:2_text",
+      "description": "Render text source \"root:2:2_text\" to image",
+      "elapsedMs": 120,
+      "exitCode": 0
+    },
+    {
+      "index": 328,
+      "node": "root:2:3_text",
+      "description": "Render text source \"root:2:3_text\" to image",
+      "elapsedMs": 86,
+      "exitCode": 0
+    },
+    {
+      "index": 329,
+      "node": "root:2:4_text",
+      "description": "Render text source \"root:2:4_text\" to image",
+      "elapsedMs": 85,
+      "exitCode": 0
+    },
+    {
+      "index": 330,
+      "node": "root:2:5_text",
+      "description": "Render text source \"root:2:5_text\" to image",
+      "elapsedMs": 83,
+      "exitCode": 0
+    },
+    {
+      "index": 331,
+      "node": "root:2:6_text",
+      "description": "Render text source \"root:2:6_text\" to image",
+      "elapsedMs": 95,
+      "exitCode": 0
+    },
+    {
+      "index": 332,
+      "node": "root:2:7_text",
+      "description": "Render text source \"root:2:7_text\" to image",
+      "elapsedMs": 90,
+      "exitCode": 0
+    },
+    {
+      "index": 333,
+      "node": "root:2:8_text",
+      "description": "Render text source \"root:2:8_text\" to image",
+      "elapsedMs": 88,
+      "exitCode": 0
+    },
+    {
+      "index": 334,
+      "node": "root:2:9_text",
+      "description": "Render text source \"root:2:9_text\" to image",
+      "elapsedMs": 88,
+      "exitCode": 0
+    },
+    {
+      "index": 335,
+      "node": "root:2:10_text",
+      "description": "Render text source \"root:2:10_text\" to image",
+      "elapsedMs": 87,
+      "exitCode": 0
+    },
+    {
+      "index": 336,
+      "node": "root:2:11_text",
+      "description": "Render text source \"root:2:11_text\" to image",
+      "elapsedMs": 86,
+      "exitCode": 0
+    },
+    {
+      "index": 337,
+      "node": "root:2:12_text",
+      "description": "Render text source \"root:2:12_text\" to image",
+      "elapsedMs": 83,
+      "exitCode": 0
+    },
+    {
+      "index": 338,
+      "node": "root:2:13_text",
+      "description": "Render text source \"root:2:13_text\" to image",
+      "elapsedMs": 87,
+      "exitCode": 0
+    },
+    {
+      "index": 339,
+      "node": "root:2:14_text",
+      "description": "Render text source \"root:2:14_text\" to image",
+      "elapsedMs": 89,
+      "exitCode": 0
+    },
+    {
+      "index": 340,
+      "node": "root:2:15_text",
+      "description": "Render text source \"root:2:15_text\" to image",
+      "elapsedMs": 98,
+      "exitCode": 0
+    },
+    {
+      "index": 341,
+      "node": "root:2:16_text",
+      "description": "Render text source \"root:2:16_text\" to image",
+      "elapsedMs": 104,
+      "exitCode": 0
+    },
+    {
+      "index": 342,
+      "node": "root:2:17_text",
+      "description": "Render text source \"root:2:17_text\" to image",
+      "elapsedMs": 86,
+      "exitCode": 0
+    },
+    {
+      "index": 343,
+      "node": "root:2:18_text",
+      "description": "Render text source \"root:2:18_text\" to image",
+      "elapsedMs": 94,
+      "exitCode": 0
+    },
+    {
+      "index": 344,
+      "node": "root:2:19_text",
+      "description": "Render text source \"root:2:19_text\" to image",
+      "elapsedMs": 88,
+      "exitCode": 0
+    },
+    {
+      "index": 345,
+      "node": "root:2:20_text",
+      "description": "Render text source \"root:2:20_text\" to image",
+      "elapsedMs": 89,
+      "exitCode": 0
+    },
+    {
+      "index": 346,
+      "node": "root:2:21_text",
+      "description": "Render text source \"root:2:21_text\" to image",
+      "elapsedMs": 86,
+      "exitCode": 0
+    },
+    {
+      "index": 347,
+      "node": "root:2:22_text",
+      "description": "Render text source \"root:2:22_text\" to image",
+      "elapsedMs": 87,
+      "exitCode": 0
+    },
+    {
+      "index": 348,
+      "node": "root:2:23_text",
+      "description": "Render text source \"root:2:23_text\" to image",
+      "elapsedMs": 88,
+      "exitCode": 0
+    },
+    {
+      "index": 349,
+      "node": "root:2:24_text",
+      "description": "Render text source \"root:2:24_text\" to image",
+      "elapsedMs": 171,
+      "exitCode": 0
+    },
+    {
+      "index": 350,
+      "node": "root:2:25_text",
+      "description": "Render text source \"root:2:25_text\" to image",
+      "elapsedMs": 90,
+      "exitCode": 0
+    },
+    {
+      "index": 351,
+      "node": "root:2:26_text",
+      "description": "Render text source \"root:2:26_text\" to image",
+      "elapsedMs": 91,
+      "exitCode": 0
+    },
+    {
+      "index": 352,
+      "node": "root:2:27_text",
+      "description": "Render text source \"root:2:27_text\" to image",
+      "elapsedMs": 92,
+      "exitCode": 0
+    },
+    {
+      "index": 353,
+      "node": "root:2:28_text",
+      "description": "Render text source \"root:2:28_text\" to image",
+      "elapsedMs": 91,
+      "exitCode": 0
+    },
+    {
+      "index": 354,
+      "node": "root:2:29_text",
+      "description": "Render text source \"root:2:29_text\" to image",
+      "elapsedMs": 89,
+      "exitCode": 0
+    },
+    {
+      "index": 355,
+      "node": "root:2:30_text",
+      "description": "Render text source \"root:2:30_text\" to image",
+      "elapsedMs": 88,
+      "exitCode": 0
+    },
+    {
+      "index": 356,
+      "node": "root:2:31_text",
+      "description": "Render text source \"root:2:31_text\" to image",
+      "elapsedMs": 82,
+      "exitCode": 0
+    },
+    {
+      "index": 357,
+      "node": "root:2:32_text",
+      "description": "Render text source \"root:2:32_text\" to image",
+      "elapsedMs": 83,
+      "exitCode": 0
+    },
+    {
+      "index": 358,
+      "node": "root:2:33_text",
+      "description": "Render text source \"root:2:33_text\" to image",
+      "elapsedMs": 90,
+      "exitCode": 0
+    },
+    {
+      "index": 359,
+      "node": "root:2:34_text",
+      "description": "Render text source \"root:2:34_text\" to image",
+      "elapsedMs": 95,
+      "exitCode": 0
+    },
+    {
+      "index": 360,
+      "node": "root:2:35_text",
+      "description": "Render text source \"root:2:35_text\" to image",
+      "elapsedMs": 85,
+      "exitCode": 0
+    },
+    {
+      "index": 361,
+      "node": "root:2:36_text",
+      "description": "Render text source \"root:2:36_text\" to image",
+      "elapsedMs": 83,
+      "exitCode": 0
+    },
+    {
+      "index": 362,
+      "node": "root:2:37_text",
+      "description": "Render text source \"root:2:37_text\" to image",
+      "elapsedMs": 86,
+      "exitCode": 0
+    },
+    {
+      "index": 363,
+      "node": "root:2:38_text",
+      "description": "Render text source \"root:2:38_text\" to image",
+      "elapsedMs": 90,
+      "exitCode": 0
+    },
+    {
+      "index": 364,
+      "node": "root:2:39_text",
+      "description": "Render text source \"root:2:39_text\" to image",
+      "elapsedMs": 88,
+      "exitCode": 0
+    },
+    {
+      "index": 365,
+      "node": "root:2:40_text",
+      "description": "Render text source \"root:2:40_text\" to image",
+      "elapsedMs": 92,
+      "exitCode": 0
+    },
+    {
+      "index": 366,
+      "node": "root:2:41_text",
+      "description": "Render text source \"root:2:41_text\" to image",
+      "elapsedMs": 86,
+      "exitCode": 0
+    },
+    {
+      "index": 367,
+      "node": "root:2:42_text",
+      "description": "Render text source \"root:2:42_text\" to image",
+      "elapsedMs": 102,
+      "exitCode": 0
+    },
+    {
+      "index": 368,
+      "node": "root:2:43_text",
+      "description": "Render text source \"root:2:43_text\" to image",
+      "elapsedMs": 99,
+      "exitCode": 0
+    },
+    {
+      "index": 369,
+      "node": "root:2:44_text",
+      "description": "Render text source \"root:2:44_text\" to image",
+      "elapsedMs": 86,
+      "exitCode": 0
+    },
+    {
+      "index": 370,
+      "node": "root:2:45_text",
+      "description": "Render text source \"root:2:45_text\" to image",
+      "elapsedMs": 87,
+      "exitCode": 0
+    },
+    {
+      "index": 371,
+      "node": "root:2:46_text",
+      "description": "Render text source \"root:2:46_text\" to image",
+      "elapsedMs": 86,
+      "exitCode": 0
+    },
+    {
+      "index": 372,
+      "node": "root:2:47_text",
+      "description": "Render text source \"root:2:47_text\" to image",
+      "elapsedMs": 88,
+      "exitCode": 0
+    },
+    {
+      "index": 373,
+      "node": "root:2:48_text",
+      "description": "Render text source \"root:2:48_text\" to image",
+      "elapsedMs": 89,
+      "exitCode": 0
+    },
+    {
+      "index": 374,
+      "node": "root:2:49_text",
+      "description": "Render text source \"root:2:49_text\" to image",
+      "elapsedMs": 85,
+      "exitCode": 0
+    },
+    {
+      "index": 375,
+      "node": "root:2:50_text",
+      "description": "Render text source \"root:2:50_text\" to image",
+      "elapsedMs": 85,
+      "exitCode": 0
+    },
+    {
+      "index": 376,
+      "node": "root:2:51_text",
+      "description": "Render text source \"root:2:51_text\" to image",
+      "elapsedMs": 90,
+      "exitCode": 0
+    },
+    {
+      "index": 377,
+      "node": "root:2:52_text",
+      "description": "Render text source \"root:2:52_text\" to image",
+      "elapsedMs": 90,
+      "exitCode": 0
+    },
+    {
+      "index": 378,
+      "node": "root:2:53_text",
+      "description": "Render text source \"root:2:53_text\" to image",
+      "elapsedMs": 88,
+      "exitCode": 0
+    },
+    {
+      "index": 379,
+      "node": "root:2:54_text",
+      "description": "Render text source \"root:2:54_text\" to image",
+      "elapsedMs": 82,
+      "exitCode": 0
+    },
+    {
+      "index": 380,
+      "node": "root:2:55_text",
+      "description": "Render text source \"root:2:55_text\" to image",
+      "elapsedMs": 84,
+      "exitCode": 0
+    },
+    {
+      "index": 381,
+      "node": "root:2:56_text",
+      "description": "Render text source \"root:2:56_text\" to image",
+      "elapsedMs": 99,
+      "exitCode": 0
+    },
+    {
+      "index": 382,
+      "node": "root:2:57_text",
+      "description": "Render text source \"root:2:57_text\" to image",
+      "elapsedMs": 88,
+      "exitCode": 0
+    },
+    {
+      "index": 383,
+      "node": "root:2:58_text",
+      "description": "Render text source \"root:2:58_text\" to image",
+      "elapsedMs": 89,
+      "exitCode": 0
+    },
+    {
+      "index": 384,
+      "node": "root:2:59_text",
+      "description": "Render text source \"root:2:59_text\" to image",
+      "elapsedMs": 89,
+      "exitCode": 0
+    },
+    {
+      "index": 385,
+      "node": "root:2:60_text",
+      "description": "Render text source \"root:2:60_text\" to image",
+      "elapsedMs": 86,
+      "exitCode": 0
+    },
+    {
+      "index": 386,
+      "node": "root:2:61_text",
+      "description": "Render text source \"root:2:61_text\" to image",
+      "elapsedMs": 88,
+      "exitCode": 0
+    },
+    {
+      "index": 387,
+      "node": "root:2:62_text",
+      "description": "Render text source \"root:2:62_text\" to image",
+      "elapsedMs": 84,
+      "exitCode": 0
+    },
+    {
+      "index": 388,
+      "node": "root:2:63_text",
+      "description": "Render text source \"root:2:63_text\" to image",
+      "elapsedMs": 86,
+      "exitCode": 0
+    },
+    {
+      "index": 389,
+      "node": "root:2:64_text",
+      "description": "Render text source \"root:2:64_text\" to image",
+      "elapsedMs": 92,
+      "exitCode": 0
+    },
+    {
+      "index": 390,
+      "node": "root:2:65_text",
+      "description": "Render text source \"root:2:65_text\" to image",
+      "elapsedMs": 93,
+      "exitCode": 0
+    },
+    {
+      "index": 391,
+      "node": "root:2:66_text",
+      "description": "Render text source \"root:2:66_text\" to image",
+      "elapsedMs": 90,
+      "exitCode": 0
+    },
+    {
+      "index": 392,
+      "node": "root:2:67_text",
+      "description": "Render text source \"root:2:67_text\" to image",
+      "elapsedMs": 90,
+      "exitCode": 0
+    },
+    {
+      "index": 393,
+      "node": "root:2:68_text",
+      "description": "Render text source \"root:2:68_text\" to image",
+      "elapsedMs": 89,
+      "exitCode": 0
+    },
+    {
+      "index": 394,
+      "node": "root:2:69_text",
+      "description": "Render text source \"root:2:69_text\" to image",
+      "elapsedMs": 89,
+      "exitCode": 0
+    },
+    {
+      "index": 395,
+      "node": "root:2",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 115709,
+      "exitCode": 0,
+      "label": "dsl-narration"
+    },
+    {
+      "index": 396,
+      "node": "root:2",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 6707,
+      "exitCode": 0,
+      "label": "dsl-narration"
+    },
+    {
+      "index": 397,
+      "node": "root:2",
+      "description": "stitch 2 parts for root:2",
+      "elapsedMs": 428,
+      "exitCode": 0,
+      "label": "dsl-narration"
+    },
+    {
+      "index": 398,
+      "node": "root:3:0_text",
+      "description": "Render text source \"root:3:0_text\" to image",
+      "elapsedMs": 161,
+      "exitCode": 0
+    },
+    {
+      "index": 399,
+      "node": "root:3:1_text",
+      "description": "Render text source \"root:3:1_text\" to image",
+      "elapsedMs": 141,
+      "exitCode": 0
+    },
+    {
+      "index": 400,
+      "node": "root:3:2_text",
+      "description": "Render text source \"root:3:2_text\" to image",
+      "elapsedMs": 134,
+      "exitCode": 0
+    },
+    {
+      "index": 401,
+      "node": "root:3:3_text",
+      "description": "Render text source \"root:3:3_text\" to image",
+      "elapsedMs": 120,
+      "exitCode": 0
+    },
+    {
+      "index": 402,
+      "node": "root:3:4_text",
+      "description": "Render text source \"root:3:4_text\" to image",
+      "elapsedMs": 126,
+      "exitCode": 0
+    },
+    {
+      "index": 403,
+      "node": "root:3:5_text",
+      "description": "Render text source \"root:3:5_text\" to image",
+      "elapsedMs": 139,
+      "exitCode": 0
+    },
+    {
+      "index": 404,
+      "node": "root:3:6_text",
+      "description": "Render text source \"root:3:6_text\" to image",
+      "elapsedMs": 141,
+      "exitCode": 0
+    },
+    {
+      "index": 405,
+      "node": "root:3:7_text",
+      "description": "Render text source \"root:3:7_text\" to image",
+      "elapsedMs": 141,
+      "exitCode": 0
+    },
+    {
+      "index": 406,
+      "node": "root:3:8_text",
+      "description": "Render text source \"root:3:8_text\" to image",
+      "elapsedMs": 124,
+      "exitCode": 0
+    },
+    {
+      "index": 407,
+      "node": "root:3:9_text",
+      "description": "Render text source \"root:3:9_text\" to image",
+      "elapsedMs": 127,
+      "exitCode": 0
+    },
+    {
+      "index": 408,
+      "node": "root:3:10_text",
+      "description": "Render text source \"root:3:10_text\" to image",
+      "elapsedMs": 116,
+      "exitCode": 0
+    },
+    {
+      "index": 409,
+      "node": "root:3:11_text",
+      "description": "Render text source \"root:3:11_text\" to image",
+      "elapsedMs": 154,
+      "exitCode": 0
+    },
+    {
+      "index": 410,
+      "node": "root:3:12_text",
+      "description": "Render text source \"root:3:12_text\" to image",
+      "elapsedMs": 124,
+      "exitCode": 0
+    },
+    {
+      "index": 411,
+      "node": "root:3:13_text",
+      "description": "Render text source \"root:3:13_text\" to image",
+      "elapsedMs": 132,
+      "exitCode": 0
+    },
+    {
+      "index": 412,
+      "node": "root:3:14_text",
+      "description": "Render text source \"root:3:14_text\" to image",
+      "elapsedMs": 117,
+      "exitCode": 0
+    },
+    {
+      "index": 413,
+      "node": "root:3:15_text",
+      "description": "Render text source \"root:3:15_text\" to image",
+      "elapsedMs": 124,
+      "exitCode": 0
+    },
+    {
+      "index": 414,
+      "node": "root:3:16_text",
+      "description": "Render text source \"root:3:16_text\" to image",
+      "elapsedMs": 120,
+      "exitCode": 0
+    },
+    {
+      "index": 415,
+      "node": "root:3:17_text",
+      "description": "Render text source \"root:3:17_text\" to image",
+      "elapsedMs": 115,
+      "exitCode": 0
+    },
+    {
+      "index": 416,
+      "node": "root:3:18_text",
+      "description": "Render text source \"root:3:18_text\" to image",
+      "elapsedMs": 123,
+      "exitCode": 0
+    },
+    {
+      "index": 417,
+      "node": "root:3:19_text",
+      "description": "Render text source \"root:3:19_text\" to image",
+      "elapsedMs": 118,
+      "exitCode": 0
+    },
+    {
+      "index": 418,
+      "node": "root:3:20_text",
+      "description": "Render text source \"root:3:20_text\" to image",
+      "elapsedMs": 121,
+      "exitCode": 0
+    },
+    {
+      "index": 419,
+      "node": "root:3:21_text",
+      "description": "Render text source \"root:3:21_text\" to image",
+      "elapsedMs": 123,
+      "exitCode": 0
+    },
+    {
+      "index": 420,
+      "node": "root:3:22_text",
+      "description": "Render text source \"root:3:22_text\" to image",
+      "elapsedMs": 122,
+      "exitCode": 0
+    },
+    {
+      "index": 421,
+      "node": "root:3:23_text",
+      "description": "Render text source \"root:3:23_text\" to image",
+      "elapsedMs": 115,
+      "exitCode": 0
+    },
+    {
+      "index": 422,
+      "node": "root:3:24_text",
+      "description": "Render text source \"root:3:24_text\" to image",
+      "elapsedMs": 120,
+      "exitCode": 0
+    },
+    {
+      "index": 423,
+      "node": "root:3:25_text",
+      "description": "Render text source \"root:3:25_text\" to image",
+      "elapsedMs": 113,
+      "exitCode": 0
+    },
+    {
+      "index": 424,
+      "node": "root:3:26_text",
+      "description": "Render text source \"root:3:26_text\" to image",
+      "elapsedMs": 117,
+      "exitCode": 0
+    },
+    {
+      "index": 425,
+      "node": "root:3:27_text",
+      "description": "Render text source \"root:3:27_text\" to image",
+      "elapsedMs": 119,
+      "exitCode": 0
+    },
+    {
+      "index": 426,
+      "node": "root:3:28_text",
+      "description": "Render text source \"root:3:28_text\" to image",
+      "elapsedMs": 120,
+      "exitCode": 0
+    },
+    {
+      "index": 427,
+      "node": "root:3:29_text",
+      "description": "Render text source \"root:3:29_text\" to image",
+      "elapsedMs": 119,
+      "exitCode": 0
+    },
+    {
+      "index": 428,
+      "node": "root:3:30_text",
+      "description": "Render text source \"root:3:30_text\" to image",
+      "elapsedMs": 121,
+      "exitCode": 0
+    },
+    {
+      "index": 429,
+      "node": "root:3:31_text",
+      "description": "Render text source \"root:3:31_text\" to image",
+      "elapsedMs": 112,
+      "exitCode": 0
+    },
+    {
+      "index": 430,
+      "node": "root:3:32_text",
+      "description": "Render text source \"root:3:32_text\" to image",
+      "elapsedMs": 116,
+      "exitCode": 0
+    },
+    {
+      "index": 431,
+      "node": "root:3:33_text",
+      "description": "Render text source \"root:3:33_text\" to image",
+      "elapsedMs": 111,
+      "exitCode": 0
+    },
+    {
+      "index": 432,
+      "node": "root:3:34_text",
+      "description": "Render text source \"root:3:34_text\" to image",
+      "elapsedMs": 132,
+      "exitCode": 0
+    },
+    {
+      "index": 433,
+      "node": "root:3:35_text",
+      "description": "Render text source \"root:3:35_text\" to image",
+      "elapsedMs": 115,
+      "exitCode": 0
+    },
+    {
+      "index": 434,
+      "node": "root:3:36_text",
+      "description": "Render text source \"root:3:36_text\" to image",
+      "elapsedMs": 118,
+      "exitCode": 0
+    },
+    {
+      "index": 435,
+      "node": "root:3:37_text",
+      "description": "Render text source \"root:3:37_text\" to image",
+      "elapsedMs": 117,
+      "exitCode": 0
+    },
+    {
+      "index": 436,
+      "node": "root:3:38_text",
+      "description": "Render text source \"root:3:38_text\" to image",
+      "elapsedMs": 118,
+      "exitCode": 0
+    },
+    {
+      "index": 437,
+      "node": "root:3:39_text",
+      "description": "Render text source \"root:3:39_text\" to image",
+      "elapsedMs": 122,
+      "exitCode": 0
+    },
+    {
+      "index": 438,
+      "node": "root:3:40_text",
+      "description": "Render text source \"root:3:40_text\" to image",
+      "elapsedMs": 116,
+      "exitCode": 0
+    },
+    {
+      "index": 439,
+      "node": "root:3:41_text",
+      "description": "Render text source \"root:3:41_text\" to image",
+      "elapsedMs": 116,
+      "exitCode": 0
+    },
+    {
+      "index": 440,
+      "node": "root:3:42_text",
+      "description": "Render text source \"root:3:42_text\" to image",
+      "elapsedMs": 125,
+      "exitCode": 0
+    },
+    {
+      "index": 441,
+      "node": "root:3:43_text",
+      "description": "Render text source \"root:3:43_text\" to image",
+      "elapsedMs": 123,
+      "exitCode": 0
+    },
+    {
+      "index": 442,
+      "node": "root:3:44_text",
+      "description": "Render text source \"root:3:44_text\" to image",
+      "elapsedMs": 119,
+      "exitCode": 0
+    },
+    {
+      "index": 443,
+      "node": "root:3:45_text",
+      "description": "Render text source \"root:3:45_text\" to image",
+      "elapsedMs": 115,
+      "exitCode": 0
+    },
+    {
+      "index": 444,
+      "node": "root:3:46_text",
+      "description": "Render text source \"root:3:46_text\" to image",
+      "elapsedMs": 121,
+      "exitCode": 0
+    },
+    {
+      "index": 445,
+      "node": "root:3:47_text",
+      "description": "Render text source \"root:3:47_text\" to image",
+      "elapsedMs": 115,
+      "exitCode": 0
+    },
+    {
+      "index": 446,
+      "node": "root:3:48_text",
+      "description": "Render text source \"root:3:48_text\" to image",
+      "elapsedMs": 121,
+      "exitCode": 0
+    },
+    {
+      "index": 447,
+      "node": "root:3:49_text",
+      "description": "Render text source \"root:3:49_text\" to image",
+      "elapsedMs": 118,
+      "exitCode": 0
+    },
+    {
+      "index": 448,
+      "node": "root:3:50_text",
+      "description": "Render text source \"root:3:50_text\" to image",
+      "elapsedMs": 126,
+      "exitCode": 0
+    },
+    {
+      "index": 449,
+      "node": "root:3:51_text",
+      "description": "Render text source \"root:3:51_text\" to image",
+      "elapsedMs": 115,
+      "exitCode": 0
+    },
+    {
+      "index": 450,
+      "node": "root:3:52_text",
+      "description": "Render text source \"root:3:52_text\" to image",
+      "elapsedMs": 113,
+      "exitCode": 0
+    },
+    {
+      "index": 451,
+      "node": "root:3:53_text",
+      "description": "Render text source \"root:3:53_text\" to image",
+      "elapsedMs": 116,
+      "exitCode": 0
+    },
+    {
+      "index": 452,
+      "node": "root:3:54_text",
+      "description": "Render text source \"root:3:54_text\" to image",
+      "elapsedMs": 115,
+      "exitCode": 0
+    },
+    {
+      "index": 453,
+      "node": "root:3:55_text",
+      "description": "Render text source \"root:3:55_text\" to image",
+      "elapsedMs": 111,
+      "exitCode": 0
+    },
+    {
+      "index": 454,
+      "node": "root:3:56_text",
+      "description": "Render text source \"root:3:56_text\" to image",
+      "elapsedMs": 113,
+      "exitCode": 0
+    },
+    {
+      "index": 455,
+      "node": "root:3:57_text",
+      "description": "Render text source \"root:3:57_text\" to image",
+      "elapsedMs": 115,
+      "exitCode": 0
+    },
+    {
+      "index": 456,
+      "node": "root:3:58_text",
+      "description": "Render text source \"root:3:58_text\" to image",
+      "elapsedMs": 137,
+      "exitCode": 0
+    },
+    {
+      "index": 457,
+      "node": "root:3:59_text",
+      "description": "Render text source \"root:3:59_text\" to image",
+      "elapsedMs": 113,
+      "exitCode": 0
+    },
+    {
+      "index": 458,
+      "node": "root:3:60_text",
+      "description": "Render text source \"root:3:60_text\" to image",
+      "elapsedMs": 113,
+      "exitCode": 0
+    },
+    {
+      "index": 459,
+      "node": "root:3:61_text",
+      "description": "Render text source \"root:3:61_text\" to image",
+      "elapsedMs": 110,
+      "exitCode": 0
+    },
+    {
+      "index": 460,
+      "node": "root:3:62_text",
+      "description": "Render text source \"root:3:62_text\" to image",
+      "elapsedMs": 116,
+      "exitCode": 0
+    },
+    {
+      "index": 461,
+      "node": "root:3:63_text",
+      "description": "Render text source \"root:3:63_text\" to image",
+      "elapsedMs": 113,
+      "exitCode": 0
+    },
+    {
+      "index": 462,
+      "node": "root:3",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 37949,
+      "exitCode": 0,
+      "label": "canvas"
+    },
+    {
+      "index": 463,
+      "node": "root:3",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 1664,
+      "exitCode": 0,
+      "label": "canvas"
+    },
+    {
+      "index": 464,
+      "node": "root:3",
+      "description": "stitch 2 parts for root:3",
+      "elapsedMs": 648,
+      "exitCode": 0,
+      "label": "canvas"
+    },
+    {
+      "index": 465,
+      "node": "root:4:0_text",
+      "description": "Render text source \"root:4:0_text\" to image",
+      "elapsedMs": 127,
+      "exitCode": 0
+    },
+    {
+      "index": 466,
+      "node": "root:4:2_text",
+      "description": "Render text source \"root:4:2_text\" to image",
+      "elapsedMs": 103,
+      "exitCode": 0
+    },
+    {
+      "index": 467,
+      "node": "root:4:3_text",
+      "description": "Render text source \"root:4:3_text\" to image",
+      "elapsedMs": 97,
+      "exitCode": 0
+    },
+    {
+      "index": 468,
+      "node": "root:4:4_text",
+      "description": "Render text source \"root:4:4_text\" to image",
+      "elapsedMs": 94,
+      "exitCode": 0
+    },
+    {
+      "index": 469,
+      "node": "root:4:6_text",
+      "description": "Render text source \"root:4:6_text\" to image",
+      "elapsedMs": 90,
+      "exitCode": 0
+    },
+    {
+      "index": 470,
+      "node": "root:4:7_text",
+      "description": "Render text source \"root:4:7_text\" to image",
+      "elapsedMs": 93,
+      "exitCode": 0
+    },
+    {
+      "index": 471,
+      "node": "root:4:8_text",
+      "description": "Render text source \"root:4:8_text\" to image",
+      "elapsedMs": 96,
+      "exitCode": 0
+    },
+    {
+      "index": 472,
+      "node": "root:4:9_text",
+      "description": "Render text source \"root:4:9_text\" to image",
+      "elapsedMs": 94,
+      "exitCode": 0
+    },
+    {
+      "index": 473,
+      "node": "root:4:10_text",
+      "description": "Render text source \"root:4:10_text\" to image",
+      "elapsedMs": 93,
+      "exitCode": 0
+    },
+    {
+      "index": 474,
+      "node": "root:4:11_text",
+      "description": "Render text source \"root:4:11_text\" to image",
+      "elapsedMs": 90,
+      "exitCode": 0
+    },
+    {
+      "index": 475,
+      "node": "root:4:13_text",
+      "description": "Render text source \"root:4:13_text\" to video",
+      "elapsedMs": 148,
+      "exitCode": 0
+    },
+    {
+      "index": 476,
+      "node": "root:4:14_text",
+      "description": "Render text source \"root:4:14_text\" to image",
+      "elapsedMs": 97,
+      "exitCode": 0
+    },
+    {
+      "index": 477,
+      "node": "root:4:16_text",
+      "description": "Render text source \"root:4:16_text\" to video",
+      "elapsedMs": 124,
+      "exitCode": 0
+    },
+    {
+      "index": 478,
+      "node": "root:4:17_text",
+      "description": "Render text source \"root:4:17_text\" to image",
+      "elapsedMs": 92,
+      "exitCode": 0
+    },
+    {
+      "index": 479,
+      "node": "root:4:19_text",
+      "description": "Render text source \"root:4:19_text\" to video",
+      "elapsedMs": 123,
+      "exitCode": 0
+    },
+    {
+      "index": 480,
+      "node": "root:4:20_text",
+      "description": "Render text source \"root:4:20_text\" to image",
+      "elapsedMs": 93,
+      "exitCode": 0
+    },
+    {
+      "index": 481,
+      "node": "root:4:22_text",
+      "description": "Render text source \"root:4:22_text\" to video",
+      "elapsedMs": 125,
+      "exitCode": 0
+    },
+    {
+      "index": 482,
+      "node": "root:4:23_text",
+      "description": "Render text source \"root:4:23_text\" to image",
+      "elapsedMs": 94,
+      "exitCode": 0
+    },
+    {
+      "index": 483,
+      "node": "root:4:25_text",
+      "description": "Render text source \"root:4:25_text\" to video",
+      "elapsedMs": 121,
+      "exitCode": 0
+    },
+    {
+      "index": 484,
+      "node": "root:4:26_text",
+      "description": "Render text source \"root:4:26_text\" to image",
+      "elapsedMs": 96,
+      "exitCode": 0
+    },
+    {
+      "index": 485,
+      "node": "root:4:28_text",
+      "description": "Render text source \"root:4:28_text\" to image",
+      "elapsedMs": 90,
+      "exitCode": 0
+    },
+    {
+      "index": 486,
+      "node": "root:4:30_text",
+      "description": "Render text source \"root:4:30_text\" to image",
+      "elapsedMs": 101,
+      "exitCode": 0
+    },
+    {
+      "index": 487,
+      "node": "root:4:31_text",
+      "description": "Render text source \"root:4:31_text\" to image",
+      "elapsedMs": 94,
+      "exitCode": 0
+    },
+    {
+      "index": 488,
+      "node": "root:4:33_text",
+      "description": "Render text source \"root:4:33_text\" to video",
+      "elapsedMs": 123,
+      "exitCode": 0
+    },
+    {
+      "index": 489,
+      "node": "root:4:34_text",
+      "description": "Render text source \"root:4:34_text\" to image",
+      "elapsedMs": 94,
+      "exitCode": 0
+    },
+    {
+      "index": 490,
+      "node": "root:4:36_text",
+      "description": "Render text source \"root:4:36_text\" to video",
+      "elapsedMs": 158,
+      "exitCode": 0
+    },
+    {
+      "index": 491,
+      "node": "root:4:37_text",
+      "description": "Render text source \"root:4:37_text\" to image",
+      "elapsedMs": 105,
+      "exitCode": 0
+    },
+    {
+      "index": 492,
+      "node": "root:4:39_text",
+      "description": "Render text source \"root:4:39_text\" to video",
+      "elapsedMs": 119,
+      "exitCode": 0
+    },
+    {
+      "index": 493,
+      "node": "root:4",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 25778,
+      "exitCode": 0,
+      "label": "inspector"
+    },
+    {
+      "index": 494,
+      "node": "root:5:1_text",
+      "description": "Render text source \"root:5:1_text\" to image",
+      "elapsedMs": 137,
+      "exitCode": 0
+    },
+    {
+      "index": 495,
+      "node": "root:5:3_text",
+      "description": "Render text source \"root:5:3_text\" to image",
+      "elapsedMs": 104,
+      "exitCode": 0
+    },
+    {
+      "index": 496,
+      "node": "root:5:4_text",
+      "description": "Render text source \"root:5:4_text\" to image",
+      "elapsedMs": 94,
+      "exitCode": 0
+    },
+    {
+      "index": 497,
+      "node": "root:5:5_text",
+      "description": "Render text source \"root:5:5_text\" to image",
+      "elapsedMs": 102,
+      "exitCode": 0
+    },
+    {
+      "index": 498,
+      "node": "root:5:6_text",
+      "description": "Render text source \"root:5:6_text\" to image",
+      "elapsedMs": 105,
+      "exitCode": 0
+    },
+    {
+      "index": 499,
+      "node": "root:5:7_text",
+      "description": "Render text source \"root:5:7_text\" to image",
+      "elapsedMs": 101,
+      "exitCode": 0
+    },
+    {
+      "index": 500,
+      "node": "root:5:8_text",
+      "description": "Render text source \"root:5:8_text\" to image",
+      "elapsedMs": 98,
+      "exitCode": 0
+    },
+    {
+      "index": 501,
+      "node": "root:5:9_text",
+      "description": "Render text source \"root:5:9_text\" to image",
+      "elapsedMs": 97,
+      "exitCode": 0
+    },
+    {
+      "index": 502,
+      "node": "root:5:10_text",
+      "description": "Render text source \"root:5:10_text\" to image",
+      "elapsedMs": 95,
+      "exitCode": 0
+    },
+    {
+      "index": 503,
+      "node": "root:5:11_text",
+      "description": "Render text source \"root:5:11_text\" to image",
+      "elapsedMs": 93,
+      "exitCode": 0
+    },
+    {
+      "index": 504,
+      "node": "root:5:12_text",
+      "description": "Render text source \"root:5:12_text\" to image",
+      "elapsedMs": 97,
+      "exitCode": 0
+    },
+    {
+      "index": 505,
+      "node": "root:5:13_text",
+      "description": "Render text source \"root:5:13_text\" to image",
+      "elapsedMs": 99,
+      "exitCode": 0
+    },
+    {
+      "index": 506,
+      "node": "root:5:14_text",
+      "description": "Render text source \"root:5:14_text\" to image",
+      "elapsedMs": 95,
+      "exitCode": 0
+    },
+    {
+      "index": 507,
+      "node": "root:5:15_text",
+      "description": "Render text source \"root:5:15_text\" to image",
+      "elapsedMs": 92,
+      "exitCode": 0
+    },
+    {
+      "index": 508,
+      "node": "root:5:16_text",
+      "description": "Render text source \"root:5:16_text\" to image",
+      "elapsedMs": 106,
+      "exitCode": 0
+    },
+    {
+      "index": 509,
+      "node": "root:5:17_text",
+      "description": "Render text source \"root:5:17_text\" to image",
+      "elapsedMs": 94,
+      "exitCode": 0
+    },
+    {
+      "index": 510,
+      "node": "root:5:18_text",
+      "description": "Render text source \"root:5:18_text\" to image",
+      "elapsedMs": 91,
+      "exitCode": 0
+    },
+    {
+      "index": 511,
+      "node": "root:5",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 723,
+      "exitCode": 0,
+      "label": "chrome-status"
+    },
+    {
+      "index": 512,
+      "node": "root",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 4918,
+      "exitCode": 0
+    }
+  ],
+  "slowest": [
+    {
+      "index": 395,
+      "node": "root:2",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 115709,
+      "exitCode": 0,
+      "label": "dsl-narration"
+    },
+    {
+      "index": 462,
+      "node": "root:3",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 37949,
+      "exitCode": 0,
+      "label": "canvas"
+    },
+    {
+      "index": 493,
+      "node": "root:4",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 25778,
+      "exitCode": 0,
+      "label": "inspector"
+    },
+    {
+      "index": 321,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 13639,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 322,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 12243,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 319,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 10043,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 317,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 9887,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 318,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 9816,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 316,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 9796,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 313,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 6749,
+      "exitCode": 0,
+      "label": "dsl-string"
+    },
+    {
+      "index": 396,
+      "node": "root:2",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 6707,
+      "exitCode": 0,
+      "label": "dsl-narration"
+    },
+    {
+      "index": 320,
+      "node": "root:1",
+      "description": "m0saic render (mosaic node)",
+      "elapsedMs": 6677,
+      "exitCode": 0,
+      "label": "dsl-string"
+    }
+  ],
+  "byCategory": [
+    {
+      "description": "m0saic render (mosaic node)",
+      "count": 19,
+      "totalMs": 282835,
+      "pct": 86.4
+    },
+    {
+      "description": "Render text source \"…\" to image",
+      "count": 481,
+      "totalMs": 41313,
+      "pct": 12.6
+    },
+    {
+      "description": "Render text source \"…\" to video",
+      "count": 9,
+      "totalMs": 1180,
+      "pct": 0.4
+    },
+    {
+      "description": "stitch 11 parts for root:1",
+      "count": 1,
+      "totalMs": 1130,
+      "pct": 0.3
+    },
+    {
+      "description": "stitch 2 parts for root:3",
+      "count": 1,
+      "totalMs": 648,
+      "pct": 0.2
+    },
+    {
+      "description": "stitch 2 parts for root:2",
+      "count": 1,
+      "totalMs": 428,
+      "pct": 0.1
+    }
+  ],
+  "nodeTree": [
+    {
+      "node": "root",
+      "selfMs": 4918,
+      "subtreeMs": 327534,
+      "commandCount": 1,
+      "children": [
+        {
+          "node": "root:2",
+          "label": "dsl-narration",
+          "selfMs": 122844,
+          "subtreeMs": 129262,
+          "commandCount": 3,
+          "children": [
+            {
+              "node": "root:2:24_text",
+              "selfMs": 171,
+              "subtreeMs": 171,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:0_text",
+              "selfMs": 169,
+              "subtreeMs": 169,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:2_text",
+              "selfMs": 120,
+              "subtreeMs": 120,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:16_text",
+              "selfMs": 104,
+              "subtreeMs": 104,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:42_text",
+              "selfMs": 102,
+              "subtreeMs": 102,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:43_text",
+              "selfMs": 99,
+              "subtreeMs": 99,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:56_text",
+              "selfMs": 99,
+              "subtreeMs": 99,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:15_text",
+              "selfMs": 98,
+              "subtreeMs": 98,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:1_text",
+              "selfMs": 97,
+              "subtreeMs": 97,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:6_text",
+              "selfMs": 95,
+              "subtreeMs": 95,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:34_text",
+              "selfMs": 95,
+              "subtreeMs": 95,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:18_text",
+              "selfMs": 94,
+              "subtreeMs": 94,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:65_text",
+              "selfMs": 93,
+              "subtreeMs": 93,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:27_text",
+              "selfMs": 92,
+              "subtreeMs": 92,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:40_text",
+              "selfMs": 92,
+              "subtreeMs": 92,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:64_text",
+              "selfMs": 92,
+              "subtreeMs": 92,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:26_text",
+              "selfMs": 91,
+              "subtreeMs": 91,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:28_text",
+              "selfMs": 91,
+              "subtreeMs": 91,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:7_text",
+              "selfMs": 90,
+              "subtreeMs": 90,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:25_text",
+              "selfMs": 90,
+              "subtreeMs": 90,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:33_text",
+              "selfMs": 90,
+              "subtreeMs": 90,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:38_text",
+              "selfMs": 90,
+              "subtreeMs": 90,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:51_text",
+              "selfMs": 90,
+              "subtreeMs": 90,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:52_text",
+              "selfMs": 90,
+              "subtreeMs": 90,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:66_text",
+              "selfMs": 90,
+              "subtreeMs": 90,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:67_text",
+              "selfMs": 90,
+              "subtreeMs": 90,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:14_text",
+              "selfMs": 89,
+              "subtreeMs": 89,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:20_text",
+              "selfMs": 89,
+              "subtreeMs": 89,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:29_text",
+              "selfMs": 89,
+              "subtreeMs": 89,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:48_text",
+              "selfMs": 89,
+              "subtreeMs": 89,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:58_text",
+              "selfMs": 89,
+              "subtreeMs": 89,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:59_text",
+              "selfMs": 89,
+              "subtreeMs": 89,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:68_text",
+              "selfMs": 89,
+              "subtreeMs": 89,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:69_text",
+              "selfMs": 89,
+              "subtreeMs": 89,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:8_text",
+              "selfMs": 88,
+              "subtreeMs": 88,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:9_text",
+              "selfMs": 88,
+              "subtreeMs": 88,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:19_text",
+              "selfMs": 88,
+              "subtreeMs": 88,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:23_text",
+              "selfMs": 88,
+              "subtreeMs": 88,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:30_text",
+              "selfMs": 88,
+              "subtreeMs": 88,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:39_text",
+              "selfMs": 88,
+              "subtreeMs": 88,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:47_text",
+              "selfMs": 88,
+              "subtreeMs": 88,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:53_text",
+              "selfMs": 88,
+              "subtreeMs": 88,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:57_text",
+              "selfMs": 88,
+              "subtreeMs": 88,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:61_text",
+              "selfMs": 88,
+              "subtreeMs": 88,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:10_text",
+              "selfMs": 87,
+              "subtreeMs": 87,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:13_text",
+              "selfMs": 87,
+              "subtreeMs": 87,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:22_text",
+              "selfMs": 87,
+              "subtreeMs": 87,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:45_text",
+              "selfMs": 87,
+              "subtreeMs": 87,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:3_text",
+              "selfMs": 86,
+              "subtreeMs": 86,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:11_text",
+              "selfMs": 86,
+              "subtreeMs": 86,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:17_text",
+              "selfMs": 86,
+              "subtreeMs": 86,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:21_text",
+              "selfMs": 86,
+              "subtreeMs": 86,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:37_text",
+              "selfMs": 86,
+              "subtreeMs": 86,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:41_text",
+              "selfMs": 86,
+              "subtreeMs": 86,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:44_text",
+              "selfMs": 86,
+              "subtreeMs": 86,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:46_text",
+              "selfMs": 86,
+              "subtreeMs": 86,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:60_text",
+              "selfMs": 86,
+              "subtreeMs": 86,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:63_text",
+              "selfMs": 86,
+              "subtreeMs": 86,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:4_text",
+              "selfMs": 85,
+              "subtreeMs": 85,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:35_text",
+              "selfMs": 85,
+              "subtreeMs": 85,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:49_text",
+              "selfMs": 85,
+              "subtreeMs": 85,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:50_text",
+              "selfMs": 85,
+              "subtreeMs": 85,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:55_text",
+              "selfMs": 84,
+              "subtreeMs": 84,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:62_text",
+              "selfMs": 84,
+              "subtreeMs": 84,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:5_text",
+              "selfMs": 83,
+              "subtreeMs": 83,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:12_text",
+              "selfMs": 83,
+              "subtreeMs": 83,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:32_text",
+              "selfMs": 83,
+              "subtreeMs": 83,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:36_text",
+              "selfMs": 83,
+              "subtreeMs": 83,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:31_text",
+              "selfMs": 82,
+              "subtreeMs": 82,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:2:54_text",
+              "selfMs": 82,
+              "subtreeMs": 82,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "node": "root:1",
+          "label": "dsl-string",
+          "selfMs": 90040,
+          "subtreeMs": 113141,
+          "commandCount": 12,
+          "children": [
+            {
+              "node": "root:1:83_text",
+              "selfMs": 123,
+              "subtreeMs": 123,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:559_text",
+              "selfMs": 107,
+              "subtreeMs": 107,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:49_text",
+              "selfMs": 105,
+              "subtreeMs": 105,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:65_text",
+              "selfMs": 104,
+              "subtreeMs": 104,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:66_text",
+              "selfMs": 96,
+              "subtreeMs": 96,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:44_text",
+              "selfMs": 94,
+              "subtreeMs": 94,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:48_text",
+              "selfMs": 94,
+              "subtreeMs": 94,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:105_text",
+              "selfMs": 92,
+              "subtreeMs": 92,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:76_text",
+              "selfMs": 91,
+              "subtreeMs": 91,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:143_text",
+              "selfMs": 91,
+              "subtreeMs": 91,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:94_text",
+              "selfMs": 90,
+              "subtreeMs": 90,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:98_text",
+              "selfMs": 90,
+              "subtreeMs": 90,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:43_text",
+              "selfMs": 89,
+              "subtreeMs": 89,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:209_text",
+              "selfMs": 89,
+              "subtreeMs": 89,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:561_text",
+              "selfMs": 89,
+              "subtreeMs": 89,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:46_text",
+              "selfMs": 88,
+              "subtreeMs": 88,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:68_text",
+              "selfMs": 88,
+              "subtreeMs": 88,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:431_text",
+              "selfMs": 88,
+              "subtreeMs": 88,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:67_text",
+              "selfMs": 87,
+              "subtreeMs": 87,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:77_text",
+              "selfMs": 87,
+              "subtreeMs": 87,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:529_text",
+              "selfMs": 87,
+              "subtreeMs": 87,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:95_text",
+              "selfMs": 86,
+              "subtreeMs": 86,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:426_text",
+              "selfMs": 86,
+              "subtreeMs": 86,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:21_text",
+              "selfMs": 85,
+              "subtreeMs": 85,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:47_text",
+              "selfMs": 85,
+              "subtreeMs": 85,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:54_text",
+              "selfMs": 85,
+              "subtreeMs": 85,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:99_text",
+              "selfMs": 85,
+              "subtreeMs": 85,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:277_text",
+              "selfMs": 85,
+              "subtreeMs": 85,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:430_text",
+              "selfMs": 85,
+              "subtreeMs": 85,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:14_text",
+              "selfMs": 84,
+              "subtreeMs": 84,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:15_text",
+              "selfMs": 84,
+              "subtreeMs": 84,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:163_text",
+              "selfMs": 84,
+              "subtreeMs": 84,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:507_text",
+              "selfMs": 84,
+              "subtreeMs": 84,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:563_text",
+              "selfMs": 84,
+              "subtreeMs": 84,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:75_text",
+              "selfMs": 83,
+              "subtreeMs": 83,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:219_text",
+              "selfMs": 83,
+              "subtreeMs": 83,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:443_text",
+              "selfMs": 83,
+              "subtreeMs": 83,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:459_text",
+              "selfMs": 83,
+              "subtreeMs": 83,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:479_text",
+              "selfMs": 83,
+              "subtreeMs": 83,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:52_text",
+              "selfMs": 82,
+              "subtreeMs": 82,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:55_text",
+              "selfMs": 82,
+              "subtreeMs": 82,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:81_text",
+              "selfMs": 82,
+              "subtreeMs": 82,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:107_text",
+              "selfMs": 82,
+              "subtreeMs": 82,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:275_text",
+              "selfMs": 82,
+              "subtreeMs": 82,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:57_text",
+              "selfMs": 81,
+              "subtreeMs": 81,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:273_text",
+              "selfMs": 81,
+              "subtreeMs": 81,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:435_text",
+              "selfMs": 81,
+              "subtreeMs": 81,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:96_text",
+              "selfMs": 80,
+              "subtreeMs": 80,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:181_text",
+              "selfMs": 80,
+              "subtreeMs": 80,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:295_text",
+              "selfMs": 80,
+              "subtreeMs": 80,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:13_text",
+              "selfMs": 79,
+              "subtreeMs": 79,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:19_text",
+              "selfMs": 79,
+              "subtreeMs": 79,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:25_text",
+              "selfMs": 79,
+              "subtreeMs": 79,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:45_text",
+              "selfMs": 79,
+              "subtreeMs": 79,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:58_text",
+              "selfMs": 79,
+              "subtreeMs": 79,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:60_text",
+              "selfMs": 79,
+              "subtreeMs": 79,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:73_text",
+              "selfMs": 79,
+              "subtreeMs": 79,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:93_text",
+              "selfMs": 79,
+              "subtreeMs": 79,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:100_text",
+              "selfMs": 79,
+              "subtreeMs": 79,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:0_text",
+              "selfMs": 78,
+              "subtreeMs": 78,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:69_text",
+              "selfMs": 78,
+              "subtreeMs": 78,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:102_text",
+              "selfMs": 78,
+              "subtreeMs": 78,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:104_text",
+              "selfMs": 78,
+              "subtreeMs": 78,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:466_text",
+              "selfMs": 78,
+              "subtreeMs": 78,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:519_text",
+              "selfMs": 78,
+              "subtreeMs": 78,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:101_text",
+              "selfMs": 77,
+              "subtreeMs": 77,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:109_text",
+              "selfMs": 77,
+              "subtreeMs": 77,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:121_text",
+              "selfMs": 77,
+              "subtreeMs": 77,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:133_text",
+              "selfMs": 77,
+              "subtreeMs": 77,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:211_text",
+              "selfMs": 77,
+              "subtreeMs": 77,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:53_text",
+              "selfMs": 76,
+              "subtreeMs": 76,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:71_text",
+              "selfMs": 76,
+              "subtreeMs": 76,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:82_text",
+              "selfMs": 76,
+              "subtreeMs": 76,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:89_text",
+              "selfMs": 76,
+              "subtreeMs": 76,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:131_text",
+              "selfMs": 76,
+              "subtreeMs": 76,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:225_text",
+              "selfMs": 76,
+              "subtreeMs": 76,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:462_text",
+              "selfMs": 76,
+              "subtreeMs": 76,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:26_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:84_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:159_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:237_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:297_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:433_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:437_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:455_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:525_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:533_text",
+              "selfMs": 75,
+              "subtreeMs": 75,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:2_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:3_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:5_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:6_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:8_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:38_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:61_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:86_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:88_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:113_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:119_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:141_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:167_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:173_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:195_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:223_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:247_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:255_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:261_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:269_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:289_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:291_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:293_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:427_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:432_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:439_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:444_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:456_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:473_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:483_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:497_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:503_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:511_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:513_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:523_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:547_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:555_text",
+              "selfMs": 74,
+              "subtreeMs": 74,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:4_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:10_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:11_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:17_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:22_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:24_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:29_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:30_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:32_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:33_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:59_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:62_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:63_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:64_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:79_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:91_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:127_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:165_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:179_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:193_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:217_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:253_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:283_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:303_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:305_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:317_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:440_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:441_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:442_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:453_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:454_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:461_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:464_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:467_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:481_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:485_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:489_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:495_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:517_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:527_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:539_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:545_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:549_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:551_text",
+              "selfMs": 73,
+              "subtreeMs": 73,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:1_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:7_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:9_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:18_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:36_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:37_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:40_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:41_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:80_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:87_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:111_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:129_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:135_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:145_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:149_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:151_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:153_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:157_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:171_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:175_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:187_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:199_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:201_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:203_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:215_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:231_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:233_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:249_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:251_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:259_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:267_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:281_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:301_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:311_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:313_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:424_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:434_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:436_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:447_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:448_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:450_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:457_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:458_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:465_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:487_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:493_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:501_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:557_text",
+              "selfMs": 72,
+              "subtreeMs": 72,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:12_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:20_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:23_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:31_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:34_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:35_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:50_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:90_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:97_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:115_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:117_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:125_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:137_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:139_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:147_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:155_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:161_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:169_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:177_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:183_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:185_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:207_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:221_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:227_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:229_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:235_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:239_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:245_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:265_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:285_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:287_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:309_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:428_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:438_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:445_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:446_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:449_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:460_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:463_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:468_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:469_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:471_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:509_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:515_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:531_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:537_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:541_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:565_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:567_text",
+              "selfMs": 71,
+              "subtreeMs": 71,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:16_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:28_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:39_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:56_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:70_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:72_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:74_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:85_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:103_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:189_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:191_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:197_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:205_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:213_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:243_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:257_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:263_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:279_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:307_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:425_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:452_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:470_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:477_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:491_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:499_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:505_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:543_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:553_text",
+              "selfMs": 70,
+              "subtreeMs": 70,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:27_text",
+              "selfMs": 69,
+              "subtreeMs": 69,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:42_text",
+              "selfMs": 69,
+              "subtreeMs": 69,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:51_text",
+              "selfMs": 69,
+              "subtreeMs": 69,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:92_text",
+              "selfMs": 69,
+              "subtreeMs": 69,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:123_text",
+              "selfMs": 69,
+              "subtreeMs": 69,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:241_text",
+              "selfMs": 69,
+              "subtreeMs": 69,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:271_text",
+              "selfMs": 69,
+              "subtreeMs": 69,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:299_text",
+              "selfMs": 69,
+              "subtreeMs": 69,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:429_text",
+              "selfMs": 69,
+              "subtreeMs": 69,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:475_text",
+              "selfMs": 69,
+              "subtreeMs": 69,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:521_text",
+              "selfMs": 69,
+              "subtreeMs": 69,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:78_text",
+              "selfMs": 68,
+              "subtreeMs": 68,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:315_text",
+              "selfMs": 68,
+              "subtreeMs": 68,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:451_text",
+              "selfMs": 68,
+              "subtreeMs": 68,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:1:535_text",
+              "selfMs": 68,
+              "subtreeMs": 68,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "node": "root:3",
+          "label": "canvas",
+          "selfMs": 40261,
+          "subtreeMs": 48044,
+          "commandCount": 3,
+          "children": [
+            {
+              "node": "root:3:0_text",
+              "selfMs": 161,
+              "subtreeMs": 161,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:11_text",
+              "selfMs": 154,
+              "subtreeMs": 154,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:1_text",
+              "selfMs": 141,
+              "subtreeMs": 141,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:6_text",
+              "selfMs": 141,
+              "subtreeMs": 141,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:7_text",
+              "selfMs": 141,
+              "subtreeMs": 141,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:5_text",
+              "selfMs": 139,
+              "subtreeMs": 139,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:58_text",
+              "selfMs": 137,
+              "subtreeMs": 137,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:2_text",
+              "selfMs": 134,
+              "subtreeMs": 134,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:13_text",
+              "selfMs": 132,
+              "subtreeMs": 132,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:34_text",
+              "selfMs": 132,
+              "subtreeMs": 132,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:9_text",
+              "selfMs": 127,
+              "subtreeMs": 127,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:4_text",
+              "selfMs": 126,
+              "subtreeMs": 126,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:50_text",
+              "selfMs": 126,
+              "subtreeMs": 126,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:42_text",
+              "selfMs": 125,
+              "subtreeMs": 125,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:8_text",
+              "selfMs": 124,
+              "subtreeMs": 124,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:12_text",
+              "selfMs": 124,
+              "subtreeMs": 124,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:15_text",
+              "selfMs": 124,
+              "subtreeMs": 124,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:18_text",
+              "selfMs": 123,
+              "subtreeMs": 123,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:21_text",
+              "selfMs": 123,
+              "subtreeMs": 123,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:43_text",
+              "selfMs": 123,
+              "subtreeMs": 123,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:22_text",
+              "selfMs": 122,
+              "subtreeMs": 122,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:39_text",
+              "selfMs": 122,
+              "subtreeMs": 122,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:20_text",
+              "selfMs": 121,
+              "subtreeMs": 121,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:30_text",
+              "selfMs": 121,
+              "subtreeMs": 121,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:46_text",
+              "selfMs": 121,
+              "subtreeMs": 121,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:48_text",
+              "selfMs": 121,
+              "subtreeMs": 121,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:3_text",
+              "selfMs": 120,
+              "subtreeMs": 120,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:16_text",
+              "selfMs": 120,
+              "subtreeMs": 120,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:24_text",
+              "selfMs": 120,
+              "subtreeMs": 120,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:28_text",
+              "selfMs": 120,
+              "subtreeMs": 120,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:27_text",
+              "selfMs": 119,
+              "subtreeMs": 119,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:29_text",
+              "selfMs": 119,
+              "subtreeMs": 119,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:44_text",
+              "selfMs": 119,
+              "subtreeMs": 119,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:19_text",
+              "selfMs": 118,
+              "subtreeMs": 118,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:36_text",
+              "selfMs": 118,
+              "subtreeMs": 118,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:38_text",
+              "selfMs": 118,
+              "subtreeMs": 118,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:49_text",
+              "selfMs": 118,
+              "subtreeMs": 118,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:14_text",
+              "selfMs": 117,
+              "subtreeMs": 117,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:26_text",
+              "selfMs": 117,
+              "subtreeMs": 117,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:37_text",
+              "selfMs": 117,
+              "subtreeMs": 117,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:10_text",
+              "selfMs": 116,
+              "subtreeMs": 116,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:32_text",
+              "selfMs": 116,
+              "subtreeMs": 116,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:40_text",
+              "selfMs": 116,
+              "subtreeMs": 116,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:41_text",
+              "selfMs": 116,
+              "subtreeMs": 116,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:53_text",
+              "selfMs": 116,
+              "subtreeMs": 116,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:62_text",
+              "selfMs": 116,
+              "subtreeMs": 116,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:17_text",
+              "selfMs": 115,
+              "subtreeMs": 115,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:23_text",
+              "selfMs": 115,
+              "subtreeMs": 115,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:35_text",
+              "selfMs": 115,
+              "subtreeMs": 115,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:45_text",
+              "selfMs": 115,
+              "subtreeMs": 115,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:47_text",
+              "selfMs": 115,
+              "subtreeMs": 115,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:51_text",
+              "selfMs": 115,
+              "subtreeMs": 115,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:54_text",
+              "selfMs": 115,
+              "subtreeMs": 115,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:57_text",
+              "selfMs": 115,
+              "subtreeMs": 115,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:25_text",
+              "selfMs": 113,
+              "subtreeMs": 113,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:52_text",
+              "selfMs": 113,
+              "subtreeMs": 113,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:56_text",
+              "selfMs": 113,
+              "subtreeMs": 113,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:59_text",
+              "selfMs": 113,
+              "subtreeMs": 113,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:60_text",
+              "selfMs": 113,
+              "subtreeMs": 113,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:63_text",
+              "selfMs": 113,
+              "subtreeMs": 113,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:31_text",
+              "selfMs": 112,
+              "subtreeMs": 112,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:33_text",
+              "selfMs": 111,
+              "subtreeMs": 111,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:55_text",
+              "selfMs": 111,
+              "subtreeMs": 111,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:3:61_text",
+              "selfMs": 110,
+              "subtreeMs": 110,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "node": "root:4",
+          "label": "inspector",
+          "selfMs": 25778,
+          "subtreeMs": 28752,
+          "commandCount": 1,
+          "children": [
+            {
+              "node": "root:4:36_text",
+              "selfMs": 158,
+              "subtreeMs": 158,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:13_text",
+              "selfMs": 148,
+              "subtreeMs": 148,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:0_text",
+              "selfMs": 127,
+              "subtreeMs": 127,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:22_text",
+              "selfMs": 125,
+              "subtreeMs": 125,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:16_text",
+              "selfMs": 124,
+              "subtreeMs": 124,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:19_text",
+              "selfMs": 123,
+              "subtreeMs": 123,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:33_text",
+              "selfMs": 123,
+              "subtreeMs": 123,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:25_text",
+              "selfMs": 121,
+              "subtreeMs": 121,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:39_text",
+              "selfMs": 119,
+              "subtreeMs": 119,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:37_text",
+              "selfMs": 105,
+              "subtreeMs": 105,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:2_text",
+              "selfMs": 103,
+              "subtreeMs": 103,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:30_text",
+              "selfMs": 101,
+              "subtreeMs": 101,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:3_text",
+              "selfMs": 97,
+              "subtreeMs": 97,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:14_text",
+              "selfMs": 97,
+              "subtreeMs": 97,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:8_text",
+              "selfMs": 96,
+              "subtreeMs": 96,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:26_text",
+              "selfMs": 96,
+              "subtreeMs": 96,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:4_text",
+              "selfMs": 94,
+              "subtreeMs": 94,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:9_text",
+              "selfMs": 94,
+              "subtreeMs": 94,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:23_text",
+              "selfMs": 94,
+              "subtreeMs": 94,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:31_text",
+              "selfMs": 94,
+              "subtreeMs": 94,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:34_text",
+              "selfMs": 94,
+              "subtreeMs": 94,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:7_text",
+              "selfMs": 93,
+              "subtreeMs": 93,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:10_text",
+              "selfMs": 93,
+              "subtreeMs": 93,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:20_text",
+              "selfMs": 93,
+              "subtreeMs": 93,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:17_text",
+              "selfMs": 92,
+              "subtreeMs": 92,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:6_text",
+              "selfMs": 90,
+              "subtreeMs": 90,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:11_text",
+              "selfMs": 90,
+              "subtreeMs": 90,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:4:28_text",
+              "selfMs": 90,
+              "subtreeMs": 90,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "node": "root:5",
+          "label": "chrome-status",
+          "selfMs": 723,
+          "subtreeMs": 2423,
+          "commandCount": 1,
+          "children": [
+            {
+              "node": "root:5:1_text",
+              "selfMs": 137,
+              "subtreeMs": 137,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:16_text",
+              "selfMs": 106,
+              "subtreeMs": 106,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:6_text",
+              "selfMs": 105,
+              "subtreeMs": 105,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:3_text",
+              "selfMs": 104,
+              "subtreeMs": 104,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:5_text",
+              "selfMs": 102,
+              "subtreeMs": 102,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:7_text",
+              "selfMs": 101,
+              "subtreeMs": 101,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:13_text",
+              "selfMs": 99,
+              "subtreeMs": 99,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:8_text",
+              "selfMs": 98,
+              "subtreeMs": 98,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:9_text",
+              "selfMs": 97,
+              "subtreeMs": 97,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:12_text",
+              "selfMs": 97,
+              "subtreeMs": 97,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:10_text",
+              "selfMs": 95,
+              "subtreeMs": 95,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:14_text",
+              "selfMs": 95,
+              "subtreeMs": 95,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:4_text",
+              "selfMs": 94,
+              "subtreeMs": 94,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:17_text",
+              "selfMs": 94,
+              "subtreeMs": 94,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:11_text",
+              "selfMs": 93,
+              "subtreeMs": 93,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:15_text",
+              "selfMs": 92,
+              "subtreeMs": 92,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:5:18_text",
+              "selfMs": 91,
+              "subtreeMs": 91,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "node": "root:0",
+          "label": "chrome-header",
+          "selfMs": 477,
+          "subtreeMs": 994,
+          "commandCount": 1,
+          "children": [
+            {
+              "node": "root:0:1_text",
+              "selfMs": 279,
+              "subtreeMs": 279,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:0:5_text",
+              "selfMs": 139,
+              "subtreeMs": 139,
+              "commandCount": 1,
+              "children": []
+            },
+            {
+              "node": "root:0:3_text",
+              "selfMs": 99,
+              "subtreeMs": 99,
+              "commandCount": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hotPath": [
+    {
+      "node": "root",
+      "selfMs": 4918,
+      "subtreeMs": 327534,
+      "pct": 100
+    },
+    {
+      "node": "root:2",
+      "label": "dsl-narration",
+      "selfMs": 122844,
+      "subtreeMs": 129262,
+      "pct": 39.5
+    }
+  ]
+}

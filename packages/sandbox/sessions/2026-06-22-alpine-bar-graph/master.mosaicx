@@ -1,0 +1,4 @@
+{"kind":"mosaicx_document","version":1,"m0":"F","assets":{},"size":{"width":1280,"height":800},"fps":30,"durationMs":2000,
+"sources":[{"type":"template_invocation","templateId":"@m0saic/alpine/bar-graph/v1","props":{
+"title":"BAR CHART","subtitle":"Sales by Channel","values":[12400,8700,5600,2100,1200],
+"labels":["Email","Twitter","Reddit","Hacker News","Other"]}}]}

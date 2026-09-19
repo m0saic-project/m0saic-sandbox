@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "mode": "render",
+  "ok": true,
+  "exitCode": 0,
+  "run": {
+    "id": "701509a5-8941-4a8f-ae0d-a94769fd639b",
+    "startedAtIso": "2026-07-01T14:32:18.291Z",
+    "finishedAtIso": "2026-07-01T14:37:46.547Z",
+    "elapsedMs": 328256
+  },
+  "versions": {
+    "cli": {
+      "name": "mosaic-desktop",
+      "version": "0.1.0"
+    },
+    "engine": {
+      "name": "@m0saic/core",
+      "version": "0.1.0"
+    },
+    "dsl": {
+      "name": "@m0saic/dsl",
+      "version": "1.1.0"
+    },
+    "packages": {
+      "@m0saic/templates": "0.1.0",
+      "@m0saic/types": "0.1.0"
+    },
+    "ffmpeg": {
+      "baseline": {
+        "snapshot": "N-124278-gcc3ca17127-20260430",
+        "profile": "lgpl",
+        "libx264": false,
+        "source": "BtbN"
+      },
+      "runtime": {
+        "found": true,
+        "version": "ffmpeg version 8.0.1 Copyright (c) 2000-2025 the FFmpeg developers",
+        "libx264": true
+      }
+    },
+    "ffprobe": {
+      "runtime": {
+        "found": true,
+        "version": "ffprobe version 8.0.1 Copyright (c) 2007-2025 the FFmpeg developers"
+      }
+    }
+  },
+  "paths": {
+    "cwd": {
+      "path": ".",
+      "absolutePath": "<repo>/apps/mosaic"
+    },
+    "output": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/candidate-034-2-1920x1080.mp4",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/candidate-034-2-1920x1080.mp4"
+    },
+    "savedMosaic": {
+      "path": "<sandbox>/sessions/2026-06-28-dsl-tutorial/./candidate-034-1920x1080.mosaic",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/candidate-034-1920x1080.mosaic",
+      "sha256": "389195ed8b2454be14b47d21ecb7e801268b7687ca626ce9099dfc01c5e76ee5"
+    },
+    "savedPlan": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/candidate-034-2-1920x1080.mosaic-plan.json",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/candidate-034-2-1920x1080.mosaic-plan.json"
+    },
+    "savedM0": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/candidate-034-2-1920x1080.m0",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/candidate-034-2-1920x1080.m0"
+    },
+    "savedFlattenedM0": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/candidate-034-2-1920x1080.flattened.m0",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/candidate-034-2-1920x1080.flattened.m0"
+    },
+    "savedCommands": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/candidate-034-2-1920x1080.commands.json",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/candidate-034-2-1920x1080.commands.json"
+    },
+    "perf": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/candidate-034-2-1920x1080.perf.json",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/candidate-034-2-1920x1080.perf.json"
+    },
+    "perfMd": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/candidate-034-2-1920x1080.perf.md",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/candidate-034-2-1920x1080.perf.md"
+    },
+    "reportFile": {
+      "path": "../../packages/sandbox/sessions/2026-06-28-dsl-tutorial/candidate-034-2-1920x1080.output.json",
+      "absolutePath": "<sandbox>/sessions/2026-06-28-dsl-tutorial/candidate-034-2-1920x1080.output.json"
+    }
+  },
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationMs": 12000
+  },
+  "template": {
+    "id": "@m0saic/dsl-tutorial/v1",
+    "props": {
+      "M0String": "8[8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F)]",
+      "speedMultiplier": 1,
+      "preset": "dark",
+      "stepEvents": "enter+leaf",
+      "showChrome": true,
+      "canvasWidth": 1080,
+      "canvasHeight": 1920
+    }
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "code": "ffmpeg-version-mismatch",
+      "message": "Runtime FFmpeg differs from the m0saic baseline snapshot.",
+      "details": {
+        "baselineSnapshot": "N-124278-gcc3ca17127-20260430",
+        "runtimeVersion": "ffmpeg version 8.0.1 Copyright (c) 2000-2025 the FFmpeg developers"
+      }
+    },
+    {
+      "code": "ffmpeg-capability-diff",
+      "message": "Runtime FFmpeg capabilities differ from the m0saic baseline.",
+      "details": {
+        "baselineLibx264": false,
+        "runtimeLibx264": true,
+        "interpretation": "runtime-enhanced",
+        "severity": "info"
+      }
+    }
+  ]
+}

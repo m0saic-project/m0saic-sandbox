@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 6000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/fin/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-25-ffmpeg-pulse-fin", "basename": "master" },
+  "agent": { "note": "MASTER — @m0saic/hero/ffmpeg-pulse/fin/v1 (closing card). Centered THANK YOU + subhead, KPI strip (nested stat-cards), BAKED premium QR (chromeAssets.qrFin = green qr-carve + FFmpeg logo, v8, re-bake via _shared/assets/bake-fin-qr.sh), m0saic.io attribution bottom-right + Built-with-m0saic footer, over scatter. 6s clip; cheap (m0 ~4K, QR baked). 6 unit tests; internal beat. Preview + postmortem set." }
+}

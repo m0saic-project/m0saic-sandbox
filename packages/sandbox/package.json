@@ -1,0 +1,25 @@
+{
+  "name": "@m0saic/sandbox",
+  "version": "0.2.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "description": "Personal iteration-session corpus — stores the .m0 / .m0c files that build up when iterating on layouts with an agent. Each session directory is a chronological set of candidates, browseable like a chess endgame book.",
+  "keywords": [
+    "agent-corpus",
+    "iteration-session",
+    "layout-pattern-bank"
+  ],
+  "author": "m0saic LLC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m0saic-project/m0saic-sandbox.git",
+    "directory": "packages/sandbox"
+  },
+  "homepage": "https://github.com/m0saic-project/m0saic-sandbox/tree/main/packages/sandbox#readme",
+  "bugs": {
+    "url": "https://github.com/m0saic-project/m0saic-sandbox/issues"
+  },
+  "m0saic": {
+    "channel": "mirror-only"
+  }
+}

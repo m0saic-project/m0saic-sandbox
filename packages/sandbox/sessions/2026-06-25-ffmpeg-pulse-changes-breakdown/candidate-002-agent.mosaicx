@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 9000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/changes-breakdown/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-25-ffmpeg-pulse-changes-breakdown", "basename": "candidate-002" },
+  "agent": { "note": "candidate-001 feedback fixed — both were the SAME root cause (insetNode quantization at sizes that don't divide evenly). (1) ICON not centered on desktop: the glyph's insetNode margins spread the remainder INTO the tiny glyph rect, shoving it off-center/right. (2) SQUARE KPI value cut off: insetNode crushed the value BAND from 59px to 38px, so the 55px digits clipped top+bottom. FIX (per your placeRect tip): the stat-card now positions EVERY element via placeRect (exact-pixel rect + null-tile margins, which never distort the placed rect) instead of insetNode. Verified geometrically: icon dx=dy=0 + square, value font<=band at all aspects. Benefits ALL beats' rails (1-4); 9 stat-card tests pass. Mobile title clip (CHANGES BREAKDOWN) also fixed earlier. Render one-liners in .scratch/share.md.", "question": "Render from .scratch/share.md and check: icon centered in the chips + the Net Changes value no longer clipped (esp. square)? Good to lock Beat 4?" }
+}

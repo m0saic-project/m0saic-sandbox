@@ -1,0 +1,39 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "2[7(1,0,1,1,1,1,1),9(1,1,1,1,1,0,1,1,1)]",
+        "speedMultiplier": 1,
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-031"
+  },
+  "agent": {
+    "note": "**Two fixes: the info bar cut-off (template) + the black-canvas preview (app).**\n\n**1 · Info bar — fits + tighter.** Each metric's label/value bands are now sized to their CHAR COUNT (not a fixed split), and the metric font is a touch smaller — so nothing clips: `canvas 1920×1080` and `min feasible 9×2 px` render in full. Metrics sit **closer to `Parsing`** (tightened the gap after the divider). *(Verified all 8 metrics fit their cells.)*\n\n**2 · Geometric preview black canvas — FIXED (needs a WEB rebuild).** The preview was painting the canvas's transparent overlay tracks (the `color=black@0,drawbox=…` divider + cursor lavfi) as opaque black, hiding the tiles. `GeometricPreview` now detects a **transparent base** (`color=…@0`) even with drawbox ops after it and renders that layer transparent — so the DSL frames on layer 0 show through in `layer: all`. (The actual video render was always correct; this was preview-only.)\n\n*(8×8 rendered well per your note — the camera pan + zoom-out are premium and confirmed. 174 + 11 tests green.)*\n\n**Rebuild both:** `npm --workspace ./packages/templates run build` (info bar) and rebuild the **web app** (preview fix).",
+    "question": "Info bar read clean + aligned now (nothing cut off, close to Parsing)? And does the canvas preview show the frames instead of black in `layer: all`?",
+    "response": {
+      "body": "looks good. this is a good checkpoint. next thing to do is the template props need to accept target dimensions. like what if i want to parse this layout at 1080x1920? User can input target dimensions to affect the parse. defaults to 1920x1080. \n\ntemplate takes the aspect ratio, and fits the entire canvas is sized to fit that same AR. that way you can preview vertical and square type layouts etc\n\neverything else like camera and operations on canvas should just resize to fit right?",
+      "from": "human",
+      "at": "2026-07-01T05:11:29.967Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/./candidate-031-1920x1080.mp4"
+    }
+  }
+}

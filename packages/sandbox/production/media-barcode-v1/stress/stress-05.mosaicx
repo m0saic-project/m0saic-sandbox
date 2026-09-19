@@ -1,0 +1,36 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1500,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 \u2014 05-upca-12full-dark** (gate-18 stress set for `@m0saic/media/barcode/v1`).\n\nUPC-A full 12 digits on the DARK ground. Watch: black base tile (the gate fix \u2014 dark mode also relied on doc.backgroundColor), orange bars, caption legible.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/barcode/v1",
+      "props": {
+        "text": "036000291452",
+        "format": "upca",
+        "mode": "dark"
+      }
+    }
+  ]
+}

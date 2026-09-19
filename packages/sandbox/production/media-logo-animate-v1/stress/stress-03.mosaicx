@@ -1,0 +1,36 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 4800,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 — 03-svgfile-loop** (gate-21 stress set for `@m0saic/media/logo-animate/v1`).\n\nUser SVG via the file picker (fs.read capability) + the seamless logo_loop at 2 full periods. Watch: loop wraps with no pop at the seam; the blocks mark keeps its aspect.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "\"all 10 pass, ship it\" (set verdict — reviewed via stress/renders/)",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/logo-animate/v1",
+      "props": {
+        "svgPath": "<sandbox>/production/media-logo-animate-v1/fixtures/blocks.svg",
+        "animation": "logo_loop",
+        "loopSec": 2.4
+      }
+    }
+  ]
+}

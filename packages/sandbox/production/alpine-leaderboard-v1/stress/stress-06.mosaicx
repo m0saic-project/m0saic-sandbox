@@ -1,0 +1,52 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 900,
+    "height": 900
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/leaderboard/v1",
+      "props": {
+        "items": [
+          {
+            "name": "Only Player",
+            "value": 42
+          }
+        ],
+        "title": "TOP CONTRIBUTORS",
+        "subtitle": "This month",
+        "preset": "light",
+        "podiumTint": false,
+        "showValue": false,
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-single-minimal** (gate-7 stress set for `@m0saic/alpine/leaderboard/v1`).\n\nDEGENERATE: 1 item, podiumTint OFF, showValue OFF (name-only board). Contract has no row rule without tint washes — flip Debug layout, wireframe must still render.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-22T10:45:10.000Z",
+      "via": "chat (\"ship\" — gate-7 stress set) — transcribed by agent"
+    }
+  }
+}

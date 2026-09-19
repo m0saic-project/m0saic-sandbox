@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 9000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/activity-trend/v1", "props": { "preset": "dark" } } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-24-ffmpeg-pulse-activity-trend", "basename": "candidate-002" },
+  "agent": { "note": "Beat 2 ACTIVITY TREND — first built composition. Chrome IDENTICAL to Beat 1 (BEAT 2 floating, logo inline with title, aligned panels, bg-first then content). Left: nested @m0saic/alpine/line-chart (COMMITS OVER TIME, Mon-Sun, peak Thu 35, green area + markers). Right rail: 4 nested hero stat-cards (Total 127 +18% / Peak 35 / Daily Avg 18.1 / Active 7-of-7) derived from activity.days, with glyph chips. Square/mobile reflow: chart on top, 2x2 rail below. Fixed a title clip on mobile (width-capped fonts).", "question": "Beat 2 read right + consistent with Beat 1? Open: the rail uses the VERTICAL stat-card (renders clean but reads a bit sparse in the wide tiles) — want a tighter HORIZONTAL rail-card variant (icon-left, label+value, delta) like your storyboard? Also: add per-point value labels on the chart line (your mock shows them)?" }
+}

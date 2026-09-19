@@ -1,0 +1,36 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 5000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 — 03-overlays-zero-runs** (gate-30 stress set for `@m0saic/wireframe/animated/v1`).\n\nTwo zero-run donations each carrying a half-height overlay (the paint-order e2e case) — nulls and passthroughs get NO cell.\n\nWatch: 3 cells only; overlay cells reveal in document order over the donated column; nothing drawn in the `-` halves.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "moot",
+      "text": "Not reviewed — the template was DEPRECATED by ruling at the default verdict (superseded by @m0saic/dsl-tutorial/v1; kept in base as base·dep). Recipe + twin + end frame stay as the agent pre-pass record (agent pass: clean).",
+      "via": "transcribed by agent from the gate-30 chat verdict",
+      "from": "agent:claude",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/animated/v1",
+      "props": {
+        "M0String": "3(0{2[-,1]},0{2[1,-]},1)"
+      }
+    }
+  ]
+}

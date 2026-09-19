@@ -1,0 +1,290 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50(0,0,0,-,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,50(0,0,0,0,0,-,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25(0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-),0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100(0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25(0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]}}}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.28
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.42)))*(min(1,max(0,(t-0)/0.42)))*(3-2*(min(1,max(0,(t-0)/0.42))))",
+        "window": {
+          "startSec": 0
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.027777777777777776,
+          "right": 0.033950617283950615,
+          "bottom": 0.040123456790123455,
+          "left": 0.033950617283950615
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M16.944 11h4.306a.75.75 0 0 1 0 1.5h-4.306a5.001 5.001 0 0 1-9.888 0H2.75a.75.75 0 0 1 0-1.5h4.306a5.001 5.001 0 0 1 9.888 0Zm-1.444.75a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.42)))*(min(1,max(0,(t-0)/0.42)))*(3-2*(min(1,max(0,(t-0)/0.42))))",
+        "window": {
+          "startSec": 0
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.027777777777777776,
+          "right": 0.027777777777777776,
+          "bottom": 0.03888888888888889,
+          "left": 0.03888888888888889
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:99.99*((1-(1-(min(1\\,max(0\\,(t-0)/1.4))))*(1-(min(1\\,max(0\\,(t-0)/1.4))))))\\:d}.%{eif\\:mod(99.99*((1-(1-(min(1\\,max(0\\,(t-0)/1.4))))*(1-(min(1\\,max(0\\,(t-0)/1.4))))))*100\\,100)\\:d\\:2}\\%",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 188,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "stat-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.42)))*(min(1,max(0,(t-0)/0.42)))*(3-2*(min(1,max(0,(t-0)/0.42))))",
+        "window": {
+          "startSec": 0
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.015151515151515152,
+          "right": 0.007275132275132275,
+          "bottom": 0.011784511784511785,
+          "left": 0.007275132275132275
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": " "
+          },
+          "style": {
+            "fontSize": 104,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "stat-delta"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.5599999999999999)/0.5599999999999999)))*(min(1,max(0,(t-0.5599999999999999)/0.5599999999999999)))*(3-2*(min(1,max(0,(t-0.5599999999999999)/0.5599999999999999))))",
+        "window": {
+          "startSec": 0.5599999999999999
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.05555555555555555,
+          "right": 0.023035230352303523,
+          "bottom": 0.03333333333333333,
+          "left": 0.014905149051490514
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": " "
+          },
+          "style": {
+            "fontSize": 77,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "stat-sublabel"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.84)/0.48999999999999994)))*(min(1,max(0,(t-0.84)/0.48999999999999994)))*(3-2*(min(1,max(0,(t-0.84)/0.48999999999999994))))",
+        "window": {
+          "startSec": 0.84
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.05555555555555555,
+          "right": 0.015277777777777777,
+          "bottom": 0.03333333333333333,
+          "left": 0
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "UPTIME"
+          },
+          "style": {
+            "fontSize": 99,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "stat-label"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.42)))*(min(1,max(0,(t-0)/0.42)))*(3-2*(min(1,max(0,(t-0)/0.42))))",
+        "window": {
+          "startSec": 0
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.027777777777777776,
+          "right": 0.010185185185185186,
+          "bottom": 0.040123456790123455,
+          "left": 0.010185185185185186
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "black@0",
+  "fps": 30,
+  "durationMs": 2000,
+  "size": {
+    "width": 900,
+    "height": 900
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-bare-minimum** (gate-10 stress set for `@m0saic/alpine/stat-card/v1`).\n\nDEGENERATE: label+value ONLY — no delta, no sublabel, icon CLEARED (bare chip). The delta band still reserves space (cross-card value alignment, by design). Watch: clean minimal card.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it. keep both as base",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

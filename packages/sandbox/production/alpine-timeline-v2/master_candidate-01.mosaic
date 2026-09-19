@@ -1,0 +1,692 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30(-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4(10[0,0,1,0,0,0,1,0,0,1],-,10[0,0,1,0,0,0,1,0,0,1],-),0,0,0,0,0,0,0,0,0,0,0,0,0,8(-,0,1,0,1,0,1,-){4(1,1,1,1)},0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4(-,10[0,0,1,0,0,0,1,0,0,1],-,10[0,0,1,0,0,0,1,0,0,1])]],-),0,0,0,0,0,0,-]}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#E5E7EB",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "MILESTONES"
+          },
+          "style": {
+            "fontSize": 40,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Our journey so far"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "card-header"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Jan 2024"
+          },
+          "style": {
+            "fontSize": 17,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-date"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.29678571428571426)/0.7071428571428571)))*(min(1,max(0,(t-0.29678571428571426)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-0.29678571428571426)/0.7071428571428571))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Kickoff"
+          },
+          "style": {
+            "fontSize": 24,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-title"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.29678571428571426)/0.7071428571428571)))*(min(1,max(0,(t-0.29678571428571426)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-0.29678571428571426)/0.7071428571428571))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "First commit landed"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-desc"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.29678571428571426)/0.7071428571428571)))*(min(1,max(0,(t-0.29678571428571426)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-0.29678571428571426)/0.7071428571428571))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Aug 2024"
+          },
+          "style": {
+            "fontSize": 17,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-date"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1453571428571427)/0.7071428571428571)))*(min(1,max(0,(t-1.1453571428571427)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-1.1453571428571427)/0.7071428571428571))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Series A"
+          },
+          "style": {
+            "fontSize": 24,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-title"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1453571428571427)/0.7071428571428571)))*(min(1,max(0,(t-1.1453571428571427)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-1.1453571428571427)/0.7071428571428571))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "$12M raised"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-desc"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1453571428571427)/0.7071428571428571)))*(min(1,max(0,(t-1.1453571428571427)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-1.1453571428571427)/0.7071428571428571))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "placement": {
+        "inset": {
+          "x": 0,
+          "y": 0.46511627906976744
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.5442857142857143)/0.7071428571428571)))*(min(1,max(0,(t-0.5442857142857143)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-0.5442857142857143)/0.7071428571428571))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "placement": {
+        "inset": {
+          "x": 0,
+          "y": 0.46511627906976744
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.9685714285714284)/0.7071428571428571)))*(min(1,max(0,(t-0.9685714285714284)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-0.9685714285714284)/0.7071428571428571))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#E2E8F0",
+      "placement": {
+        "inset": {
+          "x": 0,
+          "y": 0.46511627906976744
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.5
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.3928571428571428)/0.7071428571428571)))*(min(1,max(0,(t-1.3928571428571428)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-1.3928571428571428)/0.7071428571428571))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M1,12 A11,11 0 1,0 23,12 A11,11 0 1,0 1,12 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "placement": {
+        "inset": {
+          "x": 0.4395973154362416,
+          "y": 0.29069767441860467
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "dot"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.12)/0.7071428571428571)))*(min(1,max(0,(t-0.12)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-0.12)/0.7071428571428571))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M1,12 A11,11 0 1,0 23,12 A11,11 0 1,0 1,12 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "placement": {
+        "inset": {
+          "x": 0.4395973154362416,
+          "y": 0.29069767441860467
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "dot"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.5442857142857143)/0.7071428571428571)))*(min(1,max(0,(t-0.5442857142857143)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-0.5442857142857143)/0.7071428571428571))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M1,12 A11,11 0 1,0 23,12 A11,11 0 1,0 1,12 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "placement": {
+        "inset": {
+          "x": 0.4395973154362416,
+          "y": 0.29069767441860467
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "dot"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.9685714285714284)/0.7071428571428571)))*(min(1,max(0,(t-0.9685714285714284)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-0.9685714285714284)/0.7071428571428571))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M1,12 A11,11 0 1,0 23,12 A11,11 0 1,0 1,12 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "placement": {
+        "inset": {
+          "x": 0.4395973154362416,
+          "y": 0.29069767441860467
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "dot"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.3928571428571428)/0.7071428571428571)))*(min(1,max(0,(t-1.3928571428571428)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-1.3928571428571428)/0.7071428571428571))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Apr 2024"
+          },
+          "style": {
+            "fontSize": 17,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-date"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7210714285714286)/0.7071428571428571)))*(min(1,max(0,(t-0.7210714285714286)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-0.7210714285714286)/0.7071428571428571))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Beta launch"
+          },
+          "style": {
+            "fontSize": 24,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-title"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7210714285714286)/0.7071428571428571)))*(min(1,max(0,(t-0.7210714285714286)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-0.7210714285714286)/0.7071428571428571))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "500 early users"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-desc"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.7210714285714286)/0.7071428571428571)))*(min(1,max(0,(t-0.7210714285714286)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-0.7210714285714286)/0.7071428571428571))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Dec 2024"
+          },
+          "style": {
+            "fontSize": 17,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-date"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.5696428571428571)/0.7071428571428571)))*(min(1,max(0,(t-1.5696428571428571)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-1.5696428571428571)/0.7071428571428571))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "10k customers"
+          },
+          "style": {
+            "fontSize": 24,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-title"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.5696428571428571)/0.7071428571428571)))*(min(1,max(0,(t-1.5696428571428571)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-1.5696428571428571)/0.7071428571428571))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Five figures crossed"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "event-desc"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.5696428571428571)/0.7071428571428571)))*(min(1,max(0,(t-1.5696428571428571)/0.7071428571428571)))*(3-2*(min(1,max(0,(t-1.5696428571428571)/0.7071428571428571))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "#F8FAFC",
+  "fps": 30,
+  "durationMs": 3000,
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/alpine/timeline/v2`** (gate 11; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase defaults (Milestones, 5 events). v1 deprecated → rides base·dep.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated, primitive:true | confirm |\n| Gate | — | **base** |\n| Preview assets | re-mint after approval | review |\n| Cover / Tutorial | cover BUILT this gate (cascade starts near-blank) | eyeball cover; tutorial needed? |\n\n**Pre-audit: the insetNode flag was EARNED — the horizontal orientation was BROKEN at 15/84 battery canvases** (incl. plain defaults at 1280×720): insetNode px margins + gcd-1 px text weights minted 74/77/121-way canonical splits; sub-pixel cells made the engine fold paint slots away and REFUSE the doc (m0 22 slots vs 26 sources → exit 1, black). REBUILT with the pack law: dots + spine segments are now EQUAL bands with the tile carved by a symmetric placement.inset (zero split cells — also REQUIRED post-mask-fix: the circle mask now stretches, so the dot box must be square); text-line weights snapped to a small basis. Battery 84/84 post-fix.\n\nAlso this gate: script-aware truncation (the old 0.6em flat-char truncateToWidth under-cut wide scripts), debugLayout contract (dot equal-size relation — the check that would have caught the old drift — + text-fit on all three line kinds; NO expr text here so text-fit runs on every config), cover, dot test-helper updated (dots are full band cells now — found by tag, not by small-square heuristic).\n\n**Primitive-sense: KEEP primitive:true** — a milestone spine is a distinct composable block, no overlap with any shipped template.\n\n**LOOK QUESTION for you:** default copy truncates at the default canvas (horizontal = 5 columns × 0.92 width: \"Project kicko⋯\", \"Team assembled, fi⋯\"). Pre-existing behavior, not from the rebuild. Options: accept (timeline = glanceable, truncation honest), shorten the default copy, or drop default descriptions in horizontal.\n\nBattery 84/84 (was 69/84), probe 14/14, 37/37 unit (3 updated for the rebuild).",
+    "question": "Default look verdict (incl. the default-copy truncation question)? Cover OK? Tutorial needed? primitive:true confirmed? Then stress.",
+    "response": {
+      "verdict": "redirect",
+      "text": "i dont like how much text is cut off in default. we should make it only four 4 bullets and shorten text. but also in general, a user using this template probably prefers we try to fit as much of their text as possible. a balance where its not a vertical monstrosity that is unpleasant to read, but where we dont just cut all text longer than basic statements",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

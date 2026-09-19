@@ -1,0 +1,74 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-12T05:02:42.263Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.11",
+  "meta": {
+    "title": "2026-06-12-donut-distribution · candidate-001"
+  },
+  "agent": {
+    "note": "Donut tile macro decomposition (Commit Distribution), bottom-legend variant. Proportions are real, not uniform: plot band 480px (75%), two legend rows 80px each. Donut square 480x480 centered with 60px side margins; ring bands 80px top/bottom proxy the planned ringThicknessFrac 0.32 (true ring depth at r=240 is ~77px); hole = 320px banded as 40 pad / 160 value / 80 caption / 40 pad for the 246 / 'Total Commits' pair. Legend rows: 75px dot / 300px label / 150px pct / 75px pad, carrying the real 75/25 weekday-weekend split. Grey-rect caveat: ring reads as top/bottom bands only and the hole band spans ring-to-ring horizontally - the .mosaicx render candidates will show the true annulus; judge BAND PROPORTIONS here, not roundness. candidate-002 will show the legend-right alternative next.",
+    "question": "Two specifics: (a) macro split - is 75% plot / 25% legend (two stacked full-width rows) the right vertical budget, or does the donut need more/less canvas? (b) center-hole banding - value band 160px vs caption 80px (2:1) with 40px breathing pads: right emphasis for a dominant 246 over a quiet 'Total Commits'?",
+    "context": {
+      "category": {
+        "kind": "known",
+        "value": "spacing-alignment"
+      },
+      "intent": {
+        "action": "propose",
+        "summary": "baseline donut tile decomposition: 75/12.5/12.5 bands, 0.32-thickness ring proxy, 2:1 value:caption hole banding"
+      },
+      "layoutIntent": "free"
+    },
+    "response": {
+      "body": "I prefer doing the \"ring\" as a single rectangle with mask that we animate or something. Its essentially a label in top area - maybe left, center, or right aligned. Main rect for the donut chart itself, which animates a circle Data number is inside the donut chart. It'll also be more premium if we animate the numbers up like in KPI chart. Please re-iterate. This layout confuses me.",
+      "from": "human",
+      "at": "2026-06-12T05:07:10.821Z"
+    }
+  },
+  "size": {
+    "width": 600,
+    "height": 640
+  },
+  "m0": "8[0,0,0,0,0,10(-,0,0,0,0,0,0,0,6[1,0,0,0,8[-,0,0,0,1,0,1,-],1],-),8(1,0,0,0,1,0,1,-),8(1,0,0,0,1,0,1,-)]",
+  "labels": {
+    "r/gcolc5/growc8/fc0": {
+      "text": "ring-top (~77px @ 0.32 thickness)"
+    },
+    "r/gcolc5/growc8/fc5": {
+      "text": "ring-bottom"
+    },
+    "r/gcolc5/growc8/growc4/fc4": {
+      "text": "center value (246)"
+    },
+    "r/gcolc5/growc8/growc4/fc6": {
+      "text": "center caption (Total Commits)"
+    },
+    "r/gcolc6/fc0": {
+      "text": "dot (weekday)"
+    },
+    "r/gcolc6/fc4": {
+      "text": "Weekday Commits"
+    },
+    "r/gcolc6/fc6": {
+      "text": "75%"
+    },
+    "r/gcolc7/fc0": {
+      "text": "dot (weekend)"
+    },
+    "r/gcolc7/fc4": {
+      "text": "Weekend Commits"
+    },
+    "r/gcolc7/fc6": {
+      "text": "25%"
+    }
+  },
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "fill": null,
+  "rankSets": null,
+  "custom": null
+}

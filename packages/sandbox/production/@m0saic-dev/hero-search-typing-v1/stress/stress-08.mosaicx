@@ -1,0 +1,33 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 1280,
+  "height": 400
+ },
+ "fps": 30,
+ "durationMs": 13910,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/hero/search-typing/v1",
+   "props": {
+    "words": [
+     "Поиск идей",
+     "日本語クエリ",
+     "Àçcéñtš",
+     "ößẞ征"
+    ]
+   }
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "stress-08"
+ },
+ "agent": {
+  "note": "**STRESS 08/10 — 08-wide-script** (gate-27 stress set for `@m0saic/hero/search-typing/v1`; PUBLISHER ruling — ships under @m0saic-dev, same bar).\n\nWIDE-SCRIPT glyphs (Cyrillic/CJK/accented). Watch: kern-aware advances, curtain edges never clip ink (ink-pad law)."
+ }
+}

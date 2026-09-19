@@ -1,0 +1,51 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 480
+  },
+  "fps": 30,
+  "durationMs": 3500,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 \u2014 05-thick-tiny-hole** (gate-15 stress set for `@m0saic/charts/donut/v4`).\n\nFLAGGED FLOOR #1: thickness 0.9 \u2192 ~44px hole at ultrawide, long $ value + caption. Watch: both ellipsize to a few chars INSIDE the tiny hole (never sprawl across the pie). Extreme-knob honesty \u2014 your call.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/donut/v4",
+      "props": {
+        "ringThicknessFrac": 0.9,
+        "centerValue": "$1,248,900.00",
+        "centerLabel": "Annual budget consumed to date",
+        "segmentLabels": "none",
+        "segments": [
+          {
+            "label": "Infra",
+            "value": 44
+          },
+          {
+            "label": "People",
+            "value": 28
+          },
+          {
+            "label": "Tools",
+            "value": 28
+          }
+        ]
+      }
+    }
+  ]
+}

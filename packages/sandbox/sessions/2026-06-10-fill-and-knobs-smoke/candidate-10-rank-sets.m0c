@@ -1,0 +1,38 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T12:00:00.000Z",
+  "app": "m0saic-fill-smoke",
+  "appVersion": "0.1.0",
+  "meta": {
+    "title": "10 · rankSets (diagonal sweep)"
+  },
+  "agent": {
+    "id": "claude-smoke-2026-06-10",
+    "note": "A `diag` rank set with values 0, 0.33, 0.66, 1 across the four frames.",
+    "question": "Does any rank-aware overlay or template surface pick up this sweep? If the inspector does not surface ranks directly, this is a pure round-trip check — confirm the values are visible somewhere in the file-details view."
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "4(1,1,1,1)",
+  "labels": null,
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "fill": null,
+  "rankSets": {
+    "diag": {
+      "mode": "diag",
+      "ranks": {
+        "r/fc0": 0,
+        "r/fc1": 0.33,
+        "r/fc2": 0.66,
+        "r/fc3": 1
+      }
+    }
+  },
+  "custom": null
+}

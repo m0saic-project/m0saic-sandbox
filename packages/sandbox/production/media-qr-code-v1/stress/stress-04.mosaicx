@@ -1,0 +1,41 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-04"
+  },
+  "agent": {
+    "note": "**STRESS 04/10 — 04-spawn-gleam** (gate-22 stress set for `@m0saic/media/qr/code/v1`).\n\nFull spawn envelope with gleam: modules spawn-settle, shine sweeps during the hold, fade out. Eyes fade first as units; the centre M stays from t=0. Watch: the settle offset reads, gleam only during hold.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "stress set pass (02 noted as engine limitation, 09 accepted+documented)",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/qr/code/v1",
+      "props": {
+        "outputFormat": "mp4",
+        "animation": {
+          "spawnDurMs": 1200,
+          "tileFadeMs": 250,
+          "holdDurMs": 800,
+          "fadeOutDurMs": 600,
+          "gleam": true
+        }
+      }
+    }
+  ]
+}

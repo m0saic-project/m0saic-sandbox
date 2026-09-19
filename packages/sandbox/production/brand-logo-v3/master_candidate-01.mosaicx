@@ -1,0 +1,29 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 544,
+  "height": 544
+ },
+ "fps": 30,
+ "durationMs": 3200,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/brand/logo/v3",
+   "props": {
+    "size": "m-33"
+   }
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "master_candidate-01"
+ },
+ "agent": {
+  "note": "**v1 PROD GATE — `@m0saic/brand/logo/v3` \"M0saic Brand Marks\"** (gate 28 — BRAND pack opener; chart: `.ai/LAUNCH/v1-template-cut.md`). Core tier. Renders any m0saic brand mark (M rects/bitmap, m0 logotype, pattern) with animated reveals; default `composite` blends bitmap + rect M. Candidate showcases the FAST m-33 mark (the composite default is the 10–30min sloth render — see Q1).\n\n**FOUNDER RULING APPLIED (mid-gate): official canvas** — each mark renders at its dictionary-locked resolution; the doc DECLARES its size and the host adopts it (m-33 544², m0 384×512, pattern 4354×2016 — the largest `recommendedResolutions` slot, an exact integer multiple of native so the bitmap stays crisp). Implementation stayed OUT of core per founder: template authors `size` → `stampDocOutput` now preserves authored size (the gate-26 authored-intent law extended one field; the step path always worked this way) → the CLI template path adopts the doc's dims for the plan. Saved-.mosaic `-w/-h` rescaling verified untouched (800² probe).\n\n**Pre-audit fixes:**\n\n| Finding | Fix |\n|---|---|\n| No `format` / `audio` stamps anywhere (pre-convention template) | `format:{kind:video,container:mp4}` + `audio:{enabled:false}` on runner + base + static paths |\n| **Error docs muxed silent audio FLEET-WIDE** | `makeErrorMosaic` itself now sets `audio:{enabled:false}` — every template's error card fixed at the root (the gate-27 search-typing catch, propagated) |\n| **`rankSet` never exposed on the registered surface** (base supports diag/cascade/radial; the runner schema omitted it — audit-every-knob) | declared + forwarded; battery renders cascade + radial |\n| Static path returned the legacy **`m0saic` field instead of `m0`** (consumers read undefined) | proper `m0` via toM0String |\n| NO unit tests at all (coverage was CLI e2e + goldens only) | `logo_runner.test.ts`: 7 wrapped-path locks (official dims ×3, conventions, rankSet forward, error audio, cover, composite structure) |\n| Frame 0 gated blank (`gte(t,1/fps)` start gate) — black first open | Band cover: static rect M centered px-exactly (u(px/4) pads) on the dark plate |\n\n**Battery 21/21** (fast marks ×6 at official dims + no-audio + 3.2s; error card audio-free; frame-0 blank + mid-anim ink 13k px). Core plan suites 81/81 + contract fixtures 171/171 post-change.\n\n**Questions:**\n1. **Default `composite` = the sloth render** (bitmap child, 10–30min) — first-touch render at defaults is a half-hour wait. Recommend default `size:\"m-33\"` (near-identical look, seconds); composite stays for deliberate brand renders. Your call — changes the shipped default look.\n2. **Baseline-or-piece?** Recommend CORE — this is m0saic's own brand surface, the definition of a baseline.\n3. **Official dims tier**: I used the LARGEST recommendedResolution (544² etc.). Native (272²) also defensible — say the word.\n4. Cover: strike it if the mark should open bare.",
+  "question": "Gate-28 verdict + Q1 (composite default vs m-33) / Q3 (largest vs native dims)?"
+ }
+}

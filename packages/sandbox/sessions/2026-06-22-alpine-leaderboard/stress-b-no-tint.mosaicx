@@ -1,0 +1,64 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/leaderboard/v1",
+      "props": {
+        "items": [
+          {
+            "name": "Ava Chen",
+            "value": 2840
+          },
+          {
+            "name": "Liam Patel",
+            "value": 2615
+          },
+          {
+            "name": "Noah Kim",
+            "value": 2390
+          },
+          {
+            "name": "Mia Garcia",
+            "value": 1975
+          },
+          {
+            "name": "Ethan Wright",
+            "value": 1640
+          }
+        ],
+        "title": "TOP CONTRIBUTORS",
+        "subtitle": "No row tint (podiumTint off)",
+        "preset": "light",
+        "podiumTint": false,
+        "showValue": true,
+        "anim": {
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        },
+        "valueSuffix": " commits"
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant B — podiumTint:false: no row washes, badges still gold/dark/brown/grey. A cleaner, flatter list.",
+    "question": "Approve or deny this config.",
+    "response": {
+      "body": "Approved.",
+      "from": "human",
+      "at": "2026-06-22T19:30:30.136Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

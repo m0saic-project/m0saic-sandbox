@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1280, "height": 708 }, "fps": 30, "durationMs": 3000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/alpine/commit-feed/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-25-alpine-commit-feed", "basename": "candidate-002" },
+  "agent": { "note": "candidate-001 feedback fixed. (1) QUANTIZATION (desktop rows + stretched icon box): switched the WHOLE chrome to placeRects (exact-pixel rects packed onto few layers with importance z-order) — icons are exact squares, reviewer discs are true circles, no row drift. m0 208K -> 114K, fewer layers (the perf win). (2) PORTRAIT cramping: text is now width-capped fixed fonts (was fit:contain, which scales to height then CLIPS width on long strings), and narrow/portrait drops the reviewer discs + PR and gives the title its own full-width line. Header title + subtitle + author all width-capped now. (3) ALSO converted the stat-card (it was using placeRect-alone, same bloat) to placeRects — m0 ~16K -> 4K, 25 tests green, geometry identical (glyph still exact-square-centered). Render one-liners in .scratch/share.md.", "question": "Quantization gone (icons square, rows aligned, circles)? Portrait readable now? If good, I compose the notable-commits beat (feed-left + Merged PRs / Review Coverage / Open Issues / Contributors rail)." }
+}

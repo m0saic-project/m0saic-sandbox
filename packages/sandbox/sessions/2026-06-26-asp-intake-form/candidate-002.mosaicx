@@ -1,0 +1,27 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 2000,
+    "height": 1250
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/demos/asp-intake-form/v1",
+      "props": {}
+    }
+  ],
+  "suggestedOutput": {
+    "dir": "<sandbox>/sessions/2026-06-26-asp-intake-form",
+    "basename": "candidate-002"
+  },
+  "agent": {
+    "note": "**Intake form · candidate-002 — contextual render (two-pane).**\n\nThe reference is a skinny centered form; this uses the desktop width. **Left:** the labeled field grid (first/last, email, category/birthday, gender/training-since, ADD TO ROSTER), first field shown focused. **Right:** a **live preview card** of the athlete being created + a **what-happens-next** rail — friendly + communicative. Real text/color/mask sources via `@m0saic/demos/asp-intake-form/v1`.\n\nHit **▶ Render** for the dated output + `.mosaic` twin.",
+    "question": "1. Does the **two-pane** intake feel right, or should the form stay centered with a lighter rail?\n2. Is the **live preview card** earning its space — useful, or noise?\n3. Type / spacing / color holding up against the roster hero (003)?"
+  }
+}

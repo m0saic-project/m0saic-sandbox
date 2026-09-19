@@ -1,0 +1,120 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-11T05:00:00.000Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.11",
+  "meta": {
+    "title": "14 · kitchen sink · iter A",
+    "author": "smoke generator",
+    "source": "fill-and-knobs-smoke",
+    "note": "Every M0cFile knob populated at once."
+  },
+  "agent": {
+    "id": "claude-smoke-2026-06-10",
+    "note": "Iteration A of candidate-14-everything.m0c. Regions migrated from placeholder K1..K4 to real stableKeys r/fc0..r/fc3. rankSets remain null in this approved-A state per the human's follow-up decision (the kitchen-sink coverage didn't require populated rank sets for sign-off; candidate-10 already covers that knob in isolation).",
+    "question": "Does every knob render simultaneously without any field being dropped? Specifically: labels (with chip color), background tint, masks (two circles), fill (per-frame color + mediaRef), agent block (with real-stableKey regions), custom JSON — all visible at once? (rankSets intentionally null here.)",
+    "regions": {
+      "hero": "r/fc0",
+      "body": "r/fc1",
+      "side": "r/fc2",
+      "footer": "r/fc3"
+    },
+    "response": {
+      "body": "Approved.",
+      "from": "human",
+      "at": "2026-06-11T04:34:04.254Z"
+    },
+    "comments": [
+      {
+        "id": "c1",
+        "body": "All fields visible at the time of generation.",
+        "from": "agent",
+        "at": "2026-06-10T12:10:00.000Z"
+      },
+      {
+        "id": "c-14a-prev-iter-ref",
+        "body": "Iterates on candidate-14-everything.m0c. Regions migrated to real stableKeys r/fc0..r/fc3. rankSets remain null in this approved-A version per follow-up — candidate-10 covers rank sets in isolation, so the canary doesn't need them populated to validate cross-field round-trip. See the original file for the first-round rejection text.",
+        "from": "agent",
+        "at": "2026-06-11T05:00:00.000Z"
+      }
+    ]
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "4(1,1,1,1)",
+  "labels": {
+    "r/fc0": {
+      "text": "agent · 🤖",
+      "color": "#bcd6e8"
+    },
+    "r/fc1": {
+      "text": "human · 👤",
+      "color": "#ef7525"
+    },
+    "r/fc2": {
+      "text": "brand",
+      "color": "#4b5563"
+    },
+    "r/fc3": {
+      "text": "context",
+      "color": "#23262f"
+    }
+  },
+  "derive": {
+    "background": "#14151b"
+  },
+  "masks": {
+    "r/fc0": {
+      "localPath": "M 20 0 A 20 20 0 1 0 20 40 A 20 20 0 1 0 20 0 Z",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 100
+      }
+    },
+    "r/fc1": {
+      "localPath": "M 20 0 A 20 20 0 1 0 20 40 A 20 20 0 1 0 20 0 Z",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 100
+      }
+    },
+    "r/fc2": null,
+    "r/fc3": null
+  },
+  "fill": {
+    "r/fc0": {
+      "color": "#bcd6e8",
+      "mediaRef": "./media/avatar-agent.png"
+    },
+    "r/fc1": {
+      "color": "#ef7525",
+      "mediaRef": "./media/avatar-human.png"
+    },
+    "r/fc2": {
+      "color": "#4b5563"
+    },
+    "r/fc3": {
+      "mediaRef": "asset:context-decoration"
+    }
+  },
+  "rankSets": null,
+  "custom": {
+    "brand": {
+      "primary": "#ef7525",
+      "secondary": "#bcd6e8"
+    },
+    "copy": {
+      "hero": "Hello, kitchen sink."
+    },
+    "flags": {
+      "reviewed": false
+    }
+  }
+}

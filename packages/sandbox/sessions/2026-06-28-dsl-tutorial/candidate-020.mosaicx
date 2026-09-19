@@ -1,0 +1,53 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "2(2(4[1,1,2(1,2[1,1]),1],4[1,1,2(2[1,1],1),1]),2(2[2(1,2[1,1]),2[1,1]],2[2(2[1,1],1),2[1,1]]))",
+        "speedMultiplier": 1,
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-020"
+  },
+  "agent": {
+    "note": "**Found and fixed the missing cursor.** Good catch — it was a real bug, and the diagnosis is worth keeping.\n\n**Root cause — NOT a layer/depth issue, and NOT chunking.** On a transparent base (`color=black@0`), ffmpeg's `drawbox` **blends RGB but never writes the alpha channel**, so the orange edges came out `(255,138,61, alpha 0)` — right color, zero opacity. They survive an `rgb24` probe (alpha ignored — which is exactly why my earlier 'cursor present' check lied to me) but **vanish the instant the layer is alpha-composited onto the tiles**. So the graph was perfect, rendered fine in isolation, and composited to nothing.\n\n**Fix:** `replace=1` on every drawbox — it *replaces* the pixel (RGB **and** alpha) instead of blending, so the edges are opaque and survive the overlay. One word.\n\n**Verified:**\n\n| check | before | after |\n|---|---|---|\n| drawbox edge alpha | 0 (invisible) | opaque |\n| overlay onto solid bg | 0 orange px | 4992 orange px |\n| 4×4 render (no chunk) | no ring | ring at exact bounds ✓ |\n| **8×8 render (spatial-chunked)** | no ring | ring tracks the walk ✓ |\n\nThe perf win is untouched — still ONE lavfi source, one overlay layer, drawbox per step (canvas −76% on 4×4). I confirmed the ring at 8×8 specifically because that's where you hit it (64 tiles → the canvas spatial-chunks; the fix holds through that path).\n\n*(14 canvas tests green, now asserting `replace=1`. Learning written up — `.ai/candidates/2026-06-29-drawbox-track-collapse.md` — with the alpha gotcha front and center: never trust an rgb24 probe on a maskless transparent-base lavfi; check alpha.)*",
+    "question": "Render this 8×8 and confirm the orange ring is back and tracking the parse correctly (it was the scale where it broke). One-liner:\n\n`node packages/cli/dist/index.js make packages/sandbox/sessions/2026-06-28-dsl-tutorial/candidate-020.mosaicx -w 1280 -h 720 -o packages/sandbox/sessions/2026-06-28-dsl-tutorial/candidate-020.mp4`\n\nIf the ring reads right, the canvas collapse is truly done and the next bottleneck is **dsl-string**. If anything's still off (thickness/color/timing at this scale), tell me.",
+    "context": {
+      "category": {
+        "kind": "other",
+        "label": "canvas-perf-drawbox-fix"
+      },
+      "intent": {
+        "action": "propose",
+        "summary": "Fix invisible drawbox cursor (replace=1 — drawbox didn't write alpha on a transparent base, edges dropped under compositing); perf win from 019 preserved; verified at 4×4 and 8×8."
+      },
+      "relation": {
+        "kind": "refines",
+        "target": "019"
+      }
+    },
+    "response": {
+      "body": "looks good.",
+      "from": "human",
+      "at": "2026-06-29T19:52:15.242Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/./candidate-020-1920x1080.mp4"
+    }
+  }
+}

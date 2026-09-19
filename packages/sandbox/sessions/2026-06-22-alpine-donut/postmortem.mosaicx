@@ -1,0 +1,22 @@
+{
+  "_comment": "Alpine donut template sandbox walkthrough. Invokes @m0saic/meta/post-mortem/v1 against this session (9 .mosaicx candidates carrying response.src + _humanedits provenance). Render on demand: m0saic make packages/sandbox/sessions/2026-06-22-alpine-donut/postmortem.mosaicx -o /tmp/donut-session.mp4 -w 1920 -h 1080. NOT rendered at closeout by design.",
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "fps": 30,
+  "durationMs": 31000,
+  "size": { "width": 1920, "height": 1080 },
+  "assets": {},
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/meta/post-mortem/v1",
+      "props": {
+        "sessionPath": "packages/sandbox/sessions/2026-06-22-alpine-donut",
+        "msPerCandidate": 3000,
+        "msTitleCard": 2000,
+        "msEndCard": 2000
+      }
+    }
+  ]
+}

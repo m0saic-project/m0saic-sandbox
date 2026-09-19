@@ -1,0 +1,69 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/treemap/v2",
+      "props": {
+        "items": [
+          {
+            "label": "Dominant",
+            "value": 950
+          },
+          {
+            "label": "Tiny A",
+            "value": 20
+          },
+          {
+            "label": "Tiny B",
+            "value": 15
+          },
+          {
+            "label": "Tiny C",
+            "value": 10
+          },
+          {
+            "label": "Sliver",
+            "value": 5
+          }
+        ],
+        "title": "HEADCOUNT",
+        "subtitle": "By department",
+        "preset": "light",
+        "valueMode": "percent",
+        "tiles": {
+          "cornerRadius": 0.06
+        },
+        "showValue": true,
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-skew-slivers** (gate-12 stress set for `@m0saic/alpine/treemap/v2` — the LAST alpine gate).\n\nSKEW: 95% dominant + 4 slivers. Watch: slivers render (no refusal — the gate fix), labels DROP on unfittable tiles, no crash.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

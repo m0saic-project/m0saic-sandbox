@@ -1,0 +1,35 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "2[2(F,F),2(F,F)]",
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": true,
+        "canvasWidth": 1080,
+        "canvasHeight": 1920
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "premaster-06-frames-portrait"
+  },
+  "agent": {
+    "note": "**Pre-master · Frames + portrait canvas.** Four **`F` frame** leaves `2[2(F,F),2(F,F)]`, parsed at a **portrait canvas** (`canvasWidth 1080 × canvasHeight 1920`) inside the 1920×1080 video → the canvas **letterboxes** (small side bars). Watch the F frames + frame outline, un-stretched portrait aspect.",
+    "question": "F frames render right and the portrait canvas letterboxes cleanly (un-stretched, centered) via geometry?",
+    "response": null
+  }
+}

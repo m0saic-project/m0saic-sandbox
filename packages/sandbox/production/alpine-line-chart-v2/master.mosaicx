@@ -1,0 +1,64 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/line-chart/v2",
+      "props": {}
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/alpine/line-chart/v2`** (gate 8; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase defaults (Monthly Active Users). v1 deprecated → rides base·dep.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated | confirm |\n| Gate | — | **base** |\n| Preview assets | re-mint after approval | review |\n| Cover / Tutorial | neither | needed? (left→right draw-on starts near-blank → cover likely) |\n\n**Pre-audit: CLEANEST YET — zero code changes.** The flagged insetNode callsites (tick rail + category labels) verified safe empirically: feasibility green ×14 canvases ×6 configs (incl. grid-8, linear curve, area/points off, dark). Visuals clean at landscape/portrait/ultrawide/prime-small — labels decimate correctly at narrow widths (Jan/Mar/May/Jul), ticks align.\n\n**No debugLayout contract on this one, deliberately:** the plot (line, area, markers, grid) is mask-unified — all point markers live in ONE combined mask source, so there is no repeated labeled geometry to express a contract over. A hollow contract would be noise.\n\n**Axis note (design, not a bug):** month labels sit BETWEEN points — 9 data points = interval boundaries, 8 labels = the spans. Consistent at every canvas.\n\n**Stress:** mints after your default verdict.",
+    "question": "Ship `@m0saic/alpine/line-chart/v2` in the v1 base? Cover/tutorial? Interval-label axis semantics confirmed?",
+    "response": {
+      "body": "looks good (take 3: vertical axis ticks + toggle approved). proceed to stress.",
+      "from": "human",
+      "at": "2026-08-22T21:59:01.000Z",
+      "via": "chat — transcribed by agent"
+    },
+    "comments": [
+      {
+        "from": "agent",
+        "text": "COVER added per your ruling (static chart child + welcome band, 39/39 unit); tutorial marked not needed. Reopen/reload to see the cover on first-open — play dismisses it into the draw-on. Standing: default-look verdict + the interval-label axis nod, then stress."
+      },
+      {
+        "from": "agent",
+        "text": "YOUR AXIS RULING IS IN — and your eye was right twice over:\n\n1. **The \"interval labels\" were never a design** — it was an edge-clamp bug: label cells were a full spacing wide, and the FIRST label's cell clamped at the plot edge, pushing \"Jan\" ~half a spacing right of its point. Cells now SHRINK near the edges so every label centers ON its point (it was always 8 labels ↔ 8 points).\n2. **X-axis ticks added** — a small real rect under each labeled point (ticks follow the decimated labels, so tile count stays flat at high N).\n3. **The contract extension you proposed** landed in the PRIMITIVE: `xCenters`/`yCenters` (absolute px) and `xCentersFrac`/`yCentersFrac` (group-relative span fractions — model-free, immune to origin-chain drift). The template uses the frac lock: every tick must sit at its point's span-fraction. Two build lessons en route: tick weights are authored AT the serializer's 120 basis so emitted = intended; and tolerance is 0.06 (not 0.02) because the frames↔sources zip noise from the kpi candidate also touches this doc when points/area are off — the class this guards (a tick a full spacing off) is ≥0.14, still 2.3× the tolerance.\n\nLOOK-SHIFT: ticks are new chrome + Jan/Aug now center on their dots. 43/43 unit (incl. 7-canvas tick-lock + no-labels-no-ticks), contract suite 75/75, battery ×14 canvases ×6 configs, e2e 4/4. Cover already in from your earlier ruling."
+      },
+      {
+        "from": "agent",
+        "text": "TICKS REDONE per your note: now slim VERTICAL strokes hanging from the actual axis line INSIDE the plot (the separate band + horizontal-dash look is gone), plus a new `Axis ticks` toggle (showTicks, default on). Ticks stay real tagged rects — the span-frac contract lock still measures them; the symmetric slimming inset cannot move their centers, so the lock is untouched. 43/43 unit, battery ×14 canvases ×6 configs incl. ticks-off."
+      },
+      {
+        "from": "agent",
+        "text": "STRESS SET minted (`stress/stress-01..10`, twins frozen, stills in `stress/renders/`). My pass: NO hard failures — 40-point decimation + flat tiles hold, single-point degenerate renders a clean centered marker, hostile spike/negatives auto-fit, stepped+domain-clamp dark solid, ticks align everywhere. Soft judgment items: stress-01 kept labels run slightly tight at 40 points (readable, judge); stress-07 negative values fill area down to the min baseline (semantic — standard, but confirm)."
+      },
+      {
+        "from": "agent",
+        "text": "YOUR STRESS-01 CATCH → two structural fixes:\n\n1. **The clip cause**: label cells used the per-POINT spacing (46px) instead of the KEPT-label pitch (92px after decimation) — the app's narrow rasterizer squeaked by, the CLI's wider metrics clipped \"W11\"→\"N11\". Cells now span the kept pitch, and decimation models the CLI at 0.72em.\n2. **Your text-fit contract idea is now a PRIMITIVE**: `textFits` on any tagged text source — longestLine × fontSize × 0.72em (conservative CLI width) must fit the box, checked STATICALLY so Make and the render agree by construction. It earned its keep immediately: wired in, it caught a second real bug (my edge-shrunk cells left 25px for 40px labels) — fixed with the classic treatment: edge labels align INWARD with full cells while the axis tick carries the exact point anchor.\n\nstress-01 re-rendered through the CLI: every label reads fully. 43/43 unit, contract suite 78/78, battery ×14 canvases ×5 configs incl. 40-point + unicode. Please re-verdict stress-01; 02-10 unchanged."
+      },
+      {
+        "from": "agent",
+        "text": "ALL 10 stress renders + twins REGENERATED against the fixed build (I had only re-rendered 01 — 02-10 were stale pre-fix renders, and yes, several showed the same edge-label clip: 02's \"Aug\"→\"Auc\", 05's unicode edges). Verified post-regen: 02 and 05 edge labels read fully. The textFits contract now guards this class statically in every future render. Fresh verdicts welcome on all 10."
+      },
+      {
+        "from": "human",
+        "at": "2026-08-22T22:35:40.000Z",
+        "text": "SHIP RULING (chat, transcribed): pass — ship in v1 base. Vertical ticks + toggle + point-centered labels + textFits contract all in; cover in; no tutorial."
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE \u2014 `@m0saic/charts/stat-card/v1`** (gate 17 \u2014 CLOSES THE CHARTS PACK 4/4; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase defaults. Alpine/stat-card/v1 already shipped base (gate 10) \u2014 this is the original it forked from.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated, primitive:true | confirm |\n| Gate | \u2014 | **base** |\n| Preview assets | see history note | review |\n| Cover / Tutorial | cover BUILT this gate (count-up + cascade starts near-blank) | eyeball cover; tutorial needed? |\n\n**Pre-audit found + fixed 3:**\n1. **The CARD RENDERED BLACK through the .mosaicx path** \u2014 the design deliberately made the surface doc.backgroundColor-only (\"single flat layer\"), which the known bg-drop candidate (2026-08-06) strips at template_invocation flattening. Verified by pixel: the whole battery's cards were (0,0,0). Surface now ALSO paints as a real base tile (\"none\" keeps the flat transparent doc).\n2. **No text caps anywhere** \u2014 the VALUE is a FIXED-fontSize expr layer (no fit): a 13-char value at H\u00b70.46 clipped to \"1,248,9\" at 640\u00d7360; label/delta/sublabel (fit:contain) clipped in the CLI too. Ported the alpine stat-card capFont + fitTo idiom, script-aware, all four groups.\n3. **Band-height arrow dwarfed the text at portrait aspects** (122px triangle vs 10px text at 360\u00d7640) \u2014 ported alpine's two-pass arrow cap (arrow \u2264 1.5\u00d7 delta font, re-derive cells; byte-identical at the ideal ~2.6:1).\n\nAlso: debugLayout contract (4 textFits groups; debug forces the literal value/flare so coverage is unconditional \u2014 the donut pattern), tagged sources, cover (inline-flat, probed cell).\n\n**Primitive-sense: KEEP primitive:true** \u2014 the KPI building block the repo-tracker hero composes 4\u00d7.\n\nBattery 84/84 baseline (feasibility-green, VISUALLY broken: black cards + clipped text) + 84/84 final build \u00d72, probe 14/14 defaults + 70/70 binding configs (13-char value, Cyrillic, no-delta, custom bg, none+noslide), jest 10/10 (indices shifted for the base tile).",
+    "question": "Default look verdict? Cover OK? Tutorial needed? primitive:true confirmed? Then stress \u2014 and the charts pack closes.",
+    "response": {
+      "verdict": "ship",
+      "text": "cover culled at 760x290 (founder catch) -> adaptive band fix -> \"works, lets stress\" -> stress x10 pass -> \"ship\"",
+      "via": "chat \u2014 transcribed by agent",
+      "note": "SHIPPED base \u2611 (gate 17 \u2014 CHARTS PACK CLOSED 4/4: bar-graph/v2, donut/v4, line-chart/v1, stat-card/v1). primitive:true stays. No tutorial flagged. Preview assets: founder-committed set (1434f669) untouched \u2014 Make/direct default look unchanged (caps bind only on overflow; the base tile fixes the resolver path only). FOUNDER CATCH mid-gate: the cover band's hint row fell under the engine's ~20px min-cell floor at the 290px-tall native canvas -> whole doc failed min-size, all pieces culled -> ADAPTIVE BAND (px-clamped height; single title-only row when the hint row can't make 24px). Shipped covers on donut/line-chart/bar-graph share the fixed two-row band \u2014 safe at their taller native hints; retrofit available on request."
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/stat-card/v1",
+      "props": {}
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 544,
+  "height": 544
+ },
+ "fps": 30,
+ "durationMs": 3200,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/brand/logo/v3",
+   "props": {
+    "size": "composite",
+    "blendInSec": 0.6,
+    "blendDelaySec": 0.1
+   }
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "stress-10"
+ },
+ "agent": {
+  "note": "**STRESS 10/10 — 10-composite-blend** (gate-28 stress set for `@m0saic/brand/logo/v3`).\n\nTHE SLOTH (bitmap+rects blend, 10-30min render). TWIN ONLY - render deliberately with size composite when you want it; rides the e2e sloth tier as the explicit composite variant."
+ }
+}

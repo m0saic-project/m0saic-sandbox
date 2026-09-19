@@ -1,0 +1,37 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 640,
+    "height": 640
+  },
+  "fps": 30,
+  "durationMs": 800,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-degenerate-timing** (gate-21 stress set for `@m0saic/media/logo-animate/v1`).\n\nEvery assemble knob at its floor: 100ms spawn, zero fade/hold/fade-out, tiny canvas. Watch: near-instant pop-in, no NaN/flash artifacts, tiles land clean at 640px.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "\"all 10 pass, ship it\" (set verdict — reviewed via stress/renders/)",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/logo-animate/v1",
+      "props": {
+        "spawnDurMs": 100,
+        "tileFadeMs": 0,
+        "holdDurMs": 0,
+        "fadeOutDurMs": 0
+      }
+    }
+  ]
+}

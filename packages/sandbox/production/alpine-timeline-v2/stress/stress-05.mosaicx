@@ -1,0 +1,61 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1001,
+    "height": 733
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/timeline/v2",
+      "props": {
+        "events": [
+          {
+            "date": "Янв 2024",
+            "title": "Старт проекта и планирование",
+            "description": "Команда собрана, первый коммит"
+          },
+          {
+            "date": "三月",
+            "title": "ベータ版リリースと初期ユーザー",
+            "description": "500人の早期ユーザーを獲得"
+          },
+          {
+            "date": "Июн 2024",
+            "title": "Раунд финансирования закрыт",
+            "description": "Привлечено $12M на развитие"
+          }
+        ],
+        "title": "ИСТОРИЯ ПРОЕКТА",
+        "subtitle": "путь до сегодняшнего дня",
+        "preset": "light",
+        "orientation": "auto",
+        "showDescription": true,
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-unicode** (gate-11 stress set for `@m0saic/alpine/timeline/v2`).\n\nUNICODE: Cyrillic/CJK titles + descriptions. Watch: script-aware wrap (Cyrillic ≈0.95em), no clipping, step-down before ellipsis.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "seems fine, no tutorial is needed, and i approve the renders. ship",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

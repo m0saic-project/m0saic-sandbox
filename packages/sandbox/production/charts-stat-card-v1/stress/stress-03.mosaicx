@@ -1,0 +1,38 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2500,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 \u2014 03-cjk-square** (gate-17 stress set for `@m0saic/charts/stat-card/v1` \u2014 the charts-pack closer).\n\nCJK: label/value/delta/sublabel all wide-script; NON-digit value -> count-up self-disables (literal from frame one). Watch: CJK caps (~1.6x ASCII), square aspect (below ideal, warn-mode).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "ship",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/stat-card/v1",
+      "props": {
+        "label": "\u7dcf\u30ec\u30f3\u30c0\u30ea\u30f3\u30b0\u6570",
+        "value": "\u56db\u4e8c\u516d\u4ef6",
+        "delta": "\u5148\u9031\u6bd4 +18",
+        "direction": "up",
+        "sublabel": "\u5168\u30d1\u30a4\u30d7\u30e9\u30a4\u30f3\u5408\u8a08"
+      }
+    }
+  ]
+}

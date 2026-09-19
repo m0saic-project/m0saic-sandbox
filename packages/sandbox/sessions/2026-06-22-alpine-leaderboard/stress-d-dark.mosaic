@@ -1,0 +1,638 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30(-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,119[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(-,0,0,0,0,0,5[-,0,0,1{1},-],0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)},0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(-,0,0,0,0,0,5[-,0,0,1{1},-],0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)},0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(-,0,0,0,0,0,5[-,0,0,1{1},-],0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)},0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(-,0,0,0,0,0,5[-,0,0,1{1},-],0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)},0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]],-),0,0,0,0,0,0,-]}",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#111827",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#1F2937",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "TOURNAMENT"
+          },
+          "style": {
+            "fontSize": 40,
+            "fontColor": "#F1F5F9"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Final standings"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#F59E0B",
+      "overlay": {
+        "alpha": "0.12"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.18
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#F59E0B",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.32
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999)))*(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "1"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#F1F5F9"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999)))*(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Ava Chen"
+          },
+          "style": {
+            "fontSize": 24,
+            "fontColor": "#F1F5F9"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999)))*(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:2*((1-(1-(min(1\\,max(0\\,(t-0.11199999999999999)/0.5151999999999999))))*(1-(min(1\\,max(0\\,(t-0.11199999999999999)/0.5151999999999999))))))+0.5\\:d},%{eif\\:840*((1-(1-(min(1\\,max(0\\,(t-0.11199999999999999)/0.5151999999999999))))*(1-(min(1\\,max(0\\,(t-0.11199999999999999)/0.5151999999999999))))))+0.5\\:d\\:3} pts",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 26,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999)))*(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.11199999999999999)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#64748B",
+      "overlay": {
+        "alpha": "0.12"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.18
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#64748B",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.32
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999)))*(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "2"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999)))*(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Liam Patel"
+          },
+          "style": {
+            "fontSize": 24,
+            "fontColor": "#F1F5F9"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999)))*(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:2*((1-(1-(min(1\\,max(0\\,(t-0.36959999999999993)/0.5151999999999999))))*(1-(min(1\\,max(0\\,(t-0.36959999999999993)/0.5151999999999999))))))+0.5\\:d},%{eif\\:615*((1-(1-(min(1\\,max(0\\,(t-0.36959999999999993)/0.5151999999999999))))*(1-(min(1\\,max(0\\,(t-0.36959999999999993)/0.5151999999999999))))))+0.5\\:d\\:3} pts",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 26,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999)))*(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.36959999999999993)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#D97706",
+      "overlay": {
+        "alpha": "0.12"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.18
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#D97706",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.32
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999)))*(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "3"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999)))*(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Noah Kim"
+          },
+          "style": {
+            "fontSize": 24,
+            "fontColor": "#F1F5F9"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999)))*(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:2*((1-(1-(min(1\\,max(0\\,(t-0.6271999999999999)/0.5151999999999999))))*(1-(min(1\\,max(0\\,(t-0.6271999999999999)/0.5151999999999999))))))+0.5\\:d},%{eif\\:390*((1-(1-(min(1\\,max(0\\,(t-0.6271999999999999)/0.5151999999999999))))*(1-(min(1\\,max(0\\,(t-0.6271999999999999)/0.5151999999999999))))))+0.5\\:d\\:3} pts",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 26,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999)))*(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.6271999999999999)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#334155",
+      "overlay": {
+        "alpha": "0.55"
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.18
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#334155",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.32
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999)))*(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "4"
+          },
+          "style": {
+            "fontSize": 21,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999)))*(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Mia Garcia"
+          },
+          "style": {
+            "fontSize": 24,
+            "fontColor": "#F1F5F9"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999)))*(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:1*((1-(1-(min(1\\,max(0\\,(t-0.8847999999999998)/0.5151999999999999))))*(1-(min(1\\,max(0\\,(t-0.8847999999999998)/0.5151999999999999))))))+0.5\\:d},%{eif\\:975*((1-(1-(min(1\\,max(0\\,(t-0.8847999999999998)/0.5151999999999999))))*(1-(min(1\\,max(0\\,(t-0.8847999999999998)/0.5151999999999999))))))+0.5\\:d\\:3} pts",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 26,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999)))*(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999)))*(3-2*(min(1,max(0,(t-0.8847999999999998)/0.5151999999999999))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant D (dark) — toned down the rank-2 badge: on dark it was a bright #CBD5E1 silver; now a muted slate #64748B. The row-2 wash follows the badge color, so it darkened too and now reads distinct from row 4 (plain dark slate). gold + bronze unchanged.",
+    "question": "Rank-2 badge + row-2 wash good now (less bright, distinct from row 4)? Or want row 2 darker still — I can bump the dark podium wash a touch more.",
+    "response": {
+      "body": "Approved.",
+      "from": "human",
+      "at": "2026-06-22T20:36:23.083Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

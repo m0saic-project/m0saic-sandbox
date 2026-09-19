@@ -1,0 +1,1217 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "multi",
+  "steps": [
+    {
+      "name": "page_01",
+      "label": "page_01",
+      "durationMs": 1000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {
+          "photo-01-1500x1000": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-01-1500x1000.png",
+            "mediaType": "image"
+          },
+          "photo-02-1200x900": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-02-1200x900.png",
+            "mediaType": "image"
+          },
+          "photo-03-1920x1080": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-03-1920x1080.png",
+            "mediaType": "image"
+          },
+          "photo-04-800x1200": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-04-800x1200.png",
+            "mediaType": "image"
+          },
+          "photo-05-1500x1000": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-05-1500x1000.png",
+            "mediaType": "image"
+          },
+          "photo-06-1250x1000": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-06-1250x1000.png",
+            "mediaType": "image"
+          },
+          "photo-07-900x1200": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-07-900x1200.png",
+            "mediaType": "image"
+          },
+          "photo-08-1600x1000": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-08-1600x1000.png",
+            "mediaType": "image"
+          },
+          "photo-09-1000x1000": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-09-1000x1000.png",
+            "mediaType": "image"
+          },
+          "photo-10-1450x1000": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-10-1450x1000.png",
+            "mediaType": "image"
+          },
+          "photo-11-720x1280": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-11-720x1280.png",
+            "mediaType": "image"
+          },
+          "photo-12-1330x1000": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-12-1330x1000.png",
+            "mediaType": "image"
+          },
+          "photo-13-2400x1000": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-13-2400x1000.png",
+            "mediaType": "image"
+          },
+          "photo-14-1000x1500": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-14-1000x1500.png",
+            "mediaType": "image"
+          },
+          "photo-15-1600x900": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-15-1600x900.png",
+            "mediaType": "image"
+          },
+          "photo-16-1080x1080": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-16-1080x1080.png",
+            "mediaType": "image"
+          },
+          "photo-17-1920x800": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-17-1920x800.png",
+            "mediaType": "image"
+          },
+          "photo-18-1000x1600": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-18-1000x1600.png",
+            "mediaType": "image"
+          },
+          "photo-19-1400x1050": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-19-1400x1050.png",
+            "mediaType": "image"
+          },
+          "photo-20-3000x1000": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-20-3000x1000.png",
+            "mediaType": "image"
+          }
+        },
+        "m0": "3[9(1,0,0,2[1,3(1,1,1)],0,2[1,1],0,0,1),9(1,0,0,1,0,0,1,2[1,1],2[1,1]),9(0,0,1,1,0,0,1,1,1)]",
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-18-1000x1600",
+            "editor": {
+              "owner": "template",
+              "label": "img:17"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.053738317757009345,
+                "right": 0.011682242990654205,
+                "top": 0.03194444444444444,
+                "bottom": 0.0125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-20-3000x1000",
+            "editor": {
+              "owner": "template",
+              "label": "img:19"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.01484375,
+                "right": 0.01015625,
+                "top": 0.06388888888888888,
+                "bottom": 0.013888888888888888
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-06-1250x1000",
+            "editor": {
+              "owner": "template",
+              "label": "img:5"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.04439252336448598,
+                "right": 0.02102803738317757,
+                "top": 0.05277777777777778,
+                "bottom": 0.025
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-10-1450x1000",
+            "editor": {
+              "owner": "template",
+              "label": "img:9"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.035211267605633804,
+                "right": 0.025821596244131457,
+                "top": 0.05277777777777778,
+                "bottom": 0.025
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-16-1080x1080",
+            "editor": {
+              "owner": "template",
+              "label": "img:15"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.03051643192488263,
+                "right": 0.03051643192488263,
+                "top": 0.05277777777777778,
+                "bottom": 0.025
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-13-2400x1000",
+            "editor": {
+              "owner": "template",
+              "label": "img:12"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.012910798122065728,
+                "right": 0.017605633802816902,
+                "top": 0.06388888888888888,
+                "bottom": 0.013888888888888888
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-17-1920x800",
+            "editor": {
+              "owner": "template",
+              "label": "img:16"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.012910798122065728,
+                "right": 0.017605633802816902,
+                "top": 0.05277777777777778,
+                "bottom": 0.025
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-05-1500x1000",
+            "editor": {
+              "owner": "template",
+              "label": "img:4"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.00703125,
+                "right": 0.01796875,
+                "top": 0.03194444444444444,
+                "bottom": 0.0125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-11-720x1280",
+            "editor": {
+              "owner": "template",
+              "label": "img:10"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.053738317757009345,
+                "right": 0.011682242990654205,
+                "top": 0.020833333333333332,
+                "bottom": 0.020833333333333332
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-03-1920x1080",
+            "editor": {
+              "owner": "template",
+              "label": "img:2"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.01484375,
+                "right": 0.01015625,
+                "top": 0.020833333333333332,
+                "bottom": 0.020833333333333332
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-15-1600x900",
+            "editor": {
+              "owner": "template",
+              "label": "img:14"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.008607198748043818,
+                "right": 0.013302034428794992,
+                "top": 0.020833333333333332,
+                "bottom": 0.020833333333333332
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-02-1200x900",
+            "editor": {
+              "owner": "template",
+              "label": "img:1"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.01643192488262911,
+                "right": 0.04460093896713615,
+                "top": 0.041666666666666664,
+                "bottom": 0.030555555555555555
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-12-1330x1000",
+            "editor": {
+              "owner": "template",
+              "label": "img:11"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.01643192488262911,
+                "right": 0.04460093896713615,
+                "top": 0.03611111111111111,
+                "bottom": 0.041666666666666664
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-09-1000x1000",
+            "editor": {
+              "owner": "template",
+              "label": "img:8"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.011682242990654205,
+                "right": 0.053738317757009345,
+                "top": 0.041666666666666664,
+                "bottom": 0.030555555555555555
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-19-1400x1050",
+            "editor": {
+              "owner": "template",
+              "label": "img:18"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.011682242990654205,
+                "right": 0.053738317757009345,
+                "top": 0.03611111111111111,
+                "bottom": 0.041666666666666664
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-08-1600x1000",
+            "editor": {
+              "owner": "template",
+              "label": "img:7"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.01794071762870515,
+                "right": 0.00858034321372855,
+                "top": 0.0125,
+                "bottom": 0.03194444444444444
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-14-1000x1500",
+            "editor": {
+              "owner": "template",
+              "label": "img:13"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.03051643192488263,
+                "right": 0.03051643192488263,
+                "top": 0.0125,
+                "bottom": 0.03194444444444444
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-01-1500x1000",
+            "editor": {
+              "owner": "template",
+              "label": "img:0"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.008607198748043818,
+                "right": 0.013302034428794992,
+                "top": 0.0125,
+                "bottom": 0.03194444444444444
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-07-900x1200",
+            "editor": {
+              "owner": "template",
+              "label": "img:6"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.01643192488262911,
+                "right": 0.04460093896713615,
+                "top": 0.0125,
+                "bottom": 0.03194444444444444
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-04-800x1200",
+            "editor": {
+              "owner": "template",
+              "label": "img:3"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.011682242990654205,
+                "right": 0.053738317757009345,
+                "top": 0.0125,
+                "bottom": 0.03194444444444444
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "labels": {
+          "r/gcolc0/fc0": "img:17 · 1x2 · crop 7%",
+          "r/gcolc0/growc3/fc0": "img:19 · 3x1 · crop 20%",
+          "r/gcolc0/growc3/gcolc1/fc0": "img:5 · 1x1 · crop 4%",
+          "r/gcolc0/growc3/gcolc1/fc1": "img:9 · 1x1 · crop 17%",
+          "r/gcolc0/growc3/gcolc1/fc2": "img:15 · 1x1 · crop 17%",
+          "r/gcolc0/growc5/fc0": "img:12 · 2x1 · crop 3%",
+          "r/gcolc0/growc5/fc1": "img:16 · 2x1 · crop 3%",
+          "r/gcolc0/fc8": "img:4 · 3x2 · crop 17%",
+          "r/gcolc1/fc0": "img:10 · 1x2 · crop 3%",
+          "r/gcolc1/fc3": "img:2 · 3x2 · crop 2%",
+          "r/gcolc1/fc6": "img:14 · 3x2 · crop 2%",
+          "r/gcolc1/growc7/fc0": "img:1 · 1x1 · crop 10%",
+          "r/gcolc1/growc7/fc1": "img:11 · 1x1 · crop 10%",
+          "r/gcolc1/growc8/fc0": "img:8 · 1x1 · crop 17%",
+          "r/gcolc1/growc8/fc1": "img:18 · 1x1 · crop 10%",
+          "r/gcolc2/fc2": "img:7 · 3x2 · crop 12%",
+          "r/gcolc2/fc3": "img:13 · 1x2 · crop 13%",
+          "r/gcolc2/fc6": "img:0 · 3x2 · crop 17%",
+          "r/gcolc2/fc7": "img:6 · 1x2 · crop 22%",
+          "r/gcolc2/fc8": "img:3 · 1x2 · crop 13%"
+        },
+        "fps": 30,
+        "durationMs": 1000,
+        "size": {
+          "width": 1920,
+          "height": 1080
+        },
+        "backgroundColor": "#101014",
+        "format": {
+          "kind": "image",
+          "container": "png"
+        },
+        "editor": {
+          "owner": "user",
+          "label": "Image Collage — page 1/2 · 20 images · mean crop 10.8%"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    },
+    {
+      "name": "page_02",
+      "label": "page_02",
+      "durationMs": 1000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {
+          "photo-21-640x960": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-21-640x960.png",
+            "mediaType": "image"
+          },
+          "photo-22-1280x1024": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-22-1280x1024.png",
+            "mediaType": "image"
+          },
+          "photo-23-1000x1000": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-23-1000x1000.png",
+            "mediaType": "image"
+          },
+          "photo-24-1800x1200": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-24-1800x1200.png",
+            "mediaType": "image"
+          },
+          "photo-25-900x1600": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-25-900x1600.png",
+            "mediaType": "image"
+          },
+          "photo-26-1500x1000": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-26-1500x1000.png",
+            "mediaType": "image"
+          },
+          "photo-27-1200x1200": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-27-1200x1200.png",
+            "mediaType": "image"
+          },
+          "photo-28-1600x1200": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-28-1600x1200.png",
+            "mediaType": "image"
+          },
+          "photo-29-1050x1400": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-29-1050x1400.png",
+            "mediaType": "image"
+          },
+          "photo-30-1920x1080": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-30-1920x1080.png",
+            "mediaType": "image"
+          },
+          "photo-31-2000x1000": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-31-2000x1000.png",
+            "mediaType": "image"
+          },
+          "photo-32-800x1000": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-32-800x1000.png",
+            "mediaType": "image"
+          },
+          "photo-33-1300x1000": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-33-1300x1000.png",
+            "mediaType": "image"
+          },
+          "photo-34-1000x1300": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-34-1000x1300.png",
+            "mediaType": "image"
+          },
+          "photo-35-1440x900": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-35-1440x900.png",
+            "mediaType": "image"
+          },
+          "photo-36-1600x1600": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-36-1600x1600.png",
+            "mediaType": "image"
+          },
+          "photo-37-1200x800": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-37-1200x800.png",
+            "mediaType": "image"
+          },
+          "photo-38-900x900": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-38-900x900.png",
+            "mediaType": "image"
+          },
+          "photo-39-2200x1000": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-39-2200x1000.png",
+            "mediaType": "image"
+          },
+          "photo-40-1000x1000": {
+            "kind": "file",
+            "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-40-1000x1000.png",
+            "mediaType": "image"
+          }
+        },
+        "m0": "3[9(0,0,1,2[1,1],2[1,1],0,0,1,1),9(0,0,1,0,1,1,0,0,1),9(1,0,0,1,1,1,0,2[1,2(1,1)],2[1,1])]",
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-31-2000x1000",
+            "editor": {
+              "owner": "template",
+              "label": "img:30"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.01794071762870515,
+                "right": 0.00858034321372855,
+                "top": 0.03194444444444444,
+                "bottom": 0.0125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-22-1280x1024",
+            "editor": {
+              "owner": "template",
+              "label": "img:21"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.03051643192488263,
+                "right": 0.03051643192488263,
+                "top": 0.06388888888888888,
+                "bottom": 0.013888888888888888
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-36-1600x1600",
+            "editor": {
+              "owner": "template",
+              "label": "img:35"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.03051643192488263,
+                "right": 0.03051643192488263,
+                "top": 0.05277777777777778,
+                "bottom": 0.025
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-28-1600x1200",
+            "editor": {
+              "owner": "template",
+              "label": "img:27"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.025821596244131457,
+                "right": 0.03051643192488263,
+                "top": 0.06388888888888888,
+                "bottom": 0.013888888888888888
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-38-900x900",
+            "editor": {
+              "owner": "template",
+              "label": "img:37"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.025821596244131457,
+                "right": 0.03051643192488263,
+                "top": 0.05277777777777778,
+                "bottom": 0.025
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-30-1920x1080",
+            "editor": {
+              "owner": "template",
+              "label": "img:29"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.008607198748043818,
+                "right": 0.01486697965571205,
+                "top": 0.03194444444444444,
+                "bottom": 0.0125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-21-640x960",
+            "editor": {
+              "owner": "template",
+              "label": "img:20"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.011682242990654205,
+                "right": 0.053738317757009345,
+                "top": 0.03194444444444444,
+                "bottom": 0.0125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-24-1800x1200",
+            "editor": {
+              "owner": "template",
+              "label": "img:23"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.01794071762870515,
+                "right": 0.00858034321372855,
+                "top": 0.020833333333333332,
+                "bottom": 0.020833333333333332
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-23-1000x1000",
+            "editor": {
+              "owner": "template",
+              "label": "img:22"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.015258215962441314,
+                "right": 0.015258215962441314,
+                "top": 0.020833333333333332,
+                "bottom": 0.020833333333333332
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-25-900x1600",
+            "editor": {
+              "owner": "template",
+              "label": "img:24"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.025821596244131457,
+                "right": 0.035211267605633804,
+                "top": 0.020833333333333332,
+                "bottom": 0.020833333333333332
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-35-1440x900",
+            "editor": {
+              "owner": "template",
+              "label": "img:34"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.00703125,
+                "right": 0.01796875,
+                "top": 0.020833333333333332,
+                "bottom": 0.020833333333333332
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-34-1000x1300",
+            "editor": {
+              "owner": "template",
+              "label": "img:33"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.053738317757009345,
+                "right": 0.011682242990654205,
+                "top": 0.0125,
+                "bottom": 0.03194444444444444
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-26-1500x1000",
+            "editor": {
+              "owner": "template",
+              "label": "img:25"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.01484375,
+                "right": 0.01015625,
+                "top": 0.0125,
+                "bottom": 0.03194444444444444
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-29-1050x1400",
+            "editor": {
+              "owner": "template",
+              "label": "img:28"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.025821596244131457,
+                "right": 0.03051643192488263,
+                "top": 0.0125,
+                "bottom": 0.03194444444444444
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-32-800x1000",
+            "editor": {
+              "owner": "template",
+              "label": "img:31"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.025821596244131457,
+                "right": 0.035211267605633804,
+                "top": 0.0125,
+                "bottom": 0.03194444444444444
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-39-2200x1000",
+            "editor": {
+              "owner": "template",
+              "label": "img:38"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.01056338028169014,
+                "right": 0.022300469483568074,
+                "top": 0.025,
+                "bottom": 0.05277777777777778
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-33-1300x1000",
+            "editor": {
+              "owner": "template",
+              "label": "img:32"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.02112676056338028,
+                "right": 0.03990610328638498,
+                "top": 0.013888888888888888,
+                "bottom": 0.06388888888888888
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-37-1200x800",
+            "editor": {
+              "owner": "template",
+              "label": "img:36"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.01643192488262911,
+                "right": 0.04460093896713615,
+                "top": 0.013888888888888888,
+                "bottom": 0.06388888888888888
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-27-1200x1200",
+            "editor": {
+              "owner": "template",
+              "label": "img:26"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.011682242990654205,
+                "right": 0.053738317757009345,
+                "top": 0.025,
+                "bottom": 0.05277777777777778
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "image",
+            "assetId": "photo-40-1000x1000",
+            "editor": {
+              "owner": "template",
+              "label": "img:39"
+            },
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "left": 0.011682242990654205,
+                "right": 0.053738317757009345,
+                "top": 0.013888888888888888,
+                "bottom": 0.06388888888888888
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "labels": {
+          "r/gcolc0/fc2": "img:30 · 3x2 · crop 9%",
+          "r/gcolc0/growc3/fc0": "img:21 · 1x1 · crop 4%",
+          "r/gcolc0/growc3/fc1": "img:35 · 1x1 · crop 17%",
+          "r/gcolc0/growc4/fc0": "img:27 · 1x1 · crop 10%",
+          "r/gcolc0/growc4/fc1": "img:37 · 1x1 · crop 17%",
+          "r/gcolc0/fc7": "img:29 · 3x2 · crop 2%",
+          "r/gcolc0/fc8": "img:20 · 1x2 · crop 13%",
+          "r/gcolc1/fc2": "img:23 · 3x2 · crop 17%",
+          "r/gcolc1/fc4": "img:22 · 2x2 · crop 16%",
+          "r/gcolc1/fc5": "img:24 · 1x2 · crop 3%",
+          "r/gcolc1/fc8": "img:34 · 3x2 · crop 12%",
+          "r/gcolc2/fc0": "img:33 · 1x2 · crop 24%",
+          "r/gcolc2/fc3": "img:25 · 3x2 · crop 17%",
+          "r/gcolc2/fc4": "img:28 · 1x2 · crop 22%",
+          "r/gcolc2/fc5": "img:31 · 1x2 · crop 27%",
+          "r/gcolc2/growc7/fc0": "img:38 · 2x1 · crop 11%",
+          "r/gcolc2/growc7/gcolc1/fc0": "img:32 · 1x1 · crop 7%",
+          "r/gcolc2/growc7/gcolc1/fc1": "img:36 · 1x1 · crop 20%",
+          "r/gcolc2/growc8/fc0": "img:26 · 1x1 · crop 17%",
+          "r/gcolc2/growc8/fc1": "img:39 · 1x1 · crop 17%"
+        },
+        "fps": 30,
+        "durationMs": 1000,
+        "size": {
+          "width": 1920,
+          "height": 1080
+        },
+        "backgroundColor": "#101014",
+        "format": {
+          "kind": "image",
+          "container": "png"
+        },
+        "editor": {
+          "owner": "user",
+          "label": "Image Collage — page 2/2 · 20 images · mean crop 14.1%"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "editor": {
+    "owner": "user",
+    "provenance": {
+      "kind": "template_invocation",
+      "templateId": "@m0saic/collage/image-collage/v1",
+      "props": {
+        "sourceIds": [
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-01-1500x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-02-1200x900.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-03-1920x1080.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-04-800x1200.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-05-1500x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-06-1250x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-07-900x1200.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-08-1600x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-09-1000x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-10-1450x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-11-720x1280.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-12-1330x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-13-2400x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-14-1000x1500.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-15-1600x900.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-16-1080x1080.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-17-1920x800.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-18-1000x1600.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-19-1400x1050.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-20-3000x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-21-640x960.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-22-1280x1024.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-23-1000x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-24-1800x1200.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-25-900x1600.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-26-1500x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-27-1200x1200.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-28-1600x1200.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-29-1050x1400.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-30-1920x1080.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-31-2000x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-32-800x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-33-1300x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-34-1000x1300.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-35-1440x900.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-36-1600x1600.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-37-1200x800.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-38-900x900.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-39-2200x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-40-1000x1000.png"
+        ]
+      },
+      "invocationId": "inv-sources-0",
+      "sourcePath": "sources[0]"
+    }
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

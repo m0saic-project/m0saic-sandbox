@@ -1,0 +1,36 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 3200,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-custom-colors-breathing** (gate-21 stress set for `@m0saic/media/logo-animate/v1`).\n\nInk + background OVERRIDES (cyan on slate — off the preset palette) with the breathing pulse. Watch: overrides fully replace the duo (no orange anywhere), pulse + travelling shine read at 2 periods.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "\"all 10 pass, ship it\" (set verdict — reviewed via stress/renders/)",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/logo-animate/v1",
+      "props": {
+        "animation": "breathing",
+        "color": "#22d3ee",
+        "backgroundColor": "#111827"
+      }
+    }
+  ]
+}

@@ -1,0 +1,556 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "4[6(1,1,1,1,1,1),6(1,1,1,1,1,1),6(1,1,1,1,1,1),6(1,1,1,1,1,1)]",
+  "assets": {},
+  "size": {
+    "width": 3840,
+    "height": 2160
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-09"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 — 09-heatmap-depth-4k** (gate-29 stress set for `@m0saic/wireframe/base/v2`).\n\n4K canvas, thumb heatmap preset — tile shade cycles through the 5 depth shades by order.\n\nWatch: shades cycle 1..5 then repeat; 1px-ish stroke at 4K scales with canvas; no labels.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#141824",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#121b2a",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0f2133",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0b273d",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#072d47",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#141824",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#121b2a",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0f2133",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0b273d",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#072d47",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#141824",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#121b2a",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0f2133",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0b273d",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#072d47",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#141824",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#121b2a",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0f2133",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0b273d",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#072d47",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#141824",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#121b2a",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0f2133",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0b273d",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "format": {
+    "kind": "image",
+    "container": "png",
+    "pixelFormat": "rgba"
+  },
+  "backgroundColor": "#0f1116@1.0"
+}

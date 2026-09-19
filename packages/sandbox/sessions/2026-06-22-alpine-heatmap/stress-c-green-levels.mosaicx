@@ -1,0 +1,147 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/heatmap/v1",
+      "props": {
+        "rows": [
+          {
+            "label": "Mon",
+            "values": [
+              0,
+              2,
+              1,
+              4,
+              3,
+              5,
+              2,
+              6
+            ]
+          },
+          {
+            "label": "Tue",
+            "values": [
+              1,
+              3,
+              2,
+              5,
+              4,
+              6,
+              3,
+              7
+            ]
+          },
+          {
+            "label": "Wed",
+            "values": [
+              2,
+              4,
+              3,
+              6,
+              5,
+              8,
+              4,
+              9
+            ]
+          },
+          {
+            "label": "Thu",
+            "values": [
+              1,
+              2,
+              4,
+              5,
+              7,
+              6,
+              5,
+              8
+            ]
+          },
+          {
+            "label": "Fri",
+            "values": [
+              3,
+              5,
+              6,
+              8,
+              9,
+              7,
+              8,
+              10
+            ]
+          },
+          {
+            "label": "Sat",
+            "values": [
+              0,
+              1,
+              0,
+              2,
+              1,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "label": "Sun",
+            "values": [
+              0,
+              0,
+              1,
+              1,
+              0,
+              2,
+              0,
+              1
+            ]
+          }
+        ],
+        "colLabels": [
+          "W1",
+          "W2",
+          "W3",
+          "W4",
+          "W5",
+          "W6",
+          "W7",
+          "W8"
+        ],
+        "title": "CONTRIBUTIONS",
+        "subtitle": "Commits by day",
+        "preset": "light",
+        "levels": 7,
+        "cellRadius": 0.18,
+        "showLegend": true,
+        "showValues": false,
+        "anim": {
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": false
+        },
+        "color": "#10B981",
+        "emptyColor": "#EBEDF0"
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant C — GitHub-green scale (#10B981), 7 levels (more buckets), tighter corner radius (0.18). Tests a custom hue + a finer pale→full ramp + the legend showing 7 swatches.",
+    "question": "Approve or deny. Does the 7-bucket green ramp read as distinct steps, and does the legend with 7 swatches stay clean?",
+    "response": {
+      "body": "Approved.",
+      "from": "human",
+      "at": "2026-06-22T21:38:45.770Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

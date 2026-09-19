@@ -1,0 +1,8 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 480, "height": 480 }, "fps": 30, "durationMs": 3000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/alpine/stat-card/v1",
+    "props": { "label": "Commits", "value": "1,243", "delta": "+12.4%", "direction": "up", "sublabel": "vs last week" } } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-24-alpine-stat-card", "basename": "candidate-002" },
+  "agent": { "note": "c002 — fixes from c001. (1) CLIP FIX: the % + 'vs last week' were cut off because fit:'contain' scales text to the band HEIGHT then clips width on a long line. Switched to FIXED fonts sized to fit each cell's WIDTH up front (capFont, 0.66 em/char safety margin) — verified % shows + sublabel full across up/down + wide values (18,463, OPEN ISSUES). (2) DESIGN TRUTH = SQUARE: outputHints + this .mosaicx are now 480x480. (3) Compact arrow. The green chip is still a placeholder for the per-KPI icon.", "question": "Square card read right now (% + sublabel intact)? And the icon call: (a) author SVG glyphs per KPI, (b) one brand mark, or (c) clean accent chip / no glyph?" }
+}

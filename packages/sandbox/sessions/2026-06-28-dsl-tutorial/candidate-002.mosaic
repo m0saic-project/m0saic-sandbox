@@ -1,0 +1,623 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "100[0,0,0,0,0,0,0,0,0,0,15[0,-,0,0,0,0,0,0,0,0,0,0,109(0,-,0,0,0,0,0,0,0,0,13(0,0,3[-,1,-],0,-,0,0,3[-,1,-],0,-,0,0,3[-,1,-]),0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1{1},0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1},0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1},0,-),0,-],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1},0,0,0,0,0,0,0,0,1{1},0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1}],0,0,0,0,0,100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1},0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1}]),0,0,0,0,0,15[0,-,0,0,0,0,0,0,0,0,0,0,118(0,-,0,0,3[-,1,-],0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,-),0,-]]",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 14900,
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FF5F57",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "pill",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#FEBC2E",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "pill",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#28C840",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "pill",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Animated Wireframe"
+          },
+          "style": {
+            "fontSize": 36,
+            "fontColor": "#F2F5FB"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#1A2236",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "pill",
+          "borderRadius": 0.5
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.004,
+          "color": "#27314A",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Tutorial"
+          },
+          "style": {
+            "fontSize": 29,
+            "fontColor": "#7C5CFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#1A2236",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "pill",
+          "borderRadius": 0.5
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.004,
+          "color": "#27314A",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Speed  1x"
+          },
+          "style": {
+            "fontSize": 29,
+            "fontColor": "#AEB9D4"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#1A2236",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "pill",
+          "borderRadius": 0.5
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.004,
+          "color": "#27314A",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "Step  %{eif\\:min(15\\,max(1\\,1+(t-0.5000)/0.9000))\\:d}  /  15",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 29,
+            "fontColor": "#F2F5FB"
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#111726",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.0015,
+          "color": "#27314A",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "DSL string + ruler  ·  M3"
+          },
+          "style": {
+            "fontSize": 30,
+            "fontColor": "#697390"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#111726",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.0015,
+          "color": "#27314A",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Narration banner  ·  M3"
+          },
+          "style": {
+            "fontSize": 30,
+            "fontColor": "#697390"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#111726",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.0015,
+          "color": "#27314A",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Canvas — geometry walk  ·  M1"
+          },
+          "style": {
+            "fontSize": 30,
+            "fontColor": "#697390"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#111726",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.0015,
+          "color": "#27314A",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Inspector  ·  M2"
+          },
+          "style": {
+            "fontSize": 30,
+            "fontColor": "#697390"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#111726",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.0015,
+          "color": "#27314A",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Debugger  ·  M4"
+          },
+          "style": {
+            "fontSize": 30,
+            "fontColor": "#697390"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3FD17A",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "pill",
+          "borderRadius": 0.5
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Parsing"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#AEB9D4"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Tokens: 35"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#697390"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Nodes: 15"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#697390"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "agent": {
+    "note": "**M0b — IDE shell + chrome, wired to the real pipeline.** New template `@m0saic/dsl-tutorial/v1` (+ internal `@m0saic/dsl-tutorial/chrome/v1`).\n\n**Live now:** full-bleed **header** (traffic lights · title · *Tutorial* chip · **Speed** pill · **Step N / 15** pill that **counts up** as it plays) and **status bar** (● Parsing · Tokens · Nodes) — both are coordinated subtemplates rendered at their exact slot size on the parent's global clock. The four content panels are **labeled placeholders** (filled in M1–M4).\n\n- Shell fills **all W/H** (no floating window), per your M0a note.\n- Duration is **auto-derived** from step-count × speed (15 steps → ~15s here).\n- Debugger will show **only real trace values** (cols/rows/tile.w/h) — no synthetic gap/pad.",
+    "question": "Two checks before I build the panels: (1) does the **chrome** read premium — header element sizing/spacing, the counting **Step** pill, the status bar — and (2) is the **panel grid** right (proportions, all W/H used)? Flip `preset` to `\"light\"` and change `speedMultiplier` to feel the knobs.",
+    "context": {
+      "category": {
+        "kind": "other",
+        "label": "ide-shell-chrome"
+      },
+      "intent": {
+        "action": "propose",
+        "summary": "M0b — template scaffold + chrome + step pill on the real pipeline"
+      },
+      "relation": {
+        "kind": "refines",
+        "target": "001"
+      }
+    }
+  }
+}

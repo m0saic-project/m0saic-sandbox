@@ -1,0 +1,324 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{40[0,0,0,0,0,-,0,0,0,0,0,0,120(0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,120(0,0,0,0,0,0,0,-,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24(-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120(0,0,0,0,-,0,0,0,0,0,0,0,1,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{40[0,0,0,0,0,-,0,0,0,0,0,0,120(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]}}}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.28
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.84)))*(min(1,max(0,(t-0)/0.84)))*(3-2*(min(1,max(0,(t-0)/0.84))))",
+        "window": {
+          "startSec": 0
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.0291005291005291,
+          "right": 0.06490384615384616,
+          "bottom": 0.007936507936507936,
+          "left": 0.06009615384615385
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M16.944 11h4.306a.75.75 0 0 1 0 1.5h-4.306a5.001 5.001 0 0 1-9.888 0H2.75a.75.75 0 0 1 0-1.5h4.306a5.001 5.001 0 0 1 9.888 0Zm-1.444.75a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.84)))*(min(1,max(0,(t-0)/0.84)))*(3-2*(min(1,max(0,(t-0)/0.84))))",
+        "window": {
+          "startSec": 0
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.013888888888888888,
+          "right": 0.049107142857142856,
+          "bottom": 0.05092592592592592,
+          "left": 0.049107142857142856
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:1*((1-(1-(min(1\\,max(0\\,(t-0)/2.8))))*(1-(min(1\\,max(0\\,(t-0)/2.8))))))+0.5\\:d},%{eif\\:243*((1-(1-(min(1\\,max(0\\,(t-0)/2.8))))*(1-(min(1\\,max(0\\,(t-0)/2.8))))))+0.5\\:d\\:3},%{eif\\:908*((1-(1-(min(1\\,max(0\\,(t-0)/2.8))))*(1-(min(1\\,max(0\\,(t-0)/2.8))))))+0.5\\:d\\:3},%{eif\\:116*((1-(1-(min(1\\,max(0\\,(t-0)/2.8))))*(1-(min(1\\,max(0\\,(t-0)/2.8))))))+0.5\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 202,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "stat-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.84)))*(min(1,max(0,(t-0)/0.84)))*(3-2*(min(1,max(0,(t-0)/0.84))))",
+        "window": {
+          "startSec": 0
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.0125,
+          "right": 0.007102272727272727,
+          "bottom": 0.02361111111111111,
+          "left": 0.007102272727272727
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#16A34A",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 53 41.5 L 91.2 107.5 L 14.8 107.5 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 106,
+          "height": 149
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1199999999999999)/1.1199999999999999)))*(min(1,max(0,(t-1.1199999999999999)/1.1199999999999999)))*(3-2*(min(1,max(0,(t-1.1199999999999999)/1.1199999999999999))))",
+        "window": {
+          "startSec": 1.1199999999999999
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.05246913580246913,
+          "right": 0.08203125,
+          "bottom": 0.033950617283950615,
+          "left": 0.09765625
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "+1,204.47%"
+          },
+          "style": {
+            "fontSize": 87,
+            "fontColor": "#16A34A"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "stat-delta"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1199999999999999)/1.1199999999999999)))*(min(1,max(0,(t-1.1199999999999999)/1.1199999999999999)))*(3-2*(min(1,max(0,(t-1.1199999999999999)/1.1199999999999999))))",
+        "window": {
+          "startSec": 1.1199999999999999
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.05246913580246913,
+          "right": 0.014668367346938776,
+          "bottom": 0.033950617283950615,
+          "left": 0
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "versus the previous fiscal quarter"
+          },
+          "style": {
+            "fontSize": 36,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "stat-sublabel"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.68)/0.9799999999999999)))*(min(1,max(0,(t-1.68)/0.9799999999999999)))*(3-2*(min(1,max(0,(t-1.68)/0.9799999999999999))))",
+        "window": {
+          "startSec": 1.68
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.05246913580246913,
+          "right": 0.015625,
+          "bottom": 0.033950617283950615,
+          "left": 0.019375
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "TOTAL INFRASTRUCTURE DEPLOYMENT PIPELINE RUNS"
+          },
+          "style": {
+            "fontSize": 46,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "stat-label"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.84)))*(min(1,max(0,(t-0)/0.84)))*(3-2*(min(1,max(0,(t-0)/0.84))))",
+        "window": {
+          "startSec": 0
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.0291005291005291,
+          "right": 0.008400537634408602,
+          "bottom": 0.007936507936507936,
+          "left": 0
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "black@0",
+  "fps": 30,
+  "durationMs": 4000,
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-01"
+  },
+  "agent": {
+    "note": "**STRESS 01/10 — 01-long-everything** (gate-10 stress set for `@m0saic/alpine/stat-card/v1`).\n\nMAX LOAD: long label + 13-digit value + huge delta + long sublabel. Watch: every text capped/ellipsized, value stays dominant, count-up over 4s.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it. keep both as base",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

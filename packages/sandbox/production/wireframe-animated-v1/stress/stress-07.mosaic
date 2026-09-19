@@ -1,0 +1,685 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "4[6(1,1,1,1,1,1),6(1,1,1,1,1,1),6(1,1,1,1,1,1),6(1,1,1,1,1,1)]",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-thumb-dark-fast** (gate-30 stress set for `@m0saic/wireframe/animated/v1`).\n\nDark thumb preset (no header, no labels), 24 rounded tiles, 2s explicit duration with zero lead padding — the fastest wave.\n\nWatch: first tile already on canvas at t=0; alternating tile shades; all 24 in by 1.7s (0.3s trail kept for the last slide).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "moot",
+      "text": "Not reviewed — the template was DEPRECATED by ruling at the default verdict (superseded by @m0saic/dsl-tutorial/v1; kept in base as base·dep). Recipe + twin + end frame stay as the agent pre-pass record (agent pass: clean).",
+      "via": "transcribed by agent from the gate-30 chat verdict",
+      "from": "agent:claude",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#141824",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 0,
+        "enable": "gte(t,0.000)",
+        "yExpr": "-(1-min((t-0)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#101522",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 0.07391304347826087,
+        "enable": "gte(t,0.074)",
+        "yExpr": "-(1-min((t-0.07391304347826087)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#141824",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 0.14782608695652175,
+        "enable": "gte(t,0.148)",
+        "yExpr": "-(1-min((t-0.14782608695652175)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#101522",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 0.2217391304347826,
+        "enable": "gte(t,0.222)",
+        "yExpr": "-(1-min((t-0.2217391304347826)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#141824",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 0.2956521739130435,
+        "enable": "gte(t,0.296)",
+        "yExpr": "-(1-min((t-0.2956521739130435)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#101522",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 0.3695652173913044,
+        "enable": "gte(t,0.370)",
+        "yExpr": "-(1-min((t-0.3695652173913044)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#141824",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 0.4434782608695652,
+        "enable": "gte(t,0.443)",
+        "yExpr": "-(1-min((t-0.4434782608695652)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#101522",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 0.5173913043478261,
+        "enable": "gte(t,0.517)",
+        "yExpr": "-(1-min((t-0.5173913043478261)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#141824",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 0.591304347826087,
+        "enable": "gte(t,0.591)",
+        "yExpr": "-(1-min((t-0.591304347826087)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#101522",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 0.6652173913043479,
+        "enable": "gte(t,0.665)",
+        "yExpr": "-(1-min((t-0.6652173913043479)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#141824",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 0.7391304347826088,
+        "enable": "gte(t,0.739)",
+        "yExpr": "-(1-min((t-0.7391304347826088)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#101522",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 0.8130434782608696,
+        "enable": "gte(t,0.813)",
+        "yExpr": "-(1-min((t-0.8130434782608696)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#141824",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 0.8869565217391304,
+        "enable": "gte(t,0.887)",
+        "yExpr": "-(1-min((t-0.8869565217391304)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#101522",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 0.9608695652173913,
+        "enable": "gte(t,0.961)",
+        "yExpr": "-(1-min((t-0.9608695652173913)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#141824",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 1.0347826086956522,
+        "enable": "gte(t,1.035)",
+        "yExpr": "-(1-min((t-1.0347826086956522)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#101522",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 1.108695652173913,
+        "enable": "gte(t,1.109)",
+        "yExpr": "-(1-min((t-1.108695652173913)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#141824",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 1.182608695652174,
+        "enable": "gte(t,1.183)",
+        "yExpr": "-(1-min((t-1.182608695652174)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#101522",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 1.2565217391304349,
+        "enable": "gte(t,1.257)",
+        "yExpr": "-(1-min((t-1.2565217391304349)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#141824",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 1.3304347826086957,
+        "enable": "gte(t,1.330)",
+        "yExpr": "-(1-min((t-1.3304347826086957)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#101522",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 1.4043478260869566,
+        "enable": "gte(t,1.404)",
+        "yExpr": "-(1-min((t-1.4043478260869566)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#141824",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 1.4782608695652175,
+        "enable": "gte(t,1.478)",
+        "yExpr": "-(1-min((t-1.4782608695652175)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#101522",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 1.5521739130434784,
+        "enable": "gte(t,1.552)",
+        "yExpr": "-(1-min((t-1.5521739130434784)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#141824",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 1.6260869565217393,
+        "enable": "gte(t,1.626)",
+        "yExpr": "-(1-min((t-1.6260869565217393)/0.3,1))*270*0.08"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#101522",
+      "effects": {
+        "rounding": {
+          "borderRadius": 0.04,
+          "cornerStyle": "rounded"
+        },
+        "stroke": {
+          "width": 0.0015,
+          "color": "#ffffff",
+          "alpha": 0.1,
+          "position": "inner"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 1.7000000000000002,
+        "enable": "gte(t,1.700)",
+        "yExpr": "-(1-min((t-1.7000000000000002)/0.3,1))*270*0.08"
+      }
+    }
+  ],
+  "format": {
+    "kind": "video",
+    "container": "mp4"
+  },
+  "audio": {
+    "mode": "off"
+  },
+  "backgroundColor": "#0f1116@1.0"
+}

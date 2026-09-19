@@ -1,0 +1,106 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1920
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/contributor-table/v1",
+      "props": {
+        "rows": [
+          {
+            "rank": 1,
+            "name": "Anton Khirnov",
+            "values": [
+              23,
+              4512,
+              2103
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Michael Niedermayer",
+            "values": [
+              18,
+              3204,
+              1034
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "James Almer",
+            "values": [
+              14,
+              2193,
+              812
+            ]
+          },
+          {
+            "rank": 4,
+            "name": "Marton Balint",
+            "values": [
+              11,
+              1842,
+              1201
+            ]
+          },
+          {
+            "rank": 5,
+            "name": "Limin Wang",
+            "values": [
+              9,
+              1503,
+              623
+            ]
+          }
+        ],
+        "columns": [
+          "Commits",
+          "Additions",
+          "Deletions"
+        ],
+        "title": "TOP CONTRIBUTORS",
+        "subtitle": "This week",
+        "accent": "#3fb950",
+        "topTint": 3,
+        "columnColors": [
+          null,
+          "#3fb950",
+          "#f85149"
+        ],
+        "columnSigns": [
+          "",
+          "+",
+          "-"
+        ],
+        "anim": {
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": "<sandbox>/sessions/2026-06-24-alpine-contributor-table",
+    "basename": "master_candidate"
+  },
+  "agent": {
+    "note": "MASTER CANDIDATE — final quality gate for @m0saic/alpine/contributor-table/v1. All feedback applied + approved per-aspect. Unit test (14) + CLI E2E (top-contributors) green. Render the 3 aspects below and sign off; on approval I promote to master.mosaicx + .mosaic, set the template preview, and write the postmortem.",
+    "question": "Sign off on all 3 master renders (desktop / square / mobile)?",
+    "response": {
+      "body": "approved.",
+      "from": "human",
+      "at": "2026-06-24T16:24:28.280Z",
+      "src": "<sandbox>/sessions/2026-06-24-alpine-contributor-table/master_candidate-1080x1920.mp4"
+    }
+  }
+}

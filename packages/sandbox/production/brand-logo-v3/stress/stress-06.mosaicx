@@ -1,0 +1,29 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 544,
+  "height": 544
+ },
+ "fps": 30,
+ "durationMs": 3200,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/brand/logo/v3",
+   "props": {
+    "animation": "progress_fill",
+    "progress": 0.85
+   }
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "stress-06"
+ },
+ "agent": {
+  "note": "**STRESS 06/10 — 06-m33-progress-085** (gate-28 stress set for `@m0saic/brand/logo/v3`).\n\nprogress_fill pinned at 0.85. Watch: static 85 percent fill - no time animation when progress is explicit."
+ }
+}

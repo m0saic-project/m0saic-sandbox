@@ -1,0 +1,42 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 900,
+    "height": 900
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 \u2014 07-none-noslide** (gate-17 stress set for `@m0saic/charts/stat-card/v1` \u2014 the charts-pack closer).\n\nTRANSPARENT (\"none\") + slideIn OFF: flat single-layer doc for card-chrome composition (no base tile by design \u2014 canvas shows through, black in the mp4). Watch: content renders without the surface, no slide (count-up only).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "ship",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/stat-card/v1",
+      "props": {
+        "label": "Deploys",
+        "value": "57",
+        "delta": "+9 (+18.7%)",
+        "direction": "up",
+        "sublabel": "this quarter",
+        "backgroundColor": "none",
+        "anim": {
+          "slideIn": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 400
+  },
+  "fps": 30,
+  "durationMs": 18170,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/hero/search-typing/v1",
+      "props": {
+        "words": [
+          "Ideas",
+          "Answers",
+          "Templates",
+          "Tutorials",
+          "Inspiration"
+        ],
+        "label": "Search for",
+        "timing": {
+          "typeCharMs": 120,
+          "deleteCharMs": 90,
+          "emptyHoldMs": 850,
+          "wordHoldMs": 1100,
+          "leadMs": 400,
+          "trailMs": 400
+        },
+        "endBehavior": "hold",
+        "caret": {
+          "show": false,
+          "blinkMs": 1000,
+          "widthPx": 2
+        },
+        "underline": "grow",
+        "icon": {
+          "show": true
+        },
+        "style": {
+          "pageColor": "#F2F3F5",
+          "cardColor": "#FFFFFF",
+          "labelColor": "#9AA0A6",
+          "inkColor": "#202124",
+          "cornerRadiusPx": 16,
+          "barWidthFrac": 0.62,
+          "barAspect": 0.26
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-001"
+  },
+  "agent": {
+    "note": "**P1 checkpoint — static composition** of `@m0saic/hero/search-typing/v1` (defaults, 1280×400, 4s still-video).\n\nWhat is composed: rounded white card + muted chrome (polygon magnifier ring, \"Search for\" label, label underline segment) + the FIRST word (\"Ideas\") fully typed in ink. **Nothing animates yet** — P2 adds the typing curtain, growing underline, and per-word windows.\n\nGeometry at this canvas: bar 794×200 centered, radius 16, icon square 84px, fontSize ~57.8px (shrink-to-fit with 8% CLI/app slack).",
+    "question": "Judging ONLY the static look:\n\n1. **Ring** — does the magnifier read as a crisp ring (not a disc / square), with sane stroke weight + handle angle?\n2. **Proportions** — card size on canvas, icon/label/word scale, corner radius?\n3. **Colors** — page #F2F3F5 / card white / muted #9AA0A6 / ink #202124 feel right vs the reference?\n\nAnything off, say which of the three and I fork the fix as candidate-002.",
+    "response": {
+      "body": "ring looks fine. proportions seem fine too. as well as colors. approved to keep iterating",
+      "from": "human",
+      "at": "2026-08-06T16:53:56.875Z",
+      "src": "<sandbox>/sessions/2026-08-06-search-typing-hero/./candidate-001-1280x400.mp4"
+    },
+    "comments": [
+      {
+        "id": "p1firstpass",
+        "body": "**Displaced first verdict (2026-08-06T16:45Z, saved via the Make scratch, preserved here):**\n\n> the Ideas looks diconnected from the search for because its differnet color and lacks underline. Also, this is currently static. Is this intentional? I see the template is implemented as three lavfi sources. interesting, I guess this works better for the particular usecase we have?\n\nScreenshot + original stamp live in `~/m0saic/make/m0saic_hero_search-typing_v1.mosaicx` and the frozen `candidate-001_humanedits.mosaic`.",
+        "from": "agent:claude",
+        "at": "2026-08-06T16:57:02.000Z"
+      },
+      {
+        "id": "p1answers",
+        "body": "Answers to that first pass: (1) the missing word underline is the P2 grow track (animated per-char — arrives with typing motion; P1 only has the static label segment); (2) muted-label vs ink-word split mirrors the reference — `style.labelColor`/`inkColor` knobs to taste; (3) static was the P1 checkpoint by design. Three lavfi sources = card + chrome atlas + word strip, each a color source clipped by an inline SVG mask; P2 adds enable-gated drawbox tracks — the whole animation stays scalar gates, no drawtext, no per-frame JS.",
+        "from": "agent:claude",
+        "at": "2026-08-06T16:57:02.000Z"
+      },
+      {
+        "id": "p1gate",
+        "body": "**P1 gate PASSED** (response above, 16:53Z): ring / proportions / colors approved at pure defaults, zero prop nudges. Proceeding to P2 — candidate-002 will be the full typing loop.",
+        "from": "agent:claude",
+        "at": "2026-08-06T16:57:02.000Z"
+      }
+    ]
+  }
+}

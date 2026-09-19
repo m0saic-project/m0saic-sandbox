@@ -1,0 +1,55 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "suggestedOutput": {
+    "dir": "./renders",
+    "basename": "09-every-slider-at-its-stop"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 — 09-every-slider-at-its-stop** (gate-36 stress set for `@m0saic/media/scroll_wall/v1`).\n\nEVERY SLIDER DRAGGED TO ITS STOP AT ONCE at 1080x1080. The abuse case: 4 rows, 12 visible, gap 96, margin 200, contain, 8 cycles, rightward with alternation OFF, row offset 1.0, shuffled at seed 9999 — on a square canvas. Three separate thinning rules (visibleCount walk-down, gap half-pitch, margin half-axis) have to negotiate simultaneously. Watch: no error card, rows still even, letterboxing (contain) is visible and deliberate, and the whole thing still reads as a wall rather than confetti.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/scroll_wall/v1",
+      "props": {
+        "clips": [
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/chat_sr.mp4",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-13-2400x1000.png",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/inbox_sr.mp4",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-04-800x1200.png",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/invoice_sr.mp4",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/signed-letter_sr.mp4"
+        ],
+        "rows": 4,
+        "visibleCount": 12,
+        "direction": "right",
+        "motion": {
+          "alternateRowDirection": false,
+          "rowOffsetFrac": 1,
+          "cycles": 8
+        },
+        "tiles": {
+          "gapPx": 96,
+          "marginPx": 200,
+          "fit": "contain",
+          "clipWindowMs": 8000
+        },
+        "variation": {
+          "shuffle": true,
+          "staggerRepeats": true,
+          "seed": 9999
+        }
+      }
+    }
+  ]
+}

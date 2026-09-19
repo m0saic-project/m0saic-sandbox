@@ -1,0 +1,89 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/bar-graph/v2",
+      "props": {
+        "values": [
+          6,
+          10,
+          14,
+          18,
+          22,
+          26,
+          30,
+          34,
+          38,
+          42,
+          46,
+          50,
+          54,
+          58,
+          62,
+          66,
+          70,
+          74,
+          78,
+          82,
+          86,
+          90,
+          94,
+          98
+        ],
+        "labels": [
+          "Category Label 1",
+          "Category Label 2",
+          "Category Label 3",
+          "Category Label 4",
+          "Category Label 5",
+          "Category Label 6",
+          "Category Label 7",
+          "Category Label 8",
+          "Category Label 9",
+          "Category Label 10",
+          "Category Label 11",
+          "Category Label 12",
+          "Category Label 13",
+          "Category Label 14",
+          "Category Label 15",
+          "Category Label 16",
+          "Category Label 17",
+          "Category Label 18",
+          "Category Label 19",
+          "Category Label 20",
+          "Category Label 21",
+          "Category Label 22",
+          "Category Label 23",
+          "Category Label 24"
+        ],
+        "titles": {
+          "title": "QUARTERLY PERFORMANCE ACROSS ALL BUSINESS UNITS",
+          "subtitle": "Fiscal year twenty twenty-six, consolidated"
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-01"
+  },
+  "agent": {
+    "note": "**STRESS 01/10 — 01-max24-vertical** (gate-14 stress set for `@m0saic/charts/bar-graph/v2`).\n\nMAX LOAD: 24 bars, long labels, long title. Watch: equal widths (the gate fix), labels ellipsize uniformly per pitch, cascade across 24.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

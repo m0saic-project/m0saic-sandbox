@@ -1,0 +1,970 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {
+    "node_root": {
+      "kind": "node-output",
+      "nodeId": "root"
+    }
+  },
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "mosaic",
+      "ref": "inv-sources-0"
+    }
+  ],
+  "agent": {
+    "note": "master — @m0saic/alpine/leaderboard/v1 (the 6th Alpine template), LOCKED 2026-06-22. A ranked list in the friendly white card: each row is a small rounded RANK BADGE + name + count-up value. Rows AUTO-SORT by value descending so rank reflects the score (preSorted keeps input order); caps at 8 rows. The podium gets the medal treatment — gold / dark-grey / brown badges with a soft tinted row wash; every other row a neutral grey wash so the top three read at a glance. Theme-aware: medal + wash colors retune for the dark preset (rank-2 = muted slate #64748B, not glaring) so nothing washes out or vanishes. Values format with thousands grouping ($284,000) via animateNumbersInText (grouped-digit padding fix shipped in template-utils so '$284,000' never renders '$284,0'); per-item Display override, valuePrefix/suffix, or raw label all supported. Built on the bar-graph/progress model (weighted splits + rounded tiles, no inline-masks); every height weight snapped to a multiple of 8 → feasible at any resolution (validated 1280x800 AND 1024x1024). 5 stress variants approved (A preSorted · B no-tint · C 8-rows-$ · D dark-toned · E long-names).",
+    "question": "Locked master — showcase props (5 contributors, podium medal tint, count-up). This is the preview the Templates page renders.",
+    "response": {
+      "body": "Approved — locked.",
+      "from": "human",
+      "at": "2026-06-22T00:00:00.000Z"
+    }
+  },
+  "children": {
+    "inv-sources-0": {
+      "kind": "mosaic_document",
+      "version": 1,
+      "assets": {
+        "lavfi_771a107b0c": {
+          "kind": "lavfi",
+          "graph": "color=#FFFFFF:s=1280x800:r=30:d=2.000,format=rgba,scale=1280:800"
+        },
+        "text_root_0_1": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_1_text.png",
+          "mediaType": "image"
+        },
+        "lavfi_3b7203b461": {
+          "kind": "lavfi",
+          "graph": "color=#F59E0B:s=1194x85:r=30:d=2.000,format=rgba,scale=1194:85"
+        },
+        "lavfi_7eade0b1c1": {
+          "kind": "lavfi",
+          "graph": "color=#F59E0B:s=72x51:r=30:d=2.000,format=rgba,scale=72:51"
+        },
+        "text_root_0_4": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_4_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_5": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_5_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_6": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_6_text.mov",
+          "mediaType": "video"
+        },
+        "lavfi_1941dbb694": {
+          "kind": "lavfi",
+          "graph": "color=#1E293B:s=1194x85:r=30:d=2.000,format=rgba,scale=1194:85"
+        },
+        "lavfi_204c8d2a54": {
+          "kind": "lavfi",
+          "graph": "color=#1E293B:s=72x51:r=30:d=2.000,format=rgba,scale=72:51"
+        },
+        "text_root_0_9": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_9_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_10": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_10_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_11": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_11_text.mov",
+          "mediaType": "video"
+        },
+        "lavfi_04e71afd71": {
+          "kind": "lavfi",
+          "graph": "color=#B45309:s=1194x85:r=30:d=2.000,format=rgba,scale=1194:85"
+        },
+        "lavfi_04312d839b": {
+          "kind": "lavfi",
+          "graph": "color=#B45309:s=72x51:r=30:d=2.000,format=rgba,scale=72:51"
+        },
+        "text_root_0_14": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_14_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_15": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_15_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_16": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_16_text.mov",
+          "mediaType": "video"
+        },
+        "lavfi_c4649b0a0a": {
+          "kind": "lavfi",
+          "graph": "color=#E2E8F0:s=1194x85:r=30:d=2.000,format=rgba,scale=1194:85"
+        },
+        "lavfi_b4cc0b6498": {
+          "kind": "lavfi",
+          "graph": "color=#E2E8F0:s=72x51:r=30:d=2.000,format=rgba,scale=72:51"
+        },
+        "text_root_0_19": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_19_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_20": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_20_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_21": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_21_text.mov",
+          "mediaType": "video"
+        },
+        "text_root_0_24": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_24_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_25": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_25_text.png",
+          "mediaType": "image"
+        },
+        "text_root_0_26": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_26_text.mov",
+          "mediaType": "video"
+        },
+        "node_root_0": {
+          "kind": "node-output",
+          "nodeId": "root:0"
+        }
+      },
+      "m0": "F{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30(-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,119[0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(-,0,0,0,0,0,5[-,0,0,1{1},-],0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)},0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(-,0,0,0,0,0,5[-,0,0,1{1},-],0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)},0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(-,0,0,0,0,0,5[-,0,0,1{1},-],0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)},0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(-,0,0,0,0,0,5[-,0,0,1{1},-],0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)},0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{100(-,0,0,0,0,0,5[-,0,0,1{1},-],0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-)},0,0,0,0,0,0,0,0,0,0,-]],-),0,0,0,0,0,0,-]}",
+      "sources": [
+        {
+          "type": "lavfi",
+          "color": "#FFFFFF",
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.08
+            },
+            "stroke": {
+              "position": "inner",
+              "width": 0.002,
+              "color": "#E5E7EB",
+              "alpha": 1
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "TOP CONTRIBUTORS"
+              },
+              "style": {
+                "fontSize": 40,
+                "fontColor": "#0F172A"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "top"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "This month"
+              },
+              "style": {
+                "fontSize": 21,
+                "fontColor": "#64748B"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "bottom"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#F59E0B",
+          "overlay": {
+            "alpha": "0.12"
+          },
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.18
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#F59E0B",
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.32
+            }
+          },
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.11199999999999999)/0.4293333333333333)))*(min(1,max(0,(t-0.11199999999999999)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.11199999999999999)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "1"
+              },
+              "style": {
+                "fontSize": 21,
+                "fontColor": "#0F172A"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.11199999999999999)/0.4293333333333333)))*(min(1,max(0,(t-0.11199999999999999)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.11199999999999999)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Ava Chen"
+              },
+              "style": {
+                "fontSize": 24,
+                "fontColor": "#0F172A"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.11199999999999999)/0.4293333333333333)))*(min(1,max(0,(t-0.11199999999999999)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.11199999999999999)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "video"
+          },
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "expr",
+                "expr": "%{eif\\:2*((1-(1-(min(1\\,max(0\\,(t-0.11199999999999999)/0.4293333333333333))))*(1-(min(1\\,max(0\\,(t-0.11199999999999999)/0.4293333333333333))))))+0.5\\:d},%{eif\\:840*((1-(1-(min(1\\,max(0\\,(t-0.11199999999999999)/0.4293333333333333))))*(1-(min(1\\,max(0\\,(t-0.11199999999999999)/0.4293333333333333))))))+0.5\\:d\\:3} commits",
+                "eval": "frame"
+              },
+              "style": {
+                "fontSize": 26,
+                "fontColor": "#64748B"
+              },
+              "placement": {
+                "hAlign": "right",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.11199999999999999)/0.4293333333333333)))*(min(1,max(0,(t-0.11199999999999999)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.11199999999999999)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#1E293B",
+          "overlay": {
+            "alpha": "0.12"
+          },
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.18
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#1E293B",
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.32
+            }
+          },
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.32666666666666666)/0.4293333333333333)))*(min(1,max(0,(t-0.32666666666666666)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.32666666666666666)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "2"
+              },
+              "style": {
+                "fontSize": 21,
+                "fontColor": "#FFFFFF"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.32666666666666666)/0.4293333333333333)))*(min(1,max(0,(t-0.32666666666666666)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.32666666666666666)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Liam Patel"
+              },
+              "style": {
+                "fontSize": 24,
+                "fontColor": "#0F172A"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.32666666666666666)/0.4293333333333333)))*(min(1,max(0,(t-0.32666666666666666)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.32666666666666666)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "video"
+          },
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "expr",
+                "expr": "%{eif\\:2*((1-(1-(min(1\\,max(0\\,(t-0.32666666666666666)/0.4293333333333333))))*(1-(min(1\\,max(0\\,(t-0.32666666666666666)/0.4293333333333333))))))+0.5\\:d},%{eif\\:615*((1-(1-(min(1\\,max(0\\,(t-0.32666666666666666)/0.4293333333333333))))*(1-(min(1\\,max(0\\,(t-0.32666666666666666)/0.4293333333333333))))))+0.5\\:d\\:3} commits",
+                "eval": "frame"
+              },
+              "style": {
+                "fontSize": 26,
+                "fontColor": "#64748B"
+              },
+              "placement": {
+                "hAlign": "right",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.32666666666666666)/0.4293333333333333)))*(min(1,max(0,(t-0.32666666666666666)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.32666666666666666)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#B45309",
+          "overlay": {
+            "alpha": "0.12"
+          },
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.18
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#B45309",
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.32
+            }
+          },
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.5413333333333332)/0.4293333333333333)))*(min(1,max(0,(t-0.5413333333333332)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.5413333333333332)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "3"
+              },
+              "style": {
+                "fontSize": 21,
+                "fontColor": "#FFFFFF"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.5413333333333332)/0.4293333333333333)))*(min(1,max(0,(t-0.5413333333333332)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.5413333333333332)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Noah Kim"
+              },
+              "style": {
+                "fontSize": 24,
+                "fontColor": "#0F172A"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.5413333333333332)/0.4293333333333333)))*(min(1,max(0,(t-0.5413333333333332)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.5413333333333332)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "video"
+          },
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "expr",
+                "expr": "%{eif\\:2*((1-(1-(min(1\\,max(0\\,(t-0.5413333333333332)/0.4293333333333333))))*(1-(min(1\\,max(0\\,(t-0.5413333333333332)/0.4293333333333333))))))+0.5\\:d},%{eif\\:390*((1-(1-(min(1\\,max(0\\,(t-0.5413333333333332)/0.4293333333333333))))*(1-(min(1\\,max(0\\,(t-0.5413333333333332)/0.4293333333333333))))))+0.5\\:d\\:3} commits",
+                "eval": "frame"
+              },
+              "style": {
+                "fontSize": 26,
+                "fontColor": "#64748B"
+              },
+              "placement": {
+                "hAlign": "right",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.5413333333333332)/0.4293333333333333)))*(min(1,max(0,(t-0.5413333333333332)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.5413333333333332)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#E2E8F0",
+          "overlay": {
+            "alpha": "0.55"
+          },
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.18
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#E2E8F0",
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.32
+            }
+          },
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.7559999999999999)/0.4293333333333333)))*(min(1,max(0,(t-0.7559999999999999)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.7559999999999999)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "4"
+              },
+              "style": {
+                "fontSize": 21,
+                "fontColor": "#334155"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.7559999999999999)/0.4293333333333333)))*(min(1,max(0,(t-0.7559999999999999)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.7559999999999999)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Mia Garcia"
+              },
+              "style": {
+                "fontSize": 24,
+                "fontColor": "#0F172A"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.7559999999999999)/0.4293333333333333)))*(min(1,max(0,(t-0.7559999999999999)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.7559999999999999)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "video"
+          },
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "expr",
+                "expr": "%{eif\\:1*((1-(1-(min(1\\,max(0\\,(t-0.7559999999999999)/0.4293333333333333))))*(1-(min(1\\,max(0\\,(t-0.7559999999999999)/0.4293333333333333))))))+0.5\\:d},%{eif\\:975*((1-(1-(min(1\\,max(0\\,(t-0.7559999999999999)/0.4293333333333333))))*(1-(min(1\\,max(0\\,(t-0.7559999999999999)/0.4293333333333333))))))+0.5\\:d\\:3} commits",
+                "eval": "frame"
+              },
+              "style": {
+                "fontSize": 26,
+                "fontColor": "#64748B"
+              },
+              "placement": {
+                "hAlign": "right",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.7559999999999999)/0.4293333333333333)))*(min(1,max(0,(t-0.7559999999999999)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.7559999999999999)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#E2E8F0",
+          "overlay": {
+            "alpha": "0.55"
+          },
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.18
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#E2E8F0",
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.32
+            }
+          },
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.9706666666666666)/0.4293333333333333)))*(min(1,max(0,(t-0.9706666666666666)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.9706666666666666)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "5"
+              },
+              "style": {
+                "fontSize": 21,
+                "fontColor": "#334155"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.9706666666666666)/0.4293333333333333)))*(min(1,max(0,(t-0.9706666666666666)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.9706666666666666)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Ethan Wright"
+              },
+              "style": {
+                "fontSize": 24,
+                "fontColor": "#0F172A"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.9706666666666666)/0.4293333333333333)))*(min(1,max(0,(t-0.9706666666666666)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.9706666666666666)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "video"
+          },
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "expr",
+                "expr": "%{eif\\:1*((1-(1-(min(1\\,max(0\\,(t-0.9706666666666666)/0.4293333333333333))))*(1-(min(1\\,max(0\\,(t-0.9706666666666666)/0.4293333333333333))))))+0.5\\:d},%{eif\\:640*((1-(1-(min(1\\,max(0\\,(t-0.9706666666666666)/0.4293333333333333))))*(1-(min(1\\,max(0\\,(t-0.9706666666666666)/0.4293333333333333))))))+0.5\\:d\\:3} commits",
+                "eval": "frame"
+              },
+              "style": {
+                "fontSize": 26,
+                "fontColor": "#64748B"
+              },
+              "placement": {
+                "hAlign": "right",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "alpha": "(min(1,max(0,(t-0.9706666666666666)/0.4293333333333333)))*(min(1,max(0,(t-0.9706666666666666)/0.4293333333333333)))*(3-2*(min(1,max(0,(t-0.9706666666666666)/0.4293333333333333))))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      ],
+      "backgroundColor": "#F8FAFC",
+      "fps": 30,
+      "durationMs": 2000,
+      "size": {
+        "width": 1280,
+        "height": 800
+      },
+      "editor": {
+        "owner": "user",
+        "provenance": {
+          "kind": "template_invocation",
+          "templateId": "@m0saic/alpine/leaderboard/v1",
+          "props": {
+            "items": [
+              {
+                "name": "Ava Chen",
+                "value": 2840
+              },
+              {
+                "name": "Liam Patel",
+                "value": 2615
+              },
+              {
+                "name": "Noah Kim",
+                "value": 2390
+              },
+              {
+                "name": "Mia Garcia",
+                "value": 1975
+              },
+              {
+                "name": "Ethan Wright",
+                "value": 1640
+              }
+            ],
+            "title": "TOP CONTRIBUTORS",
+            "subtitle": "This month",
+            "preset": "light",
+            "podiumTint": true,
+            "showValue": true,
+            "anim": {
+              "introFrac": 0.7,
+              "countUp": true,
+              "easing": "easeOut",
+              "reduceMotion": false
+            },
+            "valuePrefix": "",
+            "valueSuffix": " commits"
+          },
+          "invocationId": "inv-sources-0",
+          "sourcePath": "sources[0]"
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_comment": "dsl-tutorial → production sandbox walkthrough. @m0saic/meta/post-mortem/v1 over this session. Arc: candidates 001-034 built the IDE-shell tutorial (chrome, animated geometry-walk canvas + follow-camera, X/Y/W/H/Z inspector with engine-state N/R/C, live syntax DSL string, split visualization, target-aspect letterbox). c035 = W1 perf lock: the canvas collapsed from ~100 per-tile text sources (each a per-pixel geq alpha fold) to a constant inline-mask atlas + drawbox reveal curtain — 228s → ~5s at 10x10, rounded corners preserved via SVG rounding. Then the pre-master suite (premaster/) gated every dimension: camera zoom+hold, DSL paging, single+multi passthrough, null, single+complex-multi overlay, F frames, portrait/square canvas, every panel toggle, light/dark. Fixes along the way: overlay reveal regression (per-tile real-geometry path when tiles overlap), N=3 split-count (exclude overlay children from arity), panel-hide reflow (hidden panels donate space to the canvas hero), header divider, default preset -> light, camera end-hold, and auto-zoom clamped to fit-the-widest-tile + passthrough-follow. Locked at master_candidate-03 (camera-stress showcase). NOT rendered at closeout. Render: m0saic make packages/sandbox/sessions/2026-06-28-dsl-tutorial/postmortem.mosaicx -o /tmp/dsl-tutorial-session.mp4 -w 1920 -h 1080.",
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "fps": 30,
+  "durationMs": 16000,
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "assets": {},
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/meta/post-mortem/v1",
+      "props": {
+        "sessionPath": "packages/sandbox/sessions/2026-06-28-dsl-tutorial",
+        "msPerCandidate": 3000,
+        "msTitleCard": 2000,
+        "msEndCard": 2000
+      }
+    }
+  ]
+}

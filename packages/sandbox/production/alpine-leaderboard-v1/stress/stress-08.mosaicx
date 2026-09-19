@@ -1,0 +1,81 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 480,
+    "height": 1040
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/leaderboard/v1",
+      "props": {
+        "items": [
+          {
+            "name": "Ava A.",
+            "value": 900
+          },
+          {
+            "name": "Liam B.",
+            "value": 815
+          },
+          {
+            "name": "Noah C.",
+            "value": 730
+          },
+          {
+            "name": "Mia D.",
+            "value": 645
+          },
+          {
+            "name": "Ethan E.",
+            "value": 560
+          },
+          {
+            "name": "Zoe F.",
+            "value": 475
+          },
+          {
+            "name": "Kai G.",
+            "value": 390
+          },
+          {
+            "name": "Rex H.",
+            "value": 305
+          }
+        ],
+        "title": "TOP CONTRIBUTORS",
+        "subtitle": "This month",
+        "preset": "dark",
+        "podiumTint": true,
+        "showValue": true,
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        },
+        "valueSuffix": " kg"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-dark-tall-8** (gate-7 stress set for `@m0saic/alpine/leaderboard/v1`).\n\nTALL SKINNY + dark + 8 items + suffix. Watch: density, dark washes, medal tints on dark.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-22T10:45:10.000Z",
+      "via": "chat (\"ship\" — gate-7 stress set) — transcribed by agent"
+    }
+  }
+}

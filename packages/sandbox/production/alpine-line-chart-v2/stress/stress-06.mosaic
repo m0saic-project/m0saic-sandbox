@@ -1,0 +1,142 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121(0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15[0,1,0,0,0,0,0,0,0,0,0,0,0,0,25[-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1{1}}]],0,0,0,0,0,0,-),0,0,0,0,0,0,-]}",
+  "assets": {},
+  "size": {
+    "width": 900,
+    "height": 900
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#E5E7EB",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "LINE CHART"
+          },
+          "style": {
+            "fontSize": 45,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Monthly Active Users"
+          },
+          "style": {
+            "fontSize": 23,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#CBD5E1",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 0 657 L 792 657 L 792 659 L 0 659 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 792,
+          "height": 664
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 9.93 660.3 L 38.54 636.26 L 34.68 631.67 L 6.07 655.7 Z M 38.54 636.26 L 75.1 605.54 L 71.24 600.95 L 34.68 631.67 Z M 75.1 605.54 L 118.49 569.09 L 114.63 564.49 L 71.24 600.95 Z M 118.49 569.09 L 167.55 527.86 L 163.7 523.27 L 114.63 564.49 Z M 167.55 527.86 L 221.17 482.81 L 217.31 478.22 L 163.7 523.27 Z M 221.17 482.81 L 278.2 434.9 L 274.34 430.3 L 217.31 478.22 Z M 278.2 434.9 L 337.49 385.08 L 333.63 380.48 L 274.34 430.3 Z M 337.49 385.08 L 397.93 334.3 L 394.07 329.7 L 333.63 380.48 Z M 397.93 334.3 L 458.37 283.52 L 454.51 278.92 L 394.07 329.7 Z M 458.37 283.52 L 517.66 233.7 L 513.8 229.1 L 454.51 278.92 Z M 517.66 233.7 L 574.69 185.78 L 570.83 181.19 L 513.8 229.1 Z M 574.69 185.78 L 628.3 140.73 L 624.45 136.14 L 570.83 181.19 Z M 628.3 140.73 L 677.37 99.51 L 673.51 94.91 L 624.45 136.14 Z M 677.37 99.51 L 720.76 63.05 L 716.9 58.46 L 673.51 94.91 Z M 720.76 63.05 L 757.32 32.33 L 753.46 27.74 L 716.9 58.46 Z M 757.32 32.33 L 785.93 8.3 L 782.07 3.7 L 753.46 27.74 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 792,
+          "height": 664
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "overlay": {
+        "xExpr": "(w)*((1-(1-(min(1,max(0,t/1.4))))*(1-(min(1,max(0,t/1.4))))))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-minimal-two-points** (gate-8 stress set for `@m0saic/alpine/line-chart/v2`).\n\nMINIMAL: 2 points, no labels (→ no ticks band), area/points/grid OFF. Contract trivially green — flip Debug layout, wireframe must render. Watch: a bare line reads cleanly.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": null
+  }
+}

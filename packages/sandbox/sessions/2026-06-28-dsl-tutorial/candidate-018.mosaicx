@@ -1,0 +1,53 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "8[8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F)]",
+        "speedMultiplier": 1,
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-018"
+  },
+  "agent": {
+    "note": "**The DSL string no longer crams — long strings PAGE to follow the parse.** Same 8×8 from your last shot; the 154-char string now stays legible.\n\n**How (and the engine reality behind it):** I first tried a true pixel-scroll and hit three hard walls, all verified:\n\n| Primitive | Result |\n|---|---|\n| source `overlay.xExpr` | animates, but drawtext only rasterizes to the cell width → off-cell glyphs are never drawn, scroll reveals blank |\n| per-layer `xExpr` | evaluated ONCE (static) — no animation |\n| camera crop | uniform zoom + upscales rasterized pixels → blurry text |\n\nSo smooth pixel-scroll isn't crisply available. Instead the window **pages**: the string is cut into hard-capped pages (~48 chars), each a crisp fixed strip, stacked as **enable-gated** layers — only the page holding the caret shows, advancing as the parse crosses a boundary. The cap is the hard upper limit you asked for; under it, nothing changes (still one strip).\n\n**Your SVG insight was the unlock.** Paging only toggles `overlay.enable` (show/hide) — no per-frame motion — so the SVG rasterizer's animation uncertainty never applies. I moved the glyphs to **`rasterizer: \"svg\"`**: faster than drawtext (as you said), crisper outlines, and exactly the static-content case it's built for. So paging didn't *cost* us SVG — it's what *enabled* it.\n\n*(Verified: the 8×8 string panel pages cleanly through all 154 chars — page 1 `8[8(F,F…`, later pages ruler `100…125` etc., caret + narration synced throughout. 156 tests green.)*\n\n**One honest caveat on this 8×8 render:** the heavy part is the CANVAS (one cursor ring per step → 154 rings on a 64-tile grid), not the string — that's the dense-layout cost already tracked in the overlay-depth `.ai` candidate, and it's the next thing to optimize. The string panel itself is light.",
+    "question": "Does the paged DSL string read well on the 8×8 — legible window, advancing with the parse, crisp SVG glyphs? And is paging (vs smooth pixel-scroll) the right call given the engine limits above? If yes, M3 is complete and I'll move to **M4 (debugger)** — or tackle the canvas cursor-ring density first if you'd rather.",
+    "context": {
+      "category": {
+        "kind": "other",
+        "label": "dsl-string-scroll"
+      },
+      "intent": {
+        "action": "propose",
+        "summary": "Long DSL strings page (enable-gated windows) instead of cramming; glyphs moved to the SVG rasterizer (faster/crisper, paging needs no per-frame animation)."
+      },
+      "relation": {
+        "kind": "refines",
+        "target": "017"
+      }
+    },
+    "response": {
+      "body": "paging dsl text looks great. this part is approved. however, perf is now too blown up. it took 30 minutes to render a 12 second 8x8 grid DSL tutorial. We should dig into the blow up now. I imagine switching ALL text we are able to to SVG will help. And the big heavy part as you mentioned is CANVAS. we need to identify is there is an easier method, or if this is an unavoidable cost (some templates are heavy and its ok if they are visually polished enough). I suspect there is much optmization we may do.",
+      "from": "human",
+      "at": "2026-06-29T16:56:20.094Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/./candidate-018-1920x1080.mp4"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/progress-card/v1",
+      "props": {
+        "items": [
+          {
+            "label": "Revenue to target",
+            "value": 68,
+            "valueLabel": "$680K / $1M"
+          }
+        ],
+        "title": "Q4 SALES GOAL",
+        "subtitle": "Single hero progress",
+        "preset": "light",
+        "cornerRadius": 0.5,
+        "showValue": true,
+        "anim": {
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant C — a single hero row with a custom Display label.",
+    "question": "Approve or deny this config.",
+    "response": {
+      "body": "Approved.",
+      "from": "human",
+      "at": "2026-06-22T18:19:33.701Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

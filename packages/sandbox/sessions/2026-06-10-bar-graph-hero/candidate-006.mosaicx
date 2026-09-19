@@ -1,0 +1,23 @@
+{
+  "_comment": "Real-render candidate — invokes @m0saic/charts/bar-graph/v1 with hero props. This is a hybrid sandbox candidate: instead of a wireframe .m0 layout proxy, the file invokes the actual template, so the reviewer sees the real rendered output (not a structural approximation). Render via: m0saic make packages/sandbox/sessions/2026-06-10-bar-graph-hero/candidate-006.mosaicx -o /tmp/bar-graph-real.mp4 -w 1920 -h 1080. Pairs with the wireframe candidates 001-005 to demonstrate what a 'real render layout session' looks like.",
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "fps": 30,
+  "durationMs": 2000,
+  "size": { "width": 1920, "height": 1080 },
+  "assets": {},
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/bar-graph/v1",
+      "props": {
+        "values": [35, 60, 85, 45, 70],
+        "labels": ["Q1", "Q2", "Q3", "Q4", "Q5"],
+        "title": "Revenue by Quarter",
+        "subtitle": "FY 2025 · all figures in millions",
+        "preset": "dark"
+      }
+    }
+  ]
+}

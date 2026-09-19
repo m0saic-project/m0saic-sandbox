@@ -1,0 +1,47 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/kpi-card/v2",
+      "props": {
+        "label": "TOTAL ANNUAL RECURRING REVENUE ACROSS ALL REGIONS",
+        "value": "$1,234,567,890.55",
+        "delta": "+1,234.5% quarter over quarter",
+        "direction": "up",
+        "sublabel": "vs the same fiscal period last year, currency-adjusted",
+        "preset": "light",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-01"
+  },
+  "agent": {
+    "note": "**STRESS 01/10 — 01-max-length-strings** (gate-6 stress set for `@m0saic/alpine/kpi-card/v2`).\n\nMAX LENGTH: long label/value/delta/sublabel. Watch: value width-cap binds (no clip), pill hugs its long delta, nothing collides.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-22T10:11:49.000Z",
+      "via": "chat (\"ship it\" — gate-6 stress set) — transcribed by agent"
+    }
+  }
+}

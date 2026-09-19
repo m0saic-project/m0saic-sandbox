@@ -1,0 +1,47 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 720,
+    "height": 1280
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/kpi-card/v2",
+      "props": {
+        "label": "MONTHLY REVENUE",
+        "value": "$48,250",
+        "delta": "+12.5%",
+        "direction": "up",
+        "sublabel": "vs last month",
+        "preset": "light",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-04"
+  },
+  "agent": {
+    "note": "**STRESS 04/10 — 04-portrait-value-cap** (gate-6 stress set for `@m0saic/alpine/kpi-card/v2`).\n\nPORTRAIT — the value-clip repro ($48,25 cut before the cap). Watch: full value visible, triangle undistorted.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-22T10:11:49.000Z",
+      "via": "chat (\"ship it\" — gate-6 stress set) — transcribed by agent"
+    }
+  }
+}

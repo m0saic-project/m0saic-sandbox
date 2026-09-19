@@ -1,0 +1,74 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/treemap/v1",
+      "props": {
+        "items": [
+          {
+            "label": "Chrome",
+            "value": 64
+          },
+          {
+            "label": "Safari",
+            "value": 19
+          },
+          {
+            "label": "Edge",
+            "value": 5
+          },
+          {
+            "label": "Firefox",
+            "value": 3
+          },
+          {
+            "label": "Samsung",
+            "value": 2.5
+          },
+          {
+            "label": "Opera",
+            "value": 2
+          },
+          {
+            "label": "UC",
+            "value": 1.5
+          },
+          {
+            "label": "Other",
+            "value": 3
+          }
+        ],
+        "title": "BROWSER SHARE",
+        "subtitle": "8 segments, square",
+        "preset": "light",
+        "valueMode": "percent",
+        "cornerRadius": 0.06,
+        "showValue": true,
+        "anim": {
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant B — SQUARE (1080x1080), 8 segments. Tests the squarified packing at square aspect + denser tiles.",
+    "question": "Approve or deny. Does the square treemap pack cleanly with 8 segments?",
+    "response": {
+      "body": "",
+      "from": "human",
+      "at": ""
+    }
+  }
+}

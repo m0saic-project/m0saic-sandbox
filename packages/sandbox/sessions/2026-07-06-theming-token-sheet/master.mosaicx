@@ -1,0 +1,17 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "fps": 30,
+  "durationMs": 3000,
+  "size": { "width": 1920, "height": 1080 },
+  "assets": {},
+  "sources": [
+    { "type": "template_invocation", "templateId": "@m0saic/theming/v1", "props": { "preset": "dark", "preview": true } }
+  ],
+  "suggestedOutput": { "dir": ".", "basename": "master" },
+  "agent": {
+    "note": "LOCKED master — @m0saic/theming/v1 Theme-Tokens sheet, dark showcase. Aspect-adaptive (wide grid / tall list), placeRect mosaic-M, preset eyebrow, bounded surface swatches. Approved 2026-07-07 ('ship it'). preview:false = zero-cost data-only production path.",
+    "question": "Approved."
+  }
+}

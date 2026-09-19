@@ -1,0 +1,47 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1001,
+    "height": 733
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/kpi-card/v2",
+      "props": {
+        "label": "月間経常収益",
+        "value": "¥12,345,678",
+        "delta": "↑ 12,5 %",
+        "direction": "up",
+        "sublabel": "по сравнению с прошлым месяцем",
+        "preset": "light",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-unicode** (gate-6 stress set for `@m0saic/alpine/kpi-card/v2`).\n\nUNICODE: CJK label, ¥ value, unicode arrow INSIDE the delta text (tofu risk in drawtext — judge), Cyrillic sublabel.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-22T10:11:49.000Z",
+      "via": "chat (\"ship it\" — gate-6 stress set) — transcribed by agent"
+    }
+  }
+}

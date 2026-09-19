@@ -1,0 +1,40 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 3750,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-01"
+  },
+  "agent": {
+    "note": "**STRESS 01/10 — 01-three-states-ecosystem** (gate-32 stress set for `@m0saic/code/snippet-morph/v1`).\n\nThe e2e variant: three states (type → map → publish()), 500ms morphs, 750ms holds, custom title.\n\nWatch: type block stays put; the map line slides in; publish() rises beneath; gutter numbers cross-fade 4 → 6 → 9.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/code/snippet-morph/v1",
+      "props": {
+        "states": [
+          "type Template = {\n  id: string;\n  render(): Promise<Artifact>;\n};",
+          "type Template = {\n  id: string;\n  render(): Promise<Artifact>;\n};\n\nconst ecosystem = new Map<string, Template>();",
+          "type Template = {\n  id: string;\n  render(): Promise<Artifact>;\n};\n\nconst ecosystem = new Map<string, Template>();\n\nexport function publish(template: Template) {\n  ecosystem.set(template.id, template);\n}"
+        ],
+        "timing": {
+          "morphMs": 500,
+          "holdMs": 750
+        },
+        "chrome": {
+          "title": "ecosystem.ts"
+        }
+      }
+    }
+  ]
+}

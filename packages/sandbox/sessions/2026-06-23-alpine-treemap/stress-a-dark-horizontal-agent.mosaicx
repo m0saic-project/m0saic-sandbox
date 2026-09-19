@@ -1,0 +1,62 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/treemap/v1",
+      "props": {
+        "items": [
+          {
+            "label": "Engineering",
+            "value": 42
+          },
+          {
+            "label": "Sales",
+            "value": 26
+          },
+          {
+            "label": "Marketing",
+            "value": 16
+          },
+          {
+            "label": "Support",
+            "value": 9
+          },
+          {
+            "label": "Design",
+            "value": 7
+          }
+        ],
+        "title": "HEADCOUNT",
+        "subtitle": "By department (dark)",
+        "preset": "dark",
+        "valueMode": "percent",
+        "cornerRadius": 0.06,
+        "showValue": true,
+        "anim": {
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant A — DARK preset, HORIZONTAL (1280x800). Tests the squarified tiles + label contrast on the dark card.",
+    "question": "Approve or deny. Squarified tiles + labels read on the dark card?",
+    "response": {
+      "body": "",
+      "from": "human",
+      "at": ""
+    }
+  }
+}

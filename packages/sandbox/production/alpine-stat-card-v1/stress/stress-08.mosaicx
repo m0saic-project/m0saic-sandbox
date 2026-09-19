@@ -1,0 +1,43 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 480,
+    "height": 1040
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/stat-card/v1",
+      "props": {
+        "label": "Commits",
+        "value": "1,243",
+        "delta": "+12.4%",
+        "direction": "up",
+        "sublabel": "vs last week",
+        "icon": "commits",
+        "renderMode": "light",
+        "preset": "dark",
+        "accent": "#3fb950",
+        "backgroundColor": "#161b22"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-dark-hero** (gate-10 stress set for `@m0saic/alpine/stat-card/v1`).\n\nTALL SKINNY + the FFmpeg hero look: dark preset + green accent + #161b22 card + light renderMode (geq-free slide). Watch: hero palette exact, slide reveal, portrait chip cap.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it. keep both as base",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

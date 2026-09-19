@@ -1,0 +1,34 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/collage/image-collage/v1` \"Image Collage\"** (gate 31 — COLLAGE pack opener; chart: `.ai/LAUNCH/v1-template-cut.md`). Core tier, tags media · collage · image · layout-solver · contact-sheet. THE photo contact sheet: a searched lattice pack (hero / portrait / panorama spans, staggered masonry, pixel-exact gutters via inset recovery, soft crop budget), paging into one PNG per sheet. Props = pure defaults → the built-in 12-tile DEMO set (no photos yet) on the dark canvas.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | core · not internal · not deprecated | confirm — the category baseline for photo sheets |\n| Label | \"Image Collage\" | keep |\n| Cover | none | none (the demo set IS the default face; the committed preview is your 34-photo mountain sheet) |\n| Tutorial | none | skip |\n| Previews | `poster.png` = `preview.png` (07-12, your real-photo sheet, 1280×720) | LEAVE AS-IS (committed founder asset) |\n| Battery | **31/31 GREEN** (18 CLI PNG renders incl. 4 paged sets + pixel gutter/margin asserts + 2 loud refusals) | — |\n| E2E | 2 variants (flush, paged) | — |\n| Preview fidelity | Make's GeometricPreview vs the ffmpeg frame: every demo tile within **1px** (12/12) | — |\n| Sibling | `collage/spread-grid-mock/v1` (internal, \"mock/authoring aid\") | chart says dev-or-DELETE — your call |\n\n**Pre-audit findings → fixed:**\n\n| Finding | Fix |\n|---|---|\n| No `format` on the sheet docs (pre-gate-26 template; hints alone) | `format:{image,png}` on every page doc (+ lock) |\n| Description was engineering-speak (\"searched lattice… verified by the layout contract\") | user-facing blurb (template + registry) |\n| **CLI `resolve` never probed media** — `media: {}` — so the `.mosaic` twin of ANY recipe with `sourceIds` (collage, lyric video, screencap grids) was a \"no probed dimensions\" error card while `make` rendered fine; the ledger's drift-immune record was an error mosaic | `resolve` builds the registry exactly like `make` (doc manifests + every invocation's props, incl. children/pipeline steps); a collage recipe now freezes to 8 media sources + 8 assets |\n| 3 unit tests red at HEAD: written for the OLD debug semantics (debug → stamped sheet); since your e5e70287 debug-on SHOWS the contract wireframe | tests aligned: shape/labels on the sheet (debug off), contract ok on the wireframe (debug on) — 94/94 collage tests |\n\n**Verified, no change needed:** demo default 0.9s · 16 real photos 1.5s · 40 mixed-aspect photos page into 2 sheets (uniform lattice) / 3 (independent, 14 per sheet) · flush (0 background) · wide gutter + margin 0 (corner is photo) · crop budget 0 and 0.6 · portrait · square · 480×270 pages by GEOMETRY (8 per sheet at the 120px floor) · 4K 40-on-one-sheet 5.4s · 1 and 2 images fill the sheet · light background reaches the margin · impossible cell bounds + a video input → loud error cards naming the fix (exit 0, card visible).\n\n**Design notes (not bugs):** cover-crop on all-sky square photos reads as empty tiles (crop budget, not a defect); `sourceIds`/`seed`/`maxImagesPerSheet` are `required: true` with tuned defaults (your lock) — the form shows a red asterisk on Images while the demo renders without any; leave or flip to optional?\n\nStress ×10 pre-minted in `stress/` (real nyc-square photos ×3 recipes, 40 synthetic numbered mixed-aspect \"photos\" in `fixtures/synthetic/` ×7) — agent pass clean; review after the default verdict.",
+    "question": "Gate-31 verdict on the default face (demo set) + core confirm · `spread-grid-mock`: dev or delete? · `sourceIds` required-with-demo: keep or make optional? Then stress-01..10 (drop your own photo folder on Images while you're there).",
+    "response": {
+      "verdict": "approve default + two asks",
+      "text": "\"seems fine to me. lets add the brand M on the template cover asset, and prepare a render tutorial. keep it simple on how to use. select images, or a folder of images\"",
+      "via": "chat, 2026-09-04 — transcribed by agent (no in-file response was saved)",
+      "from": "human",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/collage/image-collage/v1",
+      "props": {}
+    }
+  ]
+}

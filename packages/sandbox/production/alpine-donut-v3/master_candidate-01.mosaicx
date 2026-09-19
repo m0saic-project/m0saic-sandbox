@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/donut/v3",
+      "props": {}
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/alpine/donut/v3`** (gate 4; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase defaults (Revenue Mix). The CHAIN: v1/v2 deprecated → ride as base·dep per your ruling; `charts/donut/v4` is a DIFFERENT pack, its own gate later.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated | confirm |\n| Gate | — | **base** |\n| Preview assets | check + re-mint after approval | review |\n| Cover / Tutorial | neither | needed? (premium sweep starts EMPTY → cover likely wanted) |\n\n**Pre-audit findings, already fixed:** (1) legend rows stretched proportional weights over the FULL cell — the % drifted ~600px from its label at 1920×480 and COLLIDED with it at 720×1280; rows are now pixel-intent, content-hugging, font width-capped. (2) The legend stack was the interleaved [margin,row,gap,…] anti-pattern — center rows starved ±2px, swatches visibly unequal (25% spread at small canvases); now equal band per row + inner [1,K,1] half-gap carve. (3) Swatch centering re-quantized row drift — now a placement inset. NEW: `debugLayout` contract (legend-swatch equal-size, 2%+1px). 52/52 unit, e2e 7/7, battery green ×14 canvases ×5 configs (dark/6-seg/no-legend/light/2-seg).\n\n**LOOK-SHIFT to judge:** at the default canvas the legend %s now sit right AFTER their labels (content-hug) instead of stretched to the far edge — tighter, but different from shipped.\n\n**DESIGN QUESTION (not a bug):** tall-portrait canvases have big dead bands (fixed header/content fractions). A `legend: bottom` mode (auto-picked on portrait) would let the ring grow — say the word and it lands this gate, or park it for v3.1.\n\n**Stress:** the 10-variant set mints after your default-look verdict, per protocol.",
+    "question": "Ship `@m0saic/alpine/donut/v3` in the v1 base? Judge the legend look-shift; rule on cover/tutorial + the portrait `legend: bottom` question.",
+    "response": {
+      "body": "fail — small white squares visible between the ring pieces, and the animation isn't great. The sliver construction was for the old circle animation; we have better conventions now — take a stab.",
+      "from": "human",
+      "at": "2026-08-20T22:27:54.000Z",
+      "via": "chat + screenshot — transcribed by agent"
+    }
+  }
+}

@@ -1,0 +1,601 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "80[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45(0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,1,-),-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45(0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,1,-),-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45(0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,1,-),-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45(0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,1,-),-]{80[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45(0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45(0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45(0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45(0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),-]}",
+  "assets": {
+    "c0_chat_sr": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/chat_sr.mp4",
+      "mediaType": "video"
+    },
+    "c0_photo-13-2400x1000": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-13-2400x1000.png",
+      "mediaType": "image"
+    },
+    "c0_inbox_sr": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/inbox_sr.mp4",
+      "mediaType": "video"
+    },
+    "c0_photo-04-800x1200": {
+      "kind": "file",
+      "path": "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-04-800x1200.png",
+      "mediaType": "image"
+    },
+    "c0_invoice_sr": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/invoice_sr.mp4",
+      "mediaType": "video"
+    },
+    "c0_signed-letter_sr": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/signed-letter_sr.mp4",
+      "mediaType": "video"
+    }
+  },
+  "size": {
+    "width": 1080,
+    "height": 1920
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "suggestedOutput": {
+    "dir": "./renders",
+    "basename": "02-walkdown-under-pressure"
+  },
+  "agent": {
+    "note": "**STRESS 02/10 — 02-walkdown-under-pressure** (gate-36 stress set for `@m0saic/media/scroll_wall/v1`).\n\nTHE WALK-DOWN UNDER MAXIMUM PRESSURE at 1080x1920. Rows at its stop (4) AND Visible tiles at its stop (12), portrait, with 6 clips. Both sliders maxed is precisely the combination that rendered an ERROR CARD before this gate. `visibleCount` must now walk down to whatever fits the 24-tile cap at 4 rows and the wall must still READ as a wall. Watch: no error card; four rows of legible tiles; the tiles are bigger than 12-across would have been, not squashed.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_chat_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 750
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(2592-324*t,1296)-216"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i0"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-13-2400x1000",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(2808-324*t,1296)-432"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i1"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_inbox_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 750
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(3024-324*t,1296)-648"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i2"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-04-800x1200",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(3240-324*t,1296)-864"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i3"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_invoice_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 750
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(3456-324*t,1296)-1080"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i4"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_signed-letter_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 750
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(108+324*t,1296)-216"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i0"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_chat_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 750
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(324+324*t,1296)-432"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i1"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-13-2400x1000",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(540+324*t,1296)-648"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i2"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_inbox_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 750
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(756+324*t,1296)-864"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i3"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-04-800x1200",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(972+324*t,1296)-1080"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i4"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_invoice_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 750
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(2592-324*t,1296)-216"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r2:i0"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_signed-letter_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 750
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(2808-324*t,1296)-432"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r2:i1"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_chat_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 750
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(3024-324*t,1296)-648"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r2:i2"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-13-2400x1000",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(3240-324*t,1296)-864"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r2:i3"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_inbox_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 750
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(3456-324*t,1296)-1080"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r2:i4"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-04-800x1200",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(108+324*t,1296)-216"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r3:i0"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_invoice_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 750
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(324+324*t,1296)-432"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r3:i1"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_signed-letter_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 750
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(540+324*t,1296)-648"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r3:i2"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_chat_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 750
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(756+324*t,1296)-864"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r3:i3"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-13-2400x1000",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(972+324*t,1296)-1080"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r3:i4"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_signed-letter_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 750
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(3672-324*t,1296)-216"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r0:i5"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_invoice_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 750
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(1188+324*t,1296)-216"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r1:i5"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "image",
+      "assetId": "c0_photo-04-800x1200",
+      "placement": {
+        "fit": "cover"
+      },
+      "overlay": {
+        "xExpr": "mod(3672-324*t,1296)-216"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r2:i5"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "c0_inbox_sr",
+      "placement": {
+        "fit": "cover"
+      },
+      "playback": {
+        "loopMode": "loop",
+        "clipDurationMs": 750
+      },
+      "audio": {
+        "enabled": false
+      },
+      "overlay": {
+        "xExpr": "mod(1188+324*t,1296)-216"
+      },
+      "editor": {
+        "owner": "template",
+        "label": "clip:r3:i5"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "audio": {
+    "mode": "off"
+  },
+  "backgroundColor": "#0b0b0f"
+}

@@ -1,0 +1,58 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 1280,
+  "height": 800
+ },
+ "fps": 30,
+ "durationMs": 2000,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/alpine/kpi-card/v1",
+   "props": {
+    "label": "MONTHLY REVENUE",
+    "value": "$48,250,345,345",
+    "delta": "+12.5%",
+    "direction": "flat",
+    "sublabel": "vs last month",
+    "preset": "dark",
+    "anim": {
+     "introFrac": 0.7,
+     "countUp": true,
+     "easing": "easeOut",
+     "reduceMotion": false
+    },
+    "title": ""
+   }
+  }
+ ],
+ "agent": {
+  "note": "candidate-004 \u2014 SHIP-READINESS check for @m0saic/alpine/kpi-card/v1. Look + behavior are approved; this is the 'good to LOCK?' gate. Please nudge the knobs and try to break it; judge the ACTUAL render, not the geometric preview.\n\nALREADY PRE-VERIFIED by me (real renders): up (green \u25b2 pill + green ascending sparkline), down (red \u25bc + red descending), flat (grey pill + neutral-blue wave), with title+subtitle header + a long $1,284,500 value on dark preset (clean, no overflow), cleared valueColor falls back (value stays), 7 prop-combo cases valid.\n\nHIGH-VALUE KNOBS WORTH YOUR EYES:\n  \u2022 direction up / down / flat \u2014 confirm pill arrow+color AND the auto sparkline both agree.\n  \u2022 delta off (no pill) / sublabel off \u2014 does the stack still balance?\n  \u2022 explicit sparkline numbers (your own series) vs omitted (auto) vs [] (hidden).\n  \u2022 a non-numeric value (\"N/A\", \"\u2014\") \u2014 count-up should no-op, not garble.\n  \u2022 very long value / very long label \u2014 fit:contain should cap, watch for overflow.\n  \u2022 dark preset; valueColor set to a brand color then CLEARED (should fall back, not vanish).\n  \u2022 Intro length slider; reduce motion (static final card).\n  \u2022 a non-default canvas (square / vertical) if your use needs it.",
+  "question": "Stress it. If it holds across the knobs you care about, approve the TEMPLATE and I'll lock @m0saic/alpine/kpi-card/v1 with the FULL agent.md closeout (unit test + CLI E2E variants + manifest + News + preview image/video/poster + master.mosaic(x) + postmortem.mosaicx). Anything off \u2192 point me at it.",
+  "response": {
+   "body": "looks good to me. approved.",
+   "from": "human",
+   "at": "2026-06-22T17:16:03.544Z",
+   "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+  },
+  "lock": {
+   "status": "LOCKED",
+   "templateId": "@m0saic/alpine/kpi-card/v1",
+   "at": "2026-06-22",
+   "artifacts": [
+    "unit test: kpi-card.test.ts (13 tests pass)",
+    "CLI E2E: 3 variants (up-sparkline, down-titled-dark, reduce-motion-no-spark) render OK",
+    "registry + manifest (pack-scoped slug kpi-card under pack alpine)",
+    "NewsPage.tsx app entry",
+    "preview assets: preview.png + preview.mp4 + poster.png",
+    "master.mosaicx + master.mosaic + postmortem.mosaicx",
+    "pack-wide resolveColor() hardening (cleared color knobs fail safe)"
+   ],
+   "note": "Approved candidate-004 (looks good). FULL agent.md closeout completed (the right way this time). Bonus: shared resolveColor() now protects every Alpine color knob from the cleared-field blanking bug."
+  }
+ }
+}

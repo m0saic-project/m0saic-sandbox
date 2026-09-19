@@ -1,0 +1,36 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-longname-both-panes** (gate-25 stress set for `@m0saic/media/screencap_grid_aspect_safe/v1`).\n\nThe gate-25 pane text-fit fix PER ORIENTATION: the 118-char filename fits each canvas's own budget — the portrait pane is narrower, so its title ellipsizes HARDER than the landscape one (twin-asserted: both are basenames, both fit, portrait ≤ landscape). Watch: both titles read naturally with the extension tail.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "stress set pass 10/10 — \"ship\"",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/screencap_grid_aspect_safe/v1",
+      "props": {
+        "sourceIds": [
+          "<sandbox>/production/media-screencap-grid-v2/fixtures/quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved.mp4"
+        ]
+      }
+    }
+  ]
+}

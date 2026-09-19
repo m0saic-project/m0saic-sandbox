@@ -1,0 +1,39 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 3333,
+  "suggestedOutput": {
+    "dir": "./renders",
+    "basename": "06-open-loop-odd-frames"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-open-loop-odd-frames** (gate-36 stress set for `@m0saic/media/scroll_wall/v1`).\n\nA LOOP DELIBERATELY LEFT OPEN, OVER A NON-WHOLE FRAME COUNT at 1920x1080. `cycles: 0.25` is the bottom of the slider and does NOT close the loop, over 3333ms which is 99.99 frames at 30fps — the velocity solver derives px/s from the FRAME COUNT, not the wall duration, precisely so this case stays exact. Watch: smooth motion throughout (the open loop is the ask, not a bug), no stutter at the end, and the last frame is a quarter-cycle from the first.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/scroll_wall/v1",
+      "props": {
+        "motion": {
+          "cycles": 0.25
+        },
+        "clips": [
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/chat_sr.mp4",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-13-2400x1000.png",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/inbox_sr.mp4",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-04-800x1200.png",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/invoice_sr.mp4",
+          "<sandbox>/production/media-blur-regions-v1/fixtures/screen_recordings/signed-letter_sr.mp4"
+        ]
+      }
+    }
+  ]
+}

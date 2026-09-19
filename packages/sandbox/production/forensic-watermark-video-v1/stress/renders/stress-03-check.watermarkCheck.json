@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "recoveredHex": "0123456789abcdef0123456789abcdef",
+  "expectedHex": "0123456789abcdef0123456789abcdef",
+  "matches": true,
+  "correctedBitCount": 0,
+  "errorPositions": [],
+  "worstAbsScore": 4.575875486381349,
+  "meanAbsScore": 11.828786144808117,
+  "framesSampled": 514,
+  "mode": "uuid128",
+  "verdict": "pass",
+  "grid": {
+    "cols": 96,
+    "rows": 54
+  },
+  "ecc": {
+    "n": 255,
+    "k": 131,
+    "t": 18
+  },
+  "videoPath": "<sandbox>/production/forensic-watermark-video-v1/stress/renders/stress-03.mp4",
+  "sidecarPath": "<sandbox>/production/forensic-watermark-video-v1/stress/renders/stress-03.watermark.json"
+}

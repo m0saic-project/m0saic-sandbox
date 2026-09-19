@@ -1,0 +1,36 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-glyph-coverage** (gate-32 stress set for `@m0saic/code/snippet-morph/v1`).\n\nNon-Latin glyphs in a comment and identifier: → ✓ 日本語 🚀 café naïve — JetBrains Mono's coverage (bundled OFL font).\n\nWatch: accented Latin renders; CJK / emoji likely tofu or blank — is that acceptable for v1 (rec: yes, note in docs) or does the raster need a fallback font?",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/code/snippet-morph/v1",
+      "props": {
+        "states": [
+          "// arrows → ticks ✓ and 日本語 🚀\nconst café = \"naïve\";",
+          "// arrows → ticks ✓ and 日本語 🚀\nconst café = \"naïve\";\nconst total = café.length;"
+        ],
+        "timing": {
+          "holdMs": 600,
+          "morphMs": 400
+        }
+      }
+    }
+  ]
+}

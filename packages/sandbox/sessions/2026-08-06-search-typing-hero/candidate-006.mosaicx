@@ -1,0 +1,79 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 400
+  },
+  "fps": 30,
+  "durationMs": 18170,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/hero/search-typing/v1",
+      "props": {
+        "words": [
+          "Ideas",
+          "Answers",
+          "Templates",
+          "Tutorials",
+          "Inspiration"
+        ],
+        "label": "Search for",
+        "frame": "card",
+        "timing": {
+          "typeCharMs": 120,
+          "deleteCharMs": 90,
+          "emptyHoldMs": 850,
+          "wordHoldMs": 1100,
+          "leadMs": 400,
+          "trailMs": 400
+        },
+        "endBehavior": "hold",
+        "caret": {
+          "show": false,
+          "blinkMs": 1000,
+          "widthPx": 2
+        },
+        "underline": "grow",
+        "icon": {
+          "show": true
+        },
+        "style": {
+          "pageColor": "#F2F3F5",
+          "cardColor": "#FFFFFF",
+          "labelColor": "#9AA0A6",
+          "inkColor": "#9AA0A6",
+          "cornerRadiusPx": 16,
+          "barWidthFrac": 0.62,
+          "barAspect": 0.26
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-006"
+  },
+  "agent": {
+    "note": "**Card = real rect + real background, per your candidate-005 notes** (opened in card mode since that is what you judged):\n\n- The card is now a **plain background fill painting its whole cell** — no inline mask. Rounded corners come from the engine's SVG `rounding` effect (the page-skeleton idiom), so the text masks stand alone in inspectors.\n- The card-mode bar is **authored on the 8px cell grid** (792×200 at 240,96 on this canvas vs the old 794×200 at 243,100 — ≤4px shift, imperceptible), so **the placed cell IS the visual card rect**.\n- Side effect: the template is now entirely **arc-free** (the card mask carried the only SVG arcs), which retires the arcs-under-overlay risk for good.\n\n154 unit tests + targeted E2E green. Fill mode unchanged.",
+    "question": "Check the Structure/Layout view: the floating card should now be a selectable rect that matches what you see, and the text masks should read clean without the card silhouette. Good → P4 (preview assets + News + the closeout gate). Anything off → note it here; the next agent picks up from the session state.",
+    "context": {
+      "phase": "refining",
+      "extras": {
+        "plan": ".ai/proposed-plans/templates/hero-search-typing-v1.md",
+        "phaseDetail": "candidate-005 response: card cell == visual rect (grid-authored bar) + real bg fill with SVG rounding, mask removed",
+        "diffFromPrev": "layout.ts bar snap (SNAP_PX export); glyphs.ts cardSource → makeColorTile + effects.rounding; no other visual change",
+        "tests": "154 unit green; targeted E2E green; both frame modes smoke-verified"
+      }
+    },
+    "response": {
+      "body": "looks good",
+      "from": "human",
+      "at": "2026-08-06T21:18:30.678Z",
+      "src": "<sandbox>/sessions/2026-08-06-search-typing-hero/./candidate-006-1280x400.mp4"
+    }
+  }
+}

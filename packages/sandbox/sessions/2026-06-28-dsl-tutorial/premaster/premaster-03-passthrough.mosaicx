@@ -1,0 +1,39 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "6(0,1,0,1,0,1)",
+        "speedMultiplier": 1,
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "premaster-03-passthrough"
+  },
+  "agent": {
+    "note": "**Pre-master · Passthrough.** `6(0,1,0,1,0,1)` — alternating **passthrough `0`** + cells. Passthrough donates space forward; watch the inspector **N/R/C** engine state + the donation teaching, and the DSL-string coloring of `0`.",
+    "question": "Passthrough donation reads right (space carries forward, N/R/C + dashed guides clear on claim)?",
+    "response": {
+      "body": "good result. approved.",
+      "from": "human",
+      "at": "2026-07-02T21:23:42.171Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/premaster/./premaster-03-passthrough-1920x1080.mp4"
+    }
+  }
+}

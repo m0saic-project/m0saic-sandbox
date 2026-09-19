@@ -1,0 +1,13 @@
+# m0
+# version: 1
+# created: 2026-06-10T07:14:18.557Z
+# size: 1920x1080
+# app: m0saic-desktop
+# appVersion: 0.1.0+2026.06.10
+# title: 2026-06-10-bar-graph-hero · candidate-001
+# m0agent:note: Baseline reference. Three horizontal bands (proxy): title-band ~1/14, plot ~12/14 (with value-axis tick rail on min-side), label-band ~1/14. m0 here is intentionally uniform to give the reviewer a clean structural read; real bar-graph weights live in internal/labels.ts.
+# m0agent:question: Does the band structure read right at a glance? Are 3 bands enough, or does the chart need a 4th (e.g. subtitle band, legend band)?
+# m0agent:context: {"category":{"kind":"known","value":"spacing-alignment"},"intent":{"action":"propose","summary":"baseline 3 bands, title/plot/label"},"layoutIntent":"magazine","evaluation":{"grade":"best","source":"automated","at":"2026-06-10T07:14:18.551Z","breakdown":{"total":1,"feasible":true,"components":{"precision":{"quality":1,"weight":0,"raw":0.002777777777777778},"spread":{"quality":1,"weight":0,"raw":0},"gutter":{"quality":1,"weight":0,"raw":0},"frames":{"quality":1,"weight":0.89,"raw":3},"structure":{"quality":1,"weight":0.1,"raw":0},"compactness":{"quality":1,"weight":0.01,"raw":8}}}}}
+# m0agent:response: {"body":"In the future, could you label these with stablekeys? Helps to read at a glance. I think I like a more configurable amount of grid lines - caller decides granularity. Other than that, approved.","from":"human","at":"2026-06-10T07:20:35.225Z"}
+
+3[1,1,1]

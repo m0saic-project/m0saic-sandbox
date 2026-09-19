@@ -1,0 +1,34 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 7500,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-03"
+  },
+  "agent": {
+    "note": "**TAKE 3 — the preview MORPHS, the code is EDITABLE, and the card is FULL BLEED** (founder on take 2, three asks).\n\n| Ask | What changed |\n|---|---|\n| \"code states is a form of json? or a string[]? … can we link the geometry to the prop, such that I can make minor changes in the real preview\" | `states` is a **string[]** — one multi-line code text per state. Every code run in the lite preview is now **bound to its state** (`states[i]`): double-click a run → edit that state's text in place. Removed lines (fading out) bind to the previous state. `chrome.title` stays bound |\n| \"geometric preview does not show the two states, all code is fully visible and no animation is seen - why?\" | `renderLite` was a single still of the FINAL state (the July stand-in). It is now a **per-state pipeline** — one lite doc per state (`state-1`, `state-2` …, step lengths = the plan's timing) carrying the **same overlay expressions as the render**: persisting lines slide from their old row, added lines fade + rise, removed lines fade out; reduceMotion → hard cuts. The preview's expression evaluator reads them (min/max/t only). Make shows one step at a time — scrub within a step to see its morph |\n| \"we need a prop to make this take the full canvas and default to that. we can still have the terminal chrome, but remove the default margin\" | new **Chrome → Full bleed** toggle (`chrome.fullBleed`, default **ON**): the card IS the canvas — title bar edge to edge, flat card (no rounding / stroke). OFF restores the framed card with the margin. Layout contract card max = 1.0 |\n\nRecipe unchanged (pure defaults, 2 states, 7.5s) — the default face now fills 1280×720.\n\nLocks: 125/125 code + timing suites (5 new take-3 locks: per-state pipeline + move/add overlays, reduceMotion no overlays, states[i] bindings incl. previous-state deletes, full bleed default + framed off, chrome field set). Battery 30/30 — 24 ffmpeg renders (2 new: framed, framed + chrome off) + corner-pixel asserts (default corner = title bar ≠ canvas; framed corner = canvas).\n\nStress-01..10 RE-MINTED at the full-bleed default (recipes unchanged; twins + end frames refreshed).\n\nStill open from take 1: rise vs fade · cover/tutorial · CJK/emoji tofu · commit the `code-png/` glyph rasters or keep them local?",
+    "question": "Does the preview now play the morph between the two states, and does double-clicking a code run edit its state? Is full bleed the right default? Then the take-1 questions + stress-01..10.",
+    "response": {
+      "verdict": "morph + full bleed fine; in-preview edit not good enough",
+      "text": "\"hmm this isnt that great actually because its not aware of which text is here. any ideas? also, why do we have a renderLite at all? do we invoke sharp or something?\" (Make screenshot: double-click on `Launch` opened a token-sized box holding the WHOLE state text) → agent: whole-state binding + single-line input; renderLite exists because render() rasterizes lines through sharp (core svg text is single-ink). Options offered; founder: \"lets do option 1 with per-line ranges\"",
+      "via": "chat + screenshot, 2026-09-04 — transcribed by agent (no in-file response was saved)",
+      "from": "human",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/code/snippet-morph/v1",
+      "props": {}
+    }
+  ]
+}

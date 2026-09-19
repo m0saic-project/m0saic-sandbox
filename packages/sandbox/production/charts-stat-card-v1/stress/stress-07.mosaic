@@ -1,0 +1,187 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "25[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4[0,0,1,50(0,0,-,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1)],0,0,1]",
+  "sources": [
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Deploys"
+          },
+          "style": {
+            "fontSize": 99,
+            "fontColor": "#8b949e"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.06
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-label"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:57*((1-(1-(min(1\\,max(0\\,(t-0)/1.4))))*(1-(min(1\\,max(0\\,(t-0)/1.4))))))+0.5\\:d}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 414,
+            "fontColor": "#e6edf3"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.06
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-value"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3fb950",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 63 45.1 L 109.6 125.9 L 16.4 125.9 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 126.00000000000001,
+          "height": 171
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "+%{eif\\:9*((1-(1-(min(1\\,max(0\\,(t-0.77)/0.48999999999999994))))*(1-(min(1\\,max(0\\,(t-0.77)/0.48999999999999994))))))+0.5\\:d} (+%{eif\\:18.7*((1-(1-(min(1\\,max(0\\,(t-0.77)/0.48999999999999994))))*(1-(min(1\\,max(0\\,(t-0.77)/0.48999999999999994))))))\\:d}.%{eif\\:mod(18.7*((1-(1-(min(1\\,max(0\\,(t-0.77)/0.48999999999999994))))*(1-(min(1\\,max(0\\,(t-0.77)/0.48999999999999994))))))*10\\,10)\\:d\\:1}\\%)",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 87,
+            "fontColor": "#3fb950"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.04
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-delta"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "this quarter"
+          },
+          "style": {
+            "fontSize": 72,
+            "fontColor": "#6e7681"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.06
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-sublabel"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "none",
+  "fps": 30,
+  "durationMs": 2000,
+  "size": {
+    "width": 900,
+    "height": 900
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-none-noslide** (gate-17 stress set for `@m0saic/charts/stat-card/v1` — the charts-pack closer).\n\nTRANSPARENT (\"none\") + slideIn OFF: flat single-layer doc for card-chrome composition (no base tile by design — canvas shows through, black in the mp4). Watch: content renders without the surface, no slide (count-up only).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  }
+}

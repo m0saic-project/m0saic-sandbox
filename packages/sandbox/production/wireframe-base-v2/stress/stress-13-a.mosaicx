@@ -1,0 +1,36 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-13-a"
+  },
+  "agent": {
+    "note": "**STRESS 13-a — lattice as a DENSITY map** (iteration of 13: \"noisy at high scale… the idea is to see where the grid gets really coarse and where its lighter\").\n\nEvery passthrough slot is now WASHED by how fine the grid is there — alpha grows with the log of how many slots of its size tile the canvas (a quarter-canvas slot ≈ 13%, a 1/100 slot ≈ 35%, capped 55%) — so adjacent thin slots merge into one graded band and the eye reads density, not rings. The dotted ring + token label are drawn only when a slot is ≥ 64 px on its short side (all of them here). Claimants keep their normal cell look as anchors. Same layers/geometry as 13.\n\nWatch: the two donated rows (1920×270, 1/4 canvas) wash lighter than the two 480×270 slots (1/16); does the mapping direction read right (darker = finer)?",
+    "question": "Density wash pass or fail at readable scale? Mapping direction (darker = finer grid) right, or flip it?",
+    "response": {
+      "verdict": "reject",
+      "text": "it still reads poorly to me. maybe we just remove it, using layout is a better result in most cases anyways. passthrough is a means to an end, if it is imporatnt we can revisit later",
+      "via": "chat — transcribed by agent (09-03)",
+      "note": "FEATURE REMOVED 09-03: `passthroughFrames` / `passthroughLabel` knobs, the lattice geometry and the density wash are gone from the template. This file is frozen history (its props no longer exist). Null layer explode (stress-11-a / 12) stays."
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {
+        "M0String": "4[1,0,0,4(1,0,0,1)]{2[-,1]}",
+        "passthroughFrames": "show"
+      }
+    }
+  ]
+}

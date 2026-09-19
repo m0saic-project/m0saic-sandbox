@@ -1,0 +1,25 @@
+{
+  "_comment": "Code Snippet Morph v1 sandbox walkthrough. Invokes @m0saic/meta/post-mortem/v1 against the phase-gated B3-B6 session. The session contains seven frozen .mosaic visual candidates, the approved template-invocation master, and its resolved pipeline twin. The current post-mortem loader indexes .m0/.m0c candidates only, so this recipe also serves as the forward-compatible replay anchor for when .mosaic/.mosaicx session discovery lands. Do NOT render at closeout; the recipe is the deliverable.",
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "fps": 30,
+  "durationMs": 4000,
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "assets": {},
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/meta/post-mortem/v1",
+      "props": {
+        "sessionPath": "packages/sandbox/sessions/2026-07-22-code-snippet-morph-v1",
+        "msPerCandidate": 3000,
+        "msTitleCard": 2000,
+        "msEndCard": 2000
+      }
+    }
+  ]
+}

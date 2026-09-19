@@ -1,0 +1,38 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-thumb-dark-fast** (gate-30 stress set for `@m0saic/wireframe/animated/v1`).\n\nDark thumb preset (no header, no labels), 24 rounded tiles, 2s explicit duration with zero lead padding — the fastest wave.\n\nWatch: first tile already on canvas at t=0; alternating tile shades; all 24 in by 1.7s (0.3s trail kept for the last slide).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "moot",
+      "text": "Not reviewed — the template was DEPRECATED by ruling at the default verdict (superseded by @m0saic/dsl-tutorial/v1; kept in base as base·dep). Recipe + twin + end frame stay as the agent pre-pass record (agent pass: clean).",
+      "via": "transcribed by agent from the gate-30 chat verdict",
+      "from": "agent:claude",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/animated/v1",
+      "props": {
+        "M0String": "4[6(1,1,1,1,1,1),6(1,1,1,1,1,1),6(1,1,1,1,1,1),6(1,1,1,1,1,1)]",
+        "preset": "thumb-dark",
+        "paddingSec": 0
+      }
+    }
+  ]
+}

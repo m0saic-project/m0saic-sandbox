@@ -1,0 +1,45 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 733,
+    "height": 977
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/bar-graph/v2",
+      "props": {
+        "appearance": {
+          "preset": "terminal"
+        },
+        "anim": {
+          "reduceMotion": true,
+          "intro": {
+            "durationSec": 0.8,
+            "delaySec": 0,
+            "staggerSec": 0.06,
+            "ease": "smoothstep"
+          }
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-09"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 — 09-static-terminal** (gate-14 stress set for `@m0saic/charts/bar-graph/v2`).\n\nreduceMotion static + terminal preset at the odd killer dims. Watch: complete static chart, terminal palette.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

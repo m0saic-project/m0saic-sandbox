@@ -1,0 +1,72 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 1280,
+  "height": 800
+ },
+ "fps": 30,
+ "durationMs": 2000,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/alpine/progress-card/v1",
+   "props": {
+    "items": [
+     {
+      "label": "Migrate the rendering executor to the shared scheduler",
+      "value": 62,
+      "valueLabel": "62% (on track)"
+     },
+     {
+      "label": "Desktop / CLI render parity",
+      "value": 38,
+      "valueLabel": "38% (at risk)"
+     },
+     {
+      "label": "Accessibility audit pass",
+      "value": 90,
+      "valueLabel": "90% (ahead)"
+     }
+    ],
+    "title": "ENGINEERING ROADMAP \u2014 H2",
+    "subtitle": "Long labels + long display",
+    "preset": "light",
+    "cornerRadius": 0.5,
+    "showValue": true,
+    "anim": {
+     "introFrac": 0.7,
+     "countUp": true,
+     "easing": "easeOut",
+     "reduceMotion": false
+    }
+   }
+  }
+ ],
+ "agent": {
+  "note": "Variant E \u2014 very long labels + long Display strings (fit:contain should cap, watch for overflow).",
+  "question": "Approve or deny this config.",
+  "response": {
+   "body": "Approved.",
+   "from": "human",
+   "at": "2026-06-22T18:31:06.794Z",
+   "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+  },
+  "lock": {
+   "status": "LOCKED",
+   "templateId": "@m0saic/alpine/progress-card/v1",
+   "at": "2026-06-22",
+   "artifacts": [
+    "unit test: progress-card.test.ts (13 tests)",
+    "CLI E2E: 3 variants (quarterly-goals, max-display-dark, reduce-motion-square-onecolor) render at 1024x1024",
+    "registry + manifest (pack-scoped slug progress-card under pack alpine)",
+    "NewsPage.tsx app entry",
+    "preview.png + preview.mp4 + poster.png",
+    "master.mosaicx + master.mosaic + postmortem.mosaicx"
+   ],
+   "note": "Approved across 5 stress variants (A display-labels, B single-color+square, C one-item, D 8-rows-no-values, E long-labels), all reviewed one-at-a-time + frozen. Caught a feasibility bug at lock: nested height splits with a coprime barH made 1024x1024 infeasible (native 1280x800 fine) \u2014 fixed by snapping all height weights to multiples of 8 (GCD-collapse). Exposed the per-item valueLabel as a Display editor column. Full agent.md closeout."
+  }
+ }
+}

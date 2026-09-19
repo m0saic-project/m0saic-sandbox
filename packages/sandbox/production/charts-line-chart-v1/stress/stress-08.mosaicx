@@ -1,0 +1,57 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 3500,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 \u2014 08-image-bg** (gate-16 stress set for `@m0saic/charts/line-chart/v1`).\n\nIMAGE BACKGROUND (repo fixture photo, cover-fit, rounded) + terminal preset accents, static. Watch: image surface under the plot, text readable over the photo. NOTE: an adversarial 4x4-px data-uri bg was PATHOLOGICALLY SLOW (~10+ min vs 4s \u2014 extreme-upscale image card, adjacent to the 2026-08-15 loop-before-scale candidate); realistic images render normally. Flagged in the gate note.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/line-chart/v1",
+      "props": {
+        "values": [
+          [
+            5,
+            12,
+            9,
+            22,
+            30,
+            41
+          ]
+        ],
+        "seriesLabels": [
+          "Deploys"
+        ],
+        "appearance": {
+          "preset": "terminal",
+          "backgroundImage": "<repo>/packages/cli/examples/media/nyc-square/8.jpg",
+          "cornerRadius": 0.04
+        },
+        "titles": {
+          "title": "Image surface mode"
+        },
+        "anim": {
+          "reduceMotion": true
+        }
+      }
+    }
+  ]
+}

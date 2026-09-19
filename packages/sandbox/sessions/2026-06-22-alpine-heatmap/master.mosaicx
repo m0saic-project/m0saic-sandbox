@@ -1,0 +1,44 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": { "width": 1280, "height": 800 },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/heatmap/v1",
+      "props": {
+        "rows": [
+          { "label": "Mon", "values": [0, 2, 1, 4, 3, 5, 2, 6] },
+          { "label": "Tue", "values": [1, 3, 2, 5, 4, 6, 3, 7] },
+          { "label": "Wed", "values": [2, 4, 3, 6, 5, 8, 4, 9] },
+          { "label": "Thu", "values": [1, 2, 4, 5, 7, 6, 5, 8] },
+          { "label": "Fri", "values": [3, 5, 6, 8, 9, 7, 8, 10] },
+          { "label": "Sat", "values": [0, 1, 0, 2, 1, 3, 1, 2] },
+          { "label": "Sun", "values": [0, 0, 1, 1, 0, 2, 0, 1] }
+        ],
+        "colLabels": ["W1", "W2", "W3", "W4", "W5", "W6", "W7", "W8"],
+        "title": "CONTRIBUTIONS",
+        "subtitle": "Commits by day",
+        "preset": "light",
+        "levels": 5,
+        "cellRadius": 0.25,
+        "showLegend": true,
+        "showValues": false,
+        "anim": { "introFrac": 0.7, "easing": "easeOut", "reduceMotion": false }
+      }
+    }
+  ],
+  "agent": {
+    "note": "master — @m0saic/alpine/heatmap/v1 (the 7th Alpine template), LOCKED 2026-06-22. A matrix heatmap in the friendly white card: a rows×cols grid of rounded cells, each colored on a single-hue intensity scale (pale tint → full color), with row labels (left gutter), column labels (top), and a Less→More legend — the GitHub contribution-calendar pattern generalized to any rows×cols data. Construction: every cell / label / legend swatch is an ABSOLUTELY-PLACED tight rect packed full-canvas via placeRects on the SNAP_PX lattice (the donut/kpi model). Two bugs caught + fixed in the sandbox: (1) cells weren't snapped to the 4px lattice → SPLIT_EXCEEDS_AXIS (0-size band); fixed by snapping pitch/gap/offsets. (2) the grid was passed as the SCALED content → insetNode re-quantized the split weights → uneven cell widths (the human caught this in Layout); fixed by passing the grid as a full-canvas extraLayer (compose(EMPTY, grid)), like the line-chart plot — cells now render at exact canvas pixels, all equal width. Color scale buckets each value into `levels` steps (default 5, like GitHub): bucket 0 = empty grey, 1..N = pale→full tints. Optional in-cell values compact-format (4.5K / 1.2M) + length-aware sizing so a big number never overflows. Animation: diagonal cascade fade (top-left→bottom-right); reduceMotion → static. 6 stress variants approved (A dark · B values+violet · C green/7-levels · D wide 3×12 no-col-labels · E 7×16 static · F big-number overflow).",
+    "question": "Locked master — showcase props (7×8 CONTRIBUTIONS grid, blue scale, diagonal cascade). This is the preview the Templates page renders.",
+    "response": {
+      "body": "Approved — locked.",
+      "from": "human",
+      "at": "2026-06-22T00:00:00.000Z"
+    }
+  }
+}

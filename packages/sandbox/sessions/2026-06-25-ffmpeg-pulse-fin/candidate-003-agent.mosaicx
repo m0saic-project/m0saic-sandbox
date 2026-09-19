@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 6000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/fin/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-25-ffmpeg-pulse-fin", "basename": "candidate-003" },
+  "agent": { "note": "QR is now BAKED per feedback. The green qr-carve (FFmpeg logo center + pixelate assemble) is pre-rendered to _shared/assets/qr-fin.mp4 (re-bake: bash .../assets/bake-fin-qr.sh), exposed as chromeAssets.qrFin, and fin references it as a single media source — no live per-module tile generation, so the fin template m0 is far cheaper. Same premium look. m0saic.io attribution bottom-right + 'Built with m0saic' footer. Render one-liners in .scratch/share.md (scan-test mobile).", "question": "Baked QR good? Scan-test on mobile. If good, I lock fin (master+preview+postmortem) — that completes all 8 beats — then Phase 3 (the runner)." }
+}

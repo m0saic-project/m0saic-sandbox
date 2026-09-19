@@ -1,0 +1,1106 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {
+    "node_root": {
+      "kind": "node-output",
+      "nodeId": "root"
+    }
+  },
+  "m0": "100[0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40(0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-)]",
+  "sources": [
+    {
+      "type": "mosaic",
+      "ref": "dsl-string",
+      "placement": {
+        "fit": "contain"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "mosaic",
+      "ref": "dsl-narration",
+      "placement": {
+        "fit": "contain"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "mosaic",
+      "ref": "canvas",
+      "placement": {
+        "fit": "contain"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "#0A0E1A",
+  "durationMs": 12000,
+  "children": {
+    "canvas": {
+      "kind": "mosaic_document",
+      "version": 1,
+      "assets": {
+        "lavfi_0e136e7475": {
+          "kind": "lavfi",
+          "graph": "color=#C9D1E4:s=1632x915:r=30:d=12.000,format=rgba,scale=1632:915"
+        },
+        "lavfi_f44e360c69": {
+          "kind": "lavfi",
+          "graph": "color=#EEF1F8:s=1632x915:r=30:d=12.000,format=rgba,scale=1632:915"
+        },
+        "text_root_2_2": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_2_text.png",
+          "mediaType": "image"
+        },
+        "lavfi_64c87c5d22": {
+          "kind": "lavfi",
+          "graph": "color=black@0:s=1632x915:r=30:d=12.000,drawbox=x=0:y=0:w=816:h=458:color=#111726:t=fill:replace=1:enable=lt(t\\,3.114),drawbox=x=0:y=458:w=816:h=457:color=#111726:t=fill:replace=1:enable=lt(t\\,4.481),drawbox=x=816:y=0:w=816:h=458:color=#111726:t=fill:replace=1:enable=lt(t\\,7.899),drawbox=x=816:y=458:w=816:h=457:color=#111726:t=fill:replace=1:enable=lt(t\\,9.266),fps=30,trim=duration=12.000,setpts=PTS-STARTPTS,format=rgba"
+        },
+        "lavfi_d3e81a3955": {
+          "kind": "lavfi",
+          "graph": "color=black@0:s=1632x915:r=30:d=12.000,drawbox=x=815:y=0:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=26:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=52:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=78:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=104:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=130:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=156:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=182:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=208:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=234:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=260:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=286:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=312:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=338:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=364:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=390:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=416:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=442:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=468:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=494:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=520:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=546:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=572:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=598:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=624:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=650:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=676:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=702:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=728:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=754:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=780:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=806:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=832:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=858:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=884:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=910:w=3:h=5:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=0:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=26:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=52:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=78:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=104:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=130:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=156:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=182:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=208:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=234:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=260:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=286:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=312:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=338:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=364:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=390:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=416:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=442:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=468:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=494:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=520:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=546:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=572:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=598:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=624:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=650:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=676:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=702:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=728:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=754:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=780:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=806:y=-1:w=10:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=0:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=26:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=52:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=78:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=104:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=130:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=156:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=182:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=208:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=234:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=260:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=286:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=312:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=338:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=364:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=390:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=416:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=442:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=468:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=494:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=520:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=546:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=572:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=598:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=624:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=650:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=676:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=702:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=728:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=754:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=780:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=806:y=914:w=10:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=0:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=26:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=52:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=78:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=104:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=130:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=156:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=182:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=208:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=234:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=260:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=286:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=312:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=338:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=364:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=390:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=416:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=442:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=468:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=494:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=520:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=546:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=572:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=598:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=624:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=650:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=676:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=702:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=728:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=754:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=780:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=806:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=832:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=858:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=884:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=910:w=3:h=5:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=0:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=26:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=52:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=78:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=104:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=130:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=156:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=182:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=208:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=234:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=260:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=286:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=312:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=338:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=364:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=390:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=416:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=442:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=468:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=494:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=520:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=546:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=572:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=598:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=624:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=650:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=676:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=702:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=728:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=754:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=780:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=806:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=832:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=858:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=884:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=910:w=3:h=5:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=0:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=26:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=52:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=78:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=104:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=130:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=156:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=182:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=208:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=234:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=260:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=286:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=312:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=338:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=364:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=390:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=416:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=442:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=468:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=494:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=520:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=546:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=572:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=598:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=624:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=650:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=676:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=702:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=728:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=754:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=780:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=806:y=456:w=10:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=816:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=842:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=868:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=894:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=920:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=946:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=972:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=998:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1024:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1050:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1076:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1102:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1128:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1154:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1180:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1206:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1232:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1258:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1284:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1310:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1336:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1362:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1388:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1414:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1440:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1466:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1492:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1518:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1544:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1570:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1596:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1622:y=-1:w=10:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=816:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=842:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=868:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=894:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=920:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=946:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=972:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=998:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1024:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1050:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1076:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1102:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1128:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1154:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1180:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1206:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1232:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1258:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1284:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1310:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1336:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1362:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1388:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1414:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1440:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1466:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1492:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1518:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1544:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1570:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1596:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1622:y=914:w=10:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=0:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=26:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=52:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=78:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=104:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=130:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=156:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=182:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=208:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=234:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=260:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=286:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=312:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=338:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=364:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=390:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=416:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=442:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=468:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=494:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=520:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=546:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=572:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=598:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=624:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=650:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=676:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=702:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=728:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=754:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=780:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=806:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=832:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=858:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=884:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=910:w=3:h=5:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=0:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=26:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=52:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=78:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=104:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=130:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=156:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=182:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=208:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=234:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=260:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=286:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=312:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=338:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=364:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=390:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=416:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=442:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=468:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=494:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=520:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=546:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=572:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=598:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=624:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=650:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=676:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=702:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=728:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=754:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=780:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=806:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=832:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=858:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=884:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=910:w=3:h=5:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=816:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=842:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=868:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=894:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=920:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=946:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=972:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=998:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1024:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1050:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1076:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1102:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1128:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1154:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1180:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1206:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1232:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1258:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1284:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1310:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1336:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1362:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1388:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1414:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1440:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1466:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1492:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1518:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1544:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1570:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1596:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1622:y=456:w=10:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),fps=30,trim=duration=12.000,setpts=PTS-STARTPTS,format=rgba"
+        },
+        "lavfi_cdc84acaf3": {
+          "kind": "lavfi",
+          "graph": "color=black@0:s=1632x915:r=30:d=12.000,drawbox=x=5:y=5:w=1622:h=905:color=#FF8A3D:t=5:replace=1:enable=between(t\\,0.380\\,1.063),drawbox=x=5:y=5:w=806:h=905:color=#FF8A3D:t=5:replace=1:enable=between(t\\,1.063\\,2.430),drawbox=x=5:y=5:w=806:h=448:color=#FF8A3D:t=5:replace=1:enable=between(t\\,2.430\\,3.797),drawbox=x=5:y=463:w=806:h=448:color=#FF8A3D:t=5:replace=1:enable=between(t\\,3.797\\,5.165),drawbox=x=5:y=5:w=806:h=905:color=#FF8A3D:t=5:replace=1:enable=between(t\\,5.165\\,5.848),drawbox=x=821:y=5:w=806:h=905:color=#FF8A3D:t=5:replace=1:enable=between(t\\,5.848\\,7.215),drawbox=x=821:y=5:w=806:h=448:color=#FF8A3D:t=5:replace=1:enable=between(t\\,7.215\\,8.582),drawbox=x=821:y=463:w=806:h=448:color=#FF8A3D:t=5:replace=1:enable=between(t\\,8.582\\,9.949),drawbox=x=821:y=5:w=806:h=905:color=#FF8A3D:t=5:replace=1:enable=between(t\\,9.949\\,10.633),drawbox=x=5:y=5:w=1622:h=905:color=#FF8A3D:t=5:replace=1:enable=between(t\\,10.633\\,12.000),fps=30,trim=duration=12.000,setpts=PTS-STARTPTS,format=rgba"
+        },
+        "lavfi_a89b56a75f": {
+          "kind": "lavfi",
+          "graph": "color=#4A597C:s=1632x915:r=30:d=12.000,format=rgba,scale=1632:915"
+        },
+        "node_root_2": {
+          "kind": "node-output",
+          "nodeId": "root:2"
+        }
+      },
+      "m0": "1{1{1{1{1{1{1}}}}}}",
+      "sources": [
+        {
+          "type": "lavfi",
+          "color": "#C9D1E4",
+          "mask": {
+            "kind": "inline-mask",
+            "localPath": "M9 0 H807 A9 9 0 0 1 816 9 V449 A9 9 0 0 1 807 458 H9 A9 9 0 0 1 0 449 V9 A9 9 0 0 1 9 0 Z M9 458 H807 A9 9 0 0 1 816 467 V906 A9 9 0 0 1 807 915 H9 A9 9 0 0 1 0 906 V467 A9 9 0 0 1 9 458 Z M825 0 H1623 A9 9 0 0 1 1632 9 V449 A9 9 0 0 1 1623 458 H825 A9 9 0 0 1 816 449 V9 A9 9 0 0 1 825 0 Z M825 458 H1623 A9 9 0 0 1 1632 467 V906 A9 9 0 0 1 1623 915 H825 A9 9 0 0 1 816 906 V467 A9 9 0 0 1 825 458 Z",
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1632,
+              "height": 915
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#EEF1F8",
+          "mask": {
+            "kind": "inline-mask",
+            "localPath": "M9 1 H807 A8 8 0 0 1 815 9 V449 A8 8 0 0 1 807 457 H9 A8 8 0 0 1 1 449 V9 A8 8 0 0 1 9 1 Z M9 459 H807 A8 8 0 0 1 815 467 V906 A8 8 0 0 1 807 914 H9 A8 8 0 0 1 1 906 V467 A8 8 0 0 1 9 459 Z M825 1 H1623 A8 8 0 0 1 1631 9 V449 A8 8 0 0 1 1623 457 H825 A8 8 0 0 1 817 449 V9 A8 8 0 0 1 825 1 Z M825 459 H1623 A8 8 0 0 1 1631 467 V906 A8 8 0 0 1 1623 914 H825 A8 8 0 0 1 817 906 V467 A8 8 0 0 1 825 459 Z",
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1632,
+              "height": 915
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "1"
+              },
+              "style": {
+                "fontSize": 84,
+                "fontColor": "#161B2B"
+              },
+              "placement": {
+                "xExpr": "408.0-text_w/2",
+                "yExpr": "156.5"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "960×540"
+              },
+              "style": {
+                "fontSize": 34,
+                "fontColor": "#6B7488"
+              },
+              "placement": {
+                "xExpr": "408.0-text_w/2",
+                "yExpr": "250.5"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "2"
+              },
+              "style": {
+                "fontSize": 84,
+                "fontColor": "#161B2B"
+              },
+              "placement": {
+                "xExpr": "408.0-text_w/2",
+                "yExpr": "614.0"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "960×540"
+              },
+              "style": {
+                "fontSize": 34,
+                "fontColor": "#6B7488"
+              },
+              "placement": {
+                "xExpr": "408.0-text_w/2",
+                "yExpr": "708.0"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "3"
+              },
+              "style": {
+                "fontSize": 84,
+                "fontColor": "#161B2B"
+              },
+              "placement": {
+                "xExpr": "1224.0-text_w/2",
+                "yExpr": "156.5"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "960×540"
+              },
+              "style": {
+                "fontSize": 34,
+                "fontColor": "#6B7488"
+              },
+              "placement": {
+                "xExpr": "1224.0-text_w/2",
+                "yExpr": "250.5"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "4"
+              },
+              "style": {
+                "fontSize": 84,
+                "fontColor": "#161B2B"
+              },
+              "placement": {
+                "xExpr": "1224.0-text_w/2",
+                "yExpr": "614.0"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "960×540"
+              },
+              "style": {
+                "fontSize": 34,
+                "fontColor": "#6B7488"
+              },
+              "placement": {
+                "xExpr": "1224.0-text_w/2",
+                "yExpr": "708.0"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "lavfi": "color=black@0,drawbox=x=0:y=0:w=816:h=458:color=#111726:t=fill:replace=1:enable=lt(t\\,3.114),drawbox=x=0:y=458:w=816:h=457:color=#111726:t=fill:replace=1:enable=lt(t\\,4.481),drawbox=x=816:y=0:w=816:h=458:color=#111726:t=fill:replace=1:enable=lt(t\\,7.899),drawbox=x=816:y=458:w=816:h=457:color=#111726:t=fill:replace=1:enable=lt(t\\,9.266)",
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "lavfi": "color=black@0,drawbox=x=815:y=0:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=26:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=52:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=78:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=104:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=130:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=156:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=182:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=208:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=234:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=260:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=286:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=312:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=338:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=364:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=390:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=416:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=442:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=468:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=494:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=520:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=546:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=572:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=598:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=624:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=650:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=676:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=702:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=728:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=754:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=780:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=806:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=832:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=858:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=884:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=815:y=910:w=3:h=5:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,1.063\\,9.532),drawbox=x=0:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=26:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=52:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=78:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=104:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=130:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=156:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=182:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=208:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=234:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=260:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=286:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=312:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=338:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=364:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=390:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=416:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=442:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=468:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=494:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=520:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=546:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=572:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=598:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=624:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=650:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=676:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=702:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=728:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=754:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=780:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=806:y=-1:w=10:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=0:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=26:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=52:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=78:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=104:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=130:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=156:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=182:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=208:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=234:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=260:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=286:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=312:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=338:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=364:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=390:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=416:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=442:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=468:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=494:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=520:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=546:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=572:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=598:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=624:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=650:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=676:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=702:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=728:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=754:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=780:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=806:y=914:w=10:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=0:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=26:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=52:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=78:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=104:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=130:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=156:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=182:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=208:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=234:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=260:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=286:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=312:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=338:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=364:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=390:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=416:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=442:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=468:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=494:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=520:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=546:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=572:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=598:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=624:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=650:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=676:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=702:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=728:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=754:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=780:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=806:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=832:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=858:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=884:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=-1:y=910:w=3:h=5:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=0:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=26:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=52:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=78:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=104:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=130:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=156:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=182:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=208:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=234:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=260:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=286:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=312:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=338:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=364:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=390:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=416:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=442:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=468:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=494:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=520:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=546:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=572:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=598:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=624:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=650:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=676:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=702:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=728:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=754:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=780:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=806:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=832:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=858:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=884:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=815:y=910:w=3:h=5:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,5.165),drawbox=x=0:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=26:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=52:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=78:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=104:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=130:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=156:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=182:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=208:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=234:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=260:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=286:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=312:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=338:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=364:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=390:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=416:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=442:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=468:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=494:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=520:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=546:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=572:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=598:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=624:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=650:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=676:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=702:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=728:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=754:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=780:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=806:y=456:w=10:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,2.430\\,4.747),drawbox=x=816:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=842:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=868:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=894:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=920:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=946:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=972:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=998:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1024:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1050:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1076:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1102:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1128:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1154:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1180:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1206:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1232:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1258:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1284:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1310:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1336:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1362:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1388:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1414:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1440:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1466:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1492:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1518:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1544:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1570:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1596:y=-1:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1622:y=-1:w=10:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=816:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=842:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=868:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=894:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=920:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=946:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=972:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=998:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1024:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1050:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1076:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1102:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1128:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1154:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1180:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1206:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1232:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1258:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1284:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1310:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1336:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1362:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1388:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1414:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1440:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1466:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1492:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1518:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1544:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1570:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1596:y=914:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1622:y=914:w=10:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=0:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=26:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=52:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=78:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=104:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=130:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=156:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=182:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=208:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=234:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=260:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=286:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=312:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=338:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=364:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=390:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=416:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=442:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=468:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=494:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=520:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=546:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=572:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=598:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=624:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=650:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=676:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=702:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=728:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=754:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=780:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=806:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=832:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=858:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=884:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=815:y=910:w=3:h=5:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=0:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=26:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=52:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=78:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=104:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=130:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=156:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=182:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=208:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=234:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=260:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=286:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=312:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=338:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=364:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=390:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=416:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=442:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=468:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=494:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=520:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=546:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=572:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=598:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=624:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=650:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=676:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=702:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=728:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=754:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=780:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=806:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=832:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=858:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=884:w=3:h=15:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=1631:y=910:w=3:h=5:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.949),drawbox=x=816:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=842:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=868:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=894:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=920:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=946:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=972:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=998:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1024:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1050:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1076:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1102:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1128:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1154:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1180:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1206:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1232:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1258:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1284:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1310:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1336:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1362:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1388:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1414:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1440:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1466:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1492:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1518:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1544:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1570:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1596:y=456:w=15:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532),drawbox=x=1622:y=456:w=10:h=3:color=#7C5CFF@0.9:t=fill:replace=1:enable=between(t\\,7.215\\,9.532)",
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "lavfi": "color=black@0,drawbox=x=5:y=5:w=1622:h=905:color=#FF8A3D:t=5:replace=1:enable=between(t\\,0.380\\,1.063),drawbox=x=5:y=5:w=806:h=905:color=#FF8A3D:t=5:replace=1:enable=between(t\\,1.063\\,2.430),drawbox=x=5:y=5:w=806:h=448:color=#FF8A3D:t=5:replace=1:enable=between(t\\,2.430\\,3.797),drawbox=x=5:y=463:w=806:h=448:color=#FF8A3D:t=5:replace=1:enable=between(t\\,3.797\\,5.165),drawbox=x=5:y=5:w=806:h=905:color=#FF8A3D:t=5:replace=1:enable=between(t\\,5.165\\,5.848),drawbox=x=821:y=5:w=806:h=905:color=#FF8A3D:t=5:replace=1:enable=between(t\\,5.848\\,7.215),drawbox=x=821:y=5:w=806:h=448:color=#FF8A3D:t=5:replace=1:enable=between(t\\,7.215\\,8.582),drawbox=x=821:y=463:w=806:h=448:color=#FF8A3D:t=5:replace=1:enable=between(t\\,8.582\\,9.949),drawbox=x=821:y=5:w=806:h=905:color=#FF8A3D:t=5:replace=1:enable=between(t\\,9.949\\,10.633),drawbox=x=5:y=5:w=1622:h=905:color=#FF8A3D:t=5:replace=1:enable=between(t\\,10.633\\,12.000)",
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#4A597C",
+          "mask": {
+            "kind": "inline-mask",
+            "localPath": "M0 0 H1632 V915 H0 Z M4 4 V911 H1628 V4 Z",
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1632,
+              "height": 915
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      ],
+      "backgroundColor": "#111726",
+      "size": {
+        "width": 1632,
+        "height": 915
+      },
+      "fps": 30,
+      "durationMs": 12000,
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    "dsl-string": {
+      "kind": "mosaic_document",
+      "version": 1,
+      "assets": {
+        "text_root_0_0": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_0_text.png",
+          "mediaType": "image"
+        },
+        "lavfi_82224964f5": {
+          "kind": "lavfi",
+          "graph": "color=black@0:s=1920x76:r=30:d=12.000,drawbox=x=0:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,0.380)*lt(t\\,1.063)),drawbox=x=120:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,1.063)*lt(t\\,1.747)),drawbox=x=240:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,1.747)*lt(t\\,2.430)),drawbox=x=360:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,2.430)*lt(t\\,3.114)),drawbox=x=480:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,3.114)*lt(t\\,3.797)),drawbox=x=600:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,3.797)*lt(t\\,4.481)),drawbox=x=720:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,4.481)*lt(t\\,5.165)),drawbox=x=840:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,5.165)*lt(t\\,5.848)),drawbox=x=960:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,5.848)*lt(t\\,6.532)),drawbox=x=1080:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,6.532)*lt(t\\,7.215)),drawbox=x=1200:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,7.215)*lt(t\\,7.899)),drawbox=x=1320:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,7.899)*lt(t\\,8.582)),drawbox=x=1440:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,8.582)*lt(t\\,9.266)),drawbox=x=1560:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,9.266)*lt(t\\,9.949)),drawbox=x=1680:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,9.949)*lt(t\\,10.633)),drawbox=x=1800:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,10.633)*lt(t\\,11.316)),fps=30,trim=duration=12.000,setpts=PTS-STARTPTS,format=rgba"
+        },
+        "text_root_0_2": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_2_text.png",
+          "mediaType": "image"
+        },
+        "lavfi_1065df6a0e": {
+          "kind": "lavfi",
+          "graph": "color=black@0:s=1920x5:r=30:d=12.000,drawbox=x=24:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,0.380)*lt(t\\,1.063)),drawbox=x=144:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,1.063)*lt(t\\,1.747)),drawbox=x=264:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,1.747)*lt(t\\,2.430)),drawbox=x=384:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,2.430)*lt(t\\,3.114)),drawbox=x=504:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,3.114)*lt(t\\,3.797)),drawbox=x=624:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,3.797)*lt(t\\,4.481)),drawbox=x=744:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,4.481)*lt(t\\,5.165)),drawbox=x=864:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,5.165)*lt(t\\,5.848)),drawbox=x=984:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,5.848)*lt(t\\,6.532)),drawbox=x=1104:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,6.532)*lt(t\\,7.215)),drawbox=x=1224:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,7.215)*lt(t\\,7.899)),drawbox=x=1344:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,7.899)*lt(t\\,8.582)),drawbox=x=1464:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,8.582)*lt(t\\,9.266)),drawbox=x=1584:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,9.266)*lt(t\\,9.949)),drawbox=x=1704:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,9.949)*lt(t\\,10.633)),drawbox=x=1824:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,10.633)*lt(t\\,11.316)),fps=30,trim=duration=12.000,setpts=PTS-STARTPTS,format=rgba"
+        },
+        "node_root_0": {
+          "kind": "node-output",
+          "nodeId": "root:0"
+        }
+      },
+      "m0": "24[0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1},1]",
+      "sources": [
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "0"
+              },
+              "style": {
+                "fontSize": 10.89,
+                "fontColor": "#697390"
+              },
+              "placement": {
+                "xExpr": "60.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "·"
+              },
+              "style": {
+                "fontSize": 10.89,
+                "fontColor": "#697390"
+              },
+              "placement": {
+                "xExpr": "180.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "·"
+              },
+              "style": {
+                "fontSize": 10.89,
+                "fontColor": "#697390"
+              },
+              "placement": {
+                "xExpr": "300.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "·"
+              },
+              "style": {
+                "fontSize": 10.89,
+                "fontColor": "#697390"
+              },
+              "placement": {
+                "xExpr": "420.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "·"
+              },
+              "style": {
+                "fontSize": 10.89,
+                "fontColor": "#697390"
+              },
+              "placement": {
+                "xExpr": "540.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "5"
+              },
+              "style": {
+                "fontSize": 10.89,
+                "fontColor": "#697390"
+              },
+              "placement": {
+                "xExpr": "660.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "·"
+              },
+              "style": {
+                "fontSize": 10.89,
+                "fontColor": "#697390"
+              },
+              "placement": {
+                "xExpr": "780.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "·"
+              },
+              "style": {
+                "fontSize": 10.89,
+                "fontColor": "#697390"
+              },
+              "placement": {
+                "xExpr": "900.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "·"
+              },
+              "style": {
+                "fontSize": 10.89,
+                "fontColor": "#697390"
+              },
+              "placement": {
+                "xExpr": "1020.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "·"
+              },
+              "style": {
+                "fontSize": 10.89,
+                "fontColor": "#697390"
+              },
+              "placement": {
+                "xExpr": "1140.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "10"
+              },
+              "style": {
+                "fontSize": 10.89,
+                "fontColor": "#697390"
+              },
+              "placement": {
+                "xExpr": "1260.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "·"
+              },
+              "style": {
+                "fontSize": 10.89,
+                "fontColor": "#697390"
+              },
+              "placement": {
+                "xExpr": "1380.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "·"
+              },
+              "style": {
+                "fontSize": 10.89,
+                "fontColor": "#697390"
+              },
+              "placement": {
+                "xExpr": "1500.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "·"
+              },
+              "style": {
+                "fontSize": 10.89,
+                "fontColor": "#697390"
+              },
+              "placement": {
+                "xExpr": "1620.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "·"
+              },
+              "style": {
+                "fontSize": 10.89,
+                "fontColor": "#697390"
+              },
+              "placement": {
+                "xExpr": "1740.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "15"
+              },
+              "style": {
+                "fontSize": 10.89,
+                "fontColor": "#697390"
+              },
+              "placement": {
+                "xExpr": "1860.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "lavfi": "color=black@0,drawbox=x=0:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,0.380)*lt(t\\,1.063)),drawbox=x=120:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,1.063)*lt(t\\,1.747)),drawbox=x=240:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,1.747)*lt(t\\,2.430)),drawbox=x=360:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,2.430)*lt(t\\,3.114)),drawbox=x=480:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,3.114)*lt(t\\,3.797)),drawbox=x=600:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,3.797)*lt(t\\,4.481)),drawbox=x=720:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,4.481)*lt(t\\,5.165)),drawbox=x=840:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,5.165)*lt(t\\,5.848)),drawbox=x=960:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,5.848)*lt(t\\,6.532)),drawbox=x=1080:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,6.532)*lt(t\\,7.215)),drawbox=x=1200:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,7.215)*lt(t\\,7.899)),drawbox=x=1320:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,7.899)*lt(t\\,8.582)),drawbox=x=1440:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,8.582)*lt(t\\,9.266)),drawbox=x=1560:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,9.266)*lt(t\\,9.949)),drawbox=x=1680:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,9.949)*lt(t\\,10.633)),drawbox=x=1800:y=0:w=120:h=78:color=#7C5CFF@0.20:t=fill:replace=1:enable=(gte(t\\,10.633)*lt(t\\,11.316))",
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "2"
+              },
+              "style": {
+                "fontSize": 70.53750000000001,
+                "fontColor": "#7C9CFF"
+              },
+              "placement": {
+                "xExpr": "60.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "("
+              },
+              "style": {
+                "fontSize": 70.53750000000001,
+                "fontColor": "#C792EA"
+              },
+              "placement": {
+                "xExpr": "180.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "2"
+              },
+              "style": {
+                "fontSize": 70.53750000000001,
+                "fontColor": "#7C9CFF"
+              },
+              "placement": {
+                "xExpr": "300.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "["
+              },
+              "style": {
+                "fontSize": 70.53750000000001,
+                "fontColor": "#C792EA"
+              },
+              "placement": {
+                "xExpr": "420.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "F"
+              },
+              "style": {
+                "fontSize": 70.53750000000001,
+                "fontColor": "#E7ECF7"
+              },
+              "placement": {
+                "xExpr": "540.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": ","
+              },
+              "style": {
+                "fontSize": 70.53750000000001,
+                "fontColor": "#5B6684"
+              },
+              "placement": {
+                "xExpr": "660.0-text_w/2",
+                "yExpr": "(h-text_h)/2+22.6"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "F"
+              },
+              "style": {
+                "fontSize": 70.53750000000001,
+                "fontColor": "#E7ECF7"
+              },
+              "placement": {
+                "xExpr": "780.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "]"
+              },
+              "style": {
+                "fontSize": 70.53750000000001,
+                "fontColor": "#C792EA"
+              },
+              "placement": {
+                "xExpr": "900.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": ","
+              },
+              "style": {
+                "fontSize": 70.53750000000001,
+                "fontColor": "#5B6684"
+              },
+              "placement": {
+                "xExpr": "1020.0-text_w/2",
+                "yExpr": "(h-text_h)/2+22.6"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "2"
+              },
+              "style": {
+                "fontSize": 70.53750000000001,
+                "fontColor": "#7C9CFF"
+              },
+              "placement": {
+                "xExpr": "1140.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "["
+              },
+              "style": {
+                "fontSize": 70.53750000000001,
+                "fontColor": "#C792EA"
+              },
+              "placement": {
+                "xExpr": "1260.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "F"
+              },
+              "style": {
+                "fontSize": 70.53750000000001,
+                "fontColor": "#E7ECF7"
+              },
+              "placement": {
+                "xExpr": "1380.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": ","
+              },
+              "style": {
+                "fontSize": 70.53750000000001,
+                "fontColor": "#5B6684"
+              },
+              "placement": {
+                "xExpr": "1500.0-text_w/2",
+                "yExpr": "(h-text_h)/2+22.6"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "F"
+              },
+              "style": {
+                "fontSize": 70.53750000000001,
+                "fontColor": "#E7ECF7"
+              },
+              "placement": {
+                "xExpr": "1620.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "]"
+              },
+              "style": {
+                "fontSize": 70.53750000000001,
+                "fontColor": "#C792EA"
+              },
+              "placement": {
+                "xExpr": "1740.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": ")"
+              },
+              "style": {
+                "fontSize": 70.53750000000001,
+                "fontColor": "#C792EA"
+              },
+              "placement": {
+                "xExpr": "1860.0-text_w/2",
+                "yExpr": "(h-text_h)/2"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "lavfi": "color=black@0,drawbox=x=24:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,0.380)*lt(t\\,1.063)),drawbox=x=144:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,1.063)*lt(t\\,1.747)),drawbox=x=264:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,1.747)*lt(t\\,2.430)),drawbox=x=384:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,2.430)*lt(t\\,3.114)),drawbox=x=504:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,3.114)*lt(t\\,3.797)),drawbox=x=624:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,3.797)*lt(t\\,4.481)),drawbox=x=744:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,4.481)*lt(t\\,5.165)),drawbox=x=864:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,5.165)*lt(t\\,5.848)),drawbox=x=984:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,5.848)*lt(t\\,6.532)),drawbox=x=1104:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,6.532)*lt(t\\,7.215)),drawbox=x=1224:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,7.215)*lt(t\\,7.899)),drawbox=x=1344:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,7.899)*lt(t\\,8.582)),drawbox=x=1464:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,8.582)*lt(t\\,9.266)),drawbox=x=1584:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,9.266)*lt(t\\,9.949)),drawbox=x=1704:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,9.949)*lt(t\\,10.633)),drawbox=x=1824:y=1:w=72:h=2:color=#7C5CFF@1.00:t=fill:replace=1:enable=(gte(t\\,10.633)*lt(t\\,11.316))",
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      ],
+      "backgroundColor": "#111726",
+      "size": {
+        "width": 1920,
+        "height": 99
+      },
+      "fps": 30,
+      "durationMs": 12000,
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    "dsl-narration": {
+      "kind": "mosaic_document",
+      "version": 1,
+      "assets": {
+        "text_root_1_0": {
+          "kind": "workspace-file",
+          "path": "root_1_root_1_0_text.mov",
+          "mediaType": "video"
+        },
+        "node_root_1": {
+          "kind": "node-output",
+          "nodeId": "root:1"
+        }
+      },
+      "m0": "6[0,0,0,0,100(0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-),-]",
+      "sources": [
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "video"
+          },
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Read split count — 2 columns."
+              },
+              "style": {
+                "fontSize": 22,
+                "fontColor": "#AEB9D4"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,0.380)*lt(t,1.063))"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Split into 2 columns."
+              },
+              "style": {
+                "fontSize": 22,
+                "fontColor": "#AEB9D4"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,1.063)*lt(t,1.747))"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Read split count — 2 rows."
+              },
+              "style": {
+                "fontSize": 22,
+                "fontColor": "#AEB9D4"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,1.747)*lt(t,2.430))+(gte(t,6.532)*lt(t,7.215))"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Split into 2 rows."
+              },
+              "style": {
+                "fontSize": 22,
+                "fontColor": "#AEB9D4"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,2.430)*lt(t,3.114))+(gte(t,7.215)*lt(t,7.899))"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Emit tile 1 — 960×540 at (0, 0)."
+              },
+              "style": {
+                "fontSize": 22,
+                "fontColor": "#AEB9D4"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,3.114)*lt(t,3.797))"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Advance to the next sibling."
+              },
+              "style": {
+                "fontSize": 22,
+                "fontColor": "#AEB9D4"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,3.797)*lt(t,4.481))+(gte(t,5.848)*lt(t,6.532))+(gte(t,8.582)*lt(t,9.266))"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Emit tile 2 — 960×540 at (0, 540)."
+              },
+              "style": {
+                "fontSize": 22,
+                "fontColor": "#AEB9D4"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,4.481)*lt(t,5.165))"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Close split — restore the parent region."
+              },
+              "style": {
+                "fontSize": 22,
+                "fontColor": "#AEB9D4"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,5.165)*lt(t,5.848))+(gte(t,9.949)*lt(t,11.316))"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Emit tile 3 — 960×540 at (960, 0)."
+              },
+              "style": {
+                "fontSize": 22,
+                "fontColor": "#AEB9D4"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,7.899)*lt(t,8.582))"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Emit tile 4 — 960×540 at (960, 540)."
+              },
+              "style": {
+                "fontSize": 22,
+                "fontColor": "#AEB9D4"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,9.266)*lt(t,9.949))"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      ],
+      "backgroundColor": "#111726",
+      "size": {
+        "width": 1920,
+        "height": 66
+      },
+      "fps": 30,
+      "durationMs": 12000,
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

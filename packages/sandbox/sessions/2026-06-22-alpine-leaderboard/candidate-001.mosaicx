@@ -1,0 +1,66 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/leaderboard/v1",
+      "props": {
+        "items": [
+          {
+            "name": "Ava Chen",
+            "value": 2840
+          },
+          {
+            "name": "Liam Patel",
+            "value": 2615
+          },
+          {
+            "name": "Noah Kim",
+            "value": 2390
+          },
+          {
+            "name": "Mia Garcia",
+            "value": 1975
+          },
+          {
+            "name": "Ethan Wright",
+            "value": 1640,
+            "valueLabel": ""
+          }
+        ],
+        "title": "TOP CONTRIBUTORS",
+        "subtitle": "This month",
+        "preset": "light",
+        "podiumTint": true,
+        "showValue": true,
+        "anim": {
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        },
+        "valuePrefix": "",
+        "valueSuffix": " commits"
+      }
+    }
+  ],
+  "agent": {
+    "note": "candidate-001 — first cut of @m0saic/alpine/leaderboard/v1 (the 6th Alpine template). A ranked list in the white card: each row is a small rounded RANK BADGE (gold/silver/bronze for the podium, muted grey below) + name + value. Rows AUTO-SORT by value descending so the rank reflects the score (preSorted keeps your order); the top 3 get a soft medal-tinted row wash (podiumTint). Values count up; valueLabel overrides the auto number (with valuePrefix/suffix for '$' / ' pts'). Built on the bar-graph/progress model — splits + rounded tiles, no inline-masks — and every height weight is snapped to a multiple of 8, so it's feasible at any resolution (validated at 1280x800 AND 1024x1024 from the start). Animation: rows cascade-fade in top→bottom with the count-up; reduceMotion → static. Caught + fixed one bug pre-presentation: the rank badge was sized with a pixel value used as a relative split weight, so it ate half the row; now a proper proportional weight → small square badge. Verified valid across default/static/8-items/1-item/preSorted/empty.",
+    "question": "First look at the Alpine leaderboard. Scrub it — rows cascade in, values count up, podium rows get a medal tint. Does the look land (badge size/shape, medal colors, podium tint strength, row spacing, name/value balance)? Open questions: (1) podium tint on by default — keep, or off? (2) the per-item Color column overrides the badge color — useful, or should badges always be medal/grey? I'll iterate one nudge at a time.",
+    "response": {
+      "body": "I like the podium row. But it feels like the ones after 3 should have a tint too, maybe a standard one. maybe gold, dark grey, brown, and then light grey for all others.\n\nRender looks good",
+      "from": "human",
+      "at": "2026-06-22T18:58:53.804Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

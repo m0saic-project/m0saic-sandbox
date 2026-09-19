@@ -1,0 +1,30 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 4354,
+  "height": 2016
+ },
+ "fps": 30,
+ "durationMs": 3200,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/brand/logo/v3",
+   "props": {
+    "size": "m0saic-pattern",
+    "animation": "logo_loop",
+    "rankSet": "cascade"
+   }
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "stress-05"
+ },
+ "agent": {
+  "note": "**STRESS 05/10 — 05-pattern-cascade** (gate-28 stress set for `@m0saic/brand/logo/v3`).\n\nThe PATTERN at its official 4354x2016 (the big canvas). Watch: full-res render lands, cascade sweep."
+ }
+}

@@ -1,0 +1,64 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/leaderboard/v1",
+      "props": {
+        "items": [
+          {
+            "name": "Ava Chen",
+            "value": 2840
+          },
+          {
+            "name": "Liam Patel",
+            "value": 2615
+          },
+          {
+            "name": "Noah Kim",
+            "value": 2390
+          },
+          {
+            "name": "Mia Garcia",
+            "value": 1975
+          },
+          {
+            "name": "Ethan Wright",
+            "value": 1640
+          }
+        ],
+        "title": "TOP CONTRIBUTORS",
+        "subtitle": "This month",
+        "preset": "light",
+        "podiumTint": true,
+        "showValue": true,
+        "anim": {
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        },
+        "valueSuffix": " commits"
+      }
+    }
+  ],
+  "agent": {
+    "note": "candidate-004 — rank 2 badge is now a deep dark slate (#1E293B, near-black), darker still per your note. Sequence: gold / near-black / brown / light-grey.",
+    "question": "Dark enough now? If the look is settled, approve and I move to the ship-readiness stress pass (batch of prop-variant configs, reviewed one at a time). Or say darker/lighter and I nudge again.",
+    "response": {
+      "body": "Approved.",
+      "from": "human",
+      "at": "2026-06-22T19:10:26.622Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

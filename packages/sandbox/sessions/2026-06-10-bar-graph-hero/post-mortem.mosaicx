@@ -1,0 +1,22 @@
+{
+  "_comment": "Bar graph hero — layout polish session. Invokes @m0saic/meta/post-mortem/v1 against this session directory. Render via: m0saic make packages/sandbox/sessions/2026-06-10-bar-graph-hero/post-mortem.mosaicx -o /tmp/bar-graph-hero-session.mp4 -w 1920 -h 1080. Total duration = msTitleCard + N*msPerCandidate + msEndCard (5 candidates × 3000ms + 2 cards × 2000ms = 19000ms).",
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "fps": 30,
+  "durationMs": 19000,
+  "size": { "width": 1920, "height": 1080 },
+  "assets": {},
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/meta/post-mortem/v1",
+      "props": {
+        "sessionPath": "<sandbox>/sessions/2026-06-10-bar-graph-hero",
+        "msPerCandidate": 3000,
+        "msTitleCard": 2000,
+        "msEndCard": 2000
+      }
+    }
+  ]
+}

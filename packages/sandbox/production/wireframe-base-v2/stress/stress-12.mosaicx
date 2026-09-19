@@ -1,0 +1,31 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-12"
+  },
+  "agent": {
+    "note": "**STRESS 12 — null label as the m0 token** (founder ask on 11-a: \"option to replace null with -\").\n\nNEW `nullLabel` knob: `null` (default) or `-`. Same layer explode as 11-a on `3(1{2[-,1]},-,2[1,-])`, holes now labelled with the token `-` + their size (two files: layer-0, layer-1). Everything else unchanged.\n\nWatch: the dash reads as the primary line (sized like a cell number), size line beneath, dashed ring + muted ink as before.",
+    "question": "`-` label pass or fail? Should `-` become the DEFAULT instead of the word?"
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {
+        "M0String": "3(1{2[-,1]},-,2[1,-])",
+        "nullFrames": "show",
+        "nullLabel": "-"
+      }
+    }
+  ]
+}

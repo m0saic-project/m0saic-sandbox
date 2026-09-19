@@ -1,0 +1,39 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/metadata-stamp/v1",
+      "props": {
+        "sourceIds": [
+          "<sandbox>/production/media-metadata-stamp-v1/fixtures/land-meta.mp4"
+        ],
+        "stampField": "custom",
+        "customText": "Лето 2024 · отпуск",
+        "position": "top-center"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-custom-cyrillic-top** (gate-13 stress set for `@m0saic/media/metadata-stamp/v1`).\n\nCUSTOM CYRILLIC at top-center (CJK excluded per the accepted tofu ruling). Watch: Cyrillic glyph outlines render, top-center placement.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

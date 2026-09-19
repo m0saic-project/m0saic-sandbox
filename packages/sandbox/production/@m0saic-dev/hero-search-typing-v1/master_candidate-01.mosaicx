@@ -1,0 +1,27 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 1280,
+  "height": 400
+ },
+ "fps": 30,
+ "durationMs": 18170,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/hero/search-typing/v1",
+   "props": {}
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "master_candidate-01"
+ },
+ "agent": {
+  "note": "**v1 PROD GATE — `@m0saic/hero/search-typing/v1` \"Search Typing\"** (gate 27 — HERO pack opener; chart: `.ai/LAUNCH/v1-template-cut.md`). Core tier. Looping search-bar typing hero; defaults at the native 1280×400, natural cadence 18.17s (outputHints pin).\n\n**History:** candidate-006 approved 08-06 (\"looks good\"), P4 staged (previews + News + e2e all live) — this is the fresh v1-cut candidate on CURRENT code.\n\n**Pre-audit: TWO real fixes**\n\n| Finding | Fix |\n|---|---|\n| **DEFAULTS ERROR-CARDED at 720×1280 portrait** — fill mode hands the whole canvas to the bar, and barH-scaled pads+icon (0.14·2+0.42 of 1280 ≈ 900px) exceeded the 720px width, so even the 14px font floor threw (the 08-06 \"portrait clean\" claim was stale — VERIFY keeper) | metric base caps at 0.6·barW when the bar is taller than wide; landscape 1280×400 + square 1080² byte-identical (cap binds only portrait); portrait now fits at ~26px |\n| **Error cards muxed a SILENT AUDIO track** when rendered as video (no audio flag on errorDocument → the plan's anullsrc default → split-mux aac; gate-20 class via a new door) | errorDocument now declares `audio:{enabled:false}`; battery locks the error render has NO audio stream |\n\n**Cover added** per the mosaic-branding convention (band variant): fully-typed poster face bundled as the hero + brand band.\n\n**Battery:** 10 configs (native/square/portrait, 6s pin, card+color, wide-script Cyrillic/CJK, loop+caret seam PSNR, 640×200 tiny, 1366×768 inflation case, words-cap error card) — see `.scratch/claude/search-typing-gate-battery.mjs`.\n\n**Known trade-off carried from 08-06 (still open, lesson 8):** m0 inflates 3–8× on canvases whose dims aren't multiples of 8 (snapOut clamp breaks the grid; functional, documented).\n\n**ALSO FLAGGED:** the chart still shows 4 ungated media base rows (scroll_wall, trickplay, video_to_png_sequence, watermark) — they were never in the founder-set media remainder; the \"media closed\" framing covered the remainder sequence only.",
+  "question": "Gate-27 verdict? (The 08-06 approval predates the portrait fix + cover; both are look-additions, landscape default is byte-identical.)"
+ }
+}

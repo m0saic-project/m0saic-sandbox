@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "recoveredHex": "deadbeef",
+  "expectedHex": "deadbeef",
+  "matches": true,
+  "correctedBitCount": 0,
+  "errorPositions": [],
+  "worstAbsScore": 27.638157894736807,
+  "meanAbsScore": 42.1997513468711,
+  "framesSampled": 304,
+  "mode": "id32",
+  "verdict": "pass",
+  "grid": {
+    "cols": 128,
+    "rows": 72
+  },
+  "ecc": {
+    "n": 127,
+    "k": 36,
+    "t": 15
+  },
+  "videoPath": "<sandbox>/production/forensic-watermark-video-v1/stress/renders/stress-09.mp4",
+  "sidecarPath": "<sandbox>/production/forensic-watermark-video-v1/stress/renders/stress-09.watermark.json"
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-11"
+  },
+  "agent": {
+    "note": "**STRESS 11/10 — 11-null-frames-show** (gate-29 dev-diagram piece 1 for `@m0saic/wireframe/base/v2`).\n\nThe NEW `nullFrames: \"show\"` knob on a layout with holes at three depths — `3(1{2[-,1]},-,2[1,-])`: a null inside an overlay, a null column, a null row cell. Each `-` is drawn as a DASHED, muted (55%) cell labelled `null` + its size; painted cells keep their numbering (1..4 unchanged from hide mode). Under the hood the emitted m0 swaps `-` for `1` so the engine binds those slots; geometry is identical.\n\nWatch: dashed ring rhythm, `null` label legible in the 640×540 cells, numbering of painted cells unchanged, hide mode (default) byte-identical. This is piece 1; piece 2 = layer explode (emit:multi, one still per overlay depth), piece 3 = passthrough `0` lattice.",
+    "question": "Null-frame treatment pass or fail (dash rhythm, muted ink, label)? Anything to change before piece 2 (layer explode)?",
+    "response": {
+      "verdict": "reject",
+      "text": "rejected, its wrong. we have two layers in stress-11, but only reutrned one file... when doing null or passthrough, layers must be emitted as seperate files",
+      "via": "chat — transcribed by agent (09-03)",
+      "note": "Take 1 drew the holes INTO the single composite. Ruling: null/passthrough modes = LAYER EXPLODE, one file per overlay depth → stress-11-a."
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {
+        "M0String": "3(1{2[-,1]},-,2[1,-])",
+        "nullFrames": "show"
+      }
+    }
+  ]
+}

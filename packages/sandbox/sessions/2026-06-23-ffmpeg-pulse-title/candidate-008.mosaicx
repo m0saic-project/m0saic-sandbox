@@ -1,0 +1,463 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/hero/ffmpeg-pulse/title/v1",
+      "props": {
+        "pulse": {
+          "repo": {
+            "name": "FFmpeg",
+            "fullName": "FFmpeg/FFmpeg"
+          },
+          "period": {
+            "weekNumber": 20,
+            "startISO": "2025-05-12",
+            "endISO": "2025-05-18"
+          },
+          "kpis": [
+            {
+              "key": "commits",
+              "label": "Commits",
+              "value": 127,
+              "deltaPct": 18,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "pullRequests",
+              "label": "Pull Requests",
+              "value": 34,
+              "deltaPct": 8.7,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "mergedPrs",
+              "label": "Merged PRs",
+              "value": 28,
+              "deltaPct": 9.1,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "openIssues",
+              "label": "Open Issues",
+              "value": 156,
+              "deltaPct": 4.3,
+              "direction": "down",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "contributors",
+              "label": "Contributors",
+              "value": 19,
+              "deltaPct": 26,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "additions",
+              "label": "Additions",
+              "value": 18463,
+              "deltaPct": 22,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "deletions",
+              "label": "Deletions",
+              "value": 9731,
+              "deltaPct": 8,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "stars",
+              "label": "Stars Δ",
+              "value": 87,
+              "display": "+87",
+              "deltaPct": 9,
+              "direction": "up",
+              "sublabel": "vs last week"
+            }
+          ],
+          "activity": {
+            "days": [
+              {
+                "label": "Mon",
+                "commits": 12
+              },
+              {
+                "label": "Tue",
+                "commits": 18
+              },
+              {
+                "label": "Wed",
+                "commits": 21
+              },
+              {
+                "label": "Thu",
+                "commits": 35
+              },
+              {
+                "label": "Fri",
+                "commits": 22
+              },
+              {
+                "label": "Sat",
+                "commits": 11
+              },
+              {
+                "label": "Sun",
+                "commits": 8
+              }
+            ],
+            "peak": {
+              "dayLabel": "Thu",
+              "dateISO": "2025-05-15",
+              "commits": 35
+            },
+            "rail": [
+              {
+                "key": "totalCommits",
+                "label": "Total Commits",
+                "value": 127,
+                "deltaPct": 18,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "peakDay",
+                "label": "Peak Day",
+                "value": 35,
+                "sublabel": "May 15, 2025"
+              },
+              {
+                "key": "dailyAvg",
+                "label": "Daily Avg",
+                "value": 18,
+                "display": "18.1",
+                "deltaPct": 12,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "activeDays",
+                "label": "Active Days",
+                "value": 7,
+                "display": "7/7",
+                "sublabel": "100% of week"
+              }
+            ]
+          },
+          "contributors": {
+            "rows": [
+              {
+                "rank": 1,
+                "login": "akhirnov",
+                "name": "Anton Khirnov",
+                "commits": 23,
+                "additions": 4512,
+                "deletions": 2103
+              },
+              {
+                "rank": 2,
+                "login": "michaelni",
+                "name": "Michael Niedermayer",
+                "commits": 18,
+                "additions": 3204,
+                "deletions": 1034
+              },
+              {
+                "rank": 3,
+                "login": "jamrial",
+                "name": "James Almer",
+                "commits": 14,
+                "additions": 2193,
+                "deletions": 812
+              },
+              {
+                "rank": 4,
+                "login": "cus",
+                "name": "Marton Balint",
+                "commits": 11,
+                "additions": 1842,
+                "deletions": 1201
+              },
+              {
+                "rank": 5,
+                "login": "lance-lmwang",
+                "name": "Limin Wang",
+                "commits": 9,
+                "additions": 1503,
+                "deletions": 623
+              }
+            ],
+            "rail": [
+              {
+                "key": "totalCommits",
+                "label": "Total Commits",
+                "value": 127,
+                "deltaPct": 18,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "contributors",
+                "label": "Total Contributors",
+                "value": 19,
+                "deltaPct": 26,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "additions",
+                "label": "Additions",
+                "value": 18463,
+                "deltaPct": 22,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "deletions",
+                "label": "Deletions",
+                "value": 9731,
+                "deltaPct": 8,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "stars",
+                "label": "Stars Δ",
+                "value": 87,
+                "display": "+87",
+                "deltaPct": 9,
+                "direction": "up",
+                "sublabel": "vs last week"
+              }
+            ]
+          },
+          "changes": {
+            "totalFiles": 842,
+            "byArea": [
+              {
+                "area": "libavcodec",
+                "files": 286,
+                "color": "#2ea043"
+              },
+              {
+                "area": "libavformat",
+                "files": 185,
+                "color": "#238636"
+              },
+              {
+                "area": "libavfilter",
+                "files": 126,
+                "color": "#3fb950"
+              },
+              {
+                "area": "doc",
+                "files": 84,
+                "color": "#d29922"
+              },
+              {
+                "area": "tests",
+                "files": 67,
+                "color": "#8957e5"
+              },
+              {
+                "area": "tools",
+                "files": 50,
+                "color": "#6e7681"
+              },
+              {
+                "area": "other",
+                "files": 44,
+                "color": "#6e7681"
+              }
+            ],
+            "rail": [
+              {
+                "key": "totalFiles",
+                "label": "Total Files Changed",
+                "value": 842,
+                "deltaPct": 14,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "additions",
+                "label": "Additions",
+                "value": 18463,
+                "deltaPct": 22,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "deletions",
+                "label": "Deletions",
+                "value": 9731,
+                "deltaPct": 8,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "netChanges",
+                "label": "Net Changes",
+                "value": 8732,
+                "display": "+8,732",
+                "deltaPct": 16,
+                "direction": "up",
+                "sublabel": "vs last week"
+              }
+            ]
+          },
+          "notable": {
+            "items": [
+              {
+                "kind": "perf",
+                "title": "avcodec: improve AV1 decode performance",
+                "hash": "a1b2c3d",
+                "author": "Anton Khirnov",
+                "dateISO": "2025-05-15"
+              },
+              {
+                "kind": "feat",
+                "title": "avformat: add support for new container",
+                "hash": "d4e5f6g",
+                "author": "James Almer",
+                "dateISO": "2025-05-14"
+              },
+              {
+                "kind": "fix",
+                "title": "avfilter: fix memory leak in overlay filter",
+                "hash": "h7i8j9k",
+                "author": "Marton Balint",
+                "dateISO": "2025-05-13"
+              },
+              {
+                "kind": "docs",
+                "title": "docs: update HLS documentation",
+                "hash": "l0m1n2o",
+                "author": "Limin Wang",
+                "dateISO": "2025-05-12"
+              },
+              {
+                "kind": "chore",
+                "title": "tests: add FATE test for edge case",
+                "hash": "p3q4r5s",
+                "author": "Michael Niedermayer",
+                "dateISO": "2025-05-16"
+              }
+            ],
+            "rail": [
+              {
+                "key": "totalCommits",
+                "label": "Total Commits",
+                "value": 127,
+                "deltaPct": 18,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "contributors",
+                "label": "Contributors",
+                "value": 19,
+                "deltaPct": 26,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "filesChanged",
+                "label": "Files Changed",
+                "value": 842,
+                "deltaPct": 14,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "stars",
+                "label": "Stars Δ",
+                "value": 87,
+                "display": "+87",
+                "deltaPct": 9,
+                "direction": "up",
+                "sublabel": "vs last week"
+              }
+            ]
+          },
+          "fin": {
+            "headline": "THANK YOU!",
+            "subhead": "ANOTHER WEEK OF PROGRESS.",
+            "kpiStrip": [
+              {
+                "key": "commits",
+                "label": "Commits",
+                "value": 127,
+                "deltaPct": 18,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "contributors",
+                "label": "Contributors",
+                "value": 19,
+                "deltaPct": 26,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "filesChanged",
+                "label": "Files Changed",
+                "value": 842,
+                "deltaPct": 14,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "stars",
+                "label": "Stars Δ",
+                "value": 87,
+                "display": "+87",
+                "deltaPct": 9,
+                "direction": "up",
+                "sublabel": "vs last week"
+              }
+            ],
+            "qr": {
+              "url": "https://ffmpeg.org/pulse",
+              "caption": "View full report and past weeks"
+            },
+            "footer": "Built with m0saic"
+          }
+        },
+        "headline": "WEEKLY PULSE",
+        "preset": "dark",
+        "anim": {
+          "introFrac": 0.8,
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "agent": {
+    "note": "Title beat, iteration 3 — three changes from your feedback: (1) SEPARATED bg from chrome — the scatter is now a single nested source (children.pulse_scatter), so the parent m0 dropped from ~80K chars to a handful of sources (the reduce-to-1 / render-timeout fix; structure kept live, not baked); (2) the whole bg field now FADES IN smoothly via one alpha on that nested ref; (3) the m0saic.io watermark got its own rounded backdrop. Logos still placeholders (real FFmpeg logo + animated M are the next items).",
+    "question": "BG fade smooth + watermark backdrop right, and does the separated-scatter render hold up? (Logos are next, then master.)",
+    "response": {
+      "body": "good checkpoint. but since we already will eventually bake into one video, lets use the geometry computation we already do. lets naimate each background rect in a rank set reveal. then the chrome comes up.",
+      "from": "human",
+      "at": "2026-06-23T13:44:40.020Z",
+      "src": "<sandbox>/sessions/2026-06-23-ffmpeg-pulse-title/candidate-008.mp4"
+    }
+  }
+}

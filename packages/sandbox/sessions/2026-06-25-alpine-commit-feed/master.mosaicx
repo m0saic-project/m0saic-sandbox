@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1280, "height": 800 }, "fps": 30, "durationMs": 3000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/alpine/commit-feed/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-25-alpine-commit-feed", "basename": "master" },
+  "agent": { "note": "MASTER — @m0saic/alpine/commit-feed/v1 (Alpine primitive). Scannable commit list: signal status bar (win/warn/neutral) · kind icon · title · #PR · area chip · author · reviewer discs · date. Built with placeRects (packed, light); width-capped fonts; narrow drops PR+reviewers; showHeader + washColor + transparent compose. 10 unit tests. Preview + postmortem set." }
+}

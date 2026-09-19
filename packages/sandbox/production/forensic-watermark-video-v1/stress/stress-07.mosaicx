@@ -1,0 +1,31 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 25,
+  "durationMs": 12160,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-coarse-32x18** (gate-34 stress set for `@m0saic/forensic/watermark/video/v1`).\n\nCoarse 32×18 grid = 4 cells/bit, the documented low-margin corner (40 px cells are also the most visible).\n\nWatch: PASS but worst |score| < 1 — the card's score turns red; reason line explains.\n\nVerify the render: `m0saic make @m0saic/forensic/watermark/verify/v1 -o stress-07-check.png --props '{\"videoPath\":\"<render>.mp4\"}'` (the sidecar lands beside the render).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/forensic/watermark/video/v1",
+      "props": {
+        "videoPath": "<repo>/packages/cli/examples/media/hero/hero_4.mp4",
+        "gridCols": 32,
+        "gridRows": 18
+      }
+    }
+  ]
+}

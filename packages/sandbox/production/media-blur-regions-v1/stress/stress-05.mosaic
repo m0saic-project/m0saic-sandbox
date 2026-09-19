@@ -1,0 +1,132 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "multi",
+  "fps": 30,
+  "steps": [
+    {
+      "name": "talk-720p",
+      "label": "talk-720p",
+      "durationMs": 3000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {
+          "talk-720p": {
+            "kind": "file",
+            "path": "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4",
+            "mediaType": "video"
+          }
+        },
+        "size": {
+          "width": 1280,
+          "height": 720
+        },
+        "backgroundColor": "#000000",
+        "m0": "1{2[2(1,-),-]{2[-,2(-,1)]}}",
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover"
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:base"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover",
+              "sourceRect": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 360
+              }
+            },
+            "audio": {
+              "enabled": false
+            },
+            "effects": {
+              "pixelize": 40
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:region"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover",
+              "sourceRect": {
+                "x": 640,
+                "y": 360,
+                "w": 640,
+                "h": 360
+              }
+            },
+            "audio": {
+              "enabled": false
+            },
+            "effects": {
+              "pixelize": 40
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:region"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "format": {
+          "kind": "video",
+          "container": "mp4"
+        },
+        "fps": 30,
+        "durationMs": 3000,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "durationMs": 3000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-m0-quadrants** (gate-19 stress set for `@m0saic/media/blur-regions/v1`).\n\nm0-NATIVE regions (stdlib-built quadrant layout: top-left + bottom-right cells), pixelate. Watch: the two diagonal quadrants censored exactly on the cell bounds.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  }
+}

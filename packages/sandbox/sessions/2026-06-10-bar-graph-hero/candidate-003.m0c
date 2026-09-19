@@ -1,0 +1,100 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T07:14:33.550Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.10",
+  "meta": {
+    "title": "2026-06-10-bar-graph-hero · candidate-003"
+  },
+  "agent": {
+    "note": "Bar-graph.ts top comment hints max-side is the canonical placement for horizontal mode. This proxies that for vertical too: plot row splits 2 cols (plot-cells | value-axis). Real weights would be ~12:1 (axis is narrow).",
+    "question": "Does max-side rail (eye lands on value at bar tip) read better than today's min-side rail (eye scans axis up the bar)? Or is min-side correct because Western reading order is left-to-right?",
+    "context": {
+      "category": {
+        "kind": "known",
+        "value": "spacing-alignment"
+      },
+      "intent": {
+        "action": "branch",
+        "summary": "value-axis tick rail on max-side (right)"
+      },
+      "relation": {
+        "kind": "branch",
+        "target": "001"
+      },
+      "layoutIntent": "magazine",
+      "evaluation": {
+        "grade": "best",
+        "source": "automated",
+        "at": "2026-06-10T07:14:33.549Z",
+        "breakdown": {
+          "total": 1,
+          "feasible": true,
+          "components": {
+            "precision": {
+              "quality": 1,
+              "weight": 0,
+              "raw": 0.002777777777777778
+            },
+            "spread": {
+              "quality": 1,
+              "weight": 0,
+              "raw": 0
+            },
+            "gutter": {
+              "quality": 1,
+              "weight": 0,
+              "raw": 0
+            },
+            "frames": {
+              "quality": 1,
+              "weight": 0.89,
+              "raw": 4
+            },
+            "structure": {
+              "quality": 1,
+              "weight": 0.1,
+              "raw": 0
+            },
+            "compactness": {
+              "quality": 1,
+              "weight": 0.01,
+              "raw": 13
+            }
+          }
+        }
+      }
+    },
+    "response": {
+      "body": "Ah the labels are nice. this layout confuses me though. im not sure what is supposed to go where.",
+      "from": "human",
+      "at": "2026-06-10T07:23:51.992Z"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "3[1,2(1,1),1]",
+  "labels": {
+    "r/fc0": {
+      "text": "title-band"
+    },
+    "r/fc2": {
+      "text": "label-band"
+    },
+    "r/gcolc1/fc0": {
+      "text": "plot-cells"
+    },
+    "r/gcolc1/fc1": {
+      "text": "value-axis"
+    }
+  },
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "rankSets": null,
+  "custom": null
+}

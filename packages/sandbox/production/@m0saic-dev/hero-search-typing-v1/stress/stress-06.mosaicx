@@ -1,0 +1,35 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 1280,
+  "height": 400
+ },
+ "fps": 30,
+ "durationMs": 3530,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/hero/search-typing/v1",
+   "props": {
+    "timing": {
+     "typeCharMs": 30,
+     "deleteCharMs": 20,
+     "emptyHoldMs": 100,
+     "wordHoldMs": 200,
+     "leadMs": 100,
+     "trailMs": 100
+    }
+   }
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "stress-06"
+ },
+ "agent": {
+  "note": "**STRESS 06/10 — 06-speed-run** (gate-27 stress set for `@m0saic/hero/search-typing/v1`; PUBLISHER ruling — ships under @m0saic-dev, same bar).\n\nTIMING EXTREME fast. Watch: every char window still lands (between() -1ms law), no flash frames."
+ }
+}

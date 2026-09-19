@@ -1,0 +1,36 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 320,
+    "height": 180
+  },
+  "fps": 30,
+  "durationMs": 5000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-tiny-320** (gate-30 stress set for `@m0saic/wireframe/animated/v1`).\n\nThumbnail-sized canvas: 18px header band, 80×81px cells — the header floor (12px) and the marks ladder floor (14px).\n\nWatch: header 12px fits; cells show number + `80 × 81` only (ratio dropped); nothing sub-9px.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "moot",
+      "text": "Not reviewed — the template was DEPRECATED by ruling at the default verdict (superseded by @m0saic/dsl-tutorial/v1; kept in base as base·dep). Recipe + twin + end frame stay as the agent pre-pass record (agent pass: clean).",
+      "via": "transcribed by agent from the gate-30 chat verdict",
+      "from": "agent:claude",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/animated/v1",
+      "props": {
+        "M0String": "2[4(1,1,1,1),4(1,1,1,1)]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1920
+  },
+  "fps": 30,
+  "durationMs": 5000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/demos/header-hero-footer/v1",
+      "props": {
+        "headline": "LAUNCH DAY",
+        "leftLabel": "Features",
+        "rightLabel": "Pricing",
+        "footerText": "getm0saic.com",
+        "headerColor": "#0f172a",
+        "leftColor": "#f97316",
+        "rightColor": "#38bdf8",
+        "footerColor": "#1e293b",
+        "textColor": "#f8fafc"
+      },
+      "output": {
+        "format": {
+          "kind": "image",
+          "container": "png"
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-001"
+  },
+  "agent": {
+    "note": "Smoke test of the Make geometry-edit handshake. Header / two-column hero / footer demo. The hero is hardcoded to two COLUMNS regardless of aspect — the flaw we want to surface and fix from your drags. This candidate lives in the sandbox session, so your saved edits freeze as candidate-001_humanedits.mosaic right here in the folder.",
+    "question": "Check three aspects in order: (1) Desktop 1920x1080, (2) Square 1080x1080 — the two-column hero reads fine, no edit. (3) Set Mobile 1080x1920 and RE-RENDER. On mobile the columns cramp: enter Edit mode and drag the two hero cells into TWO ROWS — Hero Left to the top half of the hero band, Hero Right to the bottom half (both full width). Then answer here (that freezes your edits as candidate-001_humanedits.mosaic). Do NOT change dims or props AFTER dragging — edits are discarded on any re-render.",
+    "response": {
+      "body": "Yes, I moved things around on mobile layout. looks better this way",
+      "from": "human",
+      "at": "2026-07-06T16:42:10.265Z",
+      "src": "<sandbox>/sessions\\2026-07-06-header-hero-footer-geometry-handshake/./candidate-001-1080x1920.png",
+      "srcMosaic": "<sandbox>/sessions\\2026-07-06-header-hero-footer-geometry-handshake\\candidate-001_humanedits.mosaic"
+    }
+  }
+}

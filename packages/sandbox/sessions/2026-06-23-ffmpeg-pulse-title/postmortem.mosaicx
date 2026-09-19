@@ -1,0 +1,7 @@
+{
+  "_comment": "FFmpeg Weekly Pulse — TITLE beat sandbox walkthrough. Invokes @m0saic/meta/post-mortem/v1 against this session. Notable arc: live rectangle-scatter title -> BAKED flat per-aspect scatter video (the 'reduce to 1 / push complexity down' win: ~5min->66s render, flattened .mosaic 163K->3.8K chars), then the master_candidate quality gate caught square/mobile reflow breakage (desktop-tuned +25% content upscale overflowed the narrow canvas; right-aligned WEEK pill collided with the bottom-right watermark) -> scale clamp + min(W,H)-anchored watermark sized to the FFmpeg logo. Render on demand: m0saic make packages/sandbox/sessions/2026-06-23-ffmpeg-pulse-title/postmortem.mosaicx -o /tmp/title-session.mp4 -w 1920 -h 1080. NOT rendered at closeout by design.",
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "fps": 30, "durationMs": 36000,
+  "size": { "width": 1920, "height": 1080 }, "assets": {},
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/meta/post-mortem/v1",
+    "props": { "sessionPath": "packages/sandbox/sessions/2026-06-23-ffmpeg-pulse-title", "msPerCandidate": 3000, "msTitleCard": 2000, "msEndCard": 2000 } } ]
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 — 03-dark-plain-square** (gate-22 stress set for `@m0saic/media/qr/code/v1`).\n\nDark card + the byte-parity plain path (basic-v1 heritage): square modules, matrix eyes, no centre. Watch: classic QR look, soft-orange on black. PHONE-SCAN (inverted-contrast codes are the classic scan risk).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "stress set pass (02 noted as engine limitation, 09 accepted+documented)",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/qr/code/v1",
+      "props": {
+        "mode": "dark",
+        "moduleStyle": "square",
+        "center": {
+          "show": false
+        },
+        "moduleColor": "#fb923c"
+      }
+    }
+  ]
+}

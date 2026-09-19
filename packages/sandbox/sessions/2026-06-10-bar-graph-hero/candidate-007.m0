@@ -1,0 +1,13 @@
+# m0
+# version: 1
+# created: 2026-06-10T08:13:38.464Z
+# size: 1920x1080
+# app: m0saic-desktop
+# appVersion: 0.1.0+2026.06.10
+# title: 2026-06-10-bar-graph-hero · candidate-007
+# m0agent:note: Scaled-down proxy of @m0saic/primitives/grid/v1 (count=5, excludeEdges=true). Production uses weights [99,1,99,1,99,1,99,1,99] (499 cells); this uses [10,1,10,1,10,1,10,1,10] (54 cells). The four '1' cells are the 4 inner gridlines; '-' cells are null regions; '0' cells donate forward to the next '-'. Each gap region is 10 donating cells + 1 null = 11 units, line is 1 unit. Spacings (in unit terms): 11, 11, 11, 11, 11 between consecutive lines AND between edge-of-plot and first/last gridline — uniform.
+# m0agent:question: Looking at this proxy, do the 4 gridlines themselves look uniformly spaced to you? If yes → the issue in your render is the TICK LABELS (100, 80, 60, 40, 20, 0), not the gridlines. Edge labels are pinned ~1% inset from the chart boundary (slot 5/494 in a 499-unit grid), creating apparent unevenness: 100↔80 gap = 94.5, 80↔60 = 100, etc.
+# m0agent:context: {"category":{"kind":"known","value":"spacing-alignment"},"intent":{"summary":"investigate:grid primitive m0 (scaled proxy, same gap-line-gap pattern as production)"},"relation":{"kind":"branch","target":"006"},"layoutIntent":"free","evaluation":{"grade":"excellent","source":"automated","at":"2026-06-10T08:13:38.457Z","breakdown":{"total":0.7499995364008308,"feasible":true,"components":{"precision":{"quality":1,"weight":0,"raw":0.05},"spread":{"quality":1,"weight":0.3,"raw":0},"gutter":{"quality":0.002438145603323461,"weight":0.25,"raw":200},"frames":{"quality":1,"weight":0.34,"raw":4},"structure":{"quality":1,"weight":0.1,"raw":45},"compactness":{"quality":0.939,"weight":0.01,"raw":111}}}}}
+# m0agent:response: {"body":"yes these look fine. the issue isnt here.","from":"human","at":"2026-06-10T08:14:29.554Z"}
+
+54[0,0,0,0,0,0,0,0,0,-,1,0,0,0,0,0,0,0,0,0,-,1,0,0,0,0,0,0,0,0,0,-,1,0,0,0,0,0,0,0,0,0,-,1,0,0,0,0,0,0,0,0,0,-]

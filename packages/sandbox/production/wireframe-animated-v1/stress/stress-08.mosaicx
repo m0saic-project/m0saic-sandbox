@@ -1,0 +1,37 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 5000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 — 08-grid-paper-textbook** (gate-30 stress set for `@m0saic/wireframe/animated/v1`).\n\nThe NEWLY WIRED paper grid (Layout page 'Textbook' style): thumb-light tiles sliding in under a 1/16-pitch lattice at 8% ink.\n\nWatch: graph-paper visible from frame 0 across the whole canvas; tiles appear BENEATH it (lattice never pops in); rounded corners.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "moot",
+      "text": "Not reviewed — the template was DEPRECATED by ruling at the default verdict (superseded by @m0saic/dsl-tutorial/v1; kept in base as base·dep). Recipe + twin + end frame stay as the agent pre-pass record (agent pass: clean).",
+      "via": "transcribed by agent from the gate-30 chat verdict",
+      "from": "agent:claude",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/animated/v1",
+      "props": {
+        "M0String": "4[1,0,0,3(2[1,1],1,2[1,1])]",
+        "preset": "grid-paper"
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 720,
+    "height": 1280
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 \u2014 07-transparent-none** (gate-16 stress set for `@m0saic/charts/line-chart/v1`).\n\nBACKGROUND \"none\": transparent card -> the reveal switches from curtain to group alpha-fade (no opaque hide color to wipe with). Watch: fade-in reveal, transparent canvas (black in the mp4), chrome legible.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/line-chart/v1",
+      "props": {
+        "values": [
+          [
+            12,
+            19,
+            26,
+            41,
+            63,
+            98
+          ]
+        ],
+        "seriesLabels": [
+          "Renders"
+        ],
+        "appearance": {
+          "backgroundColor": "none"
+        },
+        "titles": {
+          "title": "Transparent composition mode"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 1350,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-09"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 — 09-long-line-autofit** (gate-32 stress set for `@m0saic/code/snippet-morph/v1`).\n\nA 230-char line: the shared integer font autofits down toward the 8px floor to keep the line inside the code area.\n\nWatch: font shrinks; the line fits (or clips at the floor, by design); gutter stays aligned.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/code/snippet-morph/v1",
+      "props": {
+        "states": [
+          "const veryLongIdentifierName = someFunctionCall(argumentNumber0) + someFunctionCall(argumentNumber1) + someFunctionCall(argumentNumber2) + someFunctionCall(argumentNumber3) + someFunctionCall(argumentNumber4) + someFunctionCall(argumentNumber5) + someFunctionCall(argumentNumber6) + someFunctionCall(argumentNumber7);"
+        ],
+        "timing": {
+          "holdMs": 600
+        }
+      }
+    }
+  ]
+}

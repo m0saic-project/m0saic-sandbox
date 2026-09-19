@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1080, "height": 1920 }, "fps": 30, "durationMs": 9000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/changes-breakdown/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-25-ffmpeg-pulse-changes-breakdown", "basename": "candidate-003" },
+  "agent": { "note": "candidate-002 feedback: MOBILE donut had too much empty vertical space below the ring/legend while the rail was squished. Shortened the mobile donut panel (1062 -> 720) and gave the reclaimed height to the rail, switching it from a 4x1 strip of narrow width-bound cards to a 2x2 of wider+taller tiles so the KPIs read more easily. Desktop + square unchanged (already tight). This file is portrait so you land on the change. Render one-liners in .scratch/share.md.", "question": "Mobile donut/rail balance good now? Good to lock Beat 4?" }
+}

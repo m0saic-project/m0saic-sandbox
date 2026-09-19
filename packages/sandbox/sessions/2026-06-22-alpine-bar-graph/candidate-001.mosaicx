@@ -1,0 +1,66 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/bar-graph/v1",
+      "props": {
+        "values": [
+          12400,
+          8700,
+          5600,
+          2100,
+          1200
+        ],
+        "labels": [
+          "Email",
+          "Twitter",
+          "Reddit",
+          "Hacker News",
+          "Other"
+        ],
+        "title": "BAR CHART",
+        "subtitle": "Sales by Channel",
+        "preset": "light",
+        "gap": 0.55,
+        "cornerRadius": 0.4,
+        "grid": {
+          "show": true,
+          "count": 3
+        },
+        "valueLabels": {
+          "show": true,
+          "format": "compact",
+          "decimals": 1,
+          "suffix": ""
+        },
+        "anim": {
+          "durationSec": 0.9,
+          "delaySec": 0.12,
+          "staggerSec": 0.08,
+          "ease": "smoothstep",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "agent": {
+    "note": "Alpine bar-graph — the friendly mobile-marketing horizontal bar chart for the Alpine data-viz pack. White rounded card chrome, rounded blue bars, left category rail, inline value labels, bottom value-tick band, and a staggered grow-in (bars slide+fade from the left baseline, labels fade as each lands). Static look + animation were approved live in Make. This is candidate-001 — the session baseline.",
+    "question": "Render it here and confirm this is the lock target for @m0saic/alpine/bar-graph/v1. Anything to change before I lock it with unit + CLI-E2E tests and bake a preview asset?",
+    "response": {
+      "body": "lets get the prop shape nailed first. render and make experience seem fine here.",
+      "from": "human",
+      "at": "2026-06-22T11:01:04.619Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

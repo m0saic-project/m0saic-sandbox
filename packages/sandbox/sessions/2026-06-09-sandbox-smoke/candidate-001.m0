@@ -1,0 +1,17 @@
+# m0
+# version: 1
+# created: 2026-06-09T08:01:31.516Z
+# size: 1920x1080
+# app: m0saic-desktop
+# appVersion: 0.1.0+2026.06.09
+# title: 2026-06-09-sandbox-smoke · candidate-001
+# m0agent:note: Smoke-testing the sandbox session routing — this should land as candidate-001.m0 inside packages/sandbox/sessions/.
+# m0agent:question: Did the file end up in the right session directory?
+# m0agent:regions: {"r/fc0":"top","r/fc1/ov1c0":"middle","r/fc2":"bottom"}
+# m0agent:context: {"purpose":"sandbox-routing-smoke"}
+# m0agent:response: {"body":"Yes","from":"human","at":"2026-06-09T09:00:33.544Z"}
+# m0agent:comment: {"id":"2546fc13","body":"hello world","from":"human","at":"2026-06-09T09:23:50.566Z"}
+# m0agent:comment: {"id":"e5e824c2","body":"@2546fc13 I see you","from":"human","at":"2026-06-09T09:25:22.464Z"}
+# m0agent:comment: {"id":"fdbef604","body":"nice","from":"human","at":"2026-06-09T09:25:36.750Z"}
+
+3[1,1{1},1]

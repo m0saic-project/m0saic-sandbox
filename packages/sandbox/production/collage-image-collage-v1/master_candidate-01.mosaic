@@ -1,0 +1,267 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "3[7(0,1,0,1,0,1,1),0,14(0,0,0,0,0,0,0,0,0,0,2[11(0,0,0,1,0,0,0,1,0,0,1),11(0,0,1,0,0,1,0,0,1,0,1)],0,0,1)]",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/collage/image-collage/v1` \"Image Collage\"** (gate 31 — COLLAGE pack opener; chart: `.ai/LAUNCH/v1-template-cut.md`). Core tier, tags media · collage · image · layout-solver · contact-sheet. THE photo contact sheet: a searched lattice pack (hero / portrait / panorama spans, staggered masonry, pixel-exact gutters via inset recovery, soft crop budget), paging into one PNG per sheet. Props = pure defaults → the built-in 12-tile DEMO set (no photos yet) on the dark canvas.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | core · not internal · not deprecated | confirm — the category baseline for photo sheets |\n| Label | \"Image Collage\" | keep |\n| Cover | none | none (the demo set IS the default face; the committed preview is your 34-photo mountain sheet) |\n| Tutorial | none | skip |\n| Previews | `poster.png` = `preview.png` (07-12, your real-photo sheet, 1280×720) | LEAVE AS-IS (committed founder asset) |\n| Battery | **31/31 GREEN** (18 CLI PNG renders incl. 4 paged sets + pixel gutter/margin asserts + 2 loud refusals) | — |\n| E2E | 2 variants (flush, paged) | — |\n| Preview fidelity | Make's GeometricPreview vs the ffmpeg frame: every demo tile within **1px** (12/12) | — |\n| Sibling | `collage/spread-grid-mock/v1` (internal, \"mock/authoring aid\") | chart says dev-or-DELETE — your call |\n\n**Pre-audit findings → fixed:**\n\n| Finding | Fix |\n|---|---|\n| No `format` on the sheet docs (pre-gate-26 template; hints alone) | `format:{image,png}` on every page doc (+ lock) |\n| Description was engineering-speak (\"searched lattice… verified by the layout contract\") | user-facing blurb (template + registry) |\n| **CLI `resolve` never probed media** — `media: {}` — so the `.mosaic` twin of ANY recipe with `sourceIds` (collage, lyric video, screencap grids) was a \"no probed dimensions\" error card while `make` rendered fine; the ledger's drift-immune record was an error mosaic | `resolve` builds the registry exactly like `make` (doc manifests + every invocation's props, incl. children/pipeline steps); a collage recipe now freezes to 8 media sources + 8 assets |\n| 3 unit tests red at HEAD: written for the OLD debug semantics (debug → stamped sheet); since your e5e70287 debug-on SHOWS the contract wireframe | tests aligned: shape/labels on the sheet (debug off), contract ok on the wireframe (debug on) — 94/94 collage tests |\n\n**Verified, no change needed:** demo default 0.9s · 16 real photos 1.5s · 40 mixed-aspect photos page into 2 sheets (uniform lattice) / 3 (independent, 14 per sheet) · flush (0 background) · wide gutter + margin 0 (corner is photo) · crop budget 0 and 0.6 · portrait · square · 480×270 pages by GEOMETRY (8 per sheet at the 120px floor) · 4K 40-on-one-sheet 5.4s · 1 and 2 images fill the sheet · light background reaches the margin · impossible cell bounds + a video input → loud error cards naming the fix (exit 0, card visible).\n\n**Design notes (not bugs):** cover-crop on all-sky square photos reads as empty tiles (crop budget, not a defect); `sourceIds`/`seed`/`maxImagesPerSheet` are `required: true` with tuned defaults (your lock) — the form shows a red asterisk on Images while the demo renders without any; leave or flip to optional?\n\nStress ×10 pre-minted in `stress/` (real nyc-square photos ×3 recipes, 40 synthetic numbered mixed-aspect \"photos\" in `fixtures/synthetic/` ×7) — agent pass clean; review after the default verdict.",
+    "question": "Gate-31 verdict on the default face (demo set) + core confirm · `spread-grid-mock`: dev or delete? · `sourceIds` required-with-demo: keep or make optional? Then stress-01..10 (drop your own photo folder on Images while you're there)."
+  },
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#2d4f67",
+      "editor": {
+        "owner": "template",
+        "label": "img:0"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.020947176684881604,
+          "right": 0.00819672131147541,
+          "top": 0.03194444444444444,
+          "bottom": 0.0125
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3e5c46",
+      "editor": {
+        "owner": "template",
+        "label": "img:2"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.013686131386861315,
+          "right": 0.011861313868613138,
+          "top": 0.03194444444444444,
+          "bottom": 0.0125
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#37556e",
+      "editor": {
+        "owner": "template",
+        "label": "img:4"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.010036496350364963,
+          "right": 0.017335766423357664,
+          "top": 0.03194444444444444,
+          "bottom": 0.0125
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#7a5230",
+      "editor": {
+        "owner": "template",
+        "label": "img:3"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.00909090909090909,
+          "right": 0.04181818181818182,
+          "top": 0.03194444444444444,
+          "bottom": 0.0125
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#585a38",
+      "editor": {
+        "owner": "template",
+        "label": "img:7"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.020947176684881604,
+          "right": 0.00819672131147541,
+          "top": 0.020833333333333332,
+          "bottom": 0.020833333333333332
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2f5f58",
+      "editor": {
+        "owner": "template",
+        "label": "img:9"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.013686131386861315,
+          "right": 0.011861313868613138,
+          "top": 0.020833333333333332,
+          "bottom": 0.020833333333333332
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#5a3e5d",
+      "editor": {
+        "owner": "template",
+        "label": "img:1"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.01338199513381995,
+          "right": 0.02068126520681265,
+          "top": 0.020833333333333332,
+          "bottom": 0.020833333333333332
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#6e4444",
+      "editor": {
+        "owner": "template",
+        "label": "img:5"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.027912621359223302,
+          "right": 0.00849514563106796,
+          "top": 0.0125,
+          "bottom": 0.03194444444444444
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#4f4668",
+      "editor": {
+        "owner": "template",
+        "label": "img:8"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.02068126520681265,
+          "right": 0.01338199513381995,
+          "top": 0.0125,
+          "bottom": 0.03194444444444444
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3f5a2f",
+      "editor": {
+        "owner": "template",
+        "label": "img:11"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.015815085158150853,
+          "right": 0.01824817518248175,
+          "top": 0.0125,
+          "bottom": 0.03194444444444444
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#44606a",
+      "editor": {
+        "owner": "template",
+        "label": "img:6"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.016423357664233577,
+          "right": 0.03102189781021898,
+          "top": 0.0125,
+          "bottom": 0.03194444444444444
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#6a3f52",
+      "editor": {
+        "owner": "template",
+        "label": "img:10"
+      },
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "left": 0.00849514563106796,
+          "right": 0.027912621359223302,
+          "top": 0.010416666666666666,
+          "bottom": 0.01597222222222222
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "format": {
+    "kind": "image",
+    "container": "png"
+  },
+  "backgroundColor": "#101014"
+}

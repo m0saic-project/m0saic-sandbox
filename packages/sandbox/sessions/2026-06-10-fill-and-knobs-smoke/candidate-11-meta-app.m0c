@@ -1,0 +1,36 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T12:00:00.000Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.11",
+  "meta": {
+    "title": "11 · meta + app",
+    "author": "smoke generator",
+    "source": "fill-and-knobs-smoke",
+    "note": "Every meta field populated so the inspector's details panel can be eyeballed."
+  },
+  "agent": {
+    "id": "claude-smoke-2026-06-10",
+    "note": "All four meta fields (title / author / source / note) + a bumped appVersion.",
+    "question": "Does the file-details panel surface all four meta fields and the appVersion (1.2.3+test) correctly?",
+    "response": {
+      "body": "Approved.",
+      "from": "human",
+      "at": "2026-06-11T03:29:47.519Z"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "4(1,1,1,1)",
+  "labels": null,
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "fill": null,
+  "rankSets": null,
+  "custom": null
+}

@@ -1,0 +1,12 @@
+# m0
+# version: 1
+# created: 2026-06-09T22:25:37.989Z
+# size: 1920x1080
+# app: tools/wireframe.mjs
+# title: 2026-06-09-pc-mvp · candidate-002
+# m0agent:note: tried just two equal columns instead
+# m0agent:question: is fewer cells the move here?
+# m0agent:response: {"body":"cleaner but i still want hierarchy — one hero, two supports","from":"human:m0","at":"2026-06-09T22:31:00.000Z"}
+# m0agent:context: {"category":{"kind":"known","value":"hierarchy-emphasis"},"intent":{"action":"refine","summary":"drop to two"},"relation":{"kind":"refines","target":"001"},"layoutIntent":"comparison","evaluation":{"grade":"good","source":"human","rationale":"reads cleaner but loses a slot","breakdown":{"total":1,"feasible":true,"components":{"precision":{"quality":1,"weight":0,"raw":0.0010416666666666667},"spread":{"quality":1,"weight":0.5,"raw":0},"gutter":{"quality":1,"weight":0,"raw":0},"frames":{"quality":1,"weight":0.39,"raw":2},"structure":{"quality":1,"weight":0.1,"raw":0},"compactness":{"quality":1,"weight":0.01,"raw":6}}}}}
+
+2(1,1)

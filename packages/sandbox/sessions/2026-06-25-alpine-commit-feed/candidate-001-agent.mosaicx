@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1280, "height": 708 }, "fps": 30, "durationMs": 3000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/alpine/commit-feed/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-25-alpine-commit-feed", "basename": "candidate-001" },
+  "agent": { "note": "NEW PRIMITIVE — @m0saic/alpine/commit-feed/v1 (the Notable Commits building block). Each row: thin SIGNAL status bar (green win / amber warn / grey neutral) so risky changes jump out · kind icon (feat=+ / fix=− / perf=↑ / docs=≡ / test=✓, distinct colors) · title · #PR (right) · area chip (colored by kind) · author · reviewer initial discs · date. Dropped the mock's non-clickable ⋮ menu + This Week dropdown (read as broken in a video). Generic (kindColors/kindGlyphs/columns are props); showHeader + washColor + transparent-surface support so it composes under the beat chrome. Light single split-tree (like contributor-table). Render one-liner in .scratch/share.md.", "question": "Commit-feed read right? (signal bars / kind icons / reviewer discs / area chips). Two things I'd flag: the FIX glyph is a dash (−) which reads a bit like 'removed' — want a wrench instead? And reviewer discs are rounded-square chips like the table avatars (true circles need a forced-square cell). If good, I compose the notable-commits beat (feed-left + the maintainer rail: Merged PRs / Review Coverage / Open Issues / Contributors)." }
+}

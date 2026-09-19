@@ -1,0 +1,29 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-01"
+  },
+  "agent": {
+    "note": "**STRESS 01/10 — 01-editorial-default** (gate-29 stress set for `@m0saic/wireframe/base/v2`).\n\nA real page shape — masthead over a hero column flanked by two stacked cells (6 cells), pure default labels (number + W × H).\n\nWatch: uniform 2px pen on every tile, interior borders double up cleanly, dims exact, number sized per tile height.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {
+        "M0String": "4[1,0,0,3(2[1,1],1,2[1,1])]"
+      }
+    }
+  ]
+}

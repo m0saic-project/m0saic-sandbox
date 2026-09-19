@@ -1,0 +1,30 @@
+{
+ "kind": "mosaicx_document",
+ "version": 1,
+ "m0": "F",
+ "assets": {},
+ "size": {
+  "width": 544,
+  "height": 544
+ },
+ "fps": 30,
+ "durationMs": 3200,
+ "sources": [
+  {
+   "type": "template_invocation",
+   "templateId": "@m0saic/brand/logo/v3",
+   "props": {
+    "animation": "logo_loop",
+    "rankSet": "radial",
+    "loopSec": 1.2
+   }
+  }
+ ],
+ "suggestedOutput": {
+  "dir": ".",
+  "basename": "stress-03"
+ },
+ "agent": {
+  "note": "**STRESS 03/10 — 03-m33-radial-fast** (gate-28 stress set for `@m0saic/brand/logo/v3`).\n\nRadial + fast 1.2s loop. Watch: center-out pulse, ~2.6 cycles in 3.2s, no boundary flash."
+ }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/heatmap/v2",
+      "props": {}
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/alpine/heatmap/v2`** (gate 5; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase defaults (GitHub-style contributions board). v1 deprecated → rides base·dep.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated | confirm |\n| Gate | — | **base** |\n| Preview assets | re-mint after approval | review |\n| Cover / Tutorial | neither | needed? (diagonal cascade starts near-blank → cover likely) |\n\n**Pre-audit findings, already fixed:** (1) LABEL RAILS DETACHED from the aspect-kept grid — row labels sat ~750px left of their rows at 1920×480, col labels ~240px above at 720×1280 (letterbox pads were inside the label+grid block; now outside, so labels TRAVEL WITH the centered grid — this is also a LOOK-SHIFT at the default canvas: labels now hug the cells instead of pinning to the card edge). (2) Legend swatches spread up to 46% width (px-weight strip dominated by the remainder band) — rebuilt as equal bands + gap-as-inset, ≤1px guaranteed. (3) Row labels got breathing room before the cells.\n\nNEW: `debugLayout` contract — ALL 56 cells equal-size (the lattice promise, now verified) + legend swatches, 2%+1px. 46/46 unit, e2e 2/2, battery green ×14 canvases ×5 configs.\n\n**Stress:** the 10-variant set mints after your default-look verdict, per protocol.",
+    "question": "Ship `@m0saic/alpine/heatmap/v2` in the v1 base? Judge the label look-shift (labels now hug the centered grid). Cover/tutorial needed?",
+    "response": {
+      "body": "looks good — ship in v1 base. Cover added; no tutorial needed. Stress ×10 pass.",
+      "from": "human",
+      "at": "2026-08-22T04:01:16.000Z",
+      "via": "chat — transcribed by agent"
+    },
+    "comments": [
+      {
+        "from": "agent",
+        "text": "COVER ADDED per your note: static default board (light, reduceMotion) as `coverBoard` child + welcome band \"HEATMAP - a rows × columns intensity board / Supply rows[] (label, values) and colLabels[]...\". 48/48 unit. Template hot-reloads from dist — reopen/reload to see it on first-open."
+      },
+      {
+        "from": "agent",
+        "text": "STRESS SET minted (`stress/stress-01..10.mosaicx`, twins frozen, stills in `stress/renders/`). My pass found NO new hard bugs — the gate fixes held everywhere: 14×30 max lattice equal + caps enforced, rails attached at both extreme aspects, 9-bucket legend fits at 480w, hostile data (negatives/1M outlier/ragged/CSV-string rows) all sane, min==max scale renders uniform empty (no div-zero). Judgment items: stress-01 col labels touch at 30 cols (max density); stress-07 zero-values show no value text (matches GitHub-calendar semantics?); stress-10 flat-at-zero-range = all EMPTY bucket (vs all full — defensible either way)."
+      }
+    ]
+  }
+}

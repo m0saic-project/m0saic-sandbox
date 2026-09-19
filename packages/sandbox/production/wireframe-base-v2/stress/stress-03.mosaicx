@@ -1,0 +1,29 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 — 03-overlays-zero-runs** (gate-29 stress set for `@m0saic/wireframe/base/v2`).\n\nTwo zero-run donations each carrying a half-height overlay (the paint-order e2e case).\n\nWatch: labels of tiles UNDER an overlay are suppressed where a glyph row is covered; borders show through (transparent bodies).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {
+        "M0String": "3(0{2[-,1]},0{2[1,-]},1)"
+      }
+    }
+  ]
+}

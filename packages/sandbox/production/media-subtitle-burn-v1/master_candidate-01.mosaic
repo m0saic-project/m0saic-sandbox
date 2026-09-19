@@ -1,0 +1,130 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {
+    "reel-subs": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-subtitle-burn-v1/fixtures/reel-subs.mp4",
+      "mediaType": "video"
+    }
+  },
+  "m0": "1{1}",
+  "sources": [
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "reel-subs",
+      "placement": {
+        "fit": "cover"
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Hello from the reel."
+          },
+          "style": {
+            "fontSize": 49,
+            "fontColor": "#ffffff",
+            "borderColor": "#000000",
+            "borderWidth": 0.003
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.05,
+              "y": 0.05
+            }
+          },
+          "overlay": {
+            "enable": "between(t,0.500,2.500)"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "This is a deliberately very long subtitle line that\nkeeps going and going to probe whether the burn path\nfits text to the frame width or silently clips it"
+          },
+          "style": {
+            "fontSize": 49,
+            "fontColor": "#ffffff",
+            "borderColor": "#000000",
+            "borderWidth": 0.003
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.05,
+              "y": 0.05
+            }
+          },
+          "overlay": {
+            "enable": "between(t,3.000,5.000)"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Two lines here:\nthe second one sits below."
+          },
+          "style": {
+            "fontSize": 49,
+            "fontColor": "#ffffff",
+            "borderColor": "#000000",
+            "borderWidth": 0.003
+          },
+          "placement": {
+            "hAlign": "center",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.05,
+              "y": 0.05
+            }
+          },
+          "overlay": {
+            "enable": "between(t,6.000,8.000)"
+          }
+        }
+      ],
+      "visual": {
+        "backgroundColor": "none"
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "format": {
+    "kind": "video",
+    "container": "mp4"
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 9000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

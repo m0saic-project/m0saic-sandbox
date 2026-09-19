@@ -1,0 +1,3878 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "multi",
+  "steps": [
+    {
+      "name": "layer-0",
+      "label": "Layer 0 of 2",
+      "durationMs": 1000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {},
+        "m0": "100(1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1){3[-,1,1]}",
+        "sources": [
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 L19 0 L19 1080 L0 1080 Z M2 2 L2 1078 L17 1078 L17 2 Z M10.97 534.39L10.97 548.38L9.19 548.38L9.19 536.59L5.63 537.90L5.63 536.29L10.70 534.39L10.97 534.39Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              }
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 19,
+                "height": 1080
+              },
+              "matte": 0.8768190511002882
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 h1 v1 h-1 Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              },
+              "matte": 0.8679084932158273
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 L20 0 L20 1080 L0 1080 Z M2 2 L2 1078 L18 1078 L18 2 Z M15.22 547.57L15.22 549.14L5.26 549.14L5.26 547.75L10.52 541.91Q11.69 540.58 12.13 539.75Q12.58 538.93 12.58 538.04L12.58 538.04Q12.58 536.85 11.86 536.09Q11.14 535.33 9.94 535.33L9.94 535.33Q8.50 535.33 7.70 536.14Q6.90 536.96 6.90 538.42L6.90 538.42L4.97 538.42Q4.97 536.33 6.32 535.03Q7.67 533.74 9.94 533.74L9.94 533.74Q12.06 533.74 13.29 534.85Q14.52 535.96 14.52 537.81L14.52 537.81Q14.52 540.05 11.66 543.15L11.66 543.15L7.59 547.57L15.22 547.57Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 1080
+              }
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "size": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fps": 30,
+        "durationMs": 1000,
+        "format": {
+          "kind": "image",
+          "container": "png",
+          "pixelFormat": "rgba"
+        },
+        "backgroundColor": "#ffffff@1.0",
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    },
+    {
+      "name": "layer-1",
+      "label": "Layer 1 of 2",
+      "durationMs": 1000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {},
+        "m0": "100(1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1){3[1,1,1]}",
+        "sources": [
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0"
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.55"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 L12 0 L12 2 L0 2 Z M0 358 L12 358 L12 360 L0 360 Z M24 0 L36 0 L36 2 L24 2 Z M24 358 L36 358 L36 360 L24 360 Z M48 0 L60 0 L60 2 L48 2 Z M48 358 L60 358 L60 360 L48 360 Z M72 0 L84 0 L84 2 L72 2 Z M72 358 L84 358 L84 360 L72 360 Z M96 0 L108 0 L108 2 L96 2 Z M96 358 L108 358 L108 360 L96 360 Z M120 0 L132 0 L132 2 L120 2 Z M120 358 L132 358 L132 360 L120 360 Z M144 0 L156 0 L156 2 L144 2 Z M144 358 L156 358 L156 360 L144 360 Z M168 0 L180 0 L180 2 L168 2 Z M168 358 L180 358 L180 360 L168 360 Z M192 0 L204 0 L204 2 L192 2 Z M192 358 L204 358 L204 360 L192 360 Z M216 0 L228 0 L228 2 L216 2 Z M216 358 L228 358 L228 360 L216 360 Z M240 0 L252 0 L252 2 L240 2 Z M240 358 L252 358 L252 360 L240 360 Z M264 0 L276 0 L276 2 L264 2 Z M264 358 L276 358 L276 360 L264 360 Z M288 0 L300 0 L300 2 L288 2 Z M288 358 L300 358 L300 360 L288 360 Z M312 0 L324 0 L324 2 L312 2 Z M312 358 L324 358 L324 360 L312 360 Z M336 0 L348 0 L348 2 L336 2 Z M336 358 L348 358 L348 360 L336 360 Z M360 0 L372 0 L372 2 L360 2 Z M360 358 L372 358 L372 360 L360 360 Z M384 0 L396 0 L396 2 L384 2 Z M384 358 L396 358 L396 360 L384 360 Z M408 0 L420 0 L420 2 L408 2 Z M408 358 L420 358 L420 360 L408 360 Z M432 0 L444 0 L444 2 L432 2 Z M432 358 L444 358 L444 360 L432 360 Z M456 0 L468 0 L468 2 L456 2 Z M456 358 L468 358 L468 360 L456 360 Z M480 0 L492 0 L492 2 L480 2 Z M480 358 L492 358 L492 360 L480 360 Z M504 0 L516 0 L516 2 L504 2 Z M504 358 L516 358 L516 360 L504 360 Z M528 0 L540 0 L540 2 L528 2 Z M528 358 L540 358 L540 360 L528 360 Z M552 0 L564 0 L564 2 L552 2 Z M552 358 L564 358 L564 360 L552 360 Z M576 0 L588 0 L588 2 L576 2 Z M576 358 L588 358 L588 360 L576 360 Z M600 0 L612 0 L612 2 L600 2 Z M600 358 L612 358 L612 360 L600 360 Z M624 0 L636 0 L636 2 L624 2 Z M624 358 L636 358 L636 360 L624 360 Z M648 0 L660 0 L660 2 L648 2 Z M648 358 L660 358 L660 360 L648 360 Z M672 0 L684 0 L684 2 L672 2 Z M672 358 L684 358 L684 360 L672 360 Z M696 0 L708 0 L708 2 L696 2 Z M696 358 L708 358 L708 360 L696 360 Z M720 0 L732 0 L732 2 L720 2 Z M720 358 L732 358 L732 360 L720 360 Z M744 0 L756 0 L756 2 L744 2 Z M744 358 L756 358 L756 360 L744 360 Z M768 0 L780 0 L780 2 L768 2 Z M768 358 L780 358 L780 360 L768 360 Z M792 0 L804 0 L804 2 L792 2 Z M792 358 L804 358 L804 360 L792 360 Z M816 0 L828 0 L828 2 L816 2 Z M816 358 L828 358 L828 360 L816 360 Z M840 0 L852 0 L852 2 L840 2 Z M840 358 L852 358 L852 360 L840 360 Z M864 0 L876 0 L876 2 L864 2 Z M864 358 L876 358 L876 360 L864 360 Z M888 0 L900 0 L900 2 L888 2 Z M888 358 L900 358 L900 360 L888 360 Z M912 0 L924 0 L924 2 L912 2 Z M912 358 L924 358 L924 360 L912 360 Z M936 0 L948 0 L948 2 L936 2 Z M936 358 L948 358 L948 360 L936 360 Z M960 0 L972 0 L972 2 L960 2 Z M960 358 L972 358 L972 360 L960 360 Z M984 0 L996 0 L996 2 L984 2 Z M984 358 L996 358 L996 360 L984 360 Z M1008 0 L1020 0 L1020 2 L1008 2 Z M1008 358 L1020 358 L1020 360 L1008 360 Z M1032 0 L1044 0 L1044 2 L1032 2 Z M1032 358 L1044 358 L1044 360 L1032 360 Z M1056 0 L1068 0 L1068 2 L1056 2 Z M1056 358 L1068 358 L1068 360 L1056 360 Z M1080 0 L1092 0 L1092 2 L1080 2 Z M1080 358 L1092 358 L1092 360 L1080 360 Z M1104 0 L1116 0 L1116 2 L1104 2 Z M1104 358 L1116 358 L1116 360 L1104 360 Z M1128 0 L1140 0 L1140 2 L1128 2 Z M1128 358 L1140 358 L1140 360 L1128 360 Z M1152 0 L1164 0 L1164 2 L1152 2 Z M1152 358 L1164 358 L1164 360 L1152 360 Z M1176 0 L1188 0 L1188 2 L1176 2 Z M1176 358 L1188 358 L1188 360 L1176 360 Z M1200 0 L1212 0 L1212 2 L1200 2 Z M1200 358 L1212 358 L1212 360 L1200 360 Z M1224 0 L1236 0 L1236 2 L1224 2 Z M1224 358 L1236 358 L1236 360 L1224 360 Z M1248 0 L1260 0 L1260 2 L1248 2 Z M1248 358 L1260 358 L1260 360 L1248 360 Z M1272 0 L1284 0 L1284 2 L1272 2 Z M1272 358 L1284 358 L1284 360 L1272 360 Z M1296 0 L1308 0 L1308 2 L1296 2 Z M1296 358 L1308 358 L1308 360 L1296 360 Z M1320 0 L1332 0 L1332 2 L1320 2 Z M1320 358 L1332 358 L1332 360 L1320 360 Z M1344 0 L1356 0 L1356 2 L1344 2 Z M1344 358 L1356 358 L1356 360 L1344 360 Z M1368 0 L1380 0 L1380 2 L1368 2 Z M1368 358 L1380 358 L1380 360 L1368 360 Z M1392 0 L1404 0 L1404 2 L1392 2 Z M1392 358 L1404 358 L1404 360 L1392 360 Z M1416 0 L1428 0 L1428 2 L1416 2 Z M1416 358 L1428 358 L1428 360 L1416 360 Z M1440 0 L1452 0 L1452 2 L1440 2 Z M1440 358 L1452 358 L1452 360 L1440 360 Z M1464 0 L1476 0 L1476 2 L1464 2 Z M1464 358 L1476 358 L1476 360 L1464 360 Z M1488 0 L1500 0 L1500 2 L1488 2 Z M1488 358 L1500 358 L1500 360 L1488 360 Z M1512 0 L1524 0 L1524 2 L1512 2 Z M1512 358 L1524 358 L1524 360 L1512 360 Z M1536 0 L1548 0 L1548 2 L1536 2 Z M1536 358 L1548 358 L1548 360 L1536 360 Z M1560 0 L1572 0 L1572 2 L1560 2 Z M1560 358 L1572 358 L1572 360 L1560 360 Z M1584 0 L1596 0 L1596 2 L1584 2 Z M1584 358 L1596 358 L1596 360 L1584 360 Z M1608 0 L1620 0 L1620 2 L1608 2 Z M1608 358 L1620 358 L1620 360 L1608 360 Z M1632 0 L1644 0 L1644 2 L1632 2 Z M1632 358 L1644 358 L1644 360 L1632 360 Z M1656 0 L1668 0 L1668 2 L1656 2 Z M1656 358 L1668 358 L1668 360 L1656 360 Z M1680 0 L1692 0 L1692 2 L1680 2 Z M1680 358 L1692 358 L1692 360 L1680 360 Z M1704 0 L1716 0 L1716 2 L1704 2 Z M1704 358 L1716 358 L1716 360 L1704 360 Z M1728 0 L1740 0 L1740 2 L1728 2 Z M1728 358 L1740 358 L1740 360 L1728 360 Z M1752 0 L1764 0 L1764 2 L1752 2 Z M1752 358 L1764 358 L1764 360 L1752 360 Z M1776 0 L1788 0 L1788 2 L1776 2 Z M1776 358 L1788 358 L1788 360 L1776 360 Z M1800 0 L1812 0 L1812 2 L1800 2 Z M1800 358 L1812 358 L1812 360 L1800 360 Z M1824 0 L1836 0 L1836 2 L1824 2 Z M1824 358 L1836 358 L1836 360 L1824 360 Z M1848 0 L1860 0 L1860 2 L1848 2 Z M1848 358 L1860 358 L1860 360 L1848 360 Z M1872 0 L1884 0 L1884 2 L1872 2 Z M1872 358 L1884 358 L1884 360 L1872 360 Z M1896 0 L1908 0 L1908 2 L1896 2 Z M1896 358 L1908 358 L1908 360 L1896 360 Z M0 0 L2 0 L2 12 L0 12 Z M1918 0 L1920 0 L1920 12 L1918 12 Z M0 24 L2 24 L2 36 L0 36 Z M1918 24 L1920 24 L1920 36 L1918 36 Z M0 48 L2 48 L2 60 L0 60 Z M1918 48 L1920 48 L1920 60 L1918 60 Z M0 72 L2 72 L2 84 L0 84 Z M1918 72 L1920 72 L1920 84 L1918 84 Z M0 96 L2 96 L2 108 L0 108 Z M1918 96 L1920 96 L1920 108 L1918 108 Z M0 120 L2 120 L2 132 L0 132 Z M1918 120 L1920 120 L1920 132 L1918 132 Z M0 144 L2 144 L2 156 L0 156 Z M1918 144 L1920 144 L1920 156 L1918 156 Z M0 168 L2 168 L2 180 L0 180 Z M1918 168 L1920 168 L1920 180 L1918 180 Z M0 192 L2 192 L2 204 L0 204 Z M1918 192 L1920 192 L1920 204 L1918 204 Z M0 216 L2 216 L2 228 L0 228 Z M1918 216 L1920 216 L1920 228 L1918 228 Z M0 240 L2 240 L2 252 L0 252 Z M1918 240 L1920 240 L1920 252 L1918 252 Z M0 264 L2 264 L2 276 L0 276 Z M1918 264 L1920 264 L1920 276 L1918 276 Z M0 288 L2 288 L2 300 L0 300 Z M1918 288 L1920 288 L1920 300 L1918 300 Z M0 312 L2 312 L2 324 L0 324 Z M1918 312 L1920 312 L1920 324 L1918 324 Z M0 336 L2 336 L2 348 L0 348 Z M1918 336 L1920 336 L1920 348 L1918 348 Z M877.48 117.41L887.20 117.41L887.53 124.96Q894.42 116.30 905.52 116.30L905.52 116.30Q924.56 116.30 924.72 137.78L924.72 137.78L924.72 177.47L914.45 177.47L914.45 137.72Q914.40 131.23 911.48 128.12Q908.57 125.01 902.41 125.01L902.41 125.01Q897.41 125.01 893.64 127.68Q889.86 130.34 887.75 134.67L887.75 134.67L887.75 177.47L877.48 177.47L877.48 117.41ZM977.51 177.47L977.29 171.53Q971.30 178.58 959.69 178.58L959.69 178.58Q950.09 178.58 945.07 173.00Q940.04 167.42 939.99 156.49L939.99 156.49L939.99 117.41L950.26 117.41L950.26 156.21Q950.26 169.86 961.36 169.86L961.36 169.86Q973.13 169.86 977.01 161.09L977.01 161.09L977.01 117.41L987.28 117.41L987.28 177.47L977.51 177.47ZM1014.04 92.21L1014.04 177.47L1003.77 177.47L1003.77 92.21L1014.04 92.21ZM1041.63 92.21L1041.63 177.47L1031.36 177.47L1031.36 92.21L1041.63 92.21Z M803.08 229.87L803.08 282.66L796.37 282.66L796.37 238.17L782.91 243.11L782.91 237.05L802.04 229.87L803.08 229.87ZM848.22 259.57L848.22 259.57Q846.13 262.06 843.22 263.57Q840.32 265.09 836.85 265.09L836.85 265.09Q832.31 265.09 828.93 262.85Q825.56 260.61 823.72 256.56Q821.88 252.50 821.88 247.59L821.88 247.59Q821.88 242.32 823.88 238.10Q825.89 233.88 829.57 231.64Q833.25 229.40 838.15 229.40L838.15 229.40Q845.95 229.40 850.44 235.23Q854.93 241.06 854.93 251.12L854.93 251.12L854.93 253.07Q854.93 268.41 848.87 275.46Q842.81 282.52 830.58 282.70L830.58 282.70L829.28 282.70L829.28 277.07L830.68 277.07Q838.95 276.92 843.38 272.76Q847.82 268.59 848.22 259.57ZM837.94 259.57L837.94 259.57Q841.29 259.57 844.12 257.51Q846.96 255.45 848.26 252.42L848.26 252.42L848.26 249.75Q848.26 243.19 845.41 239.07Q842.55 234.96 838.19 234.96L838.19 234.96Q833.79 234.96 831.12 238.33Q828.45 241.71 828.45 247.23L828.45 247.23Q828.45 252.60 831.03 256.09Q833.61 259.57 837.94 259.57ZM898.55 277.21L898.55 282.66L864.13 282.66L864.13 277.86L882.32 257.66Q886.36 253.07 887.89 250.20Q889.42 247.34 889.42 244.27L889.42 244.27Q889.42 240.16 886.94 237.52Q884.45 234.89 880.30 234.89L880.30 234.89Q875.32 234.89 872.56 237.72Q869.80 240.55 869.80 245.60L869.80 245.60L863.12 245.60Q863.12 238.35 867.79 233.88Q872.47 229.40 880.30 229.40L880.30 229.40Q887.62 229.40 891.88 233.25Q896.14 237.09 896.14 243.48L896.14 243.48Q896.14 251.23 886.25 261.95L886.25 261.95L872.18 277.21L898.55 277.21ZM938.57 251.59L938.57 260.25Q938.57 271.98 934.56 277.68Q930.56 283.38 922.04 283.38L922.04 283.38Q913.64 283.38 909.59 277.81Q905.55 272.23 905.41 261.16L905.41 261.16L905.41 252.24Q905.41 240.66 909.41 235.03Q913.42 229.40 921.97 229.40L921.97 229.40Q930.45 229.40 934.45 234.83Q938.46 240.26 938.57 251.59L938.57 251.59ZM931.89 262.06L931.89 251.12Q931.89 242.65 929.51 238.77Q927.13 234.89 921.97 234.89L921.97 234.89Q916.85 234.89 914.50 238.75Q912.16 242.61 912.08 250.62L912.08 250.62L912.08 261.30Q912.08 269.81 914.56 273.87Q917.03 277.93 922.04 277.93L922.04 277.93Q926.99 277.93 929.38 274.11Q931.78 270.28 931.89 262.06L931.89 262.06ZM968.55 275.23L964.26 270.79L976.16 258.67L964.33 246.58L968.62 242.14L980.49 254.23L992.37 242.14L996.66 246.58L984.82 258.67L996.73 270.79L992.44 275.23L980.49 263.07L968.55 275.23ZM1032.81 258.59L1032.81 253.15L1037.83 253.15Q1042.55 253.07 1045.26 250.66Q1047.97 248.24 1047.97 244.13L1047.97 244.13Q1047.97 234.89 1038.77 234.89L1038.77 234.89Q1034.44 234.89 1031.86 237.36Q1029.28 239.83 1029.28 243.91L1029.28 243.91L1022.60 243.91Q1022.60 237.67 1027.17 233.54Q1031.73 229.40 1038.77 229.40L1038.77 229.40Q1046.20 229.40 1050.42 233.34Q1054.64 237.27 1054.64 244.27L1054.64 244.27Q1054.64 247.70 1052.42 250.91Q1050.20 254.12 1046.38 255.71L1046.38 255.71Q1050.71 257.08 1053.07 260.25Q1055.44 263.43 1055.44 268.01L1055.44 268.01Q1055.44 275.08 1050.82 279.23Q1046.20 283.38 1038.80 283.38Q1031.41 283.38 1026.77 279.38Q1022.13 275.37 1022.13 268.80L1022.13 268.80L1028.84 268.80Q1028.84 272.95 1031.55 275.44Q1034.26 277.93 1038.80 277.93L1038.80 277.93Q1043.64 277.93 1046.20 275.41Q1048.76 272.88 1048.76 268.16L1048.76 268.16Q1048.76 263.57 1045.95 261.12Q1043.13 258.67 1037.83 258.59L1037.83 258.59L1032.81 258.59ZM1089.60 230.09L1090.80 230.09L1090.80 235.75L1089.57 235.75Q1081.77 235.90 1077.16 240.37Q1072.54 244.85 1071.82 252.96L1071.82 252.96Q1075.97 248.20 1083.15 248.20L1083.15 248.20Q1090.00 248.20 1094.10 253.04Q1098.19 257.87 1098.19 265.52L1098.19 265.52Q1098.19 273.64 1093.77 278.51Q1089.35 283.38 1081.92 283.38L1081.92 283.38Q1074.38 283.38 1069.69 277.59Q1065.00 271.80 1065.00 262.67L1065.00 262.67L1065.00 260.11Q1065.00 245.60 1071.18 237.94Q1077.37 230.27 1089.60 230.09L1089.60 230.09ZM1082.03 253.76L1082.03 253.76Q1078.60 253.76 1075.71 255.82Q1072.83 257.87 1071.71 260.98L1071.71 260.98L1071.71 263.43Q1071.71 269.92 1074.63 273.89Q1077.55 277.86 1081.92 277.86L1081.92 277.86Q1086.43 277.86 1089.01 274.54Q1091.59 271.22 1091.59 265.85L1091.59 265.85Q1091.59 260.43 1088.97 257.10Q1086.36 253.76 1082.03 253.76ZM1139.04 251.59L1139.04 260.25Q1139.04 271.98 1135.03 277.68Q1131.03 283.38 1122.51 283.38L1122.51 283.38Q1114.10 283.38 1110.06 277.81Q1106.02 272.23 1105.88 261.16L1105.88 261.16L1105.88 252.24Q1105.88 240.66 1109.88 235.03Q1113.89 229.40 1122.44 229.40L1122.44 229.40Q1130.92 229.40 1134.92 234.83Q1138.93 240.26 1139.04 251.59L1139.04 251.59ZM1132.36 262.06L1132.36 251.12Q1132.36 242.65 1129.98 238.77Q1127.60 234.89 1122.44 234.89L1122.44 234.89Q1117.31 234.89 1114.97 238.75Q1112.62 242.61 1112.55 250.62L1112.55 250.62L1112.55 261.30Q1112.55 269.81 1115.02 273.87Q1117.50 277.93 1122.51 277.93L1122.51 277.93Q1127.45 277.93 1129.85 274.11Q1132.25 270.28 1132.36 262.06L1132.36 262.06Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 360
+              }
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "overlay": {
+              "alpha": "0.4"
+            },
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 L4 0 L4 2 L0 2 Z M0 358 L4 358 L4 360 L0 360 Z M8 0 L12 0 L12 2 L8 2 Z M8 358 L12 358 L12 360 L8 360 Z M16 0 L20 0 L20 2 L16 2 Z M16 358 L20 358 L20 360 L16 360 Z M24 0 L28 0 L28 2 L24 2 Z M24 358 L28 358 L28 360 L24 360 Z M32 0 L36 0 L36 2 L32 2 Z M32 358 L36 358 L36 360 L32 360 Z M40 0 L44 0 L44 2 L40 2 Z M40 358 L44 358 L44 360 L40 360 Z M48 0 L52 0 L52 2 L48 2 Z M48 358 L52 358 L52 360 L48 360 Z M56 0 L60 0 L60 2 L56 2 Z M56 358 L60 358 L60 360 L56 360 Z M64 0 L68 0 L68 2 L64 2 Z M64 358 L68 358 L68 360 L64 360 Z M72 0 L76 0 L76 2 L72 2 Z M72 358 L76 358 L76 360 L72 360 Z M80 0 L84 0 L84 2 L80 2 Z M80 358 L84 358 L84 360 L80 360 Z M88 0 L92 0 L92 2 L88 2 Z M88 358 L92 358 L92 360 L88 360 Z M96 0 L100 0 L100 2 L96 2 Z M96 358 L100 358 L100 360 L96 360 Z M104 0 L108 0 L108 2 L104 2 Z M104 358 L108 358 L108 360 L104 360 Z M112 0 L116 0 L116 2 L112 2 Z M112 358 L116 358 L116 360 L112 360 Z M120 0 L124 0 L124 2 L120 2 Z M120 358 L124 358 L124 360 L120 360 Z M128 0 L132 0 L132 2 L128 2 Z M128 358 L132 358 L132 360 L128 360 Z M136 0 L140 0 L140 2 L136 2 Z M136 358 L140 358 L140 360 L136 360 Z M144 0 L148 0 L148 2 L144 2 Z M144 358 L148 358 L148 360 L144 360 Z M152 0 L156 0 L156 2 L152 2 Z M152 358 L156 358 L156 360 L152 360 Z M160 0 L164 0 L164 2 L160 2 Z M160 358 L164 358 L164 360 L160 360 Z M168 0 L172 0 L172 2 L168 2 Z M168 358 L172 358 L172 360 L168 360 Z M176 0 L180 0 L180 2 L176 2 Z M176 358 L180 358 L180 360 L176 360 Z M184 0 L188 0 L188 2 L184 2 Z M184 358 L188 358 L188 360 L184 360 Z M192 0 L196 0 L196 2 L192 2 Z M192 358 L196 358 L196 360 L192 360 Z M200 0 L204 0 L204 2 L200 2 Z M200 358 L204 358 L204 360 L200 360 Z M208 0 L212 0 L212 2 L208 2 Z M208 358 L212 358 L212 360 L208 360 Z M216 0 L220 0 L220 2 L216 2 Z M216 358 L220 358 L220 360 L216 360 Z M224 0 L228 0 L228 2 L224 2 Z M224 358 L228 358 L228 360 L224 360 Z M232 0 L236 0 L236 2 L232 2 Z M232 358 L236 358 L236 360 L232 360 Z M240 0 L244 0 L244 2 L240 2 Z M240 358 L244 358 L244 360 L240 360 Z M248 0 L252 0 L252 2 L248 2 Z M248 358 L252 358 L252 360 L248 360 Z M256 0 L260 0 L260 2 L256 2 Z M256 358 L260 358 L260 360 L256 360 Z M264 0 L268 0 L268 2 L264 2 Z M264 358 L268 358 L268 360 L264 360 Z M272 0 L276 0 L276 2 L272 2 Z M272 358 L276 358 L276 360 L272 360 Z M280 0 L284 0 L284 2 L280 2 Z M280 358 L284 358 L284 360 L280 360 Z M288 0 L292 0 L292 2 L288 2 Z M288 358 L292 358 L292 360 L288 360 Z M296 0 L300 0 L300 2 L296 2 Z M296 358 L300 358 L300 360 L296 360 Z M304 0 L308 0 L308 2 L304 2 Z M304 358 L308 358 L308 360 L304 360 Z M312 0 L316 0 L316 2 L312 2 Z M312 358 L316 358 L316 360 L312 360 Z M320 0 L324 0 L324 2 L320 2 Z M320 358 L324 358 L324 360 L320 360 Z M328 0 L332 0 L332 2 L328 2 Z M328 358 L332 358 L332 360 L328 360 Z M336 0 L340 0 L340 2 L336 2 Z M336 358 L340 358 L340 360 L336 360 Z M344 0 L348 0 L348 2 L344 2 Z M344 358 L348 358 L348 360 L344 360 Z M352 0 L356 0 L356 2 L352 2 Z M352 358 L356 358 L356 360 L352 360 Z M360 0 L364 0 L364 2 L360 2 Z M360 358 L364 358 L364 360 L360 360 Z M368 0 L372 0 L372 2 L368 2 Z M368 358 L372 358 L372 360 L368 360 Z M376 0 L380 0 L380 2 L376 2 Z M376 358 L380 358 L380 360 L376 360 Z M384 0 L388 0 L388 2 L384 2 Z M384 358 L388 358 L388 360 L384 360 Z M392 0 L396 0 L396 2 L392 2 Z M392 358 L396 358 L396 360 L392 360 Z M400 0 L404 0 L404 2 L400 2 Z M400 358 L404 358 L404 360 L400 360 Z M408 0 L412 0 L412 2 L408 2 Z M408 358 L412 358 L412 360 L408 360 Z M416 0 L420 0 L420 2 L416 2 Z M416 358 L420 358 L420 360 L416 360 Z M424 0 L428 0 L428 2 L424 2 Z M424 358 L428 358 L428 360 L424 360 Z M432 0 L436 0 L436 2 L432 2 Z M432 358 L436 358 L436 360 L432 360 Z M440 0 L444 0 L444 2 L440 2 Z M440 358 L444 358 L444 360 L440 360 Z M448 0 L452 0 L452 2 L448 2 Z M448 358 L452 358 L452 360 L448 360 Z M456 0 L460 0 L460 2 L456 2 Z M456 358 L460 358 L460 360 L456 360 Z M464 0 L468 0 L468 2 L464 2 Z M464 358 L468 358 L468 360 L464 360 Z M472 0 L476 0 L476 2 L472 2 Z M472 358 L476 358 L476 360 L472 360 Z M480 0 L484 0 L484 2 L480 2 Z M480 358 L484 358 L484 360 L480 360 Z M488 0 L492 0 L492 2 L488 2 Z M488 358 L492 358 L492 360 L488 360 Z M496 0 L500 0 L500 2 L496 2 Z M496 358 L500 358 L500 360 L496 360 Z M504 0 L508 0 L508 2 L504 2 Z M504 358 L508 358 L508 360 L504 360 Z M512 0 L516 0 L516 2 L512 2 Z M512 358 L516 358 L516 360 L512 360 Z M520 0 L524 0 L524 2 L520 2 Z M520 358 L524 358 L524 360 L520 360 Z M528 0 L532 0 L532 2 L528 2 Z M528 358 L532 358 L532 360 L528 360 Z M536 0 L540 0 L540 2 L536 2 Z M536 358 L540 358 L540 360 L536 360 Z M544 0 L548 0 L548 2 L544 2 Z M544 358 L548 358 L548 360 L544 360 Z M552 0 L556 0 L556 2 L552 2 Z M552 358 L556 358 L556 360 L552 360 Z M560 0 L564 0 L564 2 L560 2 Z M560 358 L564 358 L564 360 L560 360 Z M568 0 L572 0 L572 2 L568 2 Z M568 358 L572 358 L572 360 L568 360 Z M576 0 L580 0 L580 2 L576 2 Z M576 358 L580 358 L580 360 L576 360 Z M584 0 L588 0 L588 2 L584 2 Z M584 358 L588 358 L588 360 L584 360 Z M592 0 L596 0 L596 2 L592 2 Z M592 358 L596 358 L596 360 L592 360 Z M600 0 L604 0 L604 2 L600 2 Z M600 358 L604 358 L604 360 L600 360 Z M608 0 L612 0 L612 2 L608 2 Z M608 358 L612 358 L612 360 L608 360 Z M616 0 L620 0 L620 2 L616 2 Z M616 358 L620 358 L620 360 L616 360 Z M624 0 L628 0 L628 2 L624 2 Z M624 358 L628 358 L628 360 L624 360 Z M632 0 L636 0 L636 2 L632 2 Z M632 358 L636 358 L636 360 L632 360 Z M640 0 L644 0 L644 2 L640 2 Z M640 358 L644 358 L644 360 L640 360 Z M648 0 L652 0 L652 2 L648 2 Z M648 358 L652 358 L652 360 L648 360 Z M656 0 L660 0 L660 2 L656 2 Z M656 358 L660 358 L660 360 L656 360 Z M664 0 L668 0 L668 2 L664 2 Z M664 358 L668 358 L668 360 L664 360 Z M672 0 L676 0 L676 2 L672 2 Z M672 358 L676 358 L676 360 L672 360 Z M680 0 L684 0 L684 2 L680 2 Z M680 358 L684 358 L684 360 L680 360 Z M688 0 L692 0 L692 2 L688 2 Z M688 358 L692 358 L692 360 L688 360 Z M696 0 L700 0 L700 2 L696 2 Z M696 358 L700 358 L700 360 L696 360 Z M704 0 L708 0 L708 2 L704 2 Z M704 358 L708 358 L708 360 L704 360 Z M712 0 L716 0 L716 2 L712 2 Z M712 358 L716 358 L716 360 L712 360 Z M720 0 L724 0 L724 2 L720 2 Z M720 358 L724 358 L724 360 L720 360 Z M728 0 L732 0 L732 2 L728 2 Z M728 358 L732 358 L732 360 L728 360 Z M736 0 L740 0 L740 2 L736 2 Z M736 358 L740 358 L740 360 L736 360 Z M744 0 L748 0 L748 2 L744 2 Z M744 358 L748 358 L748 360 L744 360 Z M752 0 L756 0 L756 2 L752 2 Z M752 358 L756 358 L756 360 L752 360 Z M760 0 L764 0 L764 2 L760 2 Z M760 358 L764 358 L764 360 L760 360 Z M768 0 L772 0 L772 2 L768 2 Z M768 358 L772 358 L772 360 L768 360 Z M776 0 L780 0 L780 2 L776 2 Z M776 358 L780 358 L780 360 L776 360 Z M784 0 L788 0 L788 2 L784 2 Z M784 358 L788 358 L788 360 L784 360 Z M792 0 L796 0 L796 2 L792 2 Z M792 358 L796 358 L796 360 L792 360 Z M800 0 L804 0 L804 2 L800 2 Z M800 358 L804 358 L804 360 L800 360 Z M808 0 L812 0 L812 2 L808 2 Z M808 358 L812 358 L812 360 L808 360 Z M816 0 L820 0 L820 2 L816 2 Z M816 358 L820 358 L820 360 L816 360 Z M824 0 L828 0 L828 2 L824 2 Z M824 358 L828 358 L828 360 L824 360 Z M832 0 L836 0 L836 2 L832 2 Z M832 358 L836 358 L836 360 L832 360 Z M840 0 L844 0 L844 2 L840 2 Z M840 358 L844 358 L844 360 L840 360 Z M848 0 L852 0 L852 2 L848 2 Z M848 358 L852 358 L852 360 L848 360 Z M856 0 L860 0 L860 2 L856 2 Z M856 358 L860 358 L860 360 L856 360 Z M864 0 L868 0 L868 2 L864 2 Z M864 358 L868 358 L868 360 L864 360 Z M872 0 L876 0 L876 2 L872 2 Z M872 358 L876 358 L876 360 L872 360 Z M880 0 L884 0 L884 2 L880 2 Z M880 358 L884 358 L884 360 L880 360 Z M888 0 L892 0 L892 2 L888 2 Z M888 358 L892 358 L892 360 L888 360 Z M896 0 L900 0 L900 2 L896 2 Z M896 358 L900 358 L900 360 L896 360 Z M904 0 L908 0 L908 2 L904 2 Z M904 358 L908 358 L908 360 L904 360 Z M912 0 L916 0 L916 2 L912 2 Z M912 358 L916 358 L916 360 L912 360 Z M920 0 L924 0 L924 2 L920 2 Z M920 358 L924 358 L924 360 L920 360 Z M928 0 L932 0 L932 2 L928 2 Z M928 358 L932 358 L932 360 L928 360 Z M936 0 L940 0 L940 2 L936 2 Z M936 358 L940 358 L940 360 L936 360 Z M944 0 L948 0 L948 2 L944 2 Z M944 358 L948 358 L948 360 L944 360 Z M952 0 L956 0 L956 2 L952 2 Z M952 358 L956 358 L956 360 L952 360 Z M960 0 L964 0 L964 2 L960 2 Z M960 358 L964 358 L964 360 L960 360 Z M968 0 L972 0 L972 2 L968 2 Z M968 358 L972 358 L972 360 L968 360 Z M976 0 L980 0 L980 2 L976 2 Z M976 358 L980 358 L980 360 L976 360 Z M984 0 L988 0 L988 2 L984 2 Z M984 358 L988 358 L988 360 L984 360 Z M992 0 L996 0 L996 2 L992 2 Z M992 358 L996 358 L996 360 L992 360 Z M1000 0 L1004 0 L1004 2 L1000 2 Z M1000 358 L1004 358 L1004 360 L1000 360 Z M1008 0 L1012 0 L1012 2 L1008 2 Z M1008 358 L1012 358 L1012 360 L1008 360 Z M1016 0 L1020 0 L1020 2 L1016 2 Z M1016 358 L1020 358 L1020 360 L1016 360 Z M1024 0 L1028 0 L1028 2 L1024 2 Z M1024 358 L1028 358 L1028 360 L1024 360 Z M1032 0 L1036 0 L1036 2 L1032 2 Z M1032 358 L1036 358 L1036 360 L1032 360 Z M1040 0 L1044 0 L1044 2 L1040 2 Z M1040 358 L1044 358 L1044 360 L1040 360 Z M1048 0 L1052 0 L1052 2 L1048 2 Z M1048 358 L1052 358 L1052 360 L1048 360 Z M1056 0 L1060 0 L1060 2 L1056 2 Z M1056 358 L1060 358 L1060 360 L1056 360 Z M1064 0 L1068 0 L1068 2 L1064 2 Z M1064 358 L1068 358 L1068 360 L1064 360 Z M1072 0 L1076 0 L1076 2 L1072 2 Z M1072 358 L1076 358 L1076 360 L1072 360 Z M1080 0 L1084 0 L1084 2 L1080 2 Z M1080 358 L1084 358 L1084 360 L1080 360 Z M1088 0 L1092 0 L1092 2 L1088 2 Z M1088 358 L1092 358 L1092 360 L1088 360 Z M1096 0 L1100 0 L1100 2 L1096 2 Z M1096 358 L1100 358 L1100 360 L1096 360 Z M1104 0 L1108 0 L1108 2 L1104 2 Z M1104 358 L1108 358 L1108 360 L1104 360 Z M1112 0 L1116 0 L1116 2 L1112 2 Z M1112 358 L1116 358 L1116 360 L1112 360 Z M1120 0 L1124 0 L1124 2 L1120 2 Z M1120 358 L1124 358 L1124 360 L1120 360 Z M1128 0 L1132 0 L1132 2 L1128 2 Z M1128 358 L1132 358 L1132 360 L1128 360 Z M1136 0 L1140 0 L1140 2 L1136 2 Z M1136 358 L1140 358 L1140 360 L1136 360 Z M1144 0 L1148 0 L1148 2 L1144 2 Z M1144 358 L1148 358 L1148 360 L1144 360 Z M1152 0 L1156 0 L1156 2 L1152 2 Z M1152 358 L1156 358 L1156 360 L1152 360 Z M1160 0 L1164 0 L1164 2 L1160 2 Z M1160 358 L1164 358 L1164 360 L1160 360 Z M1168 0 L1172 0 L1172 2 L1168 2 Z M1168 358 L1172 358 L1172 360 L1168 360 Z M1176 0 L1180 0 L1180 2 L1176 2 Z M1176 358 L1180 358 L1180 360 L1176 360 Z M1184 0 L1188 0 L1188 2 L1184 2 Z M1184 358 L1188 358 L1188 360 L1184 360 Z M1192 0 L1196 0 L1196 2 L1192 2 Z M1192 358 L1196 358 L1196 360 L1192 360 Z M1200 0 L1204 0 L1204 2 L1200 2 Z M1200 358 L1204 358 L1204 360 L1200 360 Z M1208 0 L1212 0 L1212 2 L1208 2 Z M1208 358 L1212 358 L1212 360 L1208 360 Z M1216 0 L1220 0 L1220 2 L1216 2 Z M1216 358 L1220 358 L1220 360 L1216 360 Z M1224 0 L1228 0 L1228 2 L1224 2 Z M1224 358 L1228 358 L1228 360 L1224 360 Z M1232 0 L1236 0 L1236 2 L1232 2 Z M1232 358 L1236 358 L1236 360 L1232 360 Z M1240 0 L1244 0 L1244 2 L1240 2 Z M1240 358 L1244 358 L1244 360 L1240 360 Z M1248 0 L1252 0 L1252 2 L1248 2 Z M1248 358 L1252 358 L1252 360 L1248 360 Z M1256 0 L1260 0 L1260 2 L1256 2 Z M1256 358 L1260 358 L1260 360 L1256 360 Z M1264 0 L1268 0 L1268 2 L1264 2 Z M1264 358 L1268 358 L1268 360 L1264 360 Z M1272 0 L1276 0 L1276 2 L1272 2 Z M1272 358 L1276 358 L1276 360 L1272 360 Z M1280 0 L1284 0 L1284 2 L1280 2 Z M1280 358 L1284 358 L1284 360 L1280 360 Z M1288 0 L1292 0 L1292 2 L1288 2 Z M1288 358 L1292 358 L1292 360 L1288 360 Z M1296 0 L1300 0 L1300 2 L1296 2 Z M1296 358 L1300 358 L1300 360 L1296 360 Z M1304 0 L1308 0 L1308 2 L1304 2 Z M1304 358 L1308 358 L1308 360 L1304 360 Z M1312 0 L1316 0 L1316 2 L1312 2 Z M1312 358 L1316 358 L1316 360 L1312 360 Z M1320 0 L1324 0 L1324 2 L1320 2 Z M1320 358 L1324 358 L1324 360 L1320 360 Z M1328 0 L1332 0 L1332 2 L1328 2 Z M1328 358 L1332 358 L1332 360 L1328 360 Z M1336 0 L1340 0 L1340 2 L1336 2 Z M1336 358 L1340 358 L1340 360 L1336 360 Z M1344 0 L1348 0 L1348 2 L1344 2 Z M1344 358 L1348 358 L1348 360 L1344 360 Z M1352 0 L1356 0 L1356 2 L1352 2 Z M1352 358 L1356 358 L1356 360 L1352 360 Z M1360 0 L1364 0 L1364 2 L1360 2 Z M1360 358 L1364 358 L1364 360 L1360 360 Z M1368 0 L1372 0 L1372 2 L1368 2 Z M1368 358 L1372 358 L1372 360 L1368 360 Z M1376 0 L1380 0 L1380 2 L1376 2 Z M1376 358 L1380 358 L1380 360 L1376 360 Z M1384 0 L1388 0 L1388 2 L1384 2 Z M1384 358 L1388 358 L1388 360 L1384 360 Z M1392 0 L1396 0 L1396 2 L1392 2 Z M1392 358 L1396 358 L1396 360 L1392 360 Z M1400 0 L1404 0 L1404 2 L1400 2 Z M1400 358 L1404 358 L1404 360 L1400 360 Z M1408 0 L1412 0 L1412 2 L1408 2 Z M1408 358 L1412 358 L1412 360 L1408 360 Z M1416 0 L1420 0 L1420 2 L1416 2 Z M1416 358 L1420 358 L1420 360 L1416 360 Z M1424 0 L1428 0 L1428 2 L1424 2 Z M1424 358 L1428 358 L1428 360 L1424 360 Z M1432 0 L1436 0 L1436 2 L1432 2 Z M1432 358 L1436 358 L1436 360 L1432 360 Z M1440 0 L1444 0 L1444 2 L1440 2 Z M1440 358 L1444 358 L1444 360 L1440 360 Z M1448 0 L1452 0 L1452 2 L1448 2 Z M1448 358 L1452 358 L1452 360 L1448 360 Z M1456 0 L1460 0 L1460 2 L1456 2 Z M1456 358 L1460 358 L1460 360 L1456 360 Z M1464 0 L1468 0 L1468 2 L1464 2 Z M1464 358 L1468 358 L1468 360 L1464 360 Z M1472 0 L1476 0 L1476 2 L1472 2 Z M1472 358 L1476 358 L1476 360 L1472 360 Z M1480 0 L1484 0 L1484 2 L1480 2 Z M1480 358 L1484 358 L1484 360 L1480 360 Z M1488 0 L1492 0 L1492 2 L1488 2 Z M1488 358 L1492 358 L1492 360 L1488 360 Z M1496 0 L1500 0 L1500 2 L1496 2 Z M1496 358 L1500 358 L1500 360 L1496 360 Z M1504 0 L1508 0 L1508 2 L1504 2 Z M1504 358 L1508 358 L1508 360 L1504 360 Z M1512 0 L1516 0 L1516 2 L1512 2 Z M1512 358 L1516 358 L1516 360 L1512 360 Z M1520 0 L1524 0 L1524 2 L1520 2 Z M1520 358 L1524 358 L1524 360 L1520 360 Z M1528 0 L1532 0 L1532 2 L1528 2 Z M1528 358 L1532 358 L1532 360 L1528 360 Z M1536 0 L1540 0 L1540 2 L1536 2 Z M1536 358 L1540 358 L1540 360 L1536 360 Z M1544 0 L1548 0 L1548 2 L1544 2 Z M1544 358 L1548 358 L1548 360 L1544 360 Z M1552 0 L1556 0 L1556 2 L1552 2 Z M1552 358 L1556 358 L1556 360 L1552 360 Z M1560 0 L1564 0 L1564 2 L1560 2 Z M1560 358 L1564 358 L1564 360 L1560 360 Z M1568 0 L1572 0 L1572 2 L1568 2 Z M1568 358 L1572 358 L1572 360 L1568 360 Z M1576 0 L1580 0 L1580 2 L1576 2 Z M1576 358 L1580 358 L1580 360 L1576 360 Z M1584 0 L1588 0 L1588 2 L1584 2 Z M1584 358 L1588 358 L1588 360 L1584 360 Z M1592 0 L1596 0 L1596 2 L1592 2 Z M1592 358 L1596 358 L1596 360 L1592 360 Z M1600 0 L1604 0 L1604 2 L1600 2 Z M1600 358 L1604 358 L1604 360 L1600 360 Z M1608 0 L1612 0 L1612 2 L1608 2 Z M1608 358 L1612 358 L1612 360 L1608 360 Z M1616 0 L1620 0 L1620 2 L1616 2 Z M1616 358 L1620 358 L1620 360 L1616 360 Z M1624 0 L1628 0 L1628 2 L1624 2 Z M1624 358 L1628 358 L1628 360 L1624 360 Z M1632 0 L1636 0 L1636 2 L1632 2 Z M1632 358 L1636 358 L1636 360 L1632 360 Z M1640 0 L1644 0 L1644 2 L1640 2 Z M1640 358 L1644 358 L1644 360 L1640 360 Z M1648 0 L1652 0 L1652 2 L1648 2 Z M1648 358 L1652 358 L1652 360 L1648 360 Z M1656 0 L1660 0 L1660 2 L1656 2 Z M1656 358 L1660 358 L1660 360 L1656 360 Z M1664 0 L1668 0 L1668 2 L1664 2 Z M1664 358 L1668 358 L1668 360 L1664 360 Z M1672 0 L1676 0 L1676 2 L1672 2 Z M1672 358 L1676 358 L1676 360 L1672 360 Z M1680 0 L1684 0 L1684 2 L1680 2 Z M1680 358 L1684 358 L1684 360 L1680 360 Z M1688 0 L1692 0 L1692 2 L1688 2 Z M1688 358 L1692 358 L1692 360 L1688 360 Z M1696 0 L1700 0 L1700 2 L1696 2 Z M1696 358 L1700 358 L1700 360 L1696 360 Z M1704 0 L1708 0 L1708 2 L1704 2 Z M1704 358 L1708 358 L1708 360 L1704 360 Z M1712 0 L1716 0 L1716 2 L1712 2 Z M1712 358 L1716 358 L1716 360 L1712 360 Z M1720 0 L1724 0 L1724 2 L1720 2 Z M1720 358 L1724 358 L1724 360 L1720 360 Z M1728 0 L1732 0 L1732 2 L1728 2 Z M1728 358 L1732 358 L1732 360 L1728 360 Z M1736 0 L1740 0 L1740 2 L1736 2 Z M1736 358 L1740 358 L1740 360 L1736 360 Z M1744 0 L1748 0 L1748 2 L1744 2 Z M1744 358 L1748 358 L1748 360 L1744 360 Z M1752 0 L1756 0 L1756 2 L1752 2 Z M1752 358 L1756 358 L1756 360 L1752 360 Z M1760 0 L1764 0 L1764 2 L1760 2 Z M1760 358 L1764 358 L1764 360 L1760 360 Z M1768 0 L1772 0 L1772 2 L1768 2 Z M1768 358 L1772 358 L1772 360 L1768 360 Z M1776 0 L1780 0 L1780 2 L1776 2 Z M1776 358 L1780 358 L1780 360 L1776 360 Z M1784 0 L1788 0 L1788 2 L1784 2 Z M1784 358 L1788 358 L1788 360 L1784 360 Z M1792 0 L1796 0 L1796 2 L1792 2 Z M1792 358 L1796 358 L1796 360 L1792 360 Z M1800 0 L1804 0 L1804 2 L1800 2 Z M1800 358 L1804 358 L1804 360 L1800 360 Z M1808 0 L1812 0 L1812 2 L1808 2 Z M1808 358 L1812 358 L1812 360 L1808 360 Z M1816 0 L1820 0 L1820 2 L1816 2 Z M1816 358 L1820 358 L1820 360 L1816 360 Z M1824 0 L1828 0 L1828 2 L1824 2 Z M1824 358 L1828 358 L1828 360 L1824 360 Z M1832 0 L1836 0 L1836 2 L1832 2 Z M1832 358 L1836 358 L1836 360 L1832 360 Z M1840 0 L1844 0 L1844 2 L1840 2 Z M1840 358 L1844 358 L1844 360 L1840 360 Z M1848 0 L1852 0 L1852 2 L1848 2 Z M1848 358 L1852 358 L1852 360 L1848 360 Z M1856 0 L1860 0 L1860 2 L1856 2 Z M1856 358 L1860 358 L1860 360 L1856 360 Z M1864 0 L1868 0 L1868 2 L1864 2 Z M1864 358 L1868 358 L1868 360 L1864 360 Z M1872 0 L1876 0 L1876 2 L1872 2 Z M1872 358 L1876 358 L1876 360 L1872 360 Z M1880 0 L1884 0 L1884 2 L1880 2 Z M1880 358 L1884 358 L1884 360 L1880 360 Z M1888 0 L1892 0 L1892 2 L1888 2 Z M1888 358 L1892 358 L1892 360 L1888 360 Z M1896 0 L1900 0 L1900 2 L1896 2 Z M1896 358 L1900 358 L1900 360 L1896 360 Z M1904 0 L1908 0 L1908 2 L1904 2 Z M1904 358 L1908 358 L1908 360 L1904 360 Z M1912 0 L1916 0 L1916 2 L1912 2 Z M1912 358 L1916 358 L1916 360 L1912 360 Z M0 0 L2 0 L2 4 L0 4 Z M1918 0 L1920 0 L1920 4 L1918 4 Z M0 8 L2 8 L2 12 L0 12 Z M1918 8 L1920 8 L1920 12 L1918 12 Z M0 16 L2 16 L2 20 L0 20 Z M1918 16 L1920 16 L1920 20 L1918 20 Z M0 24 L2 24 L2 28 L0 28 Z M1918 24 L1920 24 L1920 28 L1918 28 Z M0 32 L2 32 L2 36 L0 36 Z M1918 32 L1920 32 L1920 36 L1918 36 Z M0 40 L2 40 L2 44 L0 44 Z M1918 40 L1920 40 L1920 44 L1918 44 Z M0 48 L2 48 L2 52 L0 52 Z M1918 48 L1920 48 L1920 52 L1918 52 Z M0 56 L2 56 L2 60 L0 60 Z M1918 56 L1920 56 L1920 60 L1918 60 Z M0 64 L2 64 L2 68 L0 68 Z M1918 64 L1920 64 L1920 68 L1918 68 Z M0 72 L2 72 L2 76 L0 76 Z M1918 72 L1920 72 L1920 76 L1918 76 Z M0 80 L2 80 L2 84 L0 84 Z M1918 80 L1920 80 L1920 84 L1918 84 Z M0 88 L2 88 L2 92 L0 92 Z M1918 88 L1920 88 L1920 92 L1918 92 Z M0 96 L2 96 L2 100 L0 100 Z M1918 96 L1920 96 L1920 100 L1918 100 Z M0 104 L2 104 L2 108 L0 108 Z M1918 104 L1920 104 L1920 108 L1918 108 Z M0 112 L2 112 L2 116 L0 116 Z M1918 112 L1920 112 L1920 116 L1918 116 Z M0 120 L2 120 L2 124 L0 124 Z M1918 120 L1920 120 L1920 124 L1918 124 Z M0 128 L2 128 L2 132 L0 132 Z M1918 128 L1920 128 L1920 132 L1918 132 Z M0 136 L2 136 L2 140 L0 140 Z M1918 136 L1920 136 L1920 140 L1918 140 Z M0 144 L2 144 L2 148 L0 148 Z M1918 144 L1920 144 L1920 148 L1918 148 Z M0 152 L2 152 L2 156 L0 156 Z M1918 152 L1920 152 L1920 156 L1918 156 Z M0 160 L2 160 L2 164 L0 164 Z M1918 160 L1920 160 L1920 164 L1918 164 Z M0 168 L2 168 L2 172 L0 172 Z M1918 168 L1920 168 L1920 172 L1918 172 Z M0 176 L2 176 L2 180 L0 180 Z M1918 176 L1920 176 L1920 180 L1918 180 Z M0 184 L2 184 L2 188 L0 188 Z M1918 184 L1920 184 L1920 188 L1918 188 Z M0 192 L2 192 L2 196 L0 196 Z M1918 192 L1920 192 L1920 196 L1918 196 Z M0 200 L2 200 L2 204 L0 204 Z M1918 200 L1920 200 L1920 204 L1918 204 Z M0 208 L2 208 L2 212 L0 212 Z M1918 208 L1920 208 L1920 212 L1918 212 Z M0 216 L2 216 L2 220 L0 220 Z M1918 216 L1920 216 L1920 220 L1918 220 Z M0 224 L2 224 L2 228 L0 228 Z M1918 224 L1920 224 L1920 228 L1918 228 Z M0 232 L2 232 L2 236 L0 236 Z M1918 232 L1920 232 L1920 236 L1918 236 Z M0 240 L2 240 L2 244 L0 244 Z M1918 240 L1920 240 L1920 244 L1918 244 Z M0 248 L2 248 L2 252 L0 252 Z M1918 248 L1920 248 L1920 252 L1918 252 Z M0 256 L2 256 L2 260 L0 260 Z M1918 256 L1920 256 L1920 260 L1918 260 Z M0 264 L2 264 L2 268 L0 268 Z M1918 264 L1920 264 L1920 268 L1918 268 Z M0 272 L2 272 L2 276 L0 276 Z M1918 272 L1920 272 L1920 276 L1918 276 Z M0 280 L2 280 L2 284 L0 284 Z M1918 280 L1920 280 L1920 284 L1918 284 Z M0 288 L2 288 L2 292 L0 292 Z M1918 288 L1920 288 L1920 292 L1918 292 Z M0 296 L2 296 L2 300 L0 300 Z M1918 296 L1920 296 L1920 300 L1918 300 Z M0 304 L2 304 L2 308 L0 308 Z M1918 304 L1920 304 L1920 308 L1918 308 Z M0 312 L2 312 L2 316 L0 316 Z M1918 312 L1920 312 L1920 316 L1918 316 Z M0 320 L2 320 L2 324 L0 324 Z M1918 320 L1920 320 L1920 324 L1918 324 Z M0 328 L2 328 L2 332 L0 332 Z M1918 328 L1920 328 L1920 332 L1918 332 Z M0 336 L2 336 L2 340 L0 340 Z M1918 336 L1920 336 L1920 340 L1918 340 Z M0 344 L2 344 L2 348 L0 348 Z M1918 344 L1920 344 L1920 348 L1918 348 Z M0 352 L2 352 L2 356 L0 356 Z M1918 352 L1920 352 L1920 356 L1918 356 Z M937.74 155.93L974.43 141.39L937.74 127.01L937.74 116.46L985.15 137.45L985.15 145.55L937.74 166.59L937.74 155.93Z M803.08 229.87L803.08 282.66L796.37 282.66L796.37 238.17L782.91 243.11L782.91 237.05L802.04 229.87L803.08 229.87ZM848.22 259.57L848.22 259.57Q846.13 262.06 843.22 263.57Q840.32 265.09 836.85 265.09L836.85 265.09Q832.31 265.09 828.93 262.85Q825.56 260.61 823.72 256.56Q821.88 252.50 821.88 247.59L821.88 247.59Q821.88 242.32 823.88 238.10Q825.89 233.88 829.57 231.64Q833.25 229.40 838.15 229.40L838.15 229.40Q845.95 229.40 850.44 235.23Q854.93 241.06 854.93 251.12L854.93 251.12L854.93 253.07Q854.93 268.41 848.87 275.46Q842.81 282.52 830.58 282.70L830.58 282.70L829.28 282.70L829.28 277.07L830.68 277.07Q838.95 276.92 843.38 272.76Q847.82 268.59 848.22 259.57ZM837.94 259.57L837.94 259.57Q841.29 259.57 844.12 257.51Q846.96 255.45 848.26 252.42L848.26 252.42L848.26 249.75Q848.26 243.19 845.41 239.07Q842.55 234.96 838.19 234.96L838.19 234.96Q833.79 234.96 831.12 238.33Q828.45 241.71 828.45 247.23L828.45 247.23Q828.45 252.60 831.03 256.09Q833.61 259.57 837.94 259.57ZM898.55 277.21L898.55 282.66L864.13 282.66L864.13 277.86L882.32 257.66Q886.36 253.07 887.89 250.20Q889.42 247.34 889.42 244.27L889.42 244.27Q889.42 240.16 886.94 237.52Q884.45 234.89 880.30 234.89L880.30 234.89Q875.32 234.89 872.56 237.72Q869.80 240.55 869.80 245.60L869.80 245.60L863.12 245.60Q863.12 238.35 867.79 233.88Q872.47 229.40 880.30 229.40L880.30 229.40Q887.62 229.40 891.88 233.25Q896.14 237.09 896.14 243.48L896.14 243.48Q896.14 251.23 886.25 261.95L886.25 261.95L872.18 277.21L898.55 277.21ZM938.57 251.59L938.57 260.25Q938.57 271.98 934.56 277.68Q930.56 283.38 922.04 283.38L922.04 283.38Q913.64 283.38 909.59 277.81Q905.55 272.23 905.41 261.16L905.41 261.16L905.41 252.24Q905.41 240.66 909.41 235.03Q913.42 229.40 921.97 229.40L921.97 229.40Q930.45 229.40 934.45 234.83Q938.46 240.26 938.57 251.59L938.57 251.59ZM931.89 262.06L931.89 251.12Q931.89 242.65 929.51 238.77Q927.13 234.89 921.97 234.89L921.97 234.89Q916.85 234.89 914.50 238.75Q912.16 242.61 912.08 250.62L912.08 250.62L912.08 261.30Q912.08 269.81 914.56 273.87Q917.03 277.93 922.04 277.93L922.04 277.93Q926.99 277.93 929.38 274.11Q931.78 270.28 931.89 262.06L931.89 262.06ZM968.55 275.23L964.26 270.79L976.16 258.67L964.33 246.58L968.62 242.14L980.49 254.23L992.37 242.14L996.66 246.58L984.82 258.67L996.73 270.79L992.44 275.23L980.49 263.07L968.55 275.23ZM1032.81 258.59L1032.81 253.15L1037.83 253.15Q1042.55 253.07 1045.26 250.66Q1047.97 248.24 1047.97 244.13L1047.97 244.13Q1047.97 234.89 1038.77 234.89L1038.77 234.89Q1034.44 234.89 1031.86 237.36Q1029.28 239.83 1029.28 243.91L1029.28 243.91L1022.60 243.91Q1022.60 237.67 1027.17 233.54Q1031.73 229.40 1038.77 229.40L1038.77 229.40Q1046.20 229.40 1050.42 233.34Q1054.64 237.27 1054.64 244.27L1054.64 244.27Q1054.64 247.70 1052.42 250.91Q1050.20 254.12 1046.38 255.71L1046.38 255.71Q1050.71 257.08 1053.07 260.25Q1055.44 263.43 1055.44 268.01L1055.44 268.01Q1055.44 275.08 1050.82 279.23Q1046.20 283.38 1038.80 283.38Q1031.41 283.38 1026.77 279.38Q1022.13 275.37 1022.13 268.80L1022.13 268.80L1028.84 268.80Q1028.84 272.95 1031.55 275.44Q1034.26 277.93 1038.80 277.93L1038.80 277.93Q1043.64 277.93 1046.20 275.41Q1048.76 272.88 1048.76 268.16L1048.76 268.16Q1048.76 263.57 1045.95 261.12Q1043.13 258.67 1037.83 258.59L1037.83 258.59L1032.81 258.59ZM1089.60 230.09L1090.80 230.09L1090.80 235.75L1089.57 235.75Q1081.77 235.90 1077.16 240.37Q1072.54 244.85 1071.82 252.96L1071.82 252.96Q1075.97 248.20 1083.15 248.20L1083.15 248.20Q1090.00 248.20 1094.10 253.04Q1098.19 257.87 1098.19 265.52L1098.19 265.52Q1098.19 273.64 1093.77 278.51Q1089.35 283.38 1081.92 283.38L1081.92 283.38Q1074.38 283.38 1069.69 277.59Q1065.00 271.80 1065.00 262.67L1065.00 262.67L1065.00 260.11Q1065.00 245.60 1071.18 237.94Q1077.37 230.27 1089.60 230.09L1089.60 230.09ZM1082.03 253.76L1082.03 253.76Q1078.60 253.76 1075.71 255.82Q1072.83 257.87 1071.71 260.98L1071.71 260.98L1071.71 263.43Q1071.71 269.92 1074.63 273.89Q1077.55 277.86 1081.92 277.86L1081.92 277.86Q1086.43 277.86 1089.01 274.54Q1091.59 271.22 1091.59 265.85L1091.59 265.85Q1091.59 260.43 1088.97 257.10Q1086.36 253.76 1082.03 253.76ZM1139.04 251.59L1139.04 260.25Q1139.04 271.98 1135.03 277.68Q1131.03 283.38 1122.51 283.38L1122.51 283.38Q1114.10 283.38 1110.06 277.81Q1106.02 272.23 1105.88 261.16L1105.88 261.16L1105.88 252.24Q1105.88 240.66 1109.88 235.03Q1113.89 229.40 1122.44 229.40L1122.44 229.40Q1130.92 229.40 1134.92 234.83Q1138.93 240.26 1139.04 251.59L1139.04 251.59ZM1132.36 262.06L1132.36 251.12Q1132.36 242.65 1129.98 238.77Q1127.60 234.89 1122.44 234.89L1122.44 234.89Q1117.31 234.89 1114.97 238.75Q1112.62 242.61 1112.55 250.62L1112.55 250.62L1112.55 261.30Q1112.55 269.81 1115.02 273.87Q1117.50 277.93 1122.51 277.93L1122.51 277.93Q1127.45 277.93 1129.85 274.11Q1132.25 270.28 1132.36 262.06L1132.36 262.06Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 360
+              },
+              "matte": 0.26584850188786496
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "lavfi",
+            "color": "#000000",
+            "mask": {
+              "kind": "inline-mask",
+              "localPath": "M0 0 L1920 0 L1920 360 L0 360 Z M2 2 L2 358 L1918 358 L1918 2 Z M949.73 140.44L949.73 132.06L957.45 132.06Q964.72 131.95 968.88 128.23Q973.04 124.51 973.04 118.18L973.04 118.18Q973.04 103.97 958.89 103.97L958.89 103.97Q952.23 103.97 948.26 107.78Q944.29 111.58 944.29 117.85L944.29 117.85L934.02 117.85Q934.02 108.25 941.04 101.89Q948.07 95.54 958.89 95.54L958.89 95.54Q970.32 95.54 976.82 101.59Q983.31 107.64 983.31 118.41L983.31 118.41Q983.31 123.68 979.90 128.62Q976.49 133.56 970.60 136.00L970.60 136.00Q977.26 138.11 980.90 143.00Q984.54 147.88 984.54 154.93L984.54 154.93Q984.54 165.81 977.43 172.20Q970.32 178.58 958.95 178.58Q947.57 178.58 940.43 172.42Q933.30 166.26 933.30 156.15L933.30 156.15L943.62 156.15Q943.62 162.54 947.79 166.37Q951.95 170.20 958.95 170.20L958.95 170.20Q966.38 170.20 970.32 166.31Q974.27 162.43 974.27 155.15L974.27 155.15Q974.27 148.10 969.94 144.33Q965.61 140.55 957.45 140.44L957.45 140.44L949.73 140.44Z M803.08 229.87L803.08 282.66L796.37 282.66L796.37 238.17L782.91 243.11L782.91 237.05L802.04 229.87L803.08 229.87ZM848.22 259.57L848.22 259.57Q846.13 262.06 843.22 263.57Q840.32 265.09 836.85 265.09L836.85 265.09Q832.31 265.09 828.93 262.85Q825.56 260.61 823.72 256.56Q821.88 252.50 821.88 247.59L821.88 247.59Q821.88 242.32 823.88 238.10Q825.89 233.88 829.57 231.64Q833.25 229.40 838.15 229.40L838.15 229.40Q845.95 229.40 850.44 235.23Q854.93 241.06 854.93 251.12L854.93 251.12L854.93 253.07Q854.93 268.41 848.87 275.46Q842.81 282.52 830.58 282.70L830.58 282.70L829.28 282.70L829.28 277.07L830.68 277.07Q838.95 276.92 843.38 272.76Q847.82 268.59 848.22 259.57ZM837.94 259.57L837.94 259.57Q841.29 259.57 844.12 257.51Q846.96 255.45 848.26 252.42L848.26 252.42L848.26 249.75Q848.26 243.19 845.41 239.07Q842.55 234.96 838.19 234.96L838.19 234.96Q833.79 234.96 831.12 238.33Q828.45 241.71 828.45 247.23L828.45 247.23Q828.45 252.60 831.03 256.09Q833.61 259.57 837.94 259.57ZM898.55 277.21L898.55 282.66L864.13 282.66L864.13 277.86L882.32 257.66Q886.36 253.07 887.89 250.20Q889.42 247.34 889.42 244.27L889.42 244.27Q889.42 240.16 886.94 237.52Q884.45 234.89 880.30 234.89L880.30 234.89Q875.32 234.89 872.56 237.72Q869.80 240.55 869.80 245.60L869.80 245.60L863.12 245.60Q863.12 238.35 867.79 233.88Q872.47 229.40 880.30 229.40L880.30 229.40Q887.62 229.40 891.88 233.25Q896.14 237.09 896.14 243.48L896.14 243.48Q896.14 251.23 886.25 261.95L886.25 261.95L872.18 277.21L898.55 277.21ZM938.57 251.59L938.57 260.25Q938.57 271.98 934.56 277.68Q930.56 283.38 922.04 283.38L922.04 283.38Q913.64 283.38 909.59 277.81Q905.55 272.23 905.41 261.16L905.41 261.16L905.41 252.24Q905.41 240.66 909.41 235.03Q913.42 229.40 921.97 229.40L921.97 229.40Q930.45 229.40 934.45 234.83Q938.46 240.26 938.57 251.59L938.57 251.59ZM931.89 262.06L931.89 251.12Q931.89 242.65 929.51 238.77Q927.13 234.89 921.97 234.89L921.97 234.89Q916.85 234.89 914.50 238.75Q912.16 242.61 912.08 250.62L912.08 250.62L912.08 261.30Q912.08 269.81 914.56 273.87Q917.03 277.93 922.04 277.93L922.04 277.93Q926.99 277.93 929.38 274.11Q931.78 270.28 931.89 262.06L931.89 262.06ZM968.55 275.23L964.26 270.79L976.16 258.67L964.33 246.58L968.62 242.14L980.49 254.23L992.37 242.14L996.66 246.58L984.82 258.67L996.73 270.79L992.44 275.23L980.49 263.07L968.55 275.23ZM1032.81 258.59L1032.81 253.15L1037.83 253.15Q1042.55 253.07 1045.26 250.66Q1047.97 248.24 1047.97 244.13L1047.97 244.13Q1047.97 234.89 1038.77 234.89L1038.77 234.89Q1034.44 234.89 1031.86 237.36Q1029.28 239.83 1029.28 243.91L1029.28 243.91L1022.60 243.91Q1022.60 237.67 1027.17 233.54Q1031.73 229.40 1038.77 229.40L1038.77 229.40Q1046.20 229.40 1050.42 233.34Q1054.64 237.27 1054.64 244.27L1054.64 244.27Q1054.64 247.70 1052.42 250.91Q1050.20 254.12 1046.38 255.71L1046.38 255.71Q1050.71 257.08 1053.07 260.25Q1055.44 263.43 1055.44 268.01L1055.44 268.01Q1055.44 275.08 1050.82 279.23Q1046.20 283.38 1038.80 283.38Q1031.41 283.38 1026.77 279.38Q1022.13 275.37 1022.13 268.80L1022.13 268.80L1028.84 268.80Q1028.84 272.95 1031.55 275.44Q1034.26 277.93 1038.80 277.93L1038.80 277.93Q1043.64 277.93 1046.20 275.41Q1048.76 272.88 1048.76 268.16L1048.76 268.16Q1048.76 263.57 1045.95 261.12Q1043.13 258.67 1037.83 258.59L1037.83 258.59L1032.81 258.59ZM1089.60 230.09L1090.80 230.09L1090.80 235.75L1089.57 235.75Q1081.77 235.90 1077.16 240.37Q1072.54 244.85 1071.82 252.96L1071.82 252.96Q1075.97 248.20 1083.15 248.20L1083.15 248.20Q1090.00 248.20 1094.10 253.04Q1098.19 257.87 1098.19 265.52L1098.19 265.52Q1098.19 273.64 1093.77 278.51Q1089.35 283.38 1081.92 283.38L1081.92 283.38Q1074.38 283.38 1069.69 277.59Q1065.00 271.80 1065.00 262.67L1065.00 262.67L1065.00 260.11Q1065.00 245.60 1071.18 237.94Q1077.37 230.27 1089.60 230.09L1089.60 230.09ZM1082.03 253.76L1082.03 253.76Q1078.60 253.76 1075.71 255.82Q1072.83 257.87 1071.71 260.98L1071.71 260.98L1071.71 263.43Q1071.71 269.92 1074.63 273.89Q1077.55 277.86 1081.92 277.86L1081.92 277.86Q1086.43 277.86 1089.01 274.54Q1091.59 271.22 1091.59 265.85L1091.59 265.85Q1091.59 260.43 1088.97 257.10Q1086.36 253.76 1082.03 253.76ZM1139.04 251.59L1139.04 260.25Q1139.04 271.98 1135.03 277.68Q1131.03 283.38 1122.51 283.38L1122.51 283.38Q1114.10 283.38 1110.06 277.81Q1106.02 272.23 1105.88 261.16L1105.88 261.16L1105.88 252.24Q1105.88 240.66 1109.88 235.03Q1113.89 229.40 1122.44 229.40L1122.44 229.40Q1130.92 229.40 1134.92 234.83Q1138.93 240.26 1139.04 251.59L1139.04 251.59ZM1132.36 262.06L1132.36 251.12Q1132.36 242.65 1129.98 238.77Q1127.60 234.89 1122.44 234.89L1122.44 234.89Q1117.31 234.89 1114.97 238.75Q1112.62 242.61 1112.55 250.62L1112.55 250.62L1112.55 261.30Q1112.55 269.81 1115.02 273.87Q1117.50 277.93 1122.51 277.93L1122.51 277.93Q1127.45 277.93 1129.85 274.11Q1132.25 270.28 1132.36 262.06L1132.36 262.06Z",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 360
+              }
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "size": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fps": 30,
+        "durationMs": 1000,
+        "format": {
+          "kind": "image",
+          "container": "png",
+          "pixelFormat": "rgba"
+        },
+        "backgroundColor": "#ffffff@1.0",
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "editor": {
+    "owner": "user",
+    "provenance": {
+      "kind": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {
+        "M0String": "100(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1){3[-,0,1]}",
+        "passthroughFrames": "show",
+        "nullFrames": "show",
+        "passthroughLabel": ">"
+      },
+      "invocationId": "inv-sources-0",
+      "sourcePath": "sources[0]"
+    }
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 720,
+    "height": 1280
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 \u2014 07-light-portrait** (gate-15 stress set for `@m0saic/charts/donut/v4`).\n\nLIGHT MODE portrait: per-segment pop reveal + count-up + percent + caption. Watch: visual parity with premium (same caps apply), pops land in sweep order.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/donut/v4",
+      "props": {
+        "renderMode": "light",
+        "segmentLabels": "percent",
+        "centerLabel": "Total Commits",
+        "segments": [
+          {
+            "label": "main",
+            "value": 44
+          },
+          {
+            "label": "dev",
+            "value": 28
+          },
+          {
+            "label": "feature",
+            "value": 28
+          }
+        ],
+        "centerValue": "9,412"
+      }
+    }
+  ]
+}

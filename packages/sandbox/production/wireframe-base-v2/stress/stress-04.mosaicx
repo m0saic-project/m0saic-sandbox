@@ -1,0 +1,31 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 720,
+    "height": 1280
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-04"
+  },
+  "agent": {
+    "note": "**STRESS 04/10 — 04-portrait-aspect-white** (gate-29 stress set for `@m0saic/wireframe/base/v2`).\n\nPortrait phone canvas, richest label ladder (number / W × H / ratio) on an opaque white canvas.\n\nWatch: 3-line stacks fit; ratio line reads '60:71 · 0.85' style; canvas fully opaque (no alpha).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {
+        "M0String": "3[1,2(1,1),1]",
+        "labelContent": "aspect",
+        "background": "white"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 5000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-02"
+  },
+  "agent": {
+    "note": "**STRESS 02/10 — 02-dense-100** (gate-30 stress set for `@m0saic/wireframe/animated/v1`).\n\n10×10 = 100 nested cells — the render-cost ceiling of the nested-drawtext path (~21s) and the 233-char header string.\n\nWatch: header prints the WHOLE string at 13px; 100 cells numbered in a wave (43ms stagger); dims `192 × 98` + ratio legible at 11px.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "moot",
+      "text": "Not reviewed — the template was DEPRECATED by ruling at the default verdict (superseded by @m0saic/dsl-tutorial/v1; kept in base as base·dep). Recipe + twin + end frame stay as the agent pre-pass record (agent pass: clean).",
+      "via": "transcribed by agent from the gate-30 chat verdict",
+      "from": "agent:claude",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/animated/v1",
+      "props": {
+        "M0String": "10[10(1,1,1,1,1,1,1,1,1,1),10(1,1,1,1,1,1,1,1,1,1),10(1,1,1,1,1,1,1,1,1,1),10(1,1,1,1,1,1,1,1,1,1),10(1,1,1,1,1,1,1,1,1,1),10(1,1,1,1,1,1,1,1,1,1),10(1,1,1,1,1,1,1,1,1,1),10(1,1,1,1,1,1,1,1,1,1),10(1,1,1,1,1,1,1,1,1,1),10(1,1,1,1,1,1,1,1,1,1)]"
+      }
+    }
+  ]
+}

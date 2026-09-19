@@ -1,0 +1,37 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-transparent-flush** (gate-23 stress set for `@m0saic/media/qr/stamp/v1`).\n\nTransparent mode, marginPct 0 — modules straight onto footage, flush into the br corner, no card. Watch: no card anywhere, stamp touches both edges. PHONE-SCAN (no quiet zone + busy background = the transparent-mode hazard; whatever your phone does here is the honest answer).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "stress set pass 10/10 — \"ship\"",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/qr/stamp/v1",
+      "props": {
+        "mediaPath": "<sandbox>/production/media-highlights-v1/fixtures/reel-10s.mp4",
+        "mode": "transparent",
+        "sizePct": 22,
+        "marginPct": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 \u2014 10-rot-pixelate-max** (gate-19 stress set for `@m0saic/media/blur-regions/v1`).\n\nRotated (display-matrix) input + pixelate at the 128 max block. Watch: region maps in DISPLAY coordinates, giant censor blocks render, no distortion.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/blur-regions/v1",
+      "props": {
+        "sourceId": "<sandbox>/production/media-metadata-stamp-v1/fixtures/rot90.mp4",
+        "mode": "pixelate",
+        "strength": 128,
+        "regions": [
+          {
+            "x": 60,
+            "y": 100,
+            "w": 400,
+            "h": 500
+          }
+        ]
+      }
+    }
+  ]
+}

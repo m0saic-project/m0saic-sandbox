@@ -1,0 +1,2621 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "multi",
+  "steps": [
+    {
+      "name": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved__landscape",
+      "label": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved__landscape",
+      "durationMs": 40,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "sources": [
+          {
+            "type": "mosaic",
+            "ref": "info-pane",
+            "placement": {
+              "fit": "cover",
+              "focusY": 0,
+              "inset": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0.0641025641025641,
+                "left": 0
+              }
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.01440329218106996,
+                "right": 0.003125,
+                "bottom": 0,
+                "left": 0
+              }
+            },
+            "playback": {
+              "clipStartMs": 1176,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.01440329218106996,
+                "right": 0.003125,
+                "bottom": 0,
+                "left": 0.003125
+              }
+            },
+            "playback": {
+              "clipStartMs": 1412,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.01440329218106996,
+                "right": 0.003125,
+                "bottom": 0,
+                "left": 0.003125
+              }
+            },
+            "playback": {
+              "clipStartMs": 1647,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.01440329218106996,
+                "right": 0,
+                "bottom": 0,
+                "left": 0.003125
+              }
+            },
+            "playback": {
+              "clipStartMs": 1882,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.0102880658436214,
+                "right": 0.003125,
+                "bottom": 0,
+                "left": 0
+              }
+            },
+            "playback": {
+              "clipStartMs": 2118,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.0102880658436214,
+                "right": 0.003125,
+                "bottom": 0,
+                "left": 0.003125
+              }
+            },
+            "playback": {
+              "clipStartMs": 2353,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.0102880658436214,
+                "right": 0.003125,
+                "bottom": 0,
+                "left": 0.003125
+              }
+            },
+            "playback": {
+              "clipStartMs": 2588,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.0102880658436214,
+                "right": 0,
+                "bottom": 0,
+                "left": 0.003125
+              }
+            },
+            "playback": {
+              "clipStartMs": 2824,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.0102880658436214,
+                "right": 0.003125,
+                "bottom": 0,
+                "left": 0
+              }
+            },
+            "playback": {
+              "clipStartMs": 3059,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.0102880658436214,
+                "right": 0.003125,
+                "bottom": 0,
+                "left": 0.003125
+              }
+            },
+            "playback": {
+              "clipStartMs": 3294,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.0102880658436214,
+                "right": 0.003125,
+                "bottom": 0,
+                "left": 0.003125
+              }
+            },
+            "playback": {
+              "clipStartMs": 3529,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.0102880658436214,
+                "right": 0,
+                "bottom": 0,
+                "left": 0.003125
+              }
+            },
+            "playback": {
+              "clipStartMs": 3765,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.00992063492063492,
+                "right": 0.003125,
+                "bottom": 0.03373015873015873,
+                "left": 0
+              }
+            },
+            "playback": {
+              "clipStartMs": 235,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.00992063492063492,
+                "right": 0.003125,
+                "bottom": 0.03373015873015873,
+                "left": 0.003125
+              }
+            },
+            "playback": {
+              "clipStartMs": 471,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.00992063492063492,
+                "right": 0.003125,
+                "bottom": 0.03373015873015873,
+                "left": 0.003125
+              }
+            },
+            "playback": {
+              "clipStartMs": 706,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.00992063492063492,
+                "right": 0,
+                "bottom": 0.03373015873015873,
+                "left": 0.003125
+              }
+            },
+            "playback": {
+              "clipStartMs": 941,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:00.235"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.00992063492063492,
+                "right": 0.003125,
+                "bottom": 0.03373015873015873,
+                "left": 0
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:00.471"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.00992063492063492,
+                "right": 0.003125,
+                "bottom": 0.03373015873015873,
+                "left": 0.003125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:00.706"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.00992063492063492,
+                "right": 0.003125,
+                "bottom": 0.03373015873015873,
+                "left": 0.003125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:00.941"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.00992063492063492,
+                "right": 0,
+                "bottom": 0.03373015873015873,
+                "left": 0.003125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:02.118"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.0102880658436214,
+                "right": 0.003125,
+                "bottom": 0,
+                "left": 0
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:02.353"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.0102880658436214,
+                "right": 0.003125,
+                "bottom": 0,
+                "left": 0.003125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:02.588"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.0102880658436214,
+                "right": 0.003125,
+                "bottom": 0,
+                "left": 0.003125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:02.824"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.0102880658436214,
+                "right": 0,
+                "bottom": 0,
+                "left": 0.003125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:03.059"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.0102880658436214,
+                "right": 0.003125,
+                "bottom": 0,
+                "left": 0
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:03.294"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.0102880658436214,
+                "right": 0.003125,
+                "bottom": 0,
+                "left": 0.003125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:03.529"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.0102880658436214,
+                "right": 0.003125,
+                "bottom": 0,
+                "left": 0.003125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:03.765"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.0102880658436214,
+                "right": 0,
+                "bottom": 0,
+                "left": 0.003125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:01.176"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.01440329218106996,
+                "right": 0.003125,
+                "bottom": 0,
+                "left": 0
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:01.412"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.01440329218106996,
+                "right": 0.003125,
+                "bottom": 0,
+                "left": 0.003125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:01.647"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.01440329218106996,
+                "right": 0.003125,
+                "bottom": 0,
+                "left": 0.003125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:01.882"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.01440329218106996,
+                "right": 0,
+                "bottom": 0,
+                "left": 0.003125
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "assets": {
+          "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved": {
+            "kind": "file",
+            "path": "<sandbox>/production/media-screencap-grid-v2/fixtures/quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved.mp4",
+            "mediaType": "video"
+          }
+        },
+        "m0": "120[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4(1,1,1,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4(1,1,1,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4(1,1,1,1)]{30[0,0,-,0,0,0,0,0,0,4(1,1,1,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4(1,1,1,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4(1,1,1,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4(1,1,1,1)]{40[0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,4(1,1,1,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]}}}",
+        "children": {
+          "info-pane": {
+            "kind": "mosaic_document",
+            "version": 1,
+            "assets": {},
+            "m0": "1",
+            "sources": [
+              {
+                "type": "text",
+                "renderMode": {
+                  "kind": "image"
+                },
+                "layers": [
+                  {
+                    "content": {
+                      "kind": "literal",
+                      "text": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved.mp4"
+                    },
+                    "style": {
+                      "fontSize": 24,
+                      "fontColor": "#ffffff",
+                      "borderWidth": 1,
+                      "borderColor": "#ffffff"
+                    },
+                    "visual": {
+                      "backgroundColor": "#0d0d0d"
+                    },
+                    "placement": {
+                      "hAlign": "left",
+                      "vAlign": "top",
+                      "yExpr": "6",
+                      "padding": {
+                        "x": 0.015
+                      }
+                    }
+                  },
+                  {
+                    "content": {
+                      "kind": "literal",
+                      "text": "Duration: 4.00s  |  Size: 144.25 KiB (147,709 bytes)  |  Bitrate: 295 kbit/s  |  Container: QuickTime / MOV\nStream 0 Video: 640x360 yuv420p 8-bit 30.00 fps H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10 (High)\nStream 1 Audio: mono 44.1 kHz 69 kbit/s AAC (Advanced Audio Coding)"
+                    },
+                    "style": {
+                      "fontSize": 13,
+                      "fontColor": "#a0a0a0"
+                    },
+                    "visual": {},
+                    "placement": {
+                      "hAlign": "left",
+                      "vAlign": "top",
+                      "yExpr": "45",
+                      "padding": {
+                        "x": 0.015
+                      }
+                    }
+                  }
+                ],
+                "editor": {
+                  "owner": "template"
+                },
+                "engine": {
+                  "renderStatus": "ok"
+                }
+              }
+            ],
+            "size": {
+              "width": 1920,
+              "height": 1080
+            },
+            "fps": 30,
+            "durationMs": 2000,
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        },
+        "size": {
+          "width": 1920,
+          "height": 1080
+        },
+        "format": {
+          "kind": "image",
+          "container": "png"
+        },
+        "fps": 30,
+        "durationMs": 40,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    },
+    {
+      "name": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved__portrait",
+      "label": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved__portrait",
+      "durationMs": 40,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "sources": [
+          {
+            "type": "mosaic",
+            "ref": "info-pane",
+            "placement": {
+              "fit": "cover",
+              "focusY": 0,
+              "inset": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0.03125,
+                "left": 0
+              }
+            },
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.033482142857142856,
+                "right": 0.002777777777777778,
+                "bottom": 0.006696428571428571,
+                "left": 0
+              }
+            },
+            "playback": {
+              "clipStartMs": 706,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.033482142857142856,
+                "right": 0,
+                "bottom": 0.006696428571428571,
+                "left": 0.002777777777777778
+              }
+            },
+            "playback": {
+              "clipStartMs": 941,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.006696428571428571,
+                "right": 0.002777777777777778,
+                "bottom": 0.029017857142857144,
+                "left": 0
+              }
+            },
+            "playback": {
+              "clipStartMs": 1176,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.006696428571428571,
+                "right": 0,
+                "bottom": 0.029017857142857144,
+                "left": 0.002777777777777778
+              }
+            },
+            "playback": {
+              "clipStartMs": 1412,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.033482142857142856,
+                "right": 0.002777777777777778,
+                "bottom": 0.006696428571428571,
+                "left": 0
+              }
+            },
+            "playback": {
+              "clipStartMs": 2118,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.033482142857142856,
+                "right": 0,
+                "bottom": 0.006696428571428571,
+                "left": 0.002777777777777778
+              }
+            },
+            "playback": {
+              "clipStartMs": 2353,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.006696428571428571,
+                "right": 0.002777777777777778,
+                "bottom": 0.029017857142857144,
+                "left": 0
+              }
+            },
+            "playback": {
+              "clipStartMs": 2588,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.006696428571428571,
+                "right": 0,
+                "bottom": 0.029017857142857144,
+                "left": 0.002777777777777778
+              }
+            },
+            "playback": {
+              "clipStartMs": 2824,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.029017857142857144,
+                "right": 0.002777777777777778,
+                "bottom": 0,
+                "left": 0
+              }
+            },
+            "playback": {
+              "clipStartMs": 3529,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.029017857142857144,
+                "right": 0,
+                "bottom": 0,
+                "left": 0.002777777777777778
+              }
+            },
+            "playback": {
+              "clipStartMs": 3765,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.04791666666666667,
+                "right": 0.002777777777777778,
+                "bottom": 0.04791666666666667,
+                "left": 0
+              }
+            },
+            "playback": {
+              "clipStartMs": 235,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.04791666666666667,
+                "right": 0,
+                "bottom": 0.04791666666666667,
+                "left": 0.002777777777777778
+              }
+            },
+            "playback": {
+              "clipStartMs": 471,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.052083333333333336,
+                "right": 0.002777777777777778,
+                "bottom": 0.04791666666666667,
+                "left": 0
+              }
+            },
+            "playback": {
+              "clipStartMs": 1647,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.052083333333333336,
+                "right": 0,
+                "bottom": 0.04791666666666667,
+                "left": 0.002777777777777778
+              }
+            },
+            "playback": {
+              "clipStartMs": 1882,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.052083333333333336,
+                "right": 0.002777777777777778,
+                "bottom": 0.052083333333333336,
+                "left": 0
+              }
+            },
+            "playback": {
+              "clipStartMs": 3059,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+            "placement": {
+              "fit": "cover",
+              "inset": {
+                "top": 0.052083333333333336,
+                "right": 0,
+                "bottom": 0.052083333333333336,
+                "left": 0.002777777777777778
+              }
+            },
+            "playback": {
+              "clipStartMs": 3294,
+              "clipDurationMs": 33,
+              "loopMode": "freeze"
+            },
+            "audio": {
+              "enabled": false
+            },
+            "editor": {
+              "owner": "template"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:00.235"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.04791666666666667,
+                "right": 0.002777777777777778,
+                "bottom": 0.04791666666666667,
+                "left": 0
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:00.471"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.04791666666666667,
+                "right": 0,
+                "bottom": 0.04791666666666667,
+                "left": 0.002777777777777778
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:01.176"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.006696428571428571,
+                "right": 0.002777777777777778,
+                "bottom": 0.029017857142857144,
+                "left": 0
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:01.412"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.006696428571428571,
+                "right": 0,
+                "bottom": 0.029017857142857144,
+                "left": 0.002777777777777778
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:02.118"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.033482142857142856,
+                "right": 0.002777777777777778,
+                "bottom": 0.006696428571428571,
+                "left": 0
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:02.353"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.033482142857142856,
+                "right": 0,
+                "bottom": 0.006696428571428571,
+                "left": 0.002777777777777778
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:02.588"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.006696428571428571,
+                "right": 0.002777777777777778,
+                "bottom": 0.029017857142857144,
+                "left": 0
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:02.824"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.006696428571428571,
+                "right": 0,
+                "bottom": 0.029017857142857144,
+                "left": 0.002777777777777778
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:03.529"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.029017857142857144,
+                "right": 0.002777777777777778,
+                "bottom": 0,
+                "left": 0
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:03.765"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.029017857142857144,
+                "right": 0,
+                "bottom": 0,
+                "left": 0.002777777777777778
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:00.706"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.033482142857142856,
+                "right": 0.002777777777777778,
+                "bottom": 0.006696428571428571,
+                "left": 0
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:00.941"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.033482142857142856,
+                "right": 0,
+                "bottom": 0.006696428571428571,
+                "left": 0.002777777777777778
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:01.647"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.052083333333333336,
+                "right": 0.002777777777777778,
+                "bottom": 0.04791666666666667,
+                "left": 0
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:01.882"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.052083333333333336,
+                "right": 0,
+                "bottom": 0.04791666666666667,
+                "left": 0.002777777777777778
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:03.059"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.052083333333333336,
+                "right": 0.002777777777777778,
+                "bottom": 0.052083333333333336,
+                "left": 0
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "text",
+            "renderMode": {
+              "kind": "image"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "00:00:03.294"
+                },
+                "style": {
+                  "fontSize": 18,
+                  "fontColor": "#ffffff",
+                  "borderWidth": 0.003,
+                  "borderColor": "black@0.8"
+                },
+                "visual": {
+                  "backgroundColor": "none"
+                },
+                "placement": {
+                  "hAlign": "right",
+                  "vAlign": "bottom",
+                  "padding": {
+                    "x": 0.02,
+                    "y": 0.03
+                  }
+                }
+              }
+            ],
+            "editor": {
+              "owner": "template"
+            },
+            "placement": {
+              "inset": {
+                "top": 0.052083333333333336,
+                "right": 0,
+                "bottom": 0.052083333333333336,
+                "left": 0.002777777777777778
+              }
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "assets": {
+          "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved": {
+            "kind": "file",
+            "path": "<sandbox>/production/media-screencap-grid-v2/fixtures/quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved.mp4",
+            "mediaType": "video"
+          }
+        },
+        "m0": "120[0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1)]{120[0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1)]{120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,0,0,0,0,0,0,0,0,-]}}}",
+        "children": {
+          "info-pane": {
+            "kind": "mosaic_document",
+            "version": 1,
+            "assets": {},
+            "m0": "1",
+            "sources": [
+              {
+                "type": "text",
+                "renderMode": {
+                  "kind": "image"
+                },
+                "layers": [
+                  {
+                    "content": {
+                      "kind": "literal",
+                      "text": "quarterly-all-hands-recording…proved.mp4"
+                    },
+                    "style": {
+                      "fontSize": 42,
+                      "fontColor": "#ffffff",
+                      "borderWidth": 1,
+                      "borderColor": "#ffffff"
+                    },
+                    "visual": {
+                      "backgroundColor": "#0d0d0d"
+                    },
+                    "placement": {
+                      "hAlign": "left",
+                      "vAlign": "top",
+                      "yExpr": "6",
+                      "padding": {
+                        "x": 0.015
+                      }
+                    }
+                  },
+                  {
+                    "content": {
+                      "kind": "literal",
+                      "text": "Duration: 4.00s  |  Size: 144.25 KiB (147,709 bytes)  |  Bitrate: 295 kbit/s  |  Co…\nStream 0 Video: 640x360 yuv420p 8-bit 30.00 fps H.264 / AVC / MPEG-4 AVC / MPEG-4 p…\nStream 1 Audio: mono 44.1 kHz 69 kbit/s AAC (Advanced Audio Coding)"
+                    },
+                    "style": {
+                      "fontSize": 20,
+                      "fontColor": "#a0a0a0"
+                    },
+                    "visual": {},
+                    "placement": {
+                      "hAlign": "left",
+                      "vAlign": "top",
+                      "yExpr": "76",
+                      "padding": {
+                        "x": 0.015
+                      }
+                    }
+                  }
+                ],
+                "editor": {
+                  "owner": "template"
+                },
+                "engine": {
+                  "renderStatus": "ok"
+                }
+              }
+            ],
+            "size": {
+              "width": 1080,
+              "height": 1920
+            },
+            "fps": 30,
+            "durationMs": 2000,
+            "editor": {
+              "owner": "user"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        },
+        "size": {
+          "width": 1080,
+          "height": 1920
+        },
+        "format": {
+          "kind": "image",
+          "container": "png"
+        },
+        "fps": 30,
+        "durationMs": 40,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

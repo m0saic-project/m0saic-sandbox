@@ -1,0 +1,65 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 977,
+    "height": 733
+  },
+  "fps": 30,
+  "durationMs": 3500,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-09"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 \u2014 09-negative-pinned** (gate-16 stress set for `@m0saic/charts/line-chart/v1`).\n\nNEGATIVE VALUES + pinned domain (-50..80) at a coprime canvas. Watch: negative ticks format cleanly, line dips below zero, gridline at 0, no refusal at 977x733.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/line-chart/v1",
+      "props": {
+        "values": [
+          [
+            -38,
+            -12,
+            8,
+            24,
+            -5,
+            41,
+            66,
+            78
+          ]
+        ],
+        "seriesLabels": [
+          "Net delta"
+        ],
+        "labels": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4",
+          "Q5",
+          "Q6",
+          "Q7",
+          "Q8"
+        ],
+        "domain": {
+          "minValue": -50,
+          "maxValue": 80
+        },
+        "titles": {
+          "title": "Net render delta by quarter"
+        }
+      }
+    }
+  ]
+}

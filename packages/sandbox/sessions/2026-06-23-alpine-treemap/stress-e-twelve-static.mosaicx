@@ -1,0 +1,91 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/treemap/v1",
+      "props": {
+        "items": [
+          {
+            "label": "Alpha",
+            "value": 30
+          },
+          {
+            "label": "Bravo",
+            "value": 22
+          },
+          {
+            "label": "Charlie",
+            "value": 16
+          },
+          {
+            "label": "Delta",
+            "value": 12
+          },
+          {
+            "label": "Echo",
+            "value": 9
+          },
+          {
+            "label": "Foxtrot",
+            "value": 7
+          },
+          {
+            "label": "Golf",
+            "value": 6
+          },
+          {
+            "label": "Hotel",
+            "value": 5
+          },
+          {
+            "label": "India",
+            "value": 4
+          },
+          {
+            "label": "Juliet",
+            "value": 3
+          },
+          {
+            "label": "Kilo",
+            "value": 2
+          },
+          {
+            "label": "Lima",
+            "value": 1
+          }
+        ],
+        "title": "CATEGORIES",
+        "subtitle": "12 items (cap) + static",
+        "preset": "light",
+        "valueMode": "percent",
+        "cornerRadius": 0.06,
+        "showValue": true,
+        "anim": {
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": true
+        }
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant E — 12 items (the MAX cap) + reduceMotion (static), horizontal. Tests dense packing, the small-tile label-hide threshold, and the static path.",
+    "question": "Approve or deny. Do 12 tiles pack cleanly with labels hiding on the tiny ones?",
+    "response": {
+      "body": "approved.",
+      "from": "human",
+      "at": "2026-06-23T00:41:56.172Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1080x1080.mp4"
+    }
+  }
+}

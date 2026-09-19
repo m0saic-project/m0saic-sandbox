@@ -1,0 +1,603 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 6000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/hero/ffmpeg-pulse/fin/v1",
+      "props": {
+        "pulse": {
+          "repo": {
+            "name": "FFmpeg",
+            "fullName": "FFmpeg/FFmpeg"
+          },
+          "period": {
+            "weekNumber": 20,
+            "startISO": "2025-05-12",
+            "endISO": "2025-05-18"
+          },
+          "kpis": [
+            {
+              "key": "commits",
+              "label": "Commits",
+              "value": 127,
+              "deltaPct": 18,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "pullRequests",
+              "label": "Pull Requests",
+              "value": 34,
+              "deltaPct": 8.7,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "mergedPrs",
+              "label": "Merged PRs",
+              "value": 28,
+              "deltaPct": 9.1,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "openIssues",
+              "label": "Open Issues",
+              "value": 156,
+              "deltaPct": 4.3,
+              "direction": "down",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "contributors",
+              "label": "Contributors",
+              "value": 19,
+              "deltaPct": 26,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "additions",
+              "label": "Additions",
+              "value": 18463,
+              "deltaPct": 22,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "deletions",
+              "label": "Deletions",
+              "value": 9731,
+              "deltaPct": 8,
+              "direction": "up",
+              "sublabel": "vs last week"
+            },
+            {
+              "key": "stars",
+              "label": "Stars Δ",
+              "value": 87,
+              "display": "+87",
+              "deltaPct": 9,
+              "direction": "up",
+              "sublabel": "vs last week"
+            }
+          ],
+          "activity": {
+            "days": [
+              {
+                "label": "Mon",
+                "commits": 12
+              },
+              {
+                "label": "Tue",
+                "commits": 18
+              },
+              {
+                "label": "Wed",
+                "commits": 21
+              },
+              {
+                "label": "Thu",
+                "commits": 35
+              },
+              {
+                "label": "Fri",
+                "commits": 22
+              },
+              {
+                "label": "Sat",
+                "commits": 11
+              },
+              {
+                "label": "Sun",
+                "commits": 8
+              }
+            ],
+            "peak": {
+              "dayLabel": "Thu",
+              "dateISO": "2025-05-15",
+              "commits": 35
+            },
+            "grid": {
+              "weekLabels": [
+                "W13",
+                "W14",
+                "W15",
+                "W16",
+                "W17",
+                "W18",
+                "W19",
+                "W20"
+              ],
+              "rows": [
+                {
+                  "label": "Mon",
+                  "values": [
+                    10,
+                    14,
+                    8,
+                    16,
+                    11,
+                    13,
+                    9,
+                    12
+                  ]
+                },
+                {
+                  "label": "Tue",
+                  "values": [
+                    16,
+                    20,
+                    15,
+                    22,
+                    18,
+                    19,
+                    14,
+                    18
+                  ]
+                },
+                {
+                  "label": "Wed",
+                  "values": [
+                    19,
+                    24,
+                    17,
+                    26,
+                    20,
+                    23,
+                    16,
+                    21
+                  ]
+                },
+                {
+                  "label": "Thu",
+                  "values": [
+                    28,
+                    33,
+                    25,
+                    38,
+                    30,
+                    34,
+                    24,
+                    35
+                  ]
+                },
+                {
+                  "label": "Fri",
+                  "values": [
+                    18,
+                    22,
+                    16,
+                    25,
+                    19,
+                    24,
+                    17,
+                    22
+                  ]
+                },
+                {
+                  "label": "Sat",
+                  "values": [
+                    8,
+                    12,
+                    6,
+                    14,
+                    9,
+                    13,
+                    7,
+                    11
+                  ]
+                },
+                {
+                  "label": "Sun",
+                  "values": [
+                    5,
+                    8,
+                    4,
+                    10,
+                    6,
+                    9,
+                    5,
+                    8
+                  ]
+                }
+              ]
+            },
+            "rail": [
+              {
+                "key": "totalCommits",
+                "label": "Total Commits",
+                "value": 127,
+                "deltaPct": 18,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "peakDay",
+                "label": "Peak Day",
+                "value": 35,
+                "sublabel": "May 15, 2025"
+              },
+              {
+                "key": "dailyAvg",
+                "label": "Daily Avg",
+                "value": 18,
+                "display": "18.1",
+                "deltaPct": 12,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "activeDays",
+                "label": "Active Days",
+                "value": 7,
+                "display": "7/7",
+                "sublabel": "100% of week"
+              }
+            ]
+          },
+          "contributors": {
+            "rows": [
+              {
+                "rank": 1,
+                "login": "akhirnov",
+                "name": "Anton Khirnov",
+                "commits": 23,
+                "additions": 4512,
+                "deletions": 2103
+              },
+              {
+                "rank": 2,
+                "login": "michaelni",
+                "name": "Michael Niedermayer",
+                "commits": 18,
+                "additions": 3204,
+                "deletions": 1034
+              },
+              {
+                "rank": 3,
+                "login": "jamrial",
+                "name": "James Almer",
+                "commits": 14,
+                "additions": 2193,
+                "deletions": 812
+              },
+              {
+                "rank": 4,
+                "login": "cus",
+                "name": "Marton Balint",
+                "commits": 11,
+                "additions": 1842,
+                "deletions": 1201
+              },
+              {
+                "rank": 5,
+                "login": "lance-lmwang",
+                "name": "Limin Wang",
+                "commits": 9,
+                "additions": 1503,
+                "deletions": 623
+              }
+            ],
+            "rail": [
+              {
+                "key": "totalCommits",
+                "label": "Total Commits",
+                "value": 127,
+                "deltaPct": 18,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "contributors",
+                "label": "Total Contributors",
+                "value": 19,
+                "deltaPct": 26,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "additions",
+                "label": "Additions",
+                "value": 18463,
+                "deltaPct": 22,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "deletions",
+                "label": "Deletions",
+                "value": 9731,
+                "deltaPct": 8,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "stars",
+                "label": "Stars Δ",
+                "value": 87,
+                "display": "+87",
+                "deltaPct": 9,
+                "direction": "up",
+                "sublabel": "vs last week"
+              }
+            ]
+          },
+          "changes": {
+            "totalFiles": 842,
+            "byArea": [
+              {
+                "area": "libavcodec",
+                "files": 286,
+                "color": "#2ea043"
+              },
+              {
+                "area": "libavformat",
+                "files": 185,
+                "color": "#238636"
+              },
+              {
+                "area": "libavfilter",
+                "files": 126,
+                "color": "#3fb950"
+              },
+              {
+                "area": "doc",
+                "files": 84,
+                "color": "#d29922"
+              },
+              {
+                "area": "tests",
+                "files": 67,
+                "color": "#8957e5"
+              },
+              {
+                "area": "tools",
+                "files": 50,
+                "color": "#6e7681"
+              },
+              {
+                "area": "other",
+                "files": 44,
+                "color": "#6e7681"
+              }
+            ],
+            "rail": [
+              {
+                "key": "totalFiles",
+                "label": "Total Files Changed",
+                "value": 842,
+                "deltaPct": 14,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "additions",
+                "label": "Additions",
+                "value": 18463,
+                "deltaPct": 22,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "deletions",
+                "label": "Deletions",
+                "value": 9731,
+                "deltaPct": 8,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "netChanges",
+                "label": "Net Changes",
+                "value": 8732,
+                "display": "+8,732",
+                "deltaPct": 16,
+                "direction": "up",
+                "sublabel": "vs last week"
+              }
+            ]
+          },
+          "notable": {
+            "items": [
+              {
+                "kind": "perf",
+                "area": "avcodec",
+                "title": "avcodec: improve AV1 decode performance",
+                "hash": "a1b2c3d",
+                "author": "Anton Khirnov",
+                "dateISO": "2025-05-15",
+                "pr": 14201,
+                "reviewers": [
+                  "James Almer",
+                  "Michael Niedermayer"
+                ],
+                "signal": "warn"
+              },
+              {
+                "kind": "feat",
+                "area": "avformat",
+                "title": "avformat: add support for new container",
+                "hash": "d4e5f6g",
+                "author": "James Almer",
+                "dateISO": "2025-05-14",
+                "pr": 14198,
+                "reviewers": [
+                  "Anton Khirnov"
+                ],
+                "signal": "neutral"
+              },
+              {
+                "kind": "fix",
+                "area": "avfilter",
+                "title": "avfilter: fix memory leak in overlay filter",
+                "hash": "h7i8j9k",
+                "author": "Marton Balint",
+                "dateISO": "2025-05-13",
+                "pr": 14185,
+                "reviewers": [
+                  "Anton Khirnov",
+                  "Limin Wang"
+                ],
+                "signal": "win"
+              },
+              {
+                "kind": "docs",
+                "area": "doc",
+                "title": "doc: update HLS documentation",
+                "hash": "l0m1n2o",
+                "author": "Limin Wang",
+                "dateISO": "2025-05-12",
+                "pr": 14180,
+                "reviewers": [
+                  "Marton Balint"
+                ],
+                "signal": "neutral"
+              },
+              {
+                "kind": "test",
+                "area": "tests",
+                "title": "tests: add FATE test for edge case",
+                "hash": "p3q4r5s",
+                "author": "Michael Niedermayer",
+                "dateISO": "2025-05-16",
+                "pr": 14205,
+                "reviewers": [
+                  "James Almer"
+                ],
+                "signal": "win"
+              }
+            ],
+            "rail": [
+              {
+                "key": "mergedPrs",
+                "label": "Merged PRs",
+                "value": 31,
+                "deltaPct": 18,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "reviewCoverage",
+                "label": "Review Coverage",
+                "value": 92,
+                "display": "92%",
+                "sublabel": "of merged PRs"
+              },
+              {
+                "key": "openIssues",
+                "label": "Open Issues",
+                "value": 47,
+                "deltaPct": 6,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "contributors",
+                "label": "Contributors",
+                "value": 19,
+                "deltaPct": 26,
+                "direction": "up",
+                "sublabel": "vs last week"
+              }
+            ]
+          },
+          "fin": {
+            "headline": "THANK YOU!",
+            "subhead": "ANOTHER WEEK OF PROGRESS.",
+            "kpiStrip": [
+              {
+                "key": "commits",
+                "label": "Commits",
+                "value": 127,
+                "deltaPct": 18,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "contributors",
+                "label": "Contributors",
+                "value": 19,
+                "deltaPct": 26,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "filesChanged",
+                "label": "Files Changed",
+                "value": 842,
+                "deltaPct": 14,
+                "direction": "up",
+                "sublabel": "vs last week"
+              },
+              {
+                "key": "stars",
+                "label": "Stars Δ",
+                "value": 87,
+                "display": "+87",
+                "deltaPct": 9,
+                "direction": "up",
+                "sublabel": "vs last week"
+              }
+            ],
+            "qr": {
+              "url": "https://www.m0saic.io",
+              "caption": "Make your own — m0saic.io"
+            },
+            "footer": "Built with m0saic"
+          }
+        },
+        "headline": "THANK YOU!",
+        "subhead": "ANOTHER WEEK OF PROGRESS.",
+        "preset": "dark",
+        "anim": {
+          "introFrac": 0.7,
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": "<sandbox>/sessions/2026-06-25-ffmpeg-pulse-fin",
+    "basename": "candidate-003"
+  },
+  "agent": {
+    "note": "QR is now BAKED per feedback. The green qr-carve (FFmpeg logo center + pixelate assemble) is pre-rendered to _shared/assets/qr-fin.mp4 (re-bake: bash .../assets/bake-fin-qr.sh), exposed as chromeAssets.qrFin, and fin references it as a single media source — no live per-module tile generation, so the fin template m0 is far cheaper. Same premium look. m0saic.io attribution bottom-right + 'Built with m0saic' footer. Render one-liners in .scratch/share.md (scan-test mobile).",
+    "question": "Baked QR good? Scan-test on mobile. If good, I lock fin (master+preview+postmortem) — that completes all 8 beats — then Phase 3 (the runner).",
+    "response": {
+      "body": "qr doesnt scan. up the version a few notches so it is safe. this iss a fairly simple qr as is",
+      "from": "human",
+      "at": "2026-06-25T07:55:12.280Z",
+      "src": "<sandbox>/sessions/2026-06-25-ffmpeg-pulse-fin/candidate-003-1080x1080.mp4"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T02:36:25.055Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.10",
+  "meta": {
+    "title": "2026-06-09-post-mortem-visuals · candidate-005 (chat section spec)"
+  },
+  "agent": {
+    "note": "Iter 5 — drilling into the chat section per your direction. Canvas restricted to chat dimensions (768x1080 = 40% of 1920x1080). Sample bubbles via placeRects: agent (left, 73% width), human (right, 73%), system (centered, 50%). Stacked top-to-bottom with constant 20px gap. Bubble height 100px (60px for system separator). Each rect labeled via stableKey M0Label so you can comment on per-bubble decisions: y-spacing, max x-depth, bubble height, agent-vs-human width parity. Width-only fix in this round; per-speaker tint colors are on the labels but the rect fills are uniform — real bubble styling comes after spacing approval. Also fixed the editor label overflow (fitLabelFontSize in FileDetailsModal + PackOverview).",
+    "question": "How does the y-spacing feel? Bubbles too tall / too short / well-spaced? Max x-depth (73%) leaves room for an avatar / sender icon — too narrow? Should system separators be even smaller? Agent and human currently mirror each other in width — keep that symmetry or differentiate?",
+    "context": {
+      "category": {
+        "kind": "known",
+        "value": "spacing-alignment"
+      },
+      "intent": {
+        "action": "refine",
+        "summary": "spec sample chat bubbles for y-spacing + x-depth review"
+      },
+      "relation": {
+        "kind": "refines",
+        "target": "004"
+      },
+      "layoutIntent": "free"
+    },
+    "response": {
+      "body": "agent and human boxes generally look good. can we split them into the areas for avatars as well so I can see the intended spacing? I'd also like to see the system:candidate-002 take up much more width. I think system notes can be a lighter font and take the whole width because they arent from either \"side\"",
+      "from": "human",
+      "at": "2026-06-10T02:42:21.562Z"
+    }
+  },
+  "size": {
+    "width": 768,
+    "height": 1080
+  },
+  "m0": "54[0,-,0,0,0,0,192(0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),-,0,0,0,0,192(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-),-,0,0,0,0,192(0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),-,0,0,384(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),-,0,0,0,0,192(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]",
+  "labels": {
+    "r/gcolc12/fc186": {
+      "text": "human: response",
+      "color": "#c8e6c9"
+    },
+    "r/gcolc18/fc144": {
+      "text": "agent: follow-up",
+      "color": "#7ec5ff"
+    },
+    "r/gcolc22/fc286": {
+      "text": "system: candidate-002",
+      "color": "#9aa0a6"
+    },
+    "r/gcolc28/fc186": {
+      "text": "human: response 2",
+      "color": "#c8e6c9"
+    },
+    "r/gcolc6/fc144": {
+      "text": "agent: opening question",
+      "color": "#7ec5ff"
+    }
+  },
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "rankSets": null,
+  "custom": null
+}

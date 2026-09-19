@@ -1,0 +1,59 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/leaderboard/v1",
+      "props": {
+        "items": [
+          {
+            "name": "Alexandra Constantinopoulos",
+            "value": 2840,
+            "valueLabel": "2.84k PRs"
+          },
+          {
+            "name": "Bartholomew Featherstonehaugh",
+            "value": 2615,
+            "valueLabel": "2.62k PRs"
+          },
+          {
+            "name": "Wei Zhang",
+            "value": 2390,
+            "valueLabel": "2.39k PRs",
+            "color": "#8B5CF6"
+          }
+        ],
+        "title": "ENGINEERING LEADERBOARD — H2",
+        "subtitle": "Long names, custom Display, per-item color",
+        "preset": "light",
+        "podiumTint": true,
+        "showValue": true,
+        "anim": {
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant E — very long names + custom Display labels + a per-item color override on row 3 (purple badge instead of brown).",
+    "question": "Approve or deny this config.",
+    "response": {
+      "body": "Approved.",
+      "from": "human",
+      "at": "2026-06-22T20:39:05.079Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

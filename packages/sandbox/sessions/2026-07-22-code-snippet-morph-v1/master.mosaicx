@@ -1,0 +1,66 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 3750,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/code/snippet-morph/v1",
+      "props": {
+        "states": [
+          "type Template = {\n  id: string;\n  render(): Promise<Artifact>;\n};",
+          "type Template = {\n  id: string;\n  render(): Promise<Artifact>;\n};\n\nconst ecosystem = new Map<string, Template>();",
+          "type Template = {\n  id: string;\n  render(): Promise<Artifact>;\n};\n\nconst ecosystem = new Map<string, Template>();\n\nexport function publish(template: Template) {\n  ecosystem.set(template.id, template);\n  return {\n    template,\n    availableToEveryone: true,\n  };\n}"
+        ],
+        "language": "ts",
+        "typography": {
+          "fontSize": 18,
+          "lineHeight": 1.5,
+          "tabWidth": 2
+        },
+        "timing": {
+          "morphMs": 750,
+          "holdMs": 1250,
+          "leadMs": 0,
+          "trailMs": 0
+        },
+        "theme": {
+          "preset": "merge-conflict"
+        },
+        "chrome": {
+          "show": true,
+          "title": "ecosystem.ts",
+          "trafficLights": true,
+          "lineNumbers": true,
+          "codeAlign": "left"
+        },
+        "animation": {
+          "reduceMotion": false,
+          "addEntrance": "rise"
+        },
+        "debugLayout": false
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "B6 MASTER CANDIDATE — final quality gate for @m0saic/code/snippet-morph/v1. Three meaningful ecosystem.ts states exercise the real line-aware motion path: the type arrives, the registry appears, then publish() turns the snippet into a public ecosystem. This is the registered template invocation, not a hand-authored render. The landscape and square B5 candidates were explicitly approved; this final gate re-covers landscape, square, and vertical from one canonical recipe before I promote master.*, generate preview assets, and write the postmortem.",
+    "question": "Sign off on all three master renders (landscape 1280x720, square 1080x1080, and vertical 720x1280)? Check that the code remains readable, the card feels balanced, and line moves/additions stay coherent. Reply approved if all three are ready to ship, or tell me what to change.",
+    "response": {
+      "body": "approved.",
+      "from": "human",
+      "at": "2026-07-23T02:48:48.758Z",
+      "src": "<sandbox>/sessions/2026-07-22-code-snippet-morph-v1/./master_candidate-01-1280x720.mp4"
+    }
+  }
+}

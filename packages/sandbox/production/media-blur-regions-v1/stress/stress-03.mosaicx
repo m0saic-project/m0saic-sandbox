@@ -1,0 +1,56 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 800,
+    "height": 600
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-03"
+  },
+  "agent": {
+    "note": "**STRESS 03/10 \u2014 03-image-redact-strip** (gate-19 stress set for `@m0saic/media/blur-regions/v1`).\n\nDocument-redaction pattern on an IMAGE: a thin full-width name strip + a square, PNG output. Watch: single-frame render, strip fully covered edge to edge.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/blur-regions/v1",
+      "props": {
+        "sourceId": "<sandbox>/production/media-blur-regions-v1/fixtures/photo.png",
+        "mode": "pixelate",
+        "strength": 24,
+        "regions": {
+          "canvas": {
+            "w": 800,
+            "h": 600
+          },
+          "regions": [
+            {
+              "x": 0,
+              "y": 40,
+              "w": 800,
+              "h": 70
+            },
+            {
+              "x": 520,
+              "y": 300,
+              "w": 220,
+              "h": 220
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

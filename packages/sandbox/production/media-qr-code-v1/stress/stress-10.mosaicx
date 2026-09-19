@@ -1,0 +1,44 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2200,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-svg-hatch-spawn** (gate-22 stress set for `@m0saic/media/qr/code/v1`).\n\nThe advanced.svg escape hatch (Spawn heritage): caller geometry — a 3×3 block grid — spawning with the QR engine's stagger. No QR generation at all. Watch: 9 blocks assemble and hold.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "stress set pass (02 noted as engine limitation, 09 accepted+documented)",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/qr/code/v1",
+      "props": {
+        "outputFormat": "mp4",
+        "advanced": {
+          "svg": "<svg viewBox=\"0 0 272 272\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"80\" height=\"80\"/><rect x=\"96\" y=\"0\" width=\"80\" height=\"80\"/><rect x=\"192\" y=\"0\" width=\"80\" height=\"80\"/><rect x=\"0\" y=\"96\" width=\"80\" height=\"80\"/><rect x=\"96\" y=\"96\" width=\"80\" height=\"80\"/><rect x=\"192\" y=\"96\" width=\"80\" height=\"80\"/><rect x=\"0\" y=\"192\" width=\"80\" height=\"80\"/><rect x=\"96\" y=\"192\" width=\"80\" height=\"80\"/><rect x=\"192\" y=\"192\" width=\"80\" height=\"80\"/></svg>",
+          "driftPercent": 0
+        },
+        "animation": {
+          "spawnDurMs": 900,
+          "tileFadeMs": 200,
+          "holdDurMs": 700,
+          "fadeOutDurMs": 0
+        }
+      }
+    }
+  ]
+}

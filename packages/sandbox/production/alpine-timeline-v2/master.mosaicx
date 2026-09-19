@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/timeline/v2",
+      "props": {}
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/alpine/timeline/v2` — TAKE 2** (fork of candidate-01 after the default-look redirect).\n\nApplied both halves of the ruling:\n1. **Defaults: 4 events, shorter copy** (Kickoff / Beta launch / Series A / 10k customers) — renders with ZERO truncation at the default canvas.\n2. **FIT-FIRST text strategy** (all canvases, all inputs): word-wrap titles/descriptions into ≤2 lines → if the base font cannot hold it, ONE font step-down (×0.85, floor 9) → only then ellipsize the tail. Dates stay one line. Line caps keep tall stacks readable (no vertical monstrosity). Script-aware throughout. Verified: the 7-event long-copy config now shows EVERY word across 2-line wraps — no ellipsis at all.\n\nBattery 84/84 re-run on the wrapped code, probe 14/14, 37/37 unit.",
+    "question": "Default look now? Cover OK? Tutorial needed? primitive:true confirmed? Then stress.",
+    "response": {
+      "verdict": "ship",
+      "text": "take-2 approved → stress x10 approved → \"ship\" (tutorial explicitly NOT needed)",
+      "via": "chat — transcribed by agent",
+      "note": "SHIPPED base ☑. Cover implicit-OK; tutorial explicitly not needed; primitive:true stands."
+    }
+  }
+}

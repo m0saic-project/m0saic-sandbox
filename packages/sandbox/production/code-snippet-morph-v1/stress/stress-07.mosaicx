@@ -1,0 +1,40 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-js-tabs** (gate-32 stress set for `@m0saic/code/snippet-morph/v1`).\n\nJavaScript lexer, TAB-indented source expanded at 4 spaces, a call line added.\n\nWatch: tabs expand to 4 columns; `f();` rises in at the bottom.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/code/snippet-morph/v1",
+      "props": {
+        "states": [
+          "function f() {\n\tif (x) {\n\t\treturn 1;\n\t}\n}",
+          "function f() {\n\tif (x) {\n\t\treturn 1;\n\t}\n}\n\nf();"
+        ],
+        "language": "js",
+        "typography": {
+          "tabWidth": 4
+        },
+        "timing": {
+          "holdMs": 600,
+          "morphMs": 400
+        }
+      }
+    }
+  ]
+}

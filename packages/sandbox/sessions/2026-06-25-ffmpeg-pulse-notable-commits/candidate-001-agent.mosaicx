@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 9000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/notable-commits/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-25-ffmpeg-pulse-notable-commits", "basename": "candidate-001" },
+  "agent": { "note": "BEAT — notable-commits: shared pulse-chrome wrapping the nested @m0saic/alpine/commit-feed (showHeader:false, transparent washColor=theme.card) feed-left + a 2x2 maintainer rail (Merged PRs / Review Coverage 92% / Open Issues / Contributors — your picks, stars dropped). Each feed row: signal bar (green win / amber warn / neutral) · kind icon · title · #PR · area chip · author · reviewer discs · date. Mock notable.items gained pr/reviewers/area/signal; rail swapped to the maintainer KPIs. Eyebrow BEAT 6 provisional (runner orders). Render one-liners in .scratch/share.md.", "question": "Notable-commits beat good across desktop/square/mobile? (feed legibility, signal bars, rail). If yes, master candidate." }
+}

@@ -1,0 +1,111 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "multi",
+  "fps": 30,
+  "steps": [
+    {
+      "name": "rot90",
+      "label": "rot90",
+      "durationMs": 1000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {
+          "rot90": {
+            "kind": "file",
+            "path": "<sandbox>/production/media-metadata-stamp-v1/fixtures/rot90.mp4",
+            "mediaType": "video"
+          }
+        },
+        "size": {
+          "width": 1280,
+          "height": 720
+        },
+        "backgroundColor": "#000000",
+        "m0": "1{30[0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,-]}",
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "rot90",
+            "placement": {
+              "fit": "cover"
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:base"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "rot90",
+            "placement": {
+              "fit": "cover",
+              "sourceRect": {
+                "x": 60,
+                "y": 100,
+                "w": 400,
+                "h": 500
+              },
+              "inset": {
+                "top": 0.008928571428571428,
+                "right": 0.010817307692307692,
+                "bottom": 0,
+                "left": 0.030048076923076924
+              }
+            },
+            "audio": {
+              "enabled": false
+            },
+            "effects": {
+              "pixelize": 128
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:region"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "format": {
+          "kind": "video",
+          "container": "mp4"
+        },
+        "fps": 30,
+        "durationMs": 1000,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "durationMs": 1000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-rot-pixelate-max** (gate-19 stress set for `@m0saic/media/blur-regions/v1`).\n\nRotated (display-matrix) input + pixelate at the 128 max block. Watch: region maps in DISPLAY coordinates, giant censor blocks render, no distortion.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  }
+}

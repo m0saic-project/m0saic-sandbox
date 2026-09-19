@@ -1,0 +1,38 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-image-input-sheet** (gate-24 stress set for `@m0saic/media/screencap_grid/v2`).\n\nIMAGE input: a 2×2 sheet of identical stills. NOTE the open ruling from the candidate: chips read `00:00:00.000` on image inputs (timestamps are meaningless on stills) — keep or auto-hide is your call; this variant is the exhibit.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "stress set pass 10/10 — \"ship\"",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/screencap_grid/v2",
+      "props": {
+        "sourceIds": [
+          "<sandbox>/production/media-blur-regions-v1/fixtures/demo-docs/invoice.png"
+        ],
+        "rows": 2,
+        "cols": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 6000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/fin/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-25-ffmpeg-pulse-fin", "basename": "candidate-001" },
+  "agent": { "note": "FINAL BEAT — fin (closing card). Centered THANK YOU! headline + subhead, a KPI strip of the week's signature numbers (nested stat-cards: Commits / Contributors / Files Changed / Stars Δ), and a QR to the full report (nested @m0saic/brand/qr → ffmpeg.org/pulse, transparent) with a caption, over the signature scatter; 'Built with m0saic' footer. Aspect-adaptive: desktop 1×4 strip + QR below; square/mobile 2×2 strip + QR. 6s clip (shorter than the 9s content beats). Render one-liners in .scratch/share.md.", "question": "Fin good across desktop/square/mobile? (headline/QR/strip balance, QR scannable). Note: QR points to ffmpeg.org/pulse per the mock — confirm that target, or should it be m0saic.io (brand)?" }
+}

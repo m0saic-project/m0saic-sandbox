@@ -1,0 +1,601 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121(0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15[0,1,0,0,0,0,0,0,0,0,0,0,0,0,20(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{120[0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,1,0,-,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},5[0,1{55[-,0,0,0,0,1,-,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},0,0,2[1{41[-,0,0,0,0,1,-,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},41[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{27[-,0,0,0,0,1,-,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]},0,0,0,0,0,0,0,0,0,0,0,0,0,1{14[-,0,0,0,0,1,-,0,0,0,1,0,0,-]}]]])],0,0,0,-),0,0,0,0,0,0,-]}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#E5E7EB",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "HEADCOUNT"
+          },
+          "style": {
+            "fontSize": 35,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "By department"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "card-header"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "overlay": {
+        "startAtSec": 0,
+        "alpha": "(min(1,max(0,(t-0)/0.9449999999999998)))*(min(1,max(0,(t-0)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0)/0.9449999999999998))))"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.006422018348623854,
+          "right": 0.0030650669936071458,
+          "bottom": 0.006422018348623854,
+          "left": 0.0030650669936071458
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Dominant"
+          },
+          "style": {
+            "fontSize": 20,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.04728960504422453
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.2834999999999999)/0.9449999999999998)))*(min(1,max(0,(t-0.2834999999999999)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.2834999999999999)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "95%"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.04728960504422453
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.37799999999999995)/0.9449999999999998)))*(min(1,max(0,(t-0.37799999999999995)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.37799999999999995)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#10B981",
+      "overlay": {
+        "startAtSec": 0.28874999999999995,
+        "alpha": "(min(1,max(0,(t-0.28874999999999995)/0.9449999999999998)))*(min(1,max(0,(t-0.28874999999999995)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.28874999999999995)/0.9449999999999998))))"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.01605504587155961,
+          "right": 0.05823627287853586,
+          "bottom": 0.01605504587155961,
+          "left": 0.05823627287853586
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Tiny…"
+          },
+          "style": {
+            "fontSize": 13,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.08319467554076551
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.5722499999999999)/0.9449999999999998)))*(min(1,max(0,(t-0.5722499999999999)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.5722499999999999)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "2%"
+          },
+          "style": {
+            "fontSize": 10,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.08319467554076551
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.66675)/0.9449999999999998)))*(min(1,max(0,(t-0.66675)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.66675)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#F59E0B",
+      "overlay": {
+        "startAtSec": 0.5774999999999999,
+        "alpha": "(min(1,max(0,(t-0.5774999999999999)/0.9449999999999998)))*(min(1,max(0,(t-0.5774999999999999)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.5774999999999999)/0.9449999999999998))))"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.021406727828746145,
+          "right": 0.05823627287853586,
+          "bottom": 0.021406727828746145,
+          "left": 0.05823627287853586
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Tiny…"
+          },
+          "style": {
+            "fontSize": 13,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.08319467554076551
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.8609999999999998)/0.9449999999999998)))*(min(1,max(0,(t-0.8609999999999998)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.8609999999999998)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "2%"
+          },
+          "style": {
+            "fontSize": 10,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.08319467554076551
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.9554999999999998)/0.9449999999999998)))*(min(1,max(0,(t-0.9554999999999998)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.9554999999999998)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#EF4444",
+      "overlay": {
+        "startAtSec": 0.8662499999999999,
+        "alpha": "(min(1,max(0,(t-0.8662499999999999)/0.9449999999999998)))*(min(1,max(0,(t-0.8662499999999999)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-0.8662499999999999)/0.9449999999999998))))"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.03211009174311922,
+          "right": 0.05823627287853586,
+          "bottom": 0.03211009174311922,
+          "left": 0.05823627287853586
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Tiny…"
+          },
+          "style": {
+            "fontSize": 13,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.08319467554076551
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.1497499999999998)/0.9449999999999998)))*(min(1,max(0,(t-1.1497499999999998)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-1.1497499999999998)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "1%"
+          },
+          "style": {
+            "fontSize": 10,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.08319467554076551
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.2442499999999999)/0.9449999999999998)))*(min(1,max(0,(t-1.2442499999999999)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-1.2442499999999999)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#8B5CF6",
+      "overlay": {
+        "startAtSec": 1.1549999999999998,
+        "alpha": "(min(1,max(0,(t-1.1549999999999998)/0.9449999999999998)))*(min(1,max(0,(t-1.1549999999999998)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-1.1549999999999998)/0.9449999999999998))))"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.06422018348623944,
+          "right": 0.05823627287853586,
+          "bottom": 0.06422018348623944,
+          "left": 0.05823627287853586
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.06
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Sliv…"
+          },
+          "style": {
+            "fontSize": 13,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.08319467554076551
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-name"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.4384999999999997)/0.9449999999999998)))*(min(1,max(0,(t-1.4384999999999997)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-1.4384999999999997)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "1%"
+          },
+          "style": {
+            "fontSize": 10,
+            "fontColor": "#FFFFFF"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.08319467554076551
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "tile-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.5329999999999997)/0.9449999999999998)))*(min(1,max(0,(t-1.5329999999999997)/0.9449999999999998)))*(3-2*(min(1,max(0,(t-1.5329999999999997)/0.9449999999999998))))"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "#F8FAFC",
+  "fps": 30,
+  "durationMs": 3000,
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-skew-slivers** (gate-12 stress set for `@m0saic/alpine/treemap/v2` — the LAST alpine gate).\n\nSKEW: 95% dominant + 4 slivers. Watch: slivers render (no refusal — the gate fix), labels DROP on unfittable tiles, no crash.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

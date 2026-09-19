@@ -1,0 +1,325 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,-,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,-,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20(-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,-,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{100[0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20(0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]}}}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.28
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.6299999999999999)))*(min(1,max(0,(t-0)/0.6299999999999999)))*(3-2*(min(1,max(0,(t-0)/0.6299999999999999))))",
+        "window": {
+          "startSec": 0
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.024305555555555556,
+          "right": 0.03819444444444445,
+          "bottom": 0.04513888888888889,
+          "left": 0.03125
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M16.944 11h4.306a.75.75 0 0 1 0 1.5h-4.306a5.001 5.001 0 0 1-9.888 0H2.75a.75.75 0 0 1 0-1.5h4.306a5.001 5.001 0 0 1 9.888 0Zm-1.444.75a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.6299999999999999)))*(min(1,max(0,(t-0)/0.6299999999999999)))*(3-2*(min(1,max(0,(t-0)/0.6299999999999999))))",
+        "window": {
+          "startSec": 0
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.01875,
+          "right": 0.03125,
+          "bottom": 0.04375,
+          "left": 0.03125
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:1*((1-(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))*(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))))+0.5\\:d},%{eif\\:243*((1-(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))*(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))))+0.5\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 240,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "stat-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.6299999999999999)))*(min(1,max(0,(t-0)/0.6299999999999999)))*(3-2*(min(1,max(0,(t-0)/0.6299999999999999))))",
+        "window": {
+          "startSec": 0
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.013257575757575758,
+          "right": 0.00390625,
+          "bottom": 0.013257575757575758,
+          "left": 0.00390625
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#16A34A",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 39 31.2 L 67.1 79.8 L 10.9 79.8 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 78,
+          "height": 111
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.8399999999999999)/0.8399999999999999)))*(min(1,max(0,(t-0.8399999999999999)/0.8399999999999999)))*(3-2*(min(1,max(0,(t-0.8399999999999999)/0.8399999999999999))))",
+        "window": {
+          "startSec": 0.8399999999999999
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.05416666666666667,
+          "right": 0.15104166666666666,
+          "bottom": 0.029166666666666667,
+          "left": 0.046875
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "+12.4%"
+          },
+          "style": {
+            "fontSize": 92,
+            "fontColor": "#16A34A"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "stat-delta"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.8399999999999999)/0.8399999999999999)))*(min(1,max(0,(t-0.8399999999999999)/0.8399999999999999)))*(3-2*(min(1,max(0,(t-0.8399999999999999)/0.8399999999999999))))",
+        "window": {
+          "startSec": 0.8399999999999999
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.05416666666666667,
+          "right": 0.0185546875,
+          "bottom": 0.029166666666666667,
+          "left": 0.0029296875
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "vs last week"
+          },
+          "style": {
+            "fontSize": 67,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "stat-sublabel"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.2599999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.2599999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.2599999999999998)/0.7349999999999999))))",
+        "window": {
+          "startSec": 1.2599999999999998
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.05416666666666667,
+          "right": 0.0087890625,
+          "bottom": 0.029166666666666667,
+          "left": 0.0126953125
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "COMMITS"
+          },
+          "style": {
+            "fontSize": 88,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "stat-label"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.6299999999999999)))*(min(1,max(0,(t-0)/0.6299999999999999)))*(3-2*(min(1,max(0,(t-0)/0.6299999999999999))))",
+        "window": {
+          "startSec": 0
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.024305555555555556,
+          "right": 0.0046875,
+          "bottom": 0.04513888888888889,
+          "left": 0.0046875
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "black@0",
+  "fps": 30,
+  "durationMs": 3000,
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/alpine/stat-card/v1`** (gate 10; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase defaults (Commits 1,243 +12.4%). Single version — no dep riders.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated, primitive:true | confirm |\n| Gate | — | **base** |\n| Preview assets | re-mint after approval | review |\n| Cover / Tutorial | cover BUILT this gate (count-up starts at 0) | eyeball cover; tutorial needed? |\n\n**Pre-audit found + fixed 3:**\n1. **Portrait proportion breakdown**: bands are height-fractions, so tall cards minted a ~195px icon chip towering over its width-capped label, and a 73px delta triangle beside 17px text. Chip now caps at 0.18·min-dim (square, band-centered); arrow sized in two passes to ≤1.25× the delta font. Landscape defaults byte-identical (caps sit above the default values).\n2. **Wide-script caps**: capFont counted flat chars — Cyrillic labels would clip (the gate-9 lesson). Now textEmUnits-based + floor-bound ellipsis on all four texts.\n3. Unused node:path import dropped; cover added (static default card + welcome band).\n\n**PRIMITIVE-SENSE — the real question this gate: the pack now has TWO KPI cards.** `kpi-card/v2` (shipped base ☑, gate 6: label/value/delta PILL + sparkline, alpineCard chrome) vs `stat-card/v1` (icon chip + label / value / triangle delta + sublabel, placeRect-EXACT geometry, geometry-contract, built to NEST in hero dashboard grids — the FFmpeg pulse tiles). My recommendation: KEEP BOTH as base — kpi-card is the standalone showcase card, stat-card is the nestable dashboard tile; the exact-geometry construction + transparent-surface + showHeader-style composability serve a different role. Alternative if you want ONE: stat-card could ride base·int (internal, hero-pack building block). Your call.\n\nALSO SURFACED (infra, not this gate): a template that THROWS (e.g. unknown icon name) renders a BLACK mp4 at exit 1 via the CLI — reported, but the error card pixels are lost when the error doc rides as a resolver child. Filed as a candidate note.\n\nBattery: 84/84 CLI feasible ×2 (pre+post fix; success-grep hardened — \"Render completed with errors\" no longer counts as a pass), probe 14/14 green (geometry-contract stamps), 23/23 unit.",
+    "question": "Default look verdict? Cover OK? Tutorial needed? And the KEEP-BOTH-KPI-CARDS ruling (base | base·int | fold into kpi-card)? Then stress.",
+    "response": {
+      "verdict": "ship",
+      "text": "default commit icon → all 10 stress pass → \"ship it. keep both as base\"",
+      "via": "chat — transcribed by agent",
+      "note": "SHIPPED base ☑. RULING: kpi-card/v2 AND stat-card/v1 BOTH ride base (showcase card vs nestable dashboard tile). Cover/tutorial implicit-OK (kpi-gate convention)."
+    }
+  }
+}

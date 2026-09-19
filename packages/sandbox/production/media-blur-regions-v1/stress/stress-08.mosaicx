@@ -1,0 +1,49 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-08"
+  },
+  "agent": {
+    "note": "**STRESS 08/10 \u2014 08-full-frame** (gate-19 stress set for `@m0saic/media/blur-regions/v1`).\n\nONE region covering the ENTIRE canvas: everything blurred. Watch: exact full-frame blur, no seams, audio intact.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/blur-regions/v1",
+      "props": {
+        "sourceId": "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4",
+        "strength": 36,
+        "regions": {
+          "canvas": {
+            "w": 1280,
+            "h": 720
+          },
+          "regions": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 720
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

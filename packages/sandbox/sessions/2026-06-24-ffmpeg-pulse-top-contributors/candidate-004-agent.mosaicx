@@ -1,0 +1,7 @@
+{
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "assets": {},
+  "size": { "width": 1920, "height": 1080 }, "fps": 30, "durationMs": 9000,
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/hero/ffmpeg-pulse/top-contributors/v1", "props": {} } ],
+  "suggestedOutput": { "dir": "<sandbox>/sessions/2026-06-24-ffmpeg-pulse-top-contributors", "basename": "candidate-004" },
+  "agent": { "note": "candidate-003 fixes. (1) PANEL COLOR FULLY FIXED: the lighter color was only partially showing because the transparent table STILL drew a surface tile (makeColorTile black@0), which composites OPAQUE BLACK over the beat's lighter backdrop -> black gaps/margins. Fix: skip the surface tile entirely when the surface is transparent, so the lighter panel (#222d3e) shows through gaps + margins uniformly. (2) Color also bumped clearly lighter (#1c2433 -> #222d3e). Desktop rail kept at 2x2 (bigger KPI text — you said the layout change was 'fine actually'). Square 2x2-taller, mobile 4x1 tall strip. Standalone table output unchanged (16 tests green). Renders: /tmp/b3d6.mp4, /tmp/b3s6.mp4, /tmp/b3m6.mp4. NOTE: the desktop dev app can show a STALE nested-template render — if a panel still looks dark in Make, fully restart Electron (dist is verified correct).", "question": "Leaderboard panel + KPI cards good across all 3 now? Anything left before I lock Beat 3?" }
+}

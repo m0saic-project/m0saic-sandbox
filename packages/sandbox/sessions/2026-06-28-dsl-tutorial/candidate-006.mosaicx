@@ -1,0 +1,53 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 30000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "8[8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F),8(F,F,F,F,F,F,F,F)]",
+        "speedMultiplier": 1,
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-006"
+  },
+  "agent": {
+    "note": "**M1b.1 — AUTO camera zoom (legibility-driven).** Per your rule, zoom is no longer fixed. The camera now asks *\"can every tile paint its number + dims legibly at the current viewport?\"* — if yes, **no zoom** (fit-to-panel); if not, it zooms the **minimum** needed so the smallest tile is legible, then pans to follow the walk.\n\nThis 2×2 layout → **no zoom** (what you wanted): all four tiles stay full-size and labeled. Zoom only engages as tiles get small:\n\n| layout | tiles | camera |\n|---|---|---|\n| 2×2 / 4×4 | 4–16 | **no zoom** |\n| 6×6 | 36 | zoom 1.37 |\n| 8×8 | 64 | zoom 1.83 |\n| 12×12 | 144 | zoom 2.75 |\n| 20×20 | 400 | zoom 4.0 (cap) |\n\nThe `cameraZoom` prop is now an **override** (omit = auto; `1` = force fit-to-panel; `>1` = force a zoom).",
+    "question": "Confirm the 2×2 reads right with **no zoom** now. To see auto-zoom + follow engage, render a dense layout — e.g. `M0String` = an 8×8 grid (one-liner in chat). Is the legibility threshold about right, or should tiles be allowed smaller / forced bigger before zoom kicks in? If good, I'll start the **inspector panel (M2)**.",
+    "context": {
+      "category": {
+        "kind": "other",
+        "label": "canvas-camera"
+      },
+      "intent": {
+        "action": "propose",
+        "summary": "M1b.1 — legibility-driven auto camera zoom (no zoom when tiles fit, else minimum zoom + follow)"
+      },
+      "relation": {
+        "kind": "refines",
+        "target": "005"
+      }
+    },
+    "response": {
+      "body": "fantastic result. other thing we need to do - the layout didnt finish painting because I only put 30 seconds. we need to scale the animation to output seconds. but we can also control the recommendation. we base it off the number of tiles that need to paint\n\nalso, id like if we could have a thin outline of the Frame - the entire canvas which frames get painted in",
+      "from": "human",
+      "at": "2026-06-28T21:07:39.286Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/./candidate-006-1920x1080.mp4"
+    }
+  }
+}

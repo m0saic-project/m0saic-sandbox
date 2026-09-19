@@ -1,0 +1,7 @@
+{
+  "_comment": "Alpine treemap template sandbox walkthrough (the 9th + final Alpine template). Invokes @m0saic/meta/post-mortem/v1 against this session (1 candidate + 5 stress variants a-e covering all 3 aspects + _humanedits provenance for the label-spacing fix). Render on demand: m0saic make packages/sandbox/sessions/2026-06-23-alpine-treemap/postmortem.mosaicx -o /tmp/treemap-session.mp4 -w 1920 -h 1080. NOT rendered at closeout by design.",
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "fps": 30, "durationMs": 28000,
+  "size": { "width": 1920, "height": 1080 }, "assets": {},
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/meta/post-mortem/v1",
+    "props": { "sessionPath": "packages/sandbox/sessions/2026-06-23-alpine-treemap", "msPerCandidate": 3000, "msTitleCard": 2000, "msEndCard": 2000 } } ]
+}

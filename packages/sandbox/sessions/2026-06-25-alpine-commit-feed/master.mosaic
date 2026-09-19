@@ -1,0 +1,70 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "#000000"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "ERROR: @m0saic/alpine/commit-feed/v1 props"
+          },
+          "style": {
+            "fontSize": 40,
+            "fontColor": "#ffffff"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "top",
+            "xExpr": "w*0.06",
+            "yExpr": "h*0.06"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "commit-feed needs rows[]"
+          },
+          "style": {
+            "fontSize": 22,
+            "fontColor": "#ffffff"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "top",
+            "xExpr": "w*0.06",
+            "yExpr": "h*0.180000"
+          }
+        }
+      ],
+      "engine": {
+        "renderStatus": "error",
+        "renderError": {
+          "message": "@m0saic/alpine/commit-feed/v1 props: commit-feed needs rows[]"
+        }
+      },
+      "editor": {
+        "owner": "user"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": "<sandbox>/sessions/2026-06-25-alpine-commit-feed",
+    "basename": "master"
+  },
+  "agent": {
+    "note": "MASTER — @m0saic/alpine/commit-feed/v1 (Alpine primitive). Scannable commit list: signal status bar (win/warn/neutral) · kind icon · title · #PR · area chip · author · reviewer discs · date. Built with placeRects (packed, light); width-capped fonts; narrow drops PR+reviewers; showHeader + washColor + transparent compose. 10 unit tests. Preview + postmortem set."
+  }
+}

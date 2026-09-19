@@ -1,0 +1,31 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1600,
+    "height": 1000
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-mismatch** (gate-35 stress set for `@m0saic/forensic/watermark/verify/v1`).\n\nMISMATCH: clean decode of deadbeef while asserting 0badcafe — the leak-attribution answer, amber.\n\nWatch: amber band; EXPECTED 0badcafe / RECOVERED deadbeef.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/forensic/watermark/verify/v1",
+      "props": {
+        "videoPath": "<repo>/packages/cli/examples/media/forensic/watermarked_deadbeef.mp4",
+        "sidecarPath": "<repo>/packages/cli/examples/media/forensic/watermarked_deadbeef.watermark.json",
+        "expectedHex": "0badcafe"
+      }
+    }
+  ]
+}

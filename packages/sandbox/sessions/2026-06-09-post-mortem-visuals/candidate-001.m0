@@ -1,0 +1,13 @@
+# m0
+# version: 1
+# created: 2026-06-09T22:54:38.056Z
+# size: 1920x1080
+# app: m0saic-desktop
+# appVersion: 0.1.0+2026.06.09
+# title: 2026-06-09-post-mortem-visuals · candidate-001
+# m0agent:note: Iter 1 of post-mortem visuals: narrowed chat to 1:4 split, switched snapshot default to debug-contrast preset (frame numbers, dims, AR overlaid on hero).
+# m0agent:question: Does this give the hero enough room? Is the debug-contrast metadata helpful or too noisy? Want me to keep iterating, or pivot to chat-bubble styling next?
+# m0agent:context: {"category":{"kind":"known","value":"hierarchy-emphasis"},"intent":{"action":"refine","summary":"more room for geometry + show frame info on hero"},"layoutIntent":"comparison","evaluation":{"grade":"good","source":"automated","at":"2026-06-09T22:54:38.054Z","breakdown":{"total":0.5000000000000042,"feasible":true,"components":{"precision":{"quality":1,"weight":0,"raw":0.0026041666666666665},"spread":{"quality":8.391457565647415e-15,"weight":0.5,"raw":1152},"gutter":{"quality":1,"weight":0,"raw":0},"frames":{"quality":1,"weight":0.39,"raw":2},"structure":{"quality":1,"weight":0.1,"raw":3},"compactness":{"quality":1,"weight":0.01,"raw":12}}}}}
+# m0agent:response: {"body":"I would like a bit more width for the Chat area. Lets get this feel right before moving on.","from":"human","at":"2026-06-09T23:03:55.232Z"}
+
+5(1,0,0,0,1)

@@ -1,0 +1,31 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 25,
+  "durationMs": 12160,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-09"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 — 09-fine-128x72** (gate-34 stress set for `@m0saic/forensic/watermark/video/v1`).\n\nFine 128×72 grid: 72 cells/bit, 10 px cells — the robustness ceiling (margin ~77), 246 KB sidecar.\n\nWatch: PASS; cells small enough to be invisible even hard.\n\nVerify the render: `m0saic make @m0saic/forensic/watermark/verify/v1 -o stress-09-check.png --props '{\"videoPath\":\"<render>.mp4\"}'` (the sidecar lands beside the render).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/forensic/watermark/video/v1",
+      "props": {
+        "videoPath": "<repo>/packages/cli/examples/media/hero/hero_4.mp4",
+        "gridCols": 128,
+        "gridRows": 72
+      }
+    }
+  ]
+}

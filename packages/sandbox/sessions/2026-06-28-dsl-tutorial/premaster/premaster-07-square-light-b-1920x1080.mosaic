@@ -1,0 +1,2728 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {
+    "node_root": {
+      "kind": "node-output",
+      "nodeId": "root"
+    }
+  },
+  "m0": "100[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5(0,0,0,119(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),1),0,0,0,0,0,1]",
+  "sources": [
+    {
+      "type": "mosaic",
+      "ref": "chrome-header",
+      "placement": {
+        "fit": "contain"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "mosaic",
+      "ref": "canvas",
+      "placement": {
+        "fit": "contain"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "mosaic",
+      "ref": "inspector",
+      "placement": {
+        "fit": "contain"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "mosaic",
+      "ref": "chrome-status",
+      "placement": {
+        "fit": "contain"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "#EEF1F7",
+  "durationMs": 12000,
+  "children": {
+    "canvas": {
+      "kind": "mosaic_document",
+      "version": 1,
+      "assets": {
+        "lavfi_6bf6c7004d": {
+          "kind": "lavfi",
+          "graph": "color=#D9DEEA:s=912x915:r=30:d=12.000,format=rgba,scale=912:915"
+        },
+        "lavfi_348795fe5d": {
+          "kind": "lavfi",
+          "graph": "color=#FFFFFF:s=912x915:r=30:d=12.000,format=rgba,scale=912:915"
+        },
+        "text_root_1_2": {
+          "kind": "workspace-file",
+          "path": "root_1_root_1_2_text.png",
+          "mediaType": "image"
+        },
+        "lavfi_dcf287a8c9": {
+          "kind": "lavfi",
+          "graph": "color=black@0:s=912x915:r=30:d=12.000,drawbox=x=0:y=0:w=304:h=305:color=#FFFFFF:t=fill:replace=1:enable=lt(t\\,1.910),drawbox=x=0:y=305:w=304:h=305:color=#FFFFFF:t=fill:replace=1:enable=lt(t\\,2.657),drawbox=x=0:y=610:w=304:h=305:color=#FFFFFF:t=fill:replace=1:enable=lt(t\\,3.405),drawbox=x=304:y=0:w=304:h=305:color=#FFFFFF:t=fill:replace=1:enable=lt(t\\,5.273),drawbox=x=304:y=305:w=304:h=305:color=#FFFFFF:t=fill:replace=1:enable=lt(t\\,6.021),drawbox=x=304:y=610:w=304:h=305:color=#FFFFFF:t=fill:replace=1:enable=lt(t\\,6.768),drawbox=x=608:y=0:w=304:h=305:color=#FFFFFF:t=fill:replace=1:enable=lt(t\\,8.637),drawbox=x=608:y=305:w=304:h=305:color=#FFFFFF:t=fill:replace=1:enable=lt(t\\,9.384),drawbox=x=608:y=610:w=304:h=305:color=#FFFFFF:t=fill:replace=1:enable=lt(t\\,10.131),fps=30,trim=duration=12.000,setpts=PTS-STARTPTS,format=rgba"
+        },
+        "lavfi_9494a9551d": {
+          "kind": "lavfi",
+          "graph": "color=black@0:s=912x915:r=30:d=12.000,drawbox=x=303:y=0:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=26:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=52:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=78:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=104:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=130:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=156:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=182:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=208:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=234:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=260:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=286:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=312:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=338:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=364:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=390:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=416:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=442:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=468:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=494:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=520:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=546:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=572:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=598:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=624:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=650:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=676:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=702:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=728:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=754:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=780:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=806:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=832:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=858:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=884:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=910:w=3:h=5:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=607:y=0:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=26:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=52:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=78:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=104:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=130:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=156:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=182:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=208:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=234:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=260:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=286:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=312:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=338:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=364:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=390:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=416:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=442:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=468:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=494:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=520:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=546:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=572:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=598:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=624:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=650:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=676:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=702:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=728:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=754:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=780:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=806:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=832:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=858:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=884:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=910:w=3:h=5:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=0:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=26:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=52:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=78:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=104:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=130:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=156:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=182:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=208:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=234:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=260:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=286:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=0:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=26:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=52:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=78:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=104:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=130:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=156:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=182:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=208:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=234:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=260:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=286:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=0:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=26:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=52:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=78:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=104:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=130:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=156:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=182:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=208:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=234:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=260:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=286:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=312:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=338:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=364:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=390:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=416:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=442:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=468:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=494:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=520:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=546:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=572:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=598:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=624:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=650:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=676:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=702:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=728:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=754:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=780:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=806:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=832:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=858:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=884:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=910:w=3:h=5:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=0:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=26:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=52:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=78:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=104:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=130:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=156:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=182:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=208:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=234:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=260:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=286:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=312:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=338:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=364:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=390:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=416:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=442:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=468:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=494:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=520:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=546:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=572:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=598:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=624:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=650:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=676:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=702:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=728:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=754:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=780:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=806:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=832:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=858:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=884:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=910:w=3:h=5:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=0:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=26:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=52:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=78:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=104:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=130:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=156:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=182:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=208:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=234:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=260:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=286:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=0:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=26:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=52:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=78:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=104:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=130:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=156:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=182:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=208:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=234:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=260:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=286:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=304:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=330:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=356:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=382:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=408:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=434:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=460:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=486:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=512:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=538:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=564:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=590:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=304:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=330:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=356:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=382:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=408:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=434:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=460:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=486:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=512:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=538:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=564:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=590:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=0:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=26:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=52:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=78:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=104:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=130:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=156:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=182:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=208:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=234:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=260:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=286:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=312:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=338:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=364:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=390:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=416:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=442:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=468:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=494:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=520:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=546:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=572:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=598:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=624:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=650:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=676:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=702:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=728:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=754:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=780:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=806:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=832:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=858:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=884:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=910:w=3:h=5:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=0:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=26:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=52:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=78:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=104:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=130:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=156:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=182:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=208:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=234:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=260:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=286:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=312:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=338:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=364:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=390:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=416:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=442:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=468:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=494:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=520:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=546:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=572:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=598:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=624:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=650:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=676:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=702:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=728:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=754:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=780:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=806:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=832:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=858:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=884:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=910:w=3:h=5:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=304:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=330:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=356:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=382:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=408:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=434:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=460:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=486:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=512:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=538:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=564:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=590:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=304:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=330:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=356:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=382:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=408:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=434:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=460:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=486:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=512:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=538:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=564:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=590:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=608:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=634:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=660:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=686:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=712:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=738:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=764:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=790:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=816:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=842:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=868:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=894:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=608:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=634:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=660:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=686:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=712:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=738:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=764:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=790:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=816:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=842:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=868:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=894:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=0:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=26:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=52:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=78:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=104:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=130:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=156:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=182:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=208:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=234:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=260:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=286:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=312:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=338:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=364:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=390:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=416:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=442:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=468:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=494:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=520:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=546:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=572:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=598:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=624:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=650:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=676:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=702:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=728:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=754:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=780:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=806:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=832:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=858:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=884:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=910:w=3:h=5:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=0:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=26:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=52:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=78:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=104:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=130:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=156:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=182:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=208:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=234:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=260:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=286:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=312:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=338:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=364:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=390:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=416:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=442:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=468:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=494:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=520:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=546:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=572:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=598:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=624:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=650:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=676:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=702:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=728:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=754:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=780:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=806:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=832:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=858:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=884:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=910:w=3:h=5:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=608:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=634:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=660:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=686:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=712:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=738:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=764:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=790:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=816:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=842:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=868:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=894:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=608:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=634:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=660:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=686:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=712:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=738:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=764:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=790:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=816:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=842:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=868:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=894:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),fps=30,trim=duration=12.000,setpts=PTS-STARTPTS,format=rgba"
+        },
+        "lavfi_188a0afb7c": {
+          "kind": "lavfi",
+          "graph": "color=black@0:s=912x915:r=30:d=12.000,drawbox=x=5:y=5:w=902:h=905:color=#F97316:t=5:replace=1:enable=between(t\\,0.415\\,0.789),drawbox=x=5:y=5:w=294:h=905:color=#F97316:t=5:replace=1:enable=between(t\\,0.789\\,1.536),drawbox=x=5:y=5:w=294:h=295:color=#F97316:t=5:replace=1:enable=between(t\\,1.536\\,2.284),drawbox=x=5:y=310:w=294:h=295:color=#F97316:t=5:replace=1:enable=between(t\\,2.284\\,3.031),drawbox=x=5:y=615:w=294:h=295:color=#F97316:t=5:replace=1:enable=between(t\\,3.031\\,3.779),drawbox=x=5:y=5:w=294:h=905:color=#F97316:t=5:replace=1:enable=between(t\\,3.779\\,4.152),drawbox=x=309:y=5:w=294:h=905:color=#F97316:t=5:replace=1:enable=between(t\\,4.152\\,4.900),drawbox=x=309:y=5:w=294:h=295:color=#F97316:t=5:replace=1:enable=between(t\\,4.900\\,5.647),drawbox=x=309:y=310:w=294:h=295:color=#F97316:t=5:replace=1:enable=between(t\\,5.647\\,6.394),drawbox=x=309:y=615:w=294:h=295:color=#F97316:t=5:replace=1:enable=between(t\\,6.394\\,7.142),drawbox=x=309:y=5:w=294:h=905:color=#F97316:t=5:replace=1:enable=between(t\\,7.142\\,7.516),drawbox=x=613:y=5:w=294:h=905:color=#F97316:t=5:replace=1:enable=between(t\\,7.516\\,8.263),drawbox=x=613:y=5:w=294:h=295:color=#F97316:t=5:replace=1:enable=between(t\\,8.263\\,9.010),drawbox=x=613:y=310:w=294:h=295:color=#F97316:t=5:replace=1:enable=between(t\\,9.010\\,9.758),drawbox=x=613:y=615:w=294:h=295:color=#F97316:t=5:replace=1:enable=between(t\\,9.758\\,10.505),drawbox=x=613:y=5:w=294:h=905:color=#F97316:t=5:replace=1:enable=between(t\\,10.505\\,10.879),drawbox=x=5:y=5:w=902:h=905:color=#F97316:t=5:replace=1:enable=between(t\\,10.879\\,12.000),fps=30,trim=duration=12.000,setpts=PTS-STARTPTS,format=rgba"
+        },
+        "lavfi_595a24904d": {
+          "kind": "lavfi",
+          "graph": "color=#A9B3CC:s=912x915:r=30:d=12.000,format=rgba,scale=912:915"
+        },
+        "node_root_1": {
+          "kind": "node-output",
+          "nodeId": "root:1"
+        }
+      },
+      "m0": "1{1{1{1{1{1{1}}}}}}",
+      "sources": [
+        {
+          "type": "lavfi",
+          "color": "#D9DEEA",
+          "mask": {
+            "kind": "inline-mask",
+            "localPath": "M6 0 H298 A6 6 0 0 1 304 6 V299 A6 6 0 0 1 298 305 H6 A6 6 0 0 1 0 299 V6 A6 6 0 0 1 6 0 Z M6 305 H298 A6 6 0 0 1 304 311 V604 A6 6 0 0 1 298 610 H6 A6 6 0 0 1 0 604 V311 A6 6 0 0 1 6 305 Z M6 610 H298 A6 6 0 0 1 304 616 V909 A6 6 0 0 1 298 915 H6 A6 6 0 0 1 0 909 V616 A6 6 0 0 1 6 610 Z M310 0 H602 A6 6 0 0 1 608 6 V299 A6 6 0 0 1 602 305 H310 A6 6 0 0 1 304 299 V6 A6 6 0 0 1 310 0 Z M310 305 H602 A6 6 0 0 1 608 311 V604 A6 6 0 0 1 602 610 H310 A6 6 0 0 1 304 604 V311 A6 6 0 0 1 310 305 Z M310 610 H602 A6 6 0 0 1 608 616 V909 A6 6 0 0 1 602 915 H310 A6 6 0 0 1 304 909 V616 A6 6 0 0 1 310 610 Z M614 0 H906 A6 6 0 0 1 912 6 V299 A6 6 0 0 1 906 305 H614 A6 6 0 0 1 608 299 V6 A6 6 0 0 1 614 0 Z M614 305 H906 A6 6 0 0 1 912 311 V604 A6 6 0 0 1 906 610 H614 A6 6 0 0 1 608 604 V311 A6 6 0 0 1 614 305 Z M614 610 H906 A6 6 0 0 1 912 616 V909 A6 6 0 0 1 906 915 H614 A6 6 0 0 1 608 909 V616 A6 6 0 0 1 614 610 Z",
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 912,
+              "height": 915
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#FFFFFF",
+          "mask": {
+            "kind": "inline-mask",
+            "localPath": "M6 1 H298 A5 5 0 0 1 303 6 V299 A5 5 0 0 1 298 304 H6 A5 5 0 0 1 1 299 V6 A5 5 0 0 1 6 1 Z M6 306 H298 A5 5 0 0 1 303 311 V604 A5 5 0 0 1 298 609 H6 A5 5 0 0 1 1 604 V311 A5 5 0 0 1 6 306 Z M6 611 H298 A5 5 0 0 1 303 616 V909 A5 5 0 0 1 298 914 H6 A5 5 0 0 1 1 909 V616 A5 5 0 0 1 6 611 Z M310 1 H602 A5 5 0 0 1 607 6 V299 A5 5 0 0 1 602 304 H310 A5 5 0 0 1 305 299 V6 A5 5 0 0 1 310 1 Z M310 306 H602 A5 5 0 0 1 607 311 V604 A5 5 0 0 1 602 609 H310 A5 5 0 0 1 305 604 V311 A5 5 0 0 1 310 306 Z M310 611 H602 A5 5 0 0 1 607 616 V909 A5 5 0 0 1 602 914 H310 A5 5 0 0 1 305 909 V616 A5 5 0 0 1 310 611 Z M614 1 H906 A5 5 0 0 1 911 6 V299 A5 5 0 0 1 906 304 H614 A5 5 0 0 1 609 299 V6 A5 5 0 0 1 614 1 Z M614 306 H906 A5 5 0 0 1 911 311 V604 A5 5 0 0 1 906 609 H614 A5 5 0 0 1 609 604 V311 A5 5 0 0 1 614 306 Z M614 611 H906 A5 5 0 0 1 911 616 V909 A5 5 0 0 1 906 914 H614 A5 5 0 0 1 609 909 V616 A5 5 0 0 1 614 611 Z",
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 912,
+              "height": 915
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "1"
+              },
+              "style": {
+                "fontSize": 73,
+                "fontColor": "#1A2236"
+              },
+              "placement": {
+                "xExpr": "152.0-text_w/2",
+                "yExpr": "89.9"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "360×360"
+              },
+              "style": {
+                "fontSize": 29,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "xExpr": "152.0-text_w/2",
+                "yExpr": "171.6"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "2"
+              },
+              "style": {
+                "fontSize": 73,
+                "fontColor": "#1A2236"
+              },
+              "placement": {
+                "xExpr": "152.0-text_w/2",
+                "yExpr": "394.9"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "360×360"
+              },
+              "style": {
+                "fontSize": 29,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "xExpr": "152.0-text_w/2",
+                "yExpr": "476.6"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "3"
+              },
+              "style": {
+                "fontSize": 73,
+                "fontColor": "#1A2236"
+              },
+              "placement": {
+                "xExpr": "152.0-text_w/2",
+                "yExpr": "699.9"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "360×360"
+              },
+              "style": {
+                "fontSize": 29,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "xExpr": "152.0-text_w/2",
+                "yExpr": "781.6"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "4"
+              },
+              "style": {
+                "fontSize": 73,
+                "fontColor": "#1A2236"
+              },
+              "placement": {
+                "xExpr": "456.0-text_w/2",
+                "yExpr": "89.9"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "360×360"
+              },
+              "style": {
+                "fontSize": 29,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "xExpr": "456.0-text_w/2",
+                "yExpr": "171.6"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "5"
+              },
+              "style": {
+                "fontSize": 73,
+                "fontColor": "#1A2236"
+              },
+              "placement": {
+                "xExpr": "456.0-text_w/2",
+                "yExpr": "394.9"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "360×360"
+              },
+              "style": {
+                "fontSize": 29,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "xExpr": "456.0-text_w/2",
+                "yExpr": "476.6"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "6"
+              },
+              "style": {
+                "fontSize": 73,
+                "fontColor": "#1A2236"
+              },
+              "placement": {
+                "xExpr": "456.0-text_w/2",
+                "yExpr": "699.9"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "360×360"
+              },
+              "style": {
+                "fontSize": 29,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "xExpr": "456.0-text_w/2",
+                "yExpr": "781.6"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "7"
+              },
+              "style": {
+                "fontSize": 73,
+                "fontColor": "#1A2236"
+              },
+              "placement": {
+                "xExpr": "760.0-text_w/2",
+                "yExpr": "89.9"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "360×360"
+              },
+              "style": {
+                "fontSize": 29,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "xExpr": "760.0-text_w/2",
+                "yExpr": "171.6"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "8"
+              },
+              "style": {
+                "fontSize": 73,
+                "fontColor": "#1A2236"
+              },
+              "placement": {
+                "xExpr": "760.0-text_w/2",
+                "yExpr": "394.9"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "360×360"
+              },
+              "style": {
+                "fontSize": 29,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "xExpr": "760.0-text_w/2",
+                "yExpr": "476.6"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "9"
+              },
+              "style": {
+                "fontSize": 73,
+                "fontColor": "#1A2236"
+              },
+              "placement": {
+                "xExpr": "760.0-text_w/2",
+                "yExpr": "699.9"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "360×360"
+              },
+              "style": {
+                "fontSize": 29,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "xExpr": "760.0-text_w/2",
+                "yExpr": "781.6"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "lavfi": "color=black@0,drawbox=x=0:y=0:w=304:h=305:color=#FFFFFF:t=fill:replace=1:enable=lt(t\\,1.910),drawbox=x=0:y=305:w=304:h=305:color=#FFFFFF:t=fill:replace=1:enable=lt(t\\,2.657),drawbox=x=0:y=610:w=304:h=305:color=#FFFFFF:t=fill:replace=1:enable=lt(t\\,3.405),drawbox=x=304:y=0:w=304:h=305:color=#FFFFFF:t=fill:replace=1:enable=lt(t\\,5.273),drawbox=x=304:y=305:w=304:h=305:color=#FFFFFF:t=fill:replace=1:enable=lt(t\\,6.021),drawbox=x=304:y=610:w=304:h=305:color=#FFFFFF:t=fill:replace=1:enable=lt(t\\,6.768),drawbox=x=608:y=0:w=304:h=305:color=#FFFFFF:t=fill:replace=1:enable=lt(t\\,8.637),drawbox=x=608:y=305:w=304:h=305:color=#FFFFFF:t=fill:replace=1:enable=lt(t\\,9.384),drawbox=x=608:y=610:w=304:h=305:color=#FFFFFF:t=fill:replace=1:enable=lt(t\\,10.131)",
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "lavfi": "color=black@0,drawbox=x=303:y=0:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=26:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=52:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=78:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=104:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=130:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=156:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=182:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=208:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=234:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=260:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=286:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=312:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=338:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=364:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=390:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=416:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=442:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=468:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=494:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=520:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=546:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=572:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=598:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=624:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=650:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=676:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=702:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=728:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=754:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=780:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=806:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=832:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=858:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=884:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=303:y=910:w=3:h=5:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,6.913),drawbox=x=607:y=0:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=26:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=52:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=78:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=104:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=130:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=156:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=182:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=208:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=234:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=260:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=286:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=312:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=338:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=364:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=390:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=416:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=442:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=468:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=494:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=520:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=546:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=572:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=598:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=624:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=650:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=676:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=702:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=728:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=754:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=780:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=806:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=832:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=858:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=884:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=607:y=910:w=3:h=5:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,0.789\\,10.277),drawbox=x=0:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=26:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=52:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=78:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=104:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=130:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=156:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=182:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=208:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=234:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=260:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=286:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=0:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=26:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=52:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=78:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=104:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=130:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=156:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=182:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=208:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=234:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=260:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=286:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=0:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=26:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=52:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=78:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=104:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=130:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=156:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=182:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=208:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=234:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=260:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=286:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=312:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=338:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=364:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=390:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=416:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=442:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=468:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=494:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=520:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=546:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=572:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=598:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=624:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=650:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=676:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=702:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=728:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=754:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=780:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=806:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=832:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=858:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=884:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=-1:y=910:w=3:h=5:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=0:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=26:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=52:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=78:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=104:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=130:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=156:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=182:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=208:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=234:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=260:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=286:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=312:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=338:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=364:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=390:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=416:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=442:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=468:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=494:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=520:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=546:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=572:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=598:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=624:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=650:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=676:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=702:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=728:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=754:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=780:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=806:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=832:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=858:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=884:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=303:y=910:w=3:h=5:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.779),drawbox=x=0:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=26:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=52:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=78:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=104:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=130:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=156:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=182:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=208:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=234:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=260:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=286:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,2.803),drawbox=x=0:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=26:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=52:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=78:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=104:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=130:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=156:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=182:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=208:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=234:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=260:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=286:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,1.536\\,3.550),drawbox=x=304:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=330:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=356:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=382:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=408:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=434:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=460:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=486:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=512:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=538:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=564:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=590:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=304:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=330:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=356:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=382:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=408:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=434:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=460:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=486:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=512:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=538:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=564:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=590:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=0:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=26:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=52:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=78:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=104:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=130:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=156:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=182:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=208:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=234:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=260:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=286:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=312:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=338:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=364:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=390:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=416:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=442:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=468:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=494:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=520:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=546:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=572:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=598:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=624:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=650:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=676:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=702:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=728:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=754:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=780:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=806:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=832:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=858:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=884:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=303:y=910:w=3:h=5:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=0:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=26:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=52:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=78:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=104:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=130:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=156:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=182:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=208:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=234:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=260:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=286:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=312:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=338:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=364:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=390:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=416:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=442:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=468:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=494:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=520:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=546:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=572:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=598:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=624:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=650:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=676:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=702:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=728:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=754:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=780:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=806:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=832:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=858:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=884:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=607:y=910:w=3:h=5:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,7.142),drawbox=x=304:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=330:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=356:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=382:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=408:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=434:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=460:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=486:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=512:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=538:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=564:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=590:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.166),drawbox=x=304:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=330:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=356:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=382:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=408:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=434:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=460:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=486:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=512:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=538:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=564:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=590:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,4.900\\,6.913),drawbox=x=608:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=634:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=660:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=686:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=712:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=738:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=764:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=790:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=816:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=842:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=868:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=894:y=-1:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=608:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=634:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=660:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=686:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=712:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=738:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=764:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=790:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=816:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=842:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=868:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=894:y=914:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=0:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=26:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=52:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=78:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=104:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=130:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=156:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=182:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=208:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=234:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=260:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=286:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=312:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=338:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=364:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=390:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=416:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=442:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=468:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=494:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=520:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=546:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=572:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=598:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=624:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=650:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=676:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=702:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=728:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=754:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=780:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=806:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=832:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=858:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=884:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=607:y=910:w=3:h=5:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=0:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=26:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=52:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=78:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=104:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=130:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=156:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=182:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=208:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=234:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=260:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=286:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=312:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=338:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=364:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=390:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=416:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=442:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=468:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=494:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=520:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=546:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=572:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=598:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=624:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=650:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=676:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=702:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=728:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=754:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=780:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=806:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=832:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=858:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=884:w=3:h=15:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=911:y=910:w=3:h=5:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.505),drawbox=x=608:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=634:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=660:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=686:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=712:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=738:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=764:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=790:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=816:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=842:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=868:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=894:y=304:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,9.529),drawbox=x=608:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=634:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=660:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=686:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=712:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=738:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=764:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=790:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=816:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=842:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=868:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277),drawbox=x=894:y=609:w=15:h=3:color=#6D4AF0@0.9:t=fill:replace=1:enable=between(t\\,8.263\\,10.277)",
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "lavfi": "color=black@0,drawbox=x=5:y=5:w=902:h=905:color=#F97316:t=5:replace=1:enable=between(t\\,0.415\\,0.789),drawbox=x=5:y=5:w=294:h=905:color=#F97316:t=5:replace=1:enable=between(t\\,0.789\\,1.536),drawbox=x=5:y=5:w=294:h=295:color=#F97316:t=5:replace=1:enable=between(t\\,1.536\\,2.284),drawbox=x=5:y=310:w=294:h=295:color=#F97316:t=5:replace=1:enable=between(t\\,2.284\\,3.031),drawbox=x=5:y=615:w=294:h=295:color=#F97316:t=5:replace=1:enable=between(t\\,3.031\\,3.779),drawbox=x=5:y=5:w=294:h=905:color=#F97316:t=5:replace=1:enable=between(t\\,3.779\\,4.152),drawbox=x=309:y=5:w=294:h=905:color=#F97316:t=5:replace=1:enable=between(t\\,4.152\\,4.900),drawbox=x=309:y=5:w=294:h=295:color=#F97316:t=5:replace=1:enable=between(t\\,4.900\\,5.647),drawbox=x=309:y=310:w=294:h=295:color=#F97316:t=5:replace=1:enable=between(t\\,5.647\\,6.394),drawbox=x=309:y=615:w=294:h=295:color=#F97316:t=5:replace=1:enable=between(t\\,6.394\\,7.142),drawbox=x=309:y=5:w=294:h=905:color=#F97316:t=5:replace=1:enable=between(t\\,7.142\\,7.516),drawbox=x=613:y=5:w=294:h=905:color=#F97316:t=5:replace=1:enable=between(t\\,7.516\\,8.263),drawbox=x=613:y=5:w=294:h=295:color=#F97316:t=5:replace=1:enable=between(t\\,8.263\\,9.010),drawbox=x=613:y=310:w=294:h=295:color=#F97316:t=5:replace=1:enable=between(t\\,9.010\\,9.758),drawbox=x=613:y=615:w=294:h=295:color=#F97316:t=5:replace=1:enable=between(t\\,9.758\\,10.505),drawbox=x=613:y=5:w=294:h=905:color=#F97316:t=5:replace=1:enable=between(t\\,10.505\\,10.879),drawbox=x=5:y=5:w=902:h=905:color=#F97316:t=5:replace=1:enable=between(t\\,10.879\\,12.000)",
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#A9B3CC",
+          "mask": {
+            "kind": "inline-mask",
+            "localPath": "M0 0 H912 V915 H0 Z M4 4 V911 H908 V4 Z",
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 912,
+              "height": 915
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      ],
+      "backgroundColor": "#FFFFFF",
+      "size": {
+        "width": 912,
+        "height": 915
+      },
+      "fps": 30,
+      "durationMs": 12000,
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    "inspector": {
+      "kind": "mosaic_document",
+      "version": 1,
+      "assets": {
+        "text_root_2_0": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_0_text.png",
+          "mediaType": "image"
+        },
+        "lavfi_1679a4ba50": {
+          "kind": "lavfi",
+          "graph": "color=#F4F6FB:s=81x88:r=30:d=12.000,format=rgba,scale=81:88"
+        },
+        "text_root_2_2": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_2_text.png",
+          "mediaType": "image"
+        },
+        "text_root_2_3": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_3_text.png",
+          "mediaType": "image"
+        },
+        "text_root_2_4": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_4_text.png",
+          "mediaType": "image"
+        },
+        "lavfi_74e11646b3": {
+          "kind": "lavfi",
+          "graph": "color=#F4F6FB:s=88x88:r=30:d=12.000,format=rgba,scale=88:88"
+        },
+        "text_root_2_6": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_6_text.png",
+          "mediaType": "image"
+        },
+        "text_root_2_7": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_7_text.png",
+          "mediaType": "image"
+        },
+        "text_root_2_8": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_8_text.png",
+          "mediaType": "image"
+        },
+        "text_root_2_9": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_9_text.png",
+          "mediaType": "image"
+        },
+        "text_root_2_10": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_10_text.png",
+          "mediaType": "image"
+        },
+        "text_root_2_11": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_11_text.png",
+          "mediaType": "image"
+        },
+        "lavfi_56d7376d72": {
+          "kind": "lavfi",
+          "graph": "color=#16A34A@0.35:s=144x73:r=30:d=12.000,format=rgba,scale=144:73"
+        },
+        "text_root_2_13": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_13_text.mov",
+          "mediaType": "video"
+        },
+        "text_root_2_14": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_14_text.png",
+          "mediaType": "image"
+        },
+        "lavfi_f81d7bc42d": {
+          "kind": "lavfi",
+          "graph": "color=#16A34A@0.35:s=144x70:r=30:d=12.000,format=rgba,scale=144:70"
+        },
+        "text_root_2_16": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_16_text.mov",
+          "mediaType": "video"
+        },
+        "text_root_2_17": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_17_text.png",
+          "mediaType": "image"
+        },
+        "text_root_2_19": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_19_text.mov",
+          "mediaType": "video"
+        },
+        "text_root_2_20": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_20_text.png",
+          "mediaType": "image"
+        },
+        "text_root_2_22": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_22_text.mov",
+          "mediaType": "video"
+        },
+        "text_root_2_23": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_23_text.png",
+          "mediaType": "image"
+        },
+        "text_root_2_25": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_25_text.mov",
+          "mediaType": "video"
+        },
+        "text_root_2_26": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_26_text.png",
+          "mediaType": "image"
+        },
+        "lavfi_725eee3409": {
+          "kind": "lavfi",
+          "graph": "color=#D9DEEA:s=197x3:r=30:d=12.000,format=rgba,scale=197:3"
+        },
+        "text_root_2_28": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_28_text.png",
+          "mediaType": "image"
+        },
+        "lavfi_06a075aed9": {
+          "kind": "lavfi",
+          "graph": "color=#F4F6FB:s=84x70:r=30:d=12.000,format=rgba,scale=84:70"
+        },
+        "text_root_2_30": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_30_text.png",
+          "mediaType": "image"
+        },
+        "text_root_2_31": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_31_text.png",
+          "mediaType": "image"
+        },
+        "text_root_2_33": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_33_text.mov",
+          "mediaType": "video"
+        },
+        "text_root_2_34": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_34_text.png",
+          "mediaType": "image"
+        },
+        "text_root_2_36": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_36_text.mov",
+          "mediaType": "video"
+        },
+        "text_root_2_37": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_37_text.png",
+          "mediaType": "image"
+        },
+        "lavfi_c1cb173605": {
+          "kind": "lavfi",
+          "graph": "color=#16A34A@0.35:s=144x80:r=30:d=12.000,format=rgba,scale=144:80"
+        },
+        "text_root_2_39": {
+          "kind": "workspace-file",
+          "path": "root_2_root_2_39_text.mov",
+          "mediaType": "video"
+        },
+        "node_root_2": {
+          "kind": "node-output",
+          "nodeId": "root:2"
+        }
+      },
+      "m0": "25[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121[0,0,0,0,0,0,0,0,0,0,36(0,-,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-,0,0,0,0,0,0,0,1{10(-,0,0,0,0,0,0,0,1{1{1}},-)},-,0,0,0,0,0,0,0,1{10(-,0,0,0,0,0,0,0,1{1{1{1{1}}}},-)},0,-),0,-,0,0,0,0,0,0,0,0,0,32(0,-,0,0,0,0,0,1,-,0,0,0,0,0,0,-,0,-,0,0,0,0,0,0,0,0,0,0,0,1{12(-,0,0,0,0,0,0,0,0,0,1,-)},0,-),0,-,0,0,0,0,0,0,0,0,0,32(0,-,0,0,0,0,0,1,-,0,0,0,0,0,0,-,0,-,0,0,0,0,0,0,0,0,0,0,0,1{12(-,0,0,0,0,0,0,0,0,0,1,-)},0,-),0,-,0,0,0,0,0,0,0,0,0,32(0,-,0,0,0,0,0,1,-,0,0,0,0,0,0,-,0,-,0,0,0,0,0,0,0,0,0,0,0,1{12(-,0,0,0,0,0,0,0,0,0,1,-)},0,-),0,-,0,0,0,0,0,0,0,0,0,32(0,-,0,0,0,0,0,1,-,0,0,0,0,0,0,-,0,-,0,0,0,0,0,0,0,0,0,0,0,1{12(-,0,0,0,0,0,0,0,0,0,1,-)},0,-),0,-,0,0,0,0,0,0,0,0,0,32(0,-,0,0,0,0,0,1,-,0,0,0,0,0,0,-,0,-,0,0,0,0,0,0,0,0,0,0,0,1{12(-,0,0,0,0,0,0,0,0,0,1,-)},0,-),0,0,0,-,0,0,0,0,0,50(0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11[0,0,0,0,-,1,0,0,0,0,-],0,-),-,0,-,0,0,0,0,0,0,0,0,0,32(0,-,0,0,0,0,0,1,-,0,0,0,0,0,0,1{10(-,0,0,0,0,0,0,0,1{1},-)},0,-,0,0,0,0,0,0,0,0,0,0,0,1{12(-,0,0,0,0,0,0,0,0,0,1,-)},0,-),0,-,0,0,0,0,0,0,0,0,0,32(0,-,0,0,0,0,0,1,-,0,0,0,0,0,0,-,0,-,0,0,0,0,0,0,0,0,0,0,0,1{12(-,0,0,0,0,0,0,0,0,0,1,-)},0,-),0,-,0,0,0,0,0,0,0,0,0,32(0,-,0,0,0,0,0,1,-,0,0,0,0,0,0,-,0,-,0,0,0,0,0,0,0,0,0,0,0,1{12(-,0,0,0,0,0,0,0,0,0,1,-)},0,-),0,0,-],-]",
+      "sources": [
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "INSPECTOR"
+              },
+              "style": {
+                "fontSize": 26,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#F4F6FB",
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.34
+            },
+            "stroke": {
+              "position": "inner",
+              "width": 0.006,
+              "color": "#D9DEEA",
+              "alpha": 1
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Root"
+              },
+              "style": {
+                "fontSize": 23,
+                "fontColor": "#6D4AF0"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "enable": "(gte(t,0.415)*lt(t,1.163))+(gte(t,10.879)*lt(t,11.253))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Group"
+              },
+              "style": {
+                "fontSize": 23,
+                "fontColor": "#6D4AF0"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "enable": "(gte(t,1.163)*lt(t,1.910))+(gte(t,3.779)*lt(t,5.273))+(gte(t,7.142)*lt(t,8.637))+(gte(t,10.505)*lt(t,10.879))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Frame"
+              },
+              "style": {
+                "fontSize": 23,
+                "fontColor": "#6D4AF0"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "enable": "(gte(t,1.910)*lt(t,3.779))+(gte(t,5.273)*lt(t,7.142))+(gte(t,8.637)*lt(t,10.505))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#F4F6FB",
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.34
+            },
+            "stroke": {
+              "position": "inner",
+              "width": 0.006,
+              "color": "#D9DEEA",
+              "alpha": 1
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Count"
+              },
+              "style": {
+                "fontSize": 23,
+                "fontColor": "#3C4763"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "enable": "(gte(t,0.415)*lt(t,0.789))+(gte(t,1.163)*lt(t,1.536))+(gte(t,4.526)*lt(t,4.900))+(gte(t,7.889)*lt(t,8.263))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Split"
+              },
+              "style": {
+                "fontSize": 23,
+                "fontColor": "#3C4763"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "enable": "(gte(t,0.789)*lt(t,1.163))+(gte(t,1.536)*lt(t,1.910))+(gte(t,4.900)*lt(t,5.273))+(gte(t,8.263)*lt(t,8.637))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Leaf"
+              },
+              "style": {
+                "fontSize": 23,
+                "fontColor": "#3C4763"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "enable": "(gte(t,1.910)*lt(t,2.284))+(gte(t,2.657)*lt(t,3.031))+(gte(t,3.405)*lt(t,3.779))+(gte(t,5.273)*lt(t,5.647))+(gte(t,6.021)*lt(t,6.394))+(gte(t,6.768)*lt(t,7.142))+(gte(t,8.637)*lt(t,9.010))+(gte(t,9.384)*lt(t,9.758))+(gte(t,10.131)*lt(t,10.505))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Next"
+              },
+              "style": {
+                "fontSize": 23,
+                "fontColor": "#3C4763"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "enable": "(gte(t,2.284)*lt(t,2.657))+(gte(t,3.031)*lt(t,3.405))+(gte(t,4.152)*lt(t,4.526))+(gte(t,5.647)*lt(t,6.021))+(gte(t,6.394)*lt(t,6.768))+(gte(t,7.516)*lt(t,7.889))+(gte(t,9.010)*lt(t,9.384))+(gte(t,9.758)*lt(t,10.131))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Close"
+              },
+              "style": {
+                "fontSize": 23,
+                "fontColor": "#3C4763"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "enable": "(gte(t,3.779)*lt(t,4.152))+(gte(t,7.142)*lt(t,7.516))+(gte(t,10.505)*lt(t,11.253))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "X"
+              },
+              "style": {
+                "fontSize": 27,
+                "fontColor": "#3C4763"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#16A34A@0.35",
+          "overlay": {
+            "enable": "(gte(t,4.152)*lt(t,4.526))+(gte(t,7.516)*lt(t,7.889))+(gte(t,10.879)*lt(t,11.253))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "video"
+          },
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "0"
+              },
+              "style": {
+                "fontSize": 35,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,0.000)*lt(t,4.152))+(gte(t,10.879)*lt(t,12.000))"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "360"
+              },
+              "style": {
+                "fontSize": 35,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,4.152)*lt(t,7.516))"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "720"
+              },
+              "style": {
+                "fontSize": 35,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,7.516)*lt(t,10.879))"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Y"
+              },
+              "style": {
+                "fontSize": 27,
+                "fontColor": "#3C4763"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#16A34A@0.35",
+          "overlay": {
+            "enable": "(gte(t,2.284)*lt(t,2.657))+(gte(t,3.031)*lt(t,3.405))+(gte(t,3.779)*lt(t,4.152))+(gte(t,5.647)*lt(t,6.021))+(gte(t,6.394)*lt(t,6.768))+(gte(t,7.142)*lt(t,7.516))+(gte(t,9.010)*lt(t,9.384))+(gte(t,9.758)*lt(t,10.131))+(gte(t,10.505)*lt(t,10.879))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "video"
+          },
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "0"
+              },
+              "style": {
+                "fontSize": 35,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,0.000)*lt(t,2.284))+(gte(t,3.779)*lt(t,5.647))+(gte(t,7.142)*lt(t,9.010))+(gte(t,10.505)*lt(t,12.000))"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "360"
+              },
+              "style": {
+                "fontSize": 35,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,2.284)*lt(t,3.031))+(gte(t,5.647)*lt(t,6.394))+(gte(t,9.010)*lt(t,9.758))"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "720"
+              },
+              "style": {
+                "fontSize": 35,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,3.031)*lt(t,3.779))+(gte(t,6.394)*lt(t,7.142))+(gte(t,9.758)*lt(t,10.505))"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "W"
+              },
+              "style": {
+                "fontSize": 27,
+                "fontColor": "#3C4763"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#16A34A@0.35",
+          "overlay": {
+            "enable": "(gte(t,0.789)*lt(t,1.163))+(gte(t,10.879)*lt(t,11.253))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "video"
+          },
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "1080"
+              },
+              "style": {
+                "fontSize": 35,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,0.000)*lt(t,0.789))+(gte(t,10.879)*lt(t,12.000))"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "360"
+              },
+              "style": {
+                "fontSize": 35,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,0.789)*lt(t,10.879))"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "H"
+              },
+              "style": {
+                "fontSize": 27,
+                "fontColor": "#3C4763"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#16A34A@0.35",
+          "overlay": {
+            "enable": "(gte(t,1.536)*lt(t,1.910))+(gte(t,3.779)*lt(t,4.152))+(gte(t,4.900)*lt(t,5.273))+(gte(t,7.142)*lt(t,7.516))+(gte(t,8.263)*lt(t,8.637))+(gte(t,10.505)*lt(t,10.879))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "video"
+          },
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "1080"
+              },
+              "style": {
+                "fontSize": 35,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,0.000)*lt(t,1.536))+(gte(t,3.779)*lt(t,4.900))+(gte(t,7.142)*lt(t,8.263))+(gte(t,10.505)*lt(t,12.000))"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "360"
+              },
+              "style": {
+                "fontSize": 35,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,1.536)*lt(t,3.779))+(gte(t,4.900)*lt(t,7.142))+(gte(t,8.263)*lt(t,10.505))"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Z"
+              },
+              "style": {
+                "fontSize": 27,
+                "fontColor": "#3C4763"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#16A34A@0.35",
+          "overlay": {
+            "enable": "0"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "video"
+          },
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "0"
+              },
+              "style": {
+                "fontSize": 35,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,0.000)*lt(t,12.000))"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "ENGINE STATE"
+              },
+              "style": {
+                "fontSize": 20,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#D9DEEA",
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "N"
+              },
+              "style": {
+                "fontSize": 27,
+                "fontColor": "#3C4763"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#F4F6FB",
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.34
+            },
+            "stroke": {
+              "position": "inner",
+              "width": 0.006,
+              "color": "#D9DEEA",
+              "alpha": 1
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "cols"
+              },
+              "style": {
+                "fontSize": 23,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "enable": "(gte(t,0.415)*lt(t,1.163))+(gte(t,3.779)*lt(t,4.526))+(gte(t,7.142)*lt(t,7.889))+(gte(t,10.505)*lt(t,10.879))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "rows"
+              },
+              "style": {
+                "fontSize": 23,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "overlay": {
+            "enable": "(gte(t,1.163)*lt(t,3.779))+(gte(t,4.526)*lt(t,7.142))+(gte(t,7.889)*lt(t,10.505))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#16A34A@0.35",
+          "overlay": {
+            "enable": "(gte(t,0.415)*lt(t,0.789))+(gte(t,1.163)*lt(t,1.536))+(gte(t,4.526)*lt(t,4.900))+(gte(t,7.889)*lt(t,8.263))+(gte(t,10.879)*lt(t,11.253))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "video"
+          },
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "0"
+              },
+              "style": {
+                "fontSize": 35,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,0.000)*lt(t,0.415))+(gte(t,10.879)*lt(t,12.000))"
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "3"
+              },
+              "style": {
+                "fontSize": 35,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,0.415)*lt(t,10.879))"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "R"
+              },
+              "style": {
+                "fontSize": 27,
+                "fontColor": "#3C4763"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#16A34A@0.35",
+          "overlay": {
+            "enable": "(gte(t,0.415)*lt(t,0.789))+(gte(t,1.163)*lt(t,1.536))+(gte(t,4.526)*lt(t,4.900))+(gte(t,7.889)*lt(t,8.263))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "video"
+          },
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "0"
+              },
+              "style": {
+                "fontSize": 35,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,0.000)*lt(t,12.000))"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "C"
+              },
+              "style": {
+                "fontSize": 27,
+                "fontColor": "#3C4763"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#16A34A@0.35",
+          "overlay": {
+            "enable": "(gte(t,1.910)*lt(t,2.284))+(gte(t,2.657)*lt(t,3.031))+(gte(t,3.405)*lt(t,3.779))+(gte(t,5.273)*lt(t,5.647))+(gte(t,6.021)*lt(t,6.394))+(gte(t,6.768)*lt(t,7.142))+(gte(t,8.637)*lt(t,9.010))+(gte(t,9.384)*lt(t,9.758))+(gte(t,10.131)*lt(t,10.505))"
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "video"
+          },
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "0"
+              },
+              "style": {
+                "fontSize": 35,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "right",
+                "vAlign": "middle"
+              },
+              "overlay": {
+                "enable": "(gte(t,0.000)*lt(t,12.000))"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      ],
+      "backgroundColor": "#FFFFFF",
+      "size": {
+        "width": 384,
+        "height": 915
+      },
+      "fps": 30,
+      "durationMs": 12000,
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    "chrome-header": {
+      "kind": "mosaic_document",
+      "version": 1,
+      "assets": {
+        "lavfi_a471ba5e05": {
+          "kind": "lavfi",
+          "graph": "color=#EF7525:s=72x68:r=30:d=12.000,format=rgba,scale=72:68"
+        },
+        "text_root_0_1": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_1_text.png",
+          "mediaType": "image"
+        },
+        "lavfi_0af49b10d0": {
+          "kind": "lavfi",
+          "graph": "color=#F4F6FB:s=238x68:r=30:d=12.000,format=rgba,scale=238:68"
+        },
+        "text_root_0_3": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_3_text.png",
+          "mediaType": "image"
+        },
+        "lavfi_7272470879": {
+          "kind": "lavfi",
+          "graph": "color=#F4F6FB:s=374x68:r=30:d=12.000,format=rgba,scale=374:68"
+        },
+        "text_root_0_5": {
+          "kind": "workspace-file",
+          "path": "root_0_root_0_5_text.mov",
+          "mediaType": "video"
+        },
+        "lavfi_9fcc19284a": {
+          "kind": "lavfi",
+          "graph": "color=#D9DEEA:s=1920x3:r=30:d=12.000,format=rgba,scale=1920:3"
+        },
+        "node_root_0": {
+          "kind": "node-output",
+          "nodeId": "root:0"
+        }
+      },
+      "m0": "103[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15[0,-,0,0,0,0,0,0,0,0,0,0,113(0,0,-,0,0,0,0,0,103(0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,1{10(-,0,0,0,0,0,0,0,1,-)},0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{10(-,0,0,0,0,0,0,0,1,-)},0,0,-),0,-],0,0,1]",
+      "sources": [
+        {
+          "type": "lavfi",
+          "color": "#EF7525",
+          "mask": {
+            "kind": "inline-mask",
+            "localPath": "M19.7296 0.010376H0.0599976V48.117H19.7296V0.010376Z M34.9327 55.9604H0V104.067H34.9327V55.9604Z M62.2438 111.931H34.9327V160.038H62.2438V111.931Z M27.3212 111.931H0V160.038H27.3212V111.931Z M34.9327 167.912H0V216.019H34.9327V167.912Z M62.1336 223.893H27.3712V272H62.1336V223.893Z M19.7197 223.893H0.0100098V272H19.7197V223.893Z M131.799 111.931H103.496V160.038H131.799V111.931Z M174.503 56.0122L163.737 55.9915L139.49 89.6651V104.088L174.503 104.119V56.0122Z M118.248 104.067H131.799V89.52L107.582 55.9604H69.675V104.067H115.614H118.248Z M91.3477 33.9223L69.675 3.38805V48.1067H101.924L91.3477 33.9223Z M180.422 32.8758L169.886 48.1067H180.051H181.574H201.754V3.34662L180.422 32.9172V32.8758Z M139.49 160.069H165.81L200.512 111.962H139.49V160.069Z M95.8845 148.278L95.8946 111.931H69.675L95.8845 148.278Z M135.054 202.612L160.151 167.912L110.036 167.902L135.054 202.612Z M62.1738 55.9604H42.5742V75.6776H62.1738V55.9604Z M62.1738 83.5313H42.5742V104.057H62.1738V83.5313Z M182.185 104.088L201.714 104.067V55.9604L182.185 55.9915V104.088Z M62.1837 0.010376H27.3312V48.117H62.1837V0.010376Z M62.0736 167.912H42.5141V187.629H62.0736V167.912Z M62.0736 195.494H42.5141V216.019H62.0736V195.494Z M271.95 223.883H252.28V271.99H271.95V223.883Z M272 167.933H237.067V216.04H272V167.933Z M237.067 111.952H209.756V160.059H237.067V111.952Z M272 111.952H244.679V160.059H272V111.952Z M272 55.9707H237.067V104.077H272V55.9707Z M244.629 0H209.866V48.1067H244.629V0Z M271.99 0H252.28V48.1067H271.99V0Z M229.426 196.322H209.826V216.04H229.426V196.322Z M229.426 167.933H209.826V188.458H229.426V167.933Z M244.679 223.883H209.826V271.99H244.679V223.883Z M229.486 84.3602H209.926V104.077H229.486V84.3602Z M229.486 55.9707H209.926V76.4961H229.486V55.9707Z",
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 272,
+              "height": 272
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Square • Light"
+              },
+              "style": {
+                "fontSize": 30,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#F4F6FB",
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.3
+            },
+            "stroke": {
+              "position": "inner",
+              "width": 0.004,
+              "color": "#D9DEEA",
+              "alpha": 1
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Speed  2.3x"
+              },
+              "style": {
+                "fontSize": 24,
+                "fontColor": "#3C4763"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#F4F6FB",
+          "effects": {
+            "rounding": {
+              "cornerStyle": "rounded",
+              "borderRadius": 0.3
+            },
+            "stroke": {
+              "position": "inner",
+              "width": 0.004,
+              "color": "#D9DEEA",
+              "alpha": 1
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "video"
+          },
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "expr",
+                "expr": "Step  %{eif\\:min(29\\,max(0\\,1+(t-0.4152)/0.3737))\\:d}  /  29",
+                "eval": "frame"
+              },
+              "style": {
+                "fontSize": 24,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "hAlign": "center",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#D9DEEA",
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      ],
+      "backgroundColor": "#EEF1F7",
+      "size": {
+        "width": 1920,
+        "height": 99
+      },
+      "fps": 30,
+      "durationMs": 12000,
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    "chrome-status": {
+      "kind": "mosaic_document",
+      "version": 1,
+      "assets": {
+        "lavfi_3da84a9f63": {
+          "kind": "lavfi",
+          "graph": "color=#EF7525:s=48x44:r=30:d=12.000,format=rgba,scale=48:44"
+        },
+        "text_root_3_1": {
+          "kind": "workspace-file",
+          "path": "root_3_root_3_1_text.png",
+          "mediaType": "image"
+        },
+        "lavfi_3cae051e1a": {
+          "kind": "lavfi",
+          "graph": "color=#D9DEEA:s=16x24:r=30:d=12.000,format=rgba,scale=16:24"
+        },
+        "text_root_3_3": {
+          "kind": "workspace-file",
+          "path": "root_3_root_3_3_text.png",
+          "mediaType": "image"
+        },
+        "text_root_3_4": {
+          "kind": "workspace-file",
+          "path": "root_3_root_3_4_text.png",
+          "mediaType": "image"
+        },
+        "text_root_3_5": {
+          "kind": "workspace-file",
+          "path": "root_3_root_3_5_text.png",
+          "mediaType": "image"
+        },
+        "text_root_3_6": {
+          "kind": "workspace-file",
+          "path": "root_3_root_3_6_text.png",
+          "mediaType": "image"
+        },
+        "text_root_3_7": {
+          "kind": "workspace-file",
+          "path": "root_3_root_3_7_text.png",
+          "mediaType": "image"
+        },
+        "text_root_3_8": {
+          "kind": "workspace-file",
+          "path": "root_3_root_3_8_text.png",
+          "mediaType": "image"
+        },
+        "text_root_3_9": {
+          "kind": "workspace-file",
+          "path": "root_3_root_3_9_text.png",
+          "mediaType": "image"
+        },
+        "text_root_3_10": {
+          "kind": "workspace-file",
+          "path": "root_3_root_3_10_text.png",
+          "mediaType": "image"
+        },
+        "text_root_3_11": {
+          "kind": "workspace-file",
+          "path": "root_3_root_3_11_text.png",
+          "mediaType": "image"
+        },
+        "text_root_3_12": {
+          "kind": "workspace-file",
+          "path": "root_3_root_3_12_text.png",
+          "mediaType": "image"
+        },
+        "text_root_3_13": {
+          "kind": "workspace-file",
+          "path": "root_3_root_3_13_text.png",
+          "mediaType": "image"
+        },
+        "text_root_3_14": {
+          "kind": "workspace-file",
+          "path": "root_3_root_3_14_text.png",
+          "mediaType": "image"
+        },
+        "text_root_3_15": {
+          "kind": "workspace-file",
+          "path": "root_3_root_3_15_text.png",
+          "mediaType": "image"
+        },
+        "text_root_3_16": {
+          "kind": "workspace-file",
+          "path": "root_3_root_3_16_text.png",
+          "mediaType": "image"
+        },
+        "text_root_3_17": {
+          "kind": "workspace-file",
+          "path": "root_3_root_3_17_text.png",
+          "mediaType": "image"
+        },
+        "text_root_3_18": {
+          "kind": "workspace-file",
+          "path": "root_3_root_3_18_text.png",
+          "mediaType": "image"
+        },
+        "node_root_3": {
+          "kind": "node-output",
+          "nodeId": "root:3"
+        }
+      },
+      "m0": "15[0,-,0,0,0,0,0,0,0,0,0,0,120(-,0,0,50[-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-],0,-,0,0,0,0,0,0,1,14[0,0,-,0,0,0,0,0,0,0,1,0,0,-],-,0,0,0,0,0,0,0,0,0,0,0,0,19(0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,1,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,11(0,0,0,0,1,-,0,1,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,12(0,0,0,0,0,1,-,0,1,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,18(0,0,0,0,0,0,0,0,0,0,0,1,-,0,1,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,11(0,0,0,0,1,-,0,1,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,12(0,0,0,0,0,1,-,0,1,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,16(0,0,0,0,0,0,0,0,1,-,0,0,1,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,22(0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,1,0,0,-),-),0,-]",
+      "sources": [
+        {
+          "type": "lavfi",
+          "color": "#EF7525",
+          "mask": {
+            "kind": "inline-mask",
+            "localPath": "M623.553 598.302C623.571 612.203 625.962 625.507 630.009 638.06L681.826 638.111V596.255L623.571 596.204V598.302H623.553Z M693.952 713.773C704.318 719.146 715.556 722.967 727.306 725.406V650.75H634.655C646.678 677.887 667.685 700.162 693.952 713.773Z M727.204 596.204V638.043L694.481 638.111V596.272L727.204 596.204Z M831.383 650.767H798.541V728.322H831.383V650.767Z M785.834 650.767H740.013V728.322H785.834V650.767Z M773.145 294H740.303V371.555H773.145V294Z M831.673 294H785.852V371.555H831.673V294Z M623.656 423.731V426.05L681.894 426.101V384.245L630.043 384.194C626.013 396.679 623.707 409.932 623.673 423.731H623.656Z M694.652 384.262V426.153L727.374 426.101V384.194L694.652 384.262Z M727.392 371.538V296.832C698.648 302.784 673.355 318.084 654.944 339.541C646.746 349.092 640.017 359.889 634.859 371.538H727.392Z M831.656 384.228H740.013V426.118H831.656V384.228Z M831.486 596.204H740.03V638.094H831.486V596.204Z M948.44 598.166C948.423 612.066 946.032 625.37 941.984 637.924L890.168 637.975V596.119L948.423 596.068V598.166H948.44Z M878.025 713.637C867.658 719.01 856.42 722.83 844.67 725.269V650.614H937.322C925.298 677.75 904.292 700.026 878.025 713.637Z M844.773 596.068V637.924L877.513 637.975V596.136L844.773 596.068Z M948.321 423.611V425.931L890.083 425.982V384.126L941.933 384.074C945.964 396.56 948.269 409.812 948.303 423.611H948.321Z M877.325 384.126V426.016L844.602 425.965V384.074L877.325 384.126Z M844.585 371.402V296.695C873.328 302.648 898.622 317.947 917.032 339.404C925.23 348.956 931.959 359.752 937.117 371.402H844.585Z M948.44 438.621H902.806V504.799H948.44V438.621Z M948.44 517.438H890.031V583.344H948.44V517.438Z M890.1 438.621H844.482V504.799H890.1V438.621Z M844.482 517.421V583.327L877.325 583.378V517.472L844.482 517.421Z M681.894 517.421H623.553V583.463H681.894V517.421Z M669.188 438.74H623.553V504.782H669.188V438.74Z M727.494 438.74H681.877V504.782H727.494V438.74Z M727.494 517.421H694.583V583.463H727.494V517.421Z M76.0171 378.556H143.2V419.868C143.2 427.631 153.084 430.64 157.564 424.314C177.228 396.51 209.101 374.008 245.522 374.008C293.52 374.008 326.539 397.211 342.219 435.394H345.964C363.285 398.118 402.152 374.008 453.894 374.008C518.974 374.008 564.869 413.798 564.869 493.583V727.741H494.847V499.944C494.847 452.664 464.41 432.658 427.425 432.658C381.787 432.658 355.317 463.129 355.317 505.176V727.741H285.535V495.618C285.535 457.657 258.62 432.658 219.754 432.658C180.887 432.658 146.004 465.386 146.004 512.443V727.741H76V378.556H76.0171Z",
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 1024
+            }
+          },
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Parsing"
+              },
+              "style": {
+                "fontSize": 16,
+                "fontColor": "#3C4763"
+              },
+              "placement": {
+                "fit": "contain",
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "lavfi",
+          "color": "#D9DEEA",
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "canvas"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "1080×1080"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "chars"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "29"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "frames"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "9"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "passthroughs"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "0"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "nulls"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "0"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "groups"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "4"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "precision"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "3×3"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "min feasible"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#8A94AC"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        },
+        {
+          "type": "text",
+          "visual": {
+            "backgroundColor": "black@0"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "3×3 px"
+              },
+              "style": {
+                "fontSize": 13,
+                "fontColor": "#101728"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "middle"
+              }
+            }
+          ],
+          "editor": {
+            "owner": "user"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      ],
+      "backgroundColor": "#FFFFFF",
+      "size": {
+        "width": 1920,
+        "height": 66
+      },
+      "fps": 30,
+      "durationMs": 12000,
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

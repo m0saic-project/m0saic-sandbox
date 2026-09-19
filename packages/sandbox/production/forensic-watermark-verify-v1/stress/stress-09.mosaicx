@@ -1,0 +1,31 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1600,
+    "height": 1000
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-09"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 — 09-padded-9x16-contentRect** (gate-35 stress set for `@m0saic/forensic/watermark/verify/v1`).\n\nThe committed pair LETTERBOXED into 9:16 (what a Reel/TikTok upload of a 16:9 master looks like) + `contentRect` pointing at the picture.\n\nWatch: PASS — without contentRect this same file FAILS (stress-10).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/forensic/watermark/verify/v1",
+      "props": {
+        "videoPath": "<sandbox>/production/forensic-watermark-verify-v1/fixtures/padded-9x16.mp4",
+        "sidecarPath": "<repo>/packages/cli/examples/media/forensic/watermarked_deadbeef.watermark.json",
+        "contentRect": "0,292,480,270"
+      }
+    }
+  ]
+}

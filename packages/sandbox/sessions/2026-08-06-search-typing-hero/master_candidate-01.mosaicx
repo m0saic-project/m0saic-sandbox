@@ -1,0 +1,70 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 400,
+    "height": 712
+  },
+  "fps": 30,
+  "durationMs": 18170,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/hero/search-typing/v1",
+      "props": {
+        "words": [
+          "Ideas",
+          "Answers",
+          "Templates",
+          "Tutorials",
+          "Inspiration"
+        ],
+        "label": "Search for",
+        "frame": "card",
+        "timing": {
+          "typeCharMs": 120,
+          "deleteCharMs": 90,
+          "emptyHoldMs": 850,
+          "wordHoldMs": 1100,
+          "leadMs": 400,
+          "trailMs": 400
+        },
+        "endBehavior": "hold",
+        "caret": {
+          "show": false,
+          "blinkMs": 1000,
+          "widthPx": 2
+        },
+        "underline": "grow",
+        "icon": {
+          "show": true
+        },
+        "style": {
+          "pageColor": "#F2F3F5",
+          "cardColor": "#FFFFFF",
+          "labelColor": "#9AA0A6",
+          "inkColor": "#9AA0A6",
+          "cornerRadiusPx": 16,
+          "barWidthFrac": 0.62,
+          "barAspect": 0.26
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**SHIP-READINESS GATE** — the showcase recipe (card frame, default words/cadence/palette; the exact state you approved through candidates 003–006). Preview assets are already minted from this state; the agent pre-verified square + vertical.\n\nPer-aspect render one-liners (run the ones you want to eyeball):\n\n```\nm0saic make packages/sandbox/sessions/2026-08-06-search-typing-hero/master_candidate-01.mosaicx -o /tmp/st-wide.mp4 -w 1280 -h 400\nm0saic make packages/sandbox/sessions/2026-08-06-search-typing-hero/master_candidate-01.mosaicx -o /tmp/st-square.mp4 -w 1080 -h 1080\nm0saic make packages/sandbox/sessions/2026-08-06-search-typing-hero/master_candidate-01.mosaicx -o /tmp/st-vert.mp4 -w 720 -h 1280\n```\n\n**Try to BREAK it before approving** — the high-value probes: 1 word vs 8 words; a 24-char word; all-caps kern pairs (\"SALT\"); \"j\"/accents at `frame:\"fill\"` (big type); `endBehavior:\"loop\"`; `caret.show:true` with `blinkMs` 100; a pinned 8s duration; `underline:\"static\"`/\"none\"; `cornerRadiusPx` 0 and 100; label cleared.",
+    "question": "Approve the TEMPLATE (not one render): ship it? On approval the next agent renames this to master.mosaicx/.mosaic and the build is commit-ready.",
+    "response": {
+      "body": "approved",
+      "from": "human",
+      "at": "2026-08-06T21:28:47.083Z",
+      "src": "<sandbox>/sessions/2026-08-06-search-typing-hero/./master_candidate-01-400x712.mp4"
+    }
+  }
+}

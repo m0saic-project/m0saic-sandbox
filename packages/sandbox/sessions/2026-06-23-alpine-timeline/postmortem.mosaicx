@@ -1,0 +1,7 @@
+{
+  "_comment": "Alpine timeline template sandbox walkthrough. Invokes @m0saic/meta/post-mortem/v1 against this session (2 candidates + 6 stress variants a-f + _humanedits provenance for the wide-card / overflow bugs). Render on demand: m0saic make packages/sandbox/sessions/2026-06-23-alpine-timeline/postmortem.mosaicx -o /tmp/timeline-session.mp4 -w 1920 -h 1080. NOT rendered at closeout by design.",
+  "kind": "mosaicx_document", "version": 1, "m0": "F", "fps": 30, "durationMs": 33000,
+  "size": { "width": 1920, "height": 1080 }, "assets": {},
+  "sources": [ { "type": "template_invocation", "templateId": "@m0saic/meta/post-mortem/v1",
+    "props": { "sessionPath": "packages/sandbox/sessions/2026-06-23-alpine-timeline", "msPerCandidate": 3000, "msTitleCard": 2000, "msEndCard": 2000 } } ]
+}

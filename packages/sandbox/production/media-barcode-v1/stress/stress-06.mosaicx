@@ -1,0 +1,37 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 977,
+    "height": 733
+  },
+  "fps": 30,
+  "durationMs": 1500,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 \u2014 06-dark-nohri** (gate-18 stress set for `@m0saic/media/barcode/v1`).\n\nBARS ONLY (showHumanReadable false) on dark, coprime canvas. Watch: no caption band carved, full-height bars, black ground.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "pass, ship it",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/barcode/v1",
+      "props": {
+        "text": "M0SAIC-DARK",
+        "format": "code128",
+        "mode": "dark",
+        "showHumanReadable": false
+      }
+    }
+  ]
+}

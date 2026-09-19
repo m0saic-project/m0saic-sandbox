@@ -1,0 +1,150 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "multi",
+  "fps": 30,
+  "steps": [
+    {
+      "name": "talk-720p",
+      "label": "talk-720p",
+      "durationMs": 3000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {
+          "talk-720p": {
+            "kind": "file",
+            "path": "<sandbox>/production/media-blur-regions-v1/fixtures/talk-720p.mp4",
+            "mediaType": "video"
+          }
+        },
+        "size": {
+          "width": 1280,
+          "height": 720
+        },
+        "backgroundColor": "#000000",
+        "m0": "1{120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8(-,0,1,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,-]}}",
+        "sources": [
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover"
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:base"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover",
+              "sourceRect": {
+                "x": 160,
+                "y": 90,
+                "w": 320,
+                "h": 200
+              },
+              "inset": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0.022058823529411766,
+                "left": 0
+              }
+            },
+            "audio": {
+              "enabled": false
+            },
+            "effects": {
+              "blur": 24
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:region"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          },
+          {
+            "type": "media",
+            "mediaType": "video",
+            "assetId": "talk-720p",
+            "placement": {
+              "fit": "cover",
+              "sourceRect": {
+                "x": 800,
+                "y": 400,
+                "w": 360,
+                "h": 240
+              },
+              "inset": {
+                "top": 0.018292682926829267,
+                "right": 0.02309782608695652,
+                "bottom": 0.01016260162601626,
+                "left": 0
+              }
+            },
+            "audio": {
+              "enabled": false
+            },
+            "effects": {
+              "blur": 24
+            },
+            "editor": {
+              "owner": "template",
+              "label": "blur-regions:region"
+            },
+            "engine": {
+              "renderStatus": "ok"
+            }
+          }
+        ],
+        "format": {
+          "kind": "video",
+          "container": "mp4"
+        },
+        "fps": 30,
+        "durationMs": 3000,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "size": {
+    "width": 1280,
+    "height": 720
+  },
+  "durationMs": 3000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/media/blur-regions/v1` \"Easy Blur\"** (gate 19 — media pack remainder 2/n; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase: talk-720p fixture + two blur regions. This gate doubles as the open founder review from the canvas-regions sprint (Phases 1-4 done 08-17).\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated, not primitive | confirm |\n| Gate | — | **base** |\n| Preview assets | committed set — untouched (default look unchanged) | confirm |\n| Cover / Tutorial | cover BUILT this gate (no source = error card was the first-open face; now a synthetic scenic demo with two pixelated regions + band, adaptive px-clamped) | eyeball cover; tutorial needed? |\n\n**Pre-audit verdict: GENUINELY WELL-BUILT — zero template bugs found.** 15/15 input-driven battery over minted fixtures (testsrc2 patterns so effect placement is VISIBLE + sine audio): passthrough base case, blur/pixelate placement exact, image input, bare-px + canvas-wrapped + m0-flavor regions all land, overshoot clamps, fully-outside region fail-fasts with a VISIBLE error card (\"regions are never silently dropped\" — the privacy posture holds end-to-end), all three geometries (inset/exact/mask), 4K, rot90 display-coordinate mapping correct, 12-region mask single-pass, strength extremes, **audio intact** (ffprobe: video+audio streams on the blurred output).\n\n**Notes:** pixelate on flat-color content is visually a no-op by nature (blocks average to the source) — correct, just subtle on synthetic fixtures. New reusable tool: media-aware freeze-twin (ffprobes media props into ctx.media) — gate 13's ad-hoc version is now durable in scratchpad.\n\nJest 39/39 (2 suites). NOT primitive (media utility).",
+    "question": "Default/showcase look verdict? Cover OK? Tutorial needed? Flags confirmed? Then stress.",
+    "response": {
+      "verdict": "ship",
+      "text": "showcase pass (\"looks good, stress\") -> stress x10 pass -> \"all 10 pass, ship it\"",
+      "via": "chat — transcribed by agent",
+      "note": "SHIPPED base ☑ (gate 19, media pack remainder 2/n). ZERO template bugs found across pre-audit (15 configs) + stress (x10) — the canvas-regions sprint's open founder review is now CLOSED via this gate. Cover built (synthetic scenic demo + pixelated regions, adaptive band). NOT primitive. Previews (91617ccf) untouched. Privacy posture verified end-to-end (clamp vs fail-fast, visible error card, audio intact)."
+    }
+  }
+}

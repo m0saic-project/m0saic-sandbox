@@ -1,0 +1,57 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 900,
+    "height": 900
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/commit-feed/v2",
+      "props": {
+        "rows": [
+          {
+            "kind": "fix",
+            "area": "avfilter",
+            "title": "avfilter: fix memory leak in overlay filter",
+            "hash": "h7i8j9k",
+            "author": "Marton Balint",
+            "date": "May 13",
+            "pr": 14185,
+            "reviewers": [
+              "Anton Khirnov"
+            ],
+            "signal": "win"
+          }
+        ],
+        "title": "NOTABLE COMMITS",
+        "subtitle": "Highlight interesting work.",
+        "iconPath": "",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-single-row-square-no-glyph** (retro stress set for `@m0saic/alpine/commit-feed/v2`).\n\nDEGENERATE: N=1 row, square canvas, header glyph CLEARED (iconPath:\"\" → empty accent chip), showHeader on. Contract has no equal-rows rule at N=1 — flip Debug layout to confirm the wireframe renders.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "fail, the view is busted. however, this is not a major scenario so im ok leaving as is",
+      "from": "human",
+      "at": "2026-08-20T21:52:40.471Z",
+      "src": "<sandbox>/production/alpine-commit-feed-v2/stress/./stress-06-900x900.mp4"
+    }
+  }
+}

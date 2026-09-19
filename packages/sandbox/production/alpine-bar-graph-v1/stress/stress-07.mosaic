@@ -1,0 +1,807 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1{121[0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24(-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5[1,1,1,1,1],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1{1{1{5[50(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,-),50(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),50(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),50(0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),50(0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-)]{1{1}}}}}),120(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72(0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,1))]],-),0,0,0,0,0,0,-]}",
+  "assets": {},
+  "size": {
+    "width": 1001,
+    "height": 733
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#111827",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        },
+        "stroke": {
+          "position": "inner",
+          "width": 0.002,
+          "color": "#1F2937",
+          "alpha": 1
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "BAR CHART"
+          },
+          "style": {
+            "fontSize": 37,
+            "fontColor": "#F1F5F9"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Sales by Channel"
+          },
+          "style": {
+            "fontSize": 19,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "bottom"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Email"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle",
+            "padding": {
+              "right": 0.14
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Twitter"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle",
+            "padding": {
+              "right": 0.14
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Reddit"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle",
+            "padding": {
+              "right": 0.14
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Hacker News"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle",
+            "padding": {
+              "right": 0.14
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Other"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "right",
+            "vAlign": "middle",
+            "padding": {
+              "right": 0.14
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#1E293B",
+      "fitMode": "content",
+      "size": {
+        "wExpr": "max(1, TW*0.002)",
+        "hExpr": "TH"
+      },
+      "placement": {
+        "fit": "contain",
+        "hAlign": "left",
+        "vAlign": "top"
+      },
+      "visual": {
+        "opacity": 1
+      },
+      "overlay": {
+        "xExpr": "W*0.3333333333333333",
+        "yExpr": "0"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#1E293B",
+      "fitMode": "content",
+      "size": {
+        "wExpr": "max(1, TW*0.002)",
+        "hExpr": "TH"
+      },
+      "placement": {
+        "fit": "contain",
+        "hAlign": "left",
+        "vAlign": "top"
+      },
+      "visual": {
+        "opacity": 1
+      },
+      "overlay": {
+        "xExpr": "W*0.6666666666666666",
+        "yExpr": "0"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#1E293B",
+      "fitMode": "content",
+      "size": {
+        "wExpr": "max(1, TW*0.002)",
+        "hExpr": "TH"
+      },
+      "placement": {
+        "fit": "contain",
+        "hAlign": "left",
+        "vAlign": "top"
+      },
+      "visual": {
+        "opacity": 1
+      },
+      "overlay": {
+        "xExpr": "W*1",
+        "yExpr": "0"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "overlay": {
+        "startAtSec": 0.15,
+        "alpha": "(min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714))))",
+        "xExpr": "-(w*(1-((min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714)))))))"
+      },
+      "placement": {
+        "inset": {
+          "y": 0.2368421052631579
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.4
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "bar"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "12.4K"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.12
+            }
+          }
+        }
+      ],
+      "overlay": {
+        "startAtSec": 0.46339285714285716,
+        "alpha": "min(1,max(0,lt/0.3482142857142857))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "overlay": {
+        "startAtSec": 0.46339285714285716,
+        "alpha": "(min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714))))",
+        "xExpr": "-(w*(1-((min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714)))))))"
+      },
+      "placement": {
+        "inset": {
+          "y": 0.2368421052631579
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.4
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "bar"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "8.7K"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.12
+            }
+          }
+        }
+      ],
+      "overlay": {
+        "startAtSec": 0.7767857142857143,
+        "alpha": "min(1,max(0,lt/0.3482142857142857))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "overlay": {
+        "startAtSec": 0.7767857142857143,
+        "alpha": "(min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714))))",
+        "xExpr": "-(w*(1-((min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714)))))))"
+      },
+      "placement": {
+        "inset": {
+          "y": 0.2368421052631579
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.4
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "bar"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "5.6K"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.12
+            }
+          }
+        }
+      ],
+      "overlay": {
+        "startAtSec": 1.0901785714285714,
+        "alpha": "min(1,max(0,lt/0.3482142857142857))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "overlay": {
+        "startAtSec": 1.0901785714285714,
+        "alpha": "(min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714))))",
+        "xExpr": "-(w*(1-((min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714)))))))"
+      },
+      "placement": {
+        "inset": {
+          "y": 0.2368421052631579
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.4
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "bar"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "2.1K"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.12
+            }
+          }
+        }
+      ],
+      "overlay": {
+        "startAtSec": 1.4035714285714285,
+        "alpha": "min(1,max(0,lt/0.3482142857142857))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#a371f7",
+      "overlay": {
+        "startAtSec": 1.4035714285714285,
+        "alpha": "(min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714))))",
+        "xExpr": "-(w*(1-((min(1,max(0,lt/0.6964285714285714)))*(min(1,max(0,lt/0.6964285714285714)))*(3-2*(min(1,max(0,lt/0.6964285714285714)))))))"
+      },
+      "placement": {
+        "inset": {
+          "y": 0.2368421052631579
+        }
+      },
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.4
+        }
+      },
+      "editor": {
+        "owner": "user",
+        "label": "bar"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "1.2K"
+          },
+          "style": {
+            "fontSize": 16,
+            "fontColor": "#CBD5E1"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.12
+            }
+          }
+        }
+      ],
+      "overlay": {
+        "startAtSec": 1.7169642857142855,
+        "alpha": "min(1,max(0,lt/0.3482142857142857))"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#334155",
+      "fitMode": "content",
+      "visual": {
+        "opacity": 1
+      },
+      "size": {
+        "wExpr": "TW",
+        "hExpr": "max(1,TH*0.004)"
+      },
+      "placement": {
+        "fit": "contain",
+        "hAlign": "center",
+        "vAlign": "bottom"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#334155",
+      "fitMode": "content",
+      "visual": {
+        "opacity": 1
+      },
+      "size": {
+        "wExpr": "max(1,TW*0.004)",
+        "hExpr": "TH"
+      },
+      "placement": {
+        "fit": "contain",
+        "hAlign": "left",
+        "vAlign": "middle"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "0"
+          },
+          "style": {
+            "fontSize": 13,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "top"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "5K"
+          },
+          "style": {
+            "fontSize": 13,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "top"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "10K"
+          },
+          "style": {
+            "fontSize": 13,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "top"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "15K"
+          },
+          "style": {
+            "fontSize": 13,
+            "fontColor": "#64748B"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "center",
+            "vAlign": "top"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-dark-huge-gap** (retro stress set for `@m0saic/alpine/bar-graph/v1`).\n\npreset:dark + custom barColor (purple) + gap 0.9 (mostly gap). Watch: slivers stay equal + visible, dark grid contrast.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": null
+  }
+}

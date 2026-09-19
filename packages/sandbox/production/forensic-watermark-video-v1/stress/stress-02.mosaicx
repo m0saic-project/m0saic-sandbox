@@ -1,0 +1,29 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 960,
+    "height": 540
+  },
+  "fps": 30,
+  "durationMs": 14213,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-02"
+  },
+  "agent": {
+    "note": "**STRESS 02/10 — 02-dark-night-city** (gate-34 stress set for `@m0saic/forensic/watermark/video/v1`).\n\nDark 960×540 29.97 fps night footage (fps rounds to 30). Adaptive α keeps the mark off the flat dark sky.\n\nWatch: no blocking in the dark sky; verify PASS (margin ~7 native).\n\nVerify the render: `m0saic make @m0saic/forensic/watermark/verify/v1 -o stress-02-check.png --props '{\"videoPath\":\"<render>.mp4\"}'` (the sidecar lands beside the render).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/forensic/watermark/video/v1",
+      "props": {
+        "videoPath": "<repo>/packages/cli/examples/media/hero/hero_2.mp4"
+      }
+    }
+  ]
+}

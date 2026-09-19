@@ -1,0 +1,122 @@
+{
+  "kind": "mosaic_pipeline",
+  "version": 1,
+  "emit": "multi",
+  "steps": [
+    {
+      "name": "the-quick-brown-fox-jumped-over-an-extremely-long-video-filename-for-stamping-tests",
+      "label": "the-quick-brown-fox-jumped-over-an-extremely-long-video-filename-for-stamping-tests",
+      "durationMs": 1000,
+      "file": {
+        "kind": "mosaic_document",
+        "version": 1,
+        "assets": {},
+        "m0": "1",
+        "sources": [
+          {
+            "type": "text",
+            "visual": {
+              "backgroundColor": "#000000"
+            },
+            "layers": [
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "ERROR: Metadata Stamp"
+                },
+                "style": {
+                  "fontSize": 40,
+                  "fontColor": "#ffffff"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "w*0.06",
+                  "yExpr": "h*0.06"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "No probed dimensions for input:"
+                },
+                "style": {
+                  "fontSize": 22,
+                  "fontColor": "#ffffff"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "w*0.06",
+                  "yExpr": "h*0.180000"
+                }
+              },
+              {
+                "content": {
+                  "kind": "literal",
+                  "text": "<sandbox>/production/media-metadata-stamp-v1/fixtures/the-quick-brown-fox-jumped-over-..."
+                },
+                "style": {
+                  "fontSize": 22,
+                  "fontColor": "#ffffff"
+                },
+                "placement": {
+                  "hAlign": "left",
+                  "vAlign": "top",
+                  "xExpr": "w*0.06",
+                  "yExpr": "h*0.205463"
+                }
+              }
+            ],
+            "engine": {
+              "renderStatus": "error",
+              "renderError": {
+                "message": "Metadata Stamp: No probed dimensions for input: <sandbox>/production/media-metadata-stamp-v1/fixtures/the-quick-brown-fox-jumped-over-an-extremely-long-video-filename-for-stamping-tests.mp4"
+              }
+            },
+            "editor": {
+              "owner": "user"
+            }
+          }
+        ],
+        "size": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fps": 30,
+        "durationMs": 1000,
+        "editor": {
+          "owner": "user"
+        },
+        "engine": {
+          "renderStatus": "ok"
+        }
+      }
+    }
+  ],
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 — 05-filename-long** (gate-13 stress set for `@m0saic/media/metadata-stamp/v1`).\n\nFILENAME MODE on an 84-char filename. Watch: the chip clamps to the canvas and the measured text scales down — no clipping.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

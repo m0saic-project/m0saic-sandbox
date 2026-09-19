@@ -1,0 +1,27 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-04"
+  },
+  "agent": {
+    "note": "**TAKE 4 — white default** (founder on take 3, with Make screenshots: \"transparent bg is poor when the background is also black. we need to default to white\").\n\n- `background` defaults to **white** (`DEFAULT_BACKGROUND` + `defaultProps`); the Background segmented control now opens on White. Transparent stays one click away for trace/overlay work — the Layout page's Transparent / trace styles already pass it explicitly, so they are unchanged.\n- Side effect worth knowing: the perf-heatmap PNGs (electron, no background prop) now sit on white instead of transparent.\n- Grid default, explicit debug defaults, preset-decides-mode, grid-paper lattice, and the four engine/CLI fixes all stand. No cover.\n\nStress twins re-frozen AND stills re-rendered (01/02/03/05/06 now sit on white; 04 already asked for white).",
+    "question": "White default reads right? Then stress-01..10. Still open: core-vs-publisher (rec. CORE) · internal:true? (rec. no) · grid-paper keep/prune · label → \"Wireframe\"?"
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {}
+    }
+  ]
+}

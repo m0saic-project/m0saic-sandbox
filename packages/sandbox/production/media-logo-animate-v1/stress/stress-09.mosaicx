@@ -1,0 +1,36 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 608,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2400,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-09"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 — 09-portrait-cascade-shimmer** (gate-21 stress set for `@m0saic/media/logo-animate/v1`).\n\nPortrait canvas + cascade order driving the shimmer band — two sweeps. Watch: the highlight travels row-cascade (not scatter), contain centers the M in portrait.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "\"all 10 pass, ship it\" (set verdict — reviewed via stress/renders/)",
+      "via": "chat — transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/logo-animate/v1",
+      "props": {
+        "animation": "shimmer",
+        "rankSet": "cascade",
+        "shimmerSec": 1.2
+      }
+    }
+  ]
+}

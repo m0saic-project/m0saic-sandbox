@@ -1,0 +1,57 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/kpi-card/v2",
+      "props": {
+        "label": "MONTHLY REVENUE",
+        "value": "$48,250",
+        "delta": "+12.5%",
+        "direction": "up",
+        "sublabel": "vs last month",
+        "preset": "light",
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        },
+        "sparkline": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-07"
+  },
+  "agent": {
+    "note": "**STRESS 07/10 — 07-hostile-sparkline** (gate-6 stress set for `@m0saic/alpine/kpi-card/v2`).\n\nHOSTILE SPARKLINE: all-equal values (flat line — zero range must not div/0). Watch: flat trend renders mid-band, no NaN.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-22T10:11:49.000Z",
+      "via": "chat (\"ship it\" — gate-6 stress set) — transcribed by agent"
+    }
+  }
+}

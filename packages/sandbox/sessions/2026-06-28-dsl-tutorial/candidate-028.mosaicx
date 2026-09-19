@@ -1,0 +1,39 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "2[7(1,0,1,1,1,1,1),9(1,1,1,1,1,0,1,1,1)]",
+        "speedMultiplier": 1,
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-028"
+  },
+  "agent": {
+    "note": "**Ruler — characters genuinely tight now. You were right; my \"geometry floor\" was wrong.**\n\nThe gap wasn't a hard limit — it was that the glyph font was capped by the cell size, and the glyph BAND was short. The fix uses the geometry you pointed at:\n\n- **Glyph band now takes ~80% of the strip's height** (was ~54%), so the font can grow tall.\n- **Font cap raised to 1.6× the cell width.** A glyph's ink is ~0.55× its font, so at this size the ink is ~0.9× the cell — it nearly fills the cell and the neighbours sit almost touching, while still fitting inside the cell horizontally (no clip).\n\nNet on this seed: glyph font ~45px → **~69px**, inter-character gap ~23px → **~10px (≈55% closer)**. Strip is still **full-width**, glyphs are still **depth-1 sibling cells** (no per-glyph overlay stack), so there's **no overlay-depth / tofu risk** even on long strings.\n\nIf you want them literally overlapping (ink past the cell edge), that needs per-glyph absolute layers — which tofus past ~25 chars — so I kept it at \"nearly touching,\" which is robust for every layout. Say the word if you want the overlapping variant for short strings only.\n\n*(172 tests green. Only the fixed/short-string strip changed; the long-string paged path is untouched.)*",
+    "question": "Are the characters tight enough now (~55% closer, nearly touching, full-width)? If yes I think the teaching is done — back to the stress batch (10 layouts already staged in stress/) to find where it struggles.",
+    "response": {
+      "body": "yes. lets get to stress",
+      "from": "human",
+      "at": "2026-06-30T05:14:20.322Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/./candidate-028-1920x1080.mp4"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/progress-card/v1",
+      "props": {
+        "items": [
+          {
+            "label": "Profile setup",
+            "value": 100
+          },
+          {
+            "label": "First project",
+            "value": 75
+          },
+          {
+            "label": "Invite team",
+            "value": 40
+          },
+          {
+            "label": "Go live",
+            "value": 15
+          }
+        ],
+        "title": "ONBOARDING",
+        "subtitle": "One brand color, square bars",
+        "preset": "light",
+        "cornerRadius": 0,
+        "showValue": true,
+        "anim": {
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        },
+        "barColor": "#2563EB"
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant B — one brand color for ALL bars (barColor) + square bars (cornerRadius 0).",
+    "question": "Approve or deny this config.",
+    "response": {
+      "body": "approved.",
+      "from": "human",
+      "at": "2026-06-22T18:16:08.569Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

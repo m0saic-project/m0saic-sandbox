@@ -1,0 +1,39 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "3[4(0,0,0,F),3(F,F,F),4(0,F,0,F)]",
+        "speedMultiplier": 1,
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "premaster-09-passthrough-multi"
+  },
+  "agent": {
+    "note": "**Pre-master · Multi-passthrough.** A dashboard-ish layout  — three passthrough PATTERNS: a full-width **hero** (3 leading s donate forward to one F), a plain 3-col row, and two **halves** (each F absorbs its own passthrough). Watch the donation teaching — inspector N/R/C, dashed guides clearing on claim, narration “absorbs Npx donated by a passthrough”.",
+    "question": "Multiple passthroughs across the layout read right — hero spans full width, halves absorb their donation, N/R/C track correctly?",
+    "response": {
+      "body": "approved.",
+      "from": "human",
+      "at": "2026-07-02T22:54:19.117Z",
+      "src": "<sandbox>/sessions/2026-06-28-dsl-tutorial/premaster/./premaster-09-passthrough-multi-1920x1080.mp4"
+    }
+  }
+}

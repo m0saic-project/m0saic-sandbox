@@ -1,0 +1,422 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "sources": [
+    {
+      "type": "mosaic",
+      "ref": "info-pane",
+      "placement": {
+        "fit": "cover",
+        "focusY": 0
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0,
+          "right": 0.003125,
+          "bottom": 0.006521739130434782,
+          "left": 0
+        }
+      },
+      "playback": {
+        "clipStartMs": 800,
+        "clipDurationMs": 33,
+        "loopMode": "freeze"
+      },
+      "audio": {
+        "enabled": false
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0.006521739130434782,
+          "left": 0.003125
+        }
+      },
+      "playback": {
+        "clipStartMs": 1600,
+        "clipDurationMs": 33,
+        "loopMode": "freeze"
+      },
+      "audio": {
+        "enabled": false
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0.006521739130434782,
+          "right": 0.003125,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "playback": {
+        "clipStartMs": 2400,
+        "clipDurationMs": 33,
+        "loopMode": "freeze"
+      },
+      "audio": {
+        "enabled": false
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "media",
+      "mediaType": "video",
+      "assetId": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved",
+      "placement": {
+        "fit": "cover",
+        "inset": {
+          "top": 0.006521739130434782,
+          "right": 0,
+          "bottom": 0,
+          "left": 0.003125
+        }
+      },
+      "playback": {
+        "clipStartMs": 3200,
+        "clipDurationMs": 33,
+        "loopMode": "freeze"
+      },
+      "audio": {
+        "enabled": false
+      },
+      "editor": {
+        "owner": "template"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "image"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "00:00:00.800"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#ffffff",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#000000",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0,
+          "right": 0.003125,
+          "bottom": 0.006521739130434782,
+          "left": 0
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "image"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "00:00:01.600"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#ffffff",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#000000",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0.006521739130434782,
+          "left": 0.003125
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "image"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "00:00:02.400"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#ffffff",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#000000",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.006521739130434782,
+          "right": 0.003125,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "image"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "00:00:03.200"
+          },
+          "style": {
+            "fontSize": 18,
+            "fontColor": "#ffffff",
+            "borderWidth": 0.003,
+            "borderColor": "black@0.8",
+            "boxColor": "#000000",
+            "boxBorderWidth": 6
+          },
+          "visual": {
+            "backgroundColor": "none"
+          },
+          "placement": {
+            "hAlign": "right",
+            "vAlign": "bottom",
+            "padding": {
+              "x": 0.02,
+              "y": 0.03
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "template"
+      },
+      "placement": {
+        "inset": {
+          "top": 0.006521739130434782,
+          "right": 0,
+          "bottom": 0,
+          "left": 0.003125
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "assets": {
+    "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved": {
+      "kind": "file",
+      "path": "<sandbox>/production/media-screencap-grid-v2/fixtures/quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-final-edit-v3-EXPORT-FINAL-approved.mp4",
+      "mediaType": "video"
+    }
+  },
+  "m0": "54[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1)]{54[0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2(1,1)]}",
+  "children": {
+    "info-pane": {
+      "kind": "mosaic_document",
+      "version": 1,
+      "assets": {},
+      "m0": "1",
+      "sources": [
+        {
+          "type": "text",
+          "renderMode": {
+            "kind": "image"
+          },
+          "layers": [
+            {
+              "content": {
+                "kind": "literal",
+                "text": "quarterly-all-hands-recording-of-the-product-team-demo-day-westcoast-session-two-f…proved.mp4"
+              },
+              "style": {
+                "fontSize": 16,
+                "fontColor": "#ffffff",
+                "borderWidth": 1,
+                "borderColor": "#ffffff"
+              },
+              "visual": {
+                "backgroundColor": "#0d0d0d"
+              },
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "top",
+                "yExpr": "6",
+                "padding": {
+                  "x": 0.015
+                }
+              }
+            },
+            {
+              "content": {
+                "kind": "literal",
+                "text": "Duration: 4.00s  |  Size: 144.25 KiB (147,709 bytes)  |  Bitrate: 295 kbit/s  |  Container: QuickTime / MOV\nStream 0 Video: 640x360 yuv420p 8-bit 30.00 fps H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10 (High)\nStream 1 Audio: mono 44.1 kHz 69 kbit/s AAC (Advanced Audio Coding)"
+              },
+              "style": {
+                "fontSize": 9,
+                "fontColor": "#a0a0a0"
+              },
+              "visual": {},
+              "placement": {
+                "hAlign": "left",
+                "vAlign": "top",
+                "yExpr": "33",
+                "padding": {
+                  "x": 0.015
+                }
+              }
+            }
+          ],
+          "editor": {
+            "owner": "template"
+          },
+          "engine": {
+            "renderStatus": "ok"
+          }
+        }
+      ],
+      "size": {
+        "width": 960,
+        "height": 540
+      },
+      "fps": 30,
+      "durationMs": 2000,
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  },
+  "format": {
+    "kind": "image",
+    "container": "png"
+  },
+  "size": {
+    "width": 960,
+    "height": 540
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  }
+}

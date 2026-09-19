@@ -1,0 +1,23 @@
+{
+  "_comment": "First REAL render of the donut — invokes @m0saic/charts/donut/v1 (static Phase B scaffold, built from YOUR hand-corrected candidate-004 geometry: ring fills 0.92 of min dim — your 'Donut Chart Area'; ringThicknessFrac 0.36 derived from your 100x100 'Number Area' on the ~178px circle; flush segments + colors sampled from the reference crop: majority #588168, minority #95c6a7; clockwise from 12 so the 25% weekend arc lands upper-left like the reference). Render: m0saic make packages/sandbox/sessions/2026-06-12-donut-distribution/candidate-005.mosaicx -o /tmp/donut.mp4 -w 360 -h 360. Variants to try by editing props: thicker ring -> {\"ringThicknessFrac\":0.42}; with caption -> {\"centerLabel\":\"Total Commits\"}; three segments -> add {\"label\":\"Bots\",\"value\":10} to segments. Animation (sweep + count-up) is Phase C — judge the STATIC ring here: thickness, hole/value balance, colors, segment proportions.",
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "fps": 30,
+  "durationMs": 2000,
+  "size": { "width": 360, "height": 360 },
+  "assets": {},
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/donut/v1",
+      "props": {
+        "segments": [
+          { "label": "Weekday Commits", "value": 75 },
+          { "label": "Weekend Commits", "value": 25 }
+        ],
+        "centerValue": "247"
+      }
+    }
+  ]
+}

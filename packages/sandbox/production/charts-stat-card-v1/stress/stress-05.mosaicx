@@ -1,0 +1,39 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 2500,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-05"
+  },
+  "agent": {
+    "note": "**STRESS 05/10 \u2014 05-down-custombg** (gate-17 stress set for `@m0saic/charts/stat-card/v1` \u2014 the charts-pack closer).\n\nDOWN delta + custom card color. Watch: red arrow + red text, custom #0b1f16 surface (the base-tile fix \u2014 cards rendered BLACK through .mosaicx before this gate).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "ship",
+      "via": "chat \u2014 transcribed by agent"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/charts/stat-card/v1",
+      "props": {
+        "label": "Open Issues",
+        "value": "412",
+        "delta": "-42 (-8.1%)",
+        "direction": "down",
+        "sublabel": "vs last sprint",
+        "backgroundColor": "#0b1f16"
+      }
+    }
+  ]
+}

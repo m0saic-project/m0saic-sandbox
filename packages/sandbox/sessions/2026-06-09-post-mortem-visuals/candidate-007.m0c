@@ -1,0 +1,120 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T03:15:04.720Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.10",
+  "meta": {
+    "title": "2026-06-09-post-mortem-visuals · candidate-007 (Momo colors + circular avatars)"
+  },
+  "agent": {
+    "note": "Iter 7 — addressing iter6 feedback. (a) Avatar shrunk from 80×100 to 40×40 so the message body dominates the row height. (b) Body widened from 470 → 600px (per \"both message slots can take a bit more width\"). (c) Avatars now carry a circular SVG mask via the new circleMask() helper in @m0saic/dsl-stdlib/libraries/mask-shapes — flip on Masks in the editor VIEW panel to see the silhouette. The agent now has a reusable circle-mask primitive (also pillMask + roundedRectMask in the same module) so this stops being something to re-derive every iteration. (d) Human bubbles use brand orange (#EF7525) matching Momo's user bubble convention; agent bubbles use a subtle dark (#23262f) so they read against the bg without competing with the orange. (e) Background set to #14151b — same color Layout uses for its topbar, so the chat sits in the familiar Mosaic Desktop palette.",
+    "question": "How does the brand orange feel for human bubbles? Is the 40×40 avatar circle right, or do you want it bigger / smaller? The agent dark bubble (#23262f) — too subtle (almost vanishes into bg)? Should the system row use one of the brand accent colors instead of neutral gray? Anything else feel off — y-spacing, body width, row stride?",
+    "context": {
+      "category": {
+        "kind": "known",
+        "value": "color-palette-exploration"
+      },
+      "intent": {
+        "action": "refine",
+        "summary": "Momo brand palette + circular avatars via mask-shapes helper"
+      },
+      "relation": {
+        "kind": "refines",
+        "target": "006"
+      },
+      "layoutIntent": "free"
+    },
+    "response": {
+      "body": "cannot evaluate this entry because other issues have broken the layout entirely",
+      "from": "human",
+      "at": "2026-06-10T03:22:18.695Z"
+    }
+  },
+  "size": {
+    "width": 768,
+    "height": 1080
+  },
+  "m0": "270[0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,192(0,0,0,0,-,0,0,0,0,0,0,0,0,0,1,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,32(0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,-),0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,192(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,32(0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-),0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,192(0,0,0,0,-,0,0,0,0,0,0,0,0,0,1,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,32(0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,-),0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,192(0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-),0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,192(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,32(0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]",
+  "labels": {
+    "r/gcolc19/fc14": {
+      "text": "agent · 🤖",
+      "color": "#bcd6e8"
+    },
+    "r/gcolc19/fc167": {
+      "text": "agent: opening question",
+      "color": "#23262f"
+    },
+    "r/gcolc34/fc27": {
+      "text": "human: response",
+      "color": "#ef7525"
+    },
+    "r/gcolc50/fc173": {
+      "text": "human · 👤",
+      "color": "#c25e1c"
+    },
+    "r/gcolc50/fc186": {
+      "text": "agent · 🤖",
+      "color": "#bcd6e8"
+    },
+    "r/gcolc65/fc28": {
+      "text": "agent: follow-up",
+      "color": "#23262f"
+    },
+    "r/gcolc81/fc14": {
+      "text": "system: candidate-002 · spacing-alignment",
+      "color": "#4b5563"
+    },
+    "r/gcolc81/fc167": {
+      "text": "human: response 2",
+      "color": "#ef7525"
+    },
+    "r/gcolc96/fc27": {
+      "text": "human · 👤",
+      "color": "#c25e1c"
+    }
+  },
+  "derive": {
+    "background": "#14151b"
+  },
+  "masks": {
+    "r/gcolc19/fc14": {
+      "localPath": "M 20 0 A 20 20 0 1 0 20 40 A 20 20 0 1 0 20 0 Z",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      }
+    },
+    "r/gcolc50/fc173": {
+      "localPath": "M 20 0 A 20 20 0 1 0 20 40 A 20 20 0 1 0 20 0 Z",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      }
+    },
+    "r/gcolc50/fc186": {
+      "localPath": "M 20 0 A 20 20 0 1 0 20 40 A 20 20 0 1 0 20 0 Z",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      }
+    },
+    "r/gcolc96/fc27": {
+      "localPath": "M 20 0 A 20 20 0 1 0 20 40 A 20 20 0 1 0 20 0 Z",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      }
+    }
+  },
+  "rankSets": null,
+  "custom": null
+}

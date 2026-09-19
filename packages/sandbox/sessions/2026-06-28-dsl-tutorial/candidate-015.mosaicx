@@ -1,0 +1,53 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "3[2(F,F),2(F,F),2(F,F)]",
+        "speedMultiplier": 1,
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "candidate-015"
+  },
+  "agent": {
+    "note": "**M2.4-fix³ — the cursor ring no longer clips at the edges.** You nailed it: cells on the canvas perimeter (the top-left cell in your shot, and the root frame) had their **top + left edges cut off** — those edges sat exactly on the canvas boundary, where the stroke gets clipped *and* overdrawn by the topmost Frame outline. The internal edges (the divider) had no such conflict, so they showed fine — exactly the asymmetry you saw.\n\n**Fix:** inset the ring one stroke-width off the cell bounds, so it always sits **fully inside** the canvas (a focus-ring just inside the Frame, never on the boundary). Verified in render: the root-frame ring now draws all four edges, and the cell-1 ring frames the whole cell — top + left included.\n\nClamped so small cells can't collapse the ring. Same baked-rect machinery as 014, no geq.",
+    "question": "Is the cursor ring now **fully drawn on every edge** as it walks each cell (no clipped top/left)? If yes, the geometry cursor is settled — I'll move to **M3 (DSL-string panel)**.",
+    "context": {
+      "category": {
+        "kind": "other",
+        "label": "geometry-cursor"
+      },
+      "intent": {
+        "action": "propose",
+        "summary": "M2.4-fix³ — inset the cursor ring off the canvas perimeter so edge-touching cells (root frame, perimeter cells) aren't clipped/overdrawn."
+      },
+      "relation": {
+        "kind": "refines",
+        "target": "014"
+      }
+    },
+    "response": {
+      "body": "yes, this is OK now.  we can move on.",
+      "from": "human",
+      "at": "2026-06-29T13:13:34.818Z",
+      "src": "~/MEGA/v1-1920x1080.mp4"
+    }
+  }
+}

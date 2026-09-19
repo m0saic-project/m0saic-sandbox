@@ -1,0 +1,229 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{25[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4[0,0,1,50(0,0,-,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1)],0,0,1]}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#161b22",
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "Total Commits"
+          },
+          "style": {
+            "fontSize": 88,
+            "fontColor": "#8b949e"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.06
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-label"
+      },
+      "overlay": {
+        "yExpr": "(1-(min(1,max(0,(t-0)/0.25))))*H",
+        "enable": "gte(t,0)",
+        "startAtSec": 0,
+        "window": {
+          "startSec": 0
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:246*((1-(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))*(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))))+0.5\\:d}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 368,
+            "fontColor": "#e6edf3"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.06
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-value"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#3fb950",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 76.8 27.3 L 133 124.7 L 20.6 124.7 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 153.6,
+          "height": 152
+        }
+      },
+      "overlay": {
+        "yExpr": "(1-(min(1,max(0,(t-1.1549999999999998)/0.735))))*H",
+        "enable": "gte(t,1.1549999999999998)",
+        "startAtSec": 1.1549999999999998,
+        "window": {
+          "startSec": 1.1549999999999998
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "+%{eif\\:18*((1-(1-(min(1\\,max(0\\,(t-1.1549999999999998)/0.7349999999999999))))*(1-(min(1\\,max(0\\,(t-1.1549999999999998)/0.7349999999999999))))))+0.5\\:d} (+%{eif\\:7.9*((1-(1-(min(1\\,max(0\\,(t-1.1549999999999998)/0.7349999999999999))))*(1-(min(1\\,max(0\\,(t-1.1549999999999998)/0.7349999999999999))))))\\:d}.%{eif\\:mod(7.9*((1-(1-(min(1\\,max(0\\,(t-1.1549999999999998)/0.7349999999999999))))*(1-(min(1\\,max(0\\,(t-1.1549999999999998)/0.7349999999999999))))))*10\\,10)\\:d\\:1}\\%)",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 104,
+            "fontColor": "#3fb950"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.04
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-delta"
+      },
+      "overlay": {
+        "yExpr": "(1-(min(1,max(0,(t-1.1549999999999998)/0.735))))*H",
+        "enable": "gte(t,1.1549999999999998)",
+        "startAtSec": 1.1549999999999998,
+        "window": {
+          "startSec": 1.1549999999999998
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "vs last week"
+          },
+          "style": {
+            "fontSize": 64,
+            "fontColor": "#6e7681"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "middle",
+            "padding": {
+              "left": 0.06
+            }
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "kpi-sublabel"
+      },
+      "overlay": {
+        "yExpr": "(1-(min(1,max(0,(t-1.7849999999999997)/0.315))))*H",
+        "enable": "gte(t,1.7849999999999997)",
+        "startAtSec": 1.7849999999999997,
+        "window": {
+          "startSec": 1.7849999999999997
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "#161b22",
+  "fps": 30,
+  "durationMs": 3000,
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/charts/stat-card/v1`** (gate 17 — CLOSES THE CHARTS PACK 4/4; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase defaults. Alpine/stat-card/v1 already shipped base (gate 10) — this is the original it forked from.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated, primitive:true | confirm |\n| Gate | — | **base** |\n| Preview assets | see history note | review |\n| Cover / Tutorial | cover BUILT this gate (count-up + cascade starts near-blank) | eyeball cover; tutorial needed? |\n\n**Pre-audit found + fixed 3:**\n1. **The CARD RENDERED BLACK through the .mosaicx path** — the design deliberately made the surface doc.backgroundColor-only (\"single flat layer\"), which the known bg-drop candidate (2026-08-06) strips at template_invocation flattening. Verified by pixel: the whole battery's cards were (0,0,0). Surface now ALSO paints as a real base tile (\"none\" keeps the flat transparent doc).\n2. **No text caps anywhere** — the VALUE is a FIXED-fontSize expr layer (no fit): a 13-char value at H·0.46 clipped to \"1,248,9\" at 640×360; label/delta/sublabel (fit:contain) clipped in the CLI too. Ported the alpine stat-card capFont + fitTo idiom, script-aware, all four groups.\n3. **Band-height arrow dwarfed the text at portrait aspects** (122px triangle vs 10px text at 360×640) — ported alpine's two-pass arrow cap (arrow ≤ 1.5× delta font, re-derive cells; byte-identical at the ideal ~2.6:1).\n\nAlso: debugLayout contract (4 textFits groups; debug forces the literal value/flare so coverage is unconditional — the donut pattern), tagged sources, cover (inline-flat, probed cell).\n\n**Primitive-sense: KEEP primitive:true** — the KPI building block the repo-tracker hero composes 4×.\n\nBattery 84/84 baseline (feasibility-green, VISUALLY broken: black cards + clipped text) + 84/84 final build ×2, probe 14/14 defaults + 70/70 binding configs (13-char value, Cyrillic, no-delta, custom bg, none+noslide), jest 10/10 (indices shifted for the base tile).",
+    "question": "Default look verdict? Cover OK? Tutorial needed? primitive:true confirmed? Then stress — and the charts pack closes."
+  }
+}

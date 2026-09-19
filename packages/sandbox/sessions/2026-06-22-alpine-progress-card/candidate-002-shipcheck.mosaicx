@@ -1,0 +1,60 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/progress-card/v1",
+      "props": {
+        "items": [
+          {
+            "label": "Q4 Sales",
+            "value": 66,
+            "max": 0
+          },
+          {
+            "label": "New Users",
+            "value": 84
+          },
+          {
+            "label": "Retention",
+            "value": 92
+          },
+          {
+            "label": "NPS Target",
+            "value": 45
+          }
+        ],
+        "title": "QUARTERLY GOALS",
+        "subtitle": "Progress to target",
+        "preset": "light",
+        "cornerRadius": 0.5,
+        "showValue": true,
+        "anim": {
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "agent": {
+    "note": "candidate-002 — SHIP-READINESS check for @m0saic/alpine/progress-card/v1. The look is approved (multi-color + right-aligned values, per your verdict). This is the 'good to LOCK?' gate.\n\nALSO FIXED — your editor-affordance note: the objectRows Items editor squeezed the Label (text) column to an unusable sliver because the narrow inspector + 4 columns (Label/Value/Max/Color) left no room. Fixed app-side: the text cell now keeps a usable min-width (96px) and the row wraps instead of collapsing — so it renders well for the progress Items (and any many-column objectRows). Reload Make to see it.\n\nPRE-VERIFIED by me (real renders): 4-item default, 8 dense items (palette cycles, readable), max-based with valueLabel '680 / 1000 GB' on dark preset, >100% clamps, empty→error. \n\nHIGH-VALUE KNOBS WORTH YOUR EYES:\n  • value/max vs bare % ; a custom valueLabel ($ / GB / 'x of y').\n  • 1 item vs 8 items — row spacing + bar thickness.\n  • barColor (one color for ALL bars) vs per-item colors vs a CLEARED color (should fall back, not vanish).\n  • showValue off ; cornerRadius (square ↔ pill bars).\n  • very long label / long valueLabel (fit:contain caps).\n  • dark preset ; intro length ; reduce motion (static final).",
+    "question": "Stress it (now with a usable Items editor). If it holds, approve the TEMPLATE and I'll lock @m0saic/alpine/progress-card/v1 with the FULL agent.md closeout (unit test + CLI E2E + manifest + News + preview image/video/poster + master.mosaic(x) + postmortem.mosaicx). Anything off → point me at it.",
+    "response": {
+      "body": "this looks good. you mention $ / GB. ''x of y'. we can only show % in the value right? so im confused what you mean. also, lets do the stress test a bit differently. You can generate a handful of variants with props set to test differnent configurations. ill test them and approve or deny. that way I dont need to wire up all the knobs myself.",
+      "from": "human",
+      "at": "2026-06-22T17:45:13.650Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1280x800.mp4"
+    }
+  }
+}

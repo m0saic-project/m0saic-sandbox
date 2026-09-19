@@ -1,0 +1,44 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 733,
+    "height": 977
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/stat-card/v1",
+      "props": {
+        "label": "Commits",
+        "value": "1,243",
+        "delta": "+12.4%",
+        "direction": "up",
+        "sublabel": "vs last week",
+        "icon": "commits",
+        "renderMode": "premium",
+        "preset": "light",
+        "anim": {
+          "reduceMotion": true
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-09"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 — 09-static** (gate-10 stress set for `@m0saic/alpine/stat-card/v1`).\n\nreduceMotion static at the odd killer dims. Watch: complete static card, no count-up (value at final), no fades.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it. keep both as base",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

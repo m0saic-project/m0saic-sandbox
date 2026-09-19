@@ -1,0 +1,97 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 4000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/treemap/v2",
+      "props": {
+        "items": [
+          {
+            "label": "Infrastructure Engineering",
+            "value": 340
+          },
+          {
+            "label": "Product Development",
+            "value": 260
+          },
+          {
+            "label": "Sales Operations",
+            "value": 180
+          },
+          {
+            "label": "Customer Success",
+            "value": 120
+          },
+          {
+            "label": "Marketing",
+            "value": 95
+          },
+          {
+            "label": "Design Systems",
+            "value": 70
+          },
+          {
+            "label": "Data Science",
+            "value": 55
+          },
+          {
+            "label": "Security",
+            "value": 40
+          },
+          {
+            "label": "Legal",
+            "value": 28
+          },
+          {
+            "label": "Finance",
+            "value": 22
+          },
+          {
+            "label": "People Ops",
+            "value": 15
+          },
+          {
+            "label": "IT Helpdesk",
+            "value": 8
+          }
+        ],
+        "title": "ANNUAL BUDGET ALLOCATION BY DEPARTMENT",
+        "subtitle": "By department",
+        "preset": "light",
+        "valueMode": "percent",
+        "tiles": {
+          "cornerRadius": 0.06
+        },
+        "showValue": true,
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-01"
+  },
+  "agent": {
+    "note": "**STRESS 01/10 — 01-max12-long** (gate-12 stress set for `@m0saic/alpine/treemap/v2` — the LAST alpine gate).\n\nMAX LOAD: 12 items (the cap) with long labels. Watch: pack quality, label fits, tiny tiles drop labels gracefully, cascade across 12.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "10[1,0,0,0,0,0,0,0,0,2(2[1,1],2[1,1])]",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 5000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/wireframe/animated/v1` \"Animated Wireframe\"** (gate 30 — WIREFRAME pack 2/2; chart: `.ai/LAUNCH/v1-template-cut.md`). Core tier, tags wireframe + animated + docs-only. The family's VIDEO baseline: every cell of an m0 layout slides into place in document order (`overlay.startAtSec` + `enable` + a 300ms y-slide), one nested `wireframe/cell/v1` per cell. Props = pure defaults → the 2×2 grid on a white canvas with the m0 header, 5s (the hint; Make's duration knob drives the reveal).\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | core · not internal · not deprecated | confirm (no version chain — this IS the animated baseline) |\n| Label | \"Animated Wireframe\" | keep |\n| Cover | none | none (gate-29 ruling: dev template, the default face IS the layout) |\n| Tutorial | none | skip |\n| Previews | `poster.png` + `preview.mp4` (04-05, pre-cut) — poster shows the OLD look (`m0saic:` header, wrong `960x540` dims, silent AAC track) | RE-MINT at the new default after the verdict (+ corner-M) |\n| Battery | **35/35 GREEN** (24 CLI mp4 renders + ffprobe/pixel asserts) | — |\n| E2E | 2 variants (grid-2x2, overlay-on-left) | — |\n\n**Pre-audit findings → fixed:**\n\n| Finding | Fix |\n|---|---|\n| **Cells printed the WRONG geometry** under the header: dims came from the bare canvas (`960x540` for a 2×2 at 1080p) while the engine renders the layout in the 9/10 beneath the band (960×486) — a docs template lying about sizes | frames now come from the WRAPPED string; the cells print what renders (`960 × 486`) |\n| Header = fixed 26px drawtext: invisible at 4K, clipped both ends on a 100-cell string, oversized on a 320×180 canvas | sized to the band (36%, 12–48px), shrinks to the canvas width under an m0-aware width model, middle-ellipsizes only past the floor — the 100-cell string prints WHOLE at 13px |\n| Custom labels never fit-checked (a 68-char label clipped at the cell edge); dims/ratio marks clipped in narrow tall cells | class-aware CLI width model → labels shrink to the cell (ellipsis only at the 14px floor); marks DEGRADE ratio → dims → number-only; vertical budget keeps the stack clear of the index |\n| `labels` blanked EVERY unlabeled cell (no number, no dims) | base/v2 parity: unlabeled cells keep their marks; `unlabeledCells: \"empty\"` opts into blanks; a labeled cell shows the label alone |\n| **A blank cell crashed the render** (`unlabeledCells: \"empty\"` / whitespace label → text source with `layers: []` → engine refuses → exit 1) | `wireframe/cell/v1` now emits one empty literal — border + background render, no glyphs (family fix: base/v1 too) |\n| No `background` knob — the canvas fell to the engine's BLACK (white tiles popping out of black) | `background` white (default) \\| transparent, base/v2's enum; a preset/theme background still wins |\n| `grid-paper` preset resolved a lattice NOTHING drew (the gate-29 finding — same v1 resolver) | wired via the shared `utils/paperGrid.ts`: one static lattice top-overlay leaf, visible from t=0, tiles slide in beneath |\n| No `format` / `audio` stamps (pre-convention); the committed preview.mp4 carries a silent AAC track | `format` video/mp4 (doc + hints) + `audio: {mode:\"off\"}` — battery verifies 0 audio streams on all 24 renders |\n| Defaults: bare `F`, implicit mode, engineering-speak description (\"uses overlay.startAtSec + overlay.enable\") | explicit defaults (2×2 grid, mode debug, white, marks; byte-identical to implicit), user-facing description (template + registry) |\n| Marks text `960x540` / `AR: 1.78` (v1 style) | harmonized with base/v2: `960 × 486` / `160:81 · 1.98`; dims/ratio stack gap opened 1.2 → 1.45 (the lines touched) |\n\n**Verified, no change needed:** reveal timing contract (lead/trail pads, last slide settles before the end, explicit `--durationMs` honored, padding 0 and 2) · null/passthrough slots never get a cell · overlay strings · thumb-dark / thumb-light / heatmap-depth / debug-contrast presets · portrait + 320×180 + 4K canvases · 100 cells render in ~21s (nested drawtext cost — a single-pass port onto base/v2's glyph tiles is the v2 of this template if speed ever matters; 24 cells = 5s).\n\nUnit 138/138 (wireframe family incl. 22 new gate-30 locks). Stress ×10 pre-minted in `stress/` (agent pass clean; end-frame PNGs beside the recipes) — review after the default verdict.",
+    "question": "Gate-30 verdict on the default reveal (white canvas, 2×2, header) · keep the header band as the default face, or hide it (`disableUi`) by default? · core confirm. Then stress-01..10.",
+    "response": {
+      "verdict": "deprecate (keep in base as base·dep)",
+      "text": "\"I was actually thinking that this template maybe is superseded by DSL tutorial. If you want a static wireframe, you use wireframe. And if you want animation, DSL tutorial is effectively just better. I think we can still keep this, but we can probably mark it as deprecated. At extreme m0 it holds its keep a little bit better because it is the easier way to work with it, but at that level of m0 you are not getting a lot of super useful stuff anyway. It works well for small to midsized, which is perfect.\"",
+      "via": "chat, 2026-09-04 — transcribed by agent (no in-file response was saved)",
+      "from": "human",
+      "at": "2026-09-04T00:00:00.000Z"
+    },
+    "comments": [
+      {
+        "id": "gp-drift-0904",
+        "from": "agent:claude",
+        "at": "2026-09-04T00:00:00.000Z",
+        "body": "⚠ The frozen .mosaic twins of this gate do NOT carry the reveal: `resolve --flatten` splices child sources verbatim and drops the parent mosaic source's `overlay` (startAtSec/enable/yExpr), so the twin renders every cell from t=0. Renders from the .mosaicx are correct. Platform bug + the GeometricPreview drifts from the founder's Make screenshot (text exprs double-scaled, mosaic sources never enable-gated, borderWidth semantics) are catalogued in `.ai/candidates/ARCHIVED/2026-09-04-geometric-preview-drift-animated-wireframe.md`. Re-freeze the twins once flatten pushes the parent overlay down."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "type": "text",
+      "style": {
+        "fontSize": 39,
+        "fontColor": "#000000",
+        "fontFamily": "Arial, sans-serif"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "m0: 2(2[1,1],2[1,1])"
+          }
+        }
+      ],
+      "placement": {
+        "hAlign": "center",
+        "vAlign": "middle"
+      },
+      "visual": {
+        "backgroundColor": "#ffffff"
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "style": {
+        "fontSize": 87,
+        "fontColor": "#000000",
+        "fontFamily": "Arial, sans-serif",
+        "borderWidth": 0.005,
+        "borderColor": "#000000"
+      },
+      "visual": {
+        "backgroundColor": "#ffffff"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "960 × 486"
+          },
+          "style": {
+            "fontColor": "#000000",
+            "fontSize": 81
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "top",
+            "xExpr": "(w-text_w)/2",
+            "yExpr": "(h-((81*1.45)+(55*1.45)))/2 - h*0.02 + (81*1.45)*0"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "160:81 · 1.98"
+          },
+          "style": {
+            "fontColor": "#000000",
+            "fontSize": 55
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "top",
+            "xExpr": "(w-text_w)/2",
+            "yExpr": "(h-((81*1.45)+(55*1.45)))/2 - h*0.02 + (55*1.45)*1"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "1"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top",
+            "padding": {
+              "x": 0.03,
+              "y": 0.03
+            }
+          },
+          "style": {
+            "fontSize": 78,
+            "fontColor": "#000000",
+            "fontFamily": "Arial, sans-serif",
+            "borderWidth": 0.005,
+            "borderColor": "#000000"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 0.35,
+        "enable": "gte(t,0.350)",
+        "yExpr": "-(1-min((t-0.35)/0.3,1))*486*0.08"
+      }
+    },
+    {
+      "type": "text",
+      "style": {
+        "fontSize": 87,
+        "fontColor": "#000000",
+        "fontFamily": "Arial, sans-serif",
+        "borderWidth": 0.005,
+        "borderColor": "#000000"
+      },
+      "visual": {
+        "backgroundColor": "#ffffff"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "960 × 486"
+          },
+          "style": {
+            "fontColor": "#000000",
+            "fontSize": 81
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "top",
+            "xExpr": "(w-text_w)/2",
+            "yExpr": "(h-((81*1.45)+(55*1.45)))/2 - h*0.02 + (81*1.45)*0"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "160:81 · 1.98"
+          },
+          "style": {
+            "fontColor": "#000000",
+            "fontSize": 55
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "top",
+            "xExpr": "(w-text_w)/2",
+            "yExpr": "(h-((81*1.45)+(55*1.45)))/2 - h*0.02 + (55*1.45)*1"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "2"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top",
+            "padding": {
+              "x": 0.03,
+              "y": 0.03
+            }
+          },
+          "style": {
+            "fontSize": 78,
+            "fontColor": "#000000",
+            "fontFamily": "Arial, sans-serif",
+            "borderWidth": 0.005,
+            "borderColor": "#000000"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 1.7833333333333332,
+        "enable": "gte(t,1.783)",
+        "yExpr": "-(1-min((t-1.7833333333333332)/0.3,1))*486*0.08"
+      }
+    },
+    {
+      "type": "text",
+      "style": {
+        "fontSize": 87,
+        "fontColor": "#000000",
+        "fontFamily": "Arial, sans-serif",
+        "borderWidth": 0.005,
+        "borderColor": "#000000"
+      },
+      "visual": {
+        "backgroundColor": "#ffffff"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "960 × 486"
+          },
+          "style": {
+            "fontColor": "#000000",
+            "fontSize": 81
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "top",
+            "xExpr": "(w-text_w)/2",
+            "yExpr": "(h-((81*1.45)+(55*1.45)))/2 - h*0.02 + (81*1.45)*0"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "160:81 · 1.98"
+          },
+          "style": {
+            "fontColor": "#000000",
+            "fontSize": 55
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "top",
+            "xExpr": "(w-text_w)/2",
+            "yExpr": "(h-((81*1.45)+(55*1.45)))/2 - h*0.02 + (55*1.45)*1"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "3"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top",
+            "padding": {
+              "x": 0.03,
+              "y": 0.03
+            }
+          },
+          "style": {
+            "fontSize": 78,
+            "fontColor": "#000000",
+            "fontFamily": "Arial, sans-serif",
+            "borderWidth": 0.005,
+            "borderColor": "#000000"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 3.216666666666667,
+        "enable": "gte(t,3.217)",
+        "yExpr": "-(1-min((t-3.216666666666667)/0.3,1))*486*0.08"
+      }
+    },
+    {
+      "type": "text",
+      "style": {
+        "fontSize": 87,
+        "fontColor": "#000000",
+        "fontFamily": "Arial, sans-serif",
+        "borderWidth": 0.005,
+        "borderColor": "#000000"
+      },
+      "visual": {
+        "backgroundColor": "#ffffff"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "960 × 486"
+          },
+          "style": {
+            "fontColor": "#000000",
+            "fontSize": 81
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "top",
+            "xExpr": "(w-text_w)/2",
+            "yExpr": "(h-((81*1.45)+(55*1.45)))/2 - h*0.02 + (81*1.45)*0"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "160:81 · 1.98"
+          },
+          "style": {
+            "fontColor": "#000000",
+            "fontSize": 55
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "top",
+            "xExpr": "(w-text_w)/2",
+            "yExpr": "(h-((81*1.45)+(55*1.45)))/2 - h*0.02 + (55*1.45)*1"
+          }
+        },
+        {
+          "content": {
+            "kind": "literal",
+            "text": "4"
+          },
+          "placement": {
+            "fit": "contain",
+            "hAlign": "left",
+            "vAlign": "top",
+            "padding": {
+              "x": 0.03,
+              "y": 0.03
+            }
+          },
+          "style": {
+            "fontSize": 78,
+            "fontColor": "#000000",
+            "fontFamily": "Arial, sans-serif",
+            "borderWidth": 0.005,
+            "borderColor": "#000000"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      },
+      "overlay": {
+        "startAtSec": 4.6499999999999995,
+        "enable": "gte(t,4.650)",
+        "yExpr": "-(1-min((t-4.6499999999999995)/0.3,1))*486*0.08"
+      }
+    }
+  ],
+  "format": {
+    "kind": "video",
+    "container": "mp4"
+  },
+  "audio": {
+    "mode": "off"
+  },
+  "backgroundColor": "#ffffff@1.0"
+}

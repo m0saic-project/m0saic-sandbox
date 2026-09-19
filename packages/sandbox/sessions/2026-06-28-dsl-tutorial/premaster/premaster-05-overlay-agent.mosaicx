@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 12000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/dsl-tutorial/v1",
+      "props": {
+        "M0String": "3(1,1,1){1}",
+        "preset": "dark",
+        "stepEvents": "enter+leaf",
+        "showChrome": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "premaster-05-overlay"
+  },
+  "agent": {
+    "note": "**Pre-master · Overlay.** `3(1,1,1){1}` — three cells with a **full-frame overlay `{1}`** on top. Exercises W1's guide-stack path (base m0 = `\"1\"`, no `OVERLAY_CHAIN`). Known limit: atlas tiles don't z-order, so an overlapping overlay **unions** with the base (same as the old opaque-tile look).",
+    "question": "Overlay layout renders valid (no OVERLAY_CHAIN error) and teaches `{…}` acceptably?",
+    "response": null
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "assets": {},
+  "m0": "1{40[0,0,0,0,0,-,0,0,0,0,0,0,80(0,0,-,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{120[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,16(-,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-),0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-),0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80(0,0,-,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]{40[0,0,0,0,0,-,0,0,0,0,0,0,80(0,0,0,0,0,0,0,0,0,0,0,0,0,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-]}}}",
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#FFFFFF",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.08
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#2563EB",
+      "effects": {
+        "rounding": {
+          "cornerStyle": "rounded",
+          "borderRadius": 0.28
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.6299999999999999)))*(min(1,max(0,(t-0)/0.6299999999999999)))*(3-2*(min(1,max(0,(t-0)/0.6299999999999999))))",
+        "window": {
+          "startSec": 0
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.03968253968253968,
+          "right": 0.0625,
+          "bottom": 0,
+          "left": 0.10416666666666667
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#0d1117",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M16.944 11h4.306a.75.75 0 0 1 0 1.5h-4.306a5.001 5.001 0 0 1-9.888 0H2.75a.75.75 0 0 1 0-1.5h4.306a5.001 5.001 0 0 1 9.888 0Zm-1.444.75a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.6299999999999999)))*(min(1,max(0,(t-0)/0.6299999999999999)))*(3-2*(min(1,max(0,(t-0)/0.6299999999999999))))",
+        "window": {
+          "startSec": 0
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.041666666666666664,
+          "right": 0.0375,
+          "bottom": 0.041666666666666664,
+          "left": 0.1375
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "renderMode": {
+        "kind": "video"
+      },
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "expr",
+            "expr": "%{eif\\:1*((1-(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))*(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))))+0.5\\:d},%{eif\\:243*((1-(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))*(1-(min(1\\,max(0\\,(t-0)/2.0999999999999996))))))+0.5\\:d\\:3}",
+            "eval": "frame"
+          },
+          "style": {
+            "fontSize": 108,
+            "fontColor": "#0F172A"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "stat-value"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.6299999999999999)))*(min(1,max(0,(t-0)/0.6299999999999999)))*(3-2*(min(1,max(0,(t-0)/0.6299999999999999))))",
+        "window": {
+          "startSec": 0
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.020833333333333332,
+          "right": 0.01266891891891892,
+          "bottom": 0.020833333333333332,
+          "left": 0.01266891891891892
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "lavfi",
+      "color": "#16A34A",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M 17.5 14.1 L 30.1 35.9 L 4.9 35.9 Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 35,
+          "height": 50
+        }
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.8399999999999999)/0.8399999999999999)))*(min(1,max(0,(t-0.8399999999999999)/0.8399999999999999)))*(3-2*(min(1,max(0,(t-0.8399999999999999)/0.8399999999999999))))",
+        "window": {
+          "startSec": 0.8399999999999999
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0,
+          "right": 0.13541666666666666,
+          "bottom": 0.029411764705882353,
+          "left": 0.15625
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "+12.4%"
+          },
+          "style": {
+            "fontSize": 41,
+            "fontColor": "#16A34A"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "stat-delta"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0.8399999999999999)/0.8399999999999999)))*(min(1,max(0,(t-0.8399999999999999)/0.8399999999999999)))*(3-2*(min(1,max(0,(t-0.8399999999999999)/0.8399999999999999))))",
+        "window": {
+          "startSec": 0.8399999999999999
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0,
+          "right": 0.02462121212121212,
+          "bottom": 0.029411764705882353,
+          "left": 0
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "vs last week"
+          },
+          "style": {
+            "fontSize": 31,
+            "fontColor": "#94A3B8"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "stat-sublabel"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-1.2599999999999998)/0.7349999999999999)))*(min(1,max(0,(t-1.2599999999999998)/0.7349999999999999)))*(3-2*(min(1,max(0,(t-1.2599999999999998)/0.7349999999999999))))",
+        "window": {
+          "startSec": 1.2599999999999998
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0,
+          "right": 0.028409090909090908,
+          "bottom": 0.029411764705882353,
+          "left": 0
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    },
+    {
+      "type": "text",
+      "visual": {
+        "backgroundColor": "black@0"
+      },
+      "layers": [
+        {
+          "content": {
+            "kind": "literal",
+            "text": "COMMITS"
+          },
+          "style": {
+            "fontSize": 40,
+            "fontColor": "#334155"
+          },
+          "placement": {
+            "hAlign": "left",
+            "vAlign": "middle"
+          }
+        }
+      ],
+      "editor": {
+        "owner": "user",
+        "label": "stat-label"
+      },
+      "overlay": {
+        "alpha": "(min(1,max(0,(t-0)/0.6299999999999999)))*(min(1,max(0,(t-0)/0.6299999999999999)))*(3-2*(min(1,max(0,(t-0)/0.6299999999999999))))",
+        "window": {
+          "startSec": 0
+        }
+      },
+      "placement": {
+        "inset": {
+          "top": 0.03968253968253968,
+          "right": 0.01488095238095238,
+          "bottom": 0,
+          "left": 0.012896825396825396
+        }
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "backgroundColor": "black@0",
+  "fps": 30,
+  "durationMs": 3000,
+  "size": {
+    "width": 640,
+    "height": 360
+  },
+  "editor": {
+    "owner": "user"
+  },
+  "engine": {
+    "renderStatus": "ok"
+  },
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-02"
+  },
+  "agent": {
+    "note": "**STRESS 02/10 — 02-tiny** (gate-10 stress set for `@m0saic/alpine/stat-card/v1`).\n\nTINY canvas, defaults. Watch: glyph legible on the chip, floors hold, no crowding.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "pass",
+      "text": "all 10 pass, ship it. keep both as base",
+      "via": "chat — transcribed by agent"
+    }
+  }
+}

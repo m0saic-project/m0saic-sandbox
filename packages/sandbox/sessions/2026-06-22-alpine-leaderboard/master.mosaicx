@@ -1,0 +1,49 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/leaderboard/v1",
+      "props": {
+        "items": [
+          { "name": "Ava Chen", "value": 2840 },
+          { "name": "Liam Patel", "value": 2615 },
+          { "name": "Noah Kim", "value": 2390 },
+          { "name": "Mia Garcia", "value": 1975 },
+          { "name": "Ethan Wright", "value": 1640 }
+        ],
+        "title": "TOP CONTRIBUTORS",
+        "subtitle": "This month",
+        "preset": "light",
+        "podiumTint": true,
+        "showValue": true,
+        "anim": {
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        },
+        "valuePrefix": "",
+        "valueSuffix": " commits"
+      }
+    }
+  ],
+  "agent": {
+    "note": "master — @m0saic/alpine/leaderboard/v1 (the 6th Alpine template), LOCKED 2026-06-22. A ranked list in the friendly white card: each row is a small rounded RANK BADGE + name + count-up value. Rows AUTO-SORT by value descending so rank reflects the score (preSorted keeps input order); caps at 8 rows. The podium gets the medal treatment — gold / dark-grey / brown badges with a soft tinted row wash; every other row a neutral grey wash so the top three read at a glance. Theme-aware: medal + wash colors retune for the dark preset (rank-2 = muted slate #64748B, not glaring) so nothing washes out or vanishes. Values format with thousands grouping ($284,000) via animateNumbersInText (grouped-digit padding fix shipped in template-utils so '$284,000' never renders '$284,0'); per-item Display override, valuePrefix/suffix, or raw label all supported. Built on the bar-graph/progress model (weighted splits + rounded tiles, no inline-masks); every height weight snapped to a multiple of 8 → feasible at any resolution (validated 1280x800 AND 1024x1024). 5 stress variants approved (A preSorted · B no-tint · C 8-rows-$ · D dark-toned · E long-names).",
+    "question": "Locked master — showcase props (5 contributors, podium medal tint, count-up). This is the preview the Templates page renders.",
+    "response": {
+      "body": "Approved — locked.",
+      "from": "human",
+      "at": "2026-06-22T00:00:00.000Z"
+    }
+  }
+}

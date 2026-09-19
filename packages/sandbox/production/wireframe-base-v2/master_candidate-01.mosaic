@@ -1,0 +1,47 @@
+{
+  "kind": "mosaic_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/wireframe/base/v2` \"Wireframe v2\"** (gate 29 — WIREFRAME pack opener; chart: `.ai/LAUNCH/v1-template-cut.md`). Core tier, tags wireframe + docs-only (the Developer/Docs facet). THE m0 visualization primitive: the Layout page renders through it, the perf heatmap paints through it (`cellColors`), every sandbox wireframe still is one. Props = pure defaults (`F`) so Make opens on the **NEW COVER** first, then renders the bare single cell.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | core · not internal · not deprecated · not primitive | confirm — chart note says \"consider internal:true\"; recommend **NO** (people trace layouts with it; Layout page + facet depend on browse) |\n| Label | \"Wireframe v2\" | \"Wireframe\"? (v1 is deprecated-hidden, so the suffix reads odd in browse) — untouched, your call |\n| Cover | none → **pane cover ADDED**: 3 bubbles (string / labels / trace) + hero = its OWN render of a 6-cell editorial, ink on the theme surface, inlined flat, sized to the hero box | keep / band / strike |\n| Tutorial | none | skip? (the cover bubbles carry the mental model) |\n| Previews | `preview.png` only (07-15 regen) — default look UNCHANGED | leave as-is; eyeball ☐ |\n| Battery | **32/32 GREEN** (25 CLI renders + pixel asserts) | — |\n| E2E | basic tier 6/6 (default + 5 paint-order variants) | — |\n\n**Pre-audit findings → fixed:**\n\n| Finding | Fix |\n|---|---|\n| `grid-paper` preset + `theme.paperGrid` resolved a lattice that NOTHING drew — the Layout page sells it as \"Textbook — hand-drawn paper grid\" (audit-every-knob) | **wired**: ONE masked ink tile as a full-canvas top overlay (`X` → `X{1}`, nests past a root overlay), pitch 1/16 short side, alpha 0.08 — `utils/paperGrid.ts` + 9 locks. Revertable to a PRUNE (preset + Layout \"Textbook\" entry) if you'd rather |\n| Schema: labelContent \"Default aspect\", labels \"dimensions and aspect ratio are rendered\" — the real default is number + W×H | descriptions corrected |\n| Description was engineering-speak (\"masked color tile… no per-cell drawtext\") | user-facing blurb (what it draws, transparent default, trace, presets) |\n| No `format` on the doc (pre-gate-26 template) | `format:{image,png,rgba}` authored (same values the hints seeded; `-o .mp4` still refuses loudly — verified) |\n| `labelsByStableKey` / `cellColors` = programmatic props in the human form | `consumer:\"agent\"` → tucked under Agent props |\n\n**Verified, no change needed:** transparent default (alpha coverage 2.2%) · white+fill opaque · null tiles empty · label ladder degrade/hide/number-floor at 80×90px cells · overlay label suppression (per-line rects) · long custom labels shrink-to-fit · stableKey labels · heat cells (nested `F{F}` + flat) · trace backgroundImage contain/opacity · **400 inline masks render in 17s — no argv cliff** (100 → 4.6s, 200 → 9.6s, linear).\n\n**Design notes (not bugs):** cell bodies are transparent, so an overlay's label sits over the base tiles' borders; an infeasible string (60 cols @ 320px) renders 5px stripes with no error card — the wireframe shows what the engine would do.\n\nUnit 101/101 (wireframe family incl. 16 new locks). Stress ×10 pre-minted in `stress/` (agent pass clean) — review after the default verdict.",
+    "question": "Gate-29 verdict: default + NEW cover · core-vs-publisher (rec. CORE) · internal:true? (rec. no) · grid-paper: keep lattice or prune? · label → \"Wireframe\"? Then stress-01..10."
+  },
+  "sources": [
+    {
+      "type": "lavfi",
+      "color": "#000000",
+      "mask": {
+        "kind": "inline-mask",
+        "localPath": "M0 0 L1920 0 L1920 1080 L0 1080 Z M2 2 L2 1078 L1918 1078 L1918 2 Z M978.05 363.21L978.05 534.66L956.25 534.66L956.25 390.16L912.54 406.22L912.54 386.53L974.65 363.21L978.05 363.21Z M584.93 645.29L584.93 756.73L570.76 756.73L570.76 662.81L542.35 673.24L542.35 660.45L582.72 645.29L584.93 645.29ZM680.22 707.98L680.22 707.98Q675.80 713.23 669.67 716.43Q663.54 719.63 656.23 719.63L656.23 719.63Q646.63 719.63 639.51 714.91Q632.38 710.19 628.50 701.62Q624.62 693.05 624.62 682.69L624.62 682.69Q624.62 671.57 628.84 662.65Q633.07 653.74 640.84 649.02Q648.61 644.30 658.97 644.30L658.97 644.30Q675.42 644.30 684.91 656.60Q694.39 668.90 694.39 690.15L694.39 690.15L694.39 694.27Q694.39 726.64 681.59 741.53Q668.79 756.42 642.97 756.80L642.97 756.80L640.23 756.80L640.23 744.92L643.20 744.92Q660.64 744.62 670.01 735.82Q679.38 727.02 680.22 707.98ZM658.51 707.98L658.51 707.98Q665.60 707.98 671.58 703.63Q677.55 699.29 680.30 692.89L680.30 692.89L680.30 687.26Q680.30 673.39 674.28 664.71Q668.26 656.03 659.04 656.03L659.04 656.03Q649.75 656.03 644.12 663.15Q638.48 670.27 638.48 681.93L638.48 681.93Q638.48 693.28 643.92 700.63Q649.37 707.98 658.51 707.98ZM786.48 745.22L786.48 756.73L713.81 756.73L713.81 746.60L752.20 703.94Q760.73 694.27 763.97 688.21Q767.21 682.15 767.21 675.68L767.21 675.68Q767.21 667.00 761.95 661.44Q756.70 655.88 747.94 655.88L747.94 655.88Q737.43 655.88 731.60 661.85Q725.77 667.83 725.77 678.50L725.77 678.50L711.68 678.50Q711.68 663.19 721.54 653.74Q731.41 644.30 747.94 644.30L747.94 644.30Q763.40 644.30 772.39 652.41Q781.38 660.52 781.38 674.00L781.38 674.00Q781.38 690.38 760.51 713.00L760.51 713.00L730.80 745.22L786.48 745.22ZM870.96 691.14L870.96 709.42Q870.96 734.18 862.50 746.21Q854.04 758.25 836.07 758.25L836.07 758.25Q818.32 758.25 809.79 746.48Q801.26 734.71 800.95 711.33L800.95 711.33L800.95 692.51Q800.95 668.06 809.41 656.18Q817.86 644.30 835.92 644.30L835.92 644.30Q853.82 644.30 862.27 655.76Q870.73 667.22 870.96 691.14L870.96 691.14ZM856.86 713.23L856.86 690.15Q856.86 672.25 851.84 664.06Q846.81 655.88 835.92 655.88L835.92 655.88Q825.10 655.88 820.15 664.03Q815.20 672.18 815.04 689.09L815.04 689.09L815.04 711.63Q815.04 729.61 820.26 738.18Q825.48 746.75 836.07 746.75L836.07 746.75Q846.50 746.75 851.57 738.67Q856.63 730.60 856.86 713.23L856.86 713.23ZM934.25 741.04L925.19 731.67L950.33 706.07L925.34 680.55L934.41 671.19L959.47 696.70L984.53 671.19L993.59 680.55L968.61 706.07L993.74 731.67L984.68 741.04L959.47 715.37L934.25 741.04ZM1095.74 645.29L1095.74 756.73L1081.57 756.73L1081.57 662.81L1053.16 673.24L1053.16 660.45L1093.53 645.29L1095.74 645.29ZM1206.57 691.14L1206.57 709.42Q1206.57 734.18 1198.11 746.21Q1189.66 758.25 1171.68 758.25L1171.68 758.25Q1153.93 758.25 1145.40 746.48Q1136.87 734.71 1136.57 711.33L1136.57 711.33L1136.57 692.51Q1136.57 668.06 1145.02 656.18Q1153.48 644.30 1171.53 644.30L1171.53 644.30Q1189.43 644.30 1197.88 655.76Q1206.34 667.22 1206.57 691.14L1206.57 691.14ZM1192.48 713.23L1192.48 690.15Q1192.48 672.25 1187.45 664.06Q1182.42 655.88 1171.53 655.88L1171.53 655.88Q1160.71 655.88 1155.76 664.03Q1150.81 672.18 1150.66 689.09L1150.66 689.09L1150.66 711.63Q1150.66 729.61 1155.88 738.18Q1161.09 746.75 1171.68 746.75L1171.68 746.75Q1182.12 746.75 1187.18 738.67Q1192.25 730.60 1192.48 713.23L1192.48 713.23ZM1291.88 674.77L1291.88 674.77Q1291.88 683.07 1287.50 689.54Q1283.12 696.02 1275.66 699.67L1275.66 699.67Q1284.34 703.41 1289.41 710.57Q1294.47 717.73 1294.47 726.79L1294.47 726.79Q1294.47 741.19 1284.76 749.72Q1275.05 758.25 1259.20 758.25L1259.20 758.25Q1243.21 758.25 1233.57 749.68Q1223.94 741.11 1223.94 726.79L1223.94 726.79Q1223.94 717.80 1228.85 710.57Q1233.76 703.33 1242.45 699.60L1242.45 699.60Q1235.06 695.94 1230.79 689.47Q1226.53 682.99 1226.53 674.77L1226.53 674.77Q1226.53 660.75 1235.51 652.52Q1244.50 644.30 1259.20 644.30L1259.20 644.30Q1273.83 644.30 1282.85 652.52Q1291.88 660.75 1291.88 674.77ZM1280.38 726.49L1280.38 726.49Q1280.38 717.19 1274.48 711.33Q1268.57 705.46 1259.05 705.46Q1249.53 705.46 1243.78 711.25Q1238.03 717.04 1238.03 726.49Q1238.03 735.93 1243.63 741.34Q1249.22 746.75 1259.20 746.75L1259.20 746.75Q1269.11 746.75 1274.74 741.30Q1280.38 735.86 1280.38 726.49ZM1259.20 655.88L1259.20 655.88Q1250.90 655.88 1245.76 661.02Q1240.62 666.16 1240.62 674.99L1240.62 674.99Q1240.62 683.45 1245.68 688.67Q1250.75 693.88 1259.20 693.88Q1267.66 693.88 1272.72 688.67Q1277.79 683.45 1277.79 674.99Q1277.79 666.54 1272.53 661.21Q1267.28 655.88 1259.20 655.88ZM1381.76 691.14L1381.76 709.42Q1381.76 734.18 1373.31 746.21Q1364.85 758.25 1346.88 758.25L1346.88 758.25Q1329.13 758.25 1320.60 746.48Q1312.07 734.71 1311.76 711.33L1311.76 711.33L1311.76 692.51Q1311.76 668.06 1320.22 656.18Q1328.67 644.30 1346.72 644.30L1346.72 644.30Q1364.63 644.30 1373.08 655.76Q1381.54 667.22 1381.76 691.14L1381.76 691.14ZM1367.67 713.23L1367.67 690.15Q1367.67 672.25 1362.64 664.06Q1357.62 655.88 1346.72 655.88L1346.72 655.88Q1335.91 655.88 1330.96 664.03Q1326.01 672.18 1325.85 689.09L1325.85 689.09L1325.85 711.63Q1325.85 729.61 1331.07 738.18Q1336.29 746.75 1346.88 746.75L1346.88 746.75Q1357.31 746.75 1362.38 738.67Q1367.44 730.60 1367.67 713.23L1367.67 713.23Z",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "editor": {
+        "owner": "user"
+      },
+      "engine": {
+        "renderStatus": "ok"
+      }
+    }
+  ],
+  "format": {
+    "kind": "image",
+    "container": "png",
+    "pixelFormat": "rgba"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/timeline/v1",
+      "props": {
+        "events": [
+          {
+            "date": "Jan 2024",
+            "title": "Project kickoff",
+            "description": "Team assembled, first commit landed"
+          },
+          {
+            "date": "Mar 2024",
+            "title": "Beta launch",
+            "description": "500 early users onboarded"
+          },
+          {
+            "date": "Jun 2024",
+            "title": "Series A",
+            "description": "$12M raised to scale the team"
+          },
+          {
+            "date": "Sep 2024",
+            "title": "10k customers",
+            "description": "Crossed five figures"
+          },
+          {
+            "date": "Dec 2024",
+            "title": "Global expansion",
+            "description": "Live in 12 countries"
+          }
+        ],
+        "title": "MILESTONES",
+        "subtitle": "Our journey so far",
+        "preset": "light",
+        "orientation": "auto",
+        "showDescription": true,
+        "anim": {
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": true
+        }
+      }
+    }
+  ],
+  "agent": {
+    "note": "Variant D — SQUARE card (1080x1080, auto→vertical, the mobile/square look) + reduceMotion (static). Tests the vertical left-rail at square aspect and the no-animation path.",
+    "question": "Approve or deny. Does the vertical timeline fill the square card well, static?",
+    "response": {
+      "body": "approved.",
+      "from": "human",
+      "at": "2026-06-22T22:50:26.786Z",
+      "src": "~/Mosaic Demos/Mosaic Dev/juneteenthsmoke/Mosaic Desktop/v1-1080x1080.mp4"
+    }
+  }
+}

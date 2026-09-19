@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/media/qr/code/v1` \"QR Code\"** (gate 22 — media pack remainder 5/n; chart: `.ai/LAUNCH/v1-template-cut.md`). Capability tier (fs read/write/temp). The 07-22 four-way merge template (basic/rounded/carve/animate heritage, byte-parity anchors). Props = showcase: pure defaults — branded circle modules + rounded eyes + the m0saic M carved centre, light card, PNG.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | capability, not internal, not deprecated, not primitive | confirm |\n| Tags | brand, qr | confirm |\n| Cover | none — static PNG default IS its own face (barcode precedent) | none needed? |\n| Tutorial | none | skip? (deep knob space but the default look carries it; flag if wanted) |\n| Battery | **13/13 GREEN after 1 real fix** (below) | — |\n| Scannability | NO decoder on this machine — **founder phone-scan requested**: 01-default, 03-dark, 05-rounded, 10-long, 11-v12 in the battery folder | scan |\n\n**REAL BUG found + fixed (engine): transparent mode silently flattened to opaque BLACK.** Two layers: (1) the template never declared alpha — doc format now carries `pixelFormat: \"rgba\"` in transparent mode, and the CLI's make-template flow gained rule-5 post-render enrichment (a plain-doc's authored format detail like rgba now reaches the resolver; explicit --alpha still wins); (2) even with alpha resolved, **the chunk-stitch's FINAL segment always baked the opaque doc bg** — it never got ffmpegCommands' `mosaicBackground` final-alpha rule (chunked renders came out on solid black while unchunked were transparent). Fixed in `buildChunkCommands.ts`, translucent `@`-suffixed user bgs preserved. Verified: corner rgba(0,0,0,0), 67% transparent samples, opaque orange modules. Core chunk suites 69/69, contract gate 171/171.\n\n**Battery coverage:** branded default · plain square (basic heritage) · dark · transparent (real alpha now) · rounded + custom radii · centre ASSET via fs · spawn mp4 · full envelope (spawn+gleam+fade-out) · advanced.svg escape hatch · 600-char payload (high auto version) · forced v12 + cutout · payload-overflow → visible error card · outputFormat png + `-o .mp4` → loud plan-time mismatch (rule 5).\n\nUnit 20/20 (incl. a new transparent-format lock).",
+    "question": "Showcase verdict (branded default)? Phone-scan pass on the battery PNGs? Cover/tutorial rulings? Flags confirmed? Then stress.",
+    "response": {
+      "verdict": "ship",
+      "text": "phone-scans pass (\"i checked them, they scan\") -> no cover, no tutorial -> stress x10 pass (02 = engine limitation logged, 09 = accepted+documented) -> \"ship\"",
+      "via": "chat — transcribed by agent",
+      "note": "SHIPPED base ☑ (gate 22, media pack remainder 5/n; capability tier). REAL ENGINE FIX shipped: transparent outputs flattened to black — chunk-stitch final segment baked an opaque base (buildChunkCommands now mirrors mosaicBackground's final-alpha rule) + CLI rule-5 post-render format enrichment (doc-authored pixelFormat rgba now reaches the resolver). REMAINING engine candidate logged: child-mosaic H.264 carrier drops alpha inside children (.ai/candidates/2026-08-27, LOW). Rulings documented in outputHints.note: square canvases; center.show:false for full transparency."
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/media/qr/code/v1",
+      "props": {}
+    }
+  ]
+}

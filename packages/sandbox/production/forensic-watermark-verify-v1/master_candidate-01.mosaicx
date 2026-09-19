@@ -1,0 +1,30 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1600,
+    "height": 1000
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/forensic/watermark/verify/v1` \"Forensic Watermark — Verify\"** (gate 35 — the decode half of the forensic pair; chart: `.ai/LAUNCH/v1-template-cut.md`). Capability tier (fs.read + one engine ffmpeg pass). Props = the COMMITTED fixture pair (`packages/cli/examples/media/forensic/watermarked_deadbeef.{mp4,watermark.json}`, 480×270 · 1.5 s · payload `deadbeef`) → the PASS card at the 1600×1000 hint, light preset.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | capability · not internal · not deprecated | confirm — the only decoder for the family; stays base with the embed |\n| Label | \"Forensic Watermark — Verify\" | keep |\n| Cover / Tutorial | none / none | skip — `renderLite` already shows the card layout with a NOT CHECKED band on selection |\n| Previews | `preview.png` 1600×1000 (07-28, a PASS card of the fixture) | LEAVE AS-IS (still exactly what the default renders) |\n| Battery | 13 canvases/verdicts GREEN (V1–V13: 480×270 → 4K, portrait, square, wide banner, dark, redacted, long title, mismatch/fail/error) | — |\n| E2E | 5 variants (default card, pass, mismatch, fail, missing-sidecar) + env-gated round-trip suite | — |\n\n**Pre-audit findings → fixed (both templates share the engine seam):**\n\n| Finding | Fix |\n|---|---|\n| Spawned a bare `ffmpeg` from PATH — a packaged desktop (Finder PATH has no Homebrew bin) or any host without the toolchain on PATH rendered an ERROR card | Sampling now goes through the engine: `ctx.analysis.cellLuminance` (new, next to `regionLuminance`; core `probeCellLuminance`, bound to the host's toolchain binary — the founder's \"templates PULL analysis\" ruling). CLI `.mosaicx` + `resolve` paths and the desktop `.mosaicx` route now pass `ffmpegPath` like `make` / `renderToFile` already did. No toolchain → the card says `ANALYSIS_UNAVAILABLE` + \"run `m0saic setup`\" instead of guessing |\n| `ffmpegPath` knob (\"bundled ffmpeg\") — a leftover of the retired `decode-watermark` command, bypassing the host's toolchain | REMOVED (schema + code); the toolchain is the host's choice |\n| **The UN-MARKED ORIGINAL decoded as `MISMATCH 00000000`** — sampled == host reference → zero residual → every score 0 → the all-zero codeword is syndrome-clean, so BCH \"recovered\" payload 0 and the card said \"different payload\" (V10 caught it) | Presence floor: `meanAbsScore` (new report field, `@m0saic/types`) < 0.25 → verdict `fail`, ok=false, footnote \"No watermark energy for this recipe … most likely the un-marked original, or a different key/grid\". Legit decodes measured 2–77; the un-marked original 0.00 |\n| **Card rendered on a BLACK canvas through `.mosaicx`** (Make, the ledger twins): the header + footnote rows were text on nothing and the template relied on `doc.backgroundColor`, which the wrapper drops (the bg-drop class — 4th template after barcode, stat-card, …) | canvas painted as REAL geometry: `overlay([paint(canvas tile), card])` (report.ts) — bare `make` and `.mosaicx` now identical |\n| CLI `.mosaicx` route rendered the \"no inputs\" USAGE CARD for every recipe of this family — `hasMediaInputsAlready` only knew `sourceId`/`sourceIds`, the forensic input is `videoPath` | any FILLED schema prop of type `media`/`media[]` now counts as supplied input (`mosaicxRunner.ts` + test); affects every template that names its media input |\n| Platform re-uploads letterbox/pillarbox a copy (16:9 master → 9:16 Reel) → cells shift → fail | `contentRect` knob (\"x,y,w,h\" px of the picture inside the delivered frame) → engine `crop` ahead of the grid (stress-09 vs 10 shows the difference). Manual for now; an ffmpeg `cropdetect` auto mode is the follow-up |\n\n**Verified, no change needed:** card fits at every canvas (480×270 thumbnails keep the band + payload strip; 4K crisp; portrait stacks cleanly; 1920×480 banner OK) · dark preset · redaction `••••beef` everywhere incl. the band · `posterFrameMs` seeks the input panel · footnote always carries the reason (ECC budget on fail, sidecar path on error, corrected positions on pass) · renderLite never samples, never emits the sidecar.\n\n**Robustness the card reported on the embed side (see gate 34):** PASS at 500 kbps, 2× re-encode, and a uniform 960×540 downscale of a 720p master (the grid is aspect-relative, so uniform rescale is fine; the header's \"does not survive scale change\" was over-cautious — only aspect changes / crops break alignment).\n\nStress ×10 pre-minted in `stress/` (canvases ×4, verdicts ×4, padded-copy pair with/without `contentRect`; `fixtures/padded-9x16.mp4` is the committed pair letterboxed to 9:16) — agent pass clean; review after the default verdict.\n",
+    "question": "Gate-35 verdict on the PASS card (committed fixture pair, light preset, 1600×1000) · card layout OK across canvases (stress 01–04) and the four verdicts (05–08)? · `contentRect` for padded platform copies (stress-09) acceptable as the manual escape until cropdetect lands? · then ship."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/forensic/watermark/verify/v1",
+      "props": {
+        "videoPath": "<repo>/packages/cli/examples/media/forensic/watermarked_deadbeef.mp4",
+        "sidecarPath": "<repo>/packages/cli/examples/media/forensic/watermarked_deadbeef.watermark.json"
+      }
+    }
+  ]
+}

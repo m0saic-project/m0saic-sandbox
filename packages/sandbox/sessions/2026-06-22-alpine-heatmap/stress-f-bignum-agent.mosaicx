@@ -1,0 +1,77 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/heatmap/v1",
+      "props": {
+        "rows": [
+          {
+            "label": "API",
+            "values": [
+              120,
+              4500,
+              38000,
+              1200000
+            ]
+          },
+          {
+            "label": "Web",
+            "values": [
+              8,
+              950,
+              72000,
+              540000
+            ]
+          },
+          {
+            "label": "Jobs",
+            "values": [
+              0,
+              12,
+              3400,
+              89000
+            ]
+          }
+        ],
+        "colLabels": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ],
+        "title": "REQUESTS",
+        "subtitle": "Big-number overflow test",
+        "preset": "light",
+        "color": "#2563EB",
+        "levels": 5,
+        "cellRadius": 0.22,
+        "showLegend": true,
+        "showValues": true,
+        "anim": {
+          "introFrac": 0.7,
+          "easing": "easeOut",
+          "reduceMotion": true
+        }
+      }
+    }
+  ],
+  "agent": {
+    "note": "stress-f (fixed) — BIG NUMBERS + showValues. In-cell values now COMPACT-format (4.5K / 38K / 1.2M) and use fit:contain clamped to the cell, so a long number auto-shrinks and can never overflow into a neighbor. The cell color still buckets on the raw value.",
+    "question": "Approve or deny. Do the big numbers fit cleanly in-cell now (compact + fit), no overflow?",
+    "response": {
+      "body": "",
+      "from": "human",
+      "at": ""
+    }
+  }
+}

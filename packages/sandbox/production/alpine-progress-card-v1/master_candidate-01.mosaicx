@@ -1,0 +1,33 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/progress-card/v1",
+      "props": {}
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-01"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — `@m0saic/alpine/progress-card/v1`** (gate 9; chart: `.ai/LAUNCH/v1-template-cut.md`). Props = showcase defaults (Quarterly Goals). Single version — no dep riders.\n\n| Stage | Current | Proposed |\n|---|---|---|\n| Flags | not internal, not deprecated, primitive:true | confirm |\n| Gate | — | **base** |\n| Preview assets | re-mint after approval | review |\n| Cover / Tutorial | cover BUILT this gate (grow-in starts near-blank) | eyeball cover; tutorial needed? |\n\n**Pre-audit found + fixed 2 bug classes:**\n1. **Uneven bar thickness at DEFAULTS** (track equal-size tripwire): the interleaved [margin,row,gap,row,…] stack spread track heights 16% at 900×900 (21px vs 25px bars side by side) — rebuilt as EQUAL row bands with the half-gap carved inside ([1,K,1]), the established pack pattern. Rows shift by a half-gap; thickness now uniform ±1px everywhere.\n2. **Uncapped label/value fonts** (text-fit class): 24-char labels needed ~402px in a 299px slot at 480×1040; long custom Displays (\"$45,200 of $60,000\") overflowed their 30% column 2.3×. Both now width-capped at the pack 0.62em model (×0.88 realized-cell factor); floor-bound text ellipsizes.\n\nAlso NEW this gate: debugLayout contract (track equal-size + text-fit; text checks gated on expr-free docs per the zip candidate), content-too-small guard, renderCover (static default card + welcome band).\n\n**Primitive-sense (your new lens): KEEP primitive:true.** Goal-fraction rows with tracks are a distinct composable block — closest sibling is horizontal bar-graph, but the semantics differ (progress-to-target with track + per-row value display vs. compared magnitudes on an axis). No overlap worth collapsing.\n\nBattery: 84/84 CLI renders feasible (14 canvases × 6 configs, re-run post-fix), probe 14/14 green, 16/16 unit.",
+    "question": "Default look verdict? Cover OK? Tutorial needed? primitive:true confirmed? Then I mint the 10-variant stress set.",
+    "response": {
+      "verdict": "pass",
+      "text": "lgtm, lets stress",
+      "via": "chat — transcribed by agent",
+      "note": "Default look approved. Cover/tutorial/primitive not explicitly ruled — treated as implicit-OK pending ship close (kpi-gate convention)."
+    }
+  }
+}

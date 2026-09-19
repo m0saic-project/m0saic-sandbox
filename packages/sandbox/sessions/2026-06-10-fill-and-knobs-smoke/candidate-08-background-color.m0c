@@ -1,0 +1,33 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T12:00:00.000Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.11",
+  "meta": {
+    "title": "08 · background (solid color)"
+  },
+  "agent": {
+    "id": "claude-smoke-2026-06-10",
+    "note": "derive.background carries a dark slate hex. Canvas tint, rects on top.",
+    "question": "Is the canvas tinted #14151b, with the four uniform rects rendering on top?",
+    "response": {
+      "body": "Yes, approved.",
+      "from": "human",
+      "at": "2026-06-11T02:20:30.428Z"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "4(1,1,1,1)",
+  "labels": null,
+  "derive": {
+    "background": "#14151b"
+  },
+  "masks": null,
+  "fill": null,
+  "rankSets": null,
+  "custom": null
+}

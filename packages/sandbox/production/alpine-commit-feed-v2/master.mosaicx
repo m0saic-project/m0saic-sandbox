@@ -1,0 +1,37 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 708
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/commit-feed/v2",
+      "props": {}
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master"
+  },
+  "agent": {
+    "note": "MASTER — @m0saic/alpine/commit-feed/v2 v1 PROD GATE, APPROVED 2026-08-20 (candidate-01, 'i think this can be shipped'). Gate work: (1) equal-row quantization fix (96/94/90/93/96 → 91×5 at 1001×733; one EQUAL band per row + half-gap via inner [1,K,1] split) guarded by the debugLayout contract (row equal-size + header-icon aspect 1 ±5%); (2) header icon chip squared via placement insets (was 1.6:1, glyph stretched) with the friendly Icon knob (lookup sync ⇄ canonical iconPath, defaults to commits); (3) first-open renderCover (static default feed + welcome band — kills the blank premium first frame); (4) kind styling widened to 11 built-ins + KIND_MARKS name-or-path values (kindColors/kindGlyphs stay agent escape hatches by ruling — a linked row editor was built and deliberately REVERTED as unclear). 43/43 unit; e2e 2/2. commit-feed/v1 stays in base DEPRECATED per the 08-20 ruling. FOLLOW-UP: re-mint preview assets (look changed: equal rows, edge half-gaps, default commits chip).",
+    "comments": [
+      {
+        "from": "agent",
+        "text": "RETRO STRESS SET 08-20 (`stress/stress-01..10.mosaicx`, stills in `stress/renders/`). Fixed en route: (1) SPLIT_EXCEEDS_AXIS — the kind-chip glyph used a 100-grain insetNode ([22,56,22] → 50 unit cells) inside a chip that bottoms out ~24px; the WHOLE DOC died at 640×360; now fiber placement insets (locked in HOSTILE_CANVASES); (2) row equal-size tolerance 0.02→0.03 (pixel floor); (3) NO text width-caps existed — portrait/long-string canvases clipped the header title, ran titles into the PR column, collided author+date, overflowed area chips; title/meta/chip/header fonts now width-cap to their slots (header uses an all-caps 0.72em factor). Defaults byte-identical (e2e goldens green). Battery ok ×14 canvases, header on+off. Awaiting your stress passes."
+      },
+      {
+        "from": "agent",
+        "at": "2026-08-20T21:55:45.000Z",
+        "text": "RETRO STRESS CLOSED 08-20: 9 pass + 06 = FOUNDER-ACCEPTED KNOWN ISSUE (N=1 on a big canvas: rowH-derived chip/signal sizes blow up, view busted — \"not a major scenario, ok leaving as is\". A rowH cap ~H*0.18 is the fix if ever revisited). Template shipped state re-confirmed."
+      }
+    ]
+  }
+}

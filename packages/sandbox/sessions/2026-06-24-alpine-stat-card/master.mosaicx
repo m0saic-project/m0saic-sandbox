@@ -1,0 +1,37 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 480,
+    "height": 480
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/stat-card/v1",
+      "props": {
+        "label": "Commits",
+        "value": "1,243",
+        "delta": "+12.4%",
+        "direction": "up",
+        "sublabel": "vs last week",
+        "iconPath": "M16.944 11h4.306a.75.75 0 0 1 0 1.5h-4.306a5.001 5.001 0 0 1-9.888 0H2.75a.75.75 0 0 1 0-1.5h4.306a5.001 5.001 0 0 1 9.888 0Zm-1.444.75a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0Z"
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": "<sandbox>/sessions/2026-06-24-alpine-stat-card",
+    "basename": "master"
+  },
+  "agent": {
+    "note": "LOCKED hero KPI stat-card (Alpine pack). Rounded dark card, green accent chip with an SVG-MASK glyph (NOT media — media mis-lays-out the card), dominant width-capped count-up value, SVG-triangle delta + sublabel. Per-element top-level layers. iconPath = an Octicon SVG path d (24x24). 9 unit tests green.",
+    "response": {
+      "body": "approved (c003) + hardened through the kpi-overview integration",
+      "from": "agent"
+    }
+  }
+}

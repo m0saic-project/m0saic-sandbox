@@ -1,0 +1,38 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-14"
+  },
+  "agent": {
+    "note": "**STRESS 14 — EVERYTHING ON, the heavy case** (dev diagram: null + passthrough lattice together).\n\nA real weighted-split idiom — `100(…)` at 35/65 — plus a root overlay `3[-,0,1]`. Lattice mode turns the 100-basis split into 100 columns of 19 px (dotted, labelled `>` where it fits, rings only where it doesn't), the two claimants shrink to one slot each; the overlay layer shows a dashed hole, a dotted slot and a cell. 103 inline masks per still, two stills — this is the chunking case the founder predicted.\n\nWatch: render time and that all 100 slots draw (no mask-resolver cliff); rings stay crisp at 19 px; labels degrade to nothing rather than smear; both stills share one geometry.",
+    "question": "Heavy case acceptable (time + look)? Anything to cap (e.g. skip labels under N px, or a slot-count ceiling)?",
+    "response": {
+      "verdict": "revise",
+      "text": "they read as really noisy at high scale, which makes sense. but maybe we can visualize differently? the idea is mostly to see where the grid gets really coarse and where its lighter.",
+      "via": "chat — transcribed by agent (09-03)",
+      "note": "Per-slot dotted rings at 19 px = noise. Take 2 = adaptive DENSITY wash → stress-13-a / stress-14-a."
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {
+        "M0String": "100(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1){3[-,0,1]}",
+        "passthroughFrames": "show",
+        "nullFrames": "show",
+        "passthroughLabel": ">"
+      }
+    }
+  ]
+}

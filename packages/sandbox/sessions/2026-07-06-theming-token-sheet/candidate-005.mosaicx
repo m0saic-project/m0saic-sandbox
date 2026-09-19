@@ -1,0 +1,18 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "fps": 30,
+  "durationMs": 3000,
+  "size": { "width": 1920, "height": 1080 },
+  "assets": {},
+  "sources": [
+    { "type": "template_invocation", "templateId": "@m0saic/theming/v1", "props": { "preset": "dark", "preview": true } }
+  ],
+  "suggestedOutput": { "dir": ".", "basename": "candidate-005" },
+  "agent": {
+    "note": "Post-lock corrections (GeometricPreview had misled us — this is the real PNG):\n1. **Stroke thinned to a hairline** — the bug was that `stroke.width` is a FRACTION of the block's min dimension, not px; I was passing a computed px (~2) which got multiplied by the cell and clamped to a fat frame. Now a small fraction → clean thin bound.\n2. **Real M** — the glyph is now regenerated from the canonical asset `apps/mosaic/assets/brand/mosaic-m.svg` (33 tiles).\n3. **Y-space** — breathing room added between each label and its color block.\n4. **Image, not video** — the template declares `outputHints.format` + `doc.format = { kind: image, frameCount: 1 }`; it emits a single PNG. Preview asset is now PNG-only (dropped the mp4).",
+    "question": "Render it (▶) — the hairline surface bounds, real M, label spacing, and PNG output. Good to re-lock? (unit + e2e + variant + preview asset already refreshed.)",
+    "context": { "topic": "theming/v1 token sheet", "stage": "post-lock-corrections", "changes": ["hairline stroke (fraction fix)", "M from canonical svg", "label→block y-gap", "image output"], "next": "re-lock on confirm" }
+  }
+}

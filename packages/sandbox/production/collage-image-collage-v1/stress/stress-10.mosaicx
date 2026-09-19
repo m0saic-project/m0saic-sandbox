@@ -1,0 +1,39 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-10"
+  },
+  "agent": {
+    "note": "**STRESS 10/10 — 10-single-image-light** (gate-31 stress set for `@m0saic/collage/image-collage/v1`).\n\nThe degenerate set: ONE photo on a light background.\n\nWatch: the photo fills the sheet cover-cropped; only the 11px margin shows the light background.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "shipped (not individually reviewed)",
+      "text": "Template shipped on the default + tutorial verdict (\"seems fine to me, lets ship it\"); this variant was not individually reviewed by the founder. Agent pre-pass: clean. Recipe + twin + still stay as the record.",
+      "via": "transcribed by agent from the gate-31 chat verdict",
+      "from": "agent:claude",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/collage/image-collage/v1",
+      "props": {
+        "sourceIds": [
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-01-1500x1000.png"
+        ],
+        "background": "#f4f1ea"
+      }
+    }
+  ]
+}

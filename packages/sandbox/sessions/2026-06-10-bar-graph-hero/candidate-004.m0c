@@ -1,0 +1,118 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T07:14:40.823Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.10",
+  "meta": {
+    "title": "2026-06-10-bar-graph-hero · candidate-004"
+  },
+  "agent": {
+    "note": "Default grid.count is 5 ticks. This candidate visualizes 8 sub-bands in the plot to gauge whether density reads 'data-viz' or 'cluttered'.",
+    "question": "Is 8 ticks too busy at 1920x1080, or does it sell the chart density? At what tick count does it start to feel like noise?",
+    "context": {
+      "category": {
+        "kind": "known",
+        "value": "spacing-alignment"
+      },
+      "intent": {
+        "action": "refine",
+        "summary": "denser inner grid (8 sub-bands vs default 5)"
+      },
+      "relation": {
+        "kind": "refines",
+        "target": "001"
+      },
+      "layoutIntent": "magazine",
+      "evaluation": {
+        "grade": "best",
+        "source": "automated",
+        "at": "2026-06-10T07:14:40.819Z",
+        "breakdown": {
+          "total": 1,
+          "feasible": true,
+          "components": {
+            "precision": {
+              "quality": 1,
+              "weight": 0,
+              "raw": 0.007407407407407408
+            },
+            "spread": {
+              "quality": 1,
+              "weight": 0,
+              "raw": 0
+            },
+            "gutter": {
+              "quality": 1,
+              "weight": 0,
+              "raw": 0
+            },
+            "frames": {
+              "quality": 1,
+              "weight": 0.89,
+              "raw": 10
+            },
+            "structure": {
+              "quality": 1,
+              "weight": 0.1,
+              "raw": 0
+            },
+            "compactness": {
+              "quality": 1,
+              "weight": 0.01,
+              "raw": 25
+            }
+          }
+        }
+      }
+    },
+    "response": {
+      "body": "This is a bad layout. The grid* are should have much more of the height focus. Title and bottom labels are supporting",
+      "from": "human",
+      "at": "2026-06-10T07:25:15.027Z"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "3[1,8[1,1,1,1,1,1,1,1],1]",
+  "labels": {
+    "r/fc0": {
+      "text": "title-band"
+    },
+    "r/fc2": {
+      "text": "label-band"
+    },
+    "r/growc1/fc0": {
+      "text": "grid1"
+    },
+    "r/growc1/fc1": {
+      "text": "grid2"
+    },
+    "r/growc1/fc2": {
+      "text": "grid3"
+    },
+    "r/growc1/fc3": {
+      "text": "grid4"
+    },
+    "r/growc1/fc4": {
+      "text": "grid5"
+    },
+    "r/growc1/fc5": {
+      "text": "grid6"
+    },
+    "r/growc1/fc6": {
+      "text": "grid7"
+    },
+    "r/growc1/fc7": {
+      "text": "grid8"
+    }
+  },
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "rankSets": null,
+  "custom": null
+}

@@ -1,0 +1,78 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 3840,
+    "height": 2160
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-09"
+  },
+  "agent": {
+    "note": "**STRESS 09/10 — 09-syn-40-4k-one-sheet** (gate-31 stress set for `@m0saic/collage/image-collage/v1`).\n\n4K canvas, all 40 on ONE sheet (maxImagesPerSheet 40; the 320px taste cap yields to count).\n\nWatch: 40 cells readable; 22px gutters; ~5s render.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "verdict": "shipped (not individually reviewed)",
+      "text": "Template shipped on the default + tutorial verdict (\"seems fine to me, lets ship it\"); this variant was not individually reviewed by the founder. Agent pre-pass: clean. Recipe + twin + still stay as the record.",
+      "via": "transcribed by agent from the gate-31 chat verdict",
+      "from": "agent:claude",
+      "at": "2026-09-04T00:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/collage/image-collage/v1",
+      "props": {
+        "sourceIds": [
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-01-1500x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-02-1200x900.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-03-1920x1080.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-04-800x1200.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-05-1500x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-06-1250x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-07-900x1200.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-08-1600x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-09-1000x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-10-1450x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-11-720x1280.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-12-1330x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-13-2400x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-14-1000x1500.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-15-1600x900.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-16-1080x1080.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-17-1920x800.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-18-1000x1600.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-19-1400x1050.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-20-3000x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-21-640x960.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-22-1280x1024.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-23-1000x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-24-1800x1200.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-25-900x1600.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-26-1500x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-27-1200x1200.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-28-1600x1200.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-29-1050x1400.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-30-1920x1080.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-31-2000x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-32-800x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-33-1300x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-34-1000x1300.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-35-1440x900.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-36-1600x1600.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-37-1200x800.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-38-900x900.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-39-2200x1000.png",
+          "<sandbox>/production/collage-image-collage-v1/fixtures/synthetic/photo-40-1000x1000.png"
+        ],
+        "maxImagesPerSheet": 40
+      }
+    }
+  ]
+}

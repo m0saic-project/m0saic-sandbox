@@ -1,0 +1,39 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "durationMs": 1000,
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-06"
+  },
+  "agent": {
+    "note": "**STRESS 06/10 — 06-long-labels-hide** (gate-29 stress set for `@m0saic/wireframe/base/v2`).\n\nCustom labels win over the ladder: a 56-char masthead, an empty '' cell, a 70-char hero headline; overflow 'hide'.\n\nWatch: long labels shrink to fit the padded width (never clip); the '' cell stays blank; hide vs degrade identical here (custom labels bypass the ladder).",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant."
+  },
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/wireframe/base/v2",
+      "props": {
+        "M0String": "4[1,0,0,3(2[1,1],1,2[1,1])]",
+        "labels": [
+          "Masthead: The Quarterly Review of Everything Rectangular",
+          "Sidebar",
+          "",
+          "Hero story with a very very long headline that keeps going and going",
+          "Ads",
+          "Footer notes and colophon and credits and more credits"
+        ],
+        "labelOverflow": "hide",
+        "labelContent": "aspect"
+      }
+    }
+  ]
+}

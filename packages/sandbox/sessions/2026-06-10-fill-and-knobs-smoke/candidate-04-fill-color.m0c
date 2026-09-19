@@ -1,0 +1,59 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T12:00:00.000Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.11",
+  "meta": {
+    "title": "04 · fill (color only)"
+  },
+  "agent": {
+    "id": "claude-smoke-2026-06-10",
+    "note": "Per-frame rect color via the new top-level `fill` map. Labels carry text only — chip tint is not involved.",
+    "question": "With Rects ON and the new Fill sub-toggle ON, does each rect take its per-frame color (pale steel / orange / dark gray / near-black)? If the Fill sub-toggle does not exist yet, the inspector is still on the Phase-1-only UI and this candidate is waiting on the Phase-2 rewire.",
+    "response": {
+      "body": "Yes, approved",
+      "from": "human",
+      "at": "2026-06-11T02:18:06.345Z"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "4(1,1,1,1)",
+  "labels": {
+    "r/fc0": {
+      "text": "agent · 🤖"
+    },
+    "r/fc1": {
+      "text": "human · 👤"
+    },
+    "r/fc2": {
+      "text": "system"
+    },
+    "r/fc3": {
+      "text": "context"
+    }
+  },
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "fill": {
+    "r/fc0": {
+      "color": "#bcd6e8"
+    },
+    "r/fc1": {
+      "color": "#ef7525"
+    },
+    "r/fc2": {
+      "color": "#4b5563"
+    },
+    "r/fc3": {
+      "color": "#23262f"
+    }
+  },
+  "rankSets": null,
+  "custom": null
+}

@@ -1,0 +1,63 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-10T12:00:00.000Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.11",
+  "meta": {
+    "title": "06 · fill (color + mediaRef)"
+  },
+  "agent": {
+    "id": "claude-smoke-2026-06-10",
+    "note": "Each fill entry carries BOTH color and mediaRef. Color is the placeholder paint today; mediaRef sits as a forward-compat slot for the future asset resolver.",
+    "question": "With Fill ON, does each rect paint its color? Does the file-details panel also surface the per-frame mediaRef strings (without dropping either field)?",
+    "response": {
+      "body": "Yes, approved. Mind you assets do not yet paint.",
+      "from": "human",
+      "at": "2026-06-11T02:19:32.229Z"
+    }
+  },
+  "size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "m0": "4(1,1,1,1)",
+  "labels": {
+    "r/fc0": {
+      "text": "avatar / agent"
+    },
+    "r/fc1": {
+      "text": "avatar / human"
+    },
+    "r/fc2": {
+      "text": "brand mark"
+    },
+    "r/fc3": {
+      "text": "decoration"
+    }
+  },
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "fill": {
+    "r/fc0": {
+      "color": "#bcd6e8",
+      "mediaRef": "./media/avatar-agent.png"
+    },
+    "r/fc1": {
+      "color": "#ef7525",
+      "mediaRef": "./media/avatar-human.png"
+    },
+    "r/fc2": {
+      "color": "#4b5563",
+      "mediaRef": "asset:brand-mark-light"
+    },
+    "r/fc3": {
+      "color": "#22c55e",
+      "mediaRef": "asset:sparkle-1"
+    }
+  },
+  "rankSets": null,
+  "custom": null
+}

@@ -1,0 +1,68 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "F",
+  "assets": {},
+  "size": {
+    "width": 640,
+    "height": 360
+  },
+  "fps": 30,
+  "durationMs": 3000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/leaderboard/v1",
+      "props": {
+        "items": [
+          {
+            "name": "Ava Chen",
+            "value": 2840
+          },
+          {
+            "name": "Liam Patel",
+            "value": 2615
+          },
+          {
+            "name": "Noah Kim",
+            "value": 2390
+          },
+          {
+            "name": "Mia Garcia",
+            "value": 1975
+          },
+          {
+            "name": "Ethan Wright",
+            "value": 1640
+          }
+        ],
+        "title": "TOP CONTRIBUTORS",
+        "subtitle": "This month",
+        "preset": "light",
+        "podiumTint": true,
+        "showValue": true,
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "countUp": true,
+          "easing": "easeOut",
+          "reduceMotion": false
+        }
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "stress-02"
+  },
+  "agent": {
+    "note": "**STRESS 02/10 — 02-tiny** (gate-7 stress set for `@m0saic/alpine/leaderboard/v1`).\n\nTINY canvas, defaults. Watch: badge/name/value legibility at ~40px rows.",
+    "question": "Pass or fail? Note anything off and I'll fix + re-mint this variant.",
+    "response": {
+      "body": "pass",
+      "from": "human",
+      "at": "2026-08-22T10:45:10.000Z",
+      "via": "chat (\"ship\" — gate-7 stress set) — transcribed by agent"
+    }
+  }
+}

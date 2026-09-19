@@ -1,0 +1,73 @@
+{
+  "kind": "mosaicx_document",
+  "version": 1,
+  "m0": "1",
+  "assets": {},
+  "size": {
+    "width": 1280,
+    "height": 800
+  },
+  "fps": 30,
+  "durationMs": 2000,
+  "sources": [
+    {
+      "type": "template_invocation",
+      "templateId": "@m0saic/alpine/bar-graph/v1",
+      "props": {
+        "values": [
+          12400,
+          8700,
+          5600,
+          2100,
+          1200
+        ],
+        "labels": [
+          "Email",
+          "Reddit",
+          "Hacker News",
+          "test",
+          "smoke"
+        ],
+        "title": "BAR CHART",
+        "subtitle": "Sales by Channel",
+        "orientation": "horizontal",
+        "preset": "light",
+        "bars": {
+          "gap": 0.55,
+          "cornerRadius": 0.4
+        },
+        "grid": {
+          "show": true,
+          "count": 3
+        },
+        "valueLabels": {
+          "show": true,
+          "format": "compact",
+          "decimals": 1,
+          "suffix": ""
+        },
+        "anim": {
+          "renderMode": "premium",
+          "introFrac": 0.7,
+          "ease": "smoothstep",
+          "reduceMotion": false
+        },
+        "debugLayout": true
+      }
+    }
+  ],
+  "suggestedOutput": {
+    "dir": ".",
+    "basename": "master_candidate-02"
+  },
+  "agent": {
+    "note": "**v1 PROD GATE — candidate 02** (fix for candidate-01's squashed middle bar; props = your exact repro + `debugLayout: true`).\n\n**Diagnosis:** the m0 was symmetric, but the row bands were multi-unit split weights — the engine distributes the quantization remainder OUTSIDE-IN (edges first, center LAST), so ancestor ±px drift starved the CENTER row by 17px.\n\n**Fix (handbook rung 3/5):** one EQUAL split cell per bar (spread ≤1px at any canvas, guaranteed) + the gap carved by a constant `placement.inset` fraction on each bar tile. Verified equal ±1px across 1280×800 / 1001×733 / 1920×1080 / 640×400 / 607×401, both orientations.\n\n**Your geometry contract:** new `debugLayout` prop (on in this candidate, in the Animation-fold style) — bars are tagged `bar` and `withLayoutContract` asserts equal height (horizontal) / equal width (vertical), tol 2%; violation renders a LAYOUT_CONTRACT error mosaic. 20/20 unit tests incl. the repro locked; CLI e2e 4/4.\n\n**Look-shift to judge:** bars are ~7% thinner at the same gap (the gap now lives inside each row band, incl. a half-gap at the plot's top/bottom edges).",
+    "question": "Middle bar fixed? Happy with the slightly thinner bars + edge half-gaps? If yes I'll promote this to master, roll the same audit across the other alpine cards as their gates come up, and mark the chart row.",
+    "response": {
+      "body": "yes looks good",
+      "from": "human",
+      "at": "2026-08-20T05:01:43.128Z",
+      "src": "<sandbox>/production/alpine-bar-graph-v1/./master_candidate-02-1280x800.mp4"
+    }
+  }
+}

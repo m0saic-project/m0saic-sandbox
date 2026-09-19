@@ -1,0 +1,101 @@
+{
+  "format": "m0c",
+  "version": 1,
+  "created": "2026-06-11T06:37:03.904Z",
+  "app": "m0saic-desktop",
+  "appVersion": "0.1.0+2026.06.11",
+  "meta": {
+    "title": "2026-06-11-stat-card-kpi · candidate-002"
+  },
+  "agent": {
+    "note": "Refines 001 per your feedback + reference crop. value+delta are now ONE combined content band (value 3/4, delta 1/4 — the emphasis split is the tunable knob you described), and category-label + sublabel are thin 'floating' bands top & bottom. Card-height budget: label ~12.5% / content 75% (value ~56% + delta ~19%) / sublabel ~12.5%. Mechanics: outer 8-row split with a 6-row passthrough(0) donation run feeding the content band; content is a 4-row split donating 3 rows to value. NOTE: the left-aligned, edge-hugging 'float' look is text-alignment — that's the next (labels) phase; this candidate is purely band proportions.",
+    "question": "Does the 3:1 value:delta emphasis inside the combined band read right, or do you want value even more dominant (4:1 / 5:1)? And are the ~12.5% label/sublabel float-bands thin enough? (Next, I'll confirm the no-delta case — '86% Activity Rate' just drops delta+sublabel so value owns the content band.)",
+    "context": {
+      "category": {
+        "kind": "known",
+        "value": "spacing-alignment"
+      },
+      "intent": {
+        "action": "refine",
+        "summary": "combine value+delta into one dominant content band split by emphasis; label+sublabel become thin floating bands"
+      },
+      "relation": {
+        "kind": "refines",
+        "target": "001"
+      },
+      "layoutIntent": "spotlight",
+      "evaluation": {
+        "grade": "best",
+        "source": "automated",
+        "at": "2026-06-11T06:37:03.899Z",
+        "breakdown": {
+          "total": 1,
+          "feasible": true,
+          "components": {
+            "precision": {
+              "quality": 1,
+              "weight": 0,
+              "raw": 0.027586206896551724
+            },
+            "spread": {
+              "quality": 1,
+              "weight": 0,
+              "raw": 0
+            },
+            "gutter": {
+              "quality": 1,
+              "weight": 0,
+              "raw": 0
+            },
+            "frames": {
+              "quality": 1,
+              "weight": 0.89,
+              "raw": 4
+            },
+            "structure": {
+              "quality": 1,
+              "weight": 0.1,
+              "raw": 7
+            },
+            "compactness": {
+              "quality": 1,
+              "weight": 0.01,
+              "raw": 27
+            }
+          }
+        }
+      }
+    },
+    "response": {
+      "body": "This seems fine I suppose.",
+      "from": "human",
+      "at": "2026-06-11T06:38:14.654Z"
+    }
+  },
+  "size": {
+    "width": 760,
+    "height": 290
+  },
+  "m0": "8[1,0,0,0,0,0,4[0,0,1,1],1]",
+  "labels": {
+    "r/fc0": {
+      "text": "category-label"
+    },
+    "r/fc7": {
+      "text": "sublabel"
+    },
+    "r/growc6/fc2": {
+      "text": "value"
+    },
+    "r/growc6/fc3": {
+      "text": "delta"
+    }
+  },
+  "derive": {
+    "background": null
+  },
+  "masks": null,
+  "fill": null,
+  "rankSets": null,
+  "custom": null
+}
